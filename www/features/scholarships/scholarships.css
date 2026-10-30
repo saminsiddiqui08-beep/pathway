@@ -1,0 +1,55 @@
+/* Styling the Scholarships tab: a short explanation, the words it uses, and the universities by policy */
+
+#scholarships-root {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding-bottom: var(--space-6);
+}
+
+.scholarships-intro {
+  margin: 0 0 var(--space-4);
+}
+
+.scholarships-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.scholarships-group {
+  margin-top: var(--space-6);
+}
+
+.scholarships-group .tool-heading {
+  margin: 0 0 var(--space-2);
+}
+
+/* Setting each word above its meaning, so a long meaning never squeezes the word beside it */
+.scholarships-words {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  margin: 0;
+}
+
+.scholarships-words dt {
+  font-weight: 600;
+}
+
+.scholarships-words dd {
+  margin: 2px 0 0;
+  font-family: var(--font-read);
+  line-height: 1.6;
+}
+
+.scholarships-foot {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-2);
+  margin-top: var(--space-6);
+}
+
+.scholarships-foot .note {
+  margin: 0;
+}

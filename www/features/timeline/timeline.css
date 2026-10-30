@@ -1,0 +1,1474 @@
+/* Styling the Plan tab. Colours, sizes and timing all come from tokens.css */
+
+/* Replacing the screen title with the question's own header while the questions are open */
+.screen.is-setup>.screen-head {
+  display: none;
+}
+
+/* Scrolling a focused field clear of the main button that stays at the bottom */
+.screen.is-setup {
+  scroll-padding-bottom: 128px;
+}
+
+#plan-root {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding-bottom: var(--space-6);
+}
+
+.note {
+  line-height: 1.5;
+}
+
+/* Welcoming a student who opens Pathway for the first time */
+.welcome {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100dvh - var(--inset-top) - var(--inset-bottom) - var(--tabbar-height) - 120px);
+}
+
+.welcome-map {
+  position: relative;
+  margin-top: var(--space-4);
+}
+
+.welcome-map svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.welcome-map text {
+  font-family: var(--font-ui);
+}
+
+.welcome-pick {
+  position: absolute;
+  left: 40%;
+  right: 0;
+  height: 17%;
+  border-radius: var(--radius-control);
+  transition: background-color var(--dur-enter) var(--ease-out);
+}
+
+.welcome-pick:active {
+  background: var(--press);
+  transition-duration: var(--dur-tap);
+}
+
+.welcome-lead {
+  margin: var(--space-6) 0 0;
+  font-family: var(--font-read);
+  font-size: 1.125rem;
+  line-height: 1.55;
+}
+
+.welcome .note {
+  margin-top: var(--space-3);
+}
+
+.welcome .setup-actions {
+  margin-top: auto;
+}
+
+/* Asking the questions that shape the plan */
+.setup {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100dvh - var(--inset-top) - var(--inset-bottom) - var(--tabbar-height) - 72px);
+}
+
+.setup-head {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+  margin-left: calc(-1 * var(--space-3));
+}
+
+.setup-head .icon-button {
+  margin: 0;
+}
+
+.setup-count {
+  color: var(--ink-soft);
+  font-size: var(--text-small);
+}
+
+/* Adding a station per answer to the short line across the top, in the chosen country's colour */
+.setup-line {
+  position: relative;
+  height: 26px;
+  margin: 10px 7px 0;
+}
+
+.setup-rail,
+.setup-travelled {
+  position: absolute;
+  top: 11px;
+  left: 0;
+  height: 4px;
+}
+
+.setup-rail {
+  right: 0;
+  background: var(--line-faded);
+}
+
+.setup-travelled {
+  background: var(--route);
+  transition: width var(--dur-enter) var(--ease-out);
+}
+
+.setup-station {
+  position: absolute;
+  top: 13px;
+  width: 10px;
+  height: 10px;
+  border: 3px solid var(--line-faded);
+  border-radius: 50%;
+  background: var(--paper);
+  transform: translate(-50%, -50%);
+}
+
+.setup-station.is-done {
+  width: 14px;
+  height: 14px;
+  border: 0;
+  background: var(--route);
+}
+
+.setup-station.is-here {
+  width: 18px;
+  height: 18px;
+  border-color: var(--here-ring);
+  background: var(--here-fill);
+  box-shadow: 0 0 0 4px var(--paper);
+}
+
+.setup-title {
+  margin: 22px 0 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+  outline: none;
+}
+
+.setup-why {
+  max-width: var(--reading-width);
+  margin: 10px 0 0;
+  font-family: var(--font-read);
+  font-size: var(--text-read);
+  line-height: 1.55;
+}
+
+.setup-body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  margin-top: var(--space-4);
+}
+
+.setup-body .reading {
+  margin-top: var(--space-1);
+}
+
+/*
+  Keeping the main action reachable at the bottom of the screen while the question scrolls, above
+  the choices' stations, which are lifted to stay above their rail. The screen keeps a strip of
+  empty space at its bottom, and a sticky box stops at the edge of that strip, so text scrolling
+  past would show beneath the button. The box therefore sticks to the very edge and covers the
+  strip with its own padding, and a matching negative margin keeps the layout the same. It also
+  reaches 12 px past each side, because a focused field's ring and a pressed answer's highlight
+  reach a little beyond the text, and would otherwise peek out beside the button
+*/
+.setup-actions {
+  position: sticky;
+  bottom: calc(-1 * var(--space-10));
+  z-index: 2;
+  margin: auto calc(-1 * var(--space-3)) calc(-1 * var(--space-10));
+  padding: var(--space-4) var(--space-3) calc(var(--space-2) + var(--space-10));
+  background: linear-gradient(to bottom, transparent, var(--paper) var(--space-4));
+}
+
+/* Drawing choices as stations on a short rail, like the theme panel */
+.choices {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/*
+  Showing a held answer with a soft rounded highlight that reaches a little beyond the text,
+  instead of a hard box, fading in and out with the press
+*/
+.choice {
+  position: relative;
+  display: grid;
+  grid-template-columns: 28px minmax(0, 1fr);
+  align-items: center;
+  column-gap: 14px;
+  min-height: 62px;
+  margin-inline: calc(-1 * var(--space-2));
+  padding: var(--space-2);
+  border-radius: var(--radius-control);
+  cursor: pointer;
+  user-select: none;
+  transition: background-color var(--dur-enter) var(--ease-out);
+}
+
+.choice::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: calc(13px + var(--space-2));
+  width: 2px;
+  background: var(--line-faded);
+}
+
+.choice:first-of-type::before {
+  top: 50%;
+}
+
+.choice:last-of-type::before {
+  bottom: 50%;
+}
+
+.choice:only-of-type::before {
+  display: none;
+}
+
+.choice .station {
+  background: var(--paper);
+}
+
+/* Showing a country's choice in its colour, so the colour and the name always appear together */
+.choice[style] .station {
+  border-color: var(--route);
+}
+
+/* Showing a press at once and fading it out gently when the finger lifts */
+.choice:active {
+  background: var(--press);
+  transition-duration: var(--dur-tap);
+}
+
+.choices.is-intake .choice:last-of-type {
+  margin-top: var(--space-2);
+  border-top: 1px solid var(--rule);
+  border-radius: 0 0 var(--radius-control) var(--radius-control);
+}
+
+.choices.is-intake .choice:last-of-type::before {
+  display: none;
+}
+
+.choices.is-intake .choice:last-of-type .station {
+  border-style: dashed;
+  border-color: var(--ink-soft);
+}
+
+/* Making "The soonest I can make", once chosen, look like any chosen answer */
+.choices.is-intake .choice:last-of-type .station-input:checked+.station {
+  border-style: solid;
+  border-color: var(--here-ring);
+}
+
+.choices.is-intake .choice:nth-last-of-type(2)::before {
+  bottom: 50%;
+}
+
+.field-label {
+  margin: var(--space-2) 0 0;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.segmented {
+  display: grid;
+  grid-auto-columns: minmax(0, 1fr);
+  grid-auto-flow: column;
+  border: 1px solid var(--ink-soft);
+  border-radius: var(--radius-control);
+  overflow: hidden;
+}
+
+.segmented button {
+  min-height: 46px;
+  padding: var(--space-1) var(--space-2);
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.25;
+  transition: background-color var(--dur-press) var(--ease-out), color var(--dur-press) var(--ease-out);
+}
+
+.segmented button+button {
+  border-left: 1px solid var(--ink-soft);
+}
+
+.segmented button[aria-checked="true"] {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.chip {
+  min-height: 44px;
+  padding: 0 14px;
+  border: 1px solid var(--ink-soft);
+  border-radius: 22px;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.chip[aria-pressed="true"] {
+  border-color: var(--ink);
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.stepper {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.stepper-button {
+  display: grid;
+  place-items: center;
+  width: var(--touch);
+  height: var(--touch);
+  border: 1px solid var(--ink-soft);
+  border-radius: 50%;
+}
+
+.stepper-button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.stepper-button:active:not(:disabled) {
+  background: var(--press);
+}
+
+.stepper-value {
+  min-width: 4.5rem;
+  font-size: 2.125rem;
+  font-weight: 600;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+
+.date-field {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+/* Stretching the field full width, so Android's month and date pickers never cut off "December 2025" */
+.date-field input {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  min-height: var(--touch);
+  padding: 0 14px;
+  border: 1px solid var(--ink-soft);
+  border-radius: var(--radius-control);
+  background: var(--raised);
+  color: var(--ink);
+  font: inherit;
+  font-size: 1rem;
+}
+
+.field-error {
+  margin: 0;
+  color: var(--urgent);
+  font-size: var(--text-small);
+}
+
+/* Summing up the plan at a glance */
+.plan-for {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2) var(--space-3);
+}
+
+.country-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-height: 44px;
+  padding: 0 12px 0 10px;
+  border: 2px solid var(--route);
+  border-radius: 22px;
+  color: var(--route-text);
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.country-chip:active {
+  background: var(--press);
+}
+
+/* Adding a small arrow, which says the chip opens a choice of countries */
+.country-chip .icon {
+  width: 16px;
+  height: 16px;
+  margin-right: -2px;
+  transform: rotate(90deg);
+}
+
+.chip-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--route);
+}
+
+.plan-intake {
+  font-size: var(--text-body-ui);
+  font-weight: 600;
+}
+
+.plan-status {
+  max-width: var(--reading-width);
+  margin: 18px 0 0;
+  font-family: var(--font-read);
+  font-size: 1.3125rem;
+  line-height: 1.4;
+}
+
+.plan-expected {
+  max-width: var(--reading-width);
+  margin-top: var(--space-2);
+}
+
+.tight-note {
+  display: flex;
+  gap: var(--space-2);
+  max-width: var(--reading-width);
+  margin: var(--space-3) 0 0;
+  color: var(--ink-soft);
+  font-size: var(--text-small);
+  line-height: 1.5;
+}
+
+.tight-note .icon {
+  margin-top: 1px;
+}
+
+.plan-facts {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-4);
+  margin-top: 14px;
+}
+
+.plan-facts p {
+  margin: 0;
+}
+
+.fact-figure {
+  display: block;
+  font-size: 1.0625rem;
+  font-weight: 600;
+}
+
+.fact-label {
+  display: block;
+  margin-top: 2px;
+  color: var(--ink-soft);
+  font-size: var(--text-small);
+  line-height: 1.4;
+}
+
+/*
+  Laying out the six-stage overview, ending at a terminus, in six equal columns with each name
+  centred under its dot, so names never collide; they stop growing at about 12 px on narrow
+  screens, because the route below repeats every step at full size
+*/
+.stages {
+  position: relative;
+  margin-top: 22px;
+}
+
+.stages-rail,
+.stages-travelled {
+  position: absolute;
+  top: 12px;
+  left: calc(100% / 12);
+  height: 4px;
+}
+
+.stages-rail {
+  right: calc(100% / 12);
+  background: var(--line-faded);
+}
+
+.stages-travelled {
+  width: calc((100% - 100% / 6) * var(--reached));
+  background: var(--route);
+}
+
+.stages ol {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.stage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 0;
+}
+
+.stage-dot {
+  width: 12px;
+  height: 12px;
+  margin-top: 8px;
+  border: 3px solid var(--line-faded);
+  border-radius: 50%;
+  background: var(--paper);
+}
+
+.stage.is-done .stage-dot {
+  width: 14px;
+  height: 14px;
+  margin-top: 7px;
+  border: 0;
+  background: var(--route);
+}
+
+.stage.is-here .stage-dot {
+  width: 18px;
+  height: 18px;
+  margin-top: 5px;
+  border-color: var(--here-ring);
+  background: var(--here-fill);
+  box-shadow: 0 0 0 4px var(--paper);
+}
+
+.stage.is-terminus:not(.is-here) .stage-dot {
+  width: 20px;
+  height: 20px;
+  margin-top: 4px;
+  border-color: var(--route);
+  background: radial-gradient(circle, var(--route) 0 4px, var(--paper) 4.5px);
+}
+
+.stage-name {
+  max-width: 100%;
+  margin-top: 8px;
+  color: var(--ink-soft);
+  font-size: min(0.75rem, 3.3vw);
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+
+.stage.is-here .stage-name {
+  color: var(--here-text);
+  font-weight: 700;
+}
+
+.stage.is-terminus .stage-name {
+  color: var(--route-text);
+  font-weight: 600;
+}
+
+.section-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-3);
+  margin-top: var(--space-6);
+}
+
+.section-head h3,
+.shaping-title,
+.route-title {
+  margin: 0;
+  font-size: 1.0625rem;
+  font-weight: 600;
+}
+
+.section-head span {
+  color: var(--ink-soft);
+  font-size: var(--text-small);
+}
+
+.month-list {
+  margin: var(--space-2) 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.month-step {
+  display: grid;
+  grid-template-columns: 22px minmax(0, 1fr);
+  column-gap: var(--space-3);
+  padding: 14px 0 6px;
+  border-top: 1px solid var(--rule);
+}
+
+.mini-station {
+  width: 16px;
+  height: 16px;
+  margin: 3px 0 0 1px;
+  border: 3px solid var(--route);
+  border-radius: 50%;
+  background: var(--paper);
+}
+
+.mini-station.is-here {
+  width: 18px;
+  height: 18px;
+  margin: 2px 0 0;
+  border-color: var(--here-ring);
+  background: var(--here-fill);
+}
+
+.month-title {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.month-text {
+  max-width: var(--reading-width);
+  margin: var(--space-1) 0 0;
+  font-family: var(--font-read);
+  font-size: var(--text-body-ui);
+  line-height: 1.5;
+}
+
+.month-empty {
+  margin: var(--space-2) 0 0;
+  padding-top: var(--space-3);
+  border-top: 1px solid var(--rule);
+  font-family: var(--font-read);
+  font-size: var(--text-body-ui);
+  line-height: 1.5;
+}
+
+/*
+  Flowing a date, its information button and its badge as one line of text, so the button stays
+  beside the last word when the date wraps instead of dropping onto a line of its own
+*/
+.date-row {
+  margin-top: var(--space-1);
+  color: var(--ink-soft);
+  font-size: var(--text-small);
+  line-height: 1.6;
+}
+
+.date-row .info-button {
+  display: inline-grid;
+  vertical-align: middle;
+  margin: -12px -6px -12px -4px;
+}
+
+.date-row .badge {
+  margin-left: var(--space-2);
+  vertical-align: middle;
+}
+
+.date-row strong {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.info-button {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  margin: -12px 0 -12px -8px;
+  color: var(--ink-soft);
+  border-radius: 50%;
+}
+
+.info-button .icon {
+  width: 18px;
+  height: 18px;
+}
+
+.info-button:active {
+  background: var(--press);
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.badge .icon {
+  width: 14px;
+  height: 14px;
+}
+
+/* Keeping red for genuine urgency only */
+.badge.is-urgent,
+.date-row .date-late {
+  color: var(--urgent);
+}
+
+.shaping-title {
+  margin-top: 18px;
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--rule);
+}
+
+.shaping-list {
+  margin: var(--space-1) 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.shaping-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: var(--space-2);
+  width: calc(100% + 2 * var(--space-2));
+  min-height: 52px;
+  margin-inline: calc(-1 * var(--space-2));
+  padding: var(--space-1) var(--space-2);
+  border-radius: var(--radius-control);
+  text-align: left;
+  transition: background-color var(--dur-enter) var(--ease-out);
+}
+
+.shaping-row:active {
+  background: var(--press);
+  transition-duration: var(--dur-tap);
+}
+
+.shaping-head {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.shaping-rest {
+  display: block;
+  color: var(--ink-soft);
+  font-size: var(--text-small);
+}
+
+.route-choices {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: var(--space-3);
+}
+
+/* Drawing the route, one station for each step */
+.route {
+  margin-top: var(--space-8);
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--rule);
+}
+
+.route .note {
+  margin-top: 3px;
+}
+
+.route-map {
+  position: relative;
+  margin-top: var(--space-3);
+}
+
+/* Running one faded rail through every station, with the coloured part reaching your ring */
+.route-rail,
+.route-travelled {
+  position: absolute;
+  left: 18px;
+  width: 4px;
+  transform-origin: top;
+}
+
+.route-rail {
+  background: var(--line-faded);
+}
+
+.route-travelled {
+  background: var(--route);
+}
+
+.route-list {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.route-month {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-3);
+  padding: 14px 0 6px 44px;
+  color: var(--ink-soft);
+  font-size: var(--text-small);
+  font-weight: 600;
+}
+
+.today-label {
+  color: var(--here-text);
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.route-step {
+  position: relative;
+  padding: 4px 0 14px 44px;
+}
+
+.route-marker {
+  position: absolute;
+  top: 5px;
+  left: 12px;
+  display: grid;
+  place-items: center;
+  width: 16px;
+  height: 16px;
+  border: 3px solid var(--route);
+  border-radius: 50%;
+  background: var(--paper);
+  color: var(--paper);
+}
+
+.route-step.is-done .route-marker {
+  top: 3px;
+  left: 10px;
+  width: 20px;
+  height: 20px;
+  border: 0;
+  background: var(--route);
+}
+
+.route-marker .icon {
+  width: 14px;
+  height: 14px;
+}
+
+/* Setting the ring inside a thin paper-coloured gap, so it stands apart from any line */
+.route-step.is-here .route-marker {
+  top: 17px;
+  left: 11px;
+  width: 18px;
+  height: 18px;
+  border-color: var(--here-ring);
+  background: var(--here-fill);
+  box-shadow: 0 0 0 4px var(--paper);
+}
+
+.route-step.is-undated .route-marker {
+  border-style: dashed;
+  border-color: var(--ink-soft);
+}
+
+/* Marking a hard deadline with a short bar across the line */
+.route-marker.is-bar {
+  top: 9px;
+  left: 6px;
+  width: 28px;
+  height: 6px;
+  border: 0;
+  border-radius: 3px;
+  background: var(--ink);
+}
+
+/* Positioning the card, so a closing step's shrinking copy can be drawn beneath it */
+.step-card {
+  position: relative;
+  min-width: 0;
+}
+
+/*
+  Answering a press on a closed step with the same soft highlight as the choices. The card reaches a
+  little beyond its text, with matching negative margins, so nothing moves
+*/
+.route-step:not(.is-here, .is-open) .step-card {
+  margin: -6px -10px -6px -10px;
+  padding: 6px 10px;
+  border-radius: var(--radius-control);
+  transition: background-color var(--dur-enter) var(--ease-out);
+}
+
+.route-step:not(.is-here, .is-open) .step-card:has(> .step-head:active) {
+  background: var(--press);
+  transition-duration: var(--dur-tap);
+}
+
+.route-step.is-here .step-card,
+.route-step.is-open .step-card {
+  padding: 14px 16px 16px;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-control);
+  background: var(--raised);
+}
+
+/* Ending a step's title with a small arrow that says it opens, and turns when it does */
+.step-head {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: start;
+  gap: var(--space-2);
+  width: 100%;
+  min-height: 24px;
+  margin: 0;
+  font: inherit;
+  text-align: left;
+}
+
+/* Shrinking away a copy of the open card when the step closes; it takes no taps */
+.step-ghost {
+  position: absolute;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 14px 16px 16px;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-control);
+  background: var(--raised);
+  pointer-events: none;
+}
+
+.step-chevron {
+  width: 18px;
+  height: 18px;
+  margin-top: 2px;
+  color: var(--ink-soft);
+  transform: rotate(90deg);
+}
+
+.route-step.is-open .step-chevron {
+  transform: rotate(-90deg);
+}
+
+.step-title {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.route-step.is-here .step-title {
+  font-size: 1.0625rem;
+}
+
+.route-step.is-done .step-title {
+  color: var(--ink-soft);
+}
+
+.route-step .date-row {
+  margin-top: 2px;
+}
+
+.step-details {
+  margin-top: var(--space-2);
+}
+
+.step-start {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: var(--text-small);
+}
+
+.step-text {
+  max-width: var(--reading-width);
+  margin: 10px 0 0;
+  font-family: var(--font-read);
+  font-size: var(--text-body-ui);
+  line-height: 1.55;
+}
+
+.step-because,
+.step-planning {
+  margin: 10px 0 0;
+  color: var(--ink-soft);
+  font-size: 0.75rem;
+  line-height: 1.5;
+}
+
+.step-because span {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.step-tasks {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  margin: var(--space-3) 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.875rem;
+}
+
+.step-tasks li {
+  display: grid;
+  grid-template-columns: 10px minmax(0, 1fr);
+  align-items: baseline;
+  gap: 10px;
+}
+
+.step-tasks li::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border: 2px solid var(--ink-soft);
+  border-radius: 50%;
+  transform: translateY(1px);
+}
+
+.step-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2) 14px;
+  margin-top: var(--space-4);
+}
+
+/* Listing the open earlier steps in the panel that asks whether they are done too */
+.steps-before {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: var(--text-body-ui);
+  font-weight: 600;
+}
+
+.steps-before li {
+  display: grid;
+  grid-template-columns: 10px minmax(0, 1fr);
+  align-items: baseline;
+  gap: 10px;
+}
+
+.steps-before li::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border: 2px solid var(--ink-soft);
+  border-radius: 50%;
+  transform: translateY(1px);
+}
+
+/* Explaining an intake that is out of reach, and showing plain messages */
+.reach-card,
+.message-card {
+  --here-fill: radial-gradient(circle closest-side, var(--ink) 0 40%, var(--raised) 48%);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  margin-top: var(--space-5);
+  padding: 18px 18px 20px;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-control);
+  background: var(--raised);
+}
+
+.reach-card h3,
+.message-card h3 {
+  margin: 0;
+  font-size: var(--text-heading);
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.reach-next {
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--rule);
+}
+
+.reach-next h4 {
+  margin: var(--space-1) 0 0;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+/* Drawing the collision: today, the bar for when it is needed, and the earliest date after it, dashed */
+.collision {
+  position: relative;
+  height: 92px;
+  margin: var(--space-2) 8px 0;
+}
+
+.collision-solid,
+.collision-late {
+  position: absolute;
+  top: 35px;
+  height: 0;
+}
+
+.collision-solid {
+  left: 0;
+  border-top: 3px solid var(--ink-soft);
+}
+
+.collision-late {
+  border-top: 3px dashed var(--ink-soft);
+}
+
+.collision-today,
+.collision-end {
+  position: absolute;
+  top: 30px;
+  width: 13px;
+  height: 13px;
+  border: 3px solid var(--ink-soft);
+  border-radius: 50%;
+  background: var(--raised);
+  transform: translateX(-50%);
+}
+
+.collision-today {
+  left: 0;
+  border-color: var(--here-ring);
+  background: var(--here-fill);
+  box-shadow: 0 0 0 3px var(--raised);
+}
+
+.collision-bar {
+  position: absolute;
+  top: 23px;
+  width: 4px;
+  height: 27px;
+  border-radius: 2px;
+  background: var(--ink);
+  transform: translateX(-50%);
+}
+
+.collision-label {
+  position: absolute;
+  font-size: 0.75rem;
+  line-height: 1.35;
+  white-space: nowrap;
+}
+
+.collision-label.is-due {
+  top: 0;
+  font-weight: 700;
+  transform: translateX(-50%);
+}
+
+/* Lining a label near either edge up with that edge instead of centring it, so it never leaves the card */
+.collision-label.is-due.is-right {
+  transform: translateX(-100%);
+}
+
+.collision-label.is-due.is-left {
+  transform: none;
+}
+
+.collision-label.is-today {
+  top: 56px;
+  left: -8px;
+  color: var(--here-text);
+  font-weight: 600;
+}
+
+.collision-label.is-end {
+  top: 56px;
+  right: -8px;
+  color: var(--ink-soft);
+}
+
+/* Showing where a date comes from */
+.source-step {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 0.875rem;
+}
+
+.source-date {
+  margin: -6px 0 0;
+  font-size: 1.625rem;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.source-fact {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  padding-top: var(--space-3);
+  border-top: 1px solid var(--rule);
+}
+
+.source-label {
+  margin: 0;
+  font-weight: 600;
+}
+
+.source-times {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-3);
+}
+
+.source-times p {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.source-times span {
+  color: var(--ink-soft);
+  font-size: 0.75rem;
+}
+
+.source-status {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin: 0;
+  font-size: 0.875rem;
+}
+
+.source-from {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin: 0;
+}
+
+.source-from a {
+  color: var(--line);
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.source-related {
+  margin: var(--space-2) 0 0;
+  color: var(--ink-soft);
+  font-size: var(--text-small);
+  font-weight: 600;
+}
+
+:root[data-motion="reduced"] .setup-travelled {
+  transition: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root:not([data-motion]) .setup-travelled {
+    transition: none;
+  }
+}
+
+/* Setting up reminders */
+.reminder-preview {
+  padding: 12px 14px;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-control);
+  background: var(--paper);
+}
+
+.reminder-title {
+  margin: 6px 0 0;
+  font-size: var(--text-body-ui);
+  font-weight: 600;
+}
+
+.reminder-body {
+  margin: 2px 0 0;
+  color: var(--ink-soft);
+  font-size: 0.875rem;
+}
+
+.switches {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.switch-row,
+.time-row {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: var(--space-3);
+  min-height: 52px;
+  border-bottom: 1px solid var(--rule);
+  font-size: var(--text-body-ui);
+  cursor: pointer;
+}
+
+.switch-input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.switch {
+  position: relative;
+  width: 44px;
+  height: 26px;
+  border-radius: 13px;
+  background: var(--ink-soft);
+  transition: background-color var(--dur-press) var(--ease-out);
+}
+
+.switch::after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--raised);
+  transition: transform var(--dur-enter) var(--ease-out);
+}
+
+.switch-input:checked+.switch {
+  background: var(--line);
+}
+
+.switch-input:checked+.switch::after {
+  transform: translateX(18px);
+}
+
+.switch-input:focus-visible+.switch {
+  outline: 2px solid var(--line);
+  outline-offset: 2px;
+}
+
+.time-row input {
+  min-height: 44px;
+  padding: 0 var(--space-2);
+  border: 1px solid var(--ink-soft);
+  border-radius: var(--radius-control);
+  background: var(--raised);
+  color: var(--ink);
+  font: inherit;
+}
+
+.text-button.is-centred {
+  align-self: center;
+  text-align: center;
+  color: var(--ink);
+}
+
+.reminder-row {
+  margin-top: var(--space-1);
+  border-top: 1px solid var(--rule);
+}
+
+/* Folding the answers behind the plan into one row after the route, so the route comes first */
+.plan-more {
+  position: relative;
+  margin-top: var(--space-8);
+  padding-top: var(--space-2);
+  border-top: 1px solid var(--rule);
+}
+
+.disclosure {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: var(--space-2);
+  width: calc(100% + 2 * var(--space-2));
+  min-height: 60px;
+  margin-inline: calc(-1 * var(--space-2));
+  padding: var(--space-2);
+  border-radius: var(--radius-control);
+  text-align: left;
+  transition: background-color var(--dur-enter) var(--ease-out);
+}
+
+.disclosure:active {
+  background: var(--press);
+  transition-duration: var(--dur-tap);
+}
+
+.disclosure-title {
+  display: block;
+  font-size: 1.0625rem;
+  font-weight: 600;
+}
+
+.disclosure-note {
+  display: block;
+  margin-top: 2px;
+  color: var(--ink-soft);
+  font-size: var(--text-small);
+}
+
+.disclosure-chevron {
+  width: 18px;
+  height: 18px;
+  color: var(--ink-soft);
+  transform: rotate(90deg);
+}
+
+.disclosure[aria-expanded="true"] .disclosure-chevron {
+  transform: rotate(-90deg);
+}
+
+.plan-more .route-choices {
+  margin-top: var(--space-4);
+}
+
+/* Giving starting over its own section at the end of the plan, with a clear button, so nobody has to hunt for it */
+.start-over {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  margin-top: var(--space-8);
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--rule);
+}
+
+.start-over-title {
+  margin: 0;
+  font-size: 1.0625rem;
+  font-weight: 600;
+}
+
+/* Offering the same choice at the bottom of the country panel, where students look when they want a change */
+.switch-start-over {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  margin-top: var(--space-2);
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--rule);
+}
+
+/* Using a quieter button in the warning colour: clear to find, never mistaken for the main action */
+.button-secondary.is-danger {
+  border-color: var(--urgent);
+  color: var(--urgent);
+}
+
+.button-primary.is-danger {
+  border-color: var(--urgent);
+  background: var(--urgent);
+  color: var(--paper);
+}
+
+/* Listing the answers under an out-of-reach card, so any of them can be changed */
+.reach-answers {
+  margin-top: var(--space-6);
+}

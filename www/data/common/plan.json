@@ -1,0 +1,452 @@
+{
+  "format": 1,
+  "plan": "common",
+  "title": "Steps shared by every country",
+  "assumptions": {
+    "englishPrep": {
+      "label": "Preparation before an English test",
+      "amount": 8,
+      "unit": "weeks",
+      "mode": "planned",
+      "text": "Pathway plans 8 weeks of preparation before your English test when you have no score yet. It never uses this time to decide that an intake is out of reach."
+    },
+    "englishBooking": {
+      "label": "Booking an English test",
+      "amount": {
+        "ielts": 14,
+        "toefl": 14,
+        "pte": 14,
+        "duolingo": 0
+      },
+      "unit": "days",
+      "mode": "planned",
+      "text": "Pathway's plan books IELTS, TOEFL and PTE at least 2 weeks ahead, so a seat is easy to find. The Duolingo English Test is taken at home whenever you are ready."
+    },
+    "englishBookingShortest": {
+      "label": "The shortest time to book an English test",
+      "amount": {
+        "ielts": 7,
+        "toefl": 7,
+        "pte": 7,
+        "duolingo": 0
+      },
+      "unit": "days",
+      "mode": "both",
+      "text": "To decide whether an intake can still be reached, Pathway allows one week to book a test centre seat, the time TOEFL's regular registration needs. It never assumes a faster booking."
+    },
+    "defaultTest": {
+      "label": "The English test Pathway plans for",
+      "value": "ielts",
+      "mode": "both",
+      "text": "With no test chosen yet, Pathway plans for IELTS, which has centres in Dhaka and results within 5 days. Choose another test any time."
+    },
+    "satPrep": {
+      "label": "Preparation before the SAT",
+      "amount": 10,
+      "unit": "weeks",
+      "mode": "planned",
+      "text": "Pathway plans 10 weeks of preparation before your first SAT. It never uses this time to decide that an intake is out of reach."
+    },
+    "indiaSpare": {
+      "label": "Spare time around the Indian visa",
+      "amount": 14,
+      "unit": "days",
+      "mode": "planned",
+      "text": "Indian visa centres have been busy since visas resumed in June 2026, so Pathway adds two weeks of spare time."
+    },
+    "englishValidity": {
+      "label": "When an English score is too old",
+      "mode": "both",
+      "text": "Pathway counts a score as valid until the start of the month it was taken, two years on, and plans a new test if that comes before your applications close."
+    }
+  },
+  "shaping": {
+    "systemHsc": "You sit the HSC in {year}. Your results are expected {when}.",
+    "systemHscSat": "You sat the HSC in {year}. Your results are expected {when}.",
+    "systemHscDone": "You sat the HSC in {year}, and your results are out.",
+    "systemAlevel": "You finish your A levels in {year}. Your final results are expected {when}.",
+    "systemAlevelSat": "You finished your A levels in {year}. Your final results are expected {when}.",
+    "systemAlevelDone": "You finished your A levels in {year}, and your results are out.",
+    "englishNone": "No English score yet. So preparation for {test} and a test are planned.",
+    "englishBooked": "You have booked {test} for {date}.",
+    "englishTaken": "You sat {test} on {date}. Enter your score here when it arrives.",
+    "englishScore": "You have a score of {score} in {test}, valid until about {until}. So no English test is planned.",
+    "englishExpired": "Your score of {score} in {test} expires around {until}, before your applications close. So a new test is planned.",
+    "satNone": "No SAT score yet. So preparation and a test are planned.",
+    "satBooked": "Your SAT is booked for {date}.",
+    "satTaken": "You sat the SAT on {date}. Enter your score here when it arrives.",
+    "satScore": "You have an SAT score of {score}, so no SAT is planned.",
+    "satNo": "You are not planning to sit the SAT, so it is left out.",
+    "passportNone": "No passport yet. So applying for one comes first.",
+    "passportApplied": "Your passport is on its way. Pathway allows up to 21 working days for it.",
+    "passportNid": "You have a smart NID card, so IELTS can be booked before your passport arrives.",
+    "passportValid": "You have a valid passport, so nothing waits for one.",
+    "aidNeed": "You need financial aid to go. So the aid steps are in your plan, and their dates come first.",
+    "aidHelp": "Financial aid would help. So the aid steps are in your plan.",
+    "aidNo": "Your family can pay, so aid steps are left out.",
+    "tierReach": "Your universities are mostly very competitive. So Pathway plans more essay time and suggests 8 to 10 applications.",
+    "tierBalanced": "Your universities are a balanced mix. So Pathway suggests 6 to 8 applications.",
+    "tierSafe": "Your universities are mostly less competitive. So Pathway suggests 4 to 6 applications.",
+    "englishWaived": "You said your universities need no English test, so none is planned. Check each university's rule before you rely on it.",
+    "englishWaivedElsewhere": "You said your universities need no English test, but universities here ask for one. So preparation for {test} and a test are planned.",
+    "englishNotAccepted": "Your English test does not count here. So preparation for {test} and a test are planned."
+  },
+  "steps": [
+    {
+      "id": "passport.get",
+      "group": "passport",
+      "title": "Apply for your passport",
+      "stage": "prepare",
+      "when": {
+        "passport": [
+          "none",
+          "nid"
+        ]
+      },
+      "duration": {
+        "fact": "bd/passport.delivery",
+        "variant": "Regular"
+      },
+      "because": "passport",
+      "text": "Every student visa needs a passport, and some tests and certificates need it first. A regular e-passport arrives up to 21 working days after your fingerprints are taken.",
+      "tasks": [
+        "Book an appointment on the e-passport portal",
+        "Give your fingerprints and photo at the passport office",
+        "Collect your passport"
+      ],
+      "facts": [
+        "bd/passport.delivery",
+        "bd/passport.fee"
+      ],
+      "textWhen": [
+        {
+          "text": "For Malaysia, your passport must stay valid for at least 18 months after you start.",
+          "when": {
+            "country": "my"
+          }
+        }
+      ],
+      "factsWhen": [
+        {
+          "facts": [
+            "my/pass.documents"
+          ],
+          "when": {
+            "country": "my"
+          }
+        }
+      ]
+    },
+    {
+      "id": "passport.collect",
+      "group": "passport",
+      "title": "Collect your passport",
+      "stage": "prepare",
+      "when": {
+        "passport": "applied"
+      },
+      "duration": {
+        "fact": "bd/passport.delivery",
+        "variant": "Regular"
+      },
+      "because": "passport",
+      "text": "A regular e-passport arrives up to 21 working days after your fingerprints are taken. If yours comes sooner, mark this step done.",
+      "facts": [
+        "bd/passport.delivery"
+      ]
+    },
+    {
+      "id": "english.prepare",
+      "group": "english",
+      "title": "Prepare for {test}",
+      "stage": "test",
+      "when": {
+        "englishStatus": "none"
+      },
+      "duration": {
+        "assumption": "englishPrep"
+      },
+      "because": "english",
+      "text": "Practise every section under timed conditions, and book the test once your practice scores are steady.",
+      "tasks": [
+        "Take one full practice test to find your level",
+        "Practise your weakest section every week"
+      ]
+    },
+    {
+      "id": "english.test",
+      "group": "english",
+      "special": "english",
+      "title": "Take {test}",
+      "stage": "test",
+      "when": {
+        "englishStatus": [
+          "none",
+          "booked"
+        ]
+      },
+      "after": [
+        "english.prepare",
+        {
+          "step": "passport.get",
+          "when": {
+            "englishTest": "duolingo"
+          }
+        },
+        {
+          "step": "passport.collect",
+          "when": {
+            "englishTest": "duolingo"
+          }
+        },
+        {
+          "step": "passport.get",
+          "when": {
+            "englishTest": "ielts",
+            "passport": "none"
+          }
+        },
+        {
+          "step": "passport.collect",
+          "when": {
+            "englishTest": "ielts",
+            "passport": "applied"
+          }
+        },
+        {
+          "step": "passport.get",
+          "when": {
+            "englishTest": [
+              "toefl",
+              "pte"
+            ]
+          }
+        },
+        {
+          "step": "passport.collect",
+          "when": {
+            "englishTest": [
+              "toefl",
+              "pte"
+            ]
+          }
+        }
+      ],
+      "because": "english",
+      "text": "Your result arrives up to {resultDays} days after the test. Pathway counts the official result, which universities need.",
+      "tasks": [
+        "Book the test",
+        "Bring the same ID you booked with"
+      ],
+      "taskWhen": [
+        {
+          "task": "Choose your four free score recipients before 10 p.m. on test day",
+          "when": {
+            "englishTest": "toefl"
+          }
+        }
+      ],
+      "factsWhen": [
+        {
+          "facts": [
+            "bd/ielts.bd.resultTime",
+            "bd/ielts.bd.id",
+            "bd/ielts.bd.fee"
+          ],
+          "when": {
+            "englishTest": "ielts"
+          }
+        },
+        {
+          "facts": [
+            "bd/toefl.resultTime",
+            "bd/toefl.toInstitutions",
+            "bd/toefl.freeReports",
+            "bd/toefl.extraReport",
+            "bd/toefl.bd.id"
+          ],
+          "when": {
+            "englishTest": "toefl"
+          }
+        },
+        {
+          "facts": [
+            "bd/duolingo.resultTime",
+            "bd/duolingo.bd.id"
+          ],
+          "when": {
+            "englishTest": "duolingo"
+          }
+        },
+        {
+          "facts": [
+            "bd/pte.resultTime",
+            "bd/pte.id"
+          ],
+          "when": {
+            "englishTest": "pte"
+          }
+        },
+        {
+          "facts": [
+            "nz/uni.auckland.english",
+            "nz/uni.canterbury.english"
+          ],
+          "when": {
+            "country": "nz"
+          }
+        }
+      ],
+      "textWhen": [
+        {
+          "text": "The University of Auckland and the University of Canterbury do not accept the Duolingo English Test for degrees.",
+          "when": {
+            "country": "nz",
+            "englishTest": "duolingo"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sat.prepare",
+      "group": "sat",
+      "title": "Prepare for the SAT",
+      "stage": "test",
+      "when": {
+        "satStatus": "none"
+      },
+      "duration": {
+        "assumption": "satPrep"
+      },
+      "because": "sat",
+      "text": "College Board's free full-length practice tests in Bluebook are the closest match to the real test.",
+      "tasks": [
+        "Take a full practice test in Bluebook",
+        "Plan your study around your weakest section"
+      ]
+    },
+    {
+      "id": "sat.test",
+      "group": "sat",
+      "special": "sat",
+      "title": "Take the SAT {satWhen}",
+      "stage": "test",
+      "when": {
+        "satStatus": [
+          "none",
+          "booked"
+        ]
+      },
+      "after": [
+        "sat.prepare"
+      ],
+      "because": "sat",
+      "text": "Register by {registerBy}. Scores reach universities about {scoreDays} days after the test. The last test whose scores arrive in time is {lastSat}.",
+      "tasks": [
+        "Register on College Board's site",
+        "Choose the universities that receive your scores"
+      ],
+      "facts": [
+        "bd/sat.administrations",
+        "bd/sat.scoreDelay",
+        "bd/sat.registerLead",
+        "bd/sat.lateFee"
+      ]
+    },
+    {
+      "id": "school.exams",
+      "group": "school",
+      "special": "exams",
+      "title": "Finish your {exam} exams",
+      "stage": "prepare",
+      "kind": "wait",
+      "because": "system",
+      "text": "Studies abroad begin only after your final school exams. Pathway uses the published timetable, or the month of your A level series.",
+      "facts": [
+        "bd/hsc.exams"
+      ]
+    },
+    {
+      "id": "school.results",
+      "group": "school",
+      "special": "school",
+      "title": "Your {exam} results are published",
+      "stage": "results",
+      "kind": "wait",
+      "after": [
+        "school.exams"
+      ],
+      "because": "system",
+      "text": "Pathway plans for the last day of the expected results period, so nothing depends on an early announcement.",
+      "facts": [
+        "bd/hsc.results"
+      ]
+    },
+    {
+      "id": "pcc.get",
+      "group": "pcc",
+      "title": "Get your police clearance certificate",
+      "stage": "permit",
+      "after": [
+        "passport.get",
+        "passport.collect"
+      ],
+      "duration": {
+        "fact": "bd/pcc.processing"
+      },
+      "text": "Apply online with your passport. Officially it takes 7 to 15 working days, but 4 to 6 weeks is common, so Pathway allows up to 30 working days.",
+      "tasks": [
+        "Apply at pcc.police.gov.bd",
+        "Pay the BDT 500 fee",
+        "Collect the certificate"
+      ],
+      "facts": [
+        "bd/pcc.processing",
+        "bd/pcc.how"
+      ],
+      "textWhen": [
+        {
+          "text": "For New Zealand, the certificate must be less than 6 months old when you lodge your visa, so get it no earlier than that.",
+          "when": {
+            "country": "nz"
+          }
+        }
+      ],
+      "factsWhen": [
+        {
+          "facts": [
+            "nz/visa.police"
+          ],
+          "when": {
+            "country": "nz"
+          }
+        }
+      ]
+    },
+    {
+      "id": "india.visa",
+      "group": "india",
+      "title": "Get an Indian visa",
+      "stage": "permit",
+      "after": [
+        "passport.get",
+        "passport.collect"
+      ],
+      "duration": {
+        "fact": "bd/india.visa.processing"
+      },
+      "spare": {
+        "assumption": "indiaSpare"
+      },
+      "text": "There is no e-visa for Bangladeshi passport holders, so you apply at an IVAC centre. Processing takes up to 7 working days.",
+      "tasks": [
+        "Fill in the form on the Indian visa website",
+        "Submit it at an IVAC centre"
+      ],
+      "facts": [
+        "bd/india.visa.processing",
+        "bd/india.visa.status"
+      ]
+    }
+  ]
+}

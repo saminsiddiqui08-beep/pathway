@@ -1,0 +1,1981 @@
+{
+  "format": 1,
+  "roadmap": "nz",
+  "title": "New Zealand",
+  "facts": [
+    "bd",
+    "nz"
+  ],
+  "cycle": 2027,
+  "sections": [
+    {
+      "id": "at-a-glance",
+      "number": 1,
+      "title": "At a glance",
+      "station": "At a glance",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "New Zealand takes the Bangladesh HSC straight into a degree at several universities: Otago, Massey, Waikato, Lincoln and AUT ask for a GPA of 4.0 out of 5.0. The University of Auckland does not list the HSC, so HSC students reach Auckland through its foundation programme.",
+          "cite": [
+            "nz/uni.otago.entry",
+            "nz/uni.massey.entry",
+            "nz/uni.waikato.entry",
+            "nz/uni.lincoln.entry",
+            "nz/uni.aut.entry",
+            "nz/entry.hsc"
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Degree:** at least three years of full-time study, and four for engineering with honours.",
+              "cite": [
+                "nz/system.length"
+              ]
+            },
+            {
+              "text": "**Studies begin:** in late February or early March, with a second intake in July at most universities.",
+              "cite": [
+                "nz/term.aut.s1",
+                "nz/term.s1.start",
+                "nz/uni.waikato.apply"
+              ]
+            },
+            {
+              "text": "**When to apply:** for February or March 2027, most closing dates run from 31 October 2026 at Massey to 8 December 2026 at Auckland.",
+              "cite": [
+                "nz/uni.massey.closing",
+                "nz/app.closing"
+              ]
+            },
+            {
+              "text": "**Tests:** an English test, usually IELTS 6.0 with no band below 5.5. Auckland and Canterbury do not accept the Duolingo English Test for degrees.",
+              "cite": [
+                "nz/uni.auckland.english",
+                "nz/uni.canterbury.english"
+              ]
+            },
+            {
+              "text": "**Cost:** for the degrees shown in section 10, tuition for 2027 runs from about {taka:nz/tuition.waikato#Arts, lowest} a year (arts at Waikato) to about {taka:nz/tuition.auckland#Engineering with honours} (engineering at Auckland). Living costs are about {taka:18000 NZD} to {taka:27000 NZD} a year. Section 10 has the details.",
+              "cite": [
+                "nz/tuition.waikato",
+                "nz/tuition.auckland",
+                "nz/living.estimate"
+              ]
+            },
+            {
+              "text": "**Visa:** you apply online yourself, pay your first year's tuition before the visa is issued, and show {money:nz/visa.funds}, about {taka:nz/visa.funds}, for the first year's living costs.",
+              "cite": [
+                "nz/visa.howToApply",
+                "nz/visa.tuitionFirst",
+                "nz/visa.funds"
+              ]
+            },
+            {
+              "text": "**Scholarships:** mostly NZD 10,000 to 15,000 off the first year, several given automatically when you apply. The government's Manaaki scholarships are not open to Bangladesh.",
+              "cite": [
+                "nz/aid.otago",
+                "nz/aid.massey",
+                "nz/aid.manaaki",
+                "nz/aid.aut"
+              ]
+            },
+            {
+              "text": "**If you sat the HSC in {hscYear}:** your results are expected {window:bd/hsc.results}, so a start in July {hscYear+1} is the realistic one.",
+              "cite": [
+                "bd/hsc.results",
+                "nz/uni.otago.closing",
+                "nz/uni.massey.closing"
+              ],
+              "template": "sat"
+            },
+            {
+              "text": "**If you sit the HSC in {hscYear}:** every intake that year closes or starts before your results, so plan for February or March {hscYear+1}. Section 6 explains both.",
+              "template": "sit"
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Figures are for 2027 entry. Rules usually stay the same, but dates and fees change every year: Pathway updates them, and your plan shows the expected dates for your own year. In class 9 or 10? Section 6 shows what to do now."
+        },
+        {
+          "type": "button",
+          "action": "makePlan",
+          "text": "Make my plan for New Zealand"
+        }
+      ]
+    },
+    {
+      "id": "whats-different",
+      "number": 2,
+      "title": "What makes New Zealand different",
+      "station": "What's different",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "The HSC can take you straight into a degree"
+        },
+        {
+          "type": "p",
+          "text": "Five universities name the Bangladesh HSC and ask for a GPA of 4.0 out of 5.0. Auckland is the exception: HSC students start with a foundation programme there.",
+          "cite": [
+            "nz/uni.otago.entry",
+            "nz/uni.massey.entry",
+            "nz/uni.waikato.entry",
+            "nz/uni.lincoln.entry",
+            "nz/uni.aut.entry",
+            "nz/entry.hsc"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "You pay the first year before the visa is issued"
+        },
+        {
+          "type": "p",
+          "text": "Immigration New Zealand needs proof that you have paid the tuition fees for one year of study, or the whole course if it is shorter. If you apply from Bangladesh, you can wait to pay until your visa is approved in principle; the visa is issued after you send the receipt. Waiting makes processing take longer.",
+          "cite": [
+            "nz/visa.tuitionFirst"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Many scholarships come with the application"
+        },
+        {
+          "type": "p",
+          "text": "Otago and Victoria take NZD 15,000 off the first year for new international bachelor's students, assessed with your application; Otago names Bangladesh among its 13 countries. Massey does the same for listed degrees starting in 2027.",
+          "cite": [
+            "nz/aid.otago",
+            "nz/aid.victoria",
+            "nz/aid.massey"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Work during study, and after"
+        },
+        {
+          "type": "p",
+          "text": "Most degree students may work up to 25 hours a week during study and full time in the holidays, and a bachelor's degree studied in New Zealand can lead to up to three years of open work.",
+          "cite": [
+            "nz/work.hours",
+            "nz/work.postStudy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ways-to-study",
+      "number": 3,
+      "title": "Ways to study here",
+      "station": "Ways to study",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "widget",
+          "id": "routeFinder",
+          "questions": [
+            {
+              "id": "school",
+              "text": "Is your school certificate HSC or A levels?",
+              "plan": "system",
+              "options": [
+                [
+                  "hsc",
+                  "HSC"
+                ],
+                [
+                  "alevel",
+                  "A levels"
+                ]
+              ]
+            },
+            {
+              "id": "gpa",
+              "text": "Is your HSC GPA 4.0 or higher?",
+              "when": {
+                "school": [
+                  "hsc"
+                ]
+              },
+              "options": [
+                [
+                  "high",
+                  "4.0 or higher"
+                ],
+                [
+                  "low",
+                  "Below 4.0"
+                ],
+                [
+                  "notOut",
+                  "Not out yet"
+                ]
+              ]
+            }
+          ],
+          "tables": [
+            [
+              {
+                "fits": {
+                  "school": [
+                    "hsc"
+                  ],
+                  "gpa": [
+                    "high",
+                    "notOut"
+                  ]
+                },
+                "planRoutes": [
+                  "directHsc"
+                ]
+              },
+              {
+                "fits": {
+                  "school": [
+                    "alevel"
+                  ]
+                },
+                "planRoutes": [
+                  "direct"
+                ]
+              },
+              {
+                "fits": {
+                  "school": [
+                    "hsc"
+                  ]
+                },
+                "planRoutes": [
+                  "foundation"
+                ]
+              }
+            ],
+            [
+              {
+                "fits": {
+                  "school": [
+                    "alevel"
+                  ]
+                }
+              },
+              {
+                "fits": {
+                  "gpa": [
+                    "high",
+                    "notOut"
+                  ]
+                }
+              },
+              {
+                "fits": {
+                  "gpa": [
+                    "high",
+                    "notOut"
+                  ]
+                }
+              },
+              {
+                "fits": {
+                  "school": [
+                    "alevel"
+                  ]
+                }
+              },
+              {
+                "fits": {
+                  "school": [
+                    "alevel"
+                  ]
+                }
+              },
+              {
+                "fits": {
+                  "gpa": [
+                    "high",
+                    "notOut"
+                  ]
+                }
+              },
+              {
+                "fits": {
+                  "gpa": [
+                    "high",
+                    "notOut"
+                  ]
+                }
+              },
+              {
+                "fits": {
+                  "gpa": [
+                    "high",
+                    "notOut"
+                  ]
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "The routes for a student from Bangladesh"
+        },
+        {
+          "type": "table",
+          "head": [
+            "Route",
+            "Who it suits",
+            "What decides"
+          ],
+          "rows": [
+            [
+              {
+                "text": "**Straight into a degree with the HSC**"
+              },
+              {
+                "text": "HSC students with a GPA of 4.0 or more, at Otago, Massey, Waikato, Lincoln or AUT"
+              },
+              {
+                "text": "Your HSC GPA",
+                "cite": [
+                  "nz/uni.otago.entry",
+                  "nz/uni.massey.entry",
+                  "nz/uni.waikato.entry",
+                  "nz/uni.lincoln.entry",
+                  "nz/uni.aut.entry"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "**Straight into a degree with A levels**"
+              },
+              {
+                "text": "A level students, at Auckland and the others"
+              },
+              {
+                "text": "Your A level grades",
+                "cite": [
+                  "nz/entry.hsc",
+                  "nz/uni.otago.entry",
+                  "nz/uni.aut.entry"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "**A foundation programme first**"
+              },
+              {
+                "text": "HSC students aiming for Auckland, or anyone below a university's direct entry rule"
+              },
+              {
+                "text": "Your HSC Year 11 results or HSC GPA, then your foundation results",
+                "cite": [
+                  "nz/foundation.uoaic.hsc",
+                  "nz/foundation.otago",
+                  "nz/foundation.upnz.hsc"
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Universities"
+        },
+        {
+          "type": "p",
+          "text": "Positions are from the QS World University Rankings 2027."
+        },
+        {
+          "type": "table",
+          "head": [
+            "University",
+            "QS 2027",
+            "HSC students"
+          ],
+          "rows": [
+            [
+              {
+                "text": "University of Auckland"
+              },
+              {
+                "text": "{rank:nz/uni.auckland.qsRank}",
+                "cite": [
+                  "nz/uni.auckland.qsRank"
+                ]
+              },
+              {
+                "text": "HSC not on its list; foundation programme first",
+                "cite": [
+                  "nz/entry.hsc"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "University of Otago"
+              },
+              {
+                "text": "{rank:nz/uni.otago.qsRank}",
+                "cite": [
+                  "nz/uni.otago.qsRank"
+                ]
+              },
+              {
+                "text": "Direct entry with a GPA of 4.0",
+                "cite": [
+                  "nz/uni.otago.entry"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Massey University"
+              },
+              {
+                "text": "{rank:nz/uni.massey.qsRank}",
+                "cite": [
+                  "nz/uni.massey.qsRank"
+                ]
+              },
+              {
+                "text": "Direct entry with a GPA of 4.0",
+                "cite": [
+                  "nz/uni.massey.entry"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Victoria University of Wellington"
+              },
+              {
+                "text": "{rank:nz/uni.victoria.qsRank}",
+                "cite": [
+                  "nz/uni.victoria.qsRank"
+                ]
+              },
+              {
+                "text": "Not found yet: ask Victoria",
+                "cite": [
+                  "nz/uni.victoria.entry"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "University of Canterbury"
+              },
+              {
+                "text": "{rank:nz/uni.canterbury.qsRank}",
+                "cite": [
+                  "nz/uni.canterbury.qsRank"
+                ]
+              },
+              {
+                "text": "Not found yet. Its pathway college takes a GPA of 4.0 for its foundation certificate and 4.5 for its diploma",
+                "cite": [
+                  "nz/uni.canterbury.ucic"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "University of Waikato"
+              },
+              {
+                "text": "{rank:nz/uni.waikato.qsRank}",
+                "cite": [
+                  "nz/uni.waikato.qsRank"
+                ]
+              },
+              {
+                "text": "Direct entry with a GPA of 4.0",
+                "cite": [
+                  "nz/uni.waikato.entry"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Lincoln University"
+              },
+              {
+                "text": "{rank:nz/uni.lincoln.qsRank}",
+                "cite": [
+                  "nz/uni.lincoln.qsRank"
+                ]
+              },
+              {
+                "text": "Direct entry with a GPA of 4",
+                "cite": [
+                  "nz/uni.lincoln.entry"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Auckland University of Technology (AUT)"
+              },
+              {
+                "text": "{rank:nz/uni.aut.qsRank}",
+                "cite": [
+                  "nz/uni.aut.qsRank"
+                ]
+              },
+              {
+                "text": "Direct entry with a GPA of 4.0",
+                "cite": [
+                  "nz/uni.aut.entry"
+                ]
+              }
+            ]
+          ],
+          "listable": true
+        }
+      ]
+    },
+    {
+      "id": "pros-and-cons",
+      "number": 4,
+      "title": "Honest pros and cons",
+      "station": "Pros and cons",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "What works in your favour"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Direct entry with the HSC** at five universities, with no foundation year.",
+              "cite": [
+                "nz/uni.otago.entry",
+                "nz/uni.massey.entry"
+              ]
+            },
+            {
+              "text": "**First-year scholarships of NZD 15,000,** about {taka:15000 NZD}, assessed with your application at Otago and Victoria, and at Massey for listed degrees.",
+              "cite": [
+                "nz/aid.otago",
+                "nz/aid.victoria",
+                "nz/aid.massey"
+              ]
+            },
+            {
+              "text": "**Work rights:** most degree students may work up to 25 hours a week during study, and full time in the holidays.",
+              "cite": [
+                "nz/work.hours"
+              ]
+            },
+            {
+              "text": "**Up to three years of open work after graduating,** if you studied your bachelor's in New Zealand.",
+              "cite": [
+                "nz/work.postStudy"
+              ]
+            },
+            {
+              "text": "**You apply for the visa yourself, online,** and upload your documents.",
+              "cite": [
+                "nz/visa.howToApply"
+              ]
+            },
+            {
+              "text": "**Bangladeshi students do come:** in 2025, Immigration New Zealand approved 813 fee-paying student visa applications from Bangladeshi citizens.",
+              "cite": [
+                "nz/stats.bangladesh"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "What to plan for"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**High fees:** for the degrees in section 10, from about {taka:nz/tuition.waikato#Arts, lowest} to {taka:nz/tuition.auckland#Engineering with honours} a year in 2027, and the first year is paid before the visa is issued.",
+              "cite": [
+                "nz/tuition.waikato",
+                "nz/tuition.auckland",
+                "nz/visa.tuitionFirst"
+              ]
+            },
+            {
+              "text": "**Living money on top:** {money:nz/visa.funds} for the first year must be shown for the visa, and Auckland and Wellington can cost more. Insurance is compulsory too.",
+              "cite": [
+                "nz/visa.funds",
+                "nz/living.estimate",
+                "nz/visa.insurance"
+              ]
+            },
+            {
+              "text": "**Scholarships cover part of one year,** not the whole degree; full awards such as Auckland's Dean's Asia Scholarship go to up to three students.",
+              "cite": [
+                "nz/aid.auckland.deansAsia"
+              ]
+            },
+            {
+              "text": "**No government scholarship for Bangladesh:** Manaaki does not include it.",
+              "cite": [
+                "nz/aid.manaaki"
+              ]
+            },
+            {
+              "text": "**Early closing dates:** Massey and Otago close in October and November for March starts.",
+              "cite": [
+                "nz/uni.massey.closing",
+                "nz/uni.otago.closing"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-it-works",
+      "number": 5,
+      "title": "How the system works",
+      "station": "How it works",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Semesters.** Most universities start their year in late February or early March, with a second semester in July. Waikato calls them trimesters.",
+              "cite": [
+                "nz/term.aut.s1",
+                "nz/term.s1.start",
+                "nz/uni.waikato.apply"
+              ]
+            },
+            {
+              "text": "**Points.** A full-time year is 120 points, and fees are worked out per year of 120 points.",
+              "cite": [
+                "nz/tuition.victoria",
+                "nz/tuition.auckland"
+              ]
+            },
+            {
+              "text": "**Foundation, then degree.** A foundation programme of 6 to 12 months prepares students who do not meet a university's direct entry rule. The University of Auckland's is taught by the University of Auckland International College.",
+              "cite": [
+                "nz/foundation.uoaic.length",
+                "nz/entry.foundation"
+              ]
+            },
+            {
+              "text": "**Applying.** You apply to each university yourself, and each sets its own closing date.",
+              "cite": [
+                "nz/uni.massey.closing",
+                "nz/uni.otago.closing",
+                "nz/app.closing"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "can-you-apply",
+      "number": 6,
+      "title": "Can you apply with your qualifications",
+      "station": "Can you apply",
+      "planSteps": [
+        "english.test",
+        "school.results"
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "**Yes, with HSC or A levels.** With the HSC, where you can go straight into a degree depends on your GPA and the university."
+        },
+        {
+          "type": "heading",
+          "text": "If you are in class 9 or 10"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Aim for an HSC GPA of 4.0 or more.** Otago, Massey, Waikato, Lincoln and AUT take it straight into a degree.",
+              "cite": [
+                "nz/uni.otago.entry",
+                "nz/uni.massey.entry",
+                "nz/uni.waikato.entry",
+                "nz/uni.lincoln.entry",
+                "nz/uni.aut.entry"
+              ]
+            },
+            {
+              "text": "**Your class 11 results matter too:** the foundation programmes for Auckland, AUT and Victoria look at HSC Year 11 results.",
+              "cite": [
+                "nz/foundation.uoaic.hsc",
+                "nz/foundation.upnz.hsc"
+              ]
+            },
+            {
+              "text": "**Plan the money early.** The first year's tuition is paid before the visa is issued, and {money:nz/visa.funds} for the first year's living costs must be shown too.",
+              "cite": [
+                "nz/visa.tuitionFirst",
+                "nz/visa.funds"
+              ]
+            },
+            {
+              "text": "**Doing A levels?** An A level in English at grade E can replace an English test at Auckland, Otago, Victoria and Waikato.",
+              "cite": [
+                "nz/uni.auckland.english",
+                "nz/uni.otago.english",
+                "nz/uni.victoria.english",
+                "nz/uni.waikato.english"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "With the HSC"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Otago, Massey, Waikato and AUT** take the HSC with a GPA of at least 4.0 out of 5.0, and **Lincoln** with at least 4 out of 5. Massey and Waikato also name the Alim.",
+              "cite": [
+                "nz/uni.otago.entry",
+                "nz/uni.massey.entry",
+                "nz/uni.waikato.entry",
+                "nz/uni.aut.entry",
+                "nz/uni.lincoln.entry"
+              ]
+            },
+            {
+              "text": "**Auckland** does not list the HSC, so HSC students apply to its foundation programme first.",
+              "cite": [
+                "nz/entry.hsc"
+              ]
+            },
+            {
+              "text": "**Victoria and Canterbury:** their HSC rules could not be read. Canterbury's pathway college asks for a GPA of 4.0 for its foundation certificate and 4.5 for its diploma, which counts as the first year of a degree, and for engineering a 5.0 in mathematics, physics and chemistry. Ask both universities.",
+              "cite": [
+                "nz/uni.victoria.entry",
+                "nz/uni.canterbury.ucic"
+              ]
+            },
+            {
+              "text": "**Below a GPA of 4.0?** A foundation programme leads into the degree: Otago's takes a GPA of 3.0.",
+              "cite": [
+                "nz/foundation.otago"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "If you sat the HSC in {hscYear}",
+          "template": "sat"
+        },
+        {
+          "type": "p",
+          "text": "Your results are expected {window:bd/hsc.results}.",
+          "cite": [
+            "bd/hsc.results"
+          ],
+          "template": "sat"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**For February or March {hscYear+1},** Waikato takes applications at any time, and Otago closes {whenDate:nz/uni.otago.closing@+1}. Massey closes {whenDate:nz/uni.massey.closing@+1}.",
+              "cite": [
+                "nz/uni.waikato.apply",
+                "nz/uni.otago.closing",
+                "nz/uni.massey.closing"
+              ]
+            },
+            {
+              "text": "**But the visa is tight:** Immigration New Zealand advises applying at least 3 months before you travel, in its busiest season.",
+              "cite": [
+                "nz/visa.howToApply"
+              ]
+            },
+            {
+              "text": "**So July {hscYear+1} is the realistic intake,** with closing dates in late April and early May.",
+              "cite": [
+                "nz/uni.otago.closing",
+                "nz/uni.massey.closing"
+              ]
+            }
+          ],
+          "template": "sat"
+        },
+        {
+          "type": "heading",
+          "text": "If you sit the HSC in {hscYear}",
+          "template": "sit"
+        },
+        {
+          "type": "p",
+          "text": "HSC {hscYear} results are expected {window:bd/hsc.results}.",
+          "cite": [
+            "bd/hsc.results"
+          ],
+          "template": "sit"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Every closing date for March {hscYear} is before your results:** Massey closes {whenDate:nz/uni.massey.closing}, Otago {whenDate:nz/uni.otago.closing}, Canterbury {whenDate:nz/uni.canterbury.closing} and Auckland {whenDate:nz/app.closing}.",
+              "cite": [
+                "nz/uni.massey.closing",
+                "nz/uni.otago.closing",
+                "nz/uni.canterbury.closing",
+                "nz/app.closing",
+                "nz/uni.victoria.closing"
+              ]
+            },
+            {
+              "text": "**July {hscYear} intakes start before your results too.**",
+              "cite": [
+                "nz/uni.waikato.apply",
+                "bd/hsc.results"
+              ]
+            }
+          ],
+          "template": "sit"
+        },
+        {
+          "type": "p",
+          "text": "**So plan for February or March {hscYear+1}.** If the dates follow earlier years, the closing dates come in late October to early December {hscYear}, only weeks after your results, so have your English test, passport and money ready before the results come out. Some universities give conditional offers to students who do not yet meet every requirement, but none says so for the HSC, so ask each one whether it can give you a conditional offer before your results. For February {hscYear+1}, apply for the visa by about November {hscYear}.",
+          "cite": [
+            "nz/uni.massey.closing",
+            "nz/uni.otago.closing",
+            "nz/app.closing",
+            "nz/uni.waikato.apply",
+            "nz/visa.howToApply"
+          ],
+          "template": "sit"
+        },
+        {
+          "type": "heading",
+          "text": "With A levels"
+        },
+        {
+          "type": "table",
+          "head": [
+            "University",
+            "A levels"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Otago"
+              },
+              {
+                "text": "Three UK A level passes at C or higher; Cambridge International, 120 points on the New Zealand tariff",
+                "cite": [
+                  "nz/uni.otago.entry"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Waikato"
+              },
+              {
+                "text": "6 points from three subjects, with a C in at least one; Cambridge International, 120 points",
+                "cite": [
+                  "nz/uni.waikato.entry"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "AUT"
+              },
+              {
+                "text": "Three A levels, with at least one at C or better",
+                "cite": [
+                  "nz/uni.aut.entry"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Victoria",
+                "key": "victoria wellington"
+              },
+              {
+                "text": "Three passes, with at least one at C or higher",
+                "cite": [
+                  "nz/uni.victoria.entry"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Auckland"
+              },
+              {
+                "text": "On its list, including Cambridge International and Edexcel; each programme sets its grades",
+                "cite": [
+                  "nz/entry.hsc"
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Auckland has no direct entry from school to medicine, pharmacy, optometry or medical imaging.",
+          "cite": [
+            "nz/entry.sat"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Do you need an English test?"
+        },
+        {
+          "type": "p",
+          "text": "**Yes.** Most universities ask for IELTS 6.0 with no band below 5.5."
+        },
+        {
+          "type": "widget",
+          "id": "englishPicker",
+          "mode": "pick",
+          "refuses": [
+            [
+              "duolingo"
+            ],
+            [],
+            [],
+            [],
+            [
+              "duolingo"
+            ],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            "University",
+            "English minimum"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Auckland"
+              },
+              {
+                "text": "IELTS 6.0, no band below 5.5; TOEFL iBT 4.0 on the new scale; PTE 50. No Duolingo",
+                "cite": [
+                  "nz/uni.auckland.english"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Otago"
+              },
+              {
+                "text": "IELTS 6.0, no band below 5.5; PTE 50; Duolingo 105",
+                "cite": [
+                  "nz/uni.otago.english"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Massey"
+              },
+              {
+                "text": "IELTS 6.0, at least 5.5 in each band; PTE 50; Duolingo 105",
+                "cite": [
+                  "nz/uni.massey.english"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Victoria",
+                "key": "victoria wellington"
+              },
+              {
+                "text": "IELTS 6.0, no band below 5.5; TOEFL iBT 80; PTE 50; Duolingo 105",
+                "cite": [
+                  "nz/uni.victoria.english"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Canterbury"
+              },
+              {
+                "text": "IELTS 6.0, at least 5.5 in each part; PTE 50. No Duolingo for degrees",
+                "cite": [
+                  "nz/uni.canterbury.english"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Waikato"
+              },
+              {
+                "text": "IELTS 6.0, no band below 5.5; PTE 50; Duolingo 105",
+                "cite": [
+                  "nz/uni.waikato.english"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "AUT"
+              },
+              {
+                "text": "IELTS 6.0, every band 5.5 or higher; PTE 50; Duolingo 105; no online IELTS or PTE",
+                "cite": [
+                  "nz/uni.aut.english"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Lincoln"
+              },
+              {
+                "text": "Not found yet: ask Lincoln"
+              }
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**IELTS Academic, taken at a test centre, is accepted at every university in the table above.** An A level in English at grade E can replace a test at Auckland, Otago, Victoria and Waikato, and AUT may count English-medium study with evidence.",
+          "cite": [
+            "nz/uni.auckland.english",
+            "nz/uni.otago.english",
+            "nz/uni.victoria.english",
+            "nz/uni.waikato.english",
+            "nz/uni.aut.english"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "choosing",
+      "number": 7,
+      "title": "Choosing universities",
+      "station": "Choosing",
+      "planSteps": [
+        "nz.apply"
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Start from three questions."
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Can you enter directly?** Check your HSC GPA or A levels against each university's rule (section 6)."
+            },
+            {
+              "text": "**Can your family pay the first year at once?** It must be paid before the visa is issued, and {money:nz/visa.funds} for the first year's living costs must be shown too (section 10).",
+              "cite": [
+                "nz/visa.tuitionFirst",
+                "nz/visa.funds"
+              ]
+            },
+            {
+              "text": "**Which closing date can you meet?** They run from the end of October to early December for March starts.",
+              "cite": [
+                "nz/uni.massey.closing",
+                "nz/app.closing"
+              ]
+            }
+          ],
+          "ordered": true
+        },
+        {
+          "type": "p",
+          "text": "Apply to three to five universities, because each has its own application."
+        },
+        {
+          "type": "widget",
+          "id": "myList"
+        }
+      ]
+    },
+    {
+      "id": "how-youre-judged",
+      "number": 8,
+      "title": "How you're judged here",
+      "station": "How you're judged",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Admission is by your grades against each university's published minimum: a GPA of 4.0 for the HSC at most universities, or set A level grades. At Otago, being admitted is what qualifies you for its Global Scholarship, which has no limit on numbers.",
+          "cite": [
+            "nz/uni.otago.entry",
+            "nz/uni.massey.entry",
+            "nz/uni.waikato.entry",
+            "nz/aid.otago"
+          ]
+        },
+        {
+          "type": "p",
+          "link": "profile",
+          "text": "**Building your profile,** in the Toolkit, matters less for admission here, but helps if you apply to countries that read activities too."
+        }
+      ]
+    },
+    {
+      "id": "step-by-step",
+      "number": 9,
+      "title": "The application step by step",
+      "station": "Step by step",
+      "planSteps": [
+        "passport.get",
+        "english.test",
+        "nz.apply",
+        "nz.offer",
+        "nz.tuition",
+        "pcc.get",
+        "nz.xray",
+        "nz.statement",
+        "nz.visa",
+        "nz.arrive"
+      ],
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "planSteps": [
+                "passport.get"
+              ],
+              "text": "**Get your passport,** valid for at least 3 months after you plan to leave New Zealand.",
+              "cite": [
+                "nz/visa.howToApply"
+              ]
+            },
+            {
+              "planSteps": [
+                "english.test"
+              ],
+              "text": "**Take an English test,** such as IELTS Academic at a test centre."
+            },
+            {
+              "planSteps": [
+                "nz.apply"
+              ],
+              "text": "**Apply to each university** before its closing date, with your certificates and transcripts. Start early, so there is time for the visa. Most scholarships are assessed with this application; apply separately for AUT's and Waikato's, and for Auckland's Dean's Asia Scholarship.",
+              "cite": [
+                "nz/uni.massey.closing",
+                "nz/uni.otago.closing",
+                "nz/app.closing",
+                "nz/aid.aut",
+                "nz/aid.waikato",
+                "nz/aid.auckland.deansAsia"
+              ]
+            },
+            {
+              "planSteps": [
+                "nz.offer",
+                "nz.tuition"
+              ],
+              "text": "**Accept your offer and pay the first year's tuition.** Keep the receipt or letter from your university. You can instead apply for the visa first and pay after it is approved in principle; Pathway plans to pay first, because waiting makes processing take longer.",
+              "cite": [
+                "nz/visa.tuitionFirst"
+              ]
+            },
+            {
+              "planSteps": [
+                "pcc.get",
+                "nz.xray"
+              ],
+              "text": "**Get your police certificate, and your chest X-ray in the 3 months before you apply for the visa.** The certificate must be less than 6 months old when you apply, and the X-ray less than 3 months old when it is received.",
+              "cite": [
+                "nz/visa.police",
+                "nz/visa.health"
+              ]
+            },
+            {
+              "planSteps": [
+                "nz.statement"
+              ],
+              "text": "**Print your bank statement** after paying the tuition, less than 2 weeks before you apply, showing three months of transactions and {money:nz/visa.funds} for the first year's living costs.",
+              "cite": [
+                "nz/visa.bankStatement",
+                "nz/visa.fundsEvidence",
+                "nz/visa.funds"
+              ]
+            },
+            {
+              "text": "**Arrange your insurance** for travel and health care from the start of your course, as your university asks.",
+              "cite": [
+                "nz/visa.insurance"
+              ]
+            },
+            {
+              "planSteps": [
+                "nz.visa"
+              ],
+              "text": "**Apply for your visa online,** at least 3 months before you travel, and pay {money:nz/visa.fee}, about {taka:nz/visa.fee}.",
+              "cite": [
+                "nz/visa.howToApply",
+                "nz/visa.fee"
+              ]
+            },
+            {
+              "planSteps": [
+                "nz.arrive"
+              ],
+              "text": "**Travel** in time for orientation.",
+              "cite": [
+                "nz/term.otago.arrive"
+              ]
+            }
+          ],
+          "ordered": true
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "number": 10,
+      "title": "Money",
+      "station": "Money",
+      "planSteps": [
+        "nz.tuition",
+        "nz.statement"
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "{rate:NZD}",
+          "cite": [
+            "bd/fx.nzd"
+          ],
+          "rates": true
+        },
+        {
+          "type": "heading",
+          "text": "Tuition for 2027, per year"
+        },
+        {
+          "type": "table",
+          "head": [
+            "University",
+            "Fee per year"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Auckland"
+              },
+              {
+                "text": "Arts {money:nz/tuition.auckland#Arts, most courses} (about {taka:nz/tuition.auckland#Arts, most courses}); commerce {money:nz/tuition.auckland#Commerce} (about {taka:nz/tuition.auckland#Commerce}); science {money:nz/tuition.auckland#Science, lowest} to {money:nz/tuition.auckland#Science, highest} (about {taka:nz/tuition.auckland#Science, lowest} to {taka:nz/tuition.auckland#Science, highest}); engineering {money:nz/tuition.auckland#Science, highest} (about {taka:nz/tuition.auckland#Science, highest})",
+                "cite": [
+                  "nz/tuition.auckland"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Otago"
+              },
+              {
+                "text": "Science from {money:nz/tuition.otago#Science, lowest} (about {taka:nz/tuition.otago#Science, lowest}); computer science {money:nz/tuition.otago#Computer science} (about {taka:nz/tuition.otago#Computer science}); software engineering {money:nz/tuition.otago#Software engineering with honours} (about {taka:nz/tuition.otago#Software engineering with honours})",
+                "cite": [
+                  "nz/tuition.otago"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Massey"
+              },
+              {
+                "text": "Arts or science {money:nz/tuition.massey#Arts or science, lowest} to {money:nz/tuition.massey#Arts or science, highest} (about {taka:nz/tuition.massey#Arts or science, lowest} to {taka:nz/tuition.massey#Arts or science, highest}); business {money:nz/tuition.massey#Business} (about {taka:nz/tuition.massey#Business}); information sciences {money:nz/tuition.massey#Information sciences, lowest} to {money:nz/tuition.massey#Information sciences, highest} (about {taka:nz/tuition.massey#Information sciences, lowest} to {taka:nz/tuition.massey#Information sciences, highest})",
+                "cite": [
+                  "nz/tuition.massey"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Victoria",
+                "key": "victoria wellington"
+              },
+              {
+                "text": "Charged per point; arts {money:nz/tuition.victoria#Arts and humanities} a point; commerce {money:nz/tuition.victoria#Commerce} a point; science {money:nz/tuition.victoria#Science, including computing} a point; engineering {money:nz/tuition.victoria#Engineering} a point; for 120 points, science comes to about {money:nz/tuition.victoria#Science, including computing*120} (about {taka:nz/tuition.victoria#Science, including computing*120})",
+                "cite": [
+                  "nz/tuition.victoria"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Canterbury"
+              },
+              {
+                "text": "Arts {money:nz/tuition.canterbury#Arts} (about {taka:nz/tuition.canterbury#Arts}); commerce {money:nz/tuition.canterbury#Commerce} (about {taka:nz/tuition.canterbury#Commerce}); science {money:nz/tuition.canterbury#Science} (about {taka:nz/tuition.canterbury#Science}); engineering {money:nz/tuition.canterbury#Engineering with honours, first year} in the first year (about {taka:nz/tuition.canterbury#Engineering with honours, first year})",
+                "cite": [
+                  "nz/tuition.canterbury"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Waikato"
+              },
+              {
+                "text": "Arts from {money:nz/tuition.waikato#Arts, lowest} (about {taka:nz/tuition.waikato#Arts, lowest}); business {money:nz/tuition.waikato#Business} (about {taka:nz/tuition.waikato#Business}); computer science {money:nz/tuition.waikato#Computer science} (about {taka:nz/tuition.waikato#Computer science}); engineering {money:nz/tuition.waikato#Engineering with honours} (about {taka:nz/tuition.waikato#Engineering with honours})",
+                "cite": [
+                  "nz/tuition.waikato"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "AUT"
+              },
+              {
+                "text": "Arts {money:nz/tuition.aut#Arts} (about {taka:nz/tuition.aut#Arts}); business {money:nz/tuition.aut#Business} (about {taka:nz/tuition.aut#Business}); computer and information sciences {money:nz/tuition.aut#Computer and information sciences} (about {taka:nz/tuition.aut#Computer and information sciences}); engineering {money:nz/tuition.aut#Engineering with honours} (about {taka:nz/tuition.aut#Engineering with honours})",
+                "cite": [
+                  "nz/tuition.aut"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Lincoln"
+              },
+              {
+                "text": "Not found yet: its fee pages could not be read"
+              }
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Universities count different things in these figures. Massey, Waikato and AUT include GST, and AUT includes its student services levy. Auckland adds a student services fee, about NZD 1,133 a year in 2026, and Victoria adds NZD 10.64 a point. Ask each university what is added.",
+          "cite": [
+            "nz/tuition.massey",
+            "nz/tuition.waikato",
+            "nz/tuition.aut",
+            "nz/tuition.auckland",
+            "nz/tuition.victoria"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Foundation programmes"
+        },
+        {
+          "type": "table",
+          "head": [
+            "Programme",
+            "Fee"
+          ],
+          "rows": [
+            [
+              {
+                "text": "University of Auckland International College",
+                "key": "auckland international college"
+              },
+              {
+                "text": "{money:nz/foundation.uoaic.fees#Accelerated, 6 months} (about {taka:nz/foundation.uoaic.fees#Accelerated, 6 months}) for the 6-month accelerated programme; {money:nz/foundation.uoaic.fees#Fast-track, 8 to 9 months} (about {taka:nz/foundation.uoaic.fees#Fast-track, 8 to 9 months}) for fast-track or standard; 2026 fees",
+                "cite": [
+                  "nz/foundation.uoaic.fees"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Otago Foundation Studies Certificate"
+              },
+              {
+                "text": "NZD 32,341 to 33,637 (about {taka:32341 NZD} to {taka:33637 NZD}) in 2027",
+                "cite": [
+                  "nz/foundation.otago"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "UC International College, Canterbury"
+              },
+              {
+                "text": "NZD 28,842 (about {taka:28842 NZD}) for 8 months; no year given",
+                "cite": [
+                  "nz/foundation.ucic"
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Living costs"
+        },
+        {
+          "type": "p",
+          "text": "Study with New Zealand puts a year's living costs at around NZD 20,000 to 27,000 in Auckland and Wellington, about {taka:20000 NZD} to {taka:27000 NZD}, and NZD 18,000 to 21,000 in Dunedin, about {taka:18000 NZD} to {taka:21000 NZD}.",
+          "cite": [
+            "nz/living.estimate"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Visa and applying"
+        },
+        {
+          "type": "table",
+          "head": [
+            "What",
+            "Cost"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Student visa"
+              },
+              {
+                "text": "{money:nz/visa.fee} (about {taka:nz/visa.fee})",
+                "cite": [
+                  "nz/visa.fee"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Living money to show for the visa"
+              },
+              {
+                "text": "{money:nz/visa.funds} (about {taka:nz/visa.funds}) for each year the visa covers, usually the first",
+                "cite": [
+                  "nz/visa.funds"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Medical and travel insurance"
+              },
+              {
+                "text": "Compulsory; for example {money:nz/foundation.up.insurance#12 months} a year (about {taka:nz/foundation.up.insurance#12 months}) for UP Education's foundation students in 2026",
+                "cite": [
+                  "nz/visa.insurance",
+                  "nz/foundation.up.insurance"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Application fees"
+              },
+              {
+                "text": "No university in this guide states one; check when you apply"
+              }
+            ],
+            [
+              {
+                "text": "IELTS at British Council or IDP"
+              },
+              {
+                "text": "{money:bd/ielts.bd.fee} on computer, the same at both, with results in 1 to 5 days",
+                "cite": [
+                  "bd/ielts.bd.fee",
+                  "bd/ielts.bd.idp"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Police certificate"
+              },
+              {
+                "text": "{fact:bd/pcc.how}",
+                "cite": [
+                  "bd/pcc.how"
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aid",
+      "number": 11,
+      "title": "Scholarships and aid",
+      "station": "Aid",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "**The government's Manaaki New Zealand Scholarships are not open to Bangladesh.** Most university scholarships take part of the first year's tuition off. Auckland's Dean's Asia Scholarship pays full tuition for up to three students. None covers living costs.",
+          "cite": [
+            "nz/aid.manaaki"
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            "University",
+            "What it offers new international bachelor's students"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Otago"
+              },
+              {
+                "text": "Global Scholarship: NZD 15,000 (about {taka:15000 NZD}), Bangladesh named, given automatically",
+                "cite": [
+                  "nz/aid.otago"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Massey"
+              },
+              {
+                "text": "International Study Grant: NZD 15,000, for listed degrees starting in 2027, no separate application",
+                "cite": [
+                  "nz/aid.massey"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Victoria",
+                "key": "victoria wellington"
+              },
+              {
+                "text": "Undergraduate International Scholarship: NZD 15,000, for new international students entering the first year of a bachelor's degree, assessed with the application",
+                "cite": [
+                  "nz/aid.victoria"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Canterbury"
+              },
+              {
+                "text": "International First Year Scholarship: NZD 15,000, up to 7 awards",
+                "cite": [
+                  "nz/aid.canterbury"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Waikato"
+              },
+              {
+                "text": "Vice-Chancellor's International Excellence Scholarship: up to NZD 15,000; apply after you apply to enrol",
+                "cite": [
+                  "nz/aid.waikato"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "AUT"
+              },
+              {
+                "text": "South Asia scholarship: NZD 10,000 (about {taka:10000 NZD}); apply by 22 November 2026 for Semester 1 2027, which starts in February",
+                "cite": [
+                  "nz/aid.aut"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Auckland"
+              },
+              {
+                "text": "Dean's Asia Scholarship in business: full tuition, for up to three students from Asia; not for students who have studied in New Zealand, including a foundation programme there. The round opens in September and closes in October",
+                "cite": [
+                  "nz/aid.auckland.deansAsia"
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**Apply for AUT's scholarship early:** awards are made every two weeks until places are filled.",
+          "cite": [
+            "nz/aid.aut"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "student-visa",
+      "number": 12,
+      "title": "Student visa",
+      "station": "Student visa",
+      "planSteps": [
+        "nz.xray",
+        "pcc.get",
+        "nz.statement",
+        "nz.visa",
+        "passport.get"
+      ],
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Have your offer of place.** Pay your first year's tuition now, or after the visa is approved in principle; you need an unconditional offer before the visa is approved.",
+              "cite": [
+                "nz/visa.tuitionFirst"
+              ]
+            },
+            {
+              "text": "**Show money for living costs:** {money:nz/visa.funds} for the first year, the year the visa usually covers. You do not need the money for later years now, but a believable plan for them helps. Bank statements must show three months of transactions, dated after the tuition payment if you have paid it, and you need money for a ticket home. If you have not paid your tuition yet, the money you show must cover the tuition too.",
+              "cite": [
+                "nz/visa.funds",
+                "nz/visa.fundsEvidence"
+              ]
+            },
+            {
+              "text": "**Chest X-ray:** Bangladesh is not on Immigration New Zealand's low-tuberculosis list, so a student staying more than 6 months needs one, from an approved panel physician, in the 3 months before the application. A full medical certificate is not usually needed.",
+              "cite": [
+                "nz/visa.tbList",
+                "nz/visa.health"
+              ]
+            },
+            {
+              "text": "**Police certificate:** if you are 17 or older and will be in New Zealand for 24 months or more, which covers any degree, send a Bangladesh police certificate less than 6 months old with your application. A receipt is not accepted.",
+              "cite": [
+                "nz/visa.police",
+                "bd/pcc.how"
+              ]
+            },
+            {
+              "text": "**Insurance:** you must agree to have travel and health insurance from the start of your course until your visa expires.",
+              "cite": [
+                "nz/visa.insurance"
+              ]
+            },
+            {
+              "text": "**Apply online** at least 3 months before you travel; the busiest time is between October and March.",
+              "cite": [
+                "nz/visa.howToApply"
+              ]
+            },
+            {
+              "text": "**Wait for the decision.** 80% of applications are decided within 7 weeks; in recent weeks, half of the applications for university study were decided within 2 weeks.",
+              "cite": [
+                "nz/visa.processing",
+                "nz/visa.waitUniversities"
+              ]
+            }
+          ],
+          "ordered": true
+        },
+        {
+          "type": "heading",
+          "text": "Your document checklist"
+        },
+        {
+          "type": "checklist",
+          "items": [
+            {
+              "text": "Passport valid for at least 3 months after you plan to leave New Zealand",
+              "cite": [
+                "nz/visa.howToApply"
+              ]
+            },
+            {
+              "text": "Offer of place"
+            },
+            {
+              "text": "Receipt or letter showing your first year's tuition is paid",
+              "cite": [
+                "nz/visa.tuitionFirst"
+              ]
+            },
+            {
+              "text": "Bank statements with three months of transactions",
+              "cite": [
+                "nz/visa.fundsEvidence"
+              ]
+            },
+            {
+              "text": "Chest X-ray certificate from a panel physician",
+              "cite": [
+                "nz/visa.health"
+              ]
+            },
+            {
+              "text": "Bangladesh police certificate less than 6 months old",
+              "cite": [
+                "nz/visa.police"
+              ]
+            },
+            {
+              "text": "SSC and HSC (or O and A level) certificates and transcripts"
+            },
+            {
+              "text": "English test result"
+            },
+            {
+              "text": "Proof of medical and travel insurance, if your university asks for it",
+              "cite": [
+                "nz/visa.insurance"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "before-you-fly",
+      "number": 13,
+      "title": "Before you fly",
+      "station": "Before you fly",
+      "planSteps": [
+        "nz.arrive"
+      ],
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Arrive in time for orientation.** Otago asks new international students to arrive by 21 February 2027, before its compulsory orientation from 22 to 26 February.",
+              "cite": [
+                "nz/term.otago.arrive"
+              ]
+            },
+            {
+              "text": "**AUT and Lincoln start on 22 February 2027,** a week before Auckland, Otago and Waikato.",
+              "cite": [
+                "nz/term.aut.s1",
+                "nz/uni.lincoln.dates",
+                "nz/term.s1.start"
+              ]
+            },
+            {
+              "text": "**Your insurance must start when your course starts.**",
+              "cite": [
+                "nz/visa.insurance"
+              ]
+            },
+            {
+              "planSteps": [
+                "nz.arrive"
+              ],
+              "text": "**Carry your passport, visa, offer and tuition receipt** in your hand luggage."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "life-there",
+      "number": 14,
+      "title": "Life there",
+      "station": "Life there",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Working:** most degree students may work up to 25 hours a week during study, and full time in the scheduled holidays.",
+              "cite": [
+                "nz/work.hours"
+              ]
+            },
+            {
+              "text": "**Living costs:** a room in a shared house starts at about NZD 140 a week, and food costs at least NZD 80 to 120 a week.",
+              "cite": [
+                "nz/living.estimate"
+              ]
+            },
+            {
+              "text": "**After you graduate,** the Post Study Work Visa gives up to 3 years of open work, if you studied your bachelor's full time in New Zealand for at least 30 weeks. It costs {money:nz/work.postStudyFee}, about {taka:nz/work.postStudyFee}, and you need NZD 5,000.",
+              "cite": [
+                "nz/work.postStudy",
+                "nz/work.postStudyFee"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "other-routes",
+      "number": 15,
+      "title": "Other intakes and routes",
+      "station": "Other routes",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "The July intake"
+        },
+        {
+          "type": "p",
+          "text": "Most universities also start in July, though not every programme does. For July 2027, Otago closes on 30 April, Massey, Canterbury and Victoria on 1 May, and Auckland on 8 June.",
+          "cite": [
+            "nz/uni.otago.closing",
+            "nz/uni.massey.closing",
+            "nz/uni.canterbury.closing",
+            "nz/uni.victoria.closing",
+            "nz/app.closing"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "A foundation programme"
+        },
+        {
+          "type": "p",
+          "text": "If your HSC is below a university's rule, or you are aiming for Auckland, a foundation programme of 6 to 12 months leads into the degree. Auckland's guarantees entry with set grades, for example a GPA of 3.5 for commerce. Otago's Global Scholarship does not cover foundation study, and Auckland's Dean's Asia Scholarship is not for students who have studied in New Zealand, including in a foundation programme.",
+          "cite": [
+            "nz/foundation.uoaic.length",
+            "nz/foundation.uoaic.progression",
+            "nz/entry.foundation",
+            "nz/aid.otago",
+            "nz/aid.auckland.deansAsia"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Applying after a gap year"
+        },
+        {
+          "type": "p",
+          "text": "With your results in hand, you can apply early: Otago, for example, takes applications from 1 May for the next February. Check that your English test will still be less than two years old when you start.",
+          "cite": [
+            "nz/uni.otago.apply",
+            "nz/uni.otago.english",
+            "nz/uni.massey.english"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mistakes-and-scams",
+      "number": 16,
+      "title": "Mistakes and scams",
+      "station": "Mistakes and scams",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**You do not need an adviser.** You can apply for the visa yourself, online.",
+              "cite": [
+                "nz/scam.inz"
+              ]
+            },
+            {
+              "text": "**An agent in Bangladesh may advise on student visas only.** Advice on any other visa must come from a licensed immigration adviser.",
+              "cite": [
+                "nz/scam.agents"
+              ]
+            },
+            {
+              "text": "**Never pay visa fees into a bank account.** Immigration New Zealand never asks for that, and its emails end in immigration.govt.nz or mbie.govt.nz.",
+              "cite": [
+                "nz/scam.inz"
+              ]
+            },
+            {
+              "text": "**Never pay for a job.** New Zealand employers cannot charge you fees for one.",
+              "cite": [
+                "nz/scam.inz"
+              ]
+            },
+            {
+              "text": "**Do not send a receipt instead of a police certificate.** It is not accepted.",
+              "cite": [
+                "nz/visa.police"
+              ]
+            },
+            {
+              "text": "**Do not send screenshots of bank transfers or receipts from an agent.** Immigration New Zealand does not accept them. Explain any large deposit in your bank statement.",
+              "cite": [
+                "nz/visa.fundsEvidence"
+              ]
+            },
+            {
+              "text": "**Do not rely on Duolingo** if you are applying to Auckland or Canterbury.",
+              "cite": [
+                "nz/uni.auckland.english",
+                "nz/uni.canterbury.english"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "number": 17,
+      "title": "Official sources",
+      "station": "Sources",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "widget",
+          "id": "sources"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**New Zealand government:** Immigration New Zealand, the Immigration Advisers Authority, Education New Zealand and Study with New Zealand, the Ministry of Foreign Affairs and Trade (Manaaki scholarships), careers.govt.nz."
+            },
+            {
+              "text": "**Universities:** Auckland, Otago, Massey, Victoria University of Wellington, Canterbury, Waikato, Lincoln and AUT, and the foundation colleges run by UP Education and Navitas."
+            },
+            {
+              "text": "**Figures:** Figure.NZ, republishing Immigration New Zealand data."
+            },
+            {
+              "text": "**Bangladesh and New Zealand:** Bangladesh Bank and the Reserve Bank of New Zealand (exchange rates)."
+            },
+            {
+              "text": "**Ranking:** QS World University Rankings 2027."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

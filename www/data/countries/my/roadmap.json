@@ -1,0 +1,1801 @@
+{
+  "format": 1,
+  "roadmap": "my",
+  "title": "Malaysia",
+  "facts": [
+    "bd",
+    "my"
+  ],
+  "cycle": 2027,
+  "sections": [
+    {
+      "id": "at-a-glance",
+      "number": 1,
+      "title": "At a glance",
+      "station": "At a glance",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Malaysia is close and popular with Bangladeshi students: in 2025, more new students came from Bangladesh than from any country except China. You apply to each university yourself, and the university arranges your student pass. The Malaysian government's main scholarship for international students is for master's and PhD only, so most bachelor's students pay their own way.",
+          "cite": [
+            "my/stats.bangladesh",
+            "my/aid.noGovernmentBachelor"
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Degree:** usually three or four years, depending on the subject, with a one-year foundation first for some students.",
+              "cite": [
+                "my/tuition.monash",
+                "my/foundation.mufy.length"
+              ]
+            },
+            {
+              "text": "**Studies begin:** at several points in the year. Monash's intakes start classes in March, July and October; UTM's in February and September; Universiti Malaya's in October and March.",
+              "cite": [
+                "my/intakes.monash",
+                "my/uni.utm.dates",
+                "my/uni.um.dates"
+              ]
+            },
+            {
+              "text": "**When to apply:** a few months before the intake you choose. Each university sets its own deadline."
+            },
+            {
+              "text": "**Tests:** an English test is needed for the student pass, and Duolingo is not accepted.",
+              "cite": [
+                "my/pass.english"
+              ]
+            },
+            {
+              "text": "**Cost:** tuition for the subjects in this guide runs from about {taka:2250 USD*2} a year (computer science at Universiti Sains Malaysia, if there are two semesters a year) to about {taka:my/tuition.monash#Engineering*1.06} a year (engineering at Monash, with tax). Medicine costs much more. Living costs in Kuala Lumpur are about {taka:1500 MYR} to {taka:2600 MYR} a month. Section 10 has the details.",
+              "cite": [
+                "my/tuition.usm",
+                "my/tuition.monash",
+                "my/living.um"
+              ]
+            },
+            {
+              "text": "**Visa:** your university applies for your student pass; you then apply for a single-entry visa online, from Bangladesh. You do not apply at the High Commission in Dhaka.",
+              "cite": [
+                "my/system.apply",
+                "my/pass.singleEntryVisa"
+              ]
+            },
+            {
+              "text": "**If you sit the HSC in {hscYear}:** most September and October {hscYear} intakes need results you will not yet have, so plan for February or March {hscYear+1}. Section 6 explains.",
+              "template": "sit"
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Figures are for 2027 entry. Rules usually stay the same, but dates and fees change every year: Pathway updates them, and your plan shows the expected dates for your own year. In class 9 or 10? Section 6 shows what to do now."
+        },
+        {
+          "type": "button",
+          "action": "makePlan",
+          "text": "Make my plan for Malaysia"
+        }
+      ]
+    },
+    {
+      "id": "whats-different",
+      "number": 2,
+      "title": "What makes Malaysia different",
+      "station": "What's different",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Many intakes a year"
+        },
+        {
+          "type": "p",
+          "text": "Many Malaysian universities take new students two or three times a year. If you miss one intake, the next is often a few months away. UKM is an exception, with one intake in October.",
+          "cite": [
+            "my/intakes.monash",
+            "my/uni.utm.dates",
+            "my/uni.ukm.entry"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Some universities take the HSC directly"
+        },
+        {
+          "type": "p",
+          "text": "Universiti Teknologi Malaysia names the Bangladesh HSC in its entry rules, and Universiti Kebangsaan Malaysia accepts a Higher Secondary Certificate. Others, such as Monash, ask for A levels, a foundation year or another equivalent and do not name the HSC.",
+          "cite": [
+            "my/uni.utm.hsc",
+            "my/uni.ukm.entry",
+            "my/entry.hsc"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Branch campuses of foreign universities"
+        },
+        {
+          "type": "p",
+          "text": "Monash University Malaysia and the University of Nottingham Malaysia are campuses of universities based in Australia and the UK. QS ranks Monash at 31 and Nottingham at 97, as whole universities, and shows no separate position for their Malaysian campuses.",
+          "cite": [
+            "my/system.branchRanks"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Your university handles the student pass"
+        },
+        {
+          "type": "p",
+          "text": "You do not apply for your student pass yourself. The university submits it to EMGS, Education Malaysia Global Services, which screens it before the Immigration Department approves it.",
+          "cite": [
+            "my/system.apply",
+            "my/pass.val"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ways-to-study",
+      "number": 3,
+      "title": "Ways to study here",
+      "station": "Ways to study",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "widget",
+          "id": "routeFinder",
+          "questions": [
+            {
+              "id": "school",
+              "text": "Is your school certificate HSC or A levels?",
+              "plan": "system",
+              "options": [
+                [
+                  "hsc",
+                  "HSC"
+                ],
+                [
+                  "alevel",
+                  "A levels"
+                ]
+              ]
+            },
+            {
+              "id": "results",
+              "text": "Are your final results already out?",
+              "plan": "resultsOut",
+              "options": [
+                [
+                  "yes",
+                  "Yes"
+                ],
+                [
+                  "no",
+                  "Not yet"
+                ]
+              ]
+            }
+          ],
+          "tables": [
+            [
+              {
+                "fits": {
+                  "school": [
+                    "hsc"
+                  ]
+                },
+                "planRoutes": [
+                  "degreeHsc"
+                ]
+              },
+              {
+                "fits": {
+                  "school": [
+                    "alevel"
+                  ]
+                },
+                "planRoutes": [
+                  "degree"
+                ]
+              },
+              {
+                "fits": {},
+                "planRoutes": [
+                  "foundation"
+                ]
+              }
+            ],
+            [
+              {
+                "fits": {
+                  "results": [
+                    "yes"
+                  ]
+                }
+              },
+              {
+                "fits": {}
+              },
+              {
+                "fits": {}
+              },
+              {
+                "fits": {}
+              },
+              {
+                "fits": {}
+              },
+              {
+                "fits": {}
+              },
+              {
+                "fits": {}
+              },
+              {
+                "fits": {}
+              },
+              {
+                "fits": {}
+              },
+              {
+                "fits": {}
+              },
+              {
+                "fits": {
+                  "school": [
+                    "alevel"
+                  ]
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "The routes for a student from Bangladesh"
+        },
+        {
+          "type": "table",
+          "head": [
+            "Route",
+            "Who it suits",
+            "What decides"
+          ],
+          "rows": [
+            [
+              {
+                "text": "**Straight into a degree with the HSC**"
+              },
+              {
+                "text": "HSC students applying to UTM or UKM, and possibly Sunway (ask first)"
+              },
+              {
+                "text": "Your HSC grades",
+                "cite": [
+                  "my/uni.utm.hsc",
+                  "my/uni.ukm.entry",
+                  "my/uni.sunway.apply"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "**Straight into a degree with A levels**"
+              },
+              {
+                "text": "A level students, at Monash, UTM, Universiti Malaya and others; check each university"
+              },
+              {
+                "text": "Your A level grades",
+                "cite": [
+                  "my/entry.hsc",
+                  "my/uni.utm.english",
+                  "my/uni.um.entry"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "**A foundation year or diploma first**"
+              },
+              {
+                "text": "HSC students aiming for Monash, or anyone whose results are not enough for direct entry"
+              },
+              {
+                "text": "Your SSC or O level results, then your foundation results",
+                "cite": [
+                  "my/foundation.mufy.fees",
+                  "my/foundation.mufy.length",
+                  "my/uni.monash.diploma"
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Universities"
+        },
+        {
+          "type": "p",
+          "text": "Positions are from the QS World University Rankings 2027. Universiti Malaya reports 32 Malaysian universities in that edition.",
+          "cite": [
+            "my/system.qsCount"
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            "University",
+            "QS 2027",
+            "Type",
+            "HSC students"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Universiti Malaya"
+              },
+              {
+                "text": "{rank:my/uni.um.qsRank}",
+                "cite": [
+                  "my/uni.um.qsRank"
+                ]
+              },
+              {
+                "text": "Public"
+              },
+              {
+                "text": "Accepts a national high school certificate but does not name the HSC; no predicted results",
+                "cite": [
+                  "my/uni.um.entry"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Universiti Sains Malaysia"
+              },
+              {
+                "text": "{rank:my/uni.usm.qsRank}",
+                "cite": [
+                  "my/uni.usm.qsRank"
+                ]
+              },
+              {
+                "text": "Public"
+              },
+              {
+                "text": "Not found yet: see its own site"
+              }
+            ],
+            [
+              {
+                "text": "Universiti Kebangsaan Malaysia"
+              },
+              {
+                "text": "{rank:my/uni.ukm.qsRank}",
+                "cite": [
+                  "my/uni.ukm.qsRank"
+                ]
+              },
+              {
+                "text": "Public"
+              },
+              {
+                "text": "Accepts a Higher Secondary Certificate",
+                "cite": [
+                  "my/uni.ukm.entry"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Universiti Putra Malaysia"
+              },
+              {
+                "text": "{rank:my/uni.upm.qsRank}",
+                "cite": [
+                  "my/uni.upm.qsRank"
+                ]
+              },
+              {
+                "text": "Public"
+              },
+              {
+                "text": "Not found yet: see its own site"
+              }
+            ],
+            [
+              {
+                "text": "Universiti Teknologi Malaysia"
+              },
+              {
+                "text": "{rank:my/uni.utm.qsRank}",
+                "cite": [
+                  "my/uni.utm.qsRank"
+                ]
+              },
+              {
+                "text": "Public"
+              },
+              {
+                "text": "HSC named, with A+ in the key subjects",
+                "cite": [
+                  "my/uni.utm.hsc"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Universiti Teknologi PETRONAS"
+              },
+              {
+                "text": "{rank:my/uni.utp.qsRank}",
+                "cite": [
+                  "my/uni.utp.qsRank"
+                ]
+              },
+              {
+                "text": "Private"
+              },
+              {
+                "text": "Not checked yet: see its own site"
+              }
+            ],
+            [
+              {
+                "text": "Taylor's University"
+              },
+              {
+                "text": "{rank:my/uni.taylors.qsRank}",
+                "cite": [
+                  "my/uni.taylors.qsRank"
+                ]
+              },
+              {
+                "text": "Private"
+              },
+              {
+                "text": "Not checked yet: see its own site"
+              }
+            ],
+            [
+              {
+                "text": "UCSI University"
+              },
+              {
+                "text": "{rank:my/uni.ucsi.qsRank}",
+                "cite": [
+                  "my/uni.ucsi.qsRank"
+                ]
+              },
+              {
+                "text": "Private"
+              },
+              {
+                "text": "Not checked yet: see its own site"
+              }
+            ],
+            [
+              {
+                "text": "Sunway University"
+              },
+              {
+                "text": "{rank:my/uni.sunway.qsRank}",
+                "cite": [
+                  "my/uni.sunway.qsRank"
+                ]
+              },
+              {
+                "text": "Private"
+              },
+              {
+                "text": "Its bursary table names the HSC; email Sunway to confirm entry",
+                "cite": [
+                  "my/aid.sunway",
+                  "my/uni.sunway.apply"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "INTI International University"
+              },
+              {
+                "text": "{rank:my/uni.inti.qsRank}",
+                "cite": [
+                  "my/uni.inti.qsRank"
+                ]
+              },
+              {
+                "text": "Private"
+              },
+              {
+                "text": "Not checked yet: see its own site"
+              }
+            ],
+            [
+              {
+                "text": "Monash University Malaysia"
+              },
+              {
+                "text": "31, for Monash University as a whole",
+                "cite": [
+                  "my/system.branchRanks"
+                ]
+              },
+              {
+                "text": "Branch campus"
+              },
+              {
+                "text": "Does not name the HSC; most HSC students start with a foundation year or Monash's own diploma. Ask Monash.",
+                "cite": [
+                  "my/entry.hsc",
+                  "my/uni.monash.diploma"
+                ]
+              }
+            ]
+          ],
+          "listable": true
+        },
+        {
+          "type": "p",
+          "text": "**Check the institution and the programme before you pay anyone.** Public universities, and private institutions approved by the Ministry of Higher Education and authorised by the Home Ministry, may take international students.",
+          "cite": [
+            "my/system.apply"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pros-and-cons",
+      "number": 4,
+      "title": "Honest pros and cons",
+      "station": "Pros and cons",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "What works in your favour"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Several intakes a year at many universities,** so a missed deadline often costs months, not a year.",
+              "cite": [
+                "my/intakes.monash",
+                "my/uni.utm.dates"
+              ]
+            },
+            {
+              "text": "**Direct HSC entry at some universities.**",
+              "cite": [
+                "my/uni.utm.hsc"
+              ]
+            },
+            {
+              "text": "**A short flight, and many students from Bangladesh.** 8,957 new students from Bangladesh enrolled from January to November 2025, the second largest group after China.",
+              "cite": [
+                "my/stats.bangladesh"
+              ]
+            },
+            {
+              "text": "**No visit to the High Commission.** You apply for the visa online, from Bangladesh.",
+              "cite": [
+                "my/pass.singleEntryVisa"
+              ]
+            },
+            {
+              "text": "**A year to stay after graduating,** with the Graduate Pass, including part-time work in permitted sectors. Apply while your student pass is still valid.",
+              "cite": [
+                "my/work.graduatePass"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "What to plan for"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Little scholarship money for bachelor's study.** The Malaysia International Scholarship is for master's and PhD only, and public universities such as UTM offer no aid to international undergraduates.",
+              "cite": [
+                "my/aid.noGovernmentBachelor",
+                "my/aid.utm"
+              ]
+            },
+            {
+              "text": "**Work is very limited:** only in semester breaks, up to 20 hours a week, with approval. Do not plan to pay fees from work.",
+              "cite": [
+                "my/work.rule"
+              ]
+            },
+            {
+              "text": "**A 6% service tax** is added to tuition at private universities, and at some public ones.",
+              "cite": [
+                "my/system.sst"
+              ]
+            },
+            {
+              "text": "**The pass is renewed every year,** and renewal expects good grades and attendance.",
+              "cite": [
+                "my/pass.renewal"
+              ]
+            },
+            {
+              "text": "**Some agents mislead students.** Reports describe colleges with no real classes and students' passports withheld.",
+              "cite": [
+                "my/scam.agents"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-it-works",
+      "number": 5,
+      "title": "How the system works",
+      "station": "How it works",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Public and private.** Public universities such as Universiti Malaya, UKM, USM, UPM and UTM; private universities such as Taylor's, Sunway and UCSI; and branch campuses of foreign universities such as Monash."
+            },
+            {
+              "text": "**Foundation, then degree.** A one-year foundation programme prepares students who lack an accepted pre-university qualification. The Monash University Foundation Year is taught at Sunway College, and Monash's own one-year diploma leads into the second year of a Monash degree.",
+              "cite": [
+                "my/foundation.mufy.length",
+                "my/entry.hsc",
+                "my/uni.monash.diploma"
+              ]
+            },
+            {
+              "text": "**Applying.** Each university in this guide has its own application, and the university then applies for your student pass.",
+              "cite": [
+                "my/system.apply"
+              ]
+            },
+            {
+              "text": "**Malay language.** Universiti Malaya requires international students to take a Malay language course before they graduate.",
+              "cite": [
+                "my/uni.um.malay"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "can-you-apply",
+      "number": 6,
+      "title": "Can you apply with your qualifications",
+      "station": "Can you apply",
+      "planSteps": [
+        "english.test",
+        "school.results"
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "**Yes, with HSC or A levels,** but where you can go straight into a degree depends on the university."
+        },
+        {
+          "type": "heading",
+          "text": "If you are in class 9 or 10"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Your SSC results count.** The Monash University Foundation Year asks for five credits at SSC, O level or equivalent.",
+              "cite": [
+                "my/foundation.mufy.fees"
+              ]
+            },
+            {
+              "text": "**Aim high in the key HSC subjects.** UTM's engineering needs A+ in Mathematics and Physics and in Chemistry or Biology.",
+              "cite": [
+                "my/uni.utm.hsc"
+              ]
+            },
+            {
+              "text": "**An HSC GPA of 4.00 or 4.50 brings a Sunway bursary** of MYR 6,000 or 11,000.",
+              "cite": [
+                "my/aid.sunway"
+              ]
+            },
+            {
+              "text": "**Plan an English test on EMGS's list,** such as IELTS; the Duolingo English Test is not accepted.",
+              "cite": [
+                "my/pass.english"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "With the HSC"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**UTM** accepts the Bangladesh HSC directly: engineering needs A+ in Mathematics and Physics and in Chemistry or Biology.",
+              "cite": [
+                "my/uni.utm.hsc"
+              ]
+            },
+            {
+              "text": "**UKM** accepts a Higher Secondary Certificate after 12 years of school.",
+              "cite": [
+                "my/uni.ukm.entry"
+              ]
+            },
+            {
+              "text": "**Universiti Malaya** accepts a national high school certificate after 12 years of school, but does not name the Bangladesh HSC, so ask before you apply. It also lists a foundation window for international applicants.",
+              "cite": [
+                "my/uni.um.entry",
+                "my/uni.um.foundation"
+              ]
+            },
+            {
+              "text": "**Sunway's** bursary table names the HSC for degree students with a GPA of 4.00 or more. Email Sunway first to confirm your entry.",
+              "cite": [
+                "my/aid.sunway",
+                "my/uni.sunway.apply"
+              ]
+            },
+            {
+              "text": "**Monash** does not name the HSC, so most HSC students start with the Monash University Foundation Year at Sunway College, or Monash's own Diploma of Higher Education Studies. Ask Monash whether your HSC is accepted.",
+              "cite": [
+                "my/entry.hsc",
+                "my/foundation.mufy.fees",
+                "my/uni.monash.diploma"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "If you sit the HSC in {hscYear}",
+          "template": "sit"
+        },
+        {
+          "type": "p",
+          "text": "HSC {hscYear} results are expected {window:bd/hsc.results}.",
+          "cite": [
+            "bd/hsc.results"
+          ],
+          "template": "sit"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**UTM** needs final results by 30 July for its September intake.",
+              "cite": [
+                "my/uni.utm.results"
+              ]
+            },
+            {
+              "text": "**Universiti Malaya** does not accept predicted or expected results. Its October 2026 intake closed on 30 August.",
+              "cite": [
+                "my/uni.um.entry",
+                "my/uni.um.dates"
+              ]
+            }
+          ],
+          "template": "sit"
+        },
+        {
+          "type": "p",
+          "text": "**So plan for an intake in early {hscYear+1}, after your results:** UTM in February (results by 31 December) or Universiti Malaya in March (it closed on 30 January in 2027; check the date for {hscYear+1}). UKM admits only in October, so for UKM the first option is October {hscYear+1}.",
+          "cite": [
+            "my/uni.utm.results",
+            "my/uni.um.dates",
+            "my/uni.ukm.entry"
+          ],
+          "template": "sit"
+        },
+        {
+          "type": "p",
+          "text": "**For Monash,** HSC students start with the Monash University Foundation Year, which begins in January, July and August, so a Monash degree begins about a year later.",
+          "cite": [
+            "my/foundation.mufy.intakes",
+            "my/entry.hsc"
+          ],
+          "template": "sit"
+        },
+        {
+          "type": "heading",
+          "text": "With A levels"
+        },
+        {
+          "type": "p",
+          "text": "A level students can usually enter a degree directly. Monash names A levels as an accepted pre-university qualification, and UTM exempts A level holders from its English test.",
+          "cite": [
+            "my/entry.hsc",
+            "my/uni.utm.english"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Do you need an English test?"
+        },
+        {
+          "type": "p",
+          "text": "**Yes, for the student pass.** EMGS needs an English test certificate with your visa approval application. Without it, your pass may be delayed and will not cover your whole course. The Duolingo English Test is not on its list.",
+          "cite": [
+            "my/pass.english"
+          ]
+        },
+        {
+          "type": "widget",
+          "id": "englishPicker",
+          "mode": "pick",
+          "note": "Whatever your universities decide, EMGS needs an English test certificate for the student pass.",
+          "refuses": [
+            [
+              "duolingo"
+            ],
+            [
+              "duolingo"
+            ],
+            [
+              "duolingo"
+            ],
+            [
+              "duolingo"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            "University",
+            "English minimum"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Monash"
+              },
+              {
+                "text": "IELTS 6.5 with no band below 6.0, TOEFL iBT 4 on the new scale, or PTE 58",
+                "cite": [
+                  "my/uni.monash.english"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "UTM",
+                "key": "universiti teknologi"
+              },
+              {
+                "text": "IELTS 5.5, MUET 4.0, TOEFL iBT 46 or PTE 51; A level holders exempt",
+                "cite": [
+                  "my/uni.utm.english"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Monash University Foundation Year"
+              },
+              {
+                "text": "IELTS 5.5 with no band below 5.0",
+                "cite": [
+                  "my/foundation.mufy.fees"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Other universities"
+              },
+              {
+                "text": "See each university's own page"
+              }
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**IELTS is accepted by EMGS and by every university in this guide.** Take it less than two years before your intake: the Malaysian Government sets a two-year limit.",
+          "cite": [
+            "my/uni.monash.english",
+            "my/uni.utm.english"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "choosing",
+      "number": 7,
+      "title": "Choosing universities",
+      "station": "Choosing",
+      "planSteps": [
+        "my.apply"
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Start from three questions."
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Can you enter directly?** Match your HSC grades or A levels to each university's rule (section 6)."
+            },
+            {
+              "text": "**Can your family pay?** Compare the whole cost of the degree, not one year: some universities quote yearly fees, others a total for the programme (section 10)."
+            },
+            {
+              "text": "**Which intake fits your results?** Choose an intake whose deadline comes after your results."
+            }
+          ],
+          "ordered": true
+        },
+        {
+          "type": "p",
+          "text": "Apply to three to five universities, because each has its own application and its own intake dates."
+        },
+        {
+          "type": "widget",
+          "id": "myList"
+        }
+      ]
+    },
+    {
+      "id": "how-youre-judged",
+      "number": 8,
+      "title": "How you're judged here",
+      "station": "How you're judged",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Malaysian admission is mostly by your grades against each university's published minimum. UTM asks for A+ in named HSC subjects, Monash for set A level or foundation scores, and Universiti Malaya for final results only.",
+          "cite": [
+            "my/uni.utm.hsc",
+            "my/entry.hsc",
+            "my/uni.um.entry"
+          ]
+        },
+        {
+          "type": "p",
+          "link": "profile",
+          "text": "**Building your profile,** in the Toolkit, matters less for admission here, but helps if you apply to countries that read activities too."
+        }
+      ]
+    },
+    {
+      "id": "step-by-step",
+      "number": 9,
+      "title": "The application step by step",
+      "station": "Step by step",
+      "planSteps": [
+        "passport.get",
+        "english.test",
+        "my.apply",
+        "my.pass",
+        "my.visa",
+        "my.arrive",
+        "my.medical"
+      ],
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Choose your universities and intake,** after checking each one's HSC or A level rule and deadline."
+            },
+            {
+              "planSteps": [
+                "passport.get"
+              ],
+              "text": "**Check your passport:** it must be valid for at least 18 months from your intake date, so have at least two years left when you apply.",
+              "cite": [
+                "my/pass.documents",
+                "my/uni.sunway.apply"
+              ]
+            },
+            {
+              "planSteps": [
+                "english.test"
+              ],
+              "text": "**Take an English test** on EMGS's list, such as IELTS Academic, less than two years before your intake."
+            },
+            {
+              "planSteps": [
+                "my.apply"
+              ],
+              "text": "**Apply to each university** before its deadline, with your certificates and transcripts. Fees: Universiti Malaya {money:my/uni.um.fee}, UTM {money:my/uni.utm.fee}, UKM MYR 100, Monash MYR 100.",
+              "cite": [
+                "my/uni.um.fee",
+                "my/uni.utm.fee",
+                "my/uni.ukm.entry",
+                "my/tuition.monash"
+              ]
+            },
+            {
+              "text": "**Accept an offer and pay** what the university asks, including the student pass fees; it then applies to EMGS for your student pass.",
+              "cite": [
+                "my/pass.val"
+              ]
+            },
+            {
+              "planSteps": [
+                "my.pass"
+              ],
+              "text": "**Wait for your eVAL,** the visa approval letter. Universities quote 6 to 8 weeks, and longer from August to mid-October.",
+              "cite": [
+                "my/pass.processing"
+              ]
+            },
+            {
+              "planSteps": [
+                "my.visa"
+              ],
+              "text": "**Apply for your single-entry visa online,** through Malaysia's eVISA system, from Bangladesh. The eVAL is valid for 6 months, so travel before it expires.",
+              "cite": [
+                "my/pass.singleEntryVisa"
+              ]
+            },
+            {
+              "text": "**Arrange your insurance** with your university, and fill in the Malaysia Digital Arrival Card in the three days before you arrive.",
+              "cite": [
+                "my/pass.insurance",
+                "my/arrive.mdac"
+              ]
+            },
+            {
+              "planSteps": [
+                "my.arrive",
+                "my.medical"
+              ],
+              "text": "**Travel, then do your medical screening** within 7 days of arriving.",
+              "cite": [
+                "my/pass.medical"
+              ]
+            }
+          ],
+          "ordered": true
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "number": 10,
+      "title": "Money",
+      "station": "Money",
+      "planSteps": [
+        "my.pass"
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "{rate:MYR} {rate:USD}",
+          "cite": [
+            "bd/fx.myr",
+            "bd/fx.usd"
+          ],
+          "rates": true
+        },
+        {
+          "type": "heading",
+          "text": "Tuition"
+        },
+        {
+          "type": "p",
+          "text": "Some universities quote a yearly fee; others the total for the whole programme. Compare like with like."
+        },
+        {
+          "type": "table",
+          "head": [
+            "University",
+            "Fee",
+            "Basis"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Monash University Malaysia"
+              },
+              {
+                "text": "Engineering {money:my/tuition.monash#Engineering} (about {taka:my/tuition.monash#Engineering}); computer science {money:my/tuition.monash#Computer science} (about {taka:my/tuition.monash#Computer science}); business {money:my/tuition.monash#Business and commerce} (about {taka:my/tuition.monash#Business and commerce}); medicine {money:my/tuition.monash#Medicine} (about {taka:my/tuition.monash#Medicine})",
+                "cite": [
+                  "my/tuition.monash"
+                ]
+              },
+              {
+                "text": "Per year, 2027, plus 6% tax"
+              }
+            ],
+            [
+              {
+                "text": "Universiti Malaya"
+              },
+              {
+                "text": "Engineering MYR 132,100 (about {taka:132100 MYR}); computer science MYR 89,200 (about {taka:89200 MYR})",
+                "cite": [
+                  "my/tuition.um"
+                ]
+              },
+              {
+                "text": "Whole programme, 2025 to 2026 schedule"
+              }
+            ],
+            [
+              {
+                "text": "UTM",
+                "key": "universiti teknologi"
+              },
+              {
+                "text": "Engineering MYR 75,000 (about {taka:75000 MYR}); computing MYR 71,000 (about {taka:71000 MYR})",
+                "cite": [
+                  "my/tuition.utm"
+                ]
+              },
+              {
+                "text": "Whole programme; UTM also lists large fees each semester, so ask what is added"
+              }
+            ],
+            [
+              {
+                "text": "Universiti Sains Malaysia"
+              },
+              {
+                "text": "Engineering USD 2,250 a semester (about {taka:2250 USD}), or about {taka:2250 USD*2} a year if there are two semesters a year",
+                "cite": [
+                  "my/tuition.usm"
+                ]
+              },
+              {
+                "text": "Per semester"
+              }
+            ],
+            [
+              {
+                "text": "Taylor's"
+              },
+              {
+                "text": "Computer science {money:my/tuition.taylors#Bachelor of Computer Science, including service tax} (about {taka:my/tuition.taylors#Bachelor of Computer Science, including service tax}), including tax and other charges; ask Taylor's for the exact total",
+                "cite": [
+                  "my/tuition.taylors"
+                ]
+              },
+              {
+                "text": "Whole programme, 2027 intakes"
+              }
+            ],
+            [
+              {
+                "text": "Monash University Foundation Year"
+              },
+              {
+                "text": "MYR 38,600 to 41,000 in Kuala Lumpur (about {taka:38600 MYR} to {taka:41000 MYR}), plus MYR 2,250 and tax",
+                "cite": [
+                  "my/foundation.mufy.fees"
+                ]
+              },
+              {
+                "text": "One year, 2026"
+              }
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**A 6% service tax** applies to tuition at private universities and at some public ones, so ask your public university whether it charges it.",
+          "cite": [
+            "my/system.sst"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Living costs"
+        },
+        {
+          "type": "p",
+          "text": "Universiti Malaya puts a student's monthly costs in Kuala Lumpur at about MYR 1,500 to 2,600, about {taka:1500 MYR} to {taka:2600 MYR}; its own table adds up to a little less.",
+          "cite": [
+            "my/living.um"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "The student pass, in your first year"
+        },
+        {
+          "type": "table",
+          "head": [
+            "What",
+            "Cost"
+          ],
+          "rows": [
+            [
+              {
+                "text": "EMGS processing fee"
+              },
+              {
+                "text": "{money:my/pass.processingFee} (about {taka:my/pass.processingFee})",
+                "cite": [
+                  "my/pass.processingFee"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "eVAL"
+              },
+              {
+                "text": "{money:my/pass.evalFee} (about {taka:my/pass.evalFee})",
+                "cite": [
+                  "my/pass.evalFee"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "i-Kad student card"
+              },
+              {
+                "text": "{money:my/pass.ikadFee} (about {taka:my/pass.ikadFee})",
+                "cite": [
+                  "my/pass.ikadFee"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Student pass"
+              },
+              {
+                "text": "{money:my/pass.passFee} (about {taka:my/pass.passFee})",
+                "cite": [
+                  "my/pass.passFee"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Visa fee for Bangladeshi citizens"
+              },
+              {
+                "text": "{money:my/pass.visaFee} (about {taka:my/pass.visaFee})",
+                "cite": [
+                  "my/pass.visaFee"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Medical screening after arrival"
+              },
+              {
+                "text": "{money:my/pass.medicalFee} (about {taka:my/pass.medicalFee})",
+                "cite": [
+                  "my/pass.medicalFee"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Medical insurance, 12 months"
+              },
+              {
+                "text": "{money:my/pass.insurance#Cheapest plan} to {money:my/pass.insurance#Most expensive plan} (about {taka:my/pass.insurance#Cheapest plan} to {taka:my/pass.insurance#Most expensive plan})",
+                "cite": [
+                  "my/pass.insurance"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "eVISA processing fee"
+              },
+              {
+                "text": "{money:my/pass.evisaFee} (about {taka:my/pass.evisaFee})",
+                "cite": [
+                  "my/pass.evisaFee"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Personal bond for Bangladeshi citizens"
+              },
+              {
+                "text": "{money:my/pass.bond} (about {taka:my/pass.bond}), returned when you finish or leave your studies",
+                "cite": [
+                  "my/pass.bond"
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Together, before the bond and with the cheapest insurance, about {money:my/pass.processingFee+my/pass.evalFee+my/pass.ikadFee+my/pass.passFee+my/pass.visaFee+my/pass.medicalFee+my/pass.insurance#Cheapest plan+my/pass.evisaFee}, about {taka:my/pass.processingFee+my/pass.evalFee+my/pass.ikadFee+my/pass.passFee+my/pass.visaFee+my/pass.medicalFee+my/pass.insurance#Cheapest plan+my/pass.evisaFee}. Universities often collect these as one package, and the pass is renewed every year, with new fees and insurance each time.",
+          "cite": [
+            "my/pass.renewal",
+            "my/pass.processingFee",
+            "my/pass.evalFee",
+            "my/pass.ikadFee",
+            "my/pass.passFee",
+            "my/pass.visaFee",
+            "my/pass.medicalFee",
+            "my/pass.insurance",
+            "my/pass.evisaFee"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Costs of applying"
+        },
+        {
+          "type": "table",
+          "head": [
+            "What",
+            "Cost"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Universiti Malaya"
+              },
+              {
+                "text": "{money:my/uni.um.fee} (about {taka:my/uni.um.fee})",
+                "cite": [
+                  "my/uni.um.fee"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "UTM",
+                "key": "universiti teknologi"
+              },
+              {
+                "text": "{money:my/uni.utm.fee} (about {taka:my/uni.utm.fee})",
+                "cite": [
+                  "my/uni.utm.fee"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "UKM"
+              },
+              {
+                "text": "MYR 100 (about {taka:100 MYR})",
+                "cite": [
+                  "my/uni.ukm.entry"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Monash"
+              },
+              {
+                "text": "MYR 100 (about {taka:100 MYR})",
+                "cite": [
+                  "my/tuition.monash"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Sunway enrolment fee"
+              },
+              {
+                "text": "MYR 742 (about {taka:742 MYR})",
+                "cite": [
+                  "my/uni.sunway.apply"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "IELTS at British Council or IDP"
+              },
+              {
+                "text": "{money:bd/ielts.bd.fee}",
+                "cite": [
+                  "bd/ielts.bd.fee"
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aid",
+      "number": 11,
+      "title": "Scholarships and aid",
+      "station": "Aid",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "**The Malaysian government's main scholarship for international students, the Malaysia International Scholarship, is for master's and PhD only.**",
+          "cite": [
+            "my/aid.noGovernmentBachelor"
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            "University",
+            "What it offers international undergraduates"
+          ],
+          "rows": [
+            [
+              {
+                "text": "UTM",
+                "key": "universiti teknologi"
+              },
+              {
+                "text": "No financial aid",
+                "cite": [
+                  "my/aid.utm"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Sunway"
+              },
+              {
+                "text": "MYR 6,000 for an HSC GPA of 4.00 (about {taka:6000 MYR}), or MYR 11,000 for 4.50 (about {taka:11000 MYR}). The 2026 table does not say whether this is one-time or yearly.",
+                "cite": [
+                  "my/aid.sunway"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Taylor's"
+              },
+              {
+                "text": "Main scholarships only for its own schools' students; an Excellence Award for results from Malaysian institutions",
+                "cite": [
+                  "my/aid.taylors"
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**Apply for Sunway's bursary on time:** within two weeks of your programme starting, or of your actual results coming out.",
+          "cite": [
+            "my/aid.sunway"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "student-pass",
+      "number": 12,
+      "title": "Student pass and visa",
+      "station": "Student pass",
+      "planSteps": [
+        "my.pass",
+        "my.visa",
+        "passport.get"
+      ],
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Accept your offer and pay the fees your university asks for.** Your university submits your student pass application to EMGS with your documents.",
+              "cite": [
+                "my/system.apply",
+                "my/pass.val"
+              ]
+            },
+            {
+              "text": "**Your documents:** a passport valid for 18 months or more, a 35 by 45 mm photo on a white background, all academic certificates and transcripts, your offer letter, the health declaration form, and your English test certificate.",
+              "cite": [
+                "my/pass.documents",
+                "my/pass.english"
+              ]
+            },
+            {
+              "text": "**Wait for your eVAL.** EMGS's own target is 14 working days for a complete application, but universities quote 6 to 8 weeks, and processing is slower from August to mid-October.",
+              "cite": [
+                "my/pass.processing"
+              ]
+            },
+            {
+              "text": "**Apply for your single-entry visa online** through eVISA, from Bangladesh, after your eVAL arrives. The eVAL is valid for 6 months and the visa for 3 months, so travel before either expires. You do not apply at the High Commission in Dhaka.",
+              "cite": [
+                "my/pass.singleEntryVisa",
+                "my/pass.evisaFee"
+              ]
+            },
+            {
+              "text": "**Lodge the {money:my/pass.bond} personal bond** with your university, before or after arrival as it asks. It is returned when you finish or leave your studies.",
+              "cite": [
+                "my/pass.bond"
+              ]
+            }
+          ],
+          "ordered": true
+        },
+        {
+          "type": "heading",
+          "text": "Your document checklist"
+        },
+        {
+          "type": "checklist",
+          "items": [
+            {
+              "text": "Passport valid for at least 18 months from your intake date",
+              "cite": [
+                "my/pass.documents"
+              ]
+            },
+            {
+              "text": "Passport photo, 35 by 45 mm, white background"
+            },
+            {
+              "text": "SSC and HSC (or O and A level) certificates and transcripts"
+            },
+            {
+              "text": "Offer letter"
+            },
+            {
+              "text": "Health declaration form"
+            },
+            {
+              "text": "English test certificate",
+              "cite": [
+                "my/pass.english"
+              ]
+            },
+            {
+              "text": "eVAL and eVISA approval"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "before-you-fly",
+      "number": 13,
+      "title": "Before you fly",
+      "station": "Before you fly",
+      "planSteps": [
+        "my.arrive"
+      ],
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Fill in the Malaysia Digital Arrival Card** online in the three days before you arrive.",
+              "cite": [
+                "my/arrive.mdac"
+              ]
+            },
+            {
+              "planSteps": [
+                "my.arrive"
+              ],
+              "text": "**Arrive in your university's registration period,** and carry your passport, eVAL, visa, offer letter and certificates in your hand luggage."
+            },
+            {
+              "text": "**Insurance is compulsory** for every international student for the whole stay.",
+              "cite": [
+                "my/pass.insurance"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "life-there",
+      "number": 14,
+      "title": "Life there",
+      "station": "Life there",
+      "planSteps": [
+        "my.medical"
+      ],
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "planSteps": [
+                "my.medical"
+              ],
+              "text": "**Medical screening:** within 7 days of arriving, at an EMGS panel clinic or your public university's clinic. Without it, your pass cannot be endorsed.",
+              "cite": [
+                "my/pass.medical"
+              ]
+            },
+            {
+              "text": "**Renew your pass every year,** from three months before it expires. Renewal expects a CGPA of at least 2.0 and attendance of at least 80%.",
+              "cite": [
+                "my/pass.renewal"
+              ]
+            },
+            {
+              "text": "**Working:** up to 20 hours a week, only in semester breaks or holidays of more than 7 days, in permitted jobs, with Immigration's approval first. Front-desk work and recruiting other students for agents are not allowed.",
+              "cite": [
+                "my/work.rule"
+              ]
+            },
+            {
+              "text": "**After you graduate,** a Graduate Pass lets you stay for 12 months, with part-time work in permitted sectors. Apply while your student pass is still valid; you need a passport valid for 18 months, health insurance and a sponsor.",
+              "cite": [
+                "my/work.graduatePass"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "other-routes",
+      "number": 15,
+      "title": "Other intakes and routes",
+      "station": "Other routes",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "The next intake"
+        },
+        {
+          "type": "p",
+          "text": "If you miss one intake, the next is often a few months away: Monash has three a year, UTM two, and UKM one.",
+          "cite": [
+            "my/intakes.monash",
+            "my/uni.utm.dates",
+            "my/uni.ukm.entry"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "A foundation year"
+        },
+        {
+          "type": "p",
+          "text": "If your HSC does not meet a university's direct entry rule, a one-year foundation programme leads into the degree. The Monash University Foundation Year starts in January, July and August, and Monash's own diploma in February, July and October.",
+          "cite": [
+            "my/foundation.mufy.length",
+            "my/foundation.mufy.intakes",
+            "my/foundation.mufy.fees",
+            "my/uni.monash.diploma"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Applying after a gap year"
+        },
+        {
+          "type": "p",
+          "text": "With your results in hand, you can choose any intake whose application deadline you can meet, and UTM's results deadline no longer limits you. Results more than two years old may not qualify for some bursaries.",
+          "cite": [
+            "my/uni.utm.results",
+            "my/aid.sunway"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mistakes-and-scams",
+      "number": 16,
+      "title": "Mistakes and scams",
+      "station": "Mistakes and scams",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Check the institution.** Public universities, and private institutions approved by the Ministry of Higher Education and authorised by the Home Ministry, may take international students.",
+              "cite": [
+                "my/system.apply"
+              ]
+            },
+            {
+              "text": "**Be careful with agents.** Reports describe agents charging 6 to 8 lakh taka, colleges with no real classes, and passports withheld.",
+              "cite": [
+                "my/scam.agents"
+              ]
+            },
+            {
+              "text": "**The visa is online.** You apply through eVISA from Bangladesh; nobody needs to take your passport to the High Commission.",
+              "cite": [
+                "my/pass.singleEntryVisa"
+              ]
+            },
+            {
+              "text": "**No Duolingo.** EMGS does not list it.",
+              "cite": [
+                "my/pass.english"
+              ]
+            },
+            {
+              "text": "**Do not work outside the rules.** Work is allowed only in breaks, with approval.",
+              "cite": [
+                "my/work.rule"
+              ]
+            },
+            {
+              "text": "**Do not skip the medical screening** within 7 days of arriving.",
+              "cite": [
+                "my/pass.medical"
+              ]
+            },
+            {
+              "text": "**Check the passport date.** It must be valid for 18 months from your intake date.",
+              "cite": [
+                "my/pass.documents"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "number": 17,
+      "title": "Official sources",
+      "station": "Sources",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "widget",
+          "id": "sources"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Malaysian government:** Education Malaysia Global Services (EMGS), the Immigration Department, the Ministry of Higher Education, the High Commission in Dhaka."
+            },
+            {
+              "text": "**Universities:** Universiti Malaya, UTM, UKM, USM, Monash University Malaysia, Sunway University and Sunway College, Taylor's."
+            },
+            {
+              "text": "**News:** Malay Mail, Prothom Alo."
+            },
+            {
+              "text": "**Bangladesh and Malaysia:** Bangladesh Bank and Bank Negara Malaysia (exchange rates)."
+            },
+            {
+              "text": "**Ranking:** QS World University Rankings 2027."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

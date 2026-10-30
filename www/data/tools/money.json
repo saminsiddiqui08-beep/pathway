@@ -1,0 +1,497 @@
+{
+  "format": 1,
+  "tool": "money",
+  "cycle": 2027,
+  "tests": [
+    {
+      "id": "ielts",
+      "name": "IELTS",
+      "fee": "bd/ielts.bd.fee",
+      "step": "english.test",
+      "plan": "ielts"
+    },
+    {
+      "id": "toefl",
+      "name": "TOEFL iBT",
+      "fee": "bd/toefl.bd.fee",
+      "step": "english.test",
+      "plan": "toefl",
+      "note": "Plus any VAT."
+    },
+    {
+      "id": "pte",
+      "name": "PTE Academic",
+      "fee": "bd/pte.bd.fee",
+      "step": "english.test",
+      "plan": "pte"
+    },
+    {
+      "id": "duolingo",
+      "name": "Duolingo English Test",
+      "fee": "bd/duolingo.fee#One test",
+      "pair": "bd/duolingo.fee#Two tests bought together",
+      "step": "english.test",
+      "plan": "duolingo",
+      "note": "Two tests bought together cost less each."
+    },
+    {
+      "id": "sat",
+      "name": "SAT",
+      "fee": "bd/sat.fee+bd/sat.internationalFee",
+      "step": "sat.test",
+      "plan": "sat",
+      "countries": [
+        "us",
+        "fi",
+        "tr"
+      ]
+    },
+    {
+      "id": "tryos",
+      "name": "TR-YÖS",
+      "fee": "tr/tryos.fee",
+      "step": "tr.tryos",
+      "countries": [
+        "tr"
+      ]
+    }
+  ],
+  "countries": {
+    "us": {
+      "currency": "USD",
+      "applyStep": "us.apply",
+      "universities": [
+        {
+          "key": "mit",
+          "name": "MIT",
+          "fee": "us/app.fee.mit",
+          "waiver": "us/app.waiver.mit"
+        },
+        {
+          "key": "harvard",
+          "name": "Harvard",
+          "fee": "us/app.fee.harvard"
+        },
+        {
+          "key": "yale",
+          "name": "Yale",
+          "fee": null,
+          "waiver": "us/app.waiver.yale"
+        },
+        {
+          "key": "princeton",
+          "name": "Princeton",
+          "fee": "us/app.fee.princeton",
+          "waiver": "us/app.waiver.princeton"
+        },
+        {
+          "key": "brown",
+          "name": "Brown",
+          "fee": "us/app.fee.brown"
+        },
+        {
+          "key": "dartmouth",
+          "name": "Dartmouth",
+          "fee": "us/app.fee.dartmouth",
+          "waiver": "us/app.waiver.dartmouth"
+        },
+        {
+          "key": "amherst",
+          "name": "Amherst",
+          "fee": "us/app.fee.amherst",
+          "waiver": "us/app.waiver.amherst"
+        },
+        {
+          "key": "bowdoin",
+          "name": "Bowdoin",
+          "fee": "us/app.fee.bowdoin",
+          "waiver": "us/app.waiver.bowdoin",
+          "waivedForAid": true
+        },
+        {
+          "key": "williams",
+          "name": "Williams",
+          "fee": "us/app.fee.williams",
+          "waiver": "us/app.waiver.williams"
+        },
+        {
+          "key": "swarthmore",
+          "name": "Swarthmore",
+          "fee": "us/app.fee.swarthmore",
+          "waiver": "us/app.waiver.swarthmore"
+        }
+      ],
+      "aid": {
+        "id": "css",
+        "name": "CSS Profile",
+        "fee": "us/aid.css.fee#First college",
+        "extra": "us/aid.css.fee#Each additional college",
+        "step": "us.css"
+      },
+      "after": [
+        {
+          "id": "deposit",
+          "name": "Enrolment deposit",
+          "ask": true,
+          "step": "us.accept",
+          "note": "Each university sets its own, so enter yours from your offer.",
+          "cite": [
+            "us/i20.requirements"
+          ]
+        },
+        {
+          "id": "sevis",
+          "name": "SEVIS fee",
+          "fee": "us/visa.fee.sevis",
+          "step": "us.sevis"
+        },
+        {
+          "id": "visa",
+          "name": "Visa application fee",
+          "fee": "us/visa.fee.application",
+          "step": "us.sevis"
+        },
+        {
+          "id": "integrity",
+          "name": "Visa integrity fee",
+          "fee": "us/visa.fee.integrity",
+          "step": "us.interview",
+          "note": "Charged when the visa is issued; check whether Dhaka charges it yet."
+        }
+      ],
+      "show": {
+        "text": "Before it sends your I-20, your university asks for proof of money for one year of fees and living costs. At Harvard that is {money:us/cost.harvard#Tuition, fees, housing and food} a year before aid. The money is shown, not paid, but it must really be there for your studies.",
+        "cite": [
+          "us/i20.requirements",
+          "us/cost.harvard"
+        ]
+      }
+    },
+    "fi": {
+      "currency": "EUR",
+      "applyStep": "fi.apply",
+      "once": {
+        "id": "joint",
+        "name": "Joint application fee",
+        "fee": "fi/app.fee",
+        "note": "One fee for every programme you choose in the same round."
+      },
+      "universities": [],
+      "after": [
+        {
+          "id": "permit",
+          "name": "Residence permit, applied for online",
+          "fee": "fi/permit.fee#Online",
+          "step": "fi.permitApply",
+          "note": "Not refunded, even if the permit is refused."
+        },
+        {
+          "id": "vfs",
+          "name": "Service fee in New Delhi",
+          "fee": "fi/permit.vfsFee",
+          "step": "fi.delhi"
+        },
+        {
+          "id": "health",
+          "name": "Student healthcare fee, first term",
+          "fee": "fi/arrive.healthFee",
+          "step": "fi.arrive"
+        }
+      ],
+      "show": {
+        "text": "When you apply for the permit, {money:fi/permit.funds} for a year's living must be in your own account, plus the tuition fee if it is not yet paid. Migri may ask where the money came from.",
+        "cite": [
+          "fi/permit.funds",
+          "fi/permit.tuitionMoney"
+        ]
+      }
+    },
+    "tr": {
+      "currency": "USD",
+      "applyStep": "tr.apply",
+      "universities": [
+        {
+          "key": "metu",
+          "name": "METU",
+          "fee": "tr/uni.metu.fee"
+        },
+        {
+          "key": "boğaziçi",
+          "name": "Boğaziçi",
+          "fee": "tr/uni.bogazici.fee",
+          "perProgramme": true
+        },
+        {
+          "key": "sabancı",
+          "name": "Sabancı",
+          "fee": "tr/uni.sabanci.fee"
+        },
+        {
+          "key": "itu",
+          "name": "Istanbul Technical University",
+          "fee": null
+        },
+        {
+          "key": "koç",
+          "name": "Koç",
+          "fee": null
+        },
+        {
+          "key": "bilkent",
+          "name": "Bilkent",
+          "fee": null
+        },
+        {
+          "key": "hacettepe",
+          "name": "Hacettepe",
+          "fee": null
+        },
+        {
+          "key": "istanbul",
+          "name": "Istanbul University",
+          "fee": null
+        },
+        {
+          "key": "yıldız technical",
+          "name": "Yıldız Technical University",
+          "fee": null
+        }
+      ],
+      "after": [
+        {
+          "id": "card",
+          "name": "Residence permit card",
+          "fee": "tr/arrive.cardFee",
+          "step": "tr.arrive",
+          "note": "Students pay no visa or permit fee, only this card fee."
+        },
+        {
+          "id": "gss",
+          "name": "State health insurance, first month",
+          "fee": "tr/arrive.gssCost",
+          "step": "tr.health",
+          "note": "About this much every month afterwards."
+        }
+      ],
+      "show": {
+        "text": "The embassy asks for bank statements and a solvency certificate, from you or your parents. No fixed amount is published, so show enough for your fees and living costs.",
+        "cite": [
+          "tr/visa.documents",
+          "tr/visa.bankStatements"
+        ]
+      }
+    },
+    "my": {
+      "currency": "MYR",
+      "applyStep": "my.apply",
+      "universities": [
+        {
+          "key": "universiti malaya",
+          "name": "Universiti Malaya",
+          "fee": "my/uni.um.fee"
+        },
+        {
+          "key": "universiti teknologi",
+          "name": "Universiti Teknologi Malaysia",
+          "fee": "my/uni.utm.fee"
+        },
+        {
+          "key": "universiti kebangsaan",
+          "name": "Universiti Kebangsaan Malaysia",
+          "typed": "100 MYR",
+          "cite": [
+            "my/uni.ukm.entry"
+          ]
+        },
+        {
+          "key": "monash",
+          "name": "Monash University Malaysia",
+          "typed": "100 MYR",
+          "cite": [
+            "my/tuition.monash"
+          ]
+        },
+        {
+          "key": "sunway",
+          "name": "Sunway University enrolment fee",
+          "typed": "742 MYR",
+          "cite": [
+            "my/uni.sunway.apply"
+          ]
+        },
+        {
+          "key": "universiti sains",
+          "name": "Universiti Sains Malaysia",
+          "fee": null
+        },
+        {
+          "key": "universiti putra",
+          "name": "Universiti Putra Malaysia",
+          "fee": null
+        },
+        {
+          "key": "universiti teknologi petronas",
+          "name": "Universiti Teknologi PETRONAS",
+          "fee": null
+        },
+        {
+          "key": "taylor s",
+          "name": "Taylor's University",
+          "fee": null
+        },
+        {
+          "key": "ucsi",
+          "name": "UCSI University",
+          "fee": null
+        },
+        {
+          "key": "inti",
+          "name": "INTI International University",
+          "fee": null
+        }
+      ],
+      "after": [
+        {
+          "id": "processing",
+          "name": "EMGS processing fee",
+          "fee": "my/pass.processingFee",
+          "step": "my.pass"
+        },
+        {
+          "id": "eval",
+          "name": "eVAL fee",
+          "fee": "my/pass.evalFee",
+          "step": "my.pass"
+        },
+        {
+          "id": "insurance",
+          "name": "Medical insurance, cheapest plan",
+          "fee": "my/pass.insurance#Cheapest plan",
+          "step": "my.pass"
+        },
+        {
+          "id": "bond",
+          "name": "Personal bond",
+          "fee": "my/pass.bond",
+          "step": "my.pass",
+          "note": "Returned when you finish or leave your studies."
+        },
+        {
+          "id": "evisa",
+          "name": "eVISA processing fee",
+          "fee": "my/pass.evisaFee",
+          "step": "my.visa"
+        },
+        {
+          "id": "visa",
+          "name": "Single-entry visa",
+          "fee": "my/pass.visaFee",
+          "step": "my.visa"
+        },
+        {
+          "id": "medical",
+          "name": "Medical screening after arrival",
+          "fee": "my/pass.medicalFee",
+          "step": "my.medical"
+        },
+        {
+          "id": "pass",
+          "name": "Student pass",
+          "fee": "my/pass.passFee",
+          "step": "my.medical"
+        },
+        {
+          "id": "ikad",
+          "name": "i-Kad student card",
+          "fee": "my/pass.ikadFee",
+          "step": "my.medical"
+        }
+      ],
+      "show": {
+        "text": "EMGS's list of documents for the student pass does not include bank statements, but your university may ask how you will pay.",
+        "cite": [
+          "my/pass.documents"
+        ]
+      }
+    },
+    "nz": {
+      "currency": "NZD",
+      "applyStep": "nz.apply",
+      "universities": [
+        {
+          "key": "auckland",
+          "name": "University of Auckland",
+          "fee": "nz/app.fee.auckland"
+        },
+        {
+          "key": "otago",
+          "name": "University of Otago",
+          "fee": null
+        },
+        {
+          "key": "massey",
+          "name": "Massey University",
+          "fee": null
+        },
+        {
+          "key": "victoria wellington",
+          "name": "Victoria University of Wellington",
+          "fee": null
+        },
+        {
+          "key": "canterbury",
+          "name": "University of Canterbury",
+          "fee": null
+        },
+        {
+          "key": "waikato",
+          "name": "University of Waikato",
+          "fee": null
+        },
+        {
+          "key": "lincoln",
+          "name": "Lincoln University",
+          "fee": null
+        },
+        {
+          "key": "aut",
+          "name": "Auckland University of Technology",
+          "fee": null
+        }
+      ],
+      "after": [
+        {
+          "id": "tuition",
+          "name": "First year's tuition",
+          "ask": true,
+          "step": "nz.tuition",
+          "note": "Paid before the visa is issued; enter your university's fee.",
+          "cite": [
+            "nz/visa.tuitionFirst"
+          ]
+        },
+        {
+          "id": "visa",
+          "name": "Student visa",
+          "fee": "nz/visa.fee",
+          "step": "nz.statement"
+        }
+      ],
+      "show": {
+        "text": "For the visa, show {money:nz/visa.funds} for the first year's living costs, and pay or show the first year's tuition. Immigration New Zealand may ask where the money came from.",
+        "cite": [
+          "nz/visa.funds",
+          "nz/visa.tuitionFirst",
+          "nz/visa.fundsEvidence"
+        ]
+      }
+    }
+  },
+  "notIncluded": [
+    "Flights, unless you add them yourself",
+    "Tuition and living costs after you arrive, except where a country asks for them first",
+    "Your bank's charges for sending money or paying by card",
+    "Attesting, translating and couriering documents",
+    "Medical tests and photos for the visa"
+  ]
+}

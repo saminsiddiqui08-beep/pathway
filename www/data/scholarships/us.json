@@ -1,0 +1,181 @@
+{
+  "format": 1,
+  "country": "us",
+  "cycle": 2027,
+  "facts": [
+    "bd",
+    "us"
+  ],
+  "roadmapSection": "aid",
+  "words": [
+    "need-blind",
+    "need-aware",
+    "meets-full-need"
+  ],
+  "groups": [
+    {
+      "id": "blind",
+      "title": "Need-blind for international students"
+    },
+    {
+      "id": "full",
+      "title": "Full need met once you are admitted"
+    }
+  ],
+  "universities": [
+    {
+      "key": "amherst",
+      "name": "Amherst College",
+      "group": "blind",
+      "summary": "Need-blind, meets full need",
+      "cite": [
+        "us/uni.amherst.aid"
+      ]
+    },
+    {
+      "key": "bowdoin",
+      "name": "Bowdoin College",
+      "group": "blind",
+      "summary": "Need-blind, meets full need with no loans",
+      "cite": [
+        "us/uni.bowdoin.aid"
+      ]
+    },
+    {
+      "key": "brown",
+      "name": "Brown University",
+      "group": "blind",
+      "summary": "Need-blind, meets full need",
+      "cite": [
+        "us/uni.brown.aid"
+      ]
+    },
+    {
+      "key": "dartmouth",
+      "name": "Dartmouth College",
+      "group": "blind",
+      "summary": "Need-blind, meets full need",
+      "cite": [
+        "us/uni.dartmouth.aid"
+      ]
+    },
+    {
+      "key": "harvard",
+      "name": "Harvard University",
+      "group": "blind",
+      "summary": "Need-blind, meets full need",
+      "cite": [
+        "us/uni.harvard.aid",
+        "us/aid.harvard.income"
+      ]
+    },
+    {
+      "key": "mit",
+      "name": "MIT",
+      "group": "blind",
+      "summary": "Need-blind, meets full need",
+      "cite": [
+        "us/uni.mit.aid"
+      ]
+    },
+    {
+      "key": "princeton",
+      "name": "Princeton University",
+      "group": "blind",
+      "summary": "Need-blind, meets full need with grants",
+      "cite": [
+        "us/uni.princeton.aid"
+      ]
+    },
+    {
+      "key": "yale",
+      "name": "Yale University",
+      "group": "blind",
+      "summary": "Need-blind, meets full need",
+      "cite": [
+        "us/uni.yale.aid"
+      ]
+    },
+    {
+      "key": "columbia",
+      "name": "Columbia University",
+      "group": "full",
+      "summary": "Need-aware, meets full need",
+      "cite": [
+        "us/uni.columbia.aid"
+      ]
+    },
+    {
+      "key": "cornell",
+      "name": "Cornell University",
+      "group": "full",
+      "summary": "Need-aware, meets full need",
+      "cite": [
+        "us/uni.cornell.aid"
+      ]
+    },
+    {
+      "key": "northwestern",
+      "name": "Northwestern University",
+      "group": "full",
+      "summary": "Need-aware, meets full need with no loans",
+      "cite": [
+        "us/uni.northwestern.aid"
+      ]
+    },
+    {
+      "key": "pomona",
+      "name": "Pomona College",
+      "group": "full",
+      "summary": "Need-aware, meets full need with no loans",
+      "cite": [
+        "us/uni.pomona.aid"
+      ]
+    },
+    {
+      "key": "stanford",
+      "name": "Stanford University",
+      "group": "full",
+      "summary": "Need-aware, meets full need",
+      "cite": [
+        "us/uni.stanford.aid"
+      ]
+    },
+    {
+      "key": "swarthmore",
+      "name": "Swarthmore College",
+      "group": "full",
+      "summary": "Need-aware, meets full need with no loans",
+      "cite": [
+        "us/uni.swarthmore.aid"
+      ]
+    },
+    {
+      "key": "penn",
+      "name": "University of Pennsylvania",
+      "group": "full",
+      "summary": "Need-aware, meets full need",
+      "cite": [
+        "us/uni.penn.aid"
+      ]
+    },
+    {
+      "key": "wellesley",
+      "name": "Wellesley College",
+      "group": "full",
+      "summary": "Meets full need, aid for international students is limited",
+      "cite": [
+        "us/uni.wellesley.aid"
+      ]
+    },
+    {
+      "key": "williams",
+      "name": "Williams College",
+      "group": "full",
+      "summary": "Need-aware, meets full need",
+      "cite": [
+        "us/uni.williams.aid"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2302 @@
+{
+  "format": 1,
+  "file": "common/bd",
+  "title": "Facts shared by every country",
+  "checked": "2026-10-02",
+  "sources": {
+    "dip-portal": {
+      "title": "E-Passport Online Registration Portal",
+      "publisher": "Department of Immigration and Passports",
+      "url": "https://www.epassport.gov.bd",
+      "official": true
+    },
+    "unb-epassport": {
+      "title": "Getting e-passport without police verification in Bangladesh: documents, fees and online application process",
+      "publisher": "UNB",
+      "url": "https://unb.com.bd/category/Bangladesh/getting-e-passport-without-police-verification-in-bangladesh-documents-fees-and-online-application-process/154686",
+      "official": false
+    },
+    "tbs-nid16": {
+      "title": "Youths aged 16 or above eligible for NID services: EC",
+      "publisher": "The Business Standard",
+      "url": "https://www.tbsnews.net/bangladesh/youths-aged-16-or-above-eligible-nid-services-ec-1368451",
+      "official": false
+    },
+    "bc-bd-book": {
+      "title": "Book your IELTS exam at an official IELTS exam centre",
+      "publisher": "British Council Bangladesh",
+      "url": "https://www.britishcouncil.org.bd/en/exam/ielts/book-test",
+      "official": true
+    },
+    "bc-bd-results": {
+      "title": "Your IELTS results: when and how to get your IELTS score",
+      "publisher": "British Council Bangladesh",
+      "url": "https://www.britishcouncil.org.bd/en/exam/ielts/results",
+      "official": true
+    },
+    "ets-toefl-scores": {
+      "title": "TOEFL iBT scores",
+      "publisher": "ETS",
+      "url": "https://www.ets.org/toefl/scores",
+      "official": true
+    },
+    "ets-toefl-scale": {
+      "title": "Understanding your TOEFL iBT scores",
+      "publisher": "ETS",
+      "url": "https://www.ets.org/toefl/test-takers/ibt/scores/understand-scores.html",
+      "official": true
+    },
+    "det-official": {
+      "title": "Help: accepted identification, ID table and faster results",
+      "publisher": "Duolingo English Test",
+      "url": "https://englishtest.duolingo.com",
+      "official": true
+    },
+    "idp-bd": {
+      "title": "IELTS test sessions in Dhaka",
+      "publisher": "IDP IELTS Bangladesh",
+      "url": "https://www.idp.com/bangladesh/",
+      "official": true
+    },
+    "edudaily-india": {
+      "title": "Indian tourist visa for Bangladeshis opens from 28th June 2026",
+      "publisher": "Edu Daily 24",
+      "url": "https://en.edudaily24.com/visa/indian-tourist-visas-for-bangladeshis-opens",
+      "official": false
+    },
+    "tripzic-india": {
+      "title": "India travel guide 2026: visa resumed for Bangladesh",
+      "publisher": "Tripzic",
+      "url": "https://www.tripzic.com/destinations/india",
+      "official": false
+    },
+    "bhc-london-pcc": {
+      "title": "Police clearance certificate",
+      "publisher": "Bangladesh High Commission, London",
+      "url": "https://bhclondon.org.uk/police-clearance-certificate",
+      "official": true
+    },
+    "isg-pcc": {
+      "title": "Police clearance certificate Bangladesh for UK visa",
+      "publisher": "Immigration Start Guide",
+      "url": "https://immigrationstartguide.com/blog/police-clearance-certificate-bangladesh-uk-visa",
+      "official": false
+    },
+    "pte-results": {
+      "title": "How long will I wait for my PTE Academic results?",
+      "publisher": "Pearson PTE",
+      "url": "https://www.pearsonpte.com/articles/how-fast-is-pte-academic.html?start=5",
+      "official": true
+    },
+    "cb-sat-dates": {
+      "title": "SAT Suite Dates and Deadlines",
+      "publisher": "College Board",
+      "url": "https://satsuite.collegeboard.org/sat/dates-deadlines",
+      "official": true
+    },
+    "cb-sat-flyer-intl": {
+      "title": "SAT Suite important dates 2026-27, international flyer",
+      "publisher": "College Board",
+      "url": "https://international.collegeboard.org/media/pdf/2627-sat-suite-important-dates-flyer-intl.pdf",
+      "official": true
+    },
+    "teachers-hsc2027": {
+      "title": "HSC Routine 2027 PDF",
+      "publisher": "Shikkhok Batayon (teachers' portal), user blog",
+      "url": "https://teachers.gov.bd/index.php/blog/details/841627",
+      "official": false
+    },
+    "prothomalo-hsc2026": {
+      "title": "HSC routine published, exam on 2 July",
+      "publisher": "Prothom Alo",
+      "url": "https://en.prothomalo.com/youth/education/cyb54ep9vm",
+      "official": false
+    },
+    "prothomalo-hsc2026-shift": {
+      "title": "HSC, equivalent exams begin 2 July",
+      "publisher": "Prothom Alo",
+      "url": "https://en.prothomalo.com/youth/education/1kqvdt5p9w",
+      "official": false
+    },
+    "dhakatribune-hsc2026": {
+      "title": "HSC results likely to be published between November 7 and 15",
+      "publisher": "Dhaka Tribune",
+      "url": "https://www.dhakatribune.com/bangladesh/education/420515/hsc-results-likely-to-be-published-between",
+      "official": false
+    },
+    "cie-nov2026": {
+      "title": "When will November 2026 results be released?",
+      "publisher": "Cambridge International Education",
+      "url": "https://help.cambridgeinternational.org/hc/en-gb/articles/29567611785234-When-will-November-2026-results-be-released",
+      "official": true
+    },
+    "cie-dates": {
+      "title": "Dates and deadlines",
+      "publisher": "Cambridge International Education",
+      "url": "https://www.cambridgeinternational.org/usa/students/dates-and-deadlines/",
+      "official": true
+    },
+    "pearson-results": {
+      "title": "Key dates for results",
+      "publisher": "Pearson Qualifications",
+      "url": "https://qualifications.pearson.com/en/support/support-topics/results-certification/key-dates-for-results.html/EO",
+      "official": true
+    },
+    "tutopiya-ial-oct2026": {
+      "title": "Edexcel International Advanced Level October 2026: key dates and registration",
+      "publisher": "Tutopiya",
+      "url": "https://www.tutopiya.com/blog/international-a-level/oct-nov-2026/edexcel-international-advanced-level-october-2026-key-dates/",
+      "official": false
+    },
+    "det-scoring-guide": {
+      "title": "Scoring Guide for Teachers, 2026",
+      "publisher": "Duolingo English Test",
+      "url": "https://englishtest-static.duolingo.com/media/resources/DET_Scoring%20Guide%20for%20Teachers%20(2026).pdf",
+      "official": true
+    },
+    "det-help-validity": {
+      "title": "How long are my Duolingo English Test results valid?",
+      "publisher": "Duolingo English Test help centre",
+      "url": "https://testcenter.zendesk.com/hc/en-us/articles/360011075571-How-long-are-my-Duolingo-English-Test-results-valid",
+      "official": true
+    },
+    "pte-id-policy": {
+      "title": "PTE Identification policy",
+      "publisher": "Pearson PTE",
+      "url": "https://www.pearsonpte.com/policy-center/identification-policy/",
+      "official": true
+    },
+    "pte-the-test": {
+      "title": "PTE Academic",
+      "publisher": "Pearson PTE",
+      "url": "https://pearsonpte.com/the-test",
+      "official": true
+    },
+    "ets-toefl-id": {
+      "title": "Identification (ID) Requirements for the TOEFL iBT Test",
+      "publisher": "ETS",
+      "url": "https://www.ets.org/toefl/test-takers/ibt/register/id.html",
+      "official": true
+    },
+    "bb-fx": {
+      "title": "Exchange rate of Taka",
+      "publisher": "Bangladesh Bank",
+      "url": "https://www.bb.org.bd/en/index.php/econdata/exchangerate",
+      "official": true
+    },
+    "cb-intl-fees": {
+      "title": "International Fees",
+      "publisher": "College Board",
+      "url": "https://satsuite.collegeboard.org/sat/registration/international-testing/international-fees",
+      "official": true
+    },
+    "bdmo-about": {
+      "title": "About us: Bangladesh Mathematical Olympiad Committee",
+      "publisher": "Bangladesh Mathematical Olympiad Committee",
+      "url": "https://matholympiad.org.bd/about-us",
+      "official": true
+    },
+    "mit-look-for": {
+      "title": "What we look for",
+      "publisher": "MIT Admissions",
+      "url": "https://mitadmissions.org/apply/process/what-we-look-for/",
+      "official": true
+    },
+    "tcmb-rates": {
+      "title": "Indicative exchange rates, bulletin 2026/197 (19 October 2026)",
+      "publisher": "Central Bank of the Republic of Türkiye",
+      "url": "https://www.tcmb.gov.tr/kurlar/202610/19102026.xml",
+      "official": true
+    },
+    "bnm-reference": {
+      "title": "Kuala Lumpur USD/MYR reference rate",
+      "publisher": "Bank Negara Malaysia",
+      "url": "https://www.bnm.gov.my/en/kuala-lumpur-usd/myr-reference-rate",
+      "official": true
+    },
+    "rbnz-b1": {
+      "title": "Exchange rates and Trade Weighted Index (B1)",
+      "publisher": "Reserve Bank of New Zealand",
+      "url": "https://www.rbnz.govt.nz/statistics/series/exchange-and-interest-rates/exchange-rates-and-the-trade-weighted-index",
+      "official": true
+    },
+    "prothomalo-imo-2025": {
+      "title": "Bangladesh squad announced for the International Mathematical Olympiad",
+      "publisher": "Prothom Alo",
+      "url": "https://en.prothomalo.com/youth/41bumlzp5d",
+      "official": false
+    },
+    "tds-bdpho-2025": {
+      "title": "15th Bangladesh Physics Olympiad held at AIUB",
+      "publisher": "The Daily Star",
+      "url": "https://thedailystar.net/business/organisation-news/press-releases/news/15th-bangladesh-physics-olympiad-held-aiub-3840126",
+      "official": false
+    },
+    "du-bdcho-2026": {
+      "title": "15th Bangladesh Chemistry Olympiad 2026",
+      "publisher": "University of Dhaka, Department of Chemistry",
+      "url": "https://du.ac.bd/webPost/25/26323",
+      "official": true
+    },
+    "dt-bdbo-2026": {
+      "title": "Bangladesh Biology Olympiad 2026 held at AIUB",
+      "publisher": "Dhaka Tribune",
+      "url": "https://www.dhakatribune.com/bangladesh/409735/bangladesh-biology-olympiad-2026-held-at-aiub",
+      "official": false
+    },
+    "diu-bdoi-2024": {
+      "title": "Daffodil International University hosts Bangladesh Olympiad in Informatics 2024",
+      "publisher": "Daffodil International University",
+      "url": "https://news.daffodilvarsity.edu.bd/news/daffodil-international-university-hosts-bangladesh-olympiad-in-informatics-2024-a-showcase-of-budding-computational-talent",
+      "official": false
+    },
+    "observer-ioi-2024": {
+      "title": "Nahid congratulates Bangladesh team for gold at IOI 2024",
+      "publisher": "The Daily Observer",
+      "url": "https://observerbd.com/news/489031",
+      "official": false
+    },
+    "cassa-bdoaa-2026": {
+      "title": "BdOAA 2026 National Round",
+      "publisher": "CASSA, Independent University, Bangladesh",
+      "url": "https://cassa.site/news/bdoaa-2026-national-round",
+      "official": true
+    },
+    "fe-ijso-2025": {
+      "title": "Bangladesh wins 6 bronze medals at IJSO",
+      "publisher": "The Financial Express",
+      "url": "https://today.thefinancialexpress.com.bd/print/bd-wins-6-bronze-medals-at-ijso-1764952935",
+      "official": false
+    },
+    "bdosn-ioai-2026": {
+      "title": "Bangladesh Wins Three Bronze Medals at International AI Olympiad 2026",
+      "publisher": "Bangladesh Open Source Network",
+      "url": "https://bdosn.org/blog/blog/bangladesh-wins-three-bronze-medals-at-international-ai-olympiad-2026",
+      "official": true
+    },
+    "prothomalo-ieo-2025": {
+      "title": "5 students to represent Bangladesh at 2025 Int'l Economics Olympiad",
+      "publisher": "Prothom Alo",
+      "url": "https://en.prothomalo.com/youth/education/30n9rr29gh",
+      "official": false
+    },
+    "tbs-spaceapps-2024": {
+      "title": "27 Bangladesh teams to vie in NASA Space Apps Challenges-2024",
+      "publisher": "The Business Standard",
+      "url": "https://www.tbsnews.net/bangladesh/27-bangladesh-teams-vie-nasa-space-apps-challenges-2024-959676",
+      "official": false
+    },
+    "ets-toefl-fees": {
+      "title": "TOEFL iBT test fees",
+      "publisher": "ETS",
+      "url": "https://www.ets.org/toefl/test-takers/ibt/register/fees.html",
+      "official": true
+    },
+    "pte-fees": {
+      "title": "Test centers and fees",
+      "publisher": "Pearson PTE",
+      "url": "https://www.pearsonpte.com/test-centers-and-fees/",
+      "official": true
+    },
+    "det-test-takers": {
+      "title": "Test takers",
+      "publisher": "Duolingo English Test",
+      "url": "https://englishtest.duolingo.com/test_takers",
+      "official": true
+    },
+    "bb-fepd29": {
+      "title": "FE Circular No. 29: international cards for education payments abroad (10 August 2026)",
+      "publisher": "Bangladesh Bank",
+      "url": "https://www.bb.org.bd/mediaroom/circulars/fepd/aug102026fepd-129e.pdf",
+      "official": true
+    },
+    "dailystar-cards": {
+      "title": "Students can now pay overseas tuition by card",
+      "publisher": "The Daily Star (11 August 2026)",
+      "url": "https://www.thedailystar.net/business/economy/news/students-can-now-pay-overseas-tuition-card-4244776",
+      "official": false
+    },
+    "bankasia-studentfile": {
+      "title": "Student File Service",
+      "publisher": "Bank Asia",
+      "url": "https://www.bankasia-bd.com/other/international/Student-File-Service",
+      "official": true
+    },
+    "nuffic-bd": {
+      "title": "Grades and study results: Bangladesh",
+      "publisher": "Nuffic",
+      "url": "https://www.nuffic.nl/en/node/242",
+      "official": true
+    },
+    "ets-scale-update": {
+      "title": "TOEFL iBT score scale update",
+      "publisher": "ETS",
+      "url": "https://www.ets.org/toefl/institutions/ibt/score-scale-update.html",
+      "official": true
+    },
+    "pte-concordance": {
+      "title": "PTE Academic and IELTS Academic concordance: summary (July 2025)",
+      "publisher": "Pearson PTE",
+      "url": "https://www.pearsonpte.com/content/dam/ELL/pte/pearsonpte/pdfs/Concordance-study-summary-pte-academic-july-2025.pdf",
+      "official": true
+    },
+    "pte-scoring": {
+      "title": "PTE Academic scoring",
+      "publisher": "Pearson PTE",
+      "url": "https://www.pearsonpte.com/pte-academic/scoring/",
+      "official": true
+    },
+    "ielts-cefr": {
+      "title": "IELTS and the CEFR",
+      "publisher": "IELTS",
+      "url": "https://www.ielts.org/organisations/ielts-for-organisations/compare-ielts/ielts-and-the-cefr",
+      "official": true
+    },
+    "ielts-scoring": {
+      "title": "IELTS scoring in detail",
+      "publisher": "IELTS",
+      "url": "https://ielts.org/take-a-test/your-results/ielts-scoring-in-detail",
+      "official": true
+    },
+    "pte-score-guide": {
+      "title": "PTE Academic score guide for test takers (2024)",
+      "publisher": "Pearson PTE",
+      "url": "https://pearsonpte.com/ctf-assets/yqwtwibiobs4/6zw8wkJsHzW4YMclYkfyNc/f447188ca6d32672bb684acd68a5f64f/pte-academic-score-guide-2024-V2.pdf",
+      "official": true
+    }
+  },
+  "facts": [
+    {
+      "id": "passport.delivery",
+      "label": "E-passport: time from fingerprints to delivery",
+      "kind": "duration",
+      "value": {
+        "unit": "workingDays",
+        "variants": [
+          {
+            "label": "Regular",
+            "min": 15,
+            "max": 21
+          },
+          {
+            "label": "Express",
+            "min": 7,
+            "max": 10
+          },
+          {
+            "label": "Super express",
+            "min": 2,
+            "max": 2
+          }
+        ]
+      },
+      "status": "reported",
+      "source": "unb-epassport",
+      "where": "Section: E-Passport Fee Structure and Processing Time",
+      "checked": "2026-10-02",
+      "verified": "2026-10-02",
+      "note": "Counted from the day fingerprints and photo are taken at the passport office. The official portal was under maintenance on 2 October 2026, so Pathway uses this reported value and rechecks the portal before each release."
+    },
+    {
+      "id": "passport.fee",
+      "label": "E-passport fee",
+      "kind": "money",
+      "value": {
+        "currency": "BDT",
+        "variants": [
+          {
+            "label": "48 pages, 5 years, regular",
+            "amount": 4025
+          },
+          {
+            "label": "48 pages, 5 years, express",
+            "amount": 6325
+          },
+          {
+            "label": "48 pages, 5 years, super express",
+            "amount": 8625
+          },
+          {
+            "label": "48 pages, 10 years, regular",
+            "amount": 5750
+          },
+          {
+            "label": "48 pages, 10 years, express",
+            "amount": 8050
+          },
+          {
+            "label": "48 pages, 10 years, super express",
+            "amount": 10350
+          },
+          {
+            "label": "64 pages, 5 years, regular",
+            "amount": 6325
+          },
+          {
+            "label": "64 pages, 5 years, express",
+            "amount": 8625
+          },
+          {
+            "label": "64 pages, 5 years, super express",
+            "amount": 12075
+          },
+          {
+            "label": "64 pages, 10 years, regular",
+            "amount": 8050
+          },
+          {
+            "label": "64 pages, 10 years, express",
+            "amount": 10350
+          },
+          {
+            "label": "64 pages, 10 years, super express",
+            "amount": 13800
+          }
+        ]
+      },
+      "status": "reported",
+      "source": "unb-epassport",
+      "where": "Section: E-Passport Fee Structure and Processing Time",
+      "checked": "2026-10-02",
+      "verified": "2026-10-02",
+      "note": "Fees include tax. The official portal was under maintenance on 2 October 2026, so Pathway uses this reported value and rechecks the portal before each release."
+    },
+    {
+      "id": "nid.minimumAge",
+      "label": "Youngest age for a national ID card",
+      "kind": "number",
+      "value": {
+        "number": 16
+      },
+      "status": "reported",
+      "source": "tbs-nid16",
+      "where": "Opening paragraphs",
+      "checked": "2026-10-02",
+      "verified": "2026-10-02",
+      "note": "The Election Commission extended NID services from age 18 to citizens aged 16 and 17. A newly registered student may not yet hold the smart card with a chip that IELTS requires. The notification was issued on 22 February under Article 5 of the National Identity Registration (Amendment) Act 2010; the page does not show the year. No official copy could be found online, so Pathway uses this reported value."
+    },
+    {
+      "id": "ielts.bd.id",
+      "label": "IELTS in Bangladesh: accepted ID (British Council)",
+      "kind": "text",
+      "value": {
+        "text": "A valid passport or a smart national ID card with a chip, used for booking and brought as the original on test day. Students under 18 also need a parent consent form. IELTS is not recommended under age 16."
+      },
+      "status": "confirmed",
+      "source": "bc-bd-book",
+      "where": "Section: What you need to register for IELTS with the British Council, item 1",
+      "checked": "2026-10-02",
+      "verified": "2026-10-02",
+      "note": "British Council rules. For IELTS for UKVI, only a passport is accepted."
+    },
+    {
+      "id": "ielts.bd.format",
+      "label": "IELTS Academic at British Council Bangladesh",
+      "kind": "text",
+      "value": {
+        "text": "Offered as a computer test at British Council centres."
+      },
+      "status": "confirmed",
+      "source": "bc-bd-book",
+      "where": "Table under: Choose how to take your IELTS test and book online",
+      "checked": "2026-10-02",
+      "verified": "2026-10-02",
+      "note": ""
+    },
+    {
+      "id": "ielts.bd.fee",
+      "label": "IELTS Academic fee at British Council Bangladesh",
+      "kind": "money",
+      "value": {
+        "amount": 31100,
+        "currency": "BDT"
+      },
+      "status": "confirmed",
+      "source": "bc-bd-book",
+      "where": "Table row: IELTS Academic, in centre (computer)",
+      "checked": "2026-10-02",
+      "verified": "2026-10-02",
+      "note": "Older figures on other websites are out of date."
+    },
+    {
+      "id": "ielts.bd.idp",
+      "label": "IELTS Academic at IDP Bangladesh",
+      "kind": "text",
+      "value": {
+        "text": "Offered on computer at IDP centres in Dhaka for BDT 31,100, with results in 1 to 5 days and One Skill Retake available."
+      },
+      "status": "confirmed",
+      "source": "idp-bd",
+      "where": "Test session list for Dhaka, sessions on 5 October 2026",
+      "checked": "2026-10-02",
+      "verified": "2026-10-02",
+      "note": "Same fee and result time as the British Council. One Skill Retake lets a student retake a single section instead of the whole test."
+    },
+    {
+      "id": "ielts.bd.resultTime",
+      "label": "IELTS on computer: time until your official result",
+      "kind": "duration",
+      "value": {
+        "min": 1,
+        "max": 5,
+        "unit": "days"
+      },
+      "status": "confirmed",
+      "source": "bc-bd-results",
+      "where": "Section: When will I get my IELTS results?",
+      "checked": "2026-10-02",
+      "verified": "2026-10-02",
+      "note": "The result can be seen online 24 to 48 hours after the test. The official report, which universities need, can be downloaded 1 to 5 days after the test. The plan counts the official report and shows up to 5 days."
+    },
+    {
+      "id": "ielts.validity",
+      "label": "How long universities accept an IELTS result",
+      "kind": "duration",
+      "value": {
+        "max": 2,
+        "unit": "years"
+      },
+      "status": "confirmed",
+      "source": "bc-bd-results",
+      "where": "Section: How long are my IELTS results valid for?",
+      "checked": "2026-10-02",
+      "verified": "2026-10-02",
+      "note": "Organisations usually refuse results more than two years old."
+    },
+    {
+      "id": "ielts.retake",
+      "label": "Retaking IELTS",
+      "kind": "text",
+      "value": {
+        "text": "There is no limit on retakes. A test can be booked again as soon as you are ready."
+      },
+      "status": "confirmed",
+      "source": "bc-bd-results",
+      "where": "Section: Can I re-take my IELTS test to improve my IELTS results?",
+      "checked": "2026-10-02",
+      "verified": "2026-10-02",
+      "note": ""
+    },
+    {
+      "id": "ielts.bd.remark",
+      "label": "Asking for an IELTS re-mark (British Council)",
+      "kind": "text",
+      "value": {
+        "text": "Apply no later than six weeks after the test. The fee is BDT 12,500, refunded if any section's score goes up. The new result can take up to 21 days."
+      },
+      "status": "confirmed",
+      "source": "bc-bd-results",
+      "where": "Section: How can I get my IELTS test re-marked?",
+      "checked": "2026-10-02",
+      "verified": "2026-10-02",
+      "note": ""
+    },
+    {
+      "id": "compare.ielts.cefr",
+      "label": "IELTS bands and the CEFR (IELTS)",
+      "kind": "text",
+      "value": {
+        "text": "C2 is bands 8.5 and 9; C1 is 7, 7.5 and 8; B2 is 5.5, 6 and 6.5; B1 is 4, 4.5 and 5. Bands 5, 6.5 and 8 sit on the border between two levels."
+      },
+      "status": "confirmed",
+      "source": "ielts-cefr",
+      "where": "Chart of IELTS bands against CEFR levels",
+      "checked": "2026-10-25",
+      "verified": "2026-10-25",
+      "note": "Read from the chart on the page in a browser. IELTS stresses that its bands and the CEFR levels cannot be matched one to one."
+    },
+    {
+      "id": "ielts.overall",
+      "label": "How IELTS works out the overall band",
+      "kind": "text",
+      "value": {
+        "text": "The overall band is the average of the four section bands, rounded to the nearest half band. An average ending in .25 rounds up to the next half band, and one ending in .75 rounds up to the next whole band. Bands of 6.5, 6.5, 5.0 and 7.0 average 6.25, so the overall band is 6.5."
+      },
+      "status": "confirmed",
+      "source": "ielts-scoring",
+      "where": "Paragraphs on how the overall band score is calculated, with worked examples",
+      "checked": "2026-10-29",
+      "verified": "2026-10-29",
+      "note": ""
+    },
+    {
+      "id": "toefl.resultTime",
+      "label": "TOEFL iBT: time until your official score report",
+      "kind": "duration",
+      "value": {
+        "min": 3,
+        "max": 4,
+        "unit": "days"
+      },
+      "status": "confirmed",
+      "source": "ets-toefl-scores",
+      "where": "First paragraphs",
+      "checked": "2026-10-02",
+      "verified": "2026-10-02",
+      "note": "Scores reach your ETS account 3 days after the test, and the PDF score report is ready 1 day after that. The plan shows up to 4 days."
+    },
+    {
+      "id": "toefl.toInstitutions",
+      "label": "TOEFL iBT: time until universities receive your score",
+      "kind": "duration",
+      "value": {
+        "min": 4,
+        "max": 10,
+        "unit": "businessDays"
+      },
+      "status": "confirmed",
+      "source": "ets-toefl-scores",
+      "where": "Section: Sending your scores",
+      "checked": "2026-10-02",
+      "verified": "2026-10-02",
+      "note": "Counted from when scores are released, 3 days after the test. ETS Data Manager takes 4 to 8 business days and server feeds 8 to 10. The plan uses up to 10 business days."
+    },
+    {
+      "id": "toefl.freeReports",
+      "label": "TOEFL iBT: free score reports",
+      "kind": "text",
+      "value": {
+        "text": "The test fee includes up to four free score reports. Their recipients must be chosen by 10 p.m. on test day."
+      },
+      "status": "confirmed",
+      "source": "ets-toefl-scores",
+      "where": "Sections: Sending your scores and Additional score reports",
+      "checked": "2026-10-25",
+      "verified": "2026-10-25",
+      "note": "So the plan asks the student to choose four universities before test day. Each extra report has its own fee (see the next fact)."
+    },
+    {
+      "id": "toefl.extraReport",
+      "label": "TOEFL iBT: each extra score report",
+      "kind": "money",
+      "value": {
+        "amount": 29,
+        "currency": "USD"
+      },
+      "status": "confirmed",
+      "source": "ets-toefl-fees",
+      "where": "Other fees: additional score reports (per institution or agency)",
+      "checked": "2026-10-25",
+      "verified": "2026-10-25",
+      "note": "Prices exclude VAT or other taxes. Older pages give USD 25."
+    },
+    {
+      "id": "toefl.bd.fee",
+      "label": "TOEFL iBT test fee in Bangladesh",
+      "kind": "money",
+      "value": {
+        "amount": 215,
+        "currency": "USD"
+      },
+      "status": "confirmed",
+      "source": "ets-toefl-fees",
+      "where": "Registration fee table, Bangladesh",
+      "checked": "2026-10-25",
+      "verified": "2026-10-25",
+      "note": "Excluding VAT or other taxes. Registering within 7 days of the test costs USD 49 more, and rescheduling costs USD 69. Checked in a browser, because the country table loads by script."
+    },
+    {
+      "id": "toefl.scale",
+      "label": "TOEFL iBT score scale",
+      "kind": "text",
+      "value": {
+        "text": "Since 21 January 2026, scores are on a 1 to 6 scale in half points, for each section and overall. During a two-year transition, reports also show a comparable overall score on the old 0 to 120 scale."
+      },
+      "status": "confirmed",
+      "source": "ets-toefl-scale",
+      "where": "Section on the new score scale",
+      "checked": "2026-10-02",
+      "verified": "2026-10-02",
+      "note": ""
+    },
+    {
+      "id": "toefl.validity",
+      "label": "How long a TOEFL score is valid",
+      "kind": "duration",
+      "value": {
+        "max": 2,
+        "unit": "years"
+      },
+      "status": "confirmed",
+      "source": "ets-toefl-scores",
+      "where": "First paragraphs",
+      "checked": "2026-10-02",
+      "verified": "2026-10-02",
+      "note": ""
+    },
+    {
+      "id": "toefl.bd.id",
+      "label": "TOEFL iBT in Bangladesh: accepted ID",
+      "kind": "text",
+      "value": {
+        "text": "A valid passport with your name, photograph and signature. There are no exceptions."
+      },
+      "status": "confirmed",
+      "source": "ets-toefl-id",
+      "where": "Country list: Bangladesh, Bangladesh acceptable primary ID documents",
+      "checked": "2026-10-04",
+      "verified": "2026-10-04",
+      "note": "Shown only after choosing Bangladesh in the page's country list. A national ID card is not accepted."
+    },
+    {
+      "id": "compare.ielts.toefl",
+      "label": "IELTS scores on the TOEFL iBT 1 to 6 scale (ETS)",
+      "kind": "text",
+      "value": {
+        "text": "ETS's estimates: IELTS 9, 8.5 and 8 are about TOEFL 6; 7.5 is about 5.5; 7 about 5; 6.5 about 4.5; 6 about 4; 5.5 about 3.5; 5 about 2.5; 4.5 about 2; 4 about 1.5."
+      },
+      "status": "confirmed",
+      "source": "ets-scale-update",
+      "where": "Table comparing IELTS and the new TOEFL iBT scale",
+      "checked": "2026-10-25",
+      "verified": "2026-10-25",
+      "note": "ETS says it cannot predict an exact score on another test."
+    },
+    {
+      "id": "compare.toefl.oldScale",
+      "label": "The TOEFL iBT 1 to 6 scale and the old 0 to 120 scale (ETS)",
+      "kind": "text",
+      "value": {
+        "text": "6 matches 114 or more on the old scale; 5.5 matches 107 or more; 5, 95 or more; 4.5, 86 or more; 4, 72 or more; 3.5, 58 or more; 3, 44 or more; 2.5, 34 or more; 2, 24 or more; 1.5, 12 or more; 1, 0 or more."
+      },
+      "status": "confirmed",
+      "source": "ets-scale-update",
+      "where": "Table of comparable total scores",
+      "checked": "2026-10-25",
+      "verified": "2026-10-25",
+      "note": "Until January 2028, score reports also show the comparable score on the old scale."
+    },
+    {
+      "id": "compare.toefl.cefr",
+      "label": "The TOEFL iBT 1 to 6 scale and the CEFR (ETS)",
+      "kind": "text",
+      "value": {
+        "text": "6 is C2; 5.5 and 5 are C1; 4.5 and 4 are B2; 3.5 and 3 are B1; 2.5 and 2 are A2; 1.5 and 1 are A1."
+      },
+      "status": "confirmed",
+      "source": "ets-scale-update",
+      "where": "Scale alignment with the CEFR",
+      "checked": "2026-10-25",
+      "verified": "2026-10-25",
+      "note": ""
+    },
+    {
+      "id": "toefl.overall",
+      "label": "How ETS works out the TOEFL iBT overall score",
+      "kind": "text",
+      "value": {
+        "text": "On the 1 to 6 scale, the overall score is the average of the four section scores, rounded to the nearest half band: an average of 5.125 gives 5, and 5.25 gives 5.5. On the old 0 to 120 scale, the overall score is the sum of the four section scores."
+      },
+      "status": "confirmed",
+      "source": "ets-scale-update",
+      "where": "Paragraphs on how the overall score is calculated",
+      "checked": "2026-10-29",
+      "verified": "2026-10-29",
+      "note": ""
+    },
+    {
+      "id": "toefl.comparable",
+      "label": "The comparable 0 to 120 score on a new TOEFL iBT report",
+      "kind": "text",
+      "value": {
+        "text": "During the transition, a report on the 1 to 6 scale also shows a comparable total on the 0 to 120 scale: the midpoint of the range the overall score matches. A 4.5 comes with a 90."
+      },
+      "status": "confirmed",
+      "source": "ets-scale-update",
+      "where": "Paragraph on the comparable total score, and the answer on what a 4.5 comes with",
+      "checked": "2026-10-29",
+      "verified": "2026-10-29",
+      "note": "ETS lists no single number for each band. Where a range's midpoint falls between two whole numbers, Pathway shows both."
+    },
+    {
+      "id": "duolingo.resultTime",
+      "label": "Duolingo English Test: time until your result",
+      "kind": "duration",
+      "value": {
+        "max": 2,
+        "unit": "days"
+      },
+      "status": "confirmed",
+      "source": "det-official",
+      "where": "Help: faster results",
+      "checked": "2026-10-02",
+      "verified": "2026-10-02",
+      "note": "Standard results take two days. Paid faster results take 12 hours, are not refundable and do not guarantee a certified result."
+    },
+    {
+      "id": "duolingo.bd.id",
+      "label": "Duolingo English Test in Bangladesh: accepted ID",
+      "kind": "text",
+      "value": {
+        "text": "A passport or a driving licence. A national ID card is not accepted for Bangladesh. Photocopies, handwritten IDs and pictures of an ID on a phone are refused, and the name entered must match the ID exactly."
+      },
+      "status": "confirmed",
+      "source": "det-official",
+      "where": "Help: accepted identification and the ID table, row Bangladesh",
+      "checked": "2026-10-02",
+      "verified": "2026-10-02",
+      "note": "A student without a driving licence needs a passport for this test."
+    },
+    {
+      "id": "duolingo.scale",
+      "label": "Duolingo English Test score scale",
+      "kind": "text",
+      "value": {
+        "text": "Scores run from 10 to 160 in steps of 5."
+      },
+      "status": "confirmed",
+      "source": "det-scoring-guide",
+      "where": "Section 2.1, Overall Score",
+      "checked": "2026-10-03",
+      "verified": "2026-10-03",
+      "note": "Every score is a multiple of 5, so the plan's score question moves in steps of 5."
+    },
+    {
+      "id": "duolingo.validity",
+      "label": "How long a Duolingo English Test result is valid",
+      "kind": "duration",
+      "value": {
+        "max": 2,
+        "unit": "years"
+      },
+      "status": "confirmed",
+      "source": "det-help-validity",
+      "where": "Answer to the question in the title",
+      "checked": "2026-10-03",
+      "verified": "2026-10-03",
+      "note": "After two years the result cannot be shared, and universities can no longer view its certificate."
+    },
+    {
+      "id": "duolingo.fee",
+      "label": "Duolingo English Test price",
+      "kind": "money",
+      "value": {
+        "currency": "USD",
+        "variants": [
+          {
+            "label": "One test",
+            "amount": 70
+          },
+          {
+            "label": "Two tests bought together",
+            "amount": 118
+          }
+        ]
+      },
+      "status": "confirmed",
+      "source": "det-test-takers",
+      "where": "Choose test quantity, after signing in",
+      "checked": "2026-10-25",
+      "verified": "2026-10-25",
+      "note": "USD 59 each when two are bought together, shown down from USD 140. The same price in every country before tax. Checked in a browser after signing in."
+    },
+    {
+      "id": "compare.duolingo",
+      "label": "Duolingo English Test scores, the CEFR, IELTS and TOEFL (Duolingo)",
+      "kind": "text",
+      "value": {
+        "text": "160 is C2, IELTS 8.5 to 9, TOEFL 120; 155 is C2, IELTS 8, TOEFL 119; 150 is C1, 8, 117 to 118; 145 is C1, 7.5, 113 to 116; 140 is C1, 7.5, 109 to 112; 135 is C1, 7, 104 to 108; 130 is C1, 7, 98 to 103; 125 is B2, 6.5, 93 to 97; 120 is B2, 6.5, 87 to 92; 115 is B2, 6, 82 to 86; 110 is B2, 6, 76 to 81; 105 is B2, 6, 70 to 75; 100 is B2, 5.5, 65 to 69; 95 is B1, 5.5, 59 to 64; 90 is B1, 5, 53 to 58; 85 is B1, 5, 47 to 52; 80 is B1, 5, 41 to 46; 75 is B1, 4.5, 35 to 40; 70 is B1, 4.5, 30 to 34; 65 is B1, 4.5, 24 to 29; 60 is B1, 4, 18 to 23; 10 to 55 is A1 to A2, IELTS 0 to 4, TOEFL 0 to 17."
+      },
+      "status": "confirmed",
+      "source": "det-scoring-guide",
+      "where": "Score comparison table",
+      "checked": "2026-10-25",
+      "verified": "2026-10-25",
+      "note": "TOEFL here is the old 0 to 120 scale. Duolingo says the new TOEFL scale does not change the meaning of its scores, and points to ETS for the new scale."
+    },
+    {
+      "id": "duolingo.overall",
+      "label": "How Duolingo works out the overall score",
+      "kind": "text",
+      "value": {
+        "text": "The overall score is an average of the four subscores, Listening, Speaking, Reading and Writing, rounded up to the nearest 5."
+      },
+      "status": "confirmed",
+      "source": "det-scoring-guide",
+      "where": "Section 2.1, Overall score, and section 2.2, Subscores",
+      "checked": "2026-10-29",
+      "verified": "2026-10-29",
+      "note": "Duolingo's blog says the average is rounded to the nearest 5. Pathway's check holds either way."
+    },
+    {
+      "id": "pte.resultTime",
+      "label": "PTE Academic: time until your result",
+      "kind": "duration",
+      "value": {
+        "min": 2,
+        "max": 5,
+        "unit": "days"
+      },
+      "status": "confirmed",
+      "source": "pte-results",
+      "where": "Opening section and the section on waiting more than 5 days",
+      "checked": "2026-10-02",
+      "verified": "2026-10-02",
+      "note": "Most results arrive within 2 days. Pearson asks test takers to contact them if a result has not arrived after 5 days. The plan shows up to 5 days."
+    },
+    {
+      "id": "pte.id",
+      "label": "PTE Academic in Bangladesh: accepted ID",
+      "kind": "text",
+      "value": {
+        "text": "A valid passport, issued no more than 10 years ago."
+      },
+      "status": "confirmed",
+      "source": "pte-id-policy",
+      "where": "Section: PTE Academic, and the linked list of country exceptions",
+      "checked": "2026-10-04",
+      "verified": "2026-10-04",
+      "note": "Pearson accepts another ID only in the countries on its exceptions list, and Bangladesh is not on it."
+    },
+    {
+      "id": "pte.bd.fee",
+      "label": "PTE Academic test fee in Bangladesh",
+      "kind": "money",
+      "value": {
+        "amount": 220,
+        "currency": "USD"
+      },
+      "status": "confirmed",
+      "source": "pte-fees",
+      "where": "Test fees in Bangladesh: PTE Academic",
+      "checked": "2026-10-25",
+      "verified": "2026-10-25",
+      "note": "PTE Academic UKVI and PTE Core cost the same. Pearson lists 4 test centres in Bangladesh, including Dhaka and Chattogram. Checked in a browser, because the fee loads by script."
+    },
+    {
+      "id": "pte.validity",
+      "label": "How long a PTE Academic score is valid",
+      "kind": "duration",
+      "value": {
+        "max": 2,
+        "unit": "years"
+      },
+      "status": "confirmed",
+      "source": "pte-the-test",
+      "where": "Section on scores: valid for two years from the test date",
+      "checked": "2026-10-04",
+      "verified": "2026-10-04",
+      "note": "After two years a new test is needed."
+    },
+    {
+      "id": "compare.ielts.pte",
+      "label": "IELTS Academic scores on PTE Academic (Pearson)",
+      "kind": "text",
+      "value": {
+        "text": "IELTS 9.0 matches PTE 90; 8.5 matches 86 to 89; 8.0, 79 to 85; 7.5, 71 to 78; 7.0, 63 to 70; 6.5, 55 to 62; 6.0, 47 to 54; 5.5, 39 to 46; 5.0, 31 to 38; 4.5, 24 to 30."
+      },
+      "status": "confirmed",
+      "source": "pte-concordance",
+      "where": "Concordance table",
+      "checked": "2026-10-25",
+      "verified": "2026-10-25",
+      "note": "From Pearson's 2025 summary of its 2024 study. Pearson publishes no table for TOEFL."
+    },
+    {
+      "id": "compare.pte.cefr",
+      "label": "PTE Academic scores and the CEFR (Pearson)",
+      "kind": "text",
+      "value": {
+        "text": "A2 is about 30 to 42; B1, 36 to 58; B2, 50 to 75; C1, 59 to 82; C2, 76 to 90."
+      },
+      "status": "confirmed",
+      "source": "pte-scoring",
+      "where": "Chart of PTE Academic scores against CEFR levels",
+      "checked": "2026-10-25",
+      "verified": "2026-10-25",
+      "note": "The ranges overlap, so some scores sit in two levels."
+    },
+    {
+      "id": "pte.overall",
+      "label": "How Pearson works out the PTE Academic overall score",
+      "kind": "text",
+      "value": {
+        "text": "The overall score is based on performance across the whole test. It is not an average of the four communicative skills scores."
+      },
+      "status": "confirmed",
+      "source": "pte-score-guide",
+      "where": "Section 1, Overall score",
+      "checked": "2026-10-29",
+      "verified": "2026-10-29",
+      "note": ""
+    },
+    {
+      "id": "india.visa.status",
+      "label": "Indian visa for Bangladeshi citizens",
+      "kind": "text",
+      "value": {
+        "text": "India resumed regular tourist visas for Bangladeshi citizens on 28 June 2026, after a suspension of nearly two years. There is no e-visa for Bangladeshi passport holders, so every application goes through an IVAC centre."
+      },
+      "status": "reported",
+      "source": "edudaily-india",
+      "where": "Opening paragraphs",
+      "checked": "2026-10-02",
+      "verified": "2026-10-02",
+      "note": "Needed for countries whose permit appointments are in India, such as Finland. IVAC centres have closed suddenly before, for example in Chattogram in December 2025.",
+      "changesOften": true
+    },
+    {
+      "id": "india.visa.processing",
+      "label": "Indian visa processing time",
+      "kind": "duration",
+      "value": {
+        "min": 4,
+        "max": 7,
+        "unit": "workingDays"
+      },
+      "status": "reported",
+      "source": "tripzic-india",
+      "where": "Section: The visa situation",
+      "checked": "2026-10-02",
+      "verified": "2026-10-02",
+      "note": "Longer just after the June 2026 reopening because of demand. The plan adds two weeks of spare time around this step.",
+      "changesOften": true
+    },
+    {
+      "id": "pcc.how",
+      "label": "Bangladesh police clearance certificate: how to apply",
+      "kind": "text",
+      "value": {
+        "text": "Apply online at pcc.police.gov.bd with a Bangladeshi mobile number and a valid passport. The police station of the permanent address handles it. The government fee is BDT 500."
+      },
+      "status": "confirmed",
+      "source": "bhc-london-pcc",
+      "where": "Requirements list",
+      "checked": "2026-10-02",
+      "verified": "2026-10-02",
+      "note": "Needed for some visas, such as New Zealand's. A passport comes first."
+    },
+    {
+      "id": "pcc.processing",
+      "label": "Police clearance certificate processing time",
+      "kind": "duration",
+      "value": {
+        "min": 7,
+        "max": 30,
+        "unit": "workingDays"
+      },
+      "status": "reported",
+      "source": "isg-pcc",
+      "where": "Opening section",
+      "checked": "2026-10-02",
+      "verified": "2026-10-02",
+      "note": "Officially 7 to 15 working days; realistically 4 to 6 weeks, longer outside Dhaka. The plan uses up to 6 weeks (30 working days).",
+      "changesOften": true
+    },
+    {
+      "id": "sat.administrations",
+      "label": "SAT test dates",
+      "kind": "testDates",
+      "keyedBy": "testDate",
+      "values": [
+        {
+          "key": "2026-08-22",
+          "value": {
+            "test": "2026-08-22",
+            "register": "2026-08-07",
+            "lateRegister": "2026-08-11",
+            "scoresStudents": "2026-09-04",
+            "scoresColleges": "2026-09-08",
+            "time": "23:59",
+            "zone": "America/New_York"
+          },
+          "status": "confirmed",
+          "source": "cb-sat-flyer-intl",
+          "where": "Fall 2026 test dates and weekend score release dates",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": ""
+        },
+        {
+          "key": "2026-09-12",
+          "value": {
+            "test": "2026-09-12",
+            "register": "2026-08-28",
+            "lateRegister": "2026-09-01",
+            "scoresStudents": "2026-09-25",
+            "scoresColleges": "2026-09-28",
+            "time": "23:59",
+            "zone": "America/New_York"
+          },
+          "status": "confirmed",
+          "source": "cb-sat-flyer-intl",
+          "where": "Fall 2026 test dates and weekend score release dates",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": ""
+        },
+        {
+          "key": "2026-10-03",
+          "value": {
+            "test": "2026-10-03",
+            "register": "2026-09-18",
+            "lateRegister": "2026-09-22",
+            "scoresStudents": "2026-10-16",
+            "scoresColleges": "2026-10-19",
+            "time": "23:59",
+            "zone": "America/New_York"
+          },
+          "status": "confirmed",
+          "source": "cb-sat-flyer-intl",
+          "where": "Fall 2026 test dates and weekend score release dates",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": ""
+        },
+        {
+          "key": "2026-11-07",
+          "value": {
+            "test": "2026-11-07",
+            "register": "2026-10-23",
+            "lateRegister": "2026-10-27",
+            "scoresStudents": "2026-11-20",
+            "scoresColleges": "2026-11-23",
+            "time": "23:59",
+            "zone": "America/New_York"
+          },
+          "status": "confirmed",
+          "source": "cb-sat-flyer-intl",
+          "where": "Fall 2026 test dates and weekend score release dates",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": ""
+        },
+        {
+          "key": "2026-12-05",
+          "value": {
+            "test": "2026-12-05",
+            "register": "2026-11-20",
+            "lateRegister": "2026-11-24",
+            "scoresStudents": "2026-12-18",
+            "scoresColleges": "2026-12-21",
+            "time": "23:59",
+            "zone": "America/New_York"
+          },
+          "status": "confirmed",
+          "source": "cb-sat-flyer-intl",
+          "where": "Fall 2026 test dates and weekend score release dates",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": ""
+        },
+        {
+          "key": "2027-03-06",
+          "value": {
+            "test": "2027-03-06",
+            "register": "2027-02-19",
+            "lateRegister": "2027-02-23",
+            "scoresStudents": null,
+            "scoresColleges": null,
+            "time": "23:59",
+            "zone": "America/New_York"
+          },
+          "status": "confirmed",
+          "source": "cb-sat-dates",
+          "where": "Table: SAT Weekend August 2026 to June 2027 test dates",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "Score dates not published yet. The plan uses sat.scoreDelay until they are."
+        },
+        {
+          "key": "2027-05-01",
+          "value": {
+            "test": "2027-05-01",
+            "register": "2027-04-16",
+            "lateRegister": "2027-04-20",
+            "scoresStudents": null,
+            "scoresColleges": null,
+            "time": "23:59",
+            "zone": "America/New_York"
+          },
+          "status": "confirmed",
+          "source": "cb-sat-dates",
+          "where": "Table: SAT Weekend August 2026 to June 2027 test dates",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "Score dates not published yet. The plan uses sat.scoreDelay until they are."
+        },
+        {
+          "key": "2027-06-05",
+          "value": {
+            "test": "2027-06-05",
+            "register": "2027-05-21",
+            "lateRegister": "2027-05-25",
+            "scoresStudents": null,
+            "scoresColleges": null,
+            "time": "23:59",
+            "zone": "America/New_York"
+          },
+          "status": "confirmed",
+          "source": "cb-sat-dates",
+          "where": "Table: SAT Weekend August 2026 to June 2027 test dates",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "Score dates not published yet. The plan uses sat.scoreDelay until they are."
+        },
+        {
+          "key": "2027-08-28",
+          "value": {
+            "test": "2027-08-28",
+            "register": null,
+            "lateRegister": null,
+            "scoresStudents": null,
+            "scoresColleges": null
+          },
+          "status": "expected",
+          "source": "cb-sat-dates",
+          "where": "Anticipated 2027-28 test dates",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "College Board lists this date as anticipated. Deadlines follow when confirmed."
+        },
+        {
+          "key": "2027-09-18",
+          "value": {
+            "test": "2027-09-18",
+            "register": null,
+            "lateRegister": null,
+            "scoresStudents": null,
+            "scoresColleges": null
+          },
+          "status": "expected",
+          "source": "cb-sat-dates",
+          "where": "Anticipated 2027-28 test dates",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "College Board lists this date as anticipated. Deadlines follow when confirmed."
+        },
+        {
+          "key": "2027-10-09",
+          "value": {
+            "test": "2027-10-09",
+            "register": null,
+            "lateRegister": null,
+            "scoresStudents": null,
+            "scoresColleges": null
+          },
+          "status": "expected",
+          "source": "cb-sat-dates",
+          "where": "Anticipated SAT Weekend 2027-28 test dates, marked Updated",
+          "checked": "2026-10-03",
+          "verified": "2026-10-03",
+          "note": "College Board lists this date as anticipated and moved it from 2 October to 9 October 2027. Deadlines follow when confirmed."
+        },
+        {
+          "key": "2027-11-06",
+          "value": {
+            "test": "2027-11-06",
+            "register": null,
+            "lateRegister": null,
+            "scoresStudents": null,
+            "scoresColleges": null
+          },
+          "status": "expected",
+          "source": "cb-sat-dates",
+          "where": "Anticipated 2027-28 test dates",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "College Board lists this date as anticipated. Deadlines follow when confirmed."
+        },
+        {
+          "key": "2027-12-04",
+          "value": {
+            "test": "2027-12-04",
+            "register": null,
+            "lateRegister": null,
+            "scoresStudents": null,
+            "scoresColleges": null
+          },
+          "status": "expected",
+          "source": "cb-sat-dates",
+          "where": "Anticipated 2027-28 test dates",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "College Board lists this date as anticipated. Deadlines follow when confirmed."
+        },
+        {
+          "key": "2028-03-04",
+          "value": {
+            "test": "2028-03-04",
+            "register": null,
+            "lateRegister": null,
+            "scoresStudents": null,
+            "scoresColleges": null
+          },
+          "status": "expected",
+          "source": "cb-sat-dates",
+          "where": "Anticipated 2027-28 test dates",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "College Board lists this date as anticipated. Deadlines follow when confirmed."
+        },
+        {
+          "key": "2028-05-06",
+          "value": {
+            "test": "2028-05-06",
+            "register": null,
+            "lateRegister": null,
+            "scoresStudents": null,
+            "scoresColleges": null
+          },
+          "status": "expected",
+          "source": "cb-sat-dates",
+          "where": "Anticipated 2027-28 test dates",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "College Board lists this date as anticipated. Deadlines follow when confirmed."
+        },
+        {
+          "key": "2028-06-03",
+          "value": {
+            "test": "2028-06-03",
+            "register": null,
+            "lateRegister": null,
+            "scoresStudents": null,
+            "scoresColleges": null
+          },
+          "status": "expected",
+          "source": "cb-sat-dates",
+          "where": "Anticipated 2027-28 test dates",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "College Board lists this date as anticipated. Deadlines follow when confirmed."
+        }
+      ]
+    },
+    {
+      "id": "sat.scoreDelay",
+      "label": "SAT: time from test day until colleges can see your score",
+      "kind": "duration",
+      "value": {
+        "min": 16,
+        "max": 17,
+        "unit": "days"
+      },
+      "status": "expected",
+      "source": "cb-sat-flyer-intl",
+      "where": "Fall 2026 weekend score release dates, column: Scores available to educators",
+      "checked": "2026-10-02",
+      "verified": "2026-10-02",
+      "note": "Worked out from the five fall 2026 dates, where colleges see scores 16 or 17 days after the test. Used only for test dates whose release dates are not yet published."
+    },
+    {
+      "id": "sat.registerLead",
+      "label": "SAT: days from the registration deadline to test day",
+      "kind": "number",
+      "value": {
+        "number": 15
+      },
+      "status": "expected",
+      "source": "cb-sat-dates",
+      "where": "Table: SAT Weekend test dates, column: Registration Deadline",
+      "checked": "2026-10-03",
+      "verified": "2026-10-03",
+      "note": "Worked out from all eight published test dates from August 2026 to June 2027, where registration closes 15 days before the test, on a Friday. Used only for test dates whose registration deadline is not yet published."
+    },
+    {
+      "id": "sat.lateRegisterLead",
+      "label": "SAT: days from the late registration deadline to test day",
+      "kind": "number",
+      "value": {
+        "number": 11
+      },
+      "status": "expected",
+      "source": "cb-sat-dates",
+      "where": "Table: SAT Weekend test dates, column: Deadline for Changes, Regular Cancellation, and Late Registration",
+      "checked": "2026-10-03",
+      "verified": "2026-10-03",
+      "note": "Worked out from the same eight test dates, where late registration closes 11 days before the test, on a Tuesday, and costs USD 38 more. Used only for test dates whose late deadline is not yet published."
+    },
+    {
+      "id": "sat.monthPattern",
+      "label": "SAT test months each school year",
+      "kind": "months",
+      "value": {
+        "months": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          3,
+          5,
+          6
+        ]
+      },
+      "status": "expected",
+      "source": "cb-sat-dates",
+      "where": "Tables for 2026-27 and anticipated 2027-28 test dates",
+      "checked": "2026-10-02",
+      "verified": "2026-10-02",
+      "note": "Both published years use August, September, October, November, December, March, May and June. Used for years not yet published, at month precision."
+    },
+    {
+      "id": "sat.lateFee",
+      "label": "SAT late registration fee",
+      "kind": "money",
+      "value": {
+        "amount": 38,
+        "currency": "USD"
+      },
+      "status": "confirmed",
+      "source": "cb-sat-flyer-intl",
+      "where": "Test dates and registration deadlines, first paragraph",
+      "checked": "2026-10-02",
+      "verified": "2026-10-02",
+      "note": ""
+    },
+    {
+      "id": "sat.deviceLoan",
+      "label": "SAT: borrowing a device for the test",
+      "kind": "text",
+      "value": {
+        "text": "Students who need to borrow a device from College Board must register and request it at least 30 days before test day."
+      },
+      "status": "confirmed",
+      "source": "cb-sat-dates",
+      "where": "Note under the test dates table",
+      "checked": "2026-10-02",
+      "verified": "2026-10-02",
+      "note": ""
+    },
+    {
+      "id": "hsc.exams",
+      "label": "HSC written exams",
+      "kind": "window",
+      "keyedBy": "hscYear",
+      "values": [
+        {
+          "key": "2026",
+          "value": {
+            "from": "2026-07-02",
+            "to": "2026-08-08"
+          },
+          "status": "reported",
+          "source": "prothomalo-hsc2026",
+          "where": "Opening paragraphs",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "Practical exams finished by 15 August. Some Chattogram board exams were postponed after natural disasters and held later."
+        },
+        {
+          "key": "2027",
+          "value": {
+            "from": "2027-06-06",
+            "to": "2027-07-13"
+          },
+          "status": "reported",
+          "source": "teachers-hsc2027",
+          "where": "Draft routine table and the paragraph above it",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "From the draft routine, which starts with Bangla first paper on Sunday 6 June 2027. The page says the final routine comes a few months before the exam. The board's own site no longer lists this older notice. Dates can still move: for 2026 the boards first chose 7 June, then moved the start to 2 July."
+        },
+        {
+          "key": "2028",
+          "value": {
+            "from": "2028-06",
+            "to": "2028-07"
+          },
+          "status": "expected",
+          "source": "teachers-hsc2027",
+          "where": "Paragraph on moving HSC exams to June and July",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "Expected from the move to June and July exams shown in the 2027 draft routine. Month only, because no exact day is known this far ahead."
+        },
+        {
+          "key": "2029",
+          "value": {
+            "from": "2029-06",
+            "to": "2029-07"
+          },
+          "status": "expected",
+          "source": "teachers-hsc2027",
+          "where": "Paragraph on moving HSC exams to June and July",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "Expected from the move to June and July exams shown in the 2027 draft routine. Month only, because no exact day is known this far ahead."
+        },
+        {
+          "key": "2030",
+          "value": {
+            "from": "2030-06",
+            "to": "2030-07"
+          },
+          "status": "expected",
+          "source": "teachers-hsc2027",
+          "where": "Paragraph on moving HSC exams to June and July",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected from the move to June and July exams shown in the 2027 draft routine. Month only, because no exact day is known this far ahead."
+        },
+        {
+          "key": "2031",
+          "value": {
+            "from": "2031-06",
+            "to": "2031-07"
+          },
+          "status": "expected",
+          "source": "teachers-hsc2027",
+          "where": "Paragraph on moving HSC exams to June and July",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected from the move to June and July exams shown in the 2027 draft routine. Month only, because no exact day is known this far ahead."
+        }
+      ]
+    },
+    {
+      "id": "hsc.results",
+      "label": "HSC results published",
+      "kind": "window",
+      "keyedBy": "hscYear",
+      "values": [
+        {
+          "key": "2026",
+          "value": {
+            "from": "2026-11-07",
+            "to": "2026-11-15"
+          },
+          "status": "reported",
+          "source": "dhakatribune-hsc2026",
+          "where": "Opening paragraphs",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "Stated by the president of the Inter-Education Board Coordination Committee on 23 September 2026. Results usually come within 60 days of the last written exam."
+        },
+        {
+          "key": "2027",
+          "value": {
+            "from": "2027-08",
+            "to": "2027-09"
+          },
+          "status": "expected",
+          "source": "dhakatribune-hsc2026",
+          "where": "Paragraph on the 60-day practice",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "Expected within about 60 days of the last written exam on 13 July 2027, which is by 11 September 2027. Moves if the exam dates move."
+        },
+        {
+          "key": "2028",
+          "value": {
+            "from": "2028-08",
+            "to": "2028-09"
+          },
+          "status": "expected",
+          "source": "dhakatribune-hsc2026",
+          "where": "Paragraph on the 60-day practice",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "Expected within about 60 days of exams ending in July. Month only."
+        },
+        {
+          "key": "2029",
+          "value": {
+            "from": "2029-08",
+            "to": "2029-09"
+          },
+          "status": "expected",
+          "source": "dhakatribune-hsc2026",
+          "where": "Paragraph on the 60-day practice",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "Expected within about 60 days of exams ending in July. Month only."
+        },
+        {
+          "key": "2030",
+          "value": {
+            "from": "2030-08",
+            "to": "2030-09"
+          },
+          "status": "expected",
+          "source": "dhakatribune-hsc2026",
+          "where": "Paragraph on the 60-day practice",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected within about 60 days of exams ending in July. Month only."
+        },
+        {
+          "key": "2031",
+          "value": {
+            "from": "2031-08",
+            "to": "2031-09"
+          },
+          "status": "expected",
+          "source": "dhakatribune-hsc2026",
+          "where": "Paragraph on the 60-day practice",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected within about 60 days of exams ending in July. Month only."
+        }
+      ]
+    },
+    {
+      "id": "alevel.cambridge.results",
+      "label": "Cambridge International AS and A Level results",
+      "kind": "date",
+      "keyedBy": "series",
+      "values": [
+        {
+          "key": "2026-11",
+          "value": {
+            "date": "2027-01-07",
+            "time": "06:00",
+            "zone": "UTC"
+          },
+          "status": "confirmed",
+          "source": "cie-nov2026",
+          "where": "First paragraph",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "Schools can give results to students straight away."
+        },
+        {
+          "key": "2027-06",
+          "value": {
+            "date": "2027-08"
+          },
+          "status": "expected",
+          "source": "cie-dates",
+          "where": "Calendar entry: Mid-August, grades available for the June series",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "Cambridge gives mid-August for June series results. The exact day comes nearer the time."
+        },
+        {
+          "key": "2027-11",
+          "value": {
+            "date": "2028-01"
+          },
+          "status": "expected",
+          "source": "cie-nov2026",
+          "where": "First paragraph",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "November series results come in January; the November 2026 series came on 7 January 2027."
+        },
+        {
+          "key": "2028-06",
+          "value": {
+            "date": "2028-08"
+          },
+          "status": "expected",
+          "source": "cie-dates",
+          "where": "Calendar entry: Mid-August, June series results",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "Cambridge gives mid-August for June series results."
+        },
+        {
+          "key": "2028-11",
+          "value": {
+            "date": "2029-01"
+          },
+          "status": "expected",
+          "source": "cie-nov2026",
+          "where": "First paragraph",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "November series results come in January; the November 2026 series came on 7 January 2027."
+        },
+        {
+          "key": "2029-06",
+          "value": {
+            "date": "2029-08"
+          },
+          "status": "expected",
+          "source": "cie-dates",
+          "where": "Calendar entry: Mid-August, June series results",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "Cambridge gives mid-August for June series results."
+        },
+        {
+          "key": "2029-11",
+          "value": {
+            "date": "2030-01"
+          },
+          "status": "expected",
+          "source": "cie-nov2026",
+          "where": "First paragraph",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "November series results come in January; the November 2026 series came on 7 January 2027."
+        },
+        {
+          "key": "2030-06",
+          "value": {
+            "date": "2030-08"
+          },
+          "status": "expected",
+          "source": "cie-dates",
+          "where": "Calendar entry: Mid-August, June series results",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Cambridge gives mid-August for June series results."
+        },
+        {
+          "key": "2030-11",
+          "value": {
+            "date": "2031-01"
+          },
+          "status": "expected",
+          "source": "cie-nov2026",
+          "where": "First paragraph",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "November series results come in January; the November 2026 series came on 7 January 2027."
+        },
+        {
+          "key": "2031-06",
+          "value": {
+            "date": "2031-08"
+          },
+          "status": "expected",
+          "source": "cie-dates",
+          "where": "Calendar entry: Mid-August, June series results",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Cambridge gives mid-August for June series results."
+        },
+        {
+          "key": "2031-11",
+          "value": {
+            "date": "2032-01"
+          },
+          "status": "expected",
+          "source": "cie-nov2026",
+          "where": "First paragraph",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "November series results come in January; the November 2026 series came on 7 January 2027."
+        }
+      ]
+    },
+    {
+      "id": "alevel.edexcel.results",
+      "label": "Pearson Edexcel International A Level results",
+      "kind": "date",
+      "keyedBy": "series",
+      "values": [
+        {
+          "key": "2026-10",
+          "value": {
+            "date": "2027-01-21"
+          },
+          "status": "reported",
+          "source": "tutopiya-ial-oct2026",
+          "where": "Section: What's confirmed",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "Released to centres on 20 January and to students on 21 January. Pearson's own table gave 22 January 2026 for the October 2025 series, which matches the pattern."
+        },
+        {
+          "key": "2027-06",
+          "value": {
+            "date": "2027-08"
+          },
+          "status": "expected",
+          "source": "pearson-results",
+          "where": "Results dates table",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "Summer series results come in August. The exact day is published by Pearson nearer the time."
+        },
+        {
+          "key": "2027-10",
+          "value": {
+            "date": "2028-01"
+          },
+          "status": "expected",
+          "source": "pearson-results",
+          "where": "Results dates table",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "October series results come in January."
+        },
+        {
+          "key": "2028-06",
+          "value": {
+            "date": "2028-08"
+          },
+          "status": "expected",
+          "source": "pearson-results",
+          "where": "Results dates table",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "Summer series results come in August."
+        },
+        {
+          "key": "2028-10",
+          "value": {
+            "date": "2029-01"
+          },
+          "status": "expected",
+          "source": "pearson-results",
+          "where": "Results dates table",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "October series results come in January."
+        },
+        {
+          "key": "2029-06",
+          "value": {
+            "date": "2029-08"
+          },
+          "status": "expected",
+          "source": "pearson-results",
+          "where": "Results dates table",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "Summer series results come in August."
+        },
+        {
+          "key": "2029-10",
+          "value": {
+            "date": "2030-01"
+          },
+          "status": "expected",
+          "source": "pearson-results",
+          "where": "Results dates table",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "October series results come in January."
+        },
+        {
+          "key": "2030-06",
+          "value": {
+            "date": "2030-08"
+          },
+          "status": "expected",
+          "source": "pearson-results",
+          "where": "Results dates table",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Summer series results come in August."
+        },
+        {
+          "key": "2030-10",
+          "value": {
+            "date": "2031-01"
+          },
+          "status": "expected",
+          "source": "pearson-results",
+          "where": "Results dates table",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "October series results come in January."
+        },
+        {
+          "key": "2031-06",
+          "value": {
+            "date": "2031-08"
+          },
+          "status": "expected",
+          "source": "pearson-results",
+          "where": "Results dates table",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Summer series results come in August."
+        },
+        {
+          "key": "2031-10",
+          "value": {
+            "date": "2032-01"
+          },
+          "status": "expected",
+          "source": "pearson-results",
+          "where": "Results dates table",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "October series results come in January."
+        }
+      ]
+    },
+    {
+      "id": "school.gradeBands",
+      "label": "SSC and HSC grades: marks and grade points",
+      "kind": "text",
+      "value": {
+        "text": "A+ for 80 to 100 marks, 5 grade points; A for 70 to 79, 4; A- for 60 to 69, 3.5; B for 50 to 59, 3; C for 40 to 49, 2; D for 33 to 39, 1; F for 0 to 32, 0."
+      },
+      "status": "confirmed",
+      "source": "nuffic-bd",
+      "where": "Secondary education: table of letter grades, class intervals and grade points",
+      "checked": "2026-10-25",
+      "verified": "2026-10-25",
+      "note": "The same table is printed on HSC transcripts. The education boards' own grading page did not open when it was checked."
+    },
+    {
+      "id": "fx.usd",
+      "label": "Taka per US dollar (Bangladesh Bank)",
+      "kind": "number",
+      "keyedBy": "observedOn",
+      "values": [
+        {
+          "key": "2026-10-19",
+          "value": {
+            "number": 123.65
+          },
+          "status": "confirmed",
+          "source": "bb-fx",
+          "where": "Table: USD, column WAR (weighted average rate)",
+          "checked": "2026-10-20",
+          "verified": "2026-10-21",
+          "note": "The interbank weighted average rate at Dhaka close. Banks charge students a little more."
+        }
+      ],
+      "changesOften": true
+    },
+    {
+      "id": "sat.fee",
+      "label": "SAT registration fee",
+      "kind": "money",
+      "keyedBy": "academicYear",
+      "values": [
+        {
+          "key": "2026",
+          "value": {
+            "amount": 68,
+            "currency": "USD"
+          },
+          "status": "confirmed",
+          "source": "cb-intl-fees",
+          "where": "The SAT registration fee is $68, plus a $43 international fee",
+          "checked": "2026-10-23",
+          "verified": "2026-10-23",
+          "note": "Students testing outside the USA also pay the international fee."
+        }
+      ]
+    },
+    {
+      "id": "sat.internationalFee",
+      "label": "SAT international fee",
+      "kind": "money",
+      "keyedBy": "academicYear",
+      "values": [
+        {
+          "key": "2026",
+          "value": {
+            "amount": 43,
+            "currency": "USD"
+          },
+          "status": "confirmed",
+          "source": "cb-intl-fees",
+          "where": "The SAT registration fee is $68, plus a $43 international fee",
+          "checked": "2026-10-23",
+          "verified": "2026-10-23",
+          "note": "Added to the registration fee for every test outside the USA."
+        }
+      ]
+    },
+    {
+      "id": "profile.mit.depth",
+      "label": "Depth over breadth in activities (MIT)",
+      "kind": "text",
+      "value": {
+        "text": "MIT says it does not expect applicants to do a million things, and asks them to choose quality over quantity. It also says MIT is not all about work, and looks for the ability to keep a balance, through rest, personal interests or caring for others in your family."
+      },
+      "status": "confirmed",
+      "source": "mit-look-for",
+      "where": "Sections on activities and balance",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "profile.bdmo",
+      "label": "Bangladesh Mathematical Olympiad",
+      "kind": "text",
+      "value": {
+        "text": "A yearly nationwide series of mathematics competitions, open to school and college students up to class 12. It also selects Bangladesh's team for the International Mathematical Olympiad."
+      },
+      "status": "confirmed",
+      "source": "bdmo-about",
+      "where": "About us",
+      "checked": "2026-10-24",
+      "verified": "2026-10-24",
+      "note": ""
+    },
+    {
+      "id": "fx.eur",
+      "label": "Taka per euro (Bangladesh Bank)",
+      "kind": "number",
+      "keyedBy": "observedOn",
+      "values": [
+        {
+          "key": "2026-10-19",
+          "value": {
+            "number": 138.99
+          },
+          "status": "confirmed",
+          "source": "bb-fx",
+          "where": "Table B: cross rates, EUR, bid 138.9140 and ask 139.0613",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "The midpoint of Bangladesh Bank's bid and ask cross rates. Banks charge students a little more."
+        }
+      ],
+      "changesOften": true
+    },
+    {
+      "id": "fx.try",
+      "label": "Taka per Turkish lira (worked out through the US dollar)",
+      "kind": "number",
+      "keyedBy": "observedOn",
+      "values": [
+        {
+          "key": "2026-10-19",
+          "value": {
+            "number": 2.4976
+          },
+          "status": "reported",
+          "source": "tcmb-rates",
+          "where": "US dollar: forex buying 49.4632, forex selling 49.5523",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Bangladesh Bank publishes no lira rate. This is Bangladesh Bank's US dollar weighted average rate of 123.65 taka, divided by the midpoint of the Turkish central bank's dollar rates (49.5078 lira), on 19 October 2026."
+        }
+      ],
+      "changesOften": true
+    },
+    {
+      "id": "fx.myr",
+      "label": "Taka per Malaysian ringgit (worked out through the US dollar)",
+      "kind": "number",
+      "keyedBy": "observedOn",
+      "values": [
+        {
+          "key": "2026-10-19",
+          "value": {
+            "number": 30.2975
+          },
+          "status": "reported",
+          "source": "bnm-reference",
+          "where": "Reference rate for 19 October 2026: 4.0812",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Bangladesh Bank publishes no ringgit rate. This is Bangladesh Bank's US dollar weighted average rate of 123.65 taka, divided by Bank Negara Malaysia's reference rate of 4.0812 ringgit per dollar, on 19 October 2026. Bangladesh Bank's figure is from its exchange rate page (source bb-fx)."
+        }
+      ],
+      "changesOften": true
+    },
+    {
+      "id": "fx.nzd",
+      "label": "Taka per New Zealand dollar (worked out through the US dollar)",
+      "kind": "number",
+      "keyedBy": "observedOn",
+      "values": [
+        {
+          "key": "2026-10-19",
+          "value": {
+            "number": 69.9426
+          },
+          "status": "reported",
+          "source": "rbnz-b1",
+          "where": "Daily rates, 19 October 2026: 0.56565 US dollars per New Zealand dollar",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Bangladesh Bank publishes no New Zealand dollar rate. This is Bangladesh Bank's US dollar weighted average rate of 123.65 taka, multiplied by the Reserve Bank of New Zealand's rate of 0.56565 US dollars per New Zealand dollar, on 19 October 2026. Bangladesh Bank's figure is from its exchange rate page (source bb-fx)."
+        }
+      ],
+      "changesOften": true
+    },
+    {
+      "id": "olympiad.maths",
+      "label": "Bangladesh Mathematical Olympiad team for the IMO",
+      "kind": "text",
+      "value": {
+        "text": "For the 2025 International Mathematical Olympiad, students first took an online selection round, then regional maths festivals in 15 cities, a national festival in Dhaka and a national camp. The Bangladesh Mathematical Olympiad Committee chose the six-member team from the camp and selection tests. The team ran from class 10 to class 12."
+      },
+      "status": "reported",
+      "source": "prothomalo-imo-2025",
+      "where": "Team announcement for the 66th IMO, 22 June 2025",
+      "checked": "2026-10-23",
+      "verified": "2026-10-23",
+      "note": ""
+    },
+    {
+      "id": "olympiad.physics",
+      "label": "Bangladesh Physics Olympiad",
+      "kind": "text",
+      "value": {
+        "text": "Run by the Bangladesh Physics Olympiad Committee. In 2025 about 10,000 students entered the regional round and about 1,400 reached the national round, and five students were chosen to represent Bangladesh at the International Physics Olympiad."
+      },
+      "status": "reported",
+      "source": "tds-bdpho-2025",
+      "where": "Report on the 2025 national round, 5 March 2025",
+      "checked": "2026-10-23",
+      "verified": "2026-10-23",
+      "note": ""
+    },
+    {
+      "id": "olympiad.chemistry",
+      "label": "Bangladesh Chemistry Olympiad",
+      "kind": "text",
+      "value": {
+        "text": "Run by the University of Dhaka's Department of Chemistry with the Bangladesh Chemical Society. The 2026 preliminary round was held in 15 regions, with the final round at the Department of Chemistry, and its winners could take part in the International Chemistry Olympiad."
+      },
+      "status": "confirmed",
+      "source": "du-bdcho-2026",
+      "where": "Event notice for the 2026 olympiad",
+      "checked": "2026-10-23",
+      "verified": "2026-10-23",
+      "note": ""
+    },
+    {
+      "id": "olympiad.biology",
+      "label": "Bangladesh Biology Olympiad",
+      "kind": "text",
+      "value": {
+        "text": "Organised by the Bangladesh Biology Olympiad Committee. In 2026 students came through 10 regional biology festivals to a national round of written and multiple-choice tests on the International Biology Olympiad syllabus, and 20 went on to a camp to prepare the team for the International Biology Olympiad."
+      },
+      "status": "reported",
+      "source": "dt-bdbo-2026",
+      "where": "Report on the 2026 national round, 9 May 2026",
+      "checked": "2026-10-23",
+      "verified": "2026-10-23",
+      "note": ""
+    },
+    {
+      "id": "olympiad.informatics",
+      "label": "Bangladesh Olympiad in Informatics",
+      "kind": "text",
+      "value": {
+        "text": "A national programming olympiad for pre-university students, run by the Bangladesh Informatics Olympiad Committee and modelled on the International Olympiad in Informatics."
+      },
+      "status": "reported",
+      "source": "diu-bdoi-2024",
+      "where": "Report on the 2024 olympiad, held on 26 and 27 April 2024",
+      "checked": "2026-10-23",
+      "verified": "2026-10-23",
+      "note": ""
+    },
+    {
+      "id": "olympiad.informatics.ioi",
+      "label": "Bangladesh at the International Olympiad in Informatics",
+      "kind": "text",
+      "value": {
+        "text": "Bangladesh has taken part in the International Olympiad in Informatics since 2004, and won its first gold medal there in 2024."
+      },
+      "status": "reported",
+      "source": "observer-ioi-2024",
+      "where": "Report of 6 September 2024",
+      "checked": "2026-10-23",
+      "verified": "2026-10-23",
+      "note": ""
+    },
+    {
+      "id": "olympiad.astronomy",
+      "label": "Bangladesh Olympiad on Astronomy and Astrophysics",
+      "kind": "text",
+      "value": {
+        "text": "Run by CASSA, the astronomy centre of Independent University, Bangladesh. Students pass regional rounds in Junior, Senior and Open categories, and the national round chooses the team for the International Olympiad on Astronomy and Astrophysics."
+      },
+      "status": "confirmed",
+      "source": "cassa-bdoaa-2026",
+      "where": "Notice of the 2026 national round, 18 April 2026",
+      "checked": "2026-10-23",
+      "verified": "2026-10-23",
+      "note": ""
+    },
+    {
+      "id": "olympiad.juniorScience",
+      "label": "International Junior Science Olympiad team from Bangladesh",
+      "kind": "text",
+      "value": {
+        "text": "Bangladesh's team for the International Junior Science Olympiad is chosen jointly by the Bangladesh Science Popularization Association and the Bangladesh Freedom Foundation. The 2025 team of six included students from class 8 to class 10, and all six won bronze medals."
+      },
+      "status": "reported",
+      "source": "fe-ijso-2025",
+      "where": "Report of 6 December 2025",
+      "checked": "2026-10-23",
+      "verified": "2026-10-23",
+      "note": ""
+    },
+    {
+      "id": "olympiad.ai",
+      "label": "Bangladesh AI Olympiad",
+      "kind": "text",
+      "value": {
+        "text": "Organised by the Bangladesh Open Source Network. Students go through regional and national rounds and a national selection camp, which chose four students for the 2026 International Olympiad in Artificial Intelligence. They won three bronze medals."
+      },
+      "status": "confirmed",
+      "source": "bdosn-ioai-2026",
+      "where": "Report on the 2026 International AI Olympiad",
+      "checked": "2026-10-23",
+      "verified": "2026-10-23",
+      "note": ""
+    },
+    {
+      "id": "olympiad.economics",
+      "label": "Bangladesh Economics Olympiad",
+      "kind": "text",
+      "value": {
+        "text": "Run by the Bangladesh Economics Olympiad Foundation. For 2025, five students were chosen from nearly a thousand to represent Bangladesh at the International Economics Olympiad, a competition in economics and finance for high school students."
+      },
+      "status": "reported",
+      "source": "prothomalo-ieo-2025",
+      "where": "Report of 16 July 2025",
+      "checked": "2026-10-23",
+      "verified": "2026-10-23",
+      "note": ""
+    },
+    {
+      "id": "competition.spaceApps",
+      "label": "NASA Space Apps Challenge in Bangladesh",
+      "kind": "text",
+      "value": {
+        "text": "Run in Bangladesh by BASIS. In 2024 teams took part in a 36-hour hackathon in nine cities, and the projects of the 27 winning teams went on to NASA's global judging."
+      },
+      "status": "reported",
+      "source": "tbs-spaceapps-2024",
+      "where": "Report of 6 October 2024",
+      "checked": "2026-10-23",
+      "verified": "2026-10-23",
+      "note": ""
+    },
+    {
+      "id": "pay.cards",
+      "label": "Paying study fees abroad by card",
+      "kind": "text",
+      "value": {
+        "text": "Since 10 August 2026, banks may issue a debit, prepaid or credit card for paying tuition and other approved education costs to institutions abroad, in the student's name or in the name of the person paying for the studies. These payments are not counted against the travel quota."
+      },
+      "status": "confirmed",
+      "source": "bb-fepd29",
+      "where": "FE Circular No. 29, paragraphs on eligible payments and card holders",
+      "checked": "2026-10-25",
+      "verified": "2026-10-25",
+      "note": "The circular does not name application or test fees, so ask your bank about those. The Daily Star reported the same rules on 11 August 2026."
+    },
+    {
+      "id": "pay.travelQuota",
+      "label": "Yearly travel quota for an adult",
+      "kind": "text",
+      "value": {
+        "text": "USD 12,000 for each calendar year."
+      },
+      "status": "reported",
+      "source": "dailystar-cards",
+      "where": "Paragraph on the travel quota",
+      "checked": "2026-10-25",
+      "verified": "2026-10-25",
+      "note": "Card payments for studies abroad are separate from this quota."
+    },
+    {
+      "id": "pay.studentFile",
+      "label": "Student file for paying study costs abroad (Bank Asia)",
+      "kind": "text",
+      "value": {
+        "text": "A student file pays tuition, housing, living costs and health insurance abroad under Bangladesh Bank's rules. It needs the offer letter, the I-20 for the USA, the university's cost estimate and refund policy, your certificates, your passport and photos. Bank Asia charges Tk 5,500 the first time and Tk 5,000 to renew after a year."
+      },
+      "status": "confirmed",
+      "source": "bankasia-studentfile",
+      "where": "Service description, documents and charges",
+      "checked": "2026-10-25",
+      "verified": "2026-10-25",
+      "note": "One bank's service, shown as an example. Other banks offer the same file with their own charges."
+    }
+  ]
+}

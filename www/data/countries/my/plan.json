@@ -1,0 +1,254 @@
+{
+  "format": 1,
+  "plan": "my",
+  "title": "Malaysia",
+  "facts": [
+    "bd",
+    "my"
+  ],
+  "intake": "month",
+  "start": {
+    "intake": true
+  },
+  "routes": [
+    {
+      "id": "degreeHsc",
+      "title": "Straight into your degree with the HSC",
+      "when": {
+        "system": "hsc"
+      },
+      "text": "UTM and UKM take the HSC straight into a degree, and Sunway may; check your grades against each university's rule.",
+      "months": {
+        "list": [
+          2,
+          9
+        ]
+      }
+    },
+    {
+      "id": "foundation",
+      "title": "Foundation year first",
+      "when": {
+        "system": "hsc"
+      },
+      "text": "The Bangladesh HSC is not on Monash Malaysia's list of commonly accepted qualifications, so this route plans a foundation year first. Monash also offers its own diploma as a way in.",
+      "months": {
+        "fact": "my/foundation.mufy.intakes"
+      }
+    },
+    {
+      "id": "degree",
+      "title": "Straight into your degree",
+      "when": {
+        "system": "alevel"
+      },
+      "text": "A level students can apply for the degree directly. Pathway uses the month classes begin.",
+      "months": {
+        "list": [
+          3,
+          7,
+          10
+        ]
+      }
+    }
+  ],
+  "assumptions": {
+    "applyBefore": {
+      "label": "When to apply",
+      "amount": 4,
+      "unit": "months",
+      "mode": "planned",
+      "text": "Malaysian admission is rolling, so Pathway plans to apply at least 4 months before the start, leaving time for the offer, up to 8 weeks for the student pass, the visa and travel."
+    },
+    "arriveSpare": {
+      "label": "Arriving before classes",
+      "amount": 7,
+      "unit": "days",
+      "mode": "planned",
+      "text": "Pathway plans to have you there a week before your start month, for registration."
+    }
+  },
+  "steps": [
+    {
+      "id": "my.apply",
+      "title": "Apply to your university",
+      "stage": "apply",
+      "after": [
+        "english.test",
+        {
+          "step": "school.results",
+          "when": {
+            "route": [
+              "degree",
+              "degreeHsc"
+            ]
+          }
+        }
+      ],
+      "deadline": {
+        "start": true,
+        "offset": {
+          "assumption": "applyBefore"
+        }
+      },
+      "planning": "applyBefore",
+      "ownDate": true,
+      "text": "Each university sets its own application and acceptance dates for every intake. Apply early, because the student pass waits for your offer.",
+      "taskWhen": [
+        {
+          "task": "Apply for the Monash University Foundation Year at Sunway College",
+          "when": {
+            "route": "foundation"
+          }
+        },
+        {
+          "task": "Apply to Monash University Malaysia or your chosen university",
+          "when": {
+            "route": "degree"
+          }
+        },
+        {
+          "task": "Apply to Universiti Teknologi Malaysia or your chosen university",
+          "when": {
+            "route": "degreeHsc"
+          }
+        }
+      ],
+      "facts": [
+        "my/intakes.monash",
+        "my/entry.hsc",
+        "my/foundation.mufy.intakes",
+        "my/foundation.mufy.length"
+      ],
+      "textWhen": [
+        {
+          "text": "Monash sets an application deadline for each intake, about ten weeks before classes begin. The source panel shows this year's dates.",
+          "when": {
+            "route": "degree"
+          }
+        },
+        {
+          "text": "UTM asks for your final results before the intake, so Pathway plans your application after your HSC results.",
+          "when": {
+            "route": "degreeHsc"
+          }
+        }
+      ],
+      "factsWhen": [
+        {
+          "facts": [
+            "my/uni.utm.hsc",
+            "my/uni.utm.dates",
+            "my/uni.utm.results",
+            "my/uni.ukm.entry"
+          ],
+          "when": {
+            "route": "degreeHsc"
+          }
+        },
+        {
+          "facts": [
+            "my/uni.monash.diploma"
+          ],
+          "when": {
+            "route": "foundation"
+          }
+        }
+      ]
+    },
+    {
+      "id": "my.pass",
+      "title": "Your student pass is approved",
+      "stage": "permit",
+      "kind": "wait",
+      "after": [
+        "my.apply",
+        "passport.get",
+        "passport.collect"
+      ],
+      "duration": {
+        "fact": "my/pass.processing"
+      },
+      "text": "Your university applies to EMGS for you. Once approved, you receive a Visa Approval Letter.",
+      "facts": [
+        "my/pass.processing",
+        "my/pass.val",
+        "my/pass.processingFee",
+        "my/pass.bond"
+      ],
+      "tasks": [
+        "Pay the EMGS fees your university asks for",
+        "Pay the {money:my/pass.bond} personal bond"
+      ]
+    },
+    {
+      "id": "my.visa",
+      "title": "Get your single-entry visa online",
+      "stage": "permit",
+      "after": [
+        "my.pass"
+      ],
+      "text": "Apply online through Malaysia's eVISA system, from Bangladesh, after your eVAL arrives. The eVAL is valid for 6 months, so travel before it expires. You do not apply at the High Commission.",
+      "facts": [
+        "my/pass.singleEntryVisa",
+        "my/pass.evisaFee"
+      ]
+    },
+    {
+      "id": "my.arrive",
+      "title": "Travel to Malaysia",
+      "stage": "arrive",
+      "hard": true,
+      "after": [
+        "my.visa",
+        "school.exams"
+      ],
+      "deadline": {
+        "start": true
+      },
+      "spare": {
+        "assumption": "arriveSpare"
+      },
+      "text": "Pathway uses the first day of your start month until you enter your university's exact date.",
+      "facts": [
+        "my/intakes.monash",
+        "my/arrive.mdac"
+      ],
+      "tasks": [
+        "Fill in the Malaysia Digital Arrival Card in the three days before you arrive"
+      ]
+    },
+    {
+      "id": "my.medical",
+      "title": "Medical screening in Malaysia",
+      "stage": "arrive",
+      "after": [
+        "my.arrive"
+      ],
+      "duration": {
+        "amount": 7,
+        "unit": "days"
+      },
+      "text": "Within 7 days of arriving, at an EMGS panel clinic, or at your university's own clinic at a public university, before your student pass goes into your passport.",
+      "facts": [
+        "my/pass.medical",
+        "my/pass.medicalFee"
+      ],
+      "tasks": [
+        "Pay the {money:my/pass.medicalFee} screening fee"
+      ]
+    }
+  ],
+  "shaping": {
+    "tierReach": "Your universities are mostly very competitive. Each university has its own application, so Pathway suggests 3 to 5.",
+    "tierBalanced": "Your universities are a balanced mix. Each university has its own application, so Pathway suggests 3 to 5.",
+    "tierSafe": "Your universities are mostly less competitive. Each university has its own application, so Pathway suggests 3 to 5.",
+    "passportValid": "You have a valid passport. For Malaysia it must stay valid for at least 18 months after you start, so check its expiry date.",
+    "englishNotAccepted": "The Duolingo English Test does not count for the Malaysian student pass. So preparation for {test} and a test are planned."
+  },
+  "englishTests": [
+    "ielts",
+    "toefl",
+    "pte"
+  ]
+}

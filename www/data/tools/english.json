@@ -1,0 +1,1334 @@
+{
+  "format": 1,
+  "tool": "english",
+  "cycle": 2027,
+  "tests": {
+    "ielts": {
+      "name": "IELTS",
+      "plan": "ielts",
+      "scale": {
+        "min": 1,
+        "max": 9,
+        "step": 0.5,
+        "digits": 1,
+        "start": 6.5
+      },
+      "sections": {
+        "min": 1,
+        "max": 9,
+        "step": 0.5,
+        "digits": 1,
+        "start": 6
+      },
+      "sectionWord": "band",
+      "fee": "bd/ielts.bd.fee",
+      "id": "bd/ielts.bd.id",
+      "idWords": "A passport or a smart NID card",
+      "results": "bd/ielts.bd.resultTime",
+      "validity": "bd/ielts.validity",
+      "scoring": {
+        "kind": "average",
+        "cite": "bd/ielts.overall"
+      }
+    },
+    "toefl": {
+      "name": "TOEFL iBT",
+      "plan": "toefl",
+      "sectionWord": "section",
+      "scales": {
+        "new": {
+          "min": 1,
+          "max": 6,
+          "step": 0.5,
+          "digits": 1,
+          "start": 4.5,
+          "label": "1 to 6, from January 2026"
+        },
+        "old": {
+          "min": 0,
+          "max": 120,
+          "step": 1,
+          "digits": 0,
+          "start": 80,
+          "label": "0 to 120, before 2026"
+        }
+      },
+      "sections": {
+        "new": {
+          "min": 1,
+          "max": 6,
+          "step": 0.5,
+          "digits": 1,
+          "start": 4
+        },
+        "old": {
+          "min": 0,
+          "max": 30,
+          "step": 1,
+          "digits": 0,
+          "start": 20
+        }
+      },
+      "fee": "bd/toefl.bd.fee",
+      "feeNote": "plus any VAT",
+      "id": "bd/toefl.bd.id",
+      "idWords": "A passport only",
+      "results": "bd/toefl.resultTime",
+      "validity": "bd/toefl.validity",
+      "scoring": {
+        "new": {
+          "kind": "average",
+          "cite": "bd/toefl.overall"
+        },
+        "old": {
+          "kind": "sum",
+          "cite": "bd/toefl.overall"
+        },
+        "comparable": "bd/toefl.comparable"
+      }
+    },
+    "pte": {
+      "name": "PTE Academic",
+      "plan": "pte",
+      "scale": {
+        "min": 10,
+        "max": 90,
+        "step": 1,
+        "digits": 0,
+        "start": 60
+      },
+      "sections": {
+        "min": 10,
+        "max": 90,
+        "step": 1,
+        "digits": 0,
+        "start": 55
+      },
+      "sectionWord": "skill",
+      "fee": "bd/pte.bd.fee",
+      "id": "bd/pte.id",
+      "idWords": "A passport issued in the last 10 years",
+      "results": "bd/pte.resultTime",
+      "validity": "bd/pte.validity",
+      "scoring": {
+        "kind": "whole",
+        "cite": "bd/pte.overall"
+      }
+    },
+    "duolingo": {
+      "name": "Duolingo English Test",
+      "plan": "duolingo",
+      "scale": {
+        "min": 10,
+        "max": 160,
+        "step": 5,
+        "digits": 0,
+        "start": 115
+      },
+      "lowest": {
+        "min": 10,
+        "max": 160,
+        "step": 5,
+        "digits": 0,
+        "start": 100
+      },
+      "sectionWord": "subscore",
+      "fee": "bd/duolingo.fee#One test",
+      "id": "bd/duolingo.bd.id",
+      "idWords": "A passport or a driving licence",
+      "results": "bd/duolingo.resultTime",
+      "validity": "bd/duolingo.validity",
+      "scoring": {
+        "kind": "average5",
+        "cite": "bd/duolingo.overall"
+      }
+    }
+  },
+  "compare": {
+    "ieltsToefl": {
+      "cite": "bd/compare.ielts.toefl",
+      "rows": [
+        [
+          9,
+          6
+        ],
+        [
+          8.5,
+          6
+        ],
+        [
+          8,
+          6
+        ],
+        [
+          7.5,
+          5.5
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          6.5,
+          4.5
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          5.5,
+          3.5
+        ],
+        [
+          5,
+          2.5
+        ],
+        [
+          4.5,
+          2
+        ],
+        [
+          4,
+          1.5
+        ]
+      ]
+    },
+    "toeflOld": {
+      "cite": "bd/compare.toefl.oldScale",
+      "rows": [
+        [
+          6,
+          114
+        ],
+        [
+          5.5,
+          107
+        ],
+        [
+          5,
+          95
+        ],
+        [
+          4.5,
+          86
+        ],
+        [
+          4,
+          72
+        ],
+        [
+          3.5,
+          58
+        ],
+        [
+          3,
+          44
+        ],
+        [
+          2.5,
+          34
+        ],
+        [
+          2,
+          24
+        ],
+        [
+          1.5,
+          12
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    "toeflCefr": {
+      "cite": "bd/compare.toefl.cefr",
+      "rows": [
+        [
+          6,
+          "C2"
+        ],
+        [
+          5.5,
+          "C1"
+        ],
+        [
+          5,
+          "C1"
+        ],
+        [
+          4.5,
+          "B2"
+        ],
+        [
+          4,
+          "B2"
+        ],
+        [
+          3.5,
+          "B1"
+        ],
+        [
+          3,
+          "B1"
+        ],
+        [
+          2.5,
+          "A2"
+        ],
+        [
+          2,
+          "A2"
+        ],
+        [
+          1.5,
+          "A1"
+        ],
+        [
+          1,
+          "A1"
+        ]
+      ]
+    },
+    "ieltsPte": {
+      "cite": "bd/compare.ielts.pte",
+      "rows": [
+        [
+          9,
+          90,
+          90
+        ],
+        [
+          8.5,
+          86,
+          89
+        ],
+        [
+          8,
+          79,
+          85
+        ],
+        [
+          7.5,
+          71,
+          78
+        ],
+        [
+          7,
+          63,
+          70
+        ],
+        [
+          6.5,
+          55,
+          62
+        ],
+        [
+          6,
+          47,
+          54
+        ],
+        [
+          5.5,
+          39,
+          46
+        ],
+        [
+          5,
+          31,
+          38
+        ],
+        [
+          4.5,
+          24,
+          30
+        ]
+      ]
+    },
+    "pteCefr": {
+      "cite": "bd/compare.pte.cefr",
+      "rows": [
+        [
+          "A2",
+          30,
+          42
+        ],
+        [
+          "B1",
+          36,
+          58
+        ],
+        [
+          "B2",
+          50,
+          75
+        ],
+        [
+          "C1",
+          59,
+          82
+        ],
+        [
+          "C2",
+          76,
+          90
+        ]
+      ]
+    },
+    "ieltsCefr": {
+      "cite": "bd/compare.ielts.cefr",
+      "rows": [
+        [
+          9,
+          "C2"
+        ],
+        [
+          8.5,
+          "C2"
+        ],
+        [
+          8,
+          "C1"
+        ],
+        [
+          7.5,
+          "C1"
+        ],
+        [
+          7,
+          "C1"
+        ],
+        [
+          6.5,
+          "B2"
+        ],
+        [
+          6,
+          "B2"
+        ],
+        [
+          5.5,
+          "B2"
+        ],
+        [
+          5,
+          "B1"
+        ],
+        [
+          4.5,
+          "B1"
+        ],
+        [
+          4,
+          "B1"
+        ]
+      ],
+      "border": [
+        [
+          8,
+          "C2"
+        ],
+        [
+          6.5,
+          "C1"
+        ],
+        [
+          5,
+          "B2"
+        ]
+      ]
+    },
+    "duolingo": {
+      "cite": "bd/compare.duolingo",
+      "rows": [
+        [
+          160,
+          "C2",
+          8.5,
+          9,
+          120,
+          120
+        ],
+        [
+          155,
+          "C2",
+          8,
+          8,
+          119,
+          119
+        ],
+        [
+          150,
+          "C1",
+          8,
+          8,
+          117,
+          118
+        ],
+        [
+          145,
+          "C1",
+          7.5,
+          7.5,
+          113,
+          116
+        ],
+        [
+          140,
+          "C1",
+          7.5,
+          7.5,
+          109,
+          112
+        ],
+        [
+          135,
+          "C1",
+          7,
+          7,
+          104,
+          108
+        ],
+        [
+          130,
+          "C1",
+          7,
+          7,
+          98,
+          103
+        ],
+        [
+          125,
+          "B2",
+          6.5,
+          6.5,
+          93,
+          97
+        ],
+        [
+          120,
+          "B2",
+          6.5,
+          6.5,
+          87,
+          92
+        ],
+        [
+          115,
+          "B2",
+          6,
+          6,
+          82,
+          86
+        ],
+        [
+          110,
+          "B2",
+          6,
+          6,
+          76,
+          81
+        ],
+        [
+          105,
+          "B2",
+          6,
+          6,
+          70,
+          75
+        ],
+        [
+          100,
+          "B2",
+          5.5,
+          5.5,
+          65,
+          69
+        ],
+        [
+          95,
+          "B1",
+          5.5,
+          5.5,
+          59,
+          64
+        ],
+        [
+          90,
+          "B1",
+          5,
+          5,
+          53,
+          58
+        ],
+        [
+          85,
+          "B1",
+          5,
+          5,
+          47,
+          52
+        ],
+        [
+          80,
+          "B1",
+          5,
+          5,
+          41,
+          46
+        ],
+        [
+          75,
+          "B1",
+          4.5,
+          4.5,
+          35,
+          40
+        ],
+        [
+          70,
+          "B1",
+          4.5,
+          4.5,
+          30,
+          34
+        ],
+        [
+          65,
+          "B1",
+          4.5,
+          4.5,
+          24,
+          29
+        ],
+        [
+          60,
+          "B1",
+          4,
+          4,
+          18,
+          23
+        ]
+      ],
+      "below": {
+        "from": 10,
+        "to": 55,
+        "cefr": "A1 to A2",
+        "ielts": [
+          0,
+          4
+        ],
+        "toefl": [
+          0,
+          17
+        ]
+      }
+    }
+  },
+  "rules": [
+    {
+      "country": "us",
+      "key": "princeton",
+      "name": "Princeton",
+      "cite": [
+        "us/uni.princeton.english"
+      ],
+      "tests": {
+        "ielts": {
+          "accepted": true,
+          "quote": "An English test (TOEFL, IELTS Academic, Duolingo English Test or PTE Academic) is required"
+        },
+        "toefl": {
+          "accepted": true,
+          "quote": "An English test (TOEFL, IELTS Academic, Duolingo English Test or PTE Academic) is required"
+        },
+        "pte": {
+          "accepted": true,
+          "quote": "An English test (TOEFL, IELTS Academic, Duolingo English Test or PTE Academic) is required"
+        },
+        "duolingo": {
+          "accepted": true,
+          "quote": "An English test (TOEFL, IELTS Academic, Duolingo English Test or PTE Academic) is required"
+        }
+      },
+      "note": "Not needed if English is your native language or you studied for at least three years at a secondary school taught in English."
+    },
+    {
+      "country": "us",
+      "key": "brown",
+      "name": "Brown",
+      "cite": [
+        "us/uni.brown.english"
+      ],
+      "tests": {
+        "ielts": {
+          "overall": 8
+        },
+        "toefl": {
+          "new": {
+            "overall": 5.5
+          }
+        },
+        "duolingo": {
+          "overall": 130
+        },
+        "pte": {
+          "overall": 75
+        }
+      },
+      "note": "What Brown expects in most cases. It highly recommends a test rather than requiring one."
+    },
+    {
+      "country": "us",
+      "key": "bowdoin",
+      "name": "Bowdoin",
+      "cite": [
+        "us/uni.bowdoin.english"
+      ],
+      "tests": {
+        "ielts": {
+          "accepted": true,
+          "quote": "English test scores are optional, and Bowdoin has no minimum score."
+        },
+        "toefl": {
+          "accepted": true,
+          "quote": "English test scores are optional, and Bowdoin has no minimum score."
+        },
+        "pte": {
+          "accepted": true,
+          "quote": "English test scores are optional, and Bowdoin has no minimum score."
+        },
+        "duolingo": {
+          "accepted": true,
+          "quote": "English test scores are optional, and Bowdoin has no minimum score."
+        }
+      },
+      "note": "A score is optional at Bowdoin."
+    },
+    {
+      "country": "us",
+      "key": "swarthmore",
+      "name": "Swarthmore",
+      "cite": [
+        "us/uni.swarthmore.english"
+      ],
+      "tests": {
+        "ielts": {
+          "accepted": true,
+          "quote": "a TOEFL, IELTS or Duolingo English Test result"
+        },
+        "toefl": {
+          "accepted": true,
+          "quote": "a TOEFL, IELTS or Duolingo English Test result"
+        },
+        "duolingo": {
+          "accepted": true,
+          "quote": "a TOEFL, IELTS or Duolingo English Test result"
+        }
+      },
+      "note": "A Swarthmore video response or an InitialView or Vericant interview also counts."
+    },
+    {
+      "country": "fi",
+      "key": "helsinki",
+      "name": "University of Helsinki",
+      "cite": [
+        "fi/uni.helsinki.english"
+      ],
+      "tests": {
+        "ielts": {
+          "overall": 6.5,
+          "each": 6
+        },
+        "toefl": {
+          "new": {
+            "overall": 4.5,
+            "each": 4
+          },
+          "old": {
+            "overall": 92
+          }
+        },
+        "pte": {
+          "overall": 68
+        }
+      },
+      "note": "An SAT score of at least 550 in Evidence-Based Reading and Writing also counts."
+    },
+    {
+      "country": "fi",
+      "key": "aalto",
+      "name": "Aalto University",
+      "cite": [
+        "fi/uni.aalto.english"
+      ],
+      "noTest": "Applicants are expected to have English good enough to study in it, and are not required to submit a language test result."
+    },
+    {
+      "country": "fi",
+      "key": "turku",
+      "name": "University of Turku",
+      "cite": [
+        "fi/uni.turku.english",
+        "fi/uni.turku.route"
+      ],
+      "noTest": "Applicants selected through the SAT do not have to provide a separate certificate of English.",
+      "note": "HSC and A level applicants are selected through the SAT."
+    },
+    {
+      "country": "fi",
+      "key": "tampere",
+      "name": "Tampere University",
+      "cite": [
+        "fi/uni.tampere.english",
+        "fi/uni.tampere.route"
+      ],
+      "noTest": "Applicants admitted on SAT or ACT scores in group I need no further proof of English.",
+      "note": "HSC and A level applicants apply in group I, with SAT or ACT scores."
+    },
+    {
+      "country": "fi",
+      "key": "lut",
+      "name": "LUT University",
+      "cite": [
+        "fi/uni.lut.english"
+      ],
+      "tests": {
+        "ielts": {
+          "overall": 6.5,
+          "writing": 6,
+          "speaking": 6
+        },
+        "toefl": {
+          "new": {
+            "overall": 4.5,
+            "writing": 4,
+            "speaking": 4
+          },
+          "old": {
+            "overall": 90,
+            "writing": 22,
+            "speaking": 22
+          }
+        },
+        "pte": {
+          "overall": 62,
+          "writing": 54,
+          "speaking": 54
+        }
+      },
+      "note": "A level students with GCSE English at grade C as a first language, or B as a second language, need no test."
+    },
+    {
+      "country": "fi",
+      "key": "jyväskylä",
+      "name": "University of Jyväskylä",
+      "cite": [
+        "fi/uni.jyvaskyla.english"
+      ],
+      "tests": {
+        "ielts": {
+          "overall": 6,
+          "each": 5.5
+        },
+        "toefl": {
+          "new": {
+            "overall": 4,
+            "each": 3.5
+          }
+        },
+        "pte": {
+          "overall": 62,
+          "writing": 61
+        }
+      },
+      "note": "In Business Innovation and Sustainability, a qualifying SAT or ACT score also proves English."
+    },
+    {
+      "country": "fi",
+      "key": "oulu",
+      "name": "University of Oulu",
+      "cite": [
+        "fi/uni.oulu.english"
+      ],
+      "tests": {
+        "ielts": {
+          "overall": 6,
+          "each": 5.5
+        },
+        "toefl": {
+          "new": {
+            "overall": 4,
+            "each": 3.5
+          }
+        },
+        "pte": {
+          "overall": 62,
+          "writing": 61
+        }
+      },
+      "note": "SAT and ACT results also prove English."
+    },
+    {
+      "country": "fi",
+      "key": "eastern finland",
+      "name": "University of Eastern Finland",
+      "cite": [
+        "fi/uni.uef.english"
+      ],
+      "tests": {
+        "ielts": {
+          "overall": 6,
+          "each": 5.5
+        },
+        "toefl": {
+          "new": {
+            "overall": 4,
+            "each": 3.5
+          }
+        },
+        "pte": {
+          "overall": 62,
+          "writing": 61
+        }
+      }
+    },
+    {
+      "country": "fi",
+      "name": "Universities of applied sciences",
+      "cite": [
+        "fi/uas.englishTests"
+      ],
+      "tests": {
+        "ielts": {
+          "overall": 6
+        },
+        "toefl": {
+          "new": {
+            "overall": 3.5
+          },
+          "old": {
+            "overall": 60
+          }
+        },
+        "pte": {
+          "overall": 55
+        },
+        "duolingo": {
+          "accepted": false,
+          "quote": "The Duolingo English Test is not accepted."
+        }
+      }
+    },
+    {
+      "country": "tr",
+      "key": "metu",
+      "name": "METU",
+      "cite": [
+        "tr/uni.metu.english"
+      ],
+      "tests": {
+        "toefl": {
+          "old": {
+            "overall": 75
+          }
+        },
+        "pte": {
+          "overall": 65
+        },
+        "ielts": {
+          "accepted": false,
+          "quote": "IELTS taken on or after 24 December 2022 is not accepted."
+        }
+      },
+      "note": "These scores let you start the degree without the English preparatory year. An English score is not needed to apply."
+    },
+    {
+      "country": "tr",
+      "key": "boğaziçi",
+      "name": "Boğaziçi",
+      "cite": [
+        "tr/uni.bogazici.english"
+      ],
+      "tests": {
+        "toefl": {
+          "old": {
+            "overall": 79,
+            "writing": 22
+          }
+        },
+        "ielts": {
+          "overall": 6.5,
+          "writing": 6.5
+        }
+      },
+      "note": "The TOEFL Home Edition and online IELTS are not accepted."
+    },
+    {
+      "country": "tr",
+      "key": "bilkent",
+      "name": "Bilkent",
+      "cite": [
+        "tr/uni.bilkent.english"
+      ],
+      "tests": {
+        "ielts": {
+          "overall": 6.5,
+          "each": 5.5
+        },
+        "toefl": {
+          "old": {
+            "overall": 87
+          }
+        }
+      }
+    },
+    {
+      "country": "tr",
+      "key": "itu",
+      "name": "Istanbul Technical University",
+      "cite": [
+        "tr/uni.itu.english"
+      ],
+      "tests": {
+        "toefl": {
+          "new": {
+            "overall": 4
+          },
+          "old": {
+            "overall": 72
+          }
+        },
+        "pte": {
+          "overall": 59
+        },
+        "ielts": {
+          "accepted": false,
+          "quote": "IELTS is not on the list."
+        }
+      },
+      "note": "ITU says TOEFL and PTE results must come from test centres at state universities, so ask whether a test taken in Bangladesh counts."
+    },
+    {
+      "country": "tr",
+      "key": "koç",
+      "name": "Koç",
+      "cite": [
+        "tr/uni.koc.english"
+      ],
+      "tests": {
+        "toefl": {
+          "old": {
+            "overall": 80,
+            "writing": 20
+          }
+        },
+        "pte": {
+          "overall": 67
+        },
+        "ielts": {
+          "accepted": false,
+          "quote": "IELTS is not on the list."
+        }
+      },
+      "note": "Koç's page still shows 2024 dates, so check it with Koç."
+    },
+    {
+      "country": "my",
+      "name": "Student pass (EMGS)",
+      "cite": [
+        "my/pass.english"
+      ],
+      "tests": {
+        "ielts": {
+          "accepted": true,
+          "quote": "Accepted: MUET, IELTS, TOEFL iBT, TOEFL Essentials, PTE Academic"
+        },
+        "toefl": {
+          "accepted": true,
+          "quote": "Accepted: MUET, IELTS, TOEFL iBT, TOEFL Essentials, PTE Academic"
+        },
+        "pte": {
+          "accepted": true,
+          "quote": "Accepted: MUET, IELTS, TOEFL iBT, TOEFL Essentials, PTE Academic"
+        },
+        "duolingo": {
+          "accepted": false,
+          "quote": "The Duolingo English Test is not on the list."
+        }
+      },
+      "note": "Every student pass application needs an English certificate."
+    },
+    {
+      "country": "my",
+      "key": "universiti teknologi",
+      "name": "Universiti Teknologi Malaysia",
+      "cite": [
+        "my/uni.utm.english"
+      ],
+      "tests": {
+        "ielts": {
+          "overall": 5.5
+        },
+        "toefl": {
+          "old": {
+            "overall": 46
+          }
+        },
+        "pte": {
+          "overall": 51
+        }
+      },
+      "note": "A level holders are exempt; HSC holders are not."
+    },
+    {
+      "country": "my",
+      "key": "monash",
+      "name": "Monash University Malaysia",
+      "cite": [
+        "my/uni.monash.english"
+      ],
+      "tests": {
+        "ielts": {
+          "overall": 6.5,
+          "each": 6
+        },
+        "toefl": {
+          "new": {
+            "overall": 4
+          },
+          "old": {
+            "overall": 79
+          }
+        },
+        "pte": {
+          "overall": 58,
+          "each": 50
+        }
+      },
+      "note": "Use a result less than two years old. The TOEFL Home Edition and PTE Online are not accepted."
+    },
+    {
+      "country": "nz",
+      "key": "auckland",
+      "name": "University of Auckland",
+      "cite": [
+        "nz/uni.auckland.english"
+      ],
+      "tests": {
+        "ielts": {
+          "overall": 6,
+          "each": 5.5
+        },
+        "toefl": {
+          "new": {
+            "overall": 4,
+            "writing": 4
+          },
+          "old": {
+            "overall": 80,
+            "writing": 21
+          }
+        },
+        "pte": {
+          "overall": 50,
+          "each": 42
+        },
+        "duolingo": {
+          "accepted": false,
+          "quote": "The Duolingo English Test is not on the list."
+        }
+      }
+    },
+    {
+      "country": "nz",
+      "key": "otago",
+      "name": "University of Otago",
+      "cite": [
+        "nz/uni.otago.english"
+      ],
+      "tests": {
+        "ielts": {
+          "overall": 6,
+          "each": 5.5
+        },
+        "toefl": {
+          "new": {
+            "overall": 4,
+            "writing": 4
+          },
+          "old": {
+            "overall": 80,
+            "writing": 20
+          }
+        },
+        "pte": {
+          "overall": 50,
+          "each": 42
+        },
+        "duolingo": {
+          "overall": 105,
+          "each": 95
+        }
+      },
+      "note": "Results must be from no more than two years before you begin your study."
+    },
+    {
+      "country": "nz",
+      "key": "massey",
+      "name": "Massey University",
+      "cite": [
+        "nz/uni.massey.english"
+      ],
+      "tests": {
+        "ielts": {
+          "overall": 6,
+          "each": 5.5
+        },
+        "toefl": {
+          "new": {
+            "overall": 4,
+            "writing": 4
+          },
+          "old": {
+            "overall": 80,
+            "writing": 19
+          }
+        },
+        "pte": {
+          "overall": 50,
+          "each": 42
+        },
+        "duolingo": {
+          "overall": 105,
+          "each": 95
+        }
+      }
+    },
+    {
+      "country": "nz",
+      "key": "victoria wellington",
+      "name": "Victoria University of Wellington",
+      "cite": [
+        "nz/uni.victoria.english"
+      ],
+      "tests": {
+        "ielts": {
+          "overall": 6,
+          "each": 5.5
+        },
+        "toefl": {
+          "old": {
+            "overall": 80
+          }
+        },
+        "pte": {
+          "overall": 50,
+          "each": 42
+        },
+        "duolingo": {
+          "overall": 105,
+          "each": 95
+        }
+      }
+    },
+    {
+      "country": "nz",
+      "key": "canterbury",
+      "name": "University of Canterbury",
+      "cite": [
+        "nz/uni.canterbury.english"
+      ],
+      "tests": {
+        "ielts": {
+          "overall": 6,
+          "each": 5.5
+        },
+        "toefl": {
+          "new": {
+            "overall": 4,
+            "listening": 3,
+            "reading": 3.5,
+            "writing": 3,
+            "speaking": 3
+          },
+          "old": {
+            "overall": 80,
+            "each": 19
+          }
+        },
+        "pte": {
+          "overall": 50,
+          "each": 42
+        },
+        "duolingo": {
+          "accepted": false,
+          "quote": "The Duolingo English Test is not listed for degrees."
+        }
+      },
+      "note": "TOEFL scores must come from a single test date."
+    },
+    {
+      "country": "nz",
+      "key": "waikato",
+      "name": "University of Waikato",
+      "cite": [
+        "nz/uni.waikato.english"
+      ],
+      "tests": {
+        "ielts": {
+          "overall": 6,
+          "each": 5.5
+        },
+        "toefl": {
+          "old": {
+            "overall": 80,
+            "writing": 21
+          }
+        },
+        "pte": {
+          "overall": 50,
+          "each": 42
+        },
+        "duolingo": {
+          "overall": 105,
+          "each": 95
+        }
+      },
+      "note": "PTE Academic Online is not accepted."
+    },
+    {
+      "country": "nz",
+      "key": "aut",
+      "name": "Auckland University of Technology",
+      "cite": [
+        "nz/uni.aut.english"
+      ],
+      "tests": {
+        "ielts": {
+          "overall": 6,
+          "each": 5.5
+        },
+        "toefl": {
+          "old": {
+            "overall": 80,
+            "listening": 15,
+            "reading": 15,
+            "speaking": 18,
+            "writing": 20
+          }
+        },
+        "pte": {
+          "overall": 50,
+          "each": 42
+        },
+        "duolingo": {
+          "overall": 105
+        }
+      },
+      "note": "The online versions of IELTS and PTE are not accepted."
+    }
+  ]
+}

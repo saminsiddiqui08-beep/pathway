@@ -1,0 +1,25 @@
+{
+  "name": "pathway",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "eslint",
+    "validate": "node tools/validate-facts.js && node tools/validate-roadmaps.js && node tools/validate-tools.js",
+    "test": "node tools/test-validator.js && node tools/test-roadmaps.js && node tools/test-tools.js && node tools/test-timeline.js",
+    "links": "node tools/check-links.js"
+  },
+  "dependencies": {
+    "@capacitor/android": "8.5.2",
+    "@capacitor/app": "8.1.1",
+    "@capacitor/core": "8.5.2",
+    "@capacitor/haptics": "8.0.2",
+    "@capacitor/local-notifications": "8.3.1",
+    "@capacitor/preferences": "8.0.1"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "8.5.2",
+    "@eslint/js": "10.0.1",
+    "eslint": "10.11.0",
+    "globals": "17.12.0"
+  }
+}

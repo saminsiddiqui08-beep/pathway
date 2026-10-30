@@ -1,0 +1,267 @@
+{
+  "format": 1,
+  "guide": "olympiads",
+  "title": "Olympiads and competitions",
+  "facts": [
+    "bd",
+    "us"
+  ],
+  "cycle": 2027,
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Olympiads are national competitions in one subject, and most of them choose Bangladesh's team for an international olympiad. Taking part shows how far you can take a subject, and you learn a lot even without winning."
+    },
+    {
+      "type": "widget",
+      "id": "filter",
+      "question": "Show olympiads for",
+      "options": [
+        [
+          "all",
+          "Every subject"
+        ],
+        [
+          "science",
+          "Maths and science"
+        ],
+        [
+          "computing",
+          "Computing"
+        ],
+        [
+          "medicine",
+          "Biology and medicine"
+        ],
+        [
+          "economics",
+          "Economics"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "head": [
+        "Olympiad",
+        "How it works",
+        "International round"
+      ],
+      "rows": [
+        [
+          {
+            "text": "Bangladesh Mathematical Olympiad",
+            "tags": [
+              "science",
+              "computing",
+              "economics"
+            ],
+            "cite": [
+              "bd/profile.bdmo",
+              "bd/olympiad.maths"
+            ]
+          },
+          {
+            "text": "An online selection round, regional maths festivals, a national festival in Dhaka, then a national camp"
+          },
+          {
+            "text": "International Mathematical Olympiad"
+          }
+        ],
+        [
+          {
+            "text": "Bangladesh Physics Olympiad",
+            "tags": [
+              "science"
+            ],
+            "cite": [
+              "bd/olympiad.physics"
+            ]
+          },
+          {
+            "text": "A regional round, then a national round"
+          },
+          {
+            "text": "International Physics Olympiad"
+          }
+        ],
+        [
+          {
+            "text": "Bangladesh Chemistry Olympiad",
+            "tags": [
+              "science",
+              "medicine"
+            ],
+            "cite": [
+              "bd/olympiad.chemistry"
+            ]
+          },
+          {
+            "text": "Preliminary rounds in 15 regions, then a final at the University of Dhaka"
+          },
+          {
+            "text": "International Chemistry Olympiad"
+          }
+        ],
+        [
+          {
+            "text": "Bangladesh Biology Olympiad",
+            "tags": [
+              "medicine"
+            ],
+            "cite": [
+              "bd/olympiad.biology"
+            ]
+          },
+          {
+            "text": "Regional biology festivals; a national round of written and multiple-choice tests; then a camp"
+          },
+          {
+            "text": "International Biology Olympiad"
+          }
+        ],
+        [
+          {
+            "text": "Bangladesh Olympiad on Astronomy and Astrophysics",
+            "tags": [
+              "science"
+            ],
+            "cite": [
+              "bd/olympiad.astronomy"
+            ]
+          },
+          {
+            "text": "Regional rounds in Junior, Senior and Open categories, then a national round"
+          },
+          {
+            "text": "International Olympiad on Astronomy and Astrophysics"
+          }
+        ],
+        [
+          {
+            "text": "Bangladesh Olympiad in Informatics",
+            "tags": [
+              "computing"
+            ],
+            "cite": [
+              "bd/olympiad.informatics",
+              "bd/olympiad.informatics.ioi"
+            ]
+          },
+          {
+            "text": "A programming olympiad for pre-university students"
+          },
+          {
+            "text": "International Olympiad in Informatics"
+          }
+        ],
+        [
+          {
+            "text": "Bangladesh AI Olympiad",
+            "tags": [
+              "computing"
+            ],
+            "cite": [
+              "bd/olympiad.ai"
+            ]
+          },
+          {
+            "text": "Regional and national rounds, then a selection camp"
+          },
+          {
+            "text": "International Olympiad in Artificial Intelligence"
+          }
+        ],
+        [
+          {
+            "text": "Junior science team",
+            "tags": [
+              "science",
+              "medicine"
+            ],
+            "cite": [
+              "bd/olympiad.juniorScience"
+            ]
+          },
+          {
+            "text": "For younger students; the 2025 team ran from class 8 to class 10"
+          },
+          {
+            "text": "International Junior Science Olympiad"
+          }
+        ],
+        [
+          {
+            "text": "Bangladesh Economics Olympiad",
+            "tags": [
+              "economics"
+            ],
+            "cite": [
+              "bd/olympiad.economics"
+            ]
+          },
+          {
+            "text": "A national selection from nearly a thousand students"
+          },
+          {
+            "text": "International Economics Olympiad"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Each organiser and how its team was chosen is under the information button on its row."
+    },
+    {
+      "type": "heading",
+      "text": "How to start"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "text": "**Find this year's dates and rules** on the organiser's own page. Dates change every year."
+        },
+        {
+          "text": "**Work through past problems.** Olympiad problems are different from school exams, and past problems are the best preparation. Ask the organiser or older participants where to find them."
+        },
+        {
+          "text": "**Go to every round you reach,** even if you do not expect to win. Camps and later rounds teach the most."
+        },
+        {
+          "text": "**Keep a record** of each round you reach, with dates, for your applications."
+        }
+      ],
+      "ordered": true
+    },
+    {
+      "type": "heading",
+      "text": "Beyond olympiads"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "text": "**Hackathons:** the NASA Space Apps Challenge is held in several cities in Bangladesh.",
+          "cite": [
+            "bd/competition.spaceApps"
+          ]
+        },
+        {
+          "text": "**Science fairs and project competitions:** school, district and national fairs let you show something you built or found."
+        },
+        {
+          "text": "**Debate and Model United Nations:** your school's club is the place to start."
+        },
+        {
+          "text": "**Writing and essay competitions:** good practice for the essays your applications need."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "No single competition decides an application. Universities look at what you did over years, and why.",
+      "link": "profile"
+    }
+  ]
+}

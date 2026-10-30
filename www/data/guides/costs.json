@@ -1,0 +1,275 @@
+{
+  "format": 1,
+  "guide": "costs",
+  "title": "What a year really costs",
+  "facts": [
+    "bd",
+    "us",
+    "fi",
+    "tr",
+    "nz"
+  ],
+  "cycle": 2027,
+  "blocks": [
+    {
+      "type": "p",
+      "text": "A university's fee is only part of what a year abroad costs. These short parts show how to add it all up, how the money leaves Bangladesh, and what to ask before you commit."
+    },
+    {
+      "type": "fold",
+      "title": "The parts of a year's cost",
+      "summary": "Tuition is only one of them",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Tuition and compulsory fees.** Many universities add fees on top of tuition. Victoria University of Wellington adds a student services fee of NZD 10.64 a point.",
+              "cite": [
+                "nz/tuition.victoria"
+              ]
+            },
+            {
+              "text": "**Housing and food,** often the second largest cost. In Helsinki, student housing costs EUR 450 to 800 a month.",
+              "cite": [
+                "fi/living.helsinki"
+              ]
+            },
+            {
+              "text": "**Health insurance,** compulsory almost everywhere. Harvard charges {money:us/cost.harvard.insurance} a year unless your family's plan is accepted.",
+              "cite": [
+                "us/cost.harvard.insurance"
+              ]
+            },
+            {
+              "text": "**Books, transport and personal costs,** which add up month by month."
+            },
+            {
+              "text": "**Travel:** the flight there, and any visits home."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "The price, and what you really pay",
+      "summary": "Aid and waivers change the answer",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "US universities publish a cost of attendance: everything for one year, before aid. Harvard's is {money:us/cost.harvard#Tuition, fees, housing and food} for tuition, fees, housing and food.",
+          "cite": [
+            "us/cost.harvard"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "What you pay is that price minus any aid, scholarship or waiver you are given, so a costly university can cost a family less than a cheaper one."
+        },
+        {
+          "type": "p",
+          "text": "Elsewhere, aid is often a share taken off the tuition, such as Bilkent's waivers from 20% to 100%.",
+          "cite": [
+            "tr/aid.bilkent"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "Why the first year costs most",
+      "summary": "Fees, deposits and proof of money come first",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Before you travel** come the application fees, test fees, deposits, visa fees and the flight."
+            },
+            {
+              "text": "**New Zealand** asks you to pay the first year's tuition before your visa is issued.",
+              "cite": [
+                "nz/visa.tuitionFirst"
+              ]
+            },
+            {
+              "text": "**Finland** asks for {money:fi/permit.funds} for a year's living to be in your own account when you apply for the permit.",
+              "cite": [
+                "fi/permit.funds"
+              ]
+            },
+            {
+              "text": "**When you arrive,** a room often needs a deposit, and a new home needs setting up."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Your money plan puts the payments before you travel on the months of your plan.",
+          "link": "money"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "Money you show, and money you spend",
+      "summary": "Proof of money is not a payment, but it must be real",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A visa or permit asks you to show money for your first year, usually in a bank account with recent statements.",
+          "cite": [
+            "nz/visa.fundsEvidence",
+            "fi/permit.funds"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Showing money is not paying it, but **the money must really be yours to use.** Immigration services can ask where it came from, and large deposits must be explained.",
+          "cite": [
+            "nz/visa.fundsEvidence"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Never borrow money only to show it. False documents can lead to a refusal."
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "Prices rise every year",
+      "summary": "Plan for the later years too",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bilkent's fee has risen for each new intake: USD 17,600 for 2025 and USD 18,400 for 2026.",
+          "cite": [
+            "tr/tuition.bilkent"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Plan for a higher fee in each year you study, and ask the university how much its fees usually rise."
+        },
+        {
+          "type": "p",
+          "text": "Some monthly costs change too. Türkiye's state health insurance follows the minimum wage, so it changes every year.",
+          "cite": [
+            "tr/arrive.gssCost"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "The taka can change too",
+      "summary": "A weaker taka makes every foreign fee dearer",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "{rate:USD}",
+          "rates": true
+        },
+        {
+          "type": "p",
+          "text": "A fee in dollars costs more taka when the taka weakens, and your bank's own rate is the one you will pay, so ask your bank for it."
+        },
+        {
+          "type": "p",
+          "text": "Leave room in your budget. Your money plan shows what a weaker taka would cost you.",
+          "link": "money"
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "Paying from Bangladesh",
+      "summary": "How the money leaves the country",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Tuition and living costs** go through a student file at your bank, opened with your offer letter. Bank Asia's, for example, needs the offer letter, the I-20 for the USA, the university's cost estimate and refund policy, your certificates and your passport.",
+              "cite": [
+                "bd/pay.studentFile"
+              ]
+            },
+            {
+              "text": "**By card:** banks may now issue a card for tuition and other approved education payments abroad, in your name or in the name of whoever pays for your studies.",
+              "cite": [
+                "bd/pay.cards"
+              ]
+            },
+            {
+              "text": "**Application and test fees** are mostly paid online by card. MIT, for example, takes its fee by card when you submit. Ask your bank which card can pay them and what it charges.",
+              "cite": [
+                "us/app.fee.mit"
+              ]
+            },
+            {
+              "text": "**Card payments for your studies** are separate from the yearly travel quota of USD 12,000.",
+              "cite": [
+                "bd/pay.cards",
+                "bd/pay.travelQuota"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fold",
+      "title": "Questions to ask each university",
+      "summary": "Before you accept an offer",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "What does a year cost in total, with every compulsory fee and the insurance?"
+            },
+            {
+              "text": "How much has the fee risen each year?"
+            },
+            {
+              "text": "Is the deposit refunded if my visa is refused?"
+            },
+            {
+              "text": "Which scholarships or waivers can I get, and do they continue after the first year?"
+            },
+            {
+              "text": "When is each payment due, and can I pay it from Bangladesh by card or through my bank?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Before you commit"
+    },
+    {
+      "type": "checklist",
+      "items": [
+        {
+          "text": "I know the full cost of the first year, not only the tuition"
+        },
+        {
+          "text": "I know what must be paid before I travel"
+        },
+        {
+          "text": "I know what money I must show, and it is really available"
+        },
+        {
+          "text": "I have asked my bank how to pay the university"
+        },
+        {
+          "text": "My family has seen the money plan"
+        }
+      ]
+    }
+  ]
+}

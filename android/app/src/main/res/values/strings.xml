@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Pathway</string>
+    <string name="title_activity_main">Pathway</string>
+    <string name="package_name">com.universityadmissioninfo.pathway</string>
+    <string name="custom_url_scheme">com.universityadmissioninfo.pathway</string>
+</resources>

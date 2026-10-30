@@ -1,0 +1,173 @@
+/* Styling the money plan: the rate, the months of payments and the parts that change what is counted */
+
+.money-rate-box {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.money-rate {
+  font-family: var(--font-ui);
+}
+
+.money-rate a {
+  color: var(--line);
+  font-weight: 600;
+}
+
+.money-rate-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.money-message:empty {
+  display: none;
+}
+
+.money-amount,
+.money-month-total {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Putting a month's name and its total on one line, the total where the eye ends */
+.money-month-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 2px var(--space-3);
+}
+
+.money-month-total {
+  margin: 0;
+  font-size: 1.0625rem;
+  font-weight: 700;
+}
+
+.tool-route-stop.is-done .money-month-total {
+  color: var(--ink-soft);
+}
+
+.money-items {
+  display: flex;
+  flex-direction: column;
+  margin: var(--space-1) 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Giving each payment a tick, so paying it is a small win, and its own information button */
+.money-item {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: start;
+}
+
+.money-check {
+  min-height: 48px;
+}
+
+.money-item-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  font-size: var(--text-body-ui);
+  line-height: 1.4;
+}
+
+.money-item-name {
+  font-weight: 600;
+}
+
+.station-input:checked~.money-item-text {
+  color: var(--ink-soft);
+}
+
+.station-input:checked~.money-item-text .money-item-name {
+  text-decoration: line-through;
+  text-decoration-thickness: 1px;
+}
+
+.money-item .info-button {
+  margin-top: -2px;
+}
+
+/* Grouping what is counted under small headings, one payment to a row */
+.money-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.money-group+.money-group {
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--rule);
+}
+
+.money-group-title {
+  margin: 0;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.money-edit-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.money-edit {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.money-edit-head {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  column-gap: var(--space-2);
+}
+
+.money-edit-head .money-item-name {
+  grid-column: 1;
+}
+
+.money-edit-head .info-button {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.money-edit-head .money-price {
+  grid-column: 1;
+  font-size: var(--text-small);
+}
+
+.money-quiet {
+  margin: 2px 0 0;
+}
+
+.money-waiver {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2) var(--space-4);
+}
+
+.money-own {
+  padding: var(--space-3) 0 0;
+  border-top: 1px dashed var(--rule);
+}
+
+.money-copy {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2) var(--space-3);
+}

@@ -1,0 +1,886 @@
+/* Styling the Countries tab, and the parts the Toolkit guides share with it. Colours, sizes and timing all come from tokens.css */
+
+#countries-root {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding-bottom: var(--space-6);
+}
+
+.roadmap-countries {
+  margin: 0 0 var(--space-4);
+  padding: 0;
+  list-style: none;
+}
+
+/* Listing the countries as stations on one short rail, each in its own line colour, like the questions */
+.roadmap-country {
+  position: relative;
+  display: grid;
+  grid-template-columns: 28px minmax(0, 1fr) auto;
+  align-items: center;
+  column-gap: 14px;
+  width: calc(100% + 2 * var(--space-2));
+  min-height: 62px;
+  margin-inline: calc(-1 * var(--space-2));
+  padding: var(--space-2);
+  border-radius: var(--radius-control);
+  text-align: left;
+  transition: background-color var(--dur-enter) var(--ease-out);
+}
+
+.roadmap-country:active {
+  background: var(--press);
+  transition-duration: var(--dur-tap);
+}
+
+.roadmap-countries li {
+  position: relative;
+}
+
+.roadmap-countries li::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 13px;
+  width: 2px;
+  background: var(--line-faded);
+}
+
+.roadmap-countries li:first-child::before {
+  top: 50%;
+}
+
+.roadmap-countries li:last-child::before {
+  bottom: 50%;
+}
+
+.roadmap-country .station {
+  border-color: var(--route);
+  background: var(--paper);
+  transform: scale(1);
+}
+
+.roadmap-head {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+  margin-left: calc(-1 * var(--space-3));
+}
+
+.roadmap-head .icon-button {
+  margin: 0;
+}
+
+.roadmap-title {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin: 0;
+  color: var(--route-text);
+  font-size: var(--text-heading);
+  font-weight: 600;
+  outline: none;
+}
+
+.roadmap-title .chip-dot {
+  width: 10px;
+  height: 10px;
+}
+
+/*
+  Keeping the station line just under the status bar while the roadmap scrolls. A sticky box stops at
+  the edge of the screen's top padding, which already holds the status bar's height and one space
+  more, so it sticks that one space higher. It reaches past the screen's side padding, so its rail
+  runs edge to edge, and scrolls sideways on its own
+*/
+.roadmap-stations {
+  position: sticky;
+  top: calc(-1 * var(--space-4));
+  z-index: 3;
+  margin: var(--space-2) calc(-1 * var(--space-5)) var(--space-3);
+  background: var(--paper);
+  border-bottom: 1px solid var(--rule);
+}
+
+.roadmap-stations ol {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  margin: 0;
+  padding: 0 var(--space-5);
+  overflow-x: auto;
+  list-style: none;
+  scrollbar-width: none;
+}
+
+.roadmap-stations ol::-webkit-scrollbar {
+  display: none;
+}
+
+.roadmap-station {
+  position: relative;
+  flex: none;
+}
+
+/* Joining each stop to the next with a rail in the country's colour */
+.roadmap-station::before {
+  content: "";
+  position: absolute;
+  top: 16px;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--route);
+  opacity: 0.35;
+}
+
+.roadmap-station:first-child::before {
+  left: 50%;
+}
+
+/* Ending the rail at the last station; the ring that slides along the line comes after it */
+.roadmap-station:nth-last-child(2)::before {
+  right: 50%;
+}
+
+.roadmap-station button {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  min-width: 76px;
+  max-width: 96px;
+  min-height: var(--touch);
+  padding: 12px 6px 10px;
+}
+
+.roadmap-stop {
+  width: 12px;
+  height: 12px;
+  border: 3px solid var(--route);
+  border-radius: 50%;
+  background: var(--paper);
+}
+
+/* Keeping every label the same weight, so the line never reflows as "you are here" moves */
+.roadmap-stop-label {
+  color: var(--ink-soft);
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.25;
+  text-align: center;
+  transition: color var(--dur-enter) var(--ease-out);
+}
+
+.roadmap-station.is-here .roadmap-stop-label {
+  color: var(--here-text);
+}
+
+/* Sliding one "you are here" ring along the line, placed by roadmaps.js with transform only */
+.roadmap-here {
+  position: absolute;
+  top: 9px;
+  left: -9px;
+  z-index: 1;
+  width: 18px;
+  height: 18px;
+  border: 3px solid var(--here-ring);
+  border-radius: 50%;
+  background: var(--here-fill);
+  box-shadow: 0 0 0 4px var(--paper);
+  pointer-events: none;
+  transition: transform var(--dur-enter) var(--ease-out);
+}
+
+.roadmap-here.is-instant {
+  transition: none;
+}
+
+/* Leaving room above a section that is jumped to, so the station line never covers its title */
+.roadmap-section {
+  position: relative;
+  scroll-margin-top: calc(var(--inset-top) + 5.5rem);
+  border-top: 1px solid var(--rule);
+}
+
+.roadmap-section-head {
+  margin: 0;
+}
+
+.roadmap-toggle {
+  display: grid;
+  grid-template-columns: 22px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 10px;
+  width: calc(100% + 2 * var(--space-2));
+  min-height: 56px;
+  margin-inline: calc(-1 * var(--space-2));
+  padding: var(--space-2);
+  border-radius: var(--radius-control);
+  text-align: left;
+  transition: background-color var(--dur-enter) var(--ease-out);
+}
+
+.roadmap-toggle:active {
+  background: var(--press);
+  transition-duration: var(--dur-tap);
+}
+
+.roadmap-number {
+  display: grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  border: 2px solid var(--route);
+  border-radius: 50%;
+  color: var(--route-text);
+  font-size: 0.6875rem;
+  font-weight: 700;
+  transition: background-color var(--dur-enter) var(--ease-out), color var(--dur-enter) var(--ease-out);
+}
+
+.roadmap-section.is-open .roadmap-number {
+  border-color: var(--route);
+  background: var(--route);
+  color: var(--paper);
+}
+
+.roadmap-section-title {
+  font-size: 1.0625rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.roadmap-chevron {
+  width: 18px;
+  height: 18px;
+  color: var(--ink-soft);
+  transform: rotate(90deg);
+  transition: transform var(--dur-expand) var(--ease-unfold);
+}
+
+.roadmap-section.is-open .roadmap-chevron {
+  transform: rotate(-90deg);
+}
+
+.roadmap-section-body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  padding: var(--space-1) 0 var(--space-6) 32px;
+}
+
+.roadmap-section-body .reading {
+  max-width: var(--reading-width);
+}
+
+.roadmap-section-body strong {
+  font-weight: 700;
+}
+
+.roadmap-heading {
+  margin: var(--space-3) 0 0;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.roadmap-rates {
+  font-style: italic;
+}
+
+.roadmap-list,
+.roadmap-steps,
+.roadmap-checklist {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: var(--font-read);
+  font-size: var(--text-body-ui);
+  line-height: 1.55;
+}
+
+.roadmap-list li {
+  display: grid;
+  grid-template-columns: 10px minmax(0, 1fr);
+  gap: 10px;
+}
+
+.roadmap-list li::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  margin-top: 8px;
+  border-radius: 50%;
+  background: var(--route);
+}
+
+/* Keeping an item's text, its plan date and its link in one column beside the bullet */
+.roadmap-item-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-1);
+  min-width: 0;
+}
+
+.roadmap-item-body>.roadmap-item-text {
+  align-self: stretch;
+}
+
+/* Numbering the steps of an application as stations on a line */
+.roadmap-steps {
+  counter-reset: step;
+}
+
+.roadmap-steps li {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  padding-left: 34px;
+  counter-increment: step;
+}
+
+.roadmap-steps li::before {
+  content: counter(step);
+  position: absolute;
+  top: 1px;
+  left: 0;
+  display: grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--route);
+  color: var(--paper);
+  font-family: var(--font-ui);
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.roadmap-steps li:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 23px;
+  bottom: calc(-1 * var(--space-3));
+  left: 10px;
+  width: 2px;
+  background: var(--route);
+  opacity: 0.35;
+}
+
+.roadmap-item-text .info-button {
+  display: inline-grid;
+  vertical-align: middle;
+}
+
+.reading .info-button {
+  display: inline-grid;
+  vertical-align: middle;
+}
+
+/* Showing a step's date in the student's plan, with a way across to it */
+.roadmap-plan-step {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0 var(--space-2);
+  color: var(--ink-soft);
+  font-family: var(--font-ui);
+  font-size: var(--text-small);
+}
+
+.roadmap-plan-dot {
+  width: 12px;
+  height: 12px;
+  border: 3px solid var(--here-ring);
+  border-radius: 50%;
+  background: var(--here-fill);
+}
+
+.roadmap-plan-step .text-button {
+  min-height: 40px;
+}
+
+/* Ticking each line of a document checklist like a station filling */
+.roadmap-checklist li {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: start;
+}
+
+.roadmap-check {
+  position: relative;
+  display: grid;
+  grid-template-columns: 24px minmax(0, 1fr);
+  align-items: start;
+  gap: var(--space-3);
+  min-height: 44px;
+  padding: var(--space-1) 0;
+  cursor: pointer;
+}
+
+.roadmap-box {
+  display: grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  margin-top: 1px;
+  border: 2px solid var(--ink-soft);
+  border-radius: 50%;
+  color: transparent;
+  transition: background-color var(--dur-press) var(--ease-out), border-color var(--dur-press) var(--ease-out);
+}
+
+.roadmap-box .icon {
+  width: 14px;
+  height: 14px;
+}
+
+.station-input:checked+.roadmap-box {
+  border-color: var(--route);
+  background: var(--route);
+  color: var(--paper);
+}
+
+.station-input:checked~.roadmap-item-text {
+  color: var(--ink-soft);
+}
+
+.station-input:focus-visible+.roadmap-box {
+  outline: 2px solid var(--line);
+  outline-offset: 3px;
+}
+
+/* Drawing a table as one card per row, with each value under its column's name */
+.roadmap-table {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.roadmap-row {
+  position: relative;
+  padding: var(--space-3) 0;
+  border-top: 1px solid var(--rule);
+  transition: opacity var(--dur-enter) var(--ease-out);
+}
+
+/*
+  Sharing the row's name line with the information and add buttons, and putting a badge such as
+  "Depends on your programme" on the line below, so a long one never squeezes the name
+*/
+.roadmap-row-head {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  align-items: center;
+  column-gap: var(--space-1);
+  min-height: 40px;
+}
+
+.roadmap-row-head .info-button {
+  grid-column: 2;
+  grid-row: 1;
+  margin: -8px 0;
+}
+
+.roadmap-row-head .roadmap-add {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.roadmap-row-head .badge {
+  grid-column: 1 / -1;
+  grid-row: 2;
+  justify-self: start;
+  margin-top: var(--space-1);
+}
+
+.roadmap-row-title {
+  grid-column: 1;
+  grid-row: 1;
+  margin: 0;
+  font-size: var(--text-body-ui);
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.roadmap-row-cells {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  margin: var(--space-2) 0 0;
+}
+
+.roadmap-row-cells div {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.roadmap-row-cells dt {
+  color: var(--ink-soft);
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.roadmap-row-cells dd {
+  margin: 0;
+  font-family: var(--font-read);
+  font-size: var(--text-body-ui);
+  line-height: 1.5;
+}
+
+/*
+  Giving each part of a long value its own line, starting with a capital, with a small dot in front
+  and the lines after the first set in under it, so where one part ends and the next begins is clear
+*/
+.cell-line {
+  position: relative;
+  display: block;
+  padding-left: 14px;
+}
+
+.cell-line::before {
+  content: "";
+  position: absolute;
+  top: 0.68em;
+  left: 1px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--route);
+}
+
+.cell-line::first-letter {
+  text-transform: uppercase;
+}
+
+.cell-line+.cell-line {
+  margin-top: var(--space-1);
+}
+
+/* Setting the taka figure beside an amount softer than the amount, so the amount reads first */
+.approx {
+  color: var(--ink-soft);
+}
+
+/* Drawing each university on My list as a short card that opens to what each section says */
+.mylist-card .roadmap-row-head {
+  grid-template-columns: minmax(0, 1fr) auto;
+}
+
+.mylist-toggle {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: var(--space-2);
+  min-height: 48px;
+  margin: -6px 0;
+  padding: 6px var(--space-1) 6px 0;
+  border-radius: var(--radius-control);
+  text-align: left;
+  transition: background-color var(--dur-enter) var(--ease-out);
+}
+
+.mylist-toggle:active {
+  background: var(--press);
+  transition-duration: var(--dur-tap);
+}
+
+.mylist-name {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.mylist-sections {
+  color: var(--ink-soft);
+  font-size: var(--text-small);
+  line-height: 1.4;
+}
+
+.mylist-chevron {
+  width: 18px;
+  height: 18px;
+  color: var(--ink-soft);
+  transform: rotate(90deg);
+  transition: transform var(--dur-expand) var(--ease-unfold);
+}
+
+.mylist-card.is-open .mylist-chevron {
+  transform: rotate(-90deg);
+}
+
+.mylist-details {
+  padding-bottom: var(--space-1);
+}
+
+/* Grouping a university's facts on My list under the section each comes from */
+.mylist-group {
+  margin-top: var(--space-3);
+}
+
+.mylist-station {
+  margin: 0;
+  color: var(--route-text);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.mylist-group .roadmap-row-cells {
+  margin-top: var(--space-1);
+}
+
+/* Marking a row that fits the answers with a bar in the country's colour; the rest fade, never hide */
+.roadmap-row.is-fit,
+.roadmap-row.is-plan {
+  padding-left: 14px;
+}
+
+.roadmap-row.is-fit::before,
+.roadmap-row.is-plan::before {
+  content: "";
+  position: absolute;
+  top: var(--space-3);
+  bottom: var(--space-3);
+  left: 0;
+  width: 4px;
+  border-radius: 2px;
+  background: var(--route);
+}
+
+.roadmap-row.is-dim {
+  opacity: 0.45;
+}
+
+.badge.is-plan {
+  padding: 2px 8px;
+  border: 2px solid var(--here-ring);
+  border-radius: 12px;
+  font-size: 0.75rem;
+}
+
+/*
+  Filling the add button as a station fills. A press shrinks it a little at once, and letting go
+  eases it back, so the change never snaps. Its touch area reaches a little past the circle
+*/
+.roadmap-add {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  margin: -8px -8px -8px 0;
+  border-radius: 50%;
+  color: var(--ink-soft);
+  transition:
+    background-color var(--dur-enter) var(--ease-out),
+    color var(--dur-enter) var(--ease-out),
+    transform var(--dur-enter) var(--ease-out);
+}
+
+.roadmap-add::after {
+  content: "";
+  position: absolute;
+  inset: -4px;
+  border-radius: 50%;
+}
+
+.roadmap-add .icon {
+  width: 20px;
+  height: 20px;
+}
+
+.roadmap-add[aria-pressed="true"] {
+  background: var(--route);
+  color: var(--paper);
+}
+
+.roadmap-add:active {
+  transform: scale(0.9);
+  transition-duration: var(--dur-tap);
+}
+
+.roadmap-warning {
+  display: flex;
+  gap: var(--space-2);
+  margin: var(--space-2) 0 0;
+  color: var(--ink);
+  font-size: var(--text-small);
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.roadmap-warning .icon {
+  margin-top: 1px;
+}
+
+/* Raising each interactive part on a card, so it reads as something to use, not to read */
+.roadmap-widget {
+  --here-fill: radial-gradient(circle closest-side, var(--ink) 0 40%, var(--raised) 48%);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  padding: 14px 16px 16px;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-control);
+  background: var(--raised);
+}
+
+.roadmap-widget-title {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* Offering one choice from a list of long names as a short line of stations */
+.roadmap-options {
+  display: flex;
+  flex-direction: column;
+  margin: 0 calc(-1 * var(--space-2));
+}
+
+.roadmap-option {
+  display: grid;
+  grid-template-columns: 22px minmax(0, 1fr);
+  align-items: center;
+  gap: var(--space-3);
+  min-height: 44px;
+  padding: var(--space-1) var(--space-2);
+  border-radius: var(--radius-control);
+  font-size: var(--text-body-ui);
+  font-weight: 600;
+  text-align: left;
+  transition: background-color var(--dur-enter) var(--ease-out);
+}
+
+.roadmap-option:active {
+  background: var(--press);
+  transition-duration: var(--dur-tap);
+}
+
+.roadmap-option-stop {
+  justify-self: center;
+  width: 14px;
+  height: 14px;
+  border: 3px solid var(--line-faded);
+  border-radius: 50%;
+  transition: border-color var(--dur-press) var(--ease-out), transform var(--dur-enter) var(--ease-out);
+}
+
+.roadmap-option[aria-pressed="true"] .roadmap-option-stop {
+  border-color: var(--here-ring);
+  background: var(--here-fill);
+  transform: scale(1.25);
+}
+
+.roadmap-question {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.roadmap-question .field-label {
+  margin: 0;
+}
+
+.roadmap-widget .chip {
+  background: var(--raised);
+}
+
+.roadmap-widget .chip[aria-pressed="true"] {
+  background: var(--ink);
+}
+
+.icon.is-inline {
+  display: inline-block;
+  vertical-align: -3px;
+}
+
+.roadmap-sums {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  margin: 0;
+}
+
+.roadmap-sums div {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.roadmap-sums dt {
+  color: var(--ink-soft);
+  font-size: var(--text-small);
+}
+
+.roadmap-sums dd {
+  margin: 0;
+  font-weight: 600;
+}
+
+.roadmap-sums .is-total dd {
+  font-size: 1.0625rem;
+}
+
+.roadmap-sources {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.roadmap-sources li {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.roadmap-sources a {
+  color: var(--line);
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.roadmap-plan-button {
+  margin-top: var(--space-2);
+}
+
+/* Showing the value of a fact in the information panel */
+.source-value {
+  margin: 0;
+  font-family: var(--font-read);
+  font-size: var(--text-body-ui);
+  line-height: 1.55;
+}
+
+.step-roadmap {
+  margin-top: var(--space-2);
+}
+
+:root[data-motion="reduced"] .roadmap-chevron,
+:root[data-motion="reduced"] .mylist-chevron,
+:root[data-motion="reduced"] .roadmap-row {
+  transition: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  :root:not([data-motion]) .roadmap-chevron,
+  :root:not([data-motion]) .mylist-chevron,
+  :root:not([data-motion]) .roadmap-row {
+    transition: none;
+  }
+}

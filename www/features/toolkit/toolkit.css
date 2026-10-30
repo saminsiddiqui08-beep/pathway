@@ -1,0 +1,878 @@
+/* Styling the Toolkit tab: its main sections, each guide and the parts every tool shares. Colours, sizes and timing all come from tokens.css */
+
+#toolkit-root {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding-bottom: var(--space-6);
+}
+
+/* Drawing each main section as a station on the page, like a roadmap section, that opens to its tools */
+.tool-section {
+  position: relative;
+  border-top: 1px solid var(--rule);
+}
+
+.tool-section:last-child {
+  border-bottom: 1px solid var(--rule);
+}
+
+.tool-section-head {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.tool-toggle {
+  display: grid;
+  grid-template-columns: 22px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 10px;
+  width: calc(100% + 2 * var(--space-2));
+  min-height: 72px;
+  margin-inline: calc(-1 * var(--space-2));
+  padding: var(--space-3) var(--space-2);
+  border-radius: var(--radius-control);
+  text-align: left;
+  transition: background-color var(--dur-enter) var(--ease-out);
+}
+
+.tool-toggle:active {
+  background: var(--press);
+  transition-duration: var(--dur-tap);
+}
+
+/*
+  Drawing a section's station as a ring with a small dot at its heart, like an interchange on a metro
+  map. Opening fills the ring with the line's colour, leaving the dot in the paper's colour
+*/
+.tool-stop {
+  position: relative;
+  width: 22px;
+  height: 22px;
+  border: 3px solid var(--line);
+  border-radius: 50%;
+  background: var(--paper);
+  transition: background-color var(--dur-enter) var(--ease-out), transform var(--dur-enter) var(--ease-out);
+}
+
+.tool-stop::after {
+  content: "";
+  position: absolute;
+  inset: 4px;
+  border-radius: 50%;
+  background: var(--line);
+  transform: scale(0.55);
+  transition: background-color var(--dur-enter) var(--ease-out), transform var(--dur-enter) var(--ease-out);
+}
+
+.tool-section.is-open .tool-stop {
+  background: var(--line);
+}
+
+.tool-section.is-open .tool-stop::after {
+  background: var(--paper);
+  transform: scale(0.75);
+}
+
+.tool-toggle:active .tool-stop {
+  transform: scale(0.9);
+}
+
+.tool-section-title {
+  display: block;
+  font-size: 1.0625rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.tool-chevron,
+.guide-fold-chevron,
+.tool-fold-chevron {
+  width: 18px;
+  height: 18px;
+  color: var(--ink-soft);
+  transform: rotate(90deg);
+  transition: transform var(--dur-expand) var(--ease-unfold);
+}
+
+.tool-section.is-open .tool-chevron,
+.guide-fold.is-open .guide-fold-chevron,
+.tool-fold.is-open .tool-fold-chevron {
+  transform: rotate(-90deg);
+}
+
+/* Listing a section's tools as plain rows between thin rules, set in under the section's title */
+.tool-list {
+  margin: 0;
+  padding: 0 0 var(--space-3) 32px;
+  list-style: none;
+}
+
+.tool-list li+li {
+  border-top: 1px solid var(--rule);
+}
+
+.tool-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: var(--space-3);
+  width: calc(100% + 2 * var(--space-2));
+  min-height: 68px;
+  margin-inline: calc(-1 * var(--space-2));
+  padding: var(--space-3) var(--space-2);
+  border-radius: var(--radius-control);
+  text-align: left;
+  transition: background-color var(--dur-enter) var(--ease-out);
+}
+
+.tool-row:active {
+  background: var(--press);
+  transition-duration: var(--dur-tap);
+}
+
+.tool-title {
+  display: block;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.tool-summary {
+  display: block;
+  margin-top: 3px;
+  color: var(--ink-soft);
+  font-size: var(--text-small);
+  line-height: 1.45;
+}
+
+/* Drawing guides and tools in the app's own ink blue, since they belong to no one country */
+.guide {
+  --route: var(--line);
+  --route-text: var(--ink);
+}
+
+.guide-title {
+  margin: 0;
+  font-size: var(--text-heading);
+  font-weight: 600;
+  line-height: 1.25;
+  outline: none;
+}
+
+.guide-body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  margin-top: var(--space-4);
+}
+
+.guide-body .roadmap-heading {
+  margin-top: var(--space-5);
+}
+
+/* Setting the part chosen in a guide slightly in from the edge, so it reads as the answer to the choice */
+.guide-field {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  padding-left: var(--space-4);
+  border-left: 2px solid var(--line-faded);
+}
+
+.guide-field .roadmap-heading:first-of-type {
+  margin-top: var(--space-2);
+}
+
+.roadmap-filter {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.roadmap-filter .field-label {
+  margin: 0;
+}
+
+.roadmap-link {
+  align-self: flex-start;
+}
+
+/* Drawing a timeline as a short route, with "You are here" on the student's stop */
+.guide-route {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.guide-stop {
+  position: relative;
+  padding: 0 0 var(--space-4) 34px;
+}
+
+.guide-stop p {
+  margin: 0;
+  font-family: var(--font-read);
+  font-size: var(--text-body-ui);
+  line-height: 1.55;
+}
+
+.guide-stop:not(:last-child)::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  bottom: -8px;
+  left: 8px;
+  width: 4px;
+  background: var(--route);
+  opacity: 0.35;
+}
+
+.guide-marker {
+  position: absolute;
+  top: 4px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  border: 3px solid var(--route);
+  border-radius: 50%;
+  background: var(--paper);
+}
+
+.guide-stop.is-here .guide-marker {
+  top: 3px;
+  left: 1px;
+  width: 18px;
+  height: 18px;
+  border-color: var(--here-ring);
+  background: var(--here-fill);
+  box-shadow: 0 0 0 4px var(--paper);
+}
+
+/*
+  Folding a part of a guide or a tool behind a title the student taps, between thin rules, so a long
+  page reads as a short list of questions until one is opened
+*/
+.guide-fold,
+.tool-fold {
+  position: relative;
+  border-top: 1px solid var(--rule);
+}
+
+.guide-fold+.guide-fold,
+.tool-fold+.tool-fold {
+  margin-top: calc(-1 * var(--space-3));
+}
+
+.guide-fold:last-of-type,
+.tool-fold:last-of-type {
+  border-bottom: 1px solid var(--rule);
+}
+
+.guide-fold-head,
+.tool-fold-head {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.guide-fold-toggle,
+.tool-fold-toggle {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: var(--space-3);
+  width: calc(100% + 2 * var(--space-2));
+  min-height: 60px;
+  margin-inline: calc(-1 * var(--space-2));
+  padding: var(--space-3) var(--space-2);
+  border-radius: var(--radius-control);
+  text-align: left;
+  transition: background-color var(--dur-enter) var(--ease-out);
+}
+
+.guide-fold-toggle:active,
+.tool-fold-toggle:active {
+  background: var(--press);
+  transition-duration: var(--dur-tap);
+}
+
+.guide-fold-title,
+.tool-fold-title {
+  display: block;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.guide-fold-summary,
+.tool-fold-summary {
+  display: block;
+  margin-top: 2px;
+  color: var(--ink-soft);
+  font-size: var(--text-small);
+  line-height: 1.45;
+}
+
+.guide-fold-body,
+.tool-fold-body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  padding: 0 0 var(--space-5);
+}
+
+/* Laying out a tool as one column of short groups, with room between them so no screen is a wall */
+.tool-body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  margin-top: var(--space-4);
+}
+
+.tool-lead {
+  margin: 0;
+}
+
+.tool-field {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  margin: 0;
+}
+
+.tool-field>.field-label {
+  margin: 0;
+}
+
+.tool-field.is-quiet .field-label {
+  color: var(--ink-soft);
+  font-weight: 500;
+}
+
+/* Setting a count on the same line as its label, so a list of counts stays short; at the largest
+   text size the stepper drops below its label instead of squeezing it */
+.tool-field.is-inline {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: var(--space-3);
+}
+
+.tool-field.is-inline>.field-label {
+  color: var(--ink-soft);
+  font-weight: 500;
+}
+
+.tool-field.is-inline>.note {
+  flex-basis: 100%;
+}
+
+.tool-field.is-inline .stepper-value {
+  min-width: 2.5rem;
+  font-size: 1.375rem;
+}
+
+.tool-field.is-inline .stepper {
+  gap: var(--space-2);
+}
+
+/* Fitting a typed number with its currency in front, wide enough for a lakh, and never wider than the screen */
+.tool-number-box {
+  display: flex;
+  align-items: center;
+  min-height: var(--touch);
+  border: 1px solid var(--ink-soft);
+  border-radius: var(--radius-control);
+  background: var(--raised);
+}
+
+.tool-number-box:focus-within {
+  border-color: var(--ink);
+  box-shadow: 0 0 0 1px var(--ink);
+}
+
+.tool-number-prefix {
+  padding-left: 14px;
+  color: var(--ink-soft);
+  font-weight: 600;
+}
+
+.tool-number-box input,
+.tool-text-field input {
+  flex: 1;
+  width: 100%;
+  min-width: 0;
+  min-height: 46px;
+  padding: 0 14px 0 8px;
+  border: 0;
+  border-radius: var(--radius-control);
+  outline: none;
+  background: transparent;
+  color: var(--ink);
+  font: inherit;
+  font-size: 1rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.tool-text-field input {
+  padding-left: 14px;
+  border: 1px solid var(--ink-soft);
+  background: var(--raised);
+}
+
+.tool-text-field input:focus,
+.tool-text-field textarea:focus {
+  border-color: var(--ink);
+  box-shadow: 0 0 0 1px var(--ink);
+}
+
+/* Giving a written answer room for a few sentences, in the reading face, growing only downwards */
+.tool-text-field textarea {
+  width: 100%;
+  min-height: 96px;
+  padding: 10px 14px;
+  border: 1px solid var(--ink-soft);
+  border-radius: var(--radius-control);
+  outline: none;
+  background: var(--raised);
+  color: var(--ink);
+  font-family: var(--font-read);
+  font-size: var(--text-body-ui);
+  line-height: 1.5;
+  resize: vertical;
+}
+
+/* Showing a score not given yet in quieter words, so it never reads as a number */
+.stepper-value.is-unset {
+  min-width: 4.5rem;
+  color: var(--ink-soft);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.tool-field.is-inline .stepper-value.is-unset {
+  min-width: 4.5rem;
+  font-size: 0.875rem;
+}
+
+.tool-field-error {
+  margin: calc(-1 * var(--space-2)) 0 0;
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.tool-field-error:empty {
+  display: none;
+}
+
+/* Raising the answer a little from the questions above it, so the eye finds it at once */
+.tool-result {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--rule);
+}
+
+.tool-answer {
+  margin: 0;
+  font-family: var(--font-read);
+  font-size: 1.1875rem;
+  line-height: 1.45;
+}
+
+.tool-answer strong {
+  font-family: var(--font-ui);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.tool-line {
+  max-width: var(--reading-width);
+  margin: 0;
+  font-family: var(--font-read);
+  font-size: var(--text-body-ui);
+  line-height: 1.55;
+}
+
+.tool-line strong {
+  font-family: var(--font-ui);
+  font-weight: 700;
+}
+
+.tool-line .info-button {
+  display: inline-grid;
+  vertical-align: middle;
+}
+
+.tool-empty {
+  margin: 0;
+  color: var(--ink-soft);
+  font-family: var(--font-read);
+  font-size: var(--text-body-ui);
+  line-height: 1.55;
+}
+
+.tool-heading {
+  margin: var(--space-2) 0 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.soft {
+  color: var(--ink-soft);
+}
+
+.is-urgent {
+  color: var(--urgent);
+}
+
+/* Drawing a result as a short line of stations, with "You are here" where the student's answer is */
+.tool-route {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tool-route-stop {
+  position: relative;
+  min-height: 34px;
+  padding: 0 0 var(--space-4) 36px;
+}
+
+.tool-route-stop:not(:last-child)::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  bottom: -10px;
+  left: 9px;
+  width: 4px;
+  border-radius: 2px;
+  background: var(--route);
+}
+
+.tool-marker {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  display: grid;
+  place-items: center;
+  width: 16px;
+  height: 16px;
+  border: 3px solid var(--route);
+  border-radius: 50%;
+  background: var(--paper);
+  color: var(--paper);
+}
+
+.tool-marker .icon {
+  width: 14px;
+  height: 14px;
+}
+
+.tool-route-stop.is-done .tool-marker {
+  top: 1px;
+  left: 1px;
+  width: 20px;
+  height: 20px;
+  border: 0;
+  background: var(--route);
+}
+
+.tool-route-stop.is-here .tool-marker {
+  top: 2px;
+  left: 2px;
+  width: 18px;
+  height: 18px;
+  border-color: var(--here-ring);
+  background: var(--here-fill);
+  box-shadow: 0 0 0 4px var(--paper);
+}
+
+.tool-route-stop.is-dashed .tool-marker {
+  border-style: dashed;
+  border-color: var(--ink-soft);
+}
+
+.tool-stop-body {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.tool-stop-label {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: var(--text-small);
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.tool-stop-time,
+.tool-stop-date {
+  margin: 0;
+  font-size: var(--text-body-ui);
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.tool-stop-date {
+  font-weight: 500;
+}
+
+.tool-big {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.15;
+  font-variant-numeric: tabular-nums;
+}
+
+/*
+  Listing universities with a verdict on each, one to a row between thin rules. The verdict is a word
+  with a shape beside it, so its meaning never rests on colour; only "Meets" is filled
+*/
+.tool-stack {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.verdict-group {
+  margin: var(--space-3) 0 0;
+  color: var(--ink-soft);
+  font-size: var(--text-small);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.verdict-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.verdict-row {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  padding: var(--space-3) 0;
+  border-top: 1px solid var(--rule);
+}
+
+.verdict-list:last-child .verdict-row:last-child {
+  border-bottom: 1px solid var(--rule);
+}
+
+.verdict-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.verdict-name {
+  flex: 1 1 10rem;
+  min-width: 0;
+  margin: 0;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.verdict-for {
+  display: block;
+  color: var(--ink-soft);
+  font-size: var(--text-small);
+  font-weight: 400;
+}
+
+.verdict-side {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  gap: var(--space-2);
+  margin-left: auto;
+}
+
+.verdict-tag {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  gap: 6px;
+  min-height: 30px;
+  padding: 0 12px 0 10px;
+  border: 1px solid var(--ink-soft);
+  border-radius: 15px;
+  font-size: var(--text-small);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.verdict-row.is-meets .verdict-tag {
+  border-color: var(--route);
+  background: var(--route);
+  color: var(--paper);
+}
+
+.verdict-row.is-below .verdict-tag {
+  border-color: var(--ink);
+}
+
+.verdict-row.is-no .verdict-tag {
+  border-style: dashed;
+  border-color: var(--ink);
+}
+
+.verdict-reasons {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: var(--ink-soft);
+  font-size: var(--text-small);
+  line-height: 1.45;
+}
+
+.verdict-row .note {
+  margin: 0;
+}
+
+/* Keeping a tool's questions apart as their own short groups, with any folded part closing the group */
+.tool-controls {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.tool-controls:has(> .tool-fold:last-child)+.tool-result {
+  padding-top: 0;
+  border-top: 0;
+}
+
+/* Listing the working behind an answer as short labelled lines */
+.tool-sums {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  margin: 0;
+}
+
+.tool-sums div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 2px var(--space-3);
+}
+
+.tool-sums dt {
+  color: var(--ink-soft);
+  font-size: var(--text-small);
+}
+
+.tool-sums dd.is-plain {
+  color: var(--ink-soft);
+  font-weight: 400;
+}
+
+.tool-sums dd .info-button {
+  display: inline-grid;
+  vertical-align: middle;
+}
+
+.tool-sums dd {
+  margin: 0;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.tool-plain-list {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tool-plain-list.is-dotted {
+  gap: var(--space-2);
+}
+
+.tool-plain-list.is-dotted li {
+  position: relative;
+  padding-left: 14px;
+  font-family: var(--font-read);
+  font-size: var(--text-body-ui);
+  line-height: 1.5;
+}
+
+.tool-plain-list.is-dotted li::before {
+  content: "";
+  position: absolute;
+  top: 0.68em;
+  left: 1px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--route);
+}
+
+/* Offering a choice as a full-width row, for choices with a second line, such as time zone letters */
+.tool-pick-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 2px var(--space-3);
+  width: calc(100% + 2 * var(--space-2));
+  min-height: 48px;
+  margin-inline: calc(-1 * var(--space-2));
+  padding: var(--space-2);
+  border-radius: var(--radius-control);
+  text-align: left;
+  transition: background-color var(--dur-enter) var(--ease-out);
+}
+
+.tool-pick-row:active {
+  background: var(--press);
+  transition-duration: var(--dur-tap);
+}
+
+.tool-pick-row[aria-pressed="true"] .tool-pick-name::after {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-left: var(--space-2);
+  border-radius: 50%;
+  background: var(--ink);
+  vertical-align: 1px;
+}
+
+.tool-pick-words {
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.tool-pick-name {
+  color: var(--ink-soft);
+  font-size: var(--text-small);
+}
+
+:root[data-motion="reduced"] .tool-chevron,
+:root[data-motion="reduced"] .guide-fold-chevron,
+:root[data-motion="reduced"] .tool-fold-chevron {
+  transition: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  :root:not([data-motion]) .tool-chevron,
+  :root:not([data-motion]) .guide-fold-chevron,
+  :root:not([data-motion]) .tool-fold-chevron {
+    transition: none;
+  }
+}

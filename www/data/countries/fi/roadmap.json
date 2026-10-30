@@ -1,0 +1,2453 @@
+{
+  "format": 1,
+  "roadmap": "fi",
+  "title": "Finland",
+  "facts": [
+    "bd",
+    "fi"
+  ],
+  "cycle": 2027,
+  "sections": [
+    {
+      "id": "at-a-glance",
+      "number": 1,
+      "title": "At a glance",
+      "station": "At a glance",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Finland's universities are public, teach many bachelor's degrees in English, and admit students in one national application each January. For a student from Bangladesh, the deciding questions are usually money and the SAT: English-taught degrees charge tuition, there are no government scholarships, and most universities admit HSC and A level students on SAT scores."
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Degree:** a university bachelor's is three years of full-time study, as at Aalto; a bachelor's at a university of applied sciences takes 3.5 to 4.5 years.",
+              "cite": [
+                "fi/system.uniLength",
+                "fi/system.uasLength"
+              ]
+            },
+            {
+              "text": "**Studies begin:** late August. At the University of Helsinki, orientation starts on {date:fi/term.helsinki.orientation}.",
+              "cite": [
+                "fi/term.helsinki.orientation"
+              ]
+            },
+            {
+              "text": "**When to apply:** in January, about eight months ahead. The joint application runs; the University of Helsinki's SAT group applies.",
+              "cite": [
+                "fi/app.joint.window",
+                "fi/app.helsinki.window"
+              ]
+            },
+            {
+              "text": "**Tests:** the SAT for most universities, the International UAS Exam for universities of applied sciences, and usually an English test. Section 6 shows which you need."
+            },
+            {
+              "text": "**Tuition:** {money:fi/tuition.turku} to {money:fi/tuition.jyvaskyla#Immersive Software Engineering and Artificial Intelligence} a year at universities for students starting in 2027, about {taka:fi/tuition.turku} to {taka:fi/tuition.jyvaskyla#Immersive Software Engineering and Artificial Intelligence}. Section 10 lists each one.",
+              "cite": [
+                "fi/tuition.turku",
+                "fi/tuition.jyvaskyla"
+              ]
+            },
+            {
+              "text": "**Aid:** no government scholarships for bachelor's study. Universities offer discounts and partial scholarships, set out in section 11.",
+              "cite": [
+                "fi/aid.noGovernmentScholarships"
+              ]
+            },
+            {
+              "text": "**Residence permit:** you apply online, then prove your identity in New Delhi, because Finland has no mission in Bangladesh.",
+              "cite": [
+                "fi/permit.where"
+              ]
+            },
+            {
+              "text": "**If you sit the HSC in {hscYear}:** your results are expected after most universities' deadline for the final certificate, so plan to start in {hscYear+1}. Section 6 explains.",
+              "template": "sit"
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Figures are for 2027 entry. Rules usually stay the same, but dates and fees change every year: Pathway updates them, and your plan shows the expected dates for your own year. In class 9 or 10? Section 6 shows what to do now."
+        },
+        {
+          "type": "button",
+          "action": "makePlan",
+          "text": "Make my plan for Finland"
+        }
+      ]
+    },
+    {
+      "id": "whats-different",
+      "number": 2,
+      "title": "What makes Finland different",
+      "station": "What's different",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "One application, six choices"
+        },
+        {
+          "type": "p",
+          "text": "Almost every English-taught bachelor's programme is in one national joint application on Studyinfo.fi. You can apply to up to six programmes, at different universities, and you may be offered more than one study place. You may accept only one starting in the same term.",
+          "cite": [
+            "fi/app.choices",
+            "fi/app.onePlace"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Your SAT score can be your entrance result"
+        },
+        {
+          "type": "p",
+          "text": "At Aalto, Helsinki, Tampere and Turku, and in Oulu's technology programmes, the certificate route is only for Finnish, IB, EB and RP/DIA certificates, so HSC and A level students apply with the SAT, and the SAT score decides. Section 3 shows the routes that need no SAT.",
+          "cite": [
+            "fi/uni.aalto.route",
+            "fi/uni.helsinki.route",
+            "fi/uni.tampere.route",
+            "fi/uni.turku.route",
+            "fi/uni.oulu.route"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Two kinds of university"
+        },
+        {
+          "type": "p",
+          "text": "**Universities** focus on academic learning and research. **Universities of applied sciences** focus on practical, career-oriented study. A bachelor's from either is a full bachelor's degree.",
+          "cite": [
+            "fi/system.uasDifference",
+            "fi/system.uasMaster"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Tuition, but no government scholarships"
+        },
+        {
+          "type": "p",
+          "text": "Since autumn 2026, tuition fees must cover the universities' full costs. There are no Finnish government scholarships for bachelor's study. Degrees taught in Finnish or Swedish charge no tuition, but you must be able to study in that language.",
+          "cite": [
+            "fi/change.fullCostTuition",
+            "fi/aid.noGovernmentScholarships",
+            "fi/system.finnishTaughtFree"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ways-to-study",
+      "number": 3,
+      "title": "Ways to study here",
+      "station": "Ways to study",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "widget",
+          "id": "routeFinder",
+          "questions": [
+            {
+              "id": "sat",
+              "text": "Do you have an SAT score, or will you take the SAT by December?",
+              "plan": "sat",
+              "options": [
+                [
+                  "yes",
+                  "Yes"
+                ],
+                [
+                  "no",
+                  "No"
+                ],
+                [
+                  "notSure",
+                  "Not sure"
+                ]
+              ]
+            },
+            {
+              "id": "uas",
+              "text": "Would a university of applied sciences suit you?",
+              "options": [
+                [
+                  "yes",
+                  "Yes"
+                ],
+                [
+                  "no",
+                  "No"
+                ],
+                [
+                  "notSure",
+                  "Not sure"
+                ]
+              ]
+            }
+          ],
+          "tables": [
+            [
+              {
+                "fits": {
+                  "sat": [
+                    "yes",
+                    "notSure"
+                  ]
+                },
+                "planRoutes": [
+                  "sat"
+                ]
+              },
+              {
+                "fits": {},
+                "planRoutes": [
+                  "lut"
+                ]
+              },
+              {
+                "fits": {
+                  "sat": [
+                    "no",
+                    "notSure"
+                  ]
+                }
+              },
+              {
+                "fits": {}
+              },
+              {
+                "fits": {
+                  "uas": [
+                    "yes",
+                    "notSure"
+                  ]
+                },
+                "planRoutes": [
+                  "uas"
+                ]
+              },
+              {
+                "fits": {}
+              }
+            ],
+            [
+              {
+                "fits": {
+                  "sat": [
+                    "yes",
+                    "notSure"
+                  ]
+                }
+              },
+              {
+                "fits": {
+                  "sat": [
+                    "yes",
+                    "notSure"
+                  ]
+                }
+              },
+              {
+                "fits": {
+                  "sat": [
+                    "yes",
+                    "notSure"
+                  ]
+                }
+              },
+              {
+                "fits": {}
+              },
+              {
+                "fits": {
+                  "sat": [
+                    "yes",
+                    "notSure"
+                  ]
+                }
+              },
+              {
+                "fits": {
+                  "sat": [
+                    "yes",
+                    "notSure"
+                  ]
+                }
+              },
+              {
+                "fits": {}
+              },
+              {
+                "fits": {}
+              },
+              {
+                "fits": {
+                  "sat": [
+                    "no"
+                  ]
+                }
+              }
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "The routes for a student from Bangladesh"
+        },
+        {
+          "type": "table",
+          "head": [
+            "Route",
+            "Who it suits",
+            "What decides"
+          ],
+          "rows": [
+            [
+              {
+                "text": "**SAT route** at most universities"
+              },
+              {
+                "text": "Students who can reach the SAT score a programme asks for"
+              },
+              {
+                "text": "Your SAT score, sometimes with a video"
+              }
+            ],
+            [
+              {
+                "text": "**LUT's rolling admission**"
+              },
+              {
+                "text": "Students with strong HSC or A level grades"
+              },
+              {
+                "text": "Your grades, LUT's online maths test, or the SAT",
+                "cite": [
+                  "fi/uni.lut.route",
+                  "fi/uni.lut.alevels"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "**An entrance exam** at the University of Eastern Finland"
+              },
+              {
+                "text": "Students who want Social Sciences without the SAT"
+              },
+              {
+                "text": "An online exam in March and April, and an interview",
+                "cite": [
+                  "fi/uni.uef.examRoute"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "**Jyväskylä's own tests** in software and artificial intelligence"
+              },
+              {
+                "text": "Students strong in computing"
+              },
+              {
+                "text": "An online test in February and interviews in March",
+                "cite": [
+                  "fi/uni.jyvaskyla.softwareRoute"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "**Universities of applied sciences**"
+              },
+              {
+                "text": "Students who want practical, career-oriented study"
+              },
+              {
+                "text": "The International UAS Exam",
+                "cite": [
+                  "fi/uas.exam"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "**Degrees taught in Finnish or Swedish**"
+              },
+              {
+                "text": "Students who already speak the language well"
+              },
+              {
+                "text": "Your language level and the programme's own selection",
+                "cite": [
+                  "fi/system.finnishLevel"
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Universities"
+        },
+        {
+          "type": "p",
+          "text": "Positions are from the QS World University Rankings 2027."
+        },
+        {
+          "type": "table",
+          "head": [
+            "University",
+            "QS 2027",
+            "English bachelor's programmes",
+            "How HSC and A level students are admitted"
+          ],
+          "rows": [
+            [
+              {
+                "text": "University of Helsinki"
+              },
+              {
+                "text": "{rank:fi/uni.helsinki.qsRank}",
+                "cite": [
+                  "fi/uni.helsinki.qsRank"
+                ]
+              },
+              {
+                "text": "{fact:fi/uni.helsinki.programmes}",
+                "cite": [
+                  "fi/uni.helsinki.programmes"
+                ]
+              },
+              {
+                "text": "SAT or ACT, in its own period in early January",
+                "cite": [
+                  "fi/uni.helsinki.route"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Aalto University"
+              },
+              {
+                "text": "{rank:fi/uni.aalto.qsRank}",
+                "cite": [
+                  "fi/uni.aalto.qsRank"
+                ]
+              },
+              {
+                "text": "{fact:fi/uni.aalto.programmes}",
+                "cite": [
+                  "fi/uni.aalto.programmes"
+                ]
+              },
+              {
+                "text": "SAT or ACT, with set minimums",
+                "cite": [
+                  "fi/uni.aalto.route",
+                  "fi/uni.aalto.satMinimum"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "University of Oulu"
+              },
+              {
+                "text": "{rank:fi/uni.oulu.qsRank}",
+                "cite": [
+                  "fi/uni.oulu.qsRank"
+                ]
+              },
+              {
+                "text": "{fact:fi/uni.oulu.programmes}",
+                "cite": [
+                  "fi/uni.oulu.programmes"
+                ]
+              },
+              {
+                "text": "SAT for the technology programmes; SAT or ACT in an October round for International Business Management",
+                "cite": [
+                  "fi/uni.oulu.route",
+                  "fi/uni.oulu.ibmRoute"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "LUT University"
+              },
+              {
+                "text": "{rank:fi/uni.lut.qsRank}",
+                "cite": [
+                  "fi/uni.lut.qsRank"
+                ]
+              },
+              {
+                "text": "{fact:fi/uni.lut.programmes}",
+                "cite": [
+                  "fi/uni.lut.programmes"
+                ]
+              },
+              {
+                "text": "Grades, LUT's maths test or the SAT, in rolling admission",
+                "cite": [
+                  "fi/uni.lut.route"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "University of Turku"
+              },
+              {
+                "text": "{rank:fi/uni.turku.qsRank}",
+                "cite": [
+                  "fi/uni.turku.qsRank"
+                ]
+              },
+              {
+                "text": "{fact:fi/uni.turku.programmes}",
+                "cite": [
+                  "fi/uni.turku.programmes"
+                ]
+              },
+              {
+                "text": "SAT, with set minimums in ICT",
+                "cite": [
+                  "fi/uni.turku.route"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Tampere University"
+              },
+              {
+                "text": "{rank:fi/uni.tampere.qsRank}",
+                "cite": [
+                  "fi/uni.tampere.qsRank"
+                ]
+              },
+              {
+                "text": "{fact:fi/uni.tampere.programmes}",
+                "cite": [
+                  "fi/uni.tampere.programmes"
+                ]
+              },
+              {
+                "text": "SAT or ACT",
+                "cite": [
+                  "fi/uni.tampere.route"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "University of Jyväskylä"
+              },
+              {
+                "text": "{rank:fi/uni.jyvaskyla.qsRank}",
+                "cite": [
+                  "fi/uni.jyvaskyla.qsRank"
+                ]
+              },
+              {
+                "text": "{fact:fi/uni.jyvaskyla.programmes}",
+                "cite": [
+                  "fi/uni.jyvaskyla.programmes"
+                ]
+              },
+              {
+                "text": "SAT or ACT in Business Innovation and Sustainability; an online test and interviews in software and artificial intelligence",
+                "cite": [
+                  "fi/app.sat.minimum",
+                  "fi/uni.jyvaskyla.softwareRoute"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "University of Eastern Finland"
+              },
+              {
+                "text": "{rank:fi/uni.uef.qsRank}",
+                "cite": [
+                  "fi/uni.uef.qsRank"
+                ]
+              },
+              {
+                "text": "{fact:fi/uni.uef.programmes}",
+                "cite": [
+                  "fi/uni.uef.programmes"
+                ]
+              },
+              {
+                "text": "SAT in some programmes, an entrance exam in Social Sciences",
+                "cite": [
+                  "fi/uni.uef.dataSat",
+                  "fi/uni.uef.examRoute"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Åbo Akademi University"
+              },
+              {
+                "text": "{rank:fi/uni.abo.qsRank}",
+                "cite": [
+                  "fi/uni.abo.qsRank"
+                ]
+              },
+              {
+                "text": "None: its bachelor's degrees are taught in Swedish",
+                "cite": [
+                  "fi/uni.abo.language"
+                ]
+              },
+              {
+                "text": "Swedish-taught route only"
+              }
+            ]
+          ],
+          "listable": true
+        },
+        {
+          "type": "heading",
+          "text": "Universities of applied sciences"
+        },
+        {
+          "type": "p",
+          "text": "Finland has 24. Many of their English bachelor's programmes select through one online exam, the International UAS Exam. Some also run their own applications: Metropolia, for example, also selects on SAT or ACT scores. Four examples, with their fees in section 10:",
+          "cite": [
+            "fi/system.uasLength",
+            "fi/uas.examFormat",
+            "fi/uni.metropolia.separate"
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "Metropolia University of Applied Sciences, Helsinki"
+            },
+            {
+              "text": "Haaga-Helia University of Applied Sciences, Helsinki"
+            },
+            {
+              "text": "Tampere University of Applied Sciences (TAMK)"
+            },
+            {
+              "text": "Turku University of Applied Sciences"
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**Check any institution before you apply.** If a university or programme is not listed on Study in Finland, Studyinfo.fi or the Ministry of Education and Culture's site, it is not officially recognised.",
+          "cite": [
+            "fi/scam.fakeUniversities"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pros-and-cons",
+      "number": 4,
+      "title": "Honest pros and cons",
+      "station": "Pros and cons",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "What works in your favour"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Clear rules.** Most programmes publish exactly what decides admission, so you can judge your chances before you apply.",
+              "cite": [
+                "fi/uni.aalto.satMinimum",
+                "fi/uni.turku.route"
+              ]
+            },
+            {
+              "text": "**Six choices in one application,** with one {money:fi/app.fee} fee for all of them.",
+              "cite": [
+                "fi/app.choices",
+                "fi/app.fee"
+              ]
+            },
+            {
+              "text": "**Shorter degrees.** A university bachelor's is three years of full-time study, as at Aalto.",
+              "cite": [
+                "fi/system.uniLength"
+              ]
+            },
+            {
+              "text": "**A permit for your whole degree.** Degree students can be granted a residence permit for the full length of their studies.",
+              "cite": [
+                "fi/permit.length"
+              ]
+            },
+            {
+              "text": "**Work while you study,** on average up to 30 hours a week.",
+              "cite": [
+                "fi/work.hours"
+              ]
+            },
+            {
+              "text": "**Time to find work after you graduate,** with a permit of up to two years.",
+              "cite": [
+                "fi/work.afterGraduation"
+              ]
+            },
+            {
+              "text": "**You will not be the only one.** In the January 2026 joint application, 8 in every 100 applicants offered a place were from Bangladesh.",
+              "cite": [
+                "fi/stats.bangladesh"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "What to plan for"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Tuition is real money.** {money:fi/tuition.turku} to {money:fi/tuition.jyvaskyla#Immersive Software Engineering and Artificial Intelligence} a year at universities. Most first-year help is now an early payment discount, from EUR 1,000 to 30% of the fee, and full scholarships are rare.",
+              "cite": [
+                "fi/aid.aalto",
+                "fi/aid.uef",
+                "fi/aid.metropolia",
+                "fi/tuition.turku",
+                "fi/tuition.jyvaskyla"
+              ]
+            },
+            {
+              "text": "**The permit needs money in your own account:** {money:fi/permit.funds} for living costs, plus any tuition not yet paid. Your family can put it there, but a sponsorship letter in place of money is not accepted.",
+              "cite": [
+                "fi/permit.funds",
+                "fi/permit.tuitionMoney"
+              ]
+            },
+            {
+              "text": "**Living costs are higher than the permit minimum.** The University of Helsinki puts a student's monthly costs at EUR 1,000 to 1,300 or more, about {taka:1000 EUR} to {taka:1300 EUR}.",
+              "cite": [
+                "fi/living.helsinki"
+              ]
+            },
+            {
+              "text": "**Part-time jobs are hard to find without Finnish or Swedish.** Do not count on work to pay your living costs.",
+              "cite": [
+                "fi/work.reality"
+              ]
+            },
+            {
+              "text": "**New Delhi, not Dhaka.** Your identity check is in India, so you need an Indian visa and a trip.",
+              "cite": [
+                "fi/permit.where"
+              ]
+            },
+            {
+              "text": "**Rules are changing.** The government has proposed cancelling, as a rule, the permits of students who receive social assistance, making families wait a year to join, and refusing permits to students without enough skill in the language they will study in. Pathway rechecks these facts before each cycle.",
+              "cite": [
+                "fi/change.socialAssistance",
+                "fi/change.familyMembers",
+                "fi/change.familyBill"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-it-works",
+      "number": 5,
+      "title": "How the system works",
+      "station": "How it works",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Universities and universities of applied sciences.** Both give full bachelor's degrees. A master's at a university of applied sciences needs two years of work after the bachelor's.",
+              "cite": [
+                "fi/system.uasMaster"
+              ]
+            },
+            {
+              "text": "**Length.** A university bachelor's is three years of full-time study, as at Aalto. A bachelor's at a university of applied sciences is 210 to 270 credits, about 3.5 to 4.5 years, with practical training built in.",
+              "cite": [
+                "fi/system.uniLength",
+                "fi/system.uasLength"
+              ]
+            },
+            {
+              "text": "**Credits.** Finland uses ECTS credits. A full year of study is 60 credits, and many scholarships after the first year depend on reaching 55 or 60. Section 11 explains.",
+              "cite": [
+                "fi/system.creditsYear"
+              ]
+            },
+            {
+              "text": "**The academic year** starts in late August. Your offer letter gives your exact start date."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "can-you-apply",
+      "number": 6,
+      "title": "Can you apply with your qualifications",
+      "station": "Can you apply",
+      "planSteps": [
+        "sat.test",
+        "english.test",
+        "fi.finalDocuments"
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "**Yes, with HSC or A levels,** but at most universities your certificate alone will not decide. At Aalto, Helsinki, Tampere and Turku, HSC and A level students apply with the SAT.",
+          "cite": [
+            "fi/uni.aalto.route",
+            "fi/uni.helsinki.route",
+            "fi/uni.tampere.route",
+            "fi/uni.turku.route"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "If you are in class 9 or 10"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**The SAT decides most English programmes for HSC students,** so plan it for class 11 or 12. The last sitting that counts is in the December before the January application.",
+              "cite": [
+                "fi/app.sat.rules",
+                "fi/uni.tampere.satDates"
+              ]
+            },
+            {
+              "text": "**Start saving early.** Tuition is about {money:fi/tuition.jyvaskyla#Business Innovation and Sustainability, and Early Childhood Education} to {money:fi/tuition.jyvaskyla#Immersive Software Engineering and Artificial Intelligence} a year, there are no government scholarships, and the residence permit needs {money:fi/permit.funds} in your own account.",
+              "cite": [
+                "fi/tuition.jyvaskyla",
+                "fi/tuition.helsinki",
+                "fi/aid.noGovernmentScholarships",
+                "fi/permit.funds"
+              ]
+            },
+            {
+              "text": "**Want a Finnish-taught degree with no fees?** You need level 4 in every part of the YKI Finnish test, so start learning early.",
+              "cite": [
+                "fi/system.finnishLevel",
+                "fi/system.finnishTaughtFree"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Where your certificate does count"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**LUT University** admits on HSC grades, three A levels at BBC, its own online maths test, or the SAT.",
+              "cite": [
+                "fi/uni.lut.route",
+                "fi/uni.lut.alevels"
+              ]
+            },
+            {
+              "text": "**Universities of applied sciences** accept HSC, and A levels with at least two subjects passed. Six of them share this list; check your own university's list.",
+              "cite": [
+                "fi/uas.hscEligible",
+                "fi/uas.alevels"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "If you are still at school: the final certificate deadline"
+        },
+        {
+          "type": "p",
+          "text": "You can apply in January of your last school year, before your final exams, and be admitted on condition that your final certificate arrives by the university's deadline.",
+          "sources": [
+            "fi/tuni-eligibility"
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            "University",
+            "Final certificate due"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Aalto"
+              },
+              {
+                "text": "31 July 2027",
+                "cite": [
+                  "fi/uni.aalto.finalDiploma"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "University of Jyväskylä"
+              },
+              {
+                "text": "{date:fi/app.finalDocuments}",
+                "cite": [
+                  "fi/app.finalDocuments"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "University of Turku"
+              },
+              {
+                "text": "15 August 2027",
+                "cite": [
+                  "fi/uni.turku.finalCertificate"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Tampere University"
+              },
+              {
+                "text": "23 August 2027",
+                "cite": [
+                  "fi/uni.tampere.finalCertificate"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "LUT University"
+              },
+              {
+                "text": "School completed by 31 August 2027",
+                "cite": [
+                  "fi/uni.lut.route"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Universities of applied sciences"
+              },
+              {
+                "text": "Each sets its own; Laurea's was 9 July in 2026",
+                "cite": [
+                  "fi/uas.finalCertificate"
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**HSC {hscYear} results are expected {window:bd/hsc.results},** after most of these deadlines. If your certificate arrives late, you lose the place, and Jyväskylä tells students who cannot finish in time to apply the next year. **If you sit the HSC in {hscYear}, plan to start in autumn {hscYear+1},** applying in January {hscYear+1} with your results, or look at the autumn joint application for a January {hscYear+1} start (section 15). June A level results come in August, after Aalto's deadline and close to the others, so compare your results day with each deadline.",
+          "cite": [
+            "bd/hsc.results",
+            "fi/app.finalDocuments",
+            "bd/alevel.cambridge.results",
+            "bd/alevel.edexcel.results"
+          ],
+          "template": "sit"
+        },
+        {
+          "type": "heading",
+          "text": "The SAT"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Take it by December, and register in time.** The December 2026 sitting is the last for the January 2027 application. Registration closes about two weeks before each test day, and your plan shows each deadline. Jyväskylä needs scores to arrive by 28 January 2027.",
+              "cite": [
+                "fi/uni.tampere.satDates",
+                "bd/sat.administrations",
+                "fi/app.sat.rules"
+              ]
+            },
+            {
+              "text": "**How old a score may be.** Tampere counts only tests taken after 1 January 2025, Aalto from 1 January 2025, and Turku tests no more than two years old.",
+              "cite": [
+                "fi/uni.tampere.satDates",
+                "fi/uni.aalto.satMinimum",
+                "fi/uni.turku.route"
+              ]
+            },
+            {
+              "text": "**No superscores.** Tampere and Jyväskylä do not combine sections from different test days, so one sitting must reach the score on its own.",
+              "cite": [
+                "fi/uni.tampere.route",
+                "fi/app.sat.rules"
+              ]
+            },
+            {
+              "text": "**The minimums.** Aalto asks for 1200 in business and 1350 with 700 in Math in science and technology. Turku's ICT programme asks for 1150 with 600 in Math. Jyväskylä accepts nothing below 1100 in business and early childhood education. LUT asks for 1300 with 700 in Math.",
+              "cite": [
+                "fi/uni.aalto.satMinimum",
+                "fi/uni.turku.route",
+                "fi/app.sat.minimum",
+                "fi/uni.lut.route"
+              ]
+            },
+            {
+              "text": "**The real bar is often higher.** In 2025, the University of Helsinki's Bachelor's Programme in Science admitted 73 of 276 SAT applicants, with a minimum of 1480. At Tampere in 2026, the lowest scores admitted included 1210 and 1250.",
+              "cite": [
+                "fi/uni.helsinki.satCutoff",
+                "fi/uni.tampere.satScores"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Do you need an English test?"
+        },
+        {
+          "type": "p",
+          "text": "**On the SAT route, often not.** Several universities accept your SAT as proof of English. Schooling in Bangladesh, even in English, does not count as proof at universities of applied sciences or at the University of Helsinki, whose lists name the countries that do.",
+          "cite": [
+            "fi/uni.helsinki.english",
+            "fi/uas.englishTests"
+          ]
+        },
+        {
+          "type": "widget",
+          "id": "englishPicker",
+          "mode": "ask",
+          "questions": [
+            {
+              "id": "route",
+              "text": "Which route are you taking?",
+              "plan": "route",
+              "options": [
+                [
+                  "sat",
+                  "SAT route"
+                ],
+                [
+                  "lut",
+                  "LUT"
+                ],
+                [
+                  "exam",
+                  "Entrance exam"
+                ],
+                [
+                  "uas",
+                  "University of applied sciences"
+                ]
+              ]
+            }
+          ],
+          "marks": [
+            [
+              {
+                "when": {
+                  "route": [
+                    "sat"
+                  ]
+                },
+                "mark": "depends"
+              },
+              {
+                "mark": "needs"
+              }
+            ],
+            [
+              {
+                "when": {
+                  "route": [
+                    "sat"
+                  ]
+                },
+                "mark": "none"
+              },
+              {
+                "mark": "depends"
+              }
+            ],
+            [
+              {
+                "when": {
+                  "route": [
+                    "sat"
+                  ]
+                },
+                "mark": "none"
+              },
+              {
+                "mark": "needs"
+              }
+            ],
+            [
+              {
+                "when": {
+                  "route": [
+                    "sat"
+                  ]
+                },
+                "mark": "none"
+              },
+              {
+                "mark": "needs"
+              }
+            ],
+            [
+              {
+                "when": {
+                  "route": [
+                    "sat"
+                  ]
+                },
+                "mark": "none"
+              },
+              {
+                "mark": "needs"
+              }
+            ],
+            [
+              {
+                "when": {
+                  "route": [
+                    "sat"
+                  ]
+                },
+                "mark": "none"
+              },
+              {
+                "mark": "depends"
+              }
+            ],
+            [
+              {
+                "when": {
+                  "route": [
+                    "sat"
+                  ]
+                },
+                "mark": "depends"
+              },
+              {
+                "mark": "needs"
+              }
+            ],
+            [
+              {
+                "mark": "needs"
+              }
+            ],
+            [
+              {
+                "mark": "needs"
+              }
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            "Where",
+            "English proof"
+          ],
+          "rows": [
+            [
+              {
+                "text": "University of Helsinki"
+              },
+              {
+                "text": "A test such as IELTS 6.5, or an SAT score of at least 550 in Reading and Writing",
+                "cite": [
+                  "fi/uni.helsinki.english"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Aalto"
+              },
+              {
+                "text": "No language test result required",
+                "cite": [
+                  "fi/uni.aalto.english"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "University of Turku"
+              },
+              {
+                "text": "None for SAT applicants",
+                "cite": [
+                  "fi/uni.turku.english"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Tampere University"
+              },
+              {
+                "text": "None for SAT applicants; otherwise a test such as IELTS 6.0",
+                "cite": [
+                  "fi/uni.tampere.english"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "University of Oulu"
+              },
+              {
+                "text": "The SAT counts; otherwise a test such as IELTS 6.0",
+                "cite": [
+                  "fi/uni.oulu.english"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "University of Jyväskylä"
+              },
+              {
+                "text": "The SAT counts in Business Innovation and Sustainability; the software programme runs its own assessment",
+                "cite": [
+                  "fi/uni.jyvaskyla.english"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "University of Eastern Finland"
+              },
+              {
+                "text": "A test such as IELTS 6.0; the SAT counts only in two programmes",
+                "cite": [
+                  "fi/uni.uef.english"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "LUT University"
+              },
+              {
+                "text": "IELTS 6.5 with 6.0 in writing and speaking, or another accepted test",
+                "cite": [
+                  "fi/uni.lut.english"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Universities of applied sciences"
+              },
+              {
+                "text": "IELTS 6.0, TOEFL 3.5 on the new scale, PTE 55 or another listed test, ready by the attachment deadline",
+                "cite": [
+                  "fi/uas.englishTests",
+                  "fi/uas.englishProof"
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**The Duolingo English Test is not on any of these lists.** Universities of applied sciences say plainly that they do not accept it.",
+          "cite": [
+            "fi/uas.englishTests"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "choosing",
+      "number": 7,
+      "title": "Choosing programmes",
+      "station": "Choosing",
+      "planSteps": [
+        "fi.apply"
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Start from four questions about each programme."
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Which route admits you?** The SAT, your grades, an entrance exam, or the UAS exam. Section 3 shows which."
+            },
+            {
+              "text": "**Can you reach its bar?** Compare your SAT score with the minimum and with past lowest admitted scores where they are published. Section 6 lists them."
+            },
+            {
+              "text": "**Can your family pay?** Tuition, the first year's living money, and the money the permit asks to see in your account. Section 10 adds it up."
+            },
+            {
+              "text": "**What happens after the first year?** Many scholarships depend on credits and on passing Finnish tests. Section 11 shows each university's rule."
+            }
+          ],
+          "ordered": true
+        },
+        {
+          "type": "p",
+          "text": "**Use all six choices.** You can receive more than one offer, and you then accept one.",
+          "cite": [
+            "fi/app.choices",
+            "fi/app.onePlace"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**The University of Helsinki has its own early period** for SAT applicants, {window:fi/app.helsinki.window}, which closes two days before the joint application. Your plan uses Helsinki's date so you are ready for both.",
+          "cite": [
+            "fi/app.helsinki.window"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**Check your results day against each final certificate deadline** before you choose (section 6)."
+        },
+        {
+          "type": "widget",
+          "id": "myList",
+          "limit": 6
+        }
+      ]
+    },
+    {
+      "id": "how-youre-judged",
+      "number": 8,
+      "title": "How you're judged here",
+      "station": "How you're judged",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Finnish admission is mostly by numbers stated in advance."
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**The SAT route.** Your SAT score, compared with other SAT applicants to the same programme. Some programmes add a video, and Aalto's Technology, Business and Design adds an assignment.",
+              "cite": [
+                "fi/uni.tampere.satScores",
+                "fi/uni.uef.dataSat",
+                "fi/uni.aalto.assignment"
+              ]
+            },
+            {
+              "text": "**LUT.** Your grades, LUT's online maths test, or your SAT, against fixed requirements. If you meet them and places remain, you are admitted.",
+              "cite": [
+                "fi/uni.lut.rolling",
+                "fi/uni.lut.route"
+              ]
+            },
+            {
+              "text": "**Entrance exams and interviews.** At the University of Eastern Finland's Social Sciences, written and video tasks and a compulsory online interview. Jyväskylä's software and artificial intelligence programme uses an online test and interviews.",
+              "cite": [
+                "fi/uni.uef.examRoute",
+                "fi/uni.jyvaskyla.softwareRoute"
+              ]
+            },
+            {
+              "text": "**The International UAS Exam.** Reasoning, English and, in most fields, maths. You must pass every section.",
+              "cite": [
+                "fi/uas.examFormat"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "link": "profile",
+          "text": "**Essays and activities rarely count in admission here.** **Building your profile,** in the Toolkit, still matters if you also apply to countries that read them, and the habits it describes help in your studies."
+        }
+      ]
+    },
+    {
+      "id": "step-by-step",
+      "number": 9,
+      "title": "The application step by step",
+      "station": "Step by step",
+      "planSteps": [
+        "sat.test",
+        "english.test",
+        "fi.apply",
+        "fi.attachments",
+        "fi.uasExam",
+        "fi.results",
+        "fi.accept",
+        "fi.permitApply",
+        "fi.finalDocuments"
+      ],
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Choose your route and up to six programmes,** and note each one's SAT rule and English rule."
+            },
+            {
+              "planSteps": [
+                "sat.test",
+                "english.test"
+              ],
+              "text": "**Take your tests:** the SAT by December if you are on the SAT route, and an English test if your programmes need one."
+            },
+            {
+              "planSteps": [
+                "fi.apply"
+              ],
+              "text": "**Apply on Studyinfo.fi.** The joint application runs. The University of Helsinki's SAT group applies. If you want Aalto's Excellence Scholarship or Tampere's 50% scholarship, apply for it in the same application. Aalto's Technology, Business and Design also needs its assignment by the closing date.",
+              "cite": [
+                "fi/app.joint.window",
+                "fi/app.helsinki.window",
+                "fi/aid.aalto",
+                "fi/aid.tampere",
+                "fi/uni.aalto.assignment"
+              ]
+            },
+            {
+              "text": "**Pay the {money:fi/app.fee} application fee** within seven days of the email with the payment link, or your application is not processed.",
+              "cite": [
+                "fi/app.fee",
+                "fi/app.feePayment"
+              ]
+            },
+            {
+              "planSteps": [
+                "fi.attachments"
+              ],
+              "text": "**Send your attachments** by each university's deadline, usually: your certificates or latest transcript, your English result if you need one, and, on the SAT route, your scores sent straight from College Board. Aalto's is a day later, and Helsinki may set an earlier one, so check yours.",
+              "cite": [
+                "fi/app.attachments",
+                "fi/app.sat.rules",
+                "fi/uni.aalto.finalDiploma"
+              ]
+            },
+            {
+              "planSteps": [
+                "fi.uasExam"
+              ],
+              "text": "**Take the International UAS Exam,** if you applied to universities of applied sciences, on {date:fi/uas.exam}.",
+              "cite": [
+                "fi/uas.exam"
+              ]
+            },
+            {
+              "planSteps": [
+                "fi.results"
+              ],
+              "text": "**Results arrive.** At Jyväskylä, SAT-group results come by {date:fi/app.results.sat} and the rest by {date:fi/app.results.final}.",
+              "cite": [
+                "fi/app.results.sat",
+                "fi/app.results.final"
+              ]
+            },
+            {
+              "planSteps": [
+                "fi.accept"
+              ],
+              "text": "**Accept one study place** by {date:fi/app.accept}. Accept earlier if your university offers an early discount, which can need acceptance and payment within 14 to 21 days.",
+              "cite": [
+                "fi/app.accept",
+                "fi/aid.aalto",
+                "fi/aid.uef",
+                "fi/aid.tamk"
+              ]
+            },
+            {
+              "planSteps": [
+                "fi.permitApply"
+              ],
+              "text": "**Apply for your residence permit,** then follow section 12."
+            },
+            {
+              "planSteps": [
+                "fi.finalDocuments"
+              ],
+              "text": "**Send your final certificate** by your university's deadline, as soon as your results are out.",
+              "cite": [
+                "fi/app.finalDocuments"
+              ]
+            }
+          ],
+          "ordered": true
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "number": 10,
+      "title": "Money",
+      "station": "Money",
+      "planSteps": [
+        "fi.funds",
+        "fi.permitApply"
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "{rate:EUR}",
+          "cite": [
+            "bd/fx.eur"
+          ],
+          "rates": true
+        },
+        {
+          "type": "heading",
+          "text": "Tuition per year, for students starting in 2027"
+        },
+        {
+          "type": "table",
+          "head": [
+            "University",
+            "Fee per year"
+          ],
+          "rows": [
+            [
+              {
+                "text": "University of Helsinki"
+              },
+              {
+                "text": "{money:fi/tuition.helsinki} (about {taka:fi/tuition.helsinki})",
+                "cite": [
+                  "fi/tuition.helsinki"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Aalto"
+              },
+              {
+                "text": "{money:fi/tuition.aalto#Business, technology, and technology, business and design} (about {taka:fi/tuition.aalto#Business, technology, and technology, business and design}); {money:fi/tuition.aalto#Art and architecture} in art and architecture",
+                "cite": [
+                  "fi/tuition.aalto"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "LUT University"
+              },
+              {
+                "text": "{money:fi/tuition.lut} (about {taka:fi/tuition.lut})",
+                "cite": [
+                  "fi/tuition.lut"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "University of Turku"
+              },
+              {
+                "text": "{money:fi/tuition.turku} (about {taka:fi/tuition.turku})",
+                "cite": [
+                  "fi/tuition.turku"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Tampere University"
+              },
+              {
+                "text": "{money:fi/tuition.tampere}",
+                "cite": [
+                  "fi/tuition.tampere"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "University of Oulu"
+              },
+              {
+                "text": "{money:fi/tuition.oulu}",
+                "cite": [
+                  "fi/tuition.oulu"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "University of Eastern Finland"
+              },
+              {
+                "text": "{money:fi/tuition.uef}",
+                "cite": [
+                  "fi/tuition.uef"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "University of Jyväskylä"
+              },
+              {
+                "text": "{money:fi/tuition.jyvaskyla#Business Innovation and Sustainability, and Early Childhood Education}; {money:fi/tuition.jyvaskyla#Immersive Software Engineering and Artificial Intelligence} (about {taka:fi/tuition.jyvaskyla#Immersive Software Engineering and Artificial Intelligence}) in Immersive Software Engineering and Artificial Intelligence",
+                "cite": [
+                  "fi/tuition.jyvaskyla"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Metropolia"
+              },
+              {
+                "text": "{money:fi/tuition.metropolia#Most programmes} (about {taka:fi/tuition.metropolia#Most programmes}); {money:fi/tuition.metropolia#Game, design and fashion programmes} in game, design and fashion programmes",
+                "cite": [
+                  "fi/tuition.metropolia"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Haaga-Helia"
+              },
+              {
+                "text": "{money:fi/tuition.haagahelia} (about {taka:fi/tuition.haagahelia})",
+                "cite": [
+                  "fi/tuition.haagahelia"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Tampere University of Applied Sciences"
+              },
+              {
+                "text": "{money:fi/tuition.tamk}",
+                "cite": [
+                  "fi/tuition.tamk"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Turku University of Applied Sciences"
+              },
+              {
+                "text": "{money:fi/tuition.turkuamk}",
+                "cite": [
+                  "fi/tuition.turkuamk"
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Degrees taught in Finnish or Swedish charge no tuition.",
+          "cite": [
+            "fi/system.finnishTaughtFree"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Living costs"
+        },
+        {
+          "type": "p",
+          "text": "The residence permit asks for EUR 800 for each month, {money:fi/permit.funds} for a year, about {taka:fi/permit.funds}. That is a minimum, not a budget: the University of Helsinki puts a student's monthly costs in Helsinki at EUR 1,000 to 1,300 or more, with student housing at EUR 450 to 800 a month.",
+          "cite": [
+            "fi/permit.funds",
+            "fi/living.helsinki"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "What must be in your account for the permit"
+        },
+        {
+          "type": "p",
+          "text": "The living money, **plus** your tuition if it is not yet paid, in your own bank account on the day you apply. For a programme of {money:fi/tuition.turku} with tuition unpaid, that is {money:fi/permit.funds+fi/tuition.turku}, about {taka:fi/permit.funds+fi/tuition.turku}. If you pay the tuition first, you attach the receipt instead.",
+          "cite": [
+            "fi/permit.funds",
+            "fi/permit.tuitionMoney",
+            "fi/tuition.turku"
+          ]
+        },
+        {
+          "type": "widget",
+          "id": "permitCalculator"
+        },
+        {
+          "type": "heading",
+          "text": "Costs of applying"
+        },
+        {
+          "type": "table",
+          "head": [
+            "What",
+            "Cost"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Application fee, once for all six choices"
+              },
+              {
+                "text": "{money:fi/app.fee} (about {taka:fi/app.fee})",
+                "cite": [
+                  "fi/app.fee",
+                  "fi/app.feePayment"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SAT, per sitting"
+              },
+              {
+                "text": "{money:bd/sat.fee+bd/sat.internationalFee} (about {taka:bd/sat.fee+bd/sat.internationalFee}); made up of {money:bd/sat.fee} to register and a {money:bd/sat.internationalFee} international fee",
+                "cite": [
+                  "bd/sat.fee",
+                  "bd/sat.internationalFee"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "IELTS at British Council or IDP"
+              },
+              {
+                "text": "{money:bd/ielts.bd.fee}",
+                "cite": [
+                  "bd/ielts.bd.fee"
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Costs after you are admitted"
+        },
+        {
+          "type": "table",
+          "head": [
+            "What",
+            "Cost"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Residence permit"
+              },
+              {
+                "text": "{money:fi/permit.fee#Online} online (about {taka:fi/permit.fee#Online}); {money:fi/permit.fee#On paper} on paper",
+                "cite": [
+                  "fi/permit.fee"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Service fee at the centre in New Delhi"
+              },
+              {
+                "text": "{money:fi/permit.vfsFee} (about {taka:fi/permit.vfsFee})",
+                "cite": [
+                  "fi/permit.vfsFee"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Indian visa and travel to New Delhi"
+              },
+              {
+                "text": "Your own cost: once to give fingerprints, and again to collect the card unless you get a D visa",
+                "cite": [
+                  "fi/permit.where",
+                  "fi/permit.dVisa"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Health insurance that meets the permit rule"
+              },
+              {
+                "text": "Depends on the insurer",
+                "cite": [
+                  "fi/permit.insurance"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Student healthcare fee, each term"
+              },
+              {
+                "text": "{money:fi/arrive.healthFee} in 2026 (about {taka:fi/arrive.healthFee})",
+                "cite": [
+                  "fi/arrive.healthFee"
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aid",
+      "number": 11,
+      "title": "Scholarships and aid",
+      "station": "Aid",
+      "planSteps": [
+        "fi.accept"
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "**There are no Finnish government scholarships for bachelor's study,** and posts promising fully funded government scholarships are misleading. What exists are university discounts and partial scholarships. Most first-year help is an early payment discount, and full scholarships are rare.",
+          "cite": [
+            "fi/aid.noGovernmentScholarships"
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            "University",
+            "First year",
+            "Later years"
+          ],
+          "rows": [
+            [
+              {
+                "text": "University of Helsinki"
+              },
+              {
+                "text": "No waivers"
+              },
+              {
+                "text": "A possible Dean's award of EUR 1,000",
+                "cite": [
+                  "fi/aid.helsinki"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Aalto"
+              },
+              {
+                "text": "25% off for paying within 21 days, or the competitive full Excellence Scholarship, applied for in January"
+              },
+              {
+                "text": "The Excellence Scholarship, if awarded, for three years",
+                "cite": [
+                  "fi/aid.aalto"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Tampere University"
+              },
+              {
+                "text": "EUR 2,000 off for paying within 21 days, or a 50% scholarship applied for in January, of which only nine were awarded in 2026"
+              },
+              {
+                "text": "The 50% scholarship, if awarded",
+                "cite": [
+                  "fi/aid.tampere"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "University of Eastern Finland"
+              },
+              {
+                "text": "30% off for paying within 21 days"
+              },
+              {
+                "text": "30% after 55 credits, by application",
+                "cite": [
+                  "fi/aid.uef"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "LUT University"
+              },
+              {
+                "text": "EUR 2,000 off, except in double degrees"
+              },
+              {
+                "text": "EUR 3,000 in year 2 after 60 credits, and in year 3 after 120",
+                "cite": [
+                  "fi/aid.lut"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "University of Jyväskylä"
+              },
+              {
+                "text": "EUR 1,500 off for accepting within 14 days"
+              },
+              {
+                "text": "EUR 3,000 or 6,000 after 55 credits a year",
+                "cite": [
+                  "fi/aid.jyvaskyla"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "University of Turku"
+              },
+              {
+                "text": "None"
+              },
+              {
+                "text": "50% after 55 credits, an average of 3 out of 5, and some Finnish",
+                "cite": [
+                  "fi/aid.turku"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "University of Oulu"
+              },
+              {
+                "text": "An early bird discount; Oulu's page gives the amount"
+              },
+              {
+                "text": "30% in technology, 20% in business",
+                "cite": [
+                  "fi/aid.oulu"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Tampere University of Applied Sciences"
+              },
+              {
+                "text": "50% for accepting within 14 days"
+              },
+              {
+                "text": "25% or 50%, with credits and Finnish",
+                "cite": [
+                  "fi/aid.tamk"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Haaga-Helia"
+              },
+              {
+                "text": "EUR 2,000 off"
+              },
+              {
+                "text": "With Finnish tests and credits",
+                "cite": [
+                  "fi/aid.haagahelia"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Metropolia"
+              },
+              {
+                "text": "EUR 1,000 off"
+              },
+              {
+                "text": "With a Finnish test",
+                "cite": [
+                  "fi/aid.metropolia"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Turku University of Applied Sciences"
+              },
+              {
+                "text": "EUR 1,000 off"
+              },
+              {
+                "text": "EUR 4,000 for passing Finnish tests, in stages",
+                "cite": [
+                  "fi/aid.turkuamk"
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**Learning Finnish pays.** At several universities of applied sciences, scholarships after the first year depend on passing the Finnish YKI test. At Turku, the 50% scholarship needs 4 credits of Finnish in your first year, so start Finnish in your first term.",
+          "cite": [
+            "fi/aid.haagahelia",
+            "fi/aid.tamk",
+            "fi/aid.turku"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**Early discounts need fast money.** Most require you to accept and pay within 14 to 21 days of your result, so your family must have the first year's fee ready by spring."
+        }
+      ]
+    },
+    {
+      "id": "residence-permit",
+      "number": 12,
+      "title": "Residence permit",
+      "station": "Residence permit",
+      "planSteps": [
+        "fi.funds",
+        "fi.permitApply",
+        "fi.delhi",
+        "fi.permit",
+        "india.visa"
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Your permit is a residence permit for studies, applied for online on Enter Finland once you have accepted your place."
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Put the money in your own account.** {money:fi/permit.funds} for living costs, plus any unpaid tuition, with bank statements for the last six months. Your family can put it there, but Migri may ask where it came from.",
+              "cite": [
+                "fi/permit.funds",
+                "fi/permit.tuitionMoney"
+              ]
+            },
+            {
+              "text": "**Buy health insurance** that meets the permit rule: for a degree of two years or more, it must cover medicine costs up to at least EUR 40,000, with an excess of at most EUR 300. Ordinary travel insurance is not accepted.",
+              "cite": [
+                "fi/permit.insurance"
+              ]
+            },
+            {
+              "text": "**Apply online, pay the fee, and ask for the D visa in the same application** if you can travel within two weeks of the decision. The D visa lets you travel before your permit card is ready. The fee is not refunded, even if you cancel or the permit is refused.",
+              "cite": [
+                "fi/permit.fee",
+                "fi/permit.dVisa",
+                "fi/permit.noRefund"
+              ]
+            },
+            {
+              "planSteps": [
+                "india.visa",
+                "fi.delhi"
+              ],
+              "text": "**Book your identity appointment in New Delhi straight away.** Finland has no mission in Bangladesh; the Finland Application Centre in New Delhi takes your fingerprints. You need an Indian visa for the trip.",
+              "cite": [
+                "fi/permit.where",
+                "fi/permit.vfsFee"
+              ]
+            },
+            {
+              "planSteps": [
+                "fi.permit"
+              ],
+              "text": "**Wait for the decision.** In May 2026, about 61 in every 100 first student permits were decided within 30 days, but some take up to 90 days or longer.",
+              "cite": [
+                "fi/permit.processingShare",
+                "fi/permit.processing"
+              ]
+            }
+          ],
+          "ordered": true
+        },
+        {
+          "type": "p",
+          "text": "Degree students can be granted a permit for the whole degree, but must keep supporting themselves throughout.",
+          "cite": [
+            "fi/permit.length"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**For family members.** Since 3 November 2025, Bangladeshi birth, marriage and similar certificates must be verified through VFS in New Delhi before the embassy legalises them. A proposed law would let a student's family move only a year after the student, from April 2027.",
+          "cite": [
+            "fi/permit.docVerification",
+            "fi/change.familyMembers",
+            "fi/change.familyBill"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Your document checklist"
+        },
+        {
+          "type": "checklist",
+          "items": [
+            {
+              "text": "Passport"
+            },
+            {
+              "text": "Your offer letter and proof that you accepted"
+            },
+            {
+              "text": "Bank statements for the last six months, in your own name",
+              "cite": [
+                "fi/permit.funds"
+              ]
+            },
+            {
+              "text": "Tuition receipt, or the money for it in your account",
+              "cite": [
+                "fi/permit.tuitionMoney"
+              ]
+            },
+            {
+              "text": "Health insurance certificate",
+              "cite": [
+                "fi/permit.insurance"
+              ]
+            },
+            {
+              "text": "Permit fee receipt",
+              "cite": [
+                "fi/permit.fee"
+              ]
+            },
+            {
+              "text": "SSC and HSC (or O and A level) certificates and transcripts"
+            },
+            {
+              "text": "Indian visa and appointment confirmation for New Delhi"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "before-you-fly",
+      "number": 13,
+      "title": "Before you fly",
+      "station": "Before you fly",
+      "planSteps": [
+        "fi.arrive"
+      ],
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**With a D visa,** you can travel before your permit card is ready. Without one, collect the card in New Delhi, where you applied, before you fly.",
+              "cite": [
+                "fi/permit.dVisa",
+                "fi/permit.where"
+              ]
+            },
+            {
+              "text": "**Keep your insurance certificate with you.** The permit was granted on it.",
+              "cite": [
+                "fi/permit.insurance"
+              ]
+            },
+            {
+              "text": "**Find housing early.** Student housing in Helsinki costs EUR 450 to 800 a month.",
+              "cite": [
+                "fi/living.helsinki"
+              ]
+            },
+            {
+              "text": "**Carry your documents** in your hand luggage: passport, permit decision, offer letter, insurance and proof of funds."
+            },
+            {
+              "planSteps": [
+                "fi.arrive"
+              ],
+              "text": "**Arrive for orientation.** At the University of Helsinki it starts on {date:fi/term.helsinki.orientation}.",
+              "cite": [
+                "fi/term.helsinki.orientation"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "life-there",
+      "number": 14,
+      "title": "Life there",
+      "station": "Life there",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Register as a resident.** For a Finnish personal identity code and a municipality of residence, you apply online and usually visit the Digital and Population Data Services Agency. Go to one of its registration events for new students first.",
+              "cite": [
+                "fi/arrive.dvv",
+                "fi/arrive.dvvEvents"
+              ]
+            },
+            {
+              "text": "**Healthcare.** Degree students pay a student healthcare fee to Kela each term. Students who come to study usually cannot get other Kela benefits.",
+              "cite": [
+                "fi/arrive.healthFee",
+                "fi/arrive.kela"
+              ]
+            },
+            {
+              "text": "**Working.** On average up to 30 hours a week, in any field. Finding part-time work without Finnish or Swedish can be hard, so do not rely on it to pay for your studies.",
+              "cite": [
+                "fi/work.hours",
+                "fi/work.reality"
+              ]
+            },
+            {
+              "text": "**Do not apply for social assistance.** A proposed law would, as a rule, cancel the permit of a student who receives it.",
+              "cite": [
+                "fi/change.socialAssistance"
+              ]
+            },
+            {
+              "text": "**After you graduate,** you can apply for a permit of up to two years to look for work or start a business.",
+              "cite": [
+                "fi/work.afterGraduation"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "other-routes",
+      "number": 15,
+      "title": "Other intakes and routes",
+      "station": "Other routes",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "LUT's rolling admission"
+        },
+        {
+          "type": "p",
+          "text": "LUT accepts applications, and admits applicants who meet its requirements while places remain. Applying early means a result early, and more time for the permit.",
+          "cite": [
+            "fi/uni.lut.rolling"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Starting in January"
+        },
+        {
+          "type": "p",
+          "text": "A smaller joint application each autumn has a limited number of English-taught programmes starting in January. It can suit a student whose HSC results come in August or September.",
+          "cite": [
+            "fi/app.autumnRound"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Degrees taught in Finnish or Swedish"
+        },
+        {
+          "type": "p",
+          "text": "No tuition, but you need a high level in the language. The University of Turku, for example, asks for level 4 in every part of the Finnish YKI test. Åbo Akademi's bachelor's degrees are taught in Swedish and apply in March. This route suits students who already speak the language.",
+          "cite": [
+            "fi/system.finnishTaughtFree",
+            "fi/system.finnishLevel",
+            "fi/uni.abo.language"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Applying after a gap year"
+        },
+        {
+          "type": "p",
+          "text": "If you have finished school, you apply the same way, with your final results, and the final certificate deadline is no longer a risk. At LUT your final HSC grades can decide directly.",
+          "cite": [
+            "fi/uni.lut.route"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mistakes-and-scams",
+      "number": 16,
+      "title": "Mistakes and scams",
+      "station": "Mistakes and scams",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**There are no Finnish government scholarships for bachelor's study.** An offer of one is false.",
+              "cite": [
+                "fi/aid.noGovernmentScholarships"
+              ]
+            },
+            {
+              "text": "**Check that the university exists.** Kestora, Penkka and Heffring \"universities\" do not.",
+              "cite": [
+                "fi/scam.fakeUniversities"
+              ]
+            },
+            {
+              "text": "**Be careful with agents.** Yle reported agents telling international students that part-time work would cover their living costs, and many struggled. Plan your money as if you will not work.",
+              "cite": [
+                "fi/scam.agents"
+              ]
+            },
+            {
+              "text": "**Migri never asks for bank codes by phone.** Scammers call pretending to be from Migri. Type migri.fi into your browser yourself.",
+              "cite": [
+                "fi/scam.fakeCalls"
+              ]
+            },
+            {
+              "text": "**Finnish companies do not charge for job offers.**",
+              "cite": [
+                "fi/scam.jobOffers"
+              ]
+            },
+            {
+              "text": "**Pay the application fee within seven days,** or your application is not processed.",
+              "cite": [
+                "fi/app.feePayment"
+              ]
+            },
+            {
+              "text": "**The money must be in your own account.** Your family can put it there, but Migri may ask where it came from. A sponsorship letter in place of money is not accepted.",
+              "cite": [
+                "fi/permit.funds"
+              ]
+            },
+            {
+              "text": "**No Duolingo for universities of applied sciences.**",
+              "cite": [
+                "fi/uas.englishTests"
+              ]
+            },
+            {
+              "text": "**Do not leave the SAT late.** The December 2026 sitting is the last for the January 2027 application, and Tampere and Jyväskylä do not combine sittings.",
+              "cite": [
+                "fi/uni.tampere.satDates",
+                "fi/app.sat.rules"
+              ]
+            },
+            {
+              "text": "**Check the final certificate deadline.** If your results come after it, you lose the place.",
+              "cite": [
+                "fi/app.finalDocuments"
+              ]
+            },
+            {
+              "text": "**You can accept only one place** starting in the same term.",
+              "cite": [
+                "fi/app.onePlace"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Free, official information"
+        },
+        {
+          "type": "p",
+          "text": "Study in Finland, run by the Finnish National Agency for Education, answers common questions and lists every recognised institution.",
+          "cite": [
+            "fi/system.uasDifference",
+            "fi/scam.fakeUniversities"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "number": 17,
+      "title": "Official sources",
+      "station": "Sources",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "widget",
+          "id": "sources"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Finnish government:** Finnish Immigration Service (Migri), Finnish National Agency for Education (Study in Finland, joint application notices), Ministry of Education and Culture, Finnish Government, Kela, Digital and Population Data Services Agency, Ministry for Foreign Affairs (Finland Abroad)."
+            },
+            {
+              "text": "**Applications and exams:** UAS Info, VFS Global (Finland Application Centre, New Delhi)."
+            },
+            {
+              "text": "**Universities:** University of Helsinki, Aalto, Oulu, LUT, Turku, Tampere, Jyväskylä, Eastern Finland, Åbo Akademi."
+            },
+            {
+              "text": "**Universities of applied sciences:** Metropolia, Haaga-Helia, TAMK, Turku UAS, Savonia, and JAMK for the shared eligibility list."
+            },
+            {
+              "text": "**News:** Yle."
+            },
+            {
+              "text": "**Bangladesh:** Bangladesh Bank (exchange rate), and the SAT and IELTS fees in Bangladesh."
+            },
+            {
+              "text": "**Ranking:** QS World University Rankings 2027."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

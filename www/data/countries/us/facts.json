@@ -1,0 +1,2789 @@
+{
+  "format": 1,
+  "file": "countries/us",
+  "title": "Facts for the USA",
+  "checked": "2026-10-20",
+  "sources": {
+    "sits-visa-guidance": {
+      "title": "What to know about new student visa guidance",
+      "publisher": "Study in the States, US Department of Homeland Security",
+      "url": "https://studyinthestates.dhs.gov/2023/05/what-to-know-about-new-student-visa-guidance",
+      "official": true
+    },
+    "dos-student-visa": {
+      "title": "Student Visa",
+      "publisher": "US Department of State",
+      "url": "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html",
+      "official": true
+    },
+    "dos-wait-times": {
+      "title": "Global Visa Wait Times",
+      "publisher": "US Department of State",
+      "url": "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/global-visa-wait-times.html",
+      "official": true
+    },
+    "middlebury-sevis": {
+      "title": "SEVIS payment and instructions",
+      "publisher": "Middlebury International Student and Scholar Services",
+      "url": "https://www.middlebury.edu/international-student-and-scholar-services/scholars/sevis-payment-and-instructions",
+      "official": false
+    },
+    "bu-isso-vif": {
+      "title": "Visa Integrity Fee",
+      "publisher": "Boston University International Students and Scholars Office",
+      "url": "https://www.bu.edu/isso/2026/05/19/visa-integrity-fee/",
+      "official": false
+    },
+    "uw-iss-vetting": {
+      "title": "Update from the ISS Director: F and J visa appointments",
+      "publisher": "University of Washington International Student Services",
+      "url": "https://iss.washington.edu/update-from-the-iss-director-f-j-visa-appointments/",
+      "official": false
+    },
+    "visagrader-dhaka": {
+      "title": "Current US visa appointment wait times in Bangladesh",
+      "publisher": "VisaGrader, copying the US Department of State wait times tool",
+      "url": "https://visagrader.com/us-visa-appointment-wait-times/bangladesh-bgd",
+      "official": false
+    },
+    "harvard-apply": {
+      "title": "Apply",
+      "publisher": "Harvard College Admissions",
+      "url": "https://college.harvard.edu/admissions/apply",
+      "official": true
+    },
+    "harvard-firstyear": {
+      "title": "First-year applicants",
+      "publisher": "Harvard College Admissions",
+      "url": "https://college.harvard.edu/admissions/apply/first-year-applicants",
+      "official": true
+    },
+    "cornell-intl-aid": {
+      "title": "First-year and transfer students: international",
+      "publisher": "Cornell University Financial Aid",
+      "url": "https://finaid.cornell.edu/first-year-and-transfer-students-international",
+      "official": true
+    },
+    "uw-i20": {
+      "title": "Immigration information for undergraduate international students",
+      "publisher": "University of Washington Admissions",
+      "url": "https://www.washington.edu/newhuskies/must-do/international-students/",
+      "official": true
+    },
+    "jmu-i20": {
+      "title": "Immigration documents for admitted undergraduates",
+      "publisher": "James Madison University International Student and Scholar Services",
+      "url": "https://www.jmu.edu/global/isss/admitted/undergraduate/immigration.shtml",
+      "official": true
+    },
+    "ice-sevis": {
+      "title": "I-901 SEVIS fee",
+      "publisher": "US Immigration and Customs Enforcement",
+      "url": "https://www.ice.gov/sevis/i901",
+      "official": true
+    },
+    "maven-vif": {
+      "title": "Visa Integrity Fee 2027: the honest US F-1 visa cost and refund",
+      "publisher": "Maven Consulting Services (9 October 2026)",
+      "url": "https://www.mavenconsultingservices.com/article/visa-integrity-fee/",
+      "official": false
+    },
+    "qs-2027": {
+      "title": "QS World University Rankings 2027",
+      "publisher": "QS Quacquarelli Symonds",
+      "url": "https://www.topuniversities.com/world-university-rankings",
+      "official": false
+    },
+    "edusa-undergrad": {
+      "title": "Undergraduate study",
+      "publisher": "EducationUSA, US Department of State",
+      "url": "https://educationusa.state.gov/your-5-steps-us-study/research-your-options/undergraduate",
+      "official": true
+    },
+    "edusa-bd": {
+      "title": "EducationUSA advising centres: Bangladesh",
+      "publisher": "EducationUSA, US Department of State",
+      "url": "https://educationusa.state.gov/search/node/Bangladesh",
+      "official": true
+    },
+    "commonapp-intl": {
+      "title": "Common App for international students",
+      "publisher": "Common App",
+      "url": "https://www.commonapp.org/static/67884e7e31b6083ad9952a7f8a913ec0/Common-App-for-International_0.pdf",
+      "official": true
+    },
+    "commonapp-activities": {
+      "title": "Approaching the activities section",
+      "publisher": "Common App",
+      "url": "https://www.commonapp.org/static/f45949473bb80a91c80aface729d83df/Approaching-Activities.pdf",
+      "official": true
+    },
+    "commonapp-gather": {
+      "title": "Gather materials: first year",
+      "publisher": "Common App",
+      "url": "https://www.commonapp.org/static/72c7fb82f0c0c0b7832c341d2d5cb486/Gather-Materials-First-Year_3.pdf",
+      "official": true
+    },
+    "css-cost": {
+      "title": "What does the CSS Profile cost?",
+      "publisher": "College Board",
+      "url": "https://cssprofile.collegeboard.org/help-center/what-cost-css-profile",
+      "official": true
+    },
+    "css-waivers": {
+      "title": "CSS Profile fee waivers",
+      "publisher": "College Board",
+      "url": "https://cssprofile.collegeboard.org/fee-waivers",
+      "official": true
+    },
+    "dos-reciprocity-bd": {
+      "title": "Bangladesh reciprocity schedule",
+      "publisher": "US Department of State",
+      "url": "https://travel.state.gov/content/travel/en/us-visas/Visa-Reciprocity-and-Civil-Documents-by-Country/Bangladesh.html",
+      "official": true
+    },
+    "dos-suspension": {
+      "title": "Suspension of visa issuance to foreign nationals to protect the security of the United States",
+      "publisher": "US Department of State",
+      "url": "https://travel.state.gov/content/travel/en/News/visas-news/suspension-of-visa-issuance-to-foreign-nationals-to-protect-the-security-of-the-united-states.html",
+      "official": true
+    },
+    "dos-visa-bonds": {
+      "title": "Countries subject to visa bonds",
+      "publisher": "US Department of State",
+      "url": "https://travel.state.gov/content/travel/en/News/visas-news/countries-subject-to-visa-bonds.html",
+      "official": true
+    },
+    "yale-oiss-ds": {
+      "title": "Elimination of duration of status: summary and FAQs",
+      "publisher": "Yale Office of International Students and Scholars",
+      "url": "https://oiss.yale.edu/immigration/elimination-of-duration-of-status-summary-faqs",
+      "official": false
+    },
+    "ice-employment": {
+      "title": "Students and employment",
+      "publisher": "US Immigration and Customs Enforcement",
+      "url": "https://www.ice.gov/sevis/employment",
+      "official": true
+    },
+    "uf-stem-opt": {
+      "title": "STEM OPT extension",
+      "publisher": "University of Florida International Center",
+      "url": "https://internationalcenter.ufl.edu/iss/maintaining-f-1-status/employmentpractical-training-applications/stem-opt-extension/",
+      "official": false
+    },
+    "harvard-intl": {
+      "title": "International applicants",
+      "publisher": "Harvard College Admissions",
+      "url": "https://college.harvard.edu/admissions/apply/international-applicants",
+      "official": true
+    },
+    "harvard-aid": {
+      "title": "How aid works",
+      "publisher": "Harvard College Griffin Financial Aid Office",
+      "url": "https://college.harvard.edu/financial-aid/how-aid-works",
+      "official": true
+    },
+    "harvard-stats": {
+      "title": "Admissions statistics",
+      "publisher": "Harvard College Admissions",
+      "url": "https://college.harvard.edu/admissions/admissions-statistics",
+      "official": true
+    },
+    "harvard-advising": {
+      "title": "Curriculum and requirements",
+      "publisher": "Harvard College Advising Programs Office",
+      "url": "https://advising.college.harvard.edu/academic-planning-for-students/curriculum-and-requirements",
+      "official": true
+    },
+    "harvard-essays": {
+      "title": "What help can students receive in writing their essays?",
+      "publisher": "Harvard College Admissions",
+      "url": "https://college.harvard.edu/resources/faq/what-help-can-students-receive-writing-their-essays",
+      "official": true
+    },
+    "mit-sfs": {
+      "title": "The cost of attendance",
+      "publisher": "MIT Student Financial Services",
+      "url": "https://sfs.mit.edu/undergraduate-students/the-cost-of-attendance/",
+      "official": true
+    },
+    "mit-tests": {
+      "title": "Tests and scores",
+      "publisher": "MIT Admissions",
+      "url": "https://mitadmissions.org/apply/firstyear/tests-scores/",
+      "official": true
+    },
+    "yale-intl": {
+      "title": "International first-year applicants",
+      "publisher": "Yale Undergraduate Admissions",
+      "url": "https://admissions.yale.edu/international",
+      "official": true
+    },
+    "princeton-intl": {
+      "title": "International students",
+      "publisher": "Princeton University Admission",
+      "url": "https://admission.princeton.edu/apply/international-students",
+      "official": true
+    },
+    "dartmouth-aid": {
+      "title": "International students",
+      "publisher": "Dartmouth Financial Aid",
+      "url": "https://financialaid.dartmouth.edu/apply-aid/international-students",
+      "official": true
+    },
+    "dartmouth-tests": {
+      "title": "Standardized testing",
+      "publisher": "Dartmouth Admissions",
+      "url": "https://admissions.dartmouth.edu/node/4906",
+      "official": true
+    },
+    "brown-aid": {
+      "title": "First-year international applicants",
+      "publisher": "Brown University Office of Financial Aid",
+      "url": "https://finaid.brown.edu/apply/first-year-international",
+      "official": true
+    },
+    "brown-tests": {
+      "title": "Standardized tests",
+      "publisher": "Brown University Undergraduate Admission",
+      "url": "https://admission.brown.edu/first-year/standardized-tests",
+      "official": true
+    },
+    "brown-ed": {
+      "title": "Early Decision",
+      "publisher": "Brown University Undergraduate Admission",
+      "url": "https://admission.brown.edu/first-year/early-decision",
+      "official": true
+    },
+    "amherst-intl": {
+      "title": "International applicants",
+      "publisher": "Amherst College Admission",
+      "url": "https://www.amherst.edu/admission/apply/international",
+      "official": true
+    },
+    "bowdoin-intl": {
+      "title": "International students",
+      "publisher": "Bowdoin College Admissions",
+      "url": "https://www.bowdoin.edu/admissions/apply/international-students.html",
+      "official": true
+    },
+    "bowdoin-tests": {
+      "title": "Test optional policy",
+      "publisher": "Bowdoin College Admissions",
+      "url": "https://www.bowdoin.edu/admissions/apply/testing-policy.html",
+      "official": true
+    },
+    "williams-aid": {
+      "title": "Requirements and deadlines: international students",
+      "publisher": "Williams College Financial Aid",
+      "url": "https://www.williams.edu/admission-aid/financial-aid/international/",
+      "official": true
+    },
+    "swarthmore-intl": {
+      "title": "International students",
+      "publisher": "Swarthmore College Admissions and Aid",
+      "url": "https://www.swarthmore.edu/admissions-aid/international-students",
+      "official": true
+    },
+    "swarthmore-tests": {
+      "title": "Standardized testing policy",
+      "publisher": "Swarthmore College Admissions and Aid",
+      "url": "https://www.swarthmore.edu/admissions-aid/standardized-testing-policy",
+      "official": true
+    },
+    "usembassy-fraud": {
+      "title": "US Embassy warns applicants of visa fraud",
+      "publisher": "The Daily Ittefaq (21 January 2023), reporting the US Embassy in Dhaka",
+      "url": "https://en.ittefaq.com.bd/4017/US-Embassy-warns-applicants-of-visa-fraud",
+      "official": false
+    },
+    "css-about": {
+      "title": "About CSS Profile",
+      "publisher": "College Board",
+      "url": "https://cssprofile.collegeboard.org/about",
+      "official": true
+    },
+    "mit-deadlines": {
+      "title": "Deadlines and requirements",
+      "publisher": "MIT Admissions",
+      "url": "https://mitadmissions.org/apply/firstyear/deadlines-requirements/",
+      "official": true
+    },
+    "williams-apply": {
+      "title": "Apply",
+      "publisher": "Williams College Admission",
+      "url": "https://www.williams.edu/admission-aid/apply/",
+      "official": true
+    },
+    "princeton-paw": {
+      "title": "Princeton admissions will again require standardized tests in 2027",
+      "publisher": "Princeton Alumni Weekly (9 October 2025)",
+      "url": "https://paw.princeton.edu/article/princeton-admissions-will-again-require-standardized-tests-2027",
+      "official": false
+    },
+    "brown-english": {
+      "title": "English proficiency",
+      "publisher": "Brown University Undergraduate Admission",
+      "url": "https://admission.brown.edu/international/english-proficiency",
+      "official": true
+    },
+    "fr-opt-fees": {
+      "title": "Optional Practical Training Fees (proposed rule, 91 FR 64566)",
+      "publisher": "Federal Register, US Department of Homeland Security",
+      "url": "https://www.federalregister.gov/documents/2026/10/08/2026-20660/optional-practical-training-fees",
+      "official": true
+    },
+    "dos-niv-residence": {
+      "title": "Adjudicating nonimmigrant visa applicants in their country of residence",
+      "publisher": "US Department of State",
+      "url": "https://travel.state.gov/content/travel/en/News/visas-news/adjudicating-niv-applicants-in-their-country-of-residence.html",
+      "official": true
+    },
+    "bd-embassy-visas": {
+      "title": "Visas",
+      "publisher": "US Embassy in Bangladesh",
+      "url": "https://bd.usembassy.gov/visas/",
+      "official": true
+    },
+    "dartmouth-faq": {
+      "title": "As an international student, do I have to submit the standardized testing required of US applicants?",
+      "publisher": "Dartmouth Admissions",
+      "url": "https://admissions.dartmouth.edu/glossary-question/international-student-do-i-have-submit-standardized-testing-required-us-applicants",
+      "official": true
+    },
+    "brown-intl-aid": {
+      "title": "Financial aid for international students",
+      "publisher": "Brown University Undergraduate Admission",
+      "url": "https://admission.brown.edu/international/financial-aid",
+      "official": true
+    },
+    "koppelman-essay": {
+      "title": "The Common App essay guide 2026 to 2027",
+      "publisher": "The Koppelman Group (30 May 2026)",
+      "url": "https://www.koppelmangroup.com/blog/2026/5/30/tkgs-official-common-app-essay-guide-2026-2027",
+      "official": false
+    },
+    "mit-fee": {
+      "title": "How much is the application fee?",
+      "publisher": "MIT Admissions",
+      "url": "https://mitadmissions.org/help/faq/how-much-is-the-application-fee/",
+      "official": true
+    },
+    "brown-checklist": {
+      "title": "Application checklist for first-year applicants",
+      "publisher": "Brown University Undergraduate Admission",
+      "url": "https://admission.brown.edu/first-year/application-checklist",
+      "official": true
+    },
+    "dartmouth-fee": {
+      "title": "Application fee",
+      "publisher": "Dartmouth Admissions",
+      "url": "https://admissions.dartmouth.edu/glossary-term/application-fee",
+      "official": true
+    },
+    "amherst-firstyear": {
+      "title": "First-year applicants",
+      "publisher": "Amherst College Admission",
+      "url": "https://www.amherst.edu/admission/apply/firstyear",
+      "official": true
+    },
+    "bowdoin-apply": {
+      "title": "Apply",
+      "publisher": "Bowdoin College Admissions",
+      "url": "https://www.bowdoin.edu/admissions/apply/index.html",
+      "official": true
+    },
+    "williams-firstyear": {
+      "title": "First-year applicants",
+      "publisher": "Williams College Admission",
+      "url": "https://www.williams.edu/admission-aid/how-to-apply/first-year/",
+      "official": true
+    },
+    "swarthmore-materials": {
+      "title": "Application materials and deadlines",
+      "publisher": "Swarthmore College Admissions",
+      "url": "https://www.swarthmore.edu/admissions-aid/application-materials-deadlines",
+      "official": true
+    },
+    "yale-requirements": {
+      "title": "Instructions and requirements for first-year applications",
+      "publisher": "Yale Undergraduate Admissions",
+      "url": "https://admissions.yale.edu/requirements",
+      "official": true
+    },
+    "princeton-checklist": {
+      "title": "Application checklist",
+      "publisher": "Princeton University Admission",
+      "url": "https://admission.princeton.edu/apply/application-checklist",
+      "official": true
+    },
+    "commonapp-grid": {
+      "title": "2026 to 2027 first-year deadlines, fees and requirements (updated 25 September 2026)",
+      "publisher": "Common App",
+      "url": "https://content.commonapp.org/Files/ReqGrid.pdf",
+      "official": true
+    },
+    "txst-bangladesh": {
+      "title": "Secondary credentials: Bangladesh",
+      "publisher": "Texas State University",
+      "url": "https://www.admissions.txst.edu/future-students/international/secondary-credentials/list-by-country/bangladesh.html",
+      "official": true
+    },
+    "wku-bangladesh": {
+      "title": "Bangladesh grading scale",
+      "publisher": "Western Kentucky University",
+      "url": "https://www.wku.edu/international/documents/bangladesh.pdf",
+      "official": true
+    },
+    "commonapp-counselor-intl": {
+      "title": "Counselor conversations: international",
+      "publisher": "Common App",
+      "url": "https://www.commonapp.org/files/webinar_decks/Counselor_Convo_International.pdf",
+      "official": true
+    },
+    "dos-interview-waiver": {
+      "title": "Interview Waiver Update (18 September 2025)",
+      "publisher": "US Department of State",
+      "url": "https://travel.state.gov/content/travel/en/News/visas-news/interview-waiver-update-sept-18-2025.html",
+      "official": true
+    },
+    "dos-visa-denials": {
+      "title": "Visa denials",
+      "publisher": "US Department of State",
+      "url": "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/visa-denials.html",
+      "official": true
+    },
+    "usembassy-visiting": {
+      "title": "Visiting the Embassy",
+      "publisher": "US Embassy in Bangladesh",
+      "url": "https://bd.usembassy.gov/visiting-the-embassy/",
+      "official": true
+    },
+    "usembassy-expect": {
+      "title": "What to expect",
+      "publisher": "US Embassy in Bangladesh",
+      "url": "https://bd.usembassy.gov/what-to-expect-consular/",
+      "official": true
+    },
+    "stanford-intl": {
+      "title": "International applicants",
+      "publisher": "Stanford Undergraduate Admission",
+      "url": "https://admission.stanford.edu/apply/international/",
+      "official": true
+    },
+    "columbia-aid": {
+      "title": "How aid works",
+      "publisher": "Columbia Financial Aid and Educational Financing",
+      "url": "https://cc-seas.financialaid.columbia.edu/eligibility/philosophy",
+      "official": true
+    },
+    "penn-intl-aid": {
+      "title": "International student financial aid",
+      "publisher": "Penn Student Registration and Financial Services",
+      "url": "https://srfs.upenn.edu/financial-aid/international",
+      "official": true
+    },
+    "cornell-intl-finaid": {
+      "title": "First-year and transfer students: international",
+      "publisher": "Cornell University Financial Aid",
+      "url": "https://finaid.cornell.edu/apply-aid/prospective-international-applicants",
+      "official": true
+    },
+    "northwestern-intl-aid": {
+      "title": "International student aid",
+      "publisher": "Northwestern Undergraduate Admission",
+      "url": "https://admissions.northwestern.edu/tuition-aid/international-student-aid",
+      "official": true
+    },
+    "pomona-intl": {
+      "title": "International applicants",
+      "publisher": "Pomona College Admissions",
+      "url": "https://www.pomona.edu/node/4297",
+      "official": true
+    },
+    "wellesley-intl-aid": {
+      "title": "A quick guide for prospective international financial aid applicants",
+      "publisher": "Wellesley College Student Financial Services",
+      "url": "https://www.wellesley.edu/admission-aid/student-financial-services/understanding-financial-aid/apply-for-aid/international-students",
+      "official": true
+    }
+  },
+  "facts": [
+    {
+      "id": "visa.f1.issueWindow",
+      "label": "Earliest a student visa can be issued",
+      "kind": "duration",
+      "value": {
+        "max": 365,
+        "unit": "days"
+      },
+      "status": "confirmed",
+      "source": "dos-student-visa",
+      "where": "Section: New Students",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Counted back from the programme start date on the I-20. Also stated on Study in the States."
+    },
+    {
+      "id": "visa.f1.entryWindow",
+      "label": "Earliest a new student can enter the USA",
+      "kind": "duration",
+      "value": {
+        "max": 30,
+        "unit": "days"
+      },
+      "status": "confirmed",
+      "source": "dos-student-visa",
+      "where": "Section: New Students",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "No earlier than 30 days before the programme start date on the I-20, whenever the visa was issued."
+    },
+    {
+      "id": "visa.fee.application",
+      "label": "Student visa application fee",
+      "kind": "money",
+      "value": {
+        "amount": 185,
+        "currency": "USD"
+      },
+      "status": "confirmed",
+      "source": "dos-student-visa",
+      "where": "Section: Application Fee",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "In force since 30 May 2023, according to Study in the States. Called the Machine Readable Visa (MRV) fee. Not refundable."
+    },
+    {
+      "id": "visa.fee.sevis",
+      "label": "SEVIS fee for F-1 students",
+      "kind": "money",
+      "value": {
+        "amount": 350,
+        "currency": "USD"
+      },
+      "status": "confirmed",
+      "source": "ice-sevis",
+      "where": "Fee table: F or M visa applicants (full payment)",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": "Paid once to SEVP after the university issues the I-20, and before the visa interview."
+    },
+    {
+      "id": "visa.sevis.timing",
+      "label": "When to pay the SEVIS fee",
+      "kind": "text",
+      "value": {
+        "text": "Pay it once the I-20 arrives, and at least 3 business days before the visa interview."
+      },
+      "status": "reported",
+      "source": "middlebury-sevis",
+      "where": "Section: Showing proof of SEVIS I-901 payment",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "The interview needs proof that the fee is paid."
+    },
+    {
+      "id": "visa.fee.integrity",
+      "label": "Visa Integrity Fee",
+      "kind": "money",
+      "value": {
+        "amount": 250,
+        "currency": "USD"
+      },
+      "status": "reported",
+      "source": "maven-vif",
+      "where": "Sections on collection status and the inflation adjustment",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": "Created by a 2025 US law and charged when a visa is issued, after approval. The law adds an inflation increase each fiscal year from fiscal year 2026, but as of 7 October 2026 no adjusted figure had been published. In May 2026 Boston University said applicants reported that some posts had begun charging it. No official notice says whether Dhaka collects it from students. The plan budgets for it until this is clear.",
+      "changesOften": true
+    },
+    {
+      "id": "visa.socialMedia",
+      "label": "Social media accounts during the student visa process",
+      "kind": "text",
+      "value": {
+        "text": "The US Embassy in Dhaka instructs student visa applicants, among others, to set the privacy setting of every social media account to public."
+      },
+      "status": "confirmed",
+      "source": "bd-embassy-visas",
+      "where": "Section on online presence vetting",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Part of the identity and admissibility checks for many visa types, including F, M and J."
+    },
+    {
+      "id": "visa.administrativeProcessing",
+      "label": "Extra review after the visa interview",
+      "kind": "text",
+      "value": {
+        "text": "An officer who needs more time, for example to review an applicant's online presence, can place the case in administrative processing, which delays the decision."
+      },
+      "status": "reported",
+      "source": "uw-iss-vetting",
+      "where": "Section: Expansion of Social Media Vetting",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "This is why the plan leaves spare time between the interview and the flight."
+    },
+    {
+      "id": "visa.dhaka.interviewWait",
+      "label": "Wait for a student visa interview in Dhaka",
+      "kind": "duration",
+      "keyedBy": "observedOn",
+      "values": [
+        {
+          "key": "2026-07-21",
+          "value": {
+            "max": 2.5,
+            "unit": "months"
+          },
+          "status": "reported",
+          "source": "visagrader-dhaka",
+          "where": "Table: Interview Required Students/Exchange Visitors (F, M, J)",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Peak season, when most students book interviews."
+        },
+        {
+          "key": "2026-09-17",
+          "value": {
+            "max": 0.5,
+            "unit": "months"
+          },
+          "status": "confirmed",
+          "source": "dos-wait-times",
+          "where": "Table row Dhaka, column: Interview Required (F,M,J) Next available appointment",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Shown as less than half a month. The tool counts a month as 30 days and updates monthly."
+        }
+      ],
+      "changesOften": true
+    },
+    {
+      "id": "visa.bangladesh.status",
+      "label": "Student visas for Bangladeshi applicants",
+      "kind": "text",
+      "value": {
+        "text": "Student visa appointments are available at the US Embassy in Dhaka."
+      },
+      "status": "confirmed",
+      "source": "dos-wait-times",
+      "where": "Table row Dhaka, column: Interview Required (F,M,J) Next available appointment",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "On 17 September 2026 the next student appointment was under half a month away.",
+      "changesOften": true
+    },
+    {
+      "id": "app.commonApp.opens",
+      "label": "Common App opens",
+      "kind": "date",
+      "keyedBy": "cycle",
+      "values": [
+        {
+          "key": "2027",
+          "value": {
+            "date": "2026-08-01"
+          },
+          "status": "reported",
+          "source": "harvard-firstyear",
+          "where": "Application timeline, last line",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Stated by Harvard and widely reported. The Common App's own site does not state it plainly."
+        },
+        {
+          "key": "2028",
+          "value": {
+            "date": "2027-08"
+          },
+          "status": "expected",
+          "source": "harvard-firstyear",
+          "where": "Application timeline",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected to open in August each year. Month only."
+        },
+        {
+          "key": "2029",
+          "value": {
+            "date": "2028-08"
+          },
+          "status": "expected",
+          "source": "harvard-firstyear",
+          "where": "Application timeline",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected to open in August each year. Month only."
+        },
+        {
+          "key": "2030",
+          "value": {
+            "date": "2029-08"
+          },
+          "status": "expected",
+          "source": "harvard-firstyear",
+          "where": "Application timeline",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected to open in August each year. Month only."
+        },
+        {
+          "key": "2031",
+          "value": {
+            "date": "2030-08"
+          },
+          "status": "expected",
+          "source": "harvard-firstyear",
+          "where": "Application timeline",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected to open in August each year. Month only."
+        },
+        {
+          "key": "2032",
+          "value": {
+            "date": "2031-08"
+          },
+          "status": "expected",
+          "source": "harvard-firstyear",
+          "where": "Application timeline",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected to open in August each year. Month only."
+        }
+      ]
+    },
+    {
+      "id": "app.deadline.early",
+      "label": "Early round deadline (Harvard, Restrictive Early Action)",
+      "kind": "date",
+      "keyedBy": "cycle",
+      "values": [
+        {
+          "key": "2027",
+          "value": {
+            "date": "2026-11-01",
+            "time": "23:59",
+            "zone": "Asia/Dhaka"
+          },
+          "status": "confirmed",
+          "source": "harvard-firstyear",
+          "where": "Restrictive Early Action: due by November 1 at 11:59pm (your local time)",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Harvard's Restrictive Early Action date, used as the plan's cautious default. Your universities may set other dates, and you can enter your own. Harvard's deadlines fall at 11:59 p.m. in the applicant's own time zone, so 11:59 p.m. in Dhaka for students in Bangladesh."
+        },
+        {
+          "key": "2028",
+          "value": {
+            "date": "2027-11"
+          },
+          "status": "expected",
+          "source": "harvard-apply",
+          "where": "Admissions Deadlines",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in November. Month only, so the plan assumes 1 November."
+        },
+        {
+          "key": "2029",
+          "value": {
+            "date": "2028-11"
+          },
+          "status": "expected",
+          "source": "harvard-apply",
+          "where": "Admissions Deadlines",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in November. Month only, so the plan assumes 1 November."
+        },
+        {
+          "key": "2030",
+          "value": {
+            "date": "2029-11"
+          },
+          "status": "expected",
+          "source": "harvard-apply",
+          "where": "Admissions Deadlines",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in November. Month only, so the plan assumes 1 November."
+        },
+        {
+          "key": "2031",
+          "value": {
+            "date": "2030-11"
+          },
+          "status": "expected",
+          "source": "harvard-apply",
+          "where": "Admissions Deadlines",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in November. Month only, so the plan assumes 1 November."
+        },
+        {
+          "key": "2032",
+          "value": {
+            "date": "2031-11"
+          },
+          "status": "expected",
+          "source": "harvard-apply",
+          "where": "Admissions Deadlines",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in November. Month only, so the plan assumes 1 November."
+        }
+      ]
+    },
+    {
+      "id": "app.deadline.regular",
+      "label": "Regular round deadline (Harvard)",
+      "kind": "date",
+      "keyedBy": "cycle",
+      "values": [
+        {
+          "key": "2027",
+          "value": {
+            "date": "2027-01-01",
+            "time": "23:59",
+            "zone": "Asia/Dhaka"
+          },
+          "status": "confirmed",
+          "source": "harvard-firstyear",
+          "where": "Regular Decision: due by January 1 at 11:59pm (your local time)",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Harvard's Regular Decision date, used as the plan's cautious default. Your universities may set later dates, and you can enter your own. Harvard's deadlines fall at 11:59 p.m. in the applicant's own time zone, so 11:59 p.m. in Dhaka for students in Bangladesh."
+        },
+        {
+          "key": "2028",
+          "value": {
+            "date": "2028-01"
+          },
+          "status": "expected",
+          "source": "harvard-apply",
+          "where": "Admissions Deadlines",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in January. Month only, so the plan assumes 1 January."
+        },
+        {
+          "key": "2029",
+          "value": {
+            "date": "2029-01"
+          },
+          "status": "expected",
+          "source": "harvard-apply",
+          "where": "Admissions Deadlines",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in January. Month only, so the plan assumes 1 January."
+        },
+        {
+          "key": "2030",
+          "value": {
+            "date": "2030-01"
+          },
+          "status": "expected",
+          "source": "harvard-apply",
+          "where": "Admissions Deadlines",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in January. Month only, so the plan assumes 1 January."
+        },
+        {
+          "key": "2031",
+          "value": {
+            "date": "2031-01"
+          },
+          "status": "expected",
+          "source": "harvard-apply",
+          "where": "Admissions Deadlines",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in January. Month only, so the plan assumes 1 January."
+        },
+        {
+          "key": "2032",
+          "value": {
+            "date": "2032-01"
+          },
+          "status": "expected",
+          "source": "harvard-apply",
+          "where": "Admissions Deadlines",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in January. Month only, so the plan assumes 1 January."
+        }
+      ]
+    },
+    {
+      "id": "app.decision.early",
+      "label": "Early round decisions (Harvard)",
+      "kind": "date",
+      "keyedBy": "cycle",
+      "values": [
+        {
+          "key": "2027",
+          "value": {
+            "date": "2026-12"
+          },
+          "status": "confirmed",
+          "source": "harvard-firstyear",
+          "where": "Application timeline: notification by mid-December",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Harvard notifies early applicants by mid-December."
+        },
+        {
+          "key": "2028",
+          "value": {
+            "date": "2027-12"
+          },
+          "status": "expected",
+          "source": "harvard-firstyear",
+          "where": "Application timeline",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in December."
+        },
+        {
+          "key": "2029",
+          "value": {
+            "date": "2028-12"
+          },
+          "status": "expected",
+          "source": "harvard-firstyear",
+          "where": "Application timeline",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in December."
+        },
+        {
+          "key": "2030",
+          "value": {
+            "date": "2029-12"
+          },
+          "status": "expected",
+          "source": "harvard-firstyear",
+          "where": "Application timeline",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in December."
+        },
+        {
+          "key": "2031",
+          "value": {
+            "date": "2030-12"
+          },
+          "status": "expected",
+          "source": "harvard-firstyear",
+          "where": "Application timeline",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in December."
+        },
+        {
+          "key": "2032",
+          "value": {
+            "date": "2031-12"
+          },
+          "status": "expected",
+          "source": "harvard-firstyear",
+          "where": "Application timeline",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in December."
+        }
+      ]
+    },
+    {
+      "id": "app.decision.regular",
+      "label": "Regular round decisions (Harvard)",
+      "kind": "date",
+      "keyedBy": "cycle",
+      "values": [
+        {
+          "key": "2027",
+          "value": {
+            "date": "2027-03"
+          },
+          "status": "confirmed",
+          "source": "harvard-firstyear",
+          "where": "Application timeline: notification by the end of March",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Harvard notifies regular applicants by the end of March."
+        },
+        {
+          "key": "2028",
+          "value": {
+            "date": "2028-03"
+          },
+          "status": "expected",
+          "source": "harvard-firstyear",
+          "where": "Application timeline",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected by the end of March."
+        },
+        {
+          "key": "2029",
+          "value": {
+            "date": "2029-03"
+          },
+          "status": "expected",
+          "source": "harvard-firstyear",
+          "where": "Application timeline",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected by the end of March."
+        },
+        {
+          "key": "2030",
+          "value": {
+            "date": "2030-03"
+          },
+          "status": "expected",
+          "source": "harvard-firstyear",
+          "where": "Application timeline",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected by the end of March."
+        },
+        {
+          "key": "2031",
+          "value": {
+            "date": "2031-03"
+          },
+          "status": "expected",
+          "source": "harvard-firstyear",
+          "where": "Application timeline",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected by the end of March."
+        },
+        {
+          "key": "2032",
+          "value": {
+            "date": "2032-03"
+          },
+          "status": "expected",
+          "source": "harvard-firstyear",
+          "where": "Application timeline",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected by the end of March."
+        }
+      ]
+    },
+    {
+      "id": "app.replyDate",
+      "label": "Last day to accept an offer (Harvard)",
+      "kind": "date",
+      "keyedBy": "cycle",
+      "values": [
+        {
+          "key": "2027",
+          "value": {
+            "date": "2027-05-01"
+          },
+          "status": "confirmed",
+          "source": "harvard-firstyear",
+          "where": "Application timeline: Early May",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Harvard lets admitted students wait until 1 May to make a final choice."
+        },
+        {
+          "key": "2028",
+          "value": {
+            "date": "2028-05"
+          },
+          "status": "expected",
+          "source": "harvard-firstyear",
+          "where": "Application timeline",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected on 1 May. Month only."
+        },
+        {
+          "key": "2029",
+          "value": {
+            "date": "2029-05"
+          },
+          "status": "expected",
+          "source": "harvard-firstyear",
+          "where": "Application timeline",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected on 1 May. Month only."
+        },
+        {
+          "key": "2030",
+          "value": {
+            "date": "2030-05"
+          },
+          "status": "expected",
+          "source": "harvard-firstyear",
+          "where": "Application timeline",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected on 1 May. Month only."
+        },
+        {
+          "key": "2031",
+          "value": {
+            "date": "2031-05"
+          },
+          "status": "expected",
+          "source": "harvard-firstyear",
+          "where": "Application timeline",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected on 1 May. Month only."
+        },
+        {
+          "key": "2032",
+          "value": {
+            "date": "2032-05"
+          },
+          "status": "expected",
+          "source": "harvard-firstyear",
+          "where": "Application timeline",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected on 1 May. Month only."
+        }
+      ]
+    },
+    {
+      "id": "app.testScores.earlyRound",
+      "label": "Test scores for the early round (Harvard)",
+      "kind": "text",
+      "value": {
+        "text": "Harvard asks for test scores by the end of October for Restrictive Early Action, but the November test dates may still be used. Scores can be self-reported."
+      },
+      "status": "confirmed",
+      "source": "harvard-firstyear",
+      "where": "Application timeline, Restrictive Early Action",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": "Harvard's application timeline also says scores are needed by the end of November. The plan allows until the end of November, so a 7 November SAT, whose scores reach colleges in November, still counts."
+    },
+    {
+      "id": "aid.css.opens",
+      "label": "CSS Profile opens",
+      "kind": "date",
+      "keyedBy": "cycle",
+      "values": [
+        {
+          "key": "2027",
+          "value": {
+            "date": "2026-10-01"
+          },
+          "status": "confirmed",
+          "source": "css-about",
+          "where": "About CSS Profile: starting October 1 each year",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "College Board states that the Profile opens on 1 October each year."
+        },
+        {
+          "key": "2028",
+          "value": {
+            "date": "2027-10-01"
+          },
+          "status": "confirmed",
+          "source": "css-about",
+          "where": "About CSS Profile: starting October 1 each year",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "College Board states that the Profile opens on 1 October each year."
+        },
+        {
+          "key": "2029",
+          "value": {
+            "date": "2028-10-01"
+          },
+          "status": "confirmed",
+          "source": "css-about",
+          "where": "About CSS Profile: starting October 1 each year",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "College Board states that the Profile opens on 1 October each year."
+        },
+        {
+          "key": "2030",
+          "value": {
+            "date": "2029-10-01"
+          },
+          "status": "confirmed",
+          "source": "css-about",
+          "where": "About CSS Profile: starting October 1 each year",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "College Board states that the Profile opens on 1 October each year."
+        },
+        {
+          "key": "2031",
+          "value": {
+            "date": "2030-10-01"
+          },
+          "status": "confirmed",
+          "source": "css-about",
+          "where": "About CSS Profile: starting October 1 each year",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "College Board states that the Profile opens on 1 October each year."
+        },
+        {
+          "key": "2032",
+          "value": {
+            "date": "2031-10-01"
+          },
+          "status": "confirmed",
+          "source": "css-about",
+          "where": "About CSS Profile: starting October 1 each year",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "College Board states that the Profile opens on 1 October each year."
+        }
+      ]
+    },
+    {
+      "id": "aid.css.international",
+      "label": "CSS Profile for international applicants who want aid (Cornell)",
+      "kind": "text",
+      "value": {
+        "text": "At Cornell, international applicants who want grant or scholarship aid must complete the CSS Profile when they apply for admission. International students are generally not eligible for a CSS Profile fee waiver."
+      },
+      "status": "confirmed",
+      "source": "cornell-intl-aid",
+      "where": "Opening section and the fee waiver section",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Each university sets its own aid rules. Cornell also states that its admission is need-aware for international students."
+    },
+    {
+      "id": "i20.requirements",
+      "label": "What is needed before an I-20 is issued (University of Washington)",
+      "kind": "text",
+      "value": {
+        "text": "The enrolment deposit, and proof of funding for one academic year covering both academic fees and living costs."
+      },
+      "status": "confirmed",
+      "source": "uw-i20",
+      "where": "Steps and the proof of funding section",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "University of Washington's requirements. Others are similar but set their own amounts."
+    },
+    {
+      "id": "i20.processing",
+      "label": "Time to receive an I-20 (University of Washington)",
+      "kind": "duration",
+      "value": {
+        "max": 4,
+        "unit": "weeks"
+      },
+      "status": "confirmed",
+      "source": "uw-i20",
+      "where": "Processing time for initial I-20",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "University of Washington's figure, used as the plan's cautious default. Your university may be faster."
+    },
+    {
+      "id": "i20.fundsDocumentAge",
+      "label": "How recent funding documents must be (James Madison University)",
+      "kind": "text",
+      "value": {
+        "text": "At James Madison University, funding documents must be no more than 6 months old at the time of admission, and in English."
+      },
+      "status": "confirmed",
+      "source": "jmu-i20",
+      "where": "Proof of Financial Ability",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "One university's rule, shown as an example. It is why the plan schedules the bank statement close to the decision month."
+    },
+    {
+      "id": "uni.mit.qsRank",
+      "label": "QS World University Rankings 2027 position (MIT)",
+      "kind": "number",
+      "value": {
+        "number": 1
+      },
+      "status": "reported",
+      "source": "qs-2027",
+      "where": "University page: topuniversities.com/universities/massachusetts-institute-technology-mit",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.harvard.qsRank",
+      "label": "QS World University Rankings 2027 position (Harvard)",
+      "kind": "number",
+      "value": {
+        "number": 5
+      },
+      "status": "reported",
+      "source": "qs-2027",
+      "where": "University page: topuniversities.com/universities/harvard-university",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.yale.qsRank",
+      "label": "QS World University Rankings 2027 position (Yale)",
+      "kind": "number",
+      "value": {
+        "number": 16
+      },
+      "status": "reported",
+      "source": "qs-2027",
+      "where": "University page: topuniversities.com/universities/yale-university",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": "Shared with another university, shown by QS as =16."
+    },
+    {
+      "id": "uni.princeton.qsRank",
+      "label": "QS World University Rankings 2027 position (Princeton)",
+      "kind": "number",
+      "value": {
+        "number": 27
+      },
+      "status": "reported",
+      "source": "qs-2027",
+      "where": "University page: topuniversities.com/universities/princeton-university",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.brown.qsRank",
+      "label": "QS World University Rankings 2027 position (Brown)",
+      "kind": "number",
+      "value": {
+        "number": 66
+      },
+      "status": "reported",
+      "source": "qs-2027",
+      "where": "University page: topuniversities.com/universities/brown-university",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.dartmouth.qsRank",
+      "label": "QS World University Rankings 2027 position (Dartmouth)",
+      "kind": "number",
+      "value": {
+        "number": 270
+      },
+      "status": "reported",
+      "source": "qs-2027",
+      "where": "University page: topuniversities.com/universities/dartmouth-college",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": "Shared with other universities, shown by QS as =270."
+    },
+    {
+      "id": "uni.harvard.aid",
+      "label": "Admission and aid for international students (Harvard)",
+      "kind": "text",
+      "value": {
+        "text": "Admission decisions are made without regard to whether an applicant has applied for financial aid. Harvard meets each student's demonstrated need, and its aid policies are the same for all applicants, whatever their nationality or citizenship."
+      },
+      "status": "confirmed",
+      "source": "harvard-intl",
+      "where": "Section: Financial aid",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.mit.aid",
+      "label": "Admission and aid for international students (MIT)",
+      "kind": "text",
+      "value": {
+        "text": "MIT is need-blind in admission and meets the full need of all undergraduates, domestic and international."
+      },
+      "status": "confirmed",
+      "source": "mit-sfs",
+      "where": "Opening section on affordability",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.yale.aid",
+      "label": "Admission and aid for international students (Yale)",
+      "kind": "text",
+      "value": {
+        "text": "International applicants are considered without regard to their ability to pay, and Yale meets 100% of every family's demonstrated financial need."
+      },
+      "status": "confirmed",
+      "source": "yale-intl",
+      "where": "Section: Financial aid",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.princeton.aid",
+      "label": "Admission and aid for international students (Princeton)",
+      "kind": "text",
+      "value": {
+        "text": "Admission is need-blind for international students, and Princeton meets the full need of every admitted international student with grants. Princeton gives no academic or athletic merit scholarships."
+      },
+      "status": "confirmed",
+      "source": "princeton-intl",
+      "where": "Section: Financial aid",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.dartmouth.aid",
+      "label": "Admission and aid for international students (Dartmouth)",
+      "kind": "text",
+      "value": {
+        "text": "Dartmouth has been need-blind for all international citizens since the Class of 2026, and meets the demonstrated need of every admitted student, including students from other countries."
+      },
+      "status": "confirmed",
+      "source": "dartmouth-aid",
+      "where": "Opening paragraphs",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.brown.aid",
+      "label": "Admission and aid for international students (Brown)",
+      "kind": "text",
+      "value": {
+        "text": "Brown is need-blind for international students from the Class of 2029, which started in autumn 2025, and meets full demonstrated need for admitted students who applied for aid when they applied for admission."
+      },
+      "status": "confirmed",
+      "source": "brown-intl-aid",
+      "where": "Opening section",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.amherst.aid",
+      "label": "Admission and aid for international students (Amherst)",
+      "kind": "text",
+      "value": {
+        "text": "Amherst is need-blind for all applicants, domestic and international, and meets 100% of calculated need for every admitted international student who applies for aid."
+      },
+      "status": "confirmed",
+      "source": "amherst-intl",
+      "where": "Section: Financial aid",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.bowdoin.aid",
+      "label": "Admission and aid for international students (Bowdoin)",
+      "kind": "text",
+      "value": {
+        "text": "Bowdoin is need-blind for international students and meets the full calculated need of every admitted student, with no loans."
+      },
+      "status": "confirmed",
+      "source": "bowdoin-intl",
+      "where": "Section: Financial aid",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.williams.aid",
+      "label": "Admission and aid for international students (Williams)",
+      "kind": "text",
+      "value": {
+        "text": "Williams is need-aware for international applicants, which means the ability to pay can affect admission. Its aid awards meet 100% of demonstrated need for all four years."
+      },
+      "status": "confirmed",
+      "source": "williams-aid",
+      "where": "Opening paragraphs",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.swarthmore.aid",
+      "label": "Admission and aid for international students (Swarthmore)",
+      "kind": "text",
+      "value": {
+        "text": "Admission is need-aware for international citizens. For an admitted student who applied for aid, Swarthmore meets 100% of institutionally determined need, without loans."
+      },
+      "status": "confirmed",
+      "source": "swarthmore-intl",
+      "where": "Section: Financial aid",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.stanford.aid",
+      "label": "Admission and aid for international students (Stanford)",
+      "kind": "text",
+      "value": {
+        "text": "Stanford is need-aware for international applicants: a request for aid is a factor in the admission decision. It meets the full need of all admitted students, regardless of citizenship."
+      },
+      "status": "confirmed",
+      "source": "stanford-intl",
+      "where": "Answers on eligibility for aid and on applying as an international student",
+      "checked": "2026-10-30",
+      "verified": "2026-10-30",
+      "note": ""
+    },
+    {
+      "id": "uni.columbia.aid",
+      "label": "Admission and aid for international students (Columbia)",
+      "kind": "text",
+      "value": {
+        "text": "Columbia is need-aware for international students and meets 100% of the demonstrated need of international students admitted with aid. International applicants must apply for aid when they apply for admission."
+      },
+      "status": "confirmed",
+      "source": "columbia-aid",
+      "where": "International aid and full need",
+      "checked": "2026-10-30",
+      "verified": "2026-10-30",
+      "note": ""
+    },
+    {
+      "id": "uni.penn.aid",
+      "label": "Admission and aid for international students (Penn)",
+      "kind": "text",
+      "value": {
+        "text": "Penn is need-aware for international applicants and meets 100% of an admitted student's demonstrated need with grants and work-study."
+      },
+      "status": "confirmed",
+      "source": "penn-intl-aid",
+      "where": "Paragraphs at the top of the page",
+      "checked": "2026-10-30",
+      "verified": "2026-10-30",
+      "note": ""
+    },
+    {
+      "id": "uni.cornell.aid",
+      "label": "Admission and aid for international students (Cornell)",
+      "kind": "text",
+      "value": {
+        "text": "Cornell is need-aware for international applicants and meets 100% of admitted international undergraduates' demonstrated need. Aid may include reasonable student loans, depending on family income."
+      },
+      "status": "confirmed",
+      "source": "cornell-intl-finaid",
+      "where": "Let's get started",
+      "checked": "2026-10-30",
+      "verified": "2026-10-30",
+      "note": ""
+    },
+    {
+      "id": "uni.northwestern.aid",
+      "label": "Admission and aid for international students (Northwestern)",
+      "kind": "text",
+      "value": {
+        "text": "Northwestern is need-aware for international applicants. Its awards meet 100% of a student's demonstrated need with grants and scholarships, with no loans or work."
+      },
+      "status": "confirmed",
+      "source": "northwestern-intl-aid",
+      "where": "Need-aware admission, and financial aid awards for international students",
+      "checked": "2026-10-30",
+      "verified": "2026-10-30",
+      "note": ""
+    },
+    {
+      "id": "uni.pomona.aid",
+      "label": "Admission and aid for international students (Pomona)",
+      "kind": "text",
+      "value": {
+        "text": "Admission is need-aware for international applicants, but Pomona meets the full need of every admitted international student, without using loans to meet it."
+      },
+      "status": "confirmed",
+      "source": "pomona-intl",
+      "where": "Financial aid for international students",
+      "checked": "2026-10-30",
+      "verified": "2026-10-30",
+      "note": ""
+    },
+    {
+      "id": "uni.wellesley.aid",
+      "label": "Aid for international students (Wellesley)",
+      "kind": "text",
+      "value": {
+        "text": "Wellesley meets 100% of calculated need for admitted international citizens who applied for aid when they applied for admission. Aid for international citizens is limited, and competition for it is intense."
+      },
+      "status": "confirmed",
+      "source": "wellesley-intl-aid",
+      "where": "Paragraphs at the top of the page",
+      "checked": "2026-10-30",
+      "verified": "2026-10-30",
+      "note": ""
+    },
+    {
+      "id": "uni.harvard.tests",
+      "label": "Tests for international applicants (Harvard)",
+      "kind": "text",
+      "value": {
+        "text": "The SAT or ACT is required. Other exam results count only in exceptional cases where these tests cannot be reached. An English test is not required from first-year applicants."
+      },
+      "status": "confirmed",
+      "source": "harvard-intl",
+      "where": "Sections: Standardized testing and English proficiency",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.mit.tests",
+      "label": "Tests for international applicants (MIT)",
+      "kind": "text",
+      "value": {
+        "text": "The SAT or ACT is required. An English test is strongly recommended for applicants who have used English for fewer than five years or do not speak it at home or school, with minimums of IELTS 7, TOEFL 5 on the new scale, PTE 65 and Duolingo 120."
+      },
+      "status": "confirmed",
+      "source": "mit-tests",
+      "where": "Sections: SAT or ACT, and English proficiency exams",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.yale.tests",
+      "label": "Tests for international applicants (Yale)",
+      "kind": "text",
+      "value": {
+        "text": "The SAT or ACT is required, and international leaving exams do not replace it. An English test is required unless you completed at least two years of secondary school taught in English."
+      },
+      "status": "confirmed",
+      "source": "yale-intl",
+      "where": "Sections: Standardized testing and English proficiency",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.dartmouth.tests",
+      "label": "Tests for international applicants (Dartmouth)",
+      "kind": "text",
+      "value": {
+        "text": "Standardized testing is required again from the Class of 2029, and students at schools outside the USA can meet it in one of five ways. An English test is required unless your school curriculum has been taught in English for at least two years."
+      },
+      "status": "confirmed",
+      "source": "dartmouth-tests",
+      "where": "Opening paragraphs and the English proficiency section",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.brown.tests",
+      "label": "Tests for international applicants (Brown)",
+      "kind": "text",
+      "value": {
+        "text": "The SAT or ACT is required for first-year applicants, starting with the 2024 to 2025 admission cycle."
+      },
+      "status": "confirmed",
+      "source": "brown-tests",
+      "where": "Opening paragraph",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.amherst.tests",
+      "label": "Tests for international applicants (Amherst)",
+      "kind": "text",
+      "value": {
+        "text": "The SAT or ACT is optional. An English test is required unless English is your native language or your last two years of secondary school were taught in English. Amherst recommends IELTS 7.5, TOEFL 5.5 or Duolingo 130."
+      },
+      "status": "confirmed",
+      "source": "amherst-intl",
+      "where": "Sections: 2026 to 2027 requirements and English proficiency",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.bowdoin.tests",
+      "label": "Tests for international applicants (Bowdoin)",
+      "kind": "text",
+      "value": {
+        "text": "Bowdoin is test-optional for the SAT and ACT."
+      },
+      "status": "confirmed",
+      "source": "bowdoin-tests",
+      "where": "Opening paragraph",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.swarthmore.tests",
+      "label": "Tests for international applicants (Swarthmore)",
+      "kind": "text",
+      "value": {
+        "text": "SAT and ACT scores are optional."
+      },
+      "status": "confirmed",
+      "source": "swarthmore-tests",
+      "where": "Opening paragraph",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.princeton.english",
+      "label": "English test for international applicants (Princeton)",
+      "kind": "text",
+      "value": {
+        "text": "An English test (TOEFL, IELTS Academic, Duolingo English Test or PTE Academic) is required unless English is your native language or you studied for at least three years at a secondary school taught in English."
+      },
+      "status": "confirmed",
+      "source": "princeton-intl",
+      "where": "Section: English proficiency",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.swarthmore.english",
+      "label": "English proficiency for applicants from schools outside the USA (Swarthmore)",
+      "kind": "text",
+      "value": {
+        "text": "Applicants at schools outside the USA submit one of these: a TOEFL, IELTS or Duolingo English Test result, a Swarthmore video response, or an InitialView or Vericant interview."
+      },
+      "status": "confirmed",
+      "source": "swarthmore-intl",
+      "where": "Section: Application materials",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "system.length",
+      "label": "Length of a bachelor's degree",
+      "kind": "text",
+      "value": {
+        "text": "A bachelor's degree is usually completed in four years of full-time study. Each college sets its own credit requirement."
+      },
+      "status": "confirmed",
+      "source": "edusa-undergrad",
+      "where": "Section: Undergraduate study",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "system.noOfficialRanking",
+      "label": "Official university rankings in the USA",
+      "kind": "text",
+      "value": {
+        "text": "There is no official ranking of US colleges and universities. The best one is the one that fits your academic, financial and personal needs."
+      },
+      "status": "confirmed",
+      "source": "edusa-undergrad",
+      "where": "Section on choosing a school",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "system.harvard.concentration",
+      "label": "When students choose their main subject (Harvard)",
+      "kind": "text",
+      "value": {
+        "text": "Harvard students declare a concentration, Harvard's word for a major, in their third term, and can change it later. They also take general education courses across four areas."
+      },
+      "status": "confirmed",
+      "source": "harvard-advising",
+      "where": "Sections: Concentration and General Education",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "advice.educationUsa",
+      "label": "EducationUSA advising in Bangladesh",
+      "kind": "text",
+      "value": {
+        "text": "EducationUSA, the US Department of State's advising network, has centres at the American Center and the EMK Center in Dhaka, and at the American Corners in Chattogram and Rajshahi."
+      },
+      "status": "confirmed",
+      "source": "edusa-bd",
+      "where": "Search results for Bangladesh, four centres",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "app.commonApp.deadlineTime",
+      "label": "Common App deadlines: time of day",
+      "kind": "text",
+      "value": {
+        "text": "Applications are due by 11:59 p.m. in your own time zone, not the college's."
+      },
+      "status": "confirmed",
+      "source": "commonapp-intl",
+      "where": "Section: Deadlines",
+      "checked": "2026-10-24",
+      "verified": "2026-10-24",
+      "note": ""
+    },
+    {
+      "id": "app.commonApp.noCounselor",
+      "label": "Common App: when your school has no counsellor",
+      "kind": "text",
+      "value": {
+        "text": "If your school has no counsellor, you can invite any school official who has access to your academic records, ideally one who can speak about your academic work."
+      },
+      "status": "confirmed",
+      "source": "commonapp-intl",
+      "where": "Section: Recommenders and the counsellor",
+      "checked": "2026-10-24",
+      "verified": "2026-10-24",
+      "note": ""
+    },
+    {
+      "id": "app.commonApp.fees",
+      "label": "Common App: application fees for international students",
+      "kind": "text",
+      "value": {
+        "text": "Each college sets its own fee, and more than 650 colleges charge international students no application fee. International students may be eligible for a need-based Common App fee waiver if the college accepts it, and some colleges offer their own."
+      },
+      "status": "confirmed",
+      "source": "commonapp-intl",
+      "where": "Section: Application fees",
+      "checked": "2026-10-24",
+      "verified": "2026-10-24",
+      "note": ""
+    },
+    {
+      "id": "app.commonApp.activities",
+      "label": "Common App: the activities section",
+      "kind": "text",
+      "value": {
+        "text": "Up to 10 activities. Each has a 50-character position, a 100-character organisation name and a 150-character description, with hours per week and weeks per year. Family responsibilities, jobs, internships, volunteering, hobbies and sports all count."
+      },
+      "status": "confirmed",
+      "source": "commonapp-activities",
+      "where": "Whole resource",
+      "checked": "2026-10-24",
+      "verified": "2026-10-24",
+      "note": ""
+    },
+    {
+      "id": "app.commonApp.honors",
+      "label": "Common App: honours",
+      "kind": "text",
+      "value": {
+        "text": "Up to 5 academic honours."
+      },
+      "status": "confirmed",
+      "source": "commonapp-gather",
+      "where": "Section: A list of academic honors",
+      "checked": "2026-10-24",
+      "verified": "2026-10-24",
+      "note": ""
+    },
+    {
+      "id": "app.fee.harvard",
+      "label": "Application fee (Harvard)",
+      "kind": "money",
+      "keyedBy": "academicYear",
+      "values": [
+        {
+          "key": "2026",
+          "value": {
+            "amount": 95,
+            "currency": "USD"
+          },
+          "status": "confirmed",
+          "source": "harvard-firstyear",
+          "where": "Application requirements: application fee",
+          "checked": "2026-10-20",
+          "verified": "2026-10-21",
+          "note": "A fee waiver can be requested."
+        }
+      ]
+    },
+    {
+      "id": "app.fee.mit",
+      "label": "Application fee (MIT)",
+      "kind": "money",
+      "keyedBy": "academicYear",
+      "values": [
+        {
+          "key": "2026",
+          "value": {
+            "amount": 75,
+            "currency": "USD"
+          },
+          "status": "confirmed",
+          "source": "mit-fee",
+          "where": "First-year application fee",
+          "checked": "2026-10-25",
+          "verified": "2026-10-25",
+          "note": "Paid by card when you submit. MIT's own application, not the Common App."
+        }
+      ]
+    },
+    {
+      "id": "app.fee.brown",
+      "label": "Application fee (Brown)",
+      "kind": "money",
+      "keyedBy": "academicYear",
+      "values": [
+        {
+          "key": "2026",
+          "value": {
+            "amount": 80,
+            "currency": "USD"
+          },
+          "status": "confirmed",
+          "source": "brown-checklist",
+          "where": "Application fee or fee waiver",
+          "checked": "2026-10-25",
+          "verified": "2026-10-25",
+          "note": "Not refunded. The Common App's grid gives the same fee."
+        }
+      ]
+    },
+    {
+      "id": "app.fee.dartmouth",
+      "label": "Application fee (Dartmouth)",
+      "kind": "money",
+      "keyedBy": "academicYear",
+      "values": [
+        {
+          "key": "2026",
+          "value": {
+            "amount": 85,
+            "currency": "USD"
+          },
+          "status": "confirmed",
+          "source": "dartmouth-fee",
+          "where": "Application fee",
+          "checked": "2026-10-25",
+          "verified": "2026-10-25",
+          "note": "The Common App's grid gives the same fee."
+        }
+      ]
+    },
+    {
+      "id": "app.fee.amherst",
+      "label": "Application fee (Amherst)",
+      "kind": "money",
+      "keyedBy": "academicYear",
+      "values": [
+        {
+          "key": "2026",
+          "value": {
+            "amount": 75,
+            "currency": "USD"
+          },
+          "status": "confirmed",
+          "source": "amherst-firstyear",
+          "where": "Application fee",
+          "checked": "2026-10-25",
+          "verified": "2026-10-25",
+          "note": "Not refunded. The Common App's grid gives the same fee."
+        }
+      ]
+    },
+    {
+      "id": "app.fee.bowdoin",
+      "label": "Application fee (Bowdoin)",
+      "kind": "money",
+      "keyedBy": "academicYear",
+      "values": [
+        {
+          "key": "2026",
+          "value": {
+            "amount": 70,
+            "currency": "USD"
+          },
+          "status": "confirmed",
+          "source": "bowdoin-apply",
+          "where": "Application fee",
+          "checked": "2026-10-25",
+          "verified": "2026-10-25",
+          "note": "The Common App's grid gives the same fee."
+        }
+      ]
+    },
+    {
+      "id": "app.fee.williams",
+      "label": "Application fee (Williams)",
+      "kind": "money",
+      "keyedBy": "academicYear",
+      "values": [
+        {
+          "key": "2026",
+          "value": {
+            "amount": 65,
+            "currency": "USD"
+          },
+          "status": "confirmed",
+          "source": "williams-firstyear",
+          "where": "Application fee",
+          "checked": "2026-10-25",
+          "verified": "2026-10-25",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "app.fee.swarthmore",
+      "label": "Application fee (Swarthmore)",
+      "kind": "money",
+      "keyedBy": "academicYear",
+      "values": [
+        {
+          "key": "2026",
+          "value": {
+            "amount": 60,
+            "currency": "USD"
+          },
+          "status": "confirmed",
+          "source": "swarthmore-materials",
+          "where": "Application fee or fee waiver",
+          "checked": "2026-10-25",
+          "verified": "2026-10-25",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "app.fee.princeton",
+      "label": "Application fee (Princeton)",
+      "kind": "money",
+      "keyedBy": "academicYear",
+      "values": [
+        {
+          "key": "2026",
+          "value": {
+            "amount": 85,
+            "currency": "USD"
+          },
+          "status": "confirmed",
+          "source": "commonapp-grid",
+          "where": "Princeton University row, application fee for US and international applicants",
+          "checked": "2026-10-25",
+          "verified": "2026-10-25",
+          "note": "Princeton's own pages show the fee only inside the application, so the Common App's grid is used."
+        }
+      ]
+    },
+    {
+      "id": "app.waiver.mit",
+      "label": "Application fee waiver (MIT)",
+      "kind": "text",
+      "value": {
+        "text": "Fee waivers are available for domestic and international applicants, and asking for one does not affect admission."
+      },
+      "status": "confirmed",
+      "source": "mit-fee",
+      "where": "Fee waiver paragraph",
+      "checked": "2026-10-25",
+      "verified": "2026-10-25",
+      "note": ""
+    },
+    {
+      "id": "app.waiver.dartmouth",
+      "label": "Application fee waiver (Dartmouth)",
+      "kind": "text",
+      "value": {
+        "text": "A waiver is available when the fee would be an unusual financial hardship, and asking for one does not affect your application."
+      },
+      "status": "confirmed",
+      "source": "dartmouth-fee",
+      "where": "Fee waiver paragraph",
+      "checked": "2026-10-25",
+      "verified": "2026-10-25",
+      "note": ""
+    },
+    {
+      "id": "app.waiver.amherst",
+      "label": "Application fee waiver (Amherst)",
+      "kind": "text",
+      "value": {
+        "text": "A waiver can be requested through the Common App, the Coalition Application on Scoir, or Amherst's Quick Pass."
+      },
+      "status": "confirmed",
+      "source": "amherst-firstyear",
+      "where": "Application fee or fee waiver",
+      "checked": "2026-10-25",
+      "verified": "2026-10-25",
+      "note": ""
+    },
+    {
+      "id": "app.waiver.bowdoin",
+      "label": "Application fee waiver (Bowdoin)",
+      "kind": "text",
+      "value": {
+        "text": "The fee is waived automatically for applicants who apply for financial aid, international applicants included, and for first-generation students."
+      },
+      "status": "confirmed",
+      "source": "bowdoin-apply",
+      "where": "Application fee paragraph",
+      "checked": "2026-10-25",
+      "verified": "2026-10-25",
+      "note": ""
+    },
+    {
+      "id": "app.waiver.williams",
+      "label": "Application fee waiver (Williams)",
+      "kind": "text",
+      "value": {
+        "text": "A waiver can be requested if the fee is a financial hardship."
+      },
+      "status": "confirmed",
+      "source": "williams-firstyear",
+      "where": "Application fee paragraph",
+      "checked": "2026-10-25",
+      "verified": "2026-10-25",
+      "note": ""
+    },
+    {
+      "id": "app.waiver.swarthmore",
+      "label": "Application fee waiver (Swarthmore)",
+      "kind": "text",
+      "value": {
+        "text": "Students with financial need can complete SwatPass to find out whether they qualify for a waiver."
+      },
+      "status": "confirmed",
+      "source": "swarthmore-materials",
+      "where": "Fee waiver note",
+      "checked": "2026-10-25",
+      "verified": "2026-10-25",
+      "note": ""
+    },
+    {
+      "id": "app.waiver.yale",
+      "label": "Application fee waiver (Yale)",
+      "kind": "text",
+      "value": {
+        "text": "Yale does not issue its own fee waivers. Applicants who meet the Common App's or the Coalition's criteria can apply for free through them, and the QuestBridge Application is always free."
+      },
+      "status": "confirmed",
+      "source": "yale-requirements",
+      "where": "Fee waivers",
+      "checked": "2026-10-25",
+      "verified": "2026-10-25",
+      "note": "Yale's own pages do not state the fee amount."
+    },
+    {
+      "id": "app.waiver.princeton",
+      "label": "Application fee waiver (Princeton)",
+      "kind": "text",
+      "value": {
+        "text": "All low-income students are eligible for Princeton's own fee waiver."
+      },
+      "status": "confirmed",
+      "source": "princeton-checklist",
+      "where": "Application fee or fee waiver",
+      "checked": "2026-10-25",
+      "verified": "2026-10-25",
+      "note": ""
+    },
+    {
+      "id": "app.harvard.requirements",
+      "label": "Application requirements (Harvard)",
+      "kind": "text",
+      "value": {
+        "text": "The Common App with Harvard's five short questions of up to 150 words each, the SAT or ACT, a school report with a counsellor letter and transcript, two teacher recommendations, and a midyear school report. An alumni interview may be offered."
+      },
+      "status": "confirmed",
+      "source": "harvard-firstyear",
+      "where": "Application requirements",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "app.harvard.essays",
+      "label": "Writing your own essays (Harvard)",
+      "kind": "text",
+      "value": {
+        "text": "Essays should reflect the applicant's own content, writing style and English. The Common App counts substantive content from an artificial intelligence platform as fraud, and Harvard can withdraw or revoke an offer over a misrepresentation."
+      },
+      "status": "confirmed",
+      "source": "harvard-essays",
+      "where": "Whole answer",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "app.harvard.stats",
+      "label": "Applications and admissions, class that entered in 2025 (Harvard)",
+      "kind": "text",
+      "value": {
+        "text": "47,893 applications and 2,003 admitted students, about 4 in every 100. International students made up 16% of the class."
+      },
+      "status": "confirmed",
+      "source": "harvard-stats",
+      "where": "Class of 2029 table",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": "The 2,003 admitted students include 75 from the waiting list. International share is by home address when applying."
+    },
+    {
+      "id": "app.brown.earlyDecision",
+      "label": "Early Decision commitments (Brown)",
+      "kind": "text",
+      "value": {
+        "text": "Applying Early Decision means you would definitely accept an offer. If admitted, you must withdraw all other applications. You may apply elsewhere in regular decision, rolling or open early action, but not in another early decision, single-choice or restrictive early action plan."
+      },
+      "status": "confirmed",
+      "source": "brown-ed",
+      "where": "Whole page",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "aid.css.fee",
+      "label": "CSS Profile fee",
+      "kind": "money",
+      "value": {
+        "currency": "USD",
+        "variants": [
+          {
+            "label": "First college",
+            "amount": 25
+          },
+          {
+            "label": "Each additional college",
+            "amount": 16
+          }
+        ]
+      },
+      "status": "confirmed",
+      "source": "css-cost",
+      "where": "Whole answer",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "aid.css.freeForUsFamilies",
+      "label": "Free CSS Profile: who qualifies",
+      "kind": "text",
+      "value": {
+        "text": "The free CSS Profile for families with income up to USD 100,000 is for undergraduates living in the USA."
+      },
+      "status": "confirmed",
+      "source": "css-waivers",
+      "where": "Eligibility list",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "aid.harvard.income",
+      "label": "Aid by family income (Harvard)",
+      "kind": "text",
+      "value": {
+        "text": "For families earning under USD 100,000 a year, the expected parent contribution is zero. Up to USD 200,000, aid covers at least the full cost of tuition. International students are eligible for exactly the same aid as American students."
+      },
+      "status": "confirmed",
+      "source": "harvard-aid",
+      "where": "Sections on family income and international students",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "cost.harvard",
+      "label": "Cost of attendance (Harvard)",
+      "kind": "money",
+      "keyedBy": "academicYear",
+      "values": [
+        {
+          "key": "2026",
+          "value": {
+            "currency": "USD",
+            "variants": [
+              {
+                "label": "Tuition, fees, housing and food",
+                "amount": 91634
+              },
+              {
+                "label": "With books, personal costs and travel, at most",
+                "amount": 100134
+              }
+            ]
+          },
+          "status": "confirmed",
+          "source": "harvard-aid",
+          "where": "Cost table 2026 to 2027",
+          "checked": "2026-10-20",
+          "verified": "2026-10-21",
+          "note": "Before aid. Travel is estimated at USD 0 to 5,000."
+        }
+      ]
+    },
+    {
+      "id": "cost.harvard.insurance",
+      "label": "Health insurance (Harvard)",
+      "kind": "money",
+      "keyedBy": "academicYear",
+      "values": [
+        {
+          "key": "2026",
+          "value": {
+            "amount": 4954,
+            "currency": "USD"
+          },
+          "status": "confirmed",
+          "source": "harvard-aid",
+          "where": "Cost table 2026 to 2027: required health insurance",
+          "checked": "2026-10-20",
+          "verified": "2026-10-21",
+          "note": "Charged unless the student is covered by a family plan that Harvard accepts."
+        }
+      ]
+    },
+    {
+      "id": "visa.reciprocity",
+      "label": "Student visa terms for Bangladeshi citizens",
+      "kind": "text",
+      "value": {
+        "text": "For Bangladeshi citizens, the F-1 visa has no issuance fee, allows multiple entries and can be valid for up to 60 months."
+      },
+      "status": "confirmed",
+      "source": "dos-reciprocity-bd",
+      "where": "Visa classification table, row F-1",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "visa.applyWhere",
+      "label": "Where to apply for the student visa",
+      "kind": "text",
+      "value": {
+        "text": "Book your visa interview at a US Embassy or Consulate in your country of nationality or residence. Applying on the basis of residence means showing that you live there."
+      },
+      "status": "confirmed",
+      "source": "dos-niv-residence",
+      "where": "Whole notice, last updated 15 July 2026",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "visa.documents",
+      "label": "What to bring to the visa interview",
+      "kind": "text",
+      "value": {
+        "text": "A passport valid for at least six months beyond your stay, the DS-160 confirmation page, the fee receipt, a photo if the upload failed, and your I-20. The officer may also ask for academic records, test scores, evidence that you will leave the USA after your studies, and proof of how you will pay."
+      },
+      "status": "confirmed",
+      "source": "dos-student-visa",
+      "where": "Sections: Required documentation and Additional documentation may be required",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "visa.interviewRequired",
+      "label": "In-person visa interviews",
+      "kind": "text",
+      "value": {
+        "text": "Since 1 October 2025, most visa applicants, student visa applicants included, generally need an in-person interview with a consular officer."
+      },
+      "status": "confirmed",
+      "source": "dos-interview-waiver",
+      "where": "Paragraphs on who needs an interview",
+      "checked": "2026-10-25",
+      "verified": "2026-10-25",
+      "note": "Student visas are not among the exceptions."
+    },
+    {
+      "id": "visa.refusal214b",
+      "label": "A refusal under section 214(b)",
+      "kind": "text",
+      "value": {
+        "text": "An officer refuses a visa under section 214(b) when not satisfied that you qualify, including that you have ties, such as a job, a home or family, that will make you leave the USA after your stay. The refusal is for that application only. You can apply again with a new form, a new fee and a new interview, and should show what has changed. There is no appeal."
+      },
+      "status": "confirmed",
+      "source": "dos-visa-denials",
+      "where": "Section 214(b)",
+      "checked": "2026-10-25",
+      "verified": "2026-10-25",
+      "note": ""
+    },
+    {
+      "id": "visa.refusal221g",
+      "label": "A refusal under section 221(g)",
+      "kind": "text",
+      "value": {
+        "text": "A refusal under section 221(g) means the application is incomplete or needs administrative processing. You have one year to send what is missing; after that you must apply and pay again."
+      },
+      "status": "confirmed",
+      "source": "dos-visa-denials",
+      "where": "Section 221(g)",
+      "checked": "2026-10-25",
+      "verified": "2026-10-25",
+      "note": "The State Department counts it as a refusal, even while the checks continue."
+    },
+    {
+      "id": "visa.dhaka.items",
+      "label": "What visitors cannot bring into the US Embassy in Dhaka",
+      "kind": "text",
+      "value": {
+        "text": "Cameras, mobile phones, laptops and other small electronic devices, smart watches and other wearables, and luggage. The embassy has no storage for visitors' belongings."
+      },
+      "status": "confirmed",
+      "source": "usembassy-visiting",
+      "where": "Prohibited items",
+      "checked": "2026-10-25",
+      "verified": "2026-10-25",
+      "note": ""
+    },
+    {
+      "id": "visa.dhaka.arrival",
+      "label": "When to arrive at the US Embassy in Dhaka",
+      "kind": "text",
+      "value": {
+        "text": "Arrive about 15 minutes before your appointment."
+      },
+      "status": "confirmed",
+      "source": "usembassy-expect",
+      "where": "Arrival",
+      "checked": "2026-10-25",
+      "verified": "2026-10-25",
+      "note": "The page also covers other services, whose rules differ."
+    },
+    {
+      "id": "visa.i20School",
+      "label": "Who issues the I-20",
+      "kind": "text",
+      "value": {
+        "text": "Only a school approved by the Student and Exchange Visitor Program can issue the I-20 that a student visa needs."
+      },
+      "status": "confirmed",
+      "source": "dos-student-visa",
+      "where": "Section: Acceptance at a SEVP-approved school",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "visa.noBroker",
+      "label": "Visa brokers and false documents",
+      "kind": "text",
+      "value": {
+        "text": "The US Embassy in Dhaka says applicants do not need a visa broker and can apply online themselves. False information or documents can lead to a refusal and to an ineligibility that prevents future travel to the USA."
+      },
+      "status": "reported",
+      "source": "usembassy-fraud",
+      "where": "Opening paragraphs, quoting the embassy's statement of 20 January 2023",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": "The embassy's own website is the place to confirm current guidance."
+    },
+    {
+      "id": "visa.restrictions",
+      "label": "US travel restrictions and Bangladesh",
+      "kind": "text",
+      "value": {
+        "text": "Bangladesh is not among the countries whose nationals face US visa suspensions under Proclamation 10998, in force since 1 January 2026."
+      },
+      "status": "confirmed",
+      "source": "dos-suspension",
+      "where": "Lists of fully and partially suspended countries",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": "",
+      "changesOften": true
+    },
+    {
+      "id": "visa.familyBond",
+      "label": "Visitor visas for family members: bonds",
+      "kind": "text",
+      "value": {
+        "text": "Since 21 January 2026, a Bangladeshi citizen found eligible for a B-1 or B-2 visitor visa must post a bond of USD 10,000, 15,000 or 20,000, set at the interview. The rule covers B-1 and B-2 visitor visas only."
+      },
+      "status": "confirmed",
+      "source": "dos-visa-bonds",
+      "where": "Country list, row Bangladesh, and the description of bonds",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": "",
+      "changesOften": true
+    },
+    {
+      "id": "visa.durationOfStatus",
+      "label": "How long a student may stay: the 2026 rule",
+      "kind": "text",
+      "value": {
+        "text": "A rule published in July 2026 would give F-1 students a fixed admission period of up to four years instead of duration of status. A federal court paused it on 14 September 2026, so the existing system still applies for now."
+      },
+      "status": "reported",
+      "source": "yale-oiss-ds",
+      "where": "Court update of 14 September 2026 and the rule summary",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": "The government may appeal, so this can change.",
+      "changesOften": true
+    },
+    {
+      "id": "work.onCampus",
+      "label": "Working on campus as an F-1 student",
+      "kind": "text",
+      "value": {
+        "text": "Up to 20 hours a week while school is in session, and full time when it is not."
+      },
+      "status": "confirmed",
+      "source": "ice-employment",
+      "where": "Section: On-campus employment",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "work.opt",
+      "label": "Working after graduation: Optional Practical Training",
+      "kind": "text",
+      "value": {
+        "text": "Up to 12 months of Optional Practical Training after graduating, with a 24-month extension for degrees in science, technology, engineering and mathematics."
+      },
+      "status": "reported",
+      "source": "uf-stem-opt",
+      "where": "Opening section",
+      "checked": "2026-10-20",
+      "verified": "2026-10-21",
+      "note": "A university office describing the federal rule."
+    },
+    {
+      "id": "uni.bowdoin.english",
+      "label": "English test for international applicants (Bowdoin)",
+      "kind": "text",
+      "value": {
+        "text": "English test scores are optional, and Bowdoin has no minimum score."
+      },
+      "status": "confirmed",
+      "source": "bowdoin-intl",
+      "where": "Section: English proficiency",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.williams.tests",
+      "label": "Tests for international applicants (Williams)",
+      "kind": "text",
+      "value": {
+        "text": "Williams is test-optional for the SAT and ACT, and English language tests have been optional for many years."
+      },
+      "status": "confirmed",
+      "source": "williams-apply",
+      "where": "Section on testing",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.princeton.tests",
+      "label": "SAT or ACT from autumn 2028 entry (Princeton)",
+      "kind": "text",
+      "value": {
+        "text": "Princeton requires the SAT or ACT from first-year applicants who will start in autumn 2028, the first class to apply in the 2027 to 2028 cycle."
+      },
+      "status": "reported",
+      "source": "princeton-paw",
+      "where": "Opening paragraphs",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Princeton's own page, titled Standardized Testing Policy Beginning With 2027-28 Admission Cycle, cannot be read automatically. Its wording is quoted the same way by Princeton Alumni Weekly and other reports."
+    },
+    {
+      "id": "uni.brown.english",
+      "label": "English test for international applicants (Brown)",
+      "kind": "text",
+      "value": {
+        "text": "An English test is highly recommended if English is not your first language, your home language or the language of your secondary school. Brown expects at least IELTS 8.0, TOEFL 5.5 on the new scale, Duolingo 130 or PTE 75 in most cases."
+      },
+      "status": "confirmed",
+      "source": "brown-english",
+      "where": "Whole page",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "app.mit.ownApplication",
+      "label": "How to apply (MIT)",
+      "kind": "text",
+      "value": {
+        "text": "MIT does not use the Common App. Applicants apply through the MIT application portal on MIT's own website."
+      },
+      "status": "confirmed",
+      "source": "mit-deadlines",
+      "where": "Section: MIT application portal",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "work.optFeeProposal",
+      "label": "Proposed fees for Optional Practical Training",
+      "kind": "text",
+      "value": {
+        "text": "On 8 October 2026 the US government proposed fees of USD 70,000 for a student's first period of Optional Practical Training and USD 30,000 for each later period, including the science and technology extension. Universities would pay them and could pass the cost on. It is a proposal only, open for comments until 9 November 2026."
+      },
+      "status": "confirmed",
+      "source": "fr-opt-fees",
+      "where": "Summary and the proposed fee section",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "",
+      "changesOften": true
+    },
+    {
+      "id": "visa.fraudWarning",
+      "label": "Fake visa messages",
+      "kind": "text",
+      "value": {
+        "text": "US government email addresses end in .gov, and visa messages from any other address should be treated as suspect. Visa fraud can be reported to DhakaFraud@state.gov."
+      },
+      "status": "confirmed",
+      "source": "bd-embassy-visas",
+      "where": "Section on fraud warnings",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.dartmouth.testOptions",
+      "label": "Ways to meet the testing requirement from outside the USA (Dartmouth)",
+      "kind": "text",
+      "value": {
+        "text": "Students at schools outside the USA submit one of these: the SAT, the ACT, three AP exams, predicted or final IB results, British A levels, or an equivalent standardized national exam."
+      },
+      "status": "confirmed",
+      "source": "dartmouth-faq",
+      "where": "Answer to the question",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "aid.brown.timing",
+      "label": "When to send aid forms (Brown)",
+      "kind": "text",
+      "value": {
+        "text": "To receive a provisional aid decision with the admission decision, every required aid document must arrive by the application deadline."
+      },
+      "status": "confirmed",
+      "source": "brown-aid",
+      "where": "Section on deadlines",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "aid.williams.timing",
+      "label": "When to send aid forms (Williams)",
+      "kind": "text",
+      "value": {
+        "text": "Answer yes to the aid question on the admission application, but send no aid documents with it. Admitted students then follow the aid office's instructions."
+      },
+      "status": "confirmed",
+      "source": "williams-aid",
+      "where": "Steps for international applicants",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "aid.bowdoin.timing",
+      "label": "When to send aid forms (Bowdoin)",
+      "kind": "text",
+      "value": {
+        "text": "International students need not send aid documents until after receiving an admit decision. Once admitted, they should send every aid document within seven days of the offer."
+      },
+      "status": "confirmed",
+      "source": "bowdoin-intl",
+      "where": "Section: Financial aid",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "app.commonApp.essay",
+      "label": "Common App personal essay",
+      "kind": "text",
+      "value": {
+        "text": "One essay of at most 650 words, on one of seven prompts. The application does not accept fewer than 250 words."
+      },
+      "status": "reported",
+      "source": "koppelman-essay",
+      "where": "The prompt instructions quoted in full",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "The Common App's own essay page is drawn by a script that cannot be read automatically. This guide quotes its instructions word for word."
+    },
+    {
+      "id": "grades.txst",
+      "label": "How Texas State University reads Bangladeshi HSC marks",
+      "kind": "text",
+      "value": {
+        "text": "Marks of 60 to 100 count as A, 4 points; 45 to 59 as B, 3 points; 33 to 44 as C, 2 points; 0 to 32 as F, 0 points."
+      },
+      "status": "confirmed",
+      "source": "txst-bangladesh",
+      "where": "Grading scale for the HSC and Alim",
+      "checked": "2026-10-25",
+      "verified": "2026-10-25",
+      "note": "Texas State's own table. Other universities may read marks differently."
+    },
+    {
+      "id": "grades.wku",
+      "label": "How Western Kentucky University reads Bangladeshi marks",
+      "kind": "text",
+      "value": {
+        "text": "Marks of 60 to 100 count as A, 50 to 59 as B, 35 to 49 as C and 0 to 34 as F."
+      },
+      "status": "confirmed",
+      "source": "wku-bangladesh",
+      "where": "Grading scale table",
+      "checked": "2026-10-25",
+      "verified": "2026-10-25",
+      "note": "Western Kentucky's own document, which carries no date. Other universities may read marks differently."
+    },
+    {
+      "id": "app.commonApp.gpa",
+      "label": "Reporting a GPA on a scale the Common App does not list",
+      "kind": "text",
+      "value": {
+        "text": "If your school uses a GPA scale that is not among the options, leave the cumulative GPA field blank, because it is not required, and explain your school's grading in Additional Information."
+      },
+      "status": "confirmed",
+      "source": "commonapp-counselor-intl",
+      "where": "Slides on the education section",
+      "checked": "2026-10-25",
+      "verified": "2026-10-25",
+      "note": ""
+    }
+  ]
+}

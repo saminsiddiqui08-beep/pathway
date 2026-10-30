@@ -1,0 +1,402 @@
+{
+  "format": 1,
+  "plan": "us",
+  "title": "USA",
+  "facts": [
+    "bd",
+    "us"
+  ],
+  "cycles": "us/app.deadline.regular",
+  "start": {
+    "cycleDate": "08-15",
+    "assumption": "usStart"
+  },
+  "routes": [
+    {
+      "id": "regular",
+      "title": "Regular round",
+      "text": "Applying by 1 January means decisions by the end of March.",
+      "deadline": {
+        "fact": "us/app.deadline.regular"
+      }
+    },
+    {
+      "id": "early",
+      "title": "Early round",
+      "text": "Applying by 1 November means decisions in mid-December and more time for everything after.",
+      "deadline": {
+        "fact": "us/app.deadline.early"
+      }
+    }
+  ],
+  "assumptions": {
+    "usStart": {
+      "label": "When classes begin",
+      "date": "08-15",
+      "mode": "both",
+      "text": "Until you enter the start date from your I-20, Pathway assumes 15 August. An early date is the cautious choice, because you may enter the USA only 30 days before it."
+    },
+    "usDeadlines": {
+      "label": "Application deadlines",
+      "mode": "both",
+      "text": "Pathway plans for 1 November (early) and 1 January (regular), Harvard's dates and the first days of the usual ranges. Most universities close between 1 and 15 November, and between 1 and 15 January."
+    },
+    "essays": {
+      "label": "Time for essays and applications",
+      "amount": {
+        "reach": 20,
+        "balanced": 12,
+        "safe": 8
+      },
+      "unit": "weeks",
+      "mode": "planned",
+      "text": "Pathway plans 20 weeks of essay work for mostly very competitive universities, 12 weeks for a balanced mix, and 8 weeks for mostly less competitive ones. Long lists bring many supplemental essays."
+    },
+    "statementBeforeDecision": {
+      "label": "When to print the bank statement",
+      "amount": 31,
+      "unit": "days",
+      "mode": "planned",
+      "text": "Pathway places the bank statement in the month before decisions, because some universities refuse funding documents older than 6 months."
+    },
+    "arriveSpare": {
+      "label": "Arriving before classes",
+      "amount": 7,
+      "unit": "days",
+      "mode": "planned",
+      "text": "Pathway plans to have you there a week before classes, for orientation."
+    },
+    "earlyScores": {
+      "label": "Test scores in the early round",
+      "date": "11-30",
+      "mode": "both",
+      "text": "Pathway uses Harvard's rule for the early round: test scores may arrive by the end of November. Check each of your universities."
+    },
+    "listBefore": {
+      "label": "Choosing your universities",
+      "amount": 8,
+      "unit": "weeks",
+      "mode": "planned",
+      "text": "Pathway suggests settling your list 8 weeks before your first deadline, so every essay is written for a known university. It never uses this to decide that an intake is out of reach."
+    }
+  },
+  "asksSat": true,
+  "steps": [
+    {
+      "id": "us.list",
+      "title": "Choose your universities",
+      "stage": "prepare",
+      "deadline": {
+        "route": "deadline",
+        "offset": {
+          "assumption": "listBefore"
+        }
+      },
+      "planning": "listBefore",
+      "because": "tier",
+      "text": "Check each university's own deadline, test policy and aid for international students. Pathway plans for the earliest deadline in each round. When you know your universities' earliest deadline, enter it on \"Submit your applications\", and this step moves with it.",
+      "tasks": [
+        "Write down each university's exact deadline",
+        "Check which ones are need-blind for international students"
+      ],
+      "facts": [
+        "us/app.deadline.early",
+        "us/app.deadline.regular"
+      ]
+    },
+    {
+      "id": "us.essays",
+      "title": "Write your essays",
+      "stage": "apply",
+      "after": [
+        "us.list"
+      ],
+      "duration": {
+        "assumption": "essays",
+        "by": "tier"
+      },
+      "deadline": {
+        "route": "deadline"
+      },
+      "because": "tier",
+      "text": "The Common App personal essay goes to every university; many also ask for shorter essays of their own.",
+      "tasks": [
+        "Draft your personal essay",
+        "Ask two teachers for recommendation letters",
+        "Fill in your activities list"
+      ],
+      "facts": [
+        "us/app.commonApp.opens"
+      ]
+    },
+    {
+      "id": "us.css",
+      "title": "Complete the CSS Profile",
+      "stage": "apply",
+      "when": {
+        "aid": [
+          "need",
+          "help"
+        ]
+      },
+      "opens": {
+        "fact": "us/aid.css.opens"
+      },
+      "deadline": {
+        "route": "deadline"
+      },
+      "because": "aid",
+      "text": "Many universities that give aid to international students ask for it when you apply. Fee waivers are generally not open to international students.",
+      "facts": [
+        "us/aid.css.opens",
+        "us/aid.css.international"
+      ]
+    },
+    {
+      "id": "us.apply",
+      "title": "Submit your applications",
+      "stage": "apply",
+      "hard": true,
+      "after": [
+        "us.essays",
+        "us.css",
+        "english.test",
+        {
+          "step": "sat.test",
+          "when": {
+            "route": "regular",
+            "satStatus": [
+              "none",
+              "booked"
+            ]
+          }
+        }
+      ],
+      "opens": {
+        "fact": "us/app.commonApp.opens"
+      },
+      "deadline": {
+        "route": "deadline"
+      },
+      "planning": "usDeadlines",
+      "ownDate": true,
+      "text": "Your test scores should reach each university by its deadline. Some accept scores a little later; check each one.",
+      "tasks": [
+        "Submit through the Common App",
+        "Send your test scores"
+      ],
+      "facts": [
+        "us/app.deadline.early",
+        "us/app.deadline.regular",
+        "us/app.testScores.earlyRound",
+        "us/app.commonApp.opens"
+      ]
+    },
+    {
+      "id": "us.satScores",
+      "title": "Your SAT scores reach your universities",
+      "stage": "apply",
+      "kind": "wait",
+      "hard": true,
+      "when": {
+        "route": "early",
+        "satStatus": [
+          "none",
+          "booked"
+        ]
+      },
+      "after": [
+        "sat.test"
+      ],
+      "deadline": {
+        "cycleDate": "11-30",
+        "yearOffset": -1,
+        "assumption": "earlyScores"
+      },
+      "planning": "earlyScores",
+      "ownDate": true,
+      "text": "Harvard accepts early-round scores until the end of November, so a test in early November can still count.",
+      "facts": [
+        "us/app.testScores.earlyRound"
+      ]
+    },
+    {
+      "id": "us.statement",
+      "title": "Print your bank statement",
+      "stage": "results",
+      "after": [
+        "us.apply"
+      ],
+      "deadline": {
+        "step": "us.decision",
+        "offset": {
+          "assumption": "statementBeforeDecision"
+        }
+      },
+      "text": "Universities need proof that one year of fees and living costs is covered. Some refuse documents older than 6 months, so this sits just before decisions.",
+      "facts": [
+        "us/i20.requirements",
+        "us/i20.fundsDocumentAge"
+      ]
+    },
+    {
+      "id": "us.decision",
+      "title": "Admission decisions arrive",
+      "stage": "results",
+      "kind": "wait",
+      "after": [
+        "us.apply",
+        "us.satScores"
+      ],
+      "fixed": [
+        {
+          "when": {
+            "route": "early"
+          },
+          "value": {
+            "fact": "us/app.decision.early"
+          }
+        },
+        {
+          "when": {
+            "route": "regular"
+          },
+          "value": {
+            "fact": "us/app.decision.regular"
+          }
+        }
+      ],
+      "text": "Harvard's dates are shown. Check each university's own date.",
+      "facts": [
+        "us/app.decision.early",
+        "us/app.decision.regular"
+      ]
+    },
+    {
+      "id": "us.accept",
+      "title": "Accept your offer",
+      "stage": "results",
+      "hard": true,
+      "after": [
+        "us.decision",
+        "us.statement"
+      ],
+      "deadline": {
+        "fact": "us/app.replyDate"
+      },
+      "text": "Accepting early starts your I-20 sooner, and every step after it waits for the I-20.",
+      "facts": [
+        "us/app.replyDate"
+      ],
+      "tasks": [
+        "Pay a deposit if your university asks for one"
+      ]
+    },
+    {
+      "id": "us.i20",
+      "title": "Receive your I-20",
+      "stage": "permit",
+      "kind": "wait",
+      "after": [
+        "us.accept"
+      ],
+      "duration": {
+        "fact": "us/i20.processing"
+      },
+      "text": "The wait starts once your university has every document it asks for, so send your funding documents the day you accept.",
+      "facts": [
+        "us/i20.processing",
+        "us/i20.requirements"
+      ]
+    },
+    {
+      "id": "us.sevis",
+      "title": "Pay the SEVIS fee and book your visa interview",
+      "stage": "permit",
+      "after": [
+        "us.i20",
+        "passport.get",
+        "passport.collect"
+      ],
+      "text": "Pay the SEVIS fee the day your I-20 arrives, then book the first interview you can get. Set your social media accounts to public.",
+      "tasks": [
+        "Pay the SEVIS fee of {money:us/visa.fee.sevis}",
+        "Fill in the DS-160 form",
+        "Pay the visa fee of {money:us/visa.fee.application}",
+        "Book the interview"
+      ],
+      "facts": [
+        "us/visa.sevis.timing",
+        "us/visa.fee.sevis",
+        "us/visa.fee.application",
+        "us/visa.socialMedia"
+      ]
+    },
+    {
+      "id": "us.freshStatement",
+      "title": "Print a fresh bank statement",
+      "stage": "permit",
+      "after": [
+        "us.sevis"
+      ],
+      "text": "Pathway suggests a new statement for the interview, so the officer sees current figures."
+    },
+    {
+      "id": "us.interview",
+      "kind": "wait",
+      "title": "Your visa interview",
+      "stage": "permit",
+      "after": [
+        "us.sevis"
+      ],
+      "duration": {
+        "fact": "us/visa.dhaka.interviewWait",
+        "observed": true
+      },
+      "text": "The wait for an interview in Dhaka changes from month to month. Pathway plans for the longest wait seen in the last 12 months.",
+      "tasks": [
+        "Bring your I-20, passport, statements and admission letter"
+      ],
+      "facts": [
+        "us/visa.dhaka.interviewWait",
+        "us/visa.fee.integrity",
+        "us/visa.administrativeProcessing"
+      ]
+    },
+    {
+      "id": "us.arrive",
+      "title": "Travel to the USA",
+      "stage": "arrive",
+      "hard": true,
+      "after": [
+        "us.interview",
+        "us.freshStatement",
+        "school.exams"
+      ],
+      "opens": {
+        "start": true,
+        "offset": {
+          "amount": -30,
+          "unit": "days"
+        }
+      },
+      "deadline": {
+        "start": true
+      },
+      "spare": {
+        "assumption": "arriveSpare"
+      },
+      "text": "You may enter the USA up to 30 days before the start date on your I-20, and no earlier.",
+      "facts": [
+        "us/visa.f1.entryWindow"
+      ]
+    }
+  ],
+  "shaping": {
+    "tierReach": "Your universities are mostly very competitive. So Pathway plans 20 weeks of essays and suggests 12 to 20 applications, including some less competitive universities.",
+    "tierBalanced": "Your universities are a balanced mix. So Pathway plans 12 weeks of essays and suggests 8 to 12 applications.",
+    "tierSafe": "Your universities are mostly less competitive. So Pathway suggests 5 to 8 applications.",
+    "aidNeed": "You need financial aid to go. So the aid steps are in your plan, and a longer list gives you more chances of an affordable offer."
+  },
+  "englishWaiver": true
+}

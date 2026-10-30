@@ -1,0 +1,31 @@
+# Leaving out npm downloads, which npm install recreates
+node_modules/
+
+# Blocking release signing keys and the file that usually holds their passwords
+*.jks
+*.keystore
+keystore.properties
+
+# Catching built apps copied outside android
+*.apk
+*.aab
+
+# Guarding the private brief and progress files
+pathway-brief*.md
+progress-*.md
+
+# Keeping out any secrets file
+.env
+.env.*
+
+# Skipping Android Studio settings, which can record local paths and the connected phone
+.idea/
+
+# Ignoring Windows and editor clutter
+Thumbs.db
+desktop.ini
+.vscode/*
+
+# Keeping the shared editor settings, which save every file with LF line endings
+!.vscode/settings.json
+*.log

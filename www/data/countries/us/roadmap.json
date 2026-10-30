@@ -1,0 +1,1701 @@
+{
+  "format": 1,
+  "roadmap": "us",
+  "title": "USA",
+  "facts": [
+    "bd",
+    "us"
+  ],
+  "cycle": 2027,
+  "sections": [
+    {
+      "id": "at-a-glance",
+      "number": 1,
+      "title": "At a glance",
+      "station": "At a glance",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "In the USA, a small group of universities admit international students without looking at whether they can pay, then cover the full cost a family cannot. No other country in Pathway works this way. For a student from Bangladesh who needs aid, it is the one place where money need not decide the answer."
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Degree:** a bachelor's degree, usually four years of full-time study.",
+              "cite": [
+                "us/system.length"
+              ]
+            },
+            {
+              "text": "**Studies begin:** August or September. Pathway plans for 15 August until you enter the date on your I-20."
+            },
+            {
+              "text": "**When to apply:** about a year ahead. The Common App opens on {date:us/app.commonApp.opens}. Harvard's deadlines are {date:us/app.deadline.early} for the early round and {date:us/app.deadline.regular} for the regular round; each university sets its own.",
+              "cite": [
+                "us/app.commonApp.opens",
+                "us/app.deadline.early",
+                "us/app.deadline.regular"
+              ]
+            },
+            {
+              "text": "**Tests:** Harvard, MIT, Yale and Brown require the SAT or ACT, Dartmouth also accepts other exams, and Princeton requires it from students starting in autumn 2028. The liberal arts colleges here make it optional. Whether you need an English test depends on the university and on whether your school taught in English. Section 6 shows you which."
+            },
+            {
+              "text": "**Cost before aid:** at Harvard, {money:us/cost.harvard#Tuition, fees, housing and food} to {money:us/cost.harvard#With books, personal costs and travel, at most} for 2026 to 2027, about {taka:us/cost.harvard#Tuition, fees, housing and food} to {taka:us/cost.harvard#With books, personal costs and travel, at most}.",
+              "cite": [
+                "us/cost.harvard"
+              ]
+            },
+            {
+              "text": "**Aid:** at Harvard, MIT, Yale, Princeton, Brown, Dartmouth, Amherst and Bowdoin, admission does not depend on your family's money, and aid covers what the university calculates your family cannot pay."
+            },
+            {
+              "text": "**Visa:** the F-1 student visa, with an interview at the US Embassy in Dhaka. For Bangladeshi citizens it can be valid for up to 60 months.",
+              "cite": [
+                "us/visa.reciprocity"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Figures are for 2027 entry. Rules usually stay the same, but dates and fees change every year: Pathway updates them, and your plan shows the expected dates for your own year. In class 9 or 10? Section 6 shows what to do now."
+        },
+        {
+          "type": "button",
+          "action": "makePlan",
+          "text": "Make my plan for the USA"
+        }
+      ]
+    },
+    {
+      "id": "whats-different",
+      "number": 2,
+      "title": "What makes the USA different",
+      "station": "What's different",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Aid that does not depend on your passport"
+        },
+        {
+          "type": "p",
+          "text": "A few US universities are **need-blind** for international applicants: they decide whether to admit you without knowing whether you need aid, and then meet your family's full need if you are admitted.",
+          "cite": [
+            "us/uni.harvard.aid",
+            "us/uni.mit.aid",
+            "us/uni.yale.aid",
+            "us/uni.princeton.aid"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "At Harvard, families earning under USD 100,000 a year are expected to pay nothing, and international students are eligible for exactly the same aid as American students. USD 100,000 a year is about {taka:100000 USD}.",
+          "cite": [
+            "us/aid.harvard.income"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "You choose your subject later"
+        },
+        {
+          "type": "p",
+          "text": "US undergraduate study is based on the liberal arts and sciences: alongside your main subject, which Americans call a major, you take classes in many other subjects. At Harvard, students declare their main subject in their third term and can still change it. If you are not yet sure between physics and economics, a university like Harvard lets you find out there.",
+          "cite": [
+            "us/system.harvard.concentration"
+          ],
+          "sources": [
+            "us/edusa-undergrad"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "You are judged as a whole person"
+        },
+        {
+          "type": "p",
+          "text": "Grades and test scores matter, but so do your essays, your activities, what your teachers say about you and, at some universities, an interview. Section 8 explains each part."
+        },
+        {
+          "type": "heading",
+          "text": "One application, many universities"
+        },
+        {
+          "type": "p",
+          "text": "Many universities use the Common App: you fill in your details, activities and one personal essay once, then add each university's own questions. Harvard is one. MIT is not: it has its own application on its own website.",
+          "cite": [
+            "us/app.harvard.requirements",
+            "us/app.mit.ownApplication"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ways-to-study",
+      "number": 3,
+      "title": "Ways to study here",
+      "station": "Ways to study",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "There is no official ranking of US universities, and the US government says the best one is the one that fits your academic, financial and personal needs. The universities below are chosen for one reason that matters most to a student from Bangladesh: how they treat international applicants who need aid.",
+          "cite": [
+            "us/system.noOfficialRanking"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "These universities admit very few students. Harvard admitted about 4 in every 100 applicants for the class that started in 2025. Apply to some of them if they fit you, but never only to them. Pathway's scholarship list shows more US universities that give aid to international students, with their figures.",
+          "cite": [
+            "us/app.harvard.stats"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Research universities"
+        },
+        {
+          "type": "p",
+          "text": "Large universities with graduate schools, research labs and a wide choice of subjects. Each one below is need-blind for international applicants. Positions are from the QS World University Rankings 2027."
+        },
+        {
+          "type": "table",
+          "head": [
+            "University",
+            "QS 2027",
+            "Why it is here"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Massachusetts Institute of Technology (MIT)"
+              },
+              {
+                "text": "{rank:us/uni.mit.qsRank}",
+                "cite": [
+                  "us/uni.mit.qsRank"
+                ]
+              },
+              {
+                "text": "Need-blind for international students and meets full need.",
+                "cite": [
+                  "us/uni.mit.aid"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Harvard University"
+              },
+              {
+                "text": "{rank:us/uni.harvard.qsRank}",
+                "cite": [
+                  "us/uni.harvard.qsRank"
+                ]
+              },
+              {
+                "text": "Need-blind for foreign citizens, with families under USD 100,000 expected to pay nothing. No English test needed.",
+                "cite": [
+                  "us/uni.harvard.aid",
+                  "us/aid.harvard.income",
+                  "us/uni.harvard.tests"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Yale University"
+              },
+              {
+                "text": "{rank:us/uni.yale.qsRank}",
+                "cite": [
+                  "us/uni.yale.qsRank"
+                ]
+              },
+              {
+                "text": "Considers international applicants without regard to their ability to pay, and meets 100% of need.",
+                "cite": [
+                  "us/uni.yale.aid"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Princeton University"
+              },
+              {
+                "text": "{rank:us/uni.princeton.qsRank}",
+                "cite": [
+                  "us/uni.princeton.qsRank"
+                ]
+              },
+              {
+                "text": "Need-blind for international students, with aid as grants, not loans.",
+                "cite": [
+                  "us/uni.princeton.aid"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Brown University"
+              },
+              {
+                "text": "{rank:us/uni.brown.qsRank}",
+                "cite": [
+                  "us/uni.brown.qsRank"
+                ]
+              },
+              {
+                "text": "Need-blind for international students since the class that started in 2025, and meets full need for students who apply for aid when they apply.",
+                "cite": [
+                  "us/uni.brown.aid"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Dartmouth College"
+              },
+              {
+                "text": "{rank:us/uni.dartmouth.qsRank}",
+                "cite": [
+                  "us/uni.dartmouth.qsRank"
+                ]
+              },
+              {
+                "text": "Need-blind for all international citizens and meets full need.",
+                "cite": [
+                  "us/uni.dartmouth.aid"
+                ]
+              }
+            ]
+          ],
+          "listable": true
+        },
+        {
+          "type": "heading",
+          "text": "Liberal arts colleges"
+        },
+        {
+          "type": "p",
+          "text": "Colleges that teach undergraduates only. QS rankings measure research universities and leave most of these colleges out, so they are chosen by their aid policy instead."
+        },
+        {
+          "type": "table",
+          "head": [
+            "College",
+            "Why it is here"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Amherst College"
+              },
+              {
+                "text": "Need-blind for all applicants, domestic and international, and meets 100% of need.",
+                "cite": [
+                  "us/uni.amherst.aid"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Bowdoin College"
+              },
+              {
+                "text": "Need-blind for international students, meets full need with no loans, and no SAT or English test is required.",
+                "cite": [
+                  "us/uni.bowdoin.aid",
+                  "us/uni.bowdoin.tests",
+                  "us/uni.bowdoin.english"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Williams College"
+              },
+              {
+                "text": "Need-aware for international applicants, but meets 100% of need for everyone it admits, for all four years.",
+                "cite": [
+                  "us/uni.williams.aid"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Swarthmore College"
+              },
+              {
+                "text": "Need-aware for international applicants, and meets 100% of need without loans for everyone it admits.",
+                "cite": [
+                  "us/uni.swarthmore.aid"
+                ]
+              }
+            ]
+          ],
+          "listable": true
+        },
+        {
+          "type": "p",
+          "text": "**Need-blind** means your need for aid plays no part in the admission decision. **Need-aware** means it can: a college with a limited aid budget may admit fewer students who need aid. Every university and college above meets full need for admitted students who applied for aid."
+        }
+      ]
+    },
+    {
+      "id": "pros-and-cons",
+      "number": 4,
+      "title": "Honest pros and cons",
+      "station": "Pros and cons",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "What works in your favour"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Aid that can cover everything.** At need-blind universities, whether you need aid plays no part in admission, and full need is met.",
+              "cite": [
+                "us/uni.harvard.aid"
+              ]
+            },
+            {
+              "text": "**Time to choose your subject.** You do not have to know your major on day one.",
+              "cite": [
+                "us/system.harvard.concentration"
+              ]
+            },
+            {
+              "text": "**Work while you study.** Students may work on campus up to 20 hours a week during term and full time in the breaks.",
+              "cite": [
+                "us/work.onCampus"
+              ]
+            },
+            {
+              "text": "**Work after you graduate.** Up to 12 months of practical training, plus 24 more months for science, technology, engineering and mathematics degrees. In October 2026 the US government proposed large new fees for this training, which universities would pay. It is only a proposal for now.",
+              "cite": [
+                "us/work.opt",
+                "us/work.optFeeProposal"
+              ]
+            },
+            {
+              "text": "**A long visa.** For Bangladeshi citizens, the student visa can be valid for up to 60 months with multiple entries.",
+              "cite": [
+                "us/visa.reciprocity"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "What to plan for"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**The price before aid is very high.** Without aid, one year at Harvard costs about {taka:us/cost.harvard#Tuition, fees, housing and food} to {taka:us/cost.harvard#With books, personal costs and travel, at most}. Only apply to universities whose aid you understand.",
+              "cite": [
+                "us/cost.harvard"
+              ]
+            },
+            {
+              "text": "**Admission is very competitive.** The universities with the best aid are very hard to enter. Harvard, for example, admitted about 4 in every 100 applicants.",
+              "cite": [
+                "us/app.harvard.stats"
+              ]
+            },
+            {
+              "text": "**The application takes months.** Essays, recommendations, tests and aid forms all need time. Your plan counts this time for you."
+            },
+            {
+              "text": "**The visa can take longer than the interview.** An officer may hold a case for extra review after the interview.",
+              "cite": [
+                "us/visa.administrativeProcessing"
+              ]
+            },
+            {
+              "text": "**Rules change.** In 2026 a new rule on how long students may stay was published and then paused by a court. Pathway rechecks these facts before each cycle and updates the app when they change.",
+              "cite": [
+                "us/visa.durationOfStatus"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-it-works",
+      "number": 5,
+      "title": "How the system works",
+      "station": "How it works",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Four years, many subjects.** A bachelor's degree usually takes four years. You take courses across many subjects alongside your major, and student advisers help you choose them.",
+              "sources": [
+                "us/edusa-undergrad"
+              ]
+            },
+            {
+              "text": "**Your major comes later.** At Harvard, students choose their main subject in their third term, and also take general education courses across four areas.",
+              "cite": [
+                "us/system.harvard.concentration"
+              ]
+            },
+            {
+              "text": "**Credits.** Each college sets the credits needed to graduate.",
+              "cite": [
+                "us/system.length"
+              ]
+            },
+            {
+              "text": "**The academic year** starts in August or September. Your I-20, the document your university sends for the visa, shows your exact start date."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "can-you-apply",
+      "number": 6,
+      "title": "Can you apply with your qualifications",
+      "station": "Can you apply",
+      "planSteps": [
+        "english.test",
+        "sat.test"
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "**Yes, with HSC or A levels.** Princeton, for example, reads your grades within your own school system and asks for no GPA conversion unless your school normally gives one.",
+          "sources": [
+            "us/princeton-intl"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "If you are in class 9 or 10"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Your school years count.** Applications include your school record, teacher recommendations and up to 10 activities, so the years before the HSC matter.",
+              "cite": [
+                "us/app.harvard.requirements",
+                "us/app.commonApp.activities"
+              ]
+            },
+            {
+              "link": "profile",
+              "text": "**Go deep, not wide.** MIT says it does not expect applicants to do a million things, and asks for quality over quantity. **Building your profile,** in the Toolkit, shows how.",
+              "cite": [
+                "bd/profile.mit.depth"
+              ]
+            },
+            {
+              "text": "**Plan the SAT for class 11 or 12.** It is offered in eight months of each school year, and most universities in this guide require it.",
+              "cite": [
+                "bd/sat.monthPattern",
+                "us/uni.harvard.tests",
+                "us/uni.mit.tests"
+              ]
+            },
+            {
+              "text": "**Get a passport before your first test.** In Bangladesh, TOEFL and PTE accept only a passport, and the Duolingo English Test a passport or a driving licence.",
+              "cite": [
+                "bd/toefl.bd.id",
+                "bd/pte.id",
+                "bd/duolingo.bd.id"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Your school's part"
+        },
+        {
+          "type": "p",
+          "text": "Your school sends a school report with your transcript and a letter from a counsellor. **Many colleges in Bangladesh have no counsellor.** That is fine: you can invite any school official who has access to your academic records, ideally one who knows your academic work.",
+          "cite": [
+            "us/app.harvard.requirements",
+            "us/app.commonApp.noCounselor"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "If you are an HSC student"
+        },
+        {
+          "type": "p",
+          "text": "You apply in the autumn of your HSC year, before you sit the HSC. You send your SSC results and your college grades so far, your teachers write their letters, and your school sends a midyear report later. Your final results go to the university you choose.",
+          "cite": [
+            "us/app.harvard.requirements"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "The SAT"
+        },
+        {
+          "type": "p",
+          "text": "Harvard, MIT, Yale and Brown require the SAT or ACT. Dartmouth requires testing too, but students at schools outside the USA may send three AP exams, IB results, British A levels or an equivalent standardized national exam instead of the SAT or ACT. If you have no SAT, ask Dartmouth whether it accepts your HSC results as that national exam. At Harvard, other exam results can stand in only when the SAT or ACT cannot be reached. Princeton requires the SAT or ACT from students starting in autumn 2028, so anyone applying from autumn 2027 onward should plan for it. Amherst, Bowdoin, Swarthmore and Williams make the SAT optional.",
+          "cite": [
+            "us/uni.harvard.tests",
+            "us/uni.mit.tests",
+            "us/uni.yale.tests",
+            "us/uni.brown.tests",
+            "us/uni.dartmouth.tests",
+            "us/uni.dartmouth.testOptions",
+            "us/uni.princeton.tests",
+            "us/uni.amherst.tests",
+            "us/uni.bowdoin.tests",
+            "us/uni.swarthmore.tests",
+            "us/uni.williams.tests"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Do you need an English test?"
+        },
+        {
+          "type": "widget",
+          "id": "englishPicker",
+          "mode": "ask",
+          "questions": [
+            {
+              "id": "years",
+              "text": "How many of your last years of school were taught in English?",
+              "options": [
+                [
+                  "0",
+                  "None"
+                ],
+                [
+                  "1",
+                  "One"
+                ],
+                [
+                  "2",
+                  "Two"
+                ],
+                [
+                  "3",
+                  "Three or more"
+                ]
+              ]
+            },
+            {
+              "id": "home",
+              "text": "Do you speak English at home?",
+              "options": [
+                [
+                  "yes",
+                  "Yes"
+                ],
+                [
+                  "no",
+                  "No"
+                ]
+              ]
+            }
+          ],
+          "marks": [
+            [
+              {
+                "mark": "none"
+              }
+            ],
+            [
+              {
+                "mark": "check"
+              }
+            ],
+            [
+              {
+                "when": {
+                  "years": [
+                    "2",
+                    "3"
+                  ]
+                },
+                "mark": "none"
+              },
+              {
+                "mark": "needs"
+              }
+            ],
+            [
+              {
+                "when": {
+                  "years": [
+                    "3"
+                  ]
+                },
+                "mark": "none"
+              },
+              {
+                "when": {
+                  "home": [
+                    "yes"
+                  ]
+                },
+                "mark": "check"
+              },
+              {
+                "mark": "needs"
+              }
+            ],
+            [
+              {
+                "when": {
+                  "years": [
+                    "3"
+                  ]
+                },
+                "mark": "none"
+              },
+              {
+                "when": {
+                  "home": [
+                    "yes"
+                  ]
+                },
+                "mark": "none"
+              },
+              {
+                "mark": "recommends"
+              }
+            ],
+            [
+              {
+                "when": {
+                  "years": [
+                    "2",
+                    "3"
+                  ]
+                },
+                "mark": "none"
+              },
+              {
+                "mark": "needs"
+              }
+            ],
+            [
+              {
+                "when": {
+                  "years": [
+                    "2",
+                    "3"
+                  ]
+                },
+                "mark": "none"
+              },
+              {
+                "when": {
+                  "home": [
+                    "yes"
+                  ]
+                },
+                "mark": "check"
+              },
+              {
+                "mark": "needs"
+              }
+            ],
+            [
+              {
+                "mark": "optional"
+              }
+            ],
+            [
+              {
+                "mark": "optional"
+              }
+            ],
+            [
+              {
+                "mark": "check"
+              }
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            "University",
+            "English test"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Harvard"
+              },
+              {
+                "text": "Not required from first-year applicants.",
+                "cite": [
+                  "us/uni.harvard.tests"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "MIT"
+              },
+              {
+                "text": "Strongly recommended if you have used English for fewer than five years, or do not speak it at home or at school, with minimums of IELTS 7, TOEFL 5, PTE 65 and Duolingo 120.",
+                "cite": [
+                  "us/uni.mit.tests"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Yale"
+              },
+              {
+                "text": "Required, unless at least two years of your secondary school were taught in English.",
+                "cite": [
+                  "us/uni.yale.tests"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Princeton"
+              },
+              {
+                "text": "Required, unless English is your native language or at least three years of your secondary school were taught in English.",
+                "cite": [
+                  "us/uni.princeton.english"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Brown"
+              },
+              {
+                "text": "Highly recommended unless English is your first language, your home language or the language of your secondary school, with expected minimums of IELTS 8.0, TOEFL 5.5, Duolingo 130 and PTE 75.",
+                "cite": [
+                  "us/uni.brown.english"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Dartmouth"
+              },
+              {
+                "text": "Required, unless your school has taught in English for at least two years.",
+                "cite": [
+                  "us/uni.dartmouth.tests"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Amherst"
+              },
+              {
+                "text": "Required, unless your last two years of school were taught in English or English is your native language.",
+                "cite": [
+                  "us/uni.amherst.tests"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Bowdoin"
+              },
+              {
+                "text": "Optional, with no minimum.",
+                "cite": [
+                  "us/uni.bowdoin.english"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Williams"
+              },
+              {
+                "text": "Optional.",
+                "cite": [
+                  "us/uni.williams.tests"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Swarthmore"
+              },
+              {
+                "text": "An English test, a Swarthmore video response, or a recorded interview.",
+                "cite": [
+                  "us/uni.swarthmore.english"
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**English-version HSC and A level students** may not need an English test at several of these universities. Check each university's own rule before you book one."
+        }
+      ]
+    },
+    {
+      "id": "choosing",
+      "number": 7,
+      "title": "Choosing universities",
+      "station": "Choosing",
+      "planSteps": [
+        "us.list"
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Start from three questions about each university."
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Does it give aid to international students, and how?** Need-blind and meets full need is the strongest promise. Need-aware but meets full need is the next. Never assume a university gives aid to international students: check its own international aid page."
+            },
+            {
+              "text": "**Can you be admitted?** Mix universities where admission would be a long shot, ones that fit your record well, and ones where you are confident. Your plan suggests how many to apply to, from your answer about how competitive your universities are."
+            },
+            {
+              "text": "**What does it ask for?** Its deadline, its test rules, whether you need an English test, and its aid forms."
+            }
+          ],
+          "ordered": true
+        },
+        {
+          "type": "p",
+          "text": "**If you need aid, your list should be longer.** Each university decides aid on its own, so more applications mean more chances of an offer your family can afford."
+        },
+        {
+          "type": "widget",
+          "id": "myList"
+        }
+      ]
+    },
+    {
+      "id": "how-youre-judged",
+      "number": 8,
+      "title": "How you're judged here",
+      "station": "How you're judged",
+      "planSteps": [
+        "us.essays"
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "US universities read your whole application together. Here is what each part is, using Harvard's requirements as the example.",
+          "cite": [
+            "us/app.harvard.requirements"
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Your grades.** They show how you have done over several years, not on one exam day."
+            },
+            {
+              "text": "**Tests.** The SAT or ACT where required, and an English test where required."
+            },
+            {
+              "text": "**The personal essay.** One essay of at most 650 words that goes to every university on the Common App, about you in your own voice.",
+              "cite": [
+                "us/app.commonApp.essay"
+              ]
+            },
+            {
+              "text": "**Each university's own questions.** Harvard asks five short questions of up to 150 words each. Others ask for more or fewer."
+            },
+            {
+              "text": "**Your activities.** Up to 10 on the Common App, each with a short description of up to 150 characters, plus up to 5 honours. **Family responsibilities and paid work count**, so caring for a younger sibling or helping in a family business belongs here.",
+              "cite": [
+                "us/app.commonApp.activities",
+                "us/app.commonApp.honors"
+              ]
+            },
+            {
+              "text": "**Recommendations.** A letter from your counsellor or another school official, and two letters from teachers who taught you.",
+              "cite": [
+                "us/app.harvard.requirements"
+              ]
+            },
+            {
+              "text": "**An interview,** at some universities. Harvard may offer an interview with a graduate who lives near you.",
+              "cite": [
+                "us/app.harvard.requirements"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**Your essays must be your own.** Harvard, for example, expects essays to show your own content, writing style and English. The Common App treats content produced by an artificial intelligence tool as fraud, and Harvard can withdraw or cancel an offer over it. Ask teachers and friends for feedback, then write every word yourself.",
+          "cite": [
+            "us/app.harvard.essays"
+          ]
+        },
+        {
+          "type": "p",
+          "link": "profile",
+          "text": "**Building your profile,** in the Toolkit, explains how to choose and present your activities. It holds what is true in every country."
+        }
+      ]
+    },
+    {
+      "id": "step-by-step",
+      "number": 9,
+      "title": "The application step by step",
+      "station": "Step by step",
+      "planSteps": [
+        "us.list",
+        "sat.test",
+        "english.test",
+        "us.essays",
+        "us.css",
+        "us.apply",
+        "us.decision",
+        "us.accept"
+      ],
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "planSteps": [
+                "us.list"
+              ],
+              "text": "**Choose your universities** and write down each one's deadline, test rules and aid policy."
+            },
+            {
+              "planSteps": [
+                "sat.test",
+                "english.test"
+              ],
+              "text": "**Take your tests:** the SAT if your universities ask for it, and an English test if you need one."
+            },
+            {
+              "text": "**Open your Common App account.** It opens on {date:us/app.commonApp.opens}. If you apply to MIT, also open an account on MIT's own application website.",
+              "cite": [
+                "us/app.commonApp.opens",
+                "us/app.mit.ownApplication"
+              ]
+            },
+            {
+              "planSteps": [
+                "us.essays"
+              ],
+              "text": "**Write your personal essay and each university's own questions.**"
+            },
+            {
+              "text": "**Ask for your recommendations** from your counsellor or school official and two teachers, at least two months before your first deadline."
+            },
+            {
+              "planSteps": [
+                "us.css"
+              ],
+              "text": "**Complete the CSS Profile,** if you need aid and your universities ask for it. It opens on {date:us/aid.css.opens}.",
+              "cite": [
+                "us/aid.css.opens"
+              ]
+            },
+            {
+              "planSteps": [
+                "us.apply"
+              ],
+              "text": "**Submit your applications.** Common App deadlines are at 11:59 p.m. in your own time zone, so for you, 11:59 p.m. in Dhaka.",
+              "cite": [
+                "us/app.commonApp.deadlineTime"
+              ]
+            },
+            {
+              "text": "**Interviews,** if your universities offer them."
+            },
+            {
+              "text": "**Send your midyear report,** through your school, after your first-term grades."
+            },
+            {
+              "planSteps": [
+                "us.decision"
+              ],
+              "text": "**Decisions arrive.** Harvard's come by mid-December in the early round and by the end of March in the regular round.",
+              "cite": [
+                "us/app.decision.early",
+                "us/app.decision.regular"
+              ]
+            },
+            {
+              "planSteps": [
+                "us.accept"
+              ],
+              "text": "**Compare your aid offers** and accept one. Harvard gives admitted students until {date:us/app.replyDate}; check each university's date.",
+              "cite": [
+                "us/app.replyDate"
+              ]
+            },
+            {
+              "text": "**Receive your I-20,** then follow section 12. (`us.i20`)"
+            }
+          ],
+          "ordered": true
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "number": 10,
+      "title": "Money",
+      "station": "Money",
+      "planSteps": [
+        "us.statement",
+        "us.freshStatement"
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "{rate:USD}",
+          "cite": [
+            "bd/fx.usd"
+          ],
+          "rates": true
+        },
+        {
+          "type": "heading",
+          "text": "What a year costs before aid"
+        },
+        {
+          "type": "p",
+          "text": "At Harvard in 2026 to 2027, tuition, fees, housing and food come to {money:us/cost.harvard#Tuition, fees, housing and food} (about {taka:us/cost.harvard#Tuition, fees, housing and food}). With books, personal costs and travel, the total is at most {money:us/cost.harvard#With books, personal costs and travel, at most} (about {taka:us/cost.harvard#With books, personal costs and travel, at most}). Health insurance is required on top, unless a family plan covers you: {money:us/cost.harvard.insurance} (about {taka:us/cost.harvard.insurance}).",
+          "cite": [
+            "us/cost.harvard",
+            "us/cost.harvard.insurance"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**This is the price before aid.** At need-blind universities that meet full need, your family pays only what the university calculates it can afford. Section 11 explains how."
+        },
+        {
+          "type": "heading",
+          "text": "Costs of applying"
+        },
+        {
+          "type": "table",
+          "head": [
+            "What",
+            "Cost"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Application fee at Harvard"
+              },
+              {
+                "text": "{money:us/app.fee.harvard} (about {taka:us/app.fee.harvard}) or a fee waiver",
+                "cite": [
+                  "us/app.fee.harvard"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Application fees elsewhere"
+              },
+              {
+                "text": "More than 650 colleges charge international students nothing",
+                "cite": [
+                  "us/app.commonApp.fees"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "CSS Profile"
+              },
+              {
+                "text": "{money:us/aid.css.fee#First college} for the first college (about {taka:us/aid.css.fee#First college}); {money:us/aid.css.fee#Each additional college} for each one after (about {taka:us/aid.css.fee#Each additional college})",
+                "cite": [
+                  "us/aid.css.fee"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SAT, per sitting"
+              },
+              {
+                "text": "{money:bd/sat.fee+bd/sat.internationalFee} (about {taka:bd/sat.fee+bd/sat.internationalFee}); made up of {money:bd/sat.fee} to register and a {money:bd/sat.internationalFee} international fee",
+                "cite": [
+                  "bd/sat.fee",
+                  "bd/sat.internationalFee"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "IELTS at British Council or IDP"
+              },
+              {
+                "text": "{money:bd/ielts.bd.fee}",
+                "cite": [
+                  "bd/ielts.bd.fee"
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**Ask for fee waivers.** International students may be eligible for a need-based Common App fee waiver, and some universities offer their own. The free CSS Profile for families with income up to USD 100,000 is for students living in the USA. International applicants usually pay the CSS fee: Cornell, for example, says international students are generally not eligible for a waiver.",
+          "cite": [
+            "us/app.commonApp.fees",
+            "us/aid.css.freeForUsFamilies",
+            "us/aid.css.international"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Costs after you are admitted"
+        },
+        {
+          "type": "table",
+          "head": [
+            "What",
+            "Cost"
+          ],
+          "rows": [
+            [
+              {
+                "text": "SEVIS fee"
+              },
+              {
+                "text": "{money:us/visa.fee.sevis} (about {taka:us/visa.fee.sevis})",
+                "cite": [
+                  "us/visa.fee.sevis"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Visa application fee"
+              },
+              {
+                "text": "{money:us/visa.fee.application} (about {taka:us/visa.fee.application})",
+                "cite": [
+                  "us/visa.fee.application"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Visa issuance fee for Bangladeshi citizens"
+              },
+              {
+                "text": "None",
+                "cite": [
+                  "us/visa.reciprocity"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Visa Integrity Fee"
+              },
+              {
+                "text": "{money:us/visa.fee.integrity} (about {taka:us/visa.fee.integrity}) if Dhaka collects it by then",
+                "cite": [
+                  "us/visa.fee.integrity"
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Proof of funds"
+        },
+        {
+          "type": "p",
+          "text": "Before sending your I-20, a university asks for proof that one year of fees and living costs is covered, by aid, family money or both. Some universities refuse bank documents more than six months old. Your plan places the bank statement close to the decision month for this reason.",
+          "cite": [
+            "us/i20.requirements",
+            "us/i20.fundsDocumentAge"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aid",
+      "number": 11,
+      "title": "Scholarships and aid",
+      "station": "Aid",
+      "planSteps": [
+        "us.css",
+        "us.accept"
+      ],
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "How need-based aid works"
+        },
+        {
+          "type": "p",
+          "text": "The university looks at your family's income and assets and works out what your family can pay. At universities that meet full need, its aid covers the rest of the cost. At Harvard, families earning under USD 100,000 a year are expected to pay nothing, and up to USD 200,000 aid covers at least full tuition. International students are eligible for exactly the same aid.",
+          "cite": [
+            "us/aid.harvard.income"
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Need-blind:** asking for aid does not affect admission.",
+              "cite": [
+                "us/uni.harvard.aid"
+              ]
+            },
+            {
+              "text": "**Need-aware:** it can, but if you are admitted, full need is still met at Williams and Swarthmore.",
+              "cite": [
+                "us/uni.williams.aid",
+                "us/uni.swarthmore.aid"
+              ]
+            },
+            {
+              "text": "**Merit scholarships** are given for achievement, whatever a family earns. Some universities give none: Princeton's aid is all need-based.",
+              "cite": [
+                "us/uni.princeton.aid"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "What you submit"
+        },
+        {
+          "type": "p",
+          "text": "Some universities, such as Cornell, ask international applicants for the CSS Profile when they apply. It opens on {date:us/aid.css.opens}. Each university sets its own rules, so read each one's international aid page. Williams, for example, asks you to say on your admission application whether you will apply for aid.",
+          "cite": [
+            "us/aid.css.opens",
+            "us/aid.css.international"
+          ],
+          "sources": [
+            "us/williams-aid"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**Follow each university's own timing for aid forms.** Brown gives a provisional aid decision with the admission decision only when every aid document has arrived by the application deadline, and meets full need only for students who asked for aid when they applied. Williams and Bowdoin ask for aid documents only after you are admitted, and Bowdoin then wants them within seven days of the offer.",
+          "cite": [
+            "us/aid.brown.timing",
+            "us/uni.brown.aid",
+            "us/aid.williams.timing",
+            "us/aid.bowdoin.timing"
+          ]
+        },
+        {
+          "type": "p",
+          "link": "scholarships",
+          "text": "**Pathway's scholarship list** shows US universities that give aid to international students, with their figures and sources."
+        }
+      ]
+    },
+    {
+      "id": "visa",
+      "number": 12,
+      "title": "Visa",
+      "station": "Visa",
+      "planSteps": [
+        "us.i20",
+        "us.sevis",
+        "us.interview"
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Your visa is the F-1 student visa. Every step comes after your university's I-20."
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Receive your I-20.** Only a school approved by the Student and Exchange Visitor Program can issue it. Pathway plans for up to 4 weeks after you have sent the university every document it asks for, including proof of funds. This is the University of Washington's figure.",
+              "cite": [
+                "us/visa.i20School",
+                "us/i20.processing"
+              ]
+            },
+            {
+              "text": "**Pay the SEVIS fee** once the I-20 arrives.",
+              "cite": [
+                "us/visa.fee.sevis",
+                "us/visa.sevis.timing"
+              ]
+            },
+            {
+              "text": "**Fill in the DS-160 form** and **pay the visa application fee.**",
+              "cite": [
+                "us/visa.fee.application"
+              ]
+            },
+            {
+              "text": "**Book your interview** at the US Embassy in Dhaka. The State Department asks applicants to book in their country of nationality or residence. Pathway plans for the longest wait it has recorded in the last 12 months, which falls in the busy summer season.",
+              "cite": [
+                "us/visa.applyWhere",
+                "us/visa.dhaka.interviewWait"
+              ]
+            },
+            {
+              "text": "**Set your social media accounts to public.** The US Embassy in Dhaka instructs student visa applicants to do this.",
+              "cite": [
+                "us/visa.socialMedia"
+              ]
+            },
+            {
+              "text": "**Go to your interview** with your documents.",
+              "cite": [
+                "us/visa.documents"
+              ]
+            },
+            {
+              "text": "**Allow for extra review.** An officer may hold a case after the interview.",
+              "cite": [
+                "us/visa.administrativeProcessing"
+              ]
+            }
+          ],
+          "ordered": true
+        },
+        {
+          "type": "p",
+          "text": "The visa can be issued up to 365 days before your start date, but you may enter the USA only 30 days before it.",
+          "cite": [
+            "us/visa.f1.issueWindow",
+            "us/visa.f1.entryWindow"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**Bangladesh is not on the US list of countries under visa suspensions.** Pathway checks this before each cycle.",
+          "cite": [
+            "us/visa.restrictions"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Your document checklist"
+        },
+        {
+          "type": "checklist",
+          "items": [
+            {
+              "text": "Passport, valid for at least six months beyond your stay",
+              "cite": [
+                "us/visa.documents"
+              ]
+            },
+            {
+              "text": "I-20 from your university"
+            },
+            {
+              "text": "SEVIS fee receipt"
+            },
+            {
+              "text": "DS-160 confirmation page"
+            },
+            {
+              "text": "Visa fee receipt"
+            },
+            {
+              "text": "Admission letter"
+            },
+            {
+              "text": "Bank statements and aid letter showing one year is covered",
+              "cite": [
+                "us/i20.requirements"
+              ]
+            },
+            {
+              "text": "SSC and HSC (or O and A level) certificates and transcripts"
+            },
+            {
+              "text": "Test score reports"
+            },
+            {
+              "text": "One printed photo, in case the upload failed"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "before-you-fly",
+      "number": 13,
+      "title": "Before you fly",
+      "station": "Before you fly",
+      "planSteps": [
+        "us.arrive"
+      ],
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Arrive no earlier than 30 days** before the start date on your I-20. Pathway plans for you to arrive a week before classes, for orientation.",
+              "cite": [
+                "us/visa.f1.entryWindow"
+              ]
+            },
+            {
+              "text": "**Keep your passport, visa and I-20** in your hand luggage, with your admission letter and proof of funds."
+            },
+            {
+              "text": "**Health insurance.** Harvard, for example, requires it: {money:us/cost.harvard.insurance} a year unless your family's plan covers you. Check your own university's rule.",
+              "cite": [
+                "us/cost.harvard.insurance"
+              ]
+            },
+            {
+              "text": "**Family visits.** Since 21 January 2026, a family member from Bangladesh who is found eligible for a visitor visa must post a bond of USD 10,000, 15,000 or 20,000, set at the interview. The rule is for visitor visas only.",
+              "cite": [
+                "us/visa.familyBond"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "life-there",
+      "number": 14,
+      "title": "Life there",
+      "station": "Life there",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Working.** Up to 20 hours a week on campus during term, and full time in the breaks.",
+              "cite": [
+                "us/work.onCampus"
+              ]
+            },
+            {
+              "text": "**After you graduate.** Up to 12 months of practical training, with 24 more months for science, technology, engineering and mathematics degrees. A proposal from October 2026 would add large fees for this training, paid by universities, which could pass the cost on.",
+              "cite": [
+                "us/work.opt",
+                "us/work.optFeeProposal"
+              ]
+            },
+            {
+              "text": "**How long you may stay.** Today, students stay for as long as they keep studying properly. A 2026 rule would set a fixed period of up to four years, but a court paused it in September 2026.",
+              "cite": [
+                "us/visa.durationOfStatus"
+              ]
+            },
+            {
+              "text": "**Advisers.** Every college has student advisers who help you choose courses and plan your degree.",
+              "sources": [
+                "us/edusa-undergrad"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "other-routes",
+      "number": 15,
+      "title": "Other intakes and routes",
+      "station": "Other routes",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Early rounds"
+        },
+        {
+          "type": "p",
+          "text": "Applying early, usually by 1 November, brings a decision by mid-December.",
+          "cite": [
+            "us/app.deadline.early",
+            "us/app.decision.early"
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Early Action** gives an early decision with no promise to attend."
+            },
+            {
+              "text": "**Restrictive Early Action,** Harvard's plan, gives an early decision with no promise to attend, but limits where else you may apply early. Read each university's rules."
+            },
+            {
+              "text": "**Early Decision is a commitment.** If you are admitted, you must withdraw every other application. At Brown, you may still apply elsewhere in regular rounds, but not in another early decision or restrictive plan.",
+              "cite": [
+                "us/app.brown.earlyDecision"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**If you need aid, think carefully before Early Decision.** You give up the chance to compare aid offers from other universities."
+        },
+        {
+          "type": "heading",
+          "text": "Applying after a gap year"
+        },
+        {
+          "type": "p",
+          "text": "If you have finished school, you apply the same way, with your final results. Your plan counts your school years as finished."
+        },
+        {
+          "type": "heading",
+          "text": "Transfer"
+        },
+        {
+          "type": "p",
+          "text": "You can apply as a transfer student after starting a degree elsewhere. Aid rules for transfer students are often different: Brown's need-blind policy, for example, is for first-year applicants.",
+          "cite": [
+            "us/uni.brown.aid"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mistakes-and-scams",
+      "number": 16,
+      "title": "Mistakes and scams",
+      "station": "Mistakes and scams",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**You do not need a visa broker.** The US Embassy in Dhaka says applicants can apply on their own, online.",
+              "cite": [
+                "us/visa.noBroker"
+              ]
+            },
+            {
+              "text": "**Trust only.gov email addresses.** Visa messages from any other address should be treated as suspect, and fraud can be reported to DhakaFraud@state.gov.",
+              "cite": [
+                "us/visa.fraudWarning"
+              ]
+            },
+            {
+              "text": "**Never use false documents.** False information can lead to a refusal and to being barred from future US visas.",
+              "cite": [
+                "us/visa.noBroker"
+              ]
+            },
+            {
+              "text": "**Only approved schools issue an I-20.** A \"university\" that promises a visa without a real I-20 is not one.",
+              "cite": [
+                "us/visa.i20School"
+              ]
+            },
+            {
+              "text": "**Nobody can guarantee admission.** Not an agent, and not a paid programme."
+            },
+            {
+              "text": "**Write your own essays.** Content from someone else, or from an artificial intelligence tool, can cost you an offer.",
+              "cite": [
+                "us/app.harvard.essays"
+              ]
+            },
+            {
+              "text": "**Know your deadline's time.** Common App deadlines are 11:59 p.m. in your own time zone.",
+              "cite": [
+                "us/app.commonApp.deadlineTime"
+              ]
+            },
+            {
+              "text": "**Check before booking an English test.** You may not need one. Section 6 shows which universities ask for it."
+            },
+            {
+              "text": "**Ask for aid when you apply, and send aid forms when each university asks.** At Brown, a student who did not ask for aid when applying is not covered by its full-need promise.",
+              "cite": [
+                "us/uni.brown.aid",
+                "us/aid.brown.timing"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Free, official help"
+        },
+        {
+          "type": "p",
+          "text": "EducationUSA, the US Department of State's advising network, has centres at the American Center and the EMK Center in Dhaka, and at the American Corners in Chattogram and Rajshahi.",
+          "cite": [
+            "us/advice.educationUsa"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "number": 17,
+      "title": "Official sources",
+      "station": "Sources",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "widget",
+          "id": "sources"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**US government:** US Department of State (student visas, wait times, reciprocity, visa notices), US Immigration and Customs Enforcement (SEVIS fee, employment), EducationUSA."
+            },
+            {
+              "text": "**Testing and applications:** Common App, College Board (CSS Profile, SAT), British Council and IDP Bangladesh."
+            },
+            {
+              "text": "**Universities:** Harvard, MIT, Yale, Princeton, Brown, Dartmouth, Amherst, Bowdoin, Williams, Swarthmore, and the university offices named in each fact."
+            },
+            {
+              "text": "**Bangladesh:** Bangladesh Bank (exchange rate)."
+            },
+            {
+              "text": "**Ranking:** QS World University Rankings 2027."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+/* Styling the English score check: its controls, the comparison and the four tests side by side */
+
+.english-compare dd .soft {
+  font-weight: 400;
+}
+
+.english-fit {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.english-fit-test {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  padding: var(--space-3) 0;
+}
+
+.english-fit-test+.english-fit-test {
+  border-top: 1px solid var(--rule);
+}
+
+.english-fit-name {
+  margin: 0;
+  font-weight: 700;
+}
+
+.english-fit .tool-sums dd {
+  text-align: right;
+}
+
+/*
+  Setting apart a problem with the scores entered: a rule at its side, and words that say what does
+  not fit, so its meaning never rests on the colour
+*/
+.tool-alert {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-2);
+  padding-left: var(--space-3);
+  border-left: 3px solid var(--urgent);
+}
+
+.tool-alert+.tool-answer {
+  margin-top: var(--space-2);
+}
+
+.tool-result>.button-secondary {
+  align-self: flex-start;
+}

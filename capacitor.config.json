@@ -1,0 +1,14 @@
+{
+  "appId": "com.universityadmissioninfo.pathway",
+  "appName": "Pathway",
+  "webDir": "www",
+  "plugins": {
+    "SystemBars": {
+      "initialViewportFitValueHint": "cover"
+    },
+    "LocalNotifications": {
+      "smallIcon": "ic_stat_pathway",
+      "iconColor": "#3558A8"
+    }
+  }
+}

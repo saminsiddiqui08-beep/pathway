@@ -1,0 +1,1929 @@
+{
+  "format": 1,
+  "roadmap": "tr",
+  "title": "Türkiye",
+  "facts": [
+    "bd",
+    "tr"
+  ],
+  "cycle": 2027,
+  "sections": [
+    {
+      "id": "at-a-glance",
+      "number": 1,
+      "title": "At a glance",
+      "station": "At a glance",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Türkiye offers two very different ways in. The government's Türkiye Bursları scholarship pays tuition, housing and a monthly stipend and places you at a university, but most of its programmes are taught in Turkish, and every scholar without C1 Turkish first spends a year learning it. Or you apply to universities yourself: state universities charge international students from about {money:tr/tuition.metu#Social sciences, economics and administrative sciences, and education*2} to {money:tr/tuition.bogazici#Economics and administrative sciences, and engineering*2} a year, and private universities charge much more but give tuition waivers.",
+          "cite": [
+            "tr/tuition.metu",
+            "tr/tuition.bogazici",
+            "tr/system.stateFees"
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Degree:** a bachelor's takes at least four years, plus a preparatory year if you need to learn the language of your programme.",
+              "cite": [
+                "tr/system.length"
+              ]
+            },
+            {
+              "text": "**Studies begin:** late September. At METU, classes start on {date:tr/term.metu.classes}.",
+              "cite": [
+                "tr/term.metu.classes"
+              ]
+            },
+            {
+              "text": "**When to apply:** Türkiye Bursları takes applications {window:tr/tb.window}. Universities take direct applications between December and August, each in its own window; METU's is {window:tr/uni.metu.window}.",
+              "cite": [
+                "tr/tb.window",
+                "tr/uni.metu.window"
+              ]
+            },
+            {
+              "text": "**Tests:** for Türkiye Bursları, its own short test and interview, plus any test your chosen programmes ask for, such as an English test. For direct applications, your school results, the SAT or TR-YÖS, and usually an English test."
+            },
+            {
+              "text": "**Cost:** with Türkiye Bursları, tuition and housing are paid and you receive a stipend, but plan some money of your own for daily costs. Without it, tuition runs from about {taka:tr/tuition.metu#Social sciences, economics and administrative sciences, and education*2} a year at METU to about {taka:38000 USD} at Koç. Section 10 lists each one.",
+              "cite": [
+                "tr/tuition.metu",
+                "tr/tuition.koc"
+              ]
+            },
+            {
+              "text": "**Visa:** a student visa through Mosaic Visa in Banani, Dhaka, after you are accepted and enrolled.",
+              "cite": [
+                "tr/visa.centre"
+              ]
+            },
+            {
+              "text": "**If you sit the HSC in {hscYear}:** most direct deadlines close before your results, so apply with the SAT or plan for {hscYear+1}. Section 6 explains.",
+              "template": "sit"
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Figures are for 2027 entry. Rules usually stay the same, but dates and fees change every year: Pathway updates them, and your plan shows the expected dates for your own year. In class 9 or 10? Section 6 shows what to do now."
+        },
+        {
+          "type": "button",
+          "action": "makePlan",
+          "text": "Make my plan for Türkiye"
+        }
+      ]
+    },
+    {
+      "id": "whats-different",
+      "number": 2,
+      "title": "What makes Türkiye different",
+      "station": "What's different",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "A government scholarship that covers most costs"
+        },
+        {
+          "type": "p",
+          "text": "Türkiye Bursları pays tuition, a monthly stipend, accommodation, health insurance, a year of Turkish lessons and your flights, and places you at a university. It is free to apply, and nobody can apply for you.",
+          "cite": [
+            "tr/tb.covers",
+            "tr/tb.stipend",
+            "tr/tb.free",
+            "tr/tb.noAgents"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Turkish, or English"
+        },
+        {
+          "type": "p",
+          "text": "Most programmes in Türkiye are taught in Turkish. Türkiye Bursları scholars without a C1 Turkish certificate spend their first year learning Turkish, even in an English-taught programme. METU, Boğaziçi, Bilkent, Koç (except law and nursing) and Sabancı teach in English, and students who need it take an English preparatory year first.",
+          "cite": [
+            "tr/tb.language",
+            "tr/uni.metu.language",
+            "tr/uni.bogazici.language",
+            "tr/uni.bilkent.language",
+            "tr/uni.koc.language",
+            "tr/uni.sabanci.language",
+            "tr/uni.metu.english"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "State universities and private ones"
+        },
+        {
+          "type": "p",
+          "text": "At state universities, such as METU and Boğaziçi, the fees for students from abroad sit within limits set by presidential decision. Private foundation universities, such as Bilkent, Koç and Sabancı, set their own, charge much more, and offer tuition waivers.",
+          "cite": [
+            "tr/system.stateFees",
+            "tr/tuition.metu",
+            "tr/tuition.bilkent"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Your own exam result, or an entrance test"
+        },
+        {
+          "type": "p",
+          "text": "Universities admit international students through their own quota. Some accept a national school certificate such as the HSC; many ask for the SAT, A levels, or TR-YÖS, Türkiye's entrance exam for students from abroad, which you can sit in Dhaka.",
+          "cite": [
+            "tr/tryos.about"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ways-to-study",
+      "number": 3,
+      "title": "Ways to study here",
+      "station": "Ways to study",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "widget",
+          "id": "routeFinder",
+          "questions": [
+            {
+              "id": "funding",
+              "text": "Do you need full funding?",
+              "plan": "aid",
+              "options": [
+                [
+                  "yes",
+                  "Yes"
+                ],
+                [
+                  "partly",
+                  "Partly"
+                ],
+                [
+                  "no",
+                  "No"
+                ]
+              ]
+            },
+            {
+              "id": "school",
+              "text": "Is your school certificate HSC or A levels, and are your results already out?",
+              "plan": "results",
+              "options": [
+                [
+                  "hscOut",
+                  "HSC, results out"
+                ],
+                [
+                  "hscWaiting",
+                  "HSC, results not out yet"
+                ],
+                [
+                  "alevel",
+                  "A levels"
+                ]
+              ]
+            },
+            {
+              "id": "turkish",
+              "text": "Would you study in Turkish?",
+              "options": [
+                [
+                  "yes",
+                  "Yes"
+                ],
+                [
+                  "no",
+                  "No"
+                ],
+                [
+                  "notSure",
+                  "Not sure"
+                ]
+              ]
+            }
+          ],
+          "tables": [
+            [
+              {
+                "fits": {
+                  "funding": [
+                    "yes",
+                    "partly"
+                  ],
+                  "turkish": [
+                    "yes",
+                    "notSure"
+                  ]
+                },
+                "planRoutes": [
+                  "tb"
+                ]
+              },
+              {
+                "fits": {
+                  "school": [
+                    "hscOut",
+                    "alevel"
+                  ]
+                },
+                "planRoutes": [
+                  "direct"
+                ]
+              },
+              {
+                "fits": {
+                  "school": [
+                    "hscWaiting",
+                    "hscOut",
+                    "alevel"
+                  ]
+                },
+                "planRoutes": [
+                  "directSat"
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "The routes for a student from Bangladesh"
+        },
+        {
+          "type": "table",
+          "head": [
+            "Route",
+            "Who it suits",
+            "What decides"
+          ],
+          "rows": [
+            [
+              {
+                "text": "**Türkiye Bursları**"
+              },
+              {
+                "text": "Students who need full funding, and are open to studying in Turkish"
+              },
+              {
+                "text": "Your grades, a short test and an interview",
+                "cite": [
+                  "tr/tb.selection"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "**Direct, with your school results**"
+              },
+              {
+                "text": "Students whose HSC results are out before the deadline, or A level students"
+              },
+              {
+                "text": "Your HSC or A level results",
+                "cite": [
+                  "tr/uni.metu.bangladesh",
+                  "tr/uni.sabanci.route"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "**Direct, with the SAT or TR-YÖS**"
+              },
+              {
+                "text": "Students still waiting for their HSC results, or who want Boğaziçi, ITU or Koç"
+              },
+              {
+                "text": "Your SAT or TR-YÖS score",
+                "cite": [
+                  "tr/uni.metu.waitForResult",
+                  "tr/uni.bogazici.route"
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Universities"
+        },
+        {
+          "type": "p",
+          "text": "Positions are from the QS World University Rankings 2027. 25 Turkish universities are ranked in all.",
+          "cite": [
+            "tr/system.qsCount"
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            "University",
+            "QS 2027",
+            "Type",
+            "How HSC and A level students are admitted"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Istanbul Technical University (ITU)"
+              },
+              {
+                "text": "{rank:tr/uni.itu.qsRank}",
+                "cite": [
+                  "tr/uni.itu.qsRank"
+                ]
+              },
+              {
+                "text": "State"
+              },
+              {
+                "text": "SAT, A levels, IB or TR-YÖS; the HSC is not on its list",
+                "cite": [
+                  "tr/uni.itu.route"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Middle East Technical University (METU)"
+              },
+              {
+                "text": "{rank:tr/uni.metu.qsRank}",
+                "cite": [
+                  "tr/uni.metu.qsRank"
+                ]
+              },
+              {
+                "text": "State"
+              },
+              {
+                "text": "HSC at 90%, the SAT or A levels",
+                "cite": [
+                  "tr/uni.metu.bangladesh",
+                  "tr/uni.metu.exams"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Koç University"
+              },
+              {
+                "text": "{rank:tr/uni.koc.qsRank}",
+                "cite": [
+                  "tr/uni.koc.qsRank"
+                ]
+              },
+              {
+                "text": "Private"
+              },
+              {
+                "text": "SAT, ACT, A levels, IB or TR-YÖS; the HSC is not on its list",
+                "cite": [
+                  "tr/uni.koc.hsc"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Boğaziçi University"
+              },
+              {
+                "text": "{rank:tr/uni.bogazici.qsRank}",
+                "cite": [
+                  "tr/uni.bogazici.qsRank"
+                ]
+              },
+              {
+                "text": "State"
+              },
+              {
+                "text": "SAT, TR-YÖS or A levels",
+                "cite": [
+                  "tr/uni.bogazici.route"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Sabancı University"
+              },
+              {
+                "text": "{rank:tr/uni.sabanci.qsRank}",
+                "cite": [
+                  "tr/uni.sabanci.qsRank"
+                ]
+              },
+              {
+                "text": "Private"
+              },
+              {
+                "text": "HSC at 80%, SAT, A levels, IB or TR-YÖS",
+                "cite": [
+                  "tr/uni.sabanci.route"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Bilkent University"
+              },
+              {
+                "text": "{rank:tr/uni.bilkent.qsRank}",
+                "cite": [
+                  "tr/uni.bilkent.qsRank"
+                ]
+              },
+              {
+                "text": "Private"
+              },
+              {
+                "text": "HSC at 80%, in the stream related to the programme, A levels or IB; no predicted results",
+                "cite": [
+                  "tr/uni.bilkent.route"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Hacettepe University"
+              },
+              {
+                "text": "{rank:tr/uni.hacettepe.qsRank}",
+                "cite": [
+                  "tr/uni.hacettepe.qsRank"
+                ]
+              },
+              {
+                "text": "State"
+              },
+              {
+                "text": "Direct route not checked yet: see its own site. Türkiye Bursları can also place you here."
+              }
+            ],
+            [
+              {
+                "text": "Istanbul University"
+              },
+              {
+                "text": "{rank:tr/uni.istanbul.qsRank}",
+                "cite": [
+                  "tr/uni.istanbul.qsRank"
+                ]
+              },
+              {
+                "text": "State"
+              },
+              {
+                "text": "Direct route not checked yet: see its own site. Türkiye Bursları can also place you here."
+              }
+            ],
+            [
+              {
+                "text": "Yıldız Technical University"
+              },
+              {
+                "text": "{rank:tr/uni.yildiz.qsRank}",
+                "cite": [
+                  "tr/uni.yildiz.qsRank"
+                ]
+              },
+              {
+                "text": "State"
+              },
+              {
+                "text": "Direct route not checked yet: see its own site. Türkiye Bursları can also place you here."
+              }
+            ]
+          ],
+          "listable": true
+        },
+        {
+          "type": "p",
+          "text": "**None of these universities says how it turns an HSC GPA out of 5 into a percentage.** Ask each one before you rely on its HSC minimum.",
+          "cite": [
+            "tr/uni.metu.bangladesh",
+            "tr/uni.sabanci.route"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pros-and-cons",
+      "number": 4,
+      "title": "Honest pros and cons",
+      "station": "Pros and cons",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "What works in your favour"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Full funding is possible.** Türkiye Bursları covers tuition, housing, insurance, flights and a monthly stipend.",
+              "cite": [
+                "tr/tb.covers",
+                "tr/tb.stipend"
+              ]
+            },
+            {
+              "text": "**Low tuition at state universities.** METU charges international students {money:tr/tuition.metu#Social sciences, economics and administrative sciences, and education} or {money:tr/tuition.metu#Engineering, architecture, and mathematics and science programmes} a semester.",
+              "cite": [
+                "tr/tuition.metu"
+              ]
+            },
+            {
+              "text": "**An exam centre in Dhaka.** You can sit TR-YÖS without travelling.",
+              "cite": [
+                "tr/tryos.about"
+              ]
+            },
+            {
+              "text": "**Tuition waivers at private universities.** Koç and Sabancı consider every applicant; at Bilkent, ask for financial assistance when you apply.",
+              "cite": [
+                "tr/aid.koc",
+                "tr/aid.sabanci",
+                "tr/aid.bilkent"
+              ]
+            },
+            {
+              "text": "**The residence permit is cheap for students:** only the card fee.",
+              "cite": [
+                "tr/arrive.cardFee"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "What to plan for"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Türkiye Bursları is competitive and mostly in Turkish.** Every scholar without a C1 Turkish certificate spends a first year learning Turkish, even in an English-taught programme.",
+              "cite": [
+                "tr/tb.language"
+              ]
+            },
+            {
+              "text": "**Direct deadlines come before HSC results.** METU will not take an application that waits for HSC results, and Bilkent does not consider predicted results.",
+              "cite": [
+                "tr/uni.metu.waitForResult",
+                "tr/uni.bilkent.route"
+              ]
+            },
+            {
+              "text": "**Lira amounts change often.** Prices in Türkiye rise quickly and the stipend is set in lira, so the app shows the date of every lira figure.",
+              "cite": [
+                "tr/arrive.gssCost",
+                "bd/fx.try"
+              ]
+            },
+            {
+              "text": "**Work is limited.** Bachelor's students can work only after their first year, off campus, and only with a permit their employer applies for.",
+              "cite": [
+                "tr/work.rule"
+              ]
+            },
+            {
+              "text": "**Some pages are out of date.** The embassy's student visa page is from 2019, and some universities' rules pages show past years. The app says so beside each one."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-it-works",
+      "number": 5,
+      "title": "How the system works",
+      "station": "How it works",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Length.** A bachelor's is at least eight semesters, four years and 240 ECTS credits; some programmes take five or six years.",
+              "cite": [
+                "tr/system.length"
+              ]
+            },
+            {
+              "text": "**Preparatory year.** If your English or Turkish is not yet good enough, you spend up to a year, sometimes two, learning it first. That time does not count towards your degree. At METU, the English preparatory year costs the same as a year of the degree.",
+              "cite": [
+                "tr/system.length",
+                "tr/tuition.metu"
+              ]
+            },
+            {
+              "text": "**Which exams count.** Each university decides which exams it accepts. Many accept TR-YÖS, but METU does not list it, so check each university's list.",
+              "cite": [
+                "tr/tryos.about",
+                "tr/uni.metu.exams"
+              ]
+            },
+            {
+              "text": "**The academic year** starts in late September. Your acceptance letter gives your exact start date."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "can-you-apply",
+      "number": 6,
+      "title": "Can you apply with your qualifications",
+      "station": "Can you apply",
+      "planSteps": [
+        "sat.test",
+        "english.test",
+        "tr.tbGraduate"
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "**Yes, with HSC or A levels,** but the timing of your results decides which route you can use."
+        },
+        {
+          "type": "heading",
+          "text": "If you are in class 9 or 10"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Keep your grades up.** Türkiye Bursları needs at least 70%, or 90% for medicine, dentistry and pharmacy, and you must be under 21 when you apply.",
+              "cite": [
+                "tr/tb.minimumGrade",
+                "tr/tb.ageLimit"
+              ]
+            },
+            {
+              "text": "**Plan the SAT or TR-YÖS for class 12.** HSC results come too late for METU's window, and METU recommends applying with the SAT.",
+              "cite": [
+                "tr/uni.metu.waitForResult",
+                "tr/tryos.about"
+              ]
+            },
+            {
+              "text": "**A strong SAT can double your stipend:** Türkiye Bursları's Merit Scholarship needs 90% and, for example, an SAT of 1400 with 680 in Math for engineering.",
+              "cite": [
+                "tr/tb.merit"
+              ]
+            },
+            {
+              "text": "**Choose TOEFL or PTE rather than IELTS** if METU, ITU or Koç is on your list.",
+              "cite": [
+                "tr/uni.metu.english",
+                "tr/uni.itu.english",
+                "tr/uni.koc.english"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "If you sit the HSC in {hscYear}",
+          "template": "sit"
+        },
+        {
+          "type": "p",
+          "text": "HSC {hscYear} results are expected {window:bd/hsc.results}.",
+          "cite": [
+            "bd/hsc.results"
+          ],
+          "template": "sit"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**METU:** if your diploma is also your exam result, as with the HSC, you must wait for it to apply, and late applications are refused. METU recommends applying with the SAT instead. METU's window runs {window:tr/uni.metu.window}.",
+              "cite": [
+                "tr/uni.metu.waitForResult",
+                "tr/uni.metu.window"
+              ]
+            },
+            {
+              "text": "**Bilkent** does not consider predicted results.",
+              "cite": [
+                "tr/uni.bilkent.route"
+              ]
+            },
+            {
+              "text": "**Sabancı** accepts the HSC at 80% and its window ran to late August in 2026, so your result may arrive in time.",
+              "cite": [
+                "tr/uni.sabanci.window",
+                "tr/uni.sabanci.route"
+              ]
+            },
+            {
+              "text": "**Türkiye Bursları** asks you to graduate before August of the year you apply. With HSC results in August or September, ask Türkiye Bursları before you rely on it.",
+              "cite": [
+                "tr/tb.graduation"
+              ]
+            }
+          ],
+          "template": "sit"
+        },
+        {
+          "type": "p",
+          "text": "**So for autumn {hscYear}, take the SAT or TR-YÖS, or plan for autumn {hscYear+1}** and apply with your HSC result in hand.",
+          "cite": [
+            "bd/hsc.results",
+            "tr/uni.metu.window"
+          ],
+          "template": "sit"
+        },
+        {
+          "type": "p",
+          "text": "**Book early.** TR-YÖS is expected again {whenDate:tr/tryos.spring}, with applications in January and February; in 2026 they ran from 14 January to 11 February. Take the SAT before your HSC exams begin {fromDate:bd/hsc.exams}. METU accepts the SAT but does not list TR-YÖS.",
+          "cite": [
+            "tr/tryos.spring",
+            "tr/tryos.dates2026",
+            "bd/hsc.exams",
+            "tr/uni.metu.exams"
+          ],
+          "template": "sit"
+        },
+        {
+          "type": "heading",
+          "text": "If you sit A levels"
+        },
+        {
+          "type": "p",
+          "text": "METU accepts expected A level results and admits you conditionally until they arrive. METU asks for ABB in three subjects; Boğaziçi for an A in three relevant subjects; Sabancı for two at C.",
+          "cite": [
+            "tr/uni.metu.alevels",
+            "tr/uni.metu.exams",
+            "tr/uni.bogazici.route",
+            "tr/uni.sabanci.route"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "The SAT and TR-YÖS"
+        },
+        {
+          "type": "table",
+          "head": [
+            "University",
+            "SAT",
+            "TR-YÖS"
+          ],
+          "rows": [
+            [
+              {
+                "text": "METU"
+              },
+              {
+                "text": "1200, with 700 in Math for engineering and science",
+                "cite": [
+                  "tr/uni.metu.exams"
+                ]
+              },
+              {
+                "text": "Not listed"
+              }
+            ],
+            [
+              {
+                "text": "Boğaziçi"
+              },
+              {
+                "text": "1300 (1200 for education), with 700 in Math for mathematics and science, and 1350 with 700 in Math for engineering",
+                "cite": [
+                  "tr/uni.bogazici.route"
+                ]
+              },
+              {
+                "text": "450"
+              }
+            ],
+            [
+              {
+                "text": "ITU"
+              },
+              {
+                "text": "1200 with 650 in Math",
+                "cite": [
+                  "tr/uni.itu.route"
+                ]
+              },
+              {
+                "text": "400"
+              }
+            ],
+            [
+              {
+                "text": "Koç"
+              },
+              {
+                "text": "1200 to 1450, by school",
+                "cite": [
+                  "tr/uni.koc.hsc"
+                ]
+              },
+              {
+                "text": "425 or more"
+              }
+            ],
+            [
+              {
+                "text": "Sabancı"
+              },
+              {
+                "text": "1100, not required if you meet another route",
+                "cite": [
+                  "tr/uni.sabanci.route"
+                ]
+              },
+              {
+                "text": "350"
+              }
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "TR-YÖS is held twice a year with a centre in Dhaka; in 2026 the sittings were in April and October. Results are valid for two years.",
+          "cite": [
+            "tr/tryos.about",
+            "tr/tryos.dates2026"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Do you need an English test?"
+        },
+        {
+          "type": "p",
+          "text": "**Check before you book.** The universities do not all accept the same tests."
+        },
+        {
+          "type": "widget",
+          "id": "englishPicker",
+          "mode": "pick",
+          "refuses": [
+            [
+              "ielts"
+            ],
+            [],
+            [],
+            [
+              "ielts"
+            ],
+            [
+              "ielts"
+            ],
+            [],
+            []
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            "University",
+            "English proof"
+          ],
+          "rows": [
+            [
+              {
+                "text": "METU"
+              },
+              {
+                "text": "TOEFL iBT 75, PTE Academic 65 or METU's own exam. IELTS taken since 24 December 2022 is not accepted. You can apply without a score and sit METU's exam after admission.",
+                "cite": [
+                  "tr/uni.metu.english"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Boğaziçi"
+              },
+              {
+                "text": "TOEFL iBT 79 or IELTS Academic 6.5, each with a writing minimum",
+                "cite": [
+                  "tr/uni.bogazici.english"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Bilkent"
+              },
+              {
+                "text": "IELTS 6.5 or TOEFL iBT 87",
+                "cite": [
+                  "tr/uni.bilkent.english"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "ITU"
+              },
+              {
+                "text": "TOEFL iBT or PTE Academic, from test centres at state universities; IELTS is not on the list. Ask ITU whether a test taken in Bangladesh counts.",
+                "cite": [
+                  "tr/uni.itu.english"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Koç"
+              },
+              {
+                "text": "TOEFL iBT 80, PTE Academic 67 or Cambridge Advanced; IELTS is not on the list",
+                "cite": [
+                  "tr/uni.koc.english"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Sabancı"
+              },
+              {
+                "text": "Not checked yet: see its own site"
+              }
+            ],
+            [
+              {
+                "text": "Türkiye Bursları"
+              },
+              {
+                "text": "A recognised certificate if your chosen programmes ask for one; one way to qualify for the Merit Scholarship includes TOEFL iBT 80 or IELTS 6.5",
+                "cite": [
+                  "tr/tb.documents",
+                  "tr/tb.merit"
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**If you take only one test, TOEFL iBT works at METU, Boğaziçi, Bilkent, Koç and ITU,** though ITU asks about the test centre. IELTS does not work at METU, ITU or Koç."
+        }
+      ]
+    },
+    {
+      "id": "choosing",
+      "number": 7,
+      "title": "Choosing universities",
+      "station": "Choosing",
+      "planSteps": [
+        "tr.apply",
+        "tr.tbApply"
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Start from three questions."
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Do you need full funding?** Then Türkiye Bursları is your main route, and you choose up to 12 programmes in its application. Apply directly as well, so no single decision decides everything.",
+              "cite": [
+                "tr/tb.choices"
+              ]
+            },
+            {
+              "text": "**Which language?** METU, Boğaziçi, Bilkent, Koç (except law and nursing) and Sabancı teach in English. With Türkiye Bursları, every scholar without C1 Turkish takes a year of Turkish first. If you apply directly to a Turkish-taught programme, expect to need Turkish first as well.",
+              "cite": [
+                "tr/uni.metu.language",
+                "tr/uni.bogazici.language",
+                "tr/uni.bilkent.language",
+                "tr/uni.koc.language",
+                "tr/uni.sabanci.language",
+                "tr/tb.language"
+              ]
+            },
+            {
+              "text": "**When do your results come?** Match each university's deadline to your results day (section 6)."
+            }
+          ],
+          "ordered": true
+        },
+        {
+          "type": "widget",
+          "id": "myList"
+        }
+      ]
+    },
+    {
+      "id": "how-youre-judged",
+      "number": 8,
+      "title": "How you're judged here",
+      "station": "How you're judged",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Türkiye Bursları:** your grades are checked against the minimum, then expert committees review your application. If they shortlist you, you take a 60-minute, 30-question test of mathematics, geometry and logic, and a face-to-face interview the same day. YTB tells you where; expect to attend in person. You need at least 70%, or 90% for medicine, dentistry and pharmacy, and you must be under 21.",
+              "cite": [
+                "tr/tb.selection",
+                "tr/tb.minimumGrade",
+                "tr/tb.ageLimit"
+              ]
+            },
+            {
+              "text": "**Direct applications:** mostly by your exam or school result against the university's minimum. Meeting the minimum does not guarantee a place.",
+              "cite": [
+                "tr/uni.metu.bangladesh"
+              ]
+            },
+            {
+              "text": "**Private university waivers:** decided on your application, with no score that guarantees a percentage.",
+              "cite": [
+                "tr/aid.sabanci",
+                "tr/aid.koc"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "link": "profile",
+          "text": "**Building your profile,** in the Toolkit, matters most for the Türkiye Bursları interview and for private universities' waivers."
+        }
+      ]
+    },
+    {
+      "id": "step-by-step",
+      "number": 9,
+      "title": "The application step by step",
+      "station": "Step by step",
+      "planSteps": [
+        "tr.tbGraduate",
+        "tr.tbApply",
+        "tr.tbAfter",
+        "sat.test",
+        "english.test",
+        "tr.apply",
+        "tr.decision",
+        "tr.attest",
+        "tr.medical",
+        "tr.funds",
+        "tr.visa"
+      ],
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Türkiye Bursları"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "planSteps": [
+                "tr.tbGraduate"
+              ],
+              "text": "**Check you qualify:** under 21, at least 70%, and graduating before August.",
+              "cite": [
+                "tr/tb.ageLimit",
+                "tr/tb.minimumGrade",
+                "tr/tb.graduation"
+              ]
+            },
+            {
+              "text": "**Prepare your documents:** passport, a recent photo, your certificates and transcripts, and any test your chosen programmes need.",
+              "cite": [
+                "tr/tb.documents"
+              ]
+            },
+            {
+              "planSteps": [
+                "tr.tbApply"
+              ],
+              "text": "**Apply on turkiyeburslari.gov.tr** between, choosing up to 12 programmes.",
+              "cite": [
+                "tr/tb.window",
+                "tr/tb.choices"
+              ]
+            },
+            {
+              "planSteps": [
+                "tr.tbAfter"
+              ],
+              "text": "**If shortlisted, a test and interview** between April and June, and **results** in early August.",
+              "cite": [
+                "tr/tb.timeline",
+                "tr/tb.selection"
+              ]
+            }
+          ],
+          "ordered": true
+        },
+        {
+          "type": "heading",
+          "text": "Direct application"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "planSteps": [
+                "sat.test",
+                "english.test"
+              ],
+              "text": "**Take the SAT or TR-YÖS** if your results will not be out in time, and an English test your universities accept."
+            },
+            {
+              "planSteps": [
+                "tr.apply"
+              ],
+              "text": "**Apply to each university** in its own window. METU: {window:tr/uni.metu.window}, with a fee of {money:tr/uni.metu.fee}. Sabancı: {window:tr/uni.sabanci.window}. In 2026, Bilkent's window ran from 2 February to 12 July, and ITU's second round from 21 to 26 August. Boğaziçi and Koç had not published current dates.",
+              "cite": [
+                "tr/uni.metu.window",
+                "tr/uni.metu.fee",
+                "tr/uni.sabanci.window",
+                "tr/uni.bilkent.route",
+                "tr/uni.itu.dates"
+              ]
+            },
+            {
+              "planSteps": [
+                "tr.decision"
+              ],
+              "text": "**Decisions arrive.** METU decides gradually until {date:tr/uni.metu.decisions}; Sabancı emails you about your evaluation within two to three weeks.",
+              "cite": [
+                "tr/uni.metu.decisions",
+                "tr/uni.sabanci.route"
+              ]
+            },
+            {
+              "planSteps": [
+                "tr.attest",
+                "tr.medical",
+                "tr.funds"
+              ],
+              "text": "**Start your visa documents while you wait:** the attested certificates and the medical certificate (section 12)."
+            },
+            {
+              "text": "**When you are accepted, enrol** as your university tells you, and ask it to email your acceptance letter to the embassy.",
+              "cite": [
+                "tr/visa.documents"
+              ]
+            },
+            {
+              "planSteps": [
+                "tr.visa"
+              ],
+              "text": "**Book Mosaic Visa straight away,** no more than 90 days before you travel, and allow up to 45 days.",
+              "cite": [
+                "tr/visa.mosaicRules",
+                "tr/visa.processing"
+              ]
+            }
+          ],
+          "ordered": true
+        },
+        {
+          "type": "p",
+          "text": "**Watch the time between decision and classes.** A METU decision in mid-August leaves about six weeks before classes, and the visa can take up to 45 days. Where you can, apply where decisions come earlier: Sabancı, for example, replies within weeks. Ask your university what happens if your visa makes you arrive late.",
+          "cite": [
+            "tr/uni.metu.decisions",
+            "tr/term.metu.classes",
+            "tr/visa.processing",
+            "tr/uni.itu.dates",
+            "tr/uni.sabanci.route"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "number": 10,
+      "title": "Money",
+      "station": "Money",
+      "planSteps": [
+        "tr.funds"
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "{rate:USD} {rate:TRY}",
+          "cite": [
+            "bd/fx.usd",
+            "bd/fx.try"
+          ],
+          "rates": true
+        },
+        {
+          "type": "heading",
+          "text": "Tuition per year, for international students"
+        },
+        {
+          "type": "table",
+          "head": [
+            "University",
+            "Fee"
+          ],
+          "rows": [
+            [
+              {
+                "text": "METU"
+              },
+              {
+                "text": "{money:tr/tuition.metu#Engineering, architecture, and mathematics and science programmes} a semester in engineering, architecture and science (about {taka:tr/tuition.metu#Engineering, architecture, and mathematics and science programmes*2} a year); {money:tr/tuition.metu#Social sciences, economics and administrative sciences, and education} a semester in other subjects (about {taka:tr/tuition.metu#Social sciences, economics and administrative sciences, and education*2} a year)",
+                "cite": [
+                  "tr/tuition.metu"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Boğaziçi"
+              },
+              {
+                "text": "{money:tr/tuition.bogazici#Economics and administrative sciences, and engineering} or {money:tr/tuition.bogazici#Education, science, humanities and social sciences, and law} a semester (about {taka:tr/tuition.bogazici#Economics and administrative sciences, and engineering*2} or {taka:tr/tuition.bogazici#Education, science, humanities and social sciences, and law*2} a year)",
+                "cite": [
+                  "tr/tuition.bogazici"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "ITU"
+              },
+              {
+                "text": "79,000 to 119,000 a year; ITU's page does not name the currency, so ask ITU",
+                "cite": [
+                  "tr/uni.itu.fees"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Bilkent"
+              },
+              {
+                "text": "{money:tr/tuition.bilkent} a year for 2026 entrants (about {taka:tr/tuition.bilkent})",
+                "cite": [
+                  "tr/tuition.bilkent"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Sabancı"
+              },
+              {
+                "text": "{money:tr/tuition.sabanci} a year (about {taka:tr/tuition.sabanci})",
+                "cite": [
+                  "tr/tuition.sabanci"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Koç"
+              },
+              {
+                "text": "USD 38,000 a year for 2025 entrants (about {taka:38000 USD})",
+                "cite": [
+                  "tr/tuition.koc"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Türkiye Bursları"
+              },
+              {
+                "text": "Tuition is covered",
+                "cite": [
+                  "tr/tb.covers"
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Bilkent's fee has risen with each new intake, so expect a little more for 2027.",
+          "cite": [
+            "tr/tuition.bilkent"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Living costs"
+        },
+        {
+          "type": "p",
+          "text": "METU puts living costs in Ankara at about TRY 8,000 to 15,000 a month without housing, about {taka:8000 TRY} to {taka:15000 TRY}. With an economical campus dormitory, about TRY 12,000 to 18,000, {taka:12000 TRY} to {taka:18000 TRY}. Türkiye Bursları scholars receive a stipend of {money:tr/tb.stipend}, about {taka:tr/tb.stipend} a month, with housing provided. That is below METU's estimate of everyday costs without housing, so plan some money of your own.",
+          "cite": [
+            "tr/living.metu",
+            "tr/tb.stipend",
+            "tr/tb.covers"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Costs of applying"
+        },
+        {
+          "type": "table",
+          "head": [
+            "What",
+            "Cost"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Türkiye Bursları"
+              },
+              {
+                "text": "Free",
+                "cite": [
+                  "tr/tb.free"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "METU"
+              },
+              {
+                "text": "{money:tr/uni.metu.fee} (about {taka:tr/uni.metu.fee})",
+                "cite": [
+                  "tr/uni.metu.fee"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Boğaziçi"
+              },
+              {
+                "text": "{money:tr/uni.bogazici.fee} per programme (about {taka:tr/uni.bogazici.fee})",
+                "cite": [
+                  "tr/uni.bogazici.fee"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Sabancı"
+              },
+              {
+                "text": "{money:tr/uni.sabanci.fee} (about {taka:tr/uni.sabanci.fee})",
+                "cite": [
+                  "tr/uni.sabanci.fee"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "SAT, per sitting"
+              },
+              {
+                "text": "{money:bd/sat.fee+bd/sat.internationalFee} (about {taka:bd/sat.fee+bd/sat.internationalFee})",
+                "cite": [
+                  "bd/sat.fee",
+                  "bd/sat.internationalFee"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "TR-YÖS in Dhaka"
+              },
+              {
+                "text": "{money:tr/tryos.fee} in 2026 (about {taka:tr/tryos.fee})",
+                "cite": [
+                  "tr/tryos.fee"
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Costs after you are accepted"
+        },
+        {
+          "type": "table",
+          "head": [
+            "What",
+            "Cost"
+          ],
+          "rows": [
+            [
+              {
+                "text": "Student visa"
+              },
+              {
+                "text": "Ask Mosaic Visa for the student fee. Its general fee for a six-month single-entry visa is 28,730 taka, plus service charges, paid in cash.",
+                "cite": [
+                  "tr/visa.mosaicFee",
+                  "tr/visa.mosaicRules"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Residence permit card"
+              },
+              {
+                "text": "{money:tr/arrive.cardFee} in 2026 (about {taka:tr/arrive.cardFee})",
+                "cite": [
+                  "tr/arrive.cardFee"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "State health insurance"
+              },
+              {
+                "text": "About {money:tr/arrive.gssCost} a month in 2026 (about {taka:tr/arrive.gssCost} a month and {taka:tr/arrive.gssCost*12} a year)",
+                "cite": [
+                  "tr/arrive.gssCost"
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aid",
+      "number": 11,
+      "title": "Scholarships and aid",
+      "station": "Aid",
+      "planSteps": [
+        "tr.tbApply"
+      ],
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Türkiye Bursları"
+        },
+        {
+          "type": "p",
+          "text": "The Turkish government's scholarship covers tuition, a monthly stipend, accommodation, health insurance, a one-year Turkish course, flights and university placement. Outstanding students can win the Merit Scholarship, which pays twice the stipend.",
+          "cite": [
+            "tr/tb.covers",
+            "tr/tb.stipend",
+            "tr/tb.merit"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "University waivers"
+        },
+        {
+          "type": "table",
+          "head": [
+            "University",
+            "What it offers"
+          ],
+          "rows": [
+            [
+              {
+                "text": "METU"
+              },
+              {
+                "text": "Tuition discounts or exemptions for academic success, each year, without applying",
+                "cite": [
+                  "tr/aid.metu"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Bilkent"
+              },
+              {
+                "text": "Tuition waivers from 20% to 100%, with housing for some full-waiver students",
+                "cite": [
+                  "tr/aid.bilkent"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Koç"
+              },
+              {
+                "text": "Full or partial tuition scholarships, considered for every applicant",
+                "cite": [
+                  "tr/aid.koc"
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Sabancı"
+              },
+              {
+                "text": "Tuition waivers, limited in number, with priority for early applicants",
+                "cite": [
+                  "tr/aid.sabanci"
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**None of these pays a stipend.** Only Türkiye Bursları does. Bilkent and Sabancı offer housing to a few top students.",
+          "cite": [
+            "tr/aid.bilkent",
+            "tr/aid.sabanci"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**After your first year,** a self-funded student can look at YTB's Success Scholarship, with applications in October and November.",
+          "cite": [
+            "tr/tb.successScholarship"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**Apply early to Sabancı** if you hope for a waiver: early applicants get priority.",
+          "cite": [
+            "tr/aid.sabanci"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "visa",
+      "number": 12,
+      "title": "Visa",
+      "station": "Visa",
+      "planSteps": [
+        "tr.attest",
+        "tr.medical",
+        "tr.funds",
+        "tr.visa"
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Your visa is a student visa. The e-Visa is for tourism and business only.",
+          "cite": [
+            "tr/visa.noEvisa"
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Get accepted and enrol.** The embassy issues a student visa only after you have enrolled, and your university emails your acceptance letter to the embassy.",
+              "cite": [
+                "tr/visa.documents"
+              ]
+            },
+            {
+              "planSteps": [
+                "tr.attest"
+              ],
+              "text": "**Attest your certificates** at Bangladesh's Ministry of Education and Ministry of Foreign Affairs, as the embassy asks.",
+              "cite": [
+                "tr/visa.documents"
+              ]
+            },
+            {
+              "planSteps": [
+                "tr.medical"
+              ],
+              "text": "**Get a medical certificate** with an HIV test from a recognised hospital.",
+              "cite": [
+                "tr/visa.documents"
+              ]
+            },
+            {
+              "planSteps": [
+                "tr.funds"
+              ],
+              "text": "**Get your bank statements and a solvency certificate,** in your own, a parent's or a spouse's name.",
+              "cite": [
+                "tr/visa.bankStatements"
+              ]
+            },
+            {
+              "text": "**Book an appointment at Mosaic Visa** in Banani, Dhaka, the only centre for Turkish visas in Bangladesh, no more than 90 days before you travel. Ask Mosaic whether you must also fill in the online form on konsolosluk.gov.tr.",
+              "cite": [
+                "tr/visa.centre",
+                "tr/visa.process",
+                "tr/visa.mosaicRules"
+              ]
+            },
+            {
+              "planSteps": [
+                "tr.visa"
+              ],
+              "text": "**Attend in person** for biometrics, pay in cash in taka, and wait for the decision, which can take up to 45 days.",
+              "cite": [
+                "tr/visa.mosaicRules",
+                "tr/visa.processing"
+              ]
+            }
+          ],
+          "ordered": true
+        },
+        {
+          "type": "p",
+          "text": "**The equivalency certificate.** Your university also needs an equivalency certificate for your school certificate, from Türkiye's Ministry of National Education or a Turkish mission. Registration can be cancelled without it, so ask your university how to get it before you travel, and whether it needs an apostille or the ministry attestation used for the visa.",
+          "cite": [
+            "tr/visa.equivalency"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Your document checklist"
+        },
+        {
+          "type": "checklist",
+          "items": [
+            {
+              "text": "Passport valid for at least a year",
+              "cite": [
+                "tr/visa.documents"
+              ]
+            },
+            {
+              "text": "Three biometric photographs (Mosaic asks for 3; the embassy's 2019 list says 2)",
+              "cite": [
+                "tr/visa.mosaicRules"
+              ]
+            },
+            {
+              "text": "Copy of your national ID card or birth certificate"
+            },
+            {
+              "text": "Acceptance letter, emailed by your university to the embassy"
+            },
+            {
+              "text": "SSC and HSC (or O and A level) certificates, attested by the Education and Foreign Ministries"
+            },
+            {
+              "text": "Test results (SAT, TR-YÖS or English)"
+            },
+            {
+              "text": "Medical certificate with an HIV test"
+            },
+            {
+              "text": "Travel health insurance, bought through Mosaic Visa"
+            },
+            {
+              "text": "One year of bank statements and a solvency certificate"
+            },
+            {
+              "text": "Mosaic Visa appointment confirmation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "before-you-fly",
+      "number": 13,
+      "title": "Before you fly",
+      "station": "Before you fly",
+      "planSteps": [
+        "tr.arrive"
+      ],
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**The visa is single-entry and usually valid for six months.**",
+              "cite": [
+                "tr/visa.documents"
+              ]
+            },
+            {
+              "text": "**Carry your originals** in your hand luggage: passport, acceptance letter, attested certificates and the equivalency papers."
+            },
+            {
+              "planSteps": [
+                "tr.arrive"
+              ],
+              "text": "**Arrive before classes** for registration and orientation. At METU, classes begin on {date:tr/term.metu.classes}.",
+              "cite": [
+                "tr/term.metu.classes"
+              ]
+            },
+            {
+              "text": "**At METU, without an accepted English score,** arrive in time for its English exam in early September.",
+              "cite": [
+                "tr/uni.metu.englishExam"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "life-there",
+      "number": 14,
+      "title": "Life there",
+      "station": "Life there",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Residence permit.** Apply on e-ikamet before your visa expires, then hand in your documents as your university tells you. You need health insurance for the whole permit period. Students pay only the card fee. Appointments are free; never pay anyone to book one.",
+              "cite": [
+                "tr/arrive.residencePermit",
+                "tr/arrive.cardFee",
+                "tr/arrive.eikametFree"
+              ]
+            },
+            {
+              "text": "**Health insurance: act within three months.** You can join Türkiye's state health insurance only if you apply within three months of the start of the academic year, and some universities count from first enrolment, so use the earliest date yours gives. With it, your residence permit can cover your whole degree.",
+              "cite": [
+                "tr/arrive.healthInsurance",
+                "tr/arrive.gssCost"
+              ]
+            },
+            {
+              "text": "**Working.** Only after your first year, part-time and off campus, with a work permit your employer applies for. A residence permit alone does not let you work.",
+              "cite": [
+                "tr/work.rule"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "other-routes",
+      "number": 15,
+      "title": "Other intakes and routes",
+      "station": "Other routes",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "A second application round"
+        },
+        {
+          "type": "p",
+          "text": "ITU ran a second round in late August in 2026, with results on 1 September. Sabancı's window stayed open until 28 August in 2026, and is expected to again.",
+          "cite": [
+            "tr/uni.itu.dates",
+            "tr/uni.sabanci.window"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Applying after a gap year"
+        },
+        {
+          "type": "p",
+          "text": "With your HSC results in hand, you can apply directly with them at METU, Bilkent and Sabancı if your result meets their minimums, and Türkiye Bursları's graduation rule no longer worries you.",
+          "cite": [
+            "tr/uni.metu.bangladesh",
+            "tr/uni.bilkent.route",
+            "tr/uni.sabanci.route",
+            "tr/tb.graduation"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Studying in Turkish"
+        },
+        {
+          "type": "p",
+          "text": "With Türkiye Bursları you can choose Turkish-taught programmes, which are the majority, and learn Turkish in your first year.",
+          "cite": [
+            "tr/tb.language"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mistakes-and-scams",
+      "number": 16,
+      "title": "Mistakes and scams",
+      "station": "Mistakes and scams",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Türkiye Bursları is free, and nobody can apply for you.** Anyone charging to apply on your behalf is not authorised.",
+              "cite": [
+                "tr/tb.free",
+                "tr/tb.noAgents"
+              ]
+            },
+            {
+              "text": "**Only Mosaic Visa takes Turkish visa applications in Bangladesh.**",
+              "cite": [
+                "tr/visa.centre"
+              ]
+            },
+            {
+              "text": "**Do not book IELTS for METU, ITU or Koç.** Check each university's tests first (section 6).",
+              "cite": [
+                "tr/uni.metu.english",
+                "tr/uni.itu.english",
+                "tr/uni.koc.english"
+              ]
+            },
+            {
+              "text": "**Do not wait for HSC results at METU.** The deadline will pass; use the SAT.",
+              "cite": [
+                "tr/uni.metu.waitForResult"
+              ]
+            },
+            {
+              "text": "**Apply for state health insurance within three months of the start of the academic year.** After that, you cannot join it during your degree.",
+              "cite": [
+                "tr/arrive.healthInsurance"
+              ]
+            },
+            {
+              "text": "**Residence permit appointments are free.**",
+              "cite": [
+                "tr/arrive.eikametFree"
+              ]
+            },
+            {
+              "text": "**Bring the equivalency certificate.** Without it, registration can be cancelled.",
+              "cite": [
+                "tr/visa.equivalency"
+              ]
+            },
+            {
+              "text": "**Do not plan on paying fees from work.** You cannot work in your first year.",
+              "cite": [
+                "tr/work.rule"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "number": 17,
+      "title": "Official sources",
+      "station": "Sources",
+      "planSteps": [],
+      "blocks": [
+        {
+          "type": "widget",
+          "id": "sources"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "text": "**Turkish government:** Türkiye Scholarships (YTB), the Council of Higher Education (YÖK), ÖSYM, the Ministry of Foreign Affairs and the Embassy in Dhaka, the Presidency of Migration Management."
+            },
+            {
+              "text": "**Visa centre:** Mosaic Visa, named by the embassy."
+            },
+            {
+              "text": "**Universities:** METU, Boğaziçi, Bilkent, Koç, Sabancı, Istanbul Technical University, and the university offices named in each fact."
+            },
+            {
+              "text": "**Europe:** Eurydice, European Commission (the higher education system)."
+            },
+            {
+              "text": "**Bangladesh and Türkiye:** Bangladesh Bank and the Central Bank of the Republic of Türkiye (exchange rates)."
+            },
+            {
+              "text": "**Ranking:** QS World University Rankings 2027."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

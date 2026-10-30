@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "sections": [
+    {
+      "id": "profile",
+      "title": "Your profile",
+      "summary": "What universities look for beyond your marks, and how to build it",
+      "guides": [
+        {
+          "id": "profile",
+          "title": "Building your profile",
+          "summary": "What universities look for, and what to do for the subject you want to study"
+        },
+        {
+          "id": "olympiads",
+          "title": "Olympiads and competitions",
+          "summary": "Every national olympiad that leads to an international one, and how each team is chosen"
+        },
+        {
+          "id": "research",
+          "title": "Doing research",
+          "summary": "Seven steps from a question to a write-up you can share"
+        }
+      ]
+    },
+    {
+      "id": "results",
+      "title": "Your results",
+      "summary": "How universities read your grades and your English score",
+      "guides": [
+        {
+          "id": "grades",
+          "kind": "tool",
+          "title": "Check your grades",
+          "summary": "How universities read your HSC or A levels, and where you stand against their rules"
+        },
+        {
+          "id": "english",
+          "kind": "tool",
+          "title": "Check your English score",
+          "summary": "Where your score stands on every test, and what each university asks for"
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "title": "Reading university pages",
+      "summary": "Deadlines in your own time, and the words on each page",
+      "guides": [
+        {
+          "id": "deadline",
+          "kind": "tool",
+          "title": "Deadline in Dhaka time",
+          "summary": "Turn any university's deadline into your own time, with clock changes counted"
+        },
+        {
+          "id": "words",
+          "kind": "tool",
+          "title": "Words explained",
+          "summary": "Plain meanings for the words on university and visa pages"
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "title": "Money",
+      "summary": "What studying abroad costs, and how to pay for it in taka",
+      "guides": [
+        {
+          "id": "costs",
+          "title": "What a year really costs",
+          "summary": "Every part of the cost, how money leaves Bangladesh, and what to ask"
+        },
+        {
+          "id": "money",
+          "kind": "tool",
+          "title": "Your money plan",
+          "summary": "What applying costs in taka, month by month, and how to save for it"
+        }
+      ]
+    },
+    {
+      "id": "visa",
+      "title": "Visa interview",
+      "summary": "Whether you will have one, and how to prepare",
+      "guides": [
+        {
+          "id": "visa",
+          "kind": "tool",
+          "title": "Your visa interview",
+          "summary": "What the day holds, what a refusal means, and practice questions"
+        }
+      ]
+    }
+  ]
+}

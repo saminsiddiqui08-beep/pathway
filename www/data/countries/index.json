@@ -1,0 +1,35 @@
+{
+  "format": 1,
+  "countries": [
+    {
+      "code": "us",
+      "name": "USA",
+      "line": "--line-usa",
+      "text": "--text-usa"
+    },
+    {
+      "code": "fi",
+      "name": "Finland",
+      "line": "--line-finland",
+      "text": "--text-finland"
+    },
+    {
+      "code": "tr",
+      "name": "Türkiye",
+      "line": "--line-turkey",
+      "text": "--text-turkey"
+    },
+    {
+      "code": "my",
+      "name": "Malaysia",
+      "line": "--line-malaysia",
+      "text": "--text-malaysia"
+    },
+    {
+      "code": "nz",
+      "name": "New Zealand",
+      "line": "--line-nz",
+      "text": "--text-nz"
+    }
+  ]
+}

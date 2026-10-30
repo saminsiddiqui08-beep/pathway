@@ -1,0 +1,3170 @@
+{
+  "format": 1,
+  "file": "countries/fi",
+  "title": "Facts for Finland",
+  "checked": "2026-10-02",
+  "sources": {
+    "sif-joint": {
+      "title": "Joint application for studies starting in January 2027",
+      "publisher": "Study in Finland, Finnish National Agency for Education",
+      "url": "https://www.studyinfinland.fi/news-events/joint-application-autumn-2026",
+      "official": true
+    },
+    "oph-2025": {
+      "title": "Joint application to higher education degree programmes in English begins on 8th of January",
+      "publisher": "Finnish National Agency for Education",
+      "url": "https://www.oph.fi/en/news/2025/joint-application-higher-education-degree-programmes-english-begins-8th-january",
+      "official": true
+    },
+    "oph-2026": {
+      "title": "Number of applicants in the first joint application of spring decreased",
+      "publisher": "Finnish National Agency for Education",
+      "url": "https://www.oph.fi/en/news/2026/number-applicants-first-joint-application-spring-decreased-more-quarter",
+      "official": true
+    },
+    "helsinki-apply": {
+      "title": "Apply to bachelor's and master's programmes",
+      "publisher": "University of Helsinki",
+      "url": "https://www.helsinki.fi/en/admissions-and-education/apply-bachelors-and-masters-programmes",
+      "official": true
+    },
+    "jyu-apply": {
+      "title": "How to apply for international bachelor's programmes (2027)",
+      "publisher": "University of Jyväskylä",
+      "url": "https://www.jyu.fi/en/study-with-us/bachelors-degree-programmes/how-to-apply-for-international-bachelors-programmes-2026",
+      "official": true
+    },
+    "jyu-sat": {
+      "title": "Delivering SAT and ACT test scores 2027",
+      "publisher": "University of Jyväskylä",
+      "url": "https://www.jyu.fi/en/study-with-us/bachelors-degree-programmes/how-to-apply-for-international-bachelors-programmes-2026/delivering-sat-and-act-test-scores-2026",
+      "official": true
+    },
+    "uasinfo-exam": {
+      "title": "International UAS Exam",
+      "publisher": "UAS Info, Finnish universities of applied sciences",
+      "url": "https://www.uasinfo.fi/international-uas-exam/",
+      "official": true
+    },
+    "savonia-exam": {
+      "title": "Student selection, joint application",
+      "publisher": "Savonia University of Applied Sciences",
+      "url": "https://www.savonia.fi/en/study-with-us/apply/bachelors/joint-application/student-selection/",
+      "official": true
+    },
+    "fi-abroad-bgd": {
+      "title": "Residence permits to Finland",
+      "publisher": "Finland Abroad: Bangladesh, Ministry for Foreign Affairs of Finland",
+      "url": "https://finlandabroad.fi/web/bgd/residence-permits-to-finland",
+      "official": true
+    },
+    "uh-permit": {
+      "title": "Residence permit for degree students",
+      "publisher": "University of Helsinki",
+      "url": "https://studies.helsinki.fi/instructions/article/residence-permit-degree-students",
+      "official": false
+    },
+    "helsinki-calendar": {
+      "title": "Academic year and teaching periods",
+      "publisher": "University of Helsinki",
+      "url": "https://studies.helsinki.fi/instructions/article/academic-year-and-teaching-periods",
+      "official": true
+    },
+    "qs-2027": {
+      "title": "QS World University Rankings 2027",
+      "publisher": "QS Quacquarelli Symonds",
+      "url": "https://www.topuniversities.com/world-university-rankings",
+      "official": false
+    },
+    "uh-apply": {
+      "title": "Apply to bachelor's programmes",
+      "publisher": "University of Helsinki",
+      "url": "https://www.helsinki.fi/en/admissions-and-education/apply-bachelors-and-masters-programmes/apply-bachelors-programmes",
+      "official": true
+    },
+    "uh-las": {
+      "title": "Liberal Arts and Sciences: admissions",
+      "publisher": "University of Helsinki",
+      "url": "https://www.helsinki.fi/en/degree-programmes/liberal-arts-and-sciences-bachelors-programme/admissions",
+      "official": true
+    },
+    "uh-english": {
+      "title": "Proving your English language skills: bachelor's programmes",
+      "publisher": "University of Helsinki",
+      "url": "https://www.helsinki.fi/en/admissions-and-education/apply-bachelors-and-masters-programmes/apply-bachelors-programmes/proving-your-english-language-skills",
+      "official": true
+    },
+    "tuni-language": {
+      "title": "Language requirements for bachelor's programmes",
+      "publisher": "Tampere University",
+      "url": "https://www.tuni.fi/en/tau/bachelors-programmes/language-requirements",
+      "official": true
+    },
+    "jyu-english": {
+      "title": "Bachelor's applicants: how to prove your English skills 2027",
+      "publisher": "University of Jyväskylä",
+      "url": "https://www.jyu.fi/en/bachelors-applicants-how-to-prove-your-english-skills-2026",
+      "official": true
+    },
+    "oulu-english": {
+      "title": "Language requirements for bachelor's degrees",
+      "publisher": "University of Oulu",
+      "url": "https://www.oulu.fi/en/apply/language-requirements-bachelors-degrees",
+      "official": true
+    },
+    "uef-english": {
+      "title": "Language requirements for bachelor's degree programmes",
+      "publisher": "University of Eastern Finland",
+      "url": "https://www.uef.fi/en/language-requirements-for-bachelors-degree-programmes",
+      "official": true
+    },
+    "uh-fees": {
+      "title": "Tuition fees and scholarship programme",
+      "publisher": "University of Helsinki",
+      "url": "https://www.helsinki.fi/en/admissions-and-education/apply-bachelors-and-masters-programmes/tuition-fees-and-scholarship-programme",
+      "official": true
+    },
+    "uh-stats": {
+      "title": "Applications and accepted students, Bachelor's Programme in Science, spring 2025",
+      "publisher": "University of Helsinki",
+      "url": "https://www.helsinki.fi/assets/drupal/2025-05/University%20of%20Helsinki,%20number%20of%20applications%20and%20accepted%20students%20to%20Bachelor%27s%20Programme%20in%20Science,%20spring%202025,%2026.5.2025.pdf",
+      "official": true
+    },
+    "uniarts-fees": {
+      "title": "Tuition fees",
+      "publisher": "Uniarts Helsinki (University of the Arts Helsinki)",
+      "url": "https://www.uniarts.fi/en/general-info/tuition-fees/",
+      "official": true
+    },
+    "uh-cost": {
+      "title": "Cost of living and financial matters",
+      "publisher": "University of Helsinki",
+      "url": "https://www.helsinki.fi/en/admissions-and-education/international-students/student-life-helsinki/cost-living-and-financial-matters",
+      "official": true
+    },
+    "aalto-hsd": {
+      "title": "English-taught bachelor's programmes: I am applying with a high school diploma",
+      "publisher": "Aalto University",
+      "url": "https://www.aalto.fi/en/admission-services/english-taught-bachelors-programmes-i-am-applying-with-a-high-school-diploma",
+      "official": true
+    },
+    "aalto-fees": {
+      "title": "Scholarships and tuition fees",
+      "publisher": "Aalto University",
+      "url": "https://www.aalto.fi/en/admission-services/scholarships-and-tuition-fees",
+      "official": true
+    },
+    "aalto-admission": {
+      "title": "English-taught bachelor's programmes in science and technology or business and economics: admission",
+      "publisher": "Aalto University",
+      "url": "https://www.aalto.fi/en/admission-services/english-taught-bachelors-programmes-in-science-and-technology-or-business-and-economics-admission",
+      "official": true
+    },
+    "utu-ict": {
+      "title": "Bachelor's Degree Programme in Information and Communication Technology",
+      "publisher": "University of Turku",
+      "url": "https://utu.fi/en/study-at-utu/bachelors-degree-programme-in-information-and-communication-technology",
+      "official": true
+    },
+    "utu-fees": {
+      "title": "Scholarships and tuition fees",
+      "publisher": "University of Turku",
+      "url": "https://www.utu.fi/en/study-at-utu/scholarships-and-tuition-fees",
+      "official": true
+    },
+    "utu-language": {
+      "title": "Rector's decision on language requirements (2019)",
+      "publisher": "University of Turku",
+      "url": "https://www.utu.fi/sites/default/files/public%3A//media/file/Rectors_decision_language2019_0.pdf",
+      "official": true
+    },
+    "tuni-programmes": {
+      "title": "Bachelor's programmes",
+      "publisher": "Tampere University",
+      "url": "https://www.tuni.fi/en/tau/bachelors-programmes",
+      "official": true
+    },
+    "tuni-applying": {
+      "title": "Applying to bachelor's programmes",
+      "publisher": "Tampere University",
+      "url": "https://www.tuni.fi/en/tau/bachelors-programmes/applying",
+      "official": true
+    },
+    "tuni-eligibility": {
+      "title": "Eligibility criteria for bachelor's programmes",
+      "publisher": "Tampere University",
+      "url": "https://www.tuni.fi/en/tau/bachelors-programmes/eligibility-criteria",
+      "official": true
+    },
+    "tuni-stats": {
+      "title": "Bachelor's admission 2026: statistics",
+      "publisher": "Tampere University",
+      "url": "https://content-webapi.tuni.fi/proxy/public/2026-08/tampere-university-bachelor-s-admission-2026-statistics.pdf",
+      "official": true
+    },
+    "tuni-fees": {
+      "title": "Tuition fees and scholarships",
+      "publisher": "Tampere University",
+      "url": "https://www.tuni.fi/en/tau/financial-matters/tuition-fees-and-scholarships",
+      "official": true
+    },
+    "oulu-apply": {
+      "title": "Applying to bachelor's programmes",
+      "publisher": "University of Oulu",
+      "url": "https://oulu.fi/en/apply/how-apply/applying-bachelors-programmes",
+      "official": true
+    },
+    "oulu-sat": {
+      "title": "SAT test results",
+      "publisher": "University of Oulu",
+      "url": "https://www.oulu.fi/en/apply/how-apply/applying-bachelors-programmes/sat-test-results",
+      "official": true
+    },
+    "oulu-fees": {
+      "title": "Tuition fees and scholarships for international applicants",
+      "publisher": "University of Oulu",
+      "url": "https://www.oulu.fi/en/apply/university-oulu-tuition-fees-and-scholarships-international-applicants",
+      "official": true
+    },
+    "jyu-programmes": {
+      "title": "Bachelor's degree programmes",
+      "publisher": "University of Jyväskylä",
+      "url": "https://www.jyu.fi/en/study-with-us/bachelors-degree-programmes",
+      "official": true
+    },
+    "jyu-fees": {
+      "title": "Tuition fees and other financial matters",
+      "publisher": "University of Jyväskylä",
+      "url": "https://www.jyu.fi/en/study-with-us/tuition-fees-and-other-financial-matters",
+      "official": true
+    },
+    "jyu-faq": {
+      "title": "FAQ: applying",
+      "publisher": "University of Jyväskylä",
+      "url": "https://www.jyu.fi/en/study-with-us/masters-degree-programmes/how-to-apply-for-masters-programmes/faq-masters-degree-programmes/faq-applying",
+      "official": true
+    },
+    "lut-programmes": {
+      "title": "Bachelor's programmes",
+      "publisher": "LUT University",
+      "url": "https://www.lut.fi/en/studies/bachelors-programmes",
+      "official": true
+    },
+    "lut-criteria": {
+      "title": "Admission criteria for non-EU/EEA applicants",
+      "publisher": "LUT University",
+      "url": "https://www.lut.fi/en/studies/apply-lut/applying-bachelors-programmes/rolling-admission-bachelors-studies/admission-criteria-non-eu-eea-applicants",
+      "official": true
+    },
+    "lut-alevel": {
+      "title": "Admission criteria for international A level applicants",
+      "publisher": "LUT University",
+      "url": "https://www.lut.fi/en/studies/apply-lut/applying-bachelors-programmes/rolling-admission-bachelors-studies/admission-criteria-international-a-level",
+      "official": true
+    },
+    "lut-scholarships": {
+      "title": "Scholarships for bachelor's studies",
+      "publisher": "LUT University",
+      "url": "https://www.lut.fi/en/studies/apply-lut/applying-bachelors-programmes/scholarships-bachelors-studies",
+      "official": true
+    },
+    "abo-guide": {
+      "title": "Application guide: bachelor's level",
+      "publisher": "Åbo Akademi University",
+      "url": "https://abo.fi/en/study/apply/application-guide-bachelors-level",
+      "official": true
+    },
+    "uef-intl": {
+      "title": "International bachelor's degree programmes",
+      "publisher": "University of Eastern Finland",
+      "url": "https://www.uef.fi/en/international-bachelors-degree-programmes",
+      "official": true
+    },
+    "uef-socsci": {
+      "title": "Bachelor's Degree Programme in Social Sciences",
+      "publisher": "University of Eastern Finland",
+      "url": "https://www.uef.fi/en/degree-programme/bachelors-degree-programme-in-social-sciences",
+      "official": true
+    },
+    "uef-data": {
+      "title": "Bachelor's and Master's Degree Programme in Data Engineering",
+      "publisher": "University of Eastern Finland",
+      "url": "https://www.uef.fi/en/degree-programme/bachelors-and-masters-degree-programme-in-data-engineering",
+      "official": true
+    },
+    "uef-fees": {
+      "title": "Tuition fees and scholarships",
+      "publisher": "University of Eastern Finland",
+      "url": "https://www.uef.fi/en/tuition-fees-and-scholarships",
+      "official": true
+    },
+    "uasinfo-studying": {
+      "title": "Studying at a university of applied sciences",
+      "publisher": "UAS Info, Finnish universities of applied sciences",
+      "url": "https://www.uasinfo.fi/studying/",
+      "official": true
+    },
+    "uasinfo-language": {
+      "title": "Language requirements",
+      "publisher": "UAS Info, Finnish universities of applied sciences",
+      "url": "https://www.uasinfo.fi/language-requirements/",
+      "official": true
+    },
+    "uasinfo-sections": {
+      "title": "International UAS Exam: exam sections",
+      "publisher": "UAS Info, Finnish universities of applied sciences",
+      "url": "https://www.uasinfo.fi/international-uas",
+      "official": true
+    },
+    "okm-degrees": {
+      "title": "Higher education and degrees",
+      "publisher": "Ministry of Education and Culture, Finland",
+      "url": "https://okm.fi/en/higher-education-and-degrees",
+      "official": true
+    },
+    "sif-faq": {
+      "title": "Frequently asked questions",
+      "publisher": "Study in Finland, Finnish National Agency for Education",
+      "url": "https://www.studyinfinland.fi/faq",
+      "official": true
+    },
+    "sif-scholarships": {
+      "title": "Scholarship facts",
+      "publisher": "Study in Finland, Finnish National Agency for Education",
+      "url": "https://www.studyinfinland.fi/news-events/scholarship-facts",
+      "official": true
+    },
+    "sif-fake": {
+      "title": "Beware of fake universities",
+      "publisher": "Study in Finland, Finnish National Agency for Education",
+      "url": "https://www.studyinfinland.fi/news-events/beware-of-fake-universities",
+      "official": true
+    },
+    "metropolia-fees": {
+      "title": "Scholarships and grants",
+      "publisher": "Metropolia University of Applied Sciences",
+      "url": "https://metropolia.fi/en/apply/tuition-and-scholarships/scholarships-and-grants",
+      "official": true
+    },
+    "haagahelia-fees": {
+      "title": "Tuition fees and scholarships",
+      "publisher": "Haaga-Helia University of Applied Sciences",
+      "url": "https://www.haaga-helia.fi/en/apply/tuition-fees-and-scholarships",
+      "official": true
+    },
+    "tamk-fees": {
+      "title": "Scholarships at TAMK",
+      "publisher": "Tampere University of Applied Sciences",
+      "url": "https://tuni.fi/en/study-with-us/how-to-apply/scholarships-tamk",
+      "official": true
+    },
+    "turkuamk-fees": {
+      "title": "Tuition fees and scholarships",
+      "publisher": "Turku University of Applied Sciences",
+      "url": "https://www.turkuamk.fi/en/education/guide-for-applicants/tuition-fees-and-scholarships/",
+      "official": true
+    },
+    "jamk-eligibility": {
+      "title": "Required study certificates of eligibility by country",
+      "publisher": "JAMK University of Applied Sciences, for six universities of applied sciences",
+      "url": "https://www.jamk.fi/sv/node/9076",
+      "official": true
+    },
+    "oph-2026-admitted": {
+      "title": "Admission to English-taught programmes, spring 2026",
+      "publisher": "Finnish National Agency for Education",
+      "url": "https://www.oph.fi/en/news/2026/admission-finnish-higher-education-institutions-english-taught-programmes-university-arts",
+      "official": true
+    },
+    "savonia-oneplace": {
+      "title": "One study place per term provision",
+      "publisher": "Savonia University of Applied Sciences",
+      "url": "https://savonia.fi/en/study-with-us/apply/bachelors/one-study-place-per-term-provision",
+      "official": true
+    },
+    "migri-fees": {
+      "title": "Changes to processing fees as of 1 January 2026",
+      "publisher": "Finnish Immigration Service (Migri)",
+      "url": "https://migri.fi/en/-/changes-to-finnish-immigration-service-processing-fees-as-of-1-january-2026",
+      "official": true
+    },
+    "migri-income": {
+      "title": "Income requirement for students",
+      "publisher": "Finnish Immigration Service (Migri)",
+      "url": "https://migri.fi/en/income-requirement-for-students",
+      "official": true
+    },
+    "migri-permit-app": {
+      "title": "Residence permit application for studies",
+      "publisher": "Finnish Immigration Service (Migri)",
+      "url": "https://migri.fi/en/residence-permit-application-for-studies",
+      "official": true
+    },
+    "migri-insurance": {
+      "title": "Insurance",
+      "publisher": "Finnish Immigration Service (Migri)",
+      "url": "https://migri.fi/en/insurance",
+      "official": true
+    },
+    "migri-processing": {
+      "title": "Current information about processing of students' and their family members' applications",
+      "publisher": "Finnish Immigration Service (Migri)",
+      "url": "https://migri.fi/en/-/current-information-about-processing-of-students-and-their-family-members-applications",
+      "official": true
+    },
+    "migri-2022": {
+      "title": "Rules on international students moving to Finland relaxed",
+      "publisher": "Finnish Immigration Service (Migri)",
+      "url": "https://migri.fi/en/-/rules-on-international-students-moving-to-finland-relaxed",
+      "official": true
+    },
+    "migri-work": {
+      "title": "Working and internships during studies",
+      "publisher": "Finnish Immigration Service (Migri)",
+      "url": "https://migri.fi/working-and-internships-during-studies",
+      "official": true
+    },
+    "migri-jobseek": {
+      "title": "Extended permit to look for work",
+      "publisher": "Finnish Immigration Service (Migri)",
+      "url": "https://migri.fi/en/extended-permit-to-look-for-work",
+      "official": true
+    },
+    "fi-abroad-ind-jobs": {
+      "title": "Fraudulent job offers in Finland",
+      "publisher": "Embassy of Finland, New Delhi",
+      "url": "https://finlandabroad.fi/web/ind/current-affairs/-/asset_publisher/h5w4iTUJhNne/content/fraudulent-job-offers-in-finland/384951",
+      "official": true
+    },
+    "yle-agents": {
+      "title": "Unscrupulous agents offer social media influencer thousands of euros to deceive foreign students about life in Finland",
+      "publisher": "Yle News (28 February 2026)",
+      "url": "https://yle.fi/a/74-20212757",
+      "official": false
+    },
+    "migri-safe": {
+      "title": "Safe use of online services",
+      "publisher": "Finnish Immigration Service (Migri)",
+      "url": "https://migri.fi/en/safe-use-of-online-services",
+      "official": true
+    },
+    "migri-future": {
+      "title": "Assessing the future of immigration",
+      "publisher": "Finnish Immigration Service (Migri)",
+      "url": "https://migri.fi/en/-/assessing-the-future-of-immigration-the-number-of-work-based-residence-permits-is-expected-to-grow-while-applications-from-students-are-declining",
+      "official": true
+    },
+    "vfs-delhi": {
+      "title": "Residence permit: Finland Application Centre, New Delhi",
+      "publisher": "VFS Global, Finland's service provider in India",
+      "url": "https://www.vfsglobal.com/one-pager/finland/india/residencepermit/english/",
+      "official": false
+    },
+    "fi-abroad-verify": {
+      "title": "Verification of Sri Lankan and Bangladeshi documents from 3 November at VFS New Delhi",
+      "publisher": "Finland Abroad: Bangladesh, Ministry for Foreign Affairs of Finland",
+      "url": "https://finlandabroad.fi/web/bgd/current-affairs/-/asset_publisher/h5w4iTUJhNne/content/verification-of-srilankan-and-bangladeshi-documents-required-from-3rd-of-november-onwards-in-vfs-new-delhi/384951",
+      "official": true
+    },
+    "dvv-events": {
+      "title": "International student, don't miss our registration events",
+      "publisher": "Digital and Population Data Services Agency (DVV)",
+      "url": "https://dvv.fi/en/-/international-student-don-t-miss-out-on-our-registration-events",
+      "official": true
+    },
+    "kela-fee": {
+      "title": "Student healthcare fee",
+      "publisher": "Kela",
+      "url": "https://www.kela.fi/healthcare-fee",
+      "official": true
+    },
+    "kela-students": {
+      "title": "Coming to Finland to study: facts about social security",
+      "publisher": "Kela",
+      "url": "https://www.kela.fi/news/coming-to-finland-to-study-here-are-some-useful-facts-about-social-security-in-finland",
+      "official": true
+    },
+    "kela-socialassist": {
+      "title": "Government proposes to revoke residence permits of foreign students who receive social assistance",
+      "publisher": "Kela",
+      "url": "https://www.kela.fi/news/government-proposes-to-revoke-residence-permits-of-foreign-students-who-receive-social-assistance",
+      "official": true
+    },
+    "gov-2025-12": {
+      "title": "Government decides on methods to address difficulties with foreign student permits and livelihoods",
+      "publisher": "Finnish Government",
+      "url": "https://valtioneuvosto.fi/en/-/1410877/government-decides-on-methods-to-address-difficulties-with-foreign-student-permits-and-livelihoods",
+      "official": true
+    },
+    "sif-joint-jan2026": {
+      "title": "Joint application open 7 to 21 January for studies beginning in autumn 2026",
+      "publisher": "Study in Finland, Finnish National Agency for Education",
+      "url": "https://www.studyinfinland.fi/news-events/January-2026-joint-application",
+      "official": true
+    },
+    "dvv-pic": {
+      "title": "A foreigner can apply for a personal identity code and municipality of residence online",
+      "publisher": "Digital and Population Data Services Agency (DVV)",
+      "url": "https://dvv.fi/en/-/a-foreigner-can-apply-for-a-personal-identity-code-and-municipality-of-residence-online",
+      "official": true
+    },
+    "yle-family": {
+      "title": "Finland tightening rules for foreign students (10 September 2026)",
+      "publisher": "Yle News",
+      "url": "https://yle.fi/a/74-20245672",
+      "official": false
+    },
+    "laurea-certs": {
+      "title": "Required certificates in the joint application",
+      "publisher": "Laurea University of Applied Sciences",
+      "url": "https://www.laurea.fi/en/education/apply-to-laurea/joint-application/required-certificates-in-joint-application/",
+      "official": true
+    }
+  },
+  "facts": [
+    {
+      "id": "app.joint.window",
+      "label": "Joint application for English-taught programmes",
+      "kind": "window",
+      "keyedBy": "cycle",
+      "values": [
+        {
+          "key": "2027",
+          "value": {
+            "from": "2027-01-07",
+            "to": "2027-01-21"
+          },
+          "status": "confirmed",
+          "source": "sif-joint",
+          "where": "Section: Next joint application round in January 2027",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "On Studyinfo.fi. It opens at 08:00 and closes at 15:00 Finnish time. Aalto's programmes close a day later, on 22 January."
+        },
+        {
+          "key": "2028",
+          "value": {
+            "from": "2028-01",
+            "to": "2028-01"
+          },
+          "status": "expected",
+          "source": "oph-2025",
+          "where": "First paragraph",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "Held in early to mid January every year: 8 to 22 January 2025, closing 21 January 2026, 7 to 21 January 2027."
+        },
+        {
+          "key": "2029",
+          "value": {
+            "from": "2029-01",
+            "to": "2029-01"
+          },
+          "status": "expected",
+          "source": "oph-2025",
+          "where": "First paragraph",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "Held in early to mid January every year: 8 to 22 January 2025, closing 21 January 2026, 7 to 21 January 2027."
+        },
+        {
+          "key": "2030",
+          "value": {
+            "from": "2030-01",
+            "to": "2030-01"
+          },
+          "status": "expected",
+          "source": "oph-2025",
+          "where": "First paragraph",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "Held in early to mid January every year: 8 to 22 January 2025, closing 21 January 2026, 7 to 21 January 2027."
+        },
+        {
+          "key": "2031",
+          "value": {
+            "from": "2031-01",
+            "to": "2031-01"
+          },
+          "status": "expected",
+          "source": "oph-2025",
+          "where": "First paragraph",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Held in early to mid January every year: 8 to 22 January 2025, closing 21 January 2026, 7 to 21 January 2027."
+        },
+        {
+          "key": "2032",
+          "value": {
+            "from": "2032-01",
+            "to": "2032-01"
+          },
+          "status": "expected",
+          "source": "oph-2025",
+          "where": "First paragraph",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Held in early to mid January every year: 8 to 22 January 2025, closing 21 January 2026, 7 to 21 January 2027."
+        }
+      ]
+    },
+    {
+      "id": "app.helsinki.window",
+      "label": "Applications for English bachelor's programmes, SAT or ACT based (University of Helsinki)",
+      "kind": "window",
+      "keyedBy": "cycle",
+      "values": [
+        {
+          "key": "2027",
+          "value": {
+            "from": "2027-01-05",
+            "to": "2027-01-19"
+          },
+          "status": "confirmed",
+          "source": "helsinki-apply",
+          "where": "Application dates, English-language Bachelor's Programmes",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "For applicants without a Finnish matriculation, IB or EB diploma, which includes Bangladeshi students. Closes two days before the joint application."
+        },
+        {
+          "key": "2028",
+          "value": {
+            "from": "2028-01",
+            "to": "2028-01"
+          },
+          "status": "expected",
+          "source": "helsinki-apply",
+          "where": "Application dates",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "Expected in January, alongside the joint application."
+        },
+        {
+          "key": "2029",
+          "value": {
+            "from": "2029-01",
+            "to": "2029-01"
+          },
+          "status": "expected",
+          "source": "helsinki-apply",
+          "where": "Application dates",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "Expected in January, alongside the joint application."
+        },
+        {
+          "key": "2030",
+          "value": {
+            "from": "2030-01",
+            "to": "2030-01"
+          },
+          "status": "expected",
+          "source": "helsinki-apply",
+          "where": "Application dates",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "Expected in January, alongside the joint application."
+        },
+        {
+          "key": "2031",
+          "value": {
+            "from": "2031-01",
+            "to": "2031-01"
+          },
+          "status": "expected",
+          "source": "helsinki-apply",
+          "where": "Application dates",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in January, alongside the joint application."
+        },
+        {
+          "key": "2032",
+          "value": {
+            "from": "2032-01",
+            "to": "2032-01"
+          },
+          "status": "expected",
+          "source": "helsinki-apply",
+          "where": "Application dates",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in January, alongside the joint application."
+        }
+      ]
+    },
+    {
+      "id": "app.fee",
+      "label": "Application fee",
+      "kind": "money",
+      "value": {
+        "amount": 100,
+        "currency": "EUR"
+      },
+      "status": "confirmed",
+      "source": "oph-2025",
+      "where": "Paragraph on the application fee",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Since 1 January 2025, for applicants who must pay it, which includes applicants from outside the EU and EEA."
+    },
+    {
+      "id": "app.attachments",
+      "label": "Deadline for attachments and SAT scores (University of Jyväskylä)",
+      "kind": "date",
+      "keyedBy": "cycle",
+      "values": [
+        {
+          "key": "2027",
+          "value": {
+            "date": "2027-01-28"
+          },
+          "status": "confirmed",
+          "source": "jyu-apply",
+          "where": "Timetable: general deadline for application attachments",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Each university sets its own attachment deadline. Jyväskylä's is the plan's reference."
+        },
+        {
+          "key": "2028",
+          "value": {
+            "date": "2028-01"
+          },
+          "status": "expected",
+          "source": "jyu-apply",
+          "where": "Timetable",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "Expected about a week after the application closes."
+        },
+        {
+          "key": "2029",
+          "value": {
+            "date": "2029-01"
+          },
+          "status": "expected",
+          "source": "jyu-apply",
+          "where": "Timetable",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "Expected about a week after the application closes."
+        },
+        {
+          "key": "2030",
+          "value": {
+            "date": "2030-01"
+          },
+          "status": "expected",
+          "source": "jyu-apply",
+          "where": "Timetable",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "Expected about a week after the application closes."
+        },
+        {
+          "key": "2031",
+          "value": {
+            "date": "2031-01"
+          },
+          "status": "expected",
+          "source": "jyu-apply",
+          "where": "Timetable",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected about a week after the application closes."
+        },
+        {
+          "key": "2032",
+          "value": {
+            "date": "2032-01"
+          },
+          "status": "expected",
+          "source": "jyu-apply",
+          "where": "Timetable",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected about a week after the application closes."
+        }
+      ]
+    },
+    {
+      "id": "app.sat.rules",
+      "label": "Applying with the SAT (University of Jyväskylä)",
+      "kind": "text",
+      "value": {
+        "text": "College Board must send the scores directly to the university, and a copy of the score report must be uploaded on Studyinfo, both by 28 January 2027. Tests older than five years and superscoring are not accepted."
+      },
+      "status": "confirmed",
+      "source": "jyu-sat",
+      "where": "To submit the SAT or ACT test results",
+      "checked": "2026-10-02",
+      "verified": "2026-10-02",
+      "note": "So the 5 December 2026 SAT is the last one whose scores reach the university in time."
+    },
+    {
+      "id": "app.sat.minimum",
+      "label": "Lowest SAT score accepted (University of Jyväskylä, Business Innovation and Sustainability and Early Childhood Education)",
+      "kind": "number",
+      "value": {
+        "number": 1100
+      },
+      "status": "confirmed",
+      "source": "jyu-english",
+      "where": "Section: Upper secondary education completed fully in English, and SAT test result",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Reading and Writing plus Mathematics combined. An application below it is not eligible, and the same score also proves English. Winning a place usually needs more. An ACT total of 22 also counts."
+    },
+    {
+      "id": "app.results.sat",
+      "label": "Results for SAT-based admission (University of Jyväskylä)",
+      "kind": "date",
+      "keyedBy": "cycle",
+      "values": [
+        {
+          "key": "2027",
+          "value": {
+            "date": "2027-04-08"
+          },
+          "status": "confirmed",
+          "source": "jyu-apply",
+          "where": "Timetable: admission results for SAT/ACT admissions",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": ""
+        },
+        {
+          "key": "2028",
+          "value": {
+            "date": "2028-04"
+          },
+          "status": "expected",
+          "source": "jyu-apply",
+          "where": "Timetable",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "Expected in early April."
+        },
+        {
+          "key": "2029",
+          "value": {
+            "date": "2029-04"
+          },
+          "status": "expected",
+          "source": "jyu-apply",
+          "where": "Timetable",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "Expected in early April."
+        },
+        {
+          "key": "2030",
+          "value": {
+            "date": "2030-04"
+          },
+          "status": "expected",
+          "source": "jyu-apply",
+          "where": "Timetable",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "Expected in early April."
+        },
+        {
+          "key": "2031",
+          "value": {
+            "date": "2031-04"
+          },
+          "status": "expected",
+          "source": "jyu-apply",
+          "where": "Timetable",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in early April."
+        },
+        {
+          "key": "2032",
+          "value": {
+            "date": "2032-04"
+          },
+          "status": "expected",
+          "source": "jyu-apply",
+          "where": "Timetable",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in early April."
+        }
+      ]
+    },
+    {
+      "id": "app.results.final",
+      "label": "Results for certificate-based admission (University of Jyväskylä)",
+      "kind": "date",
+      "keyedBy": "cycle",
+      "values": [
+        {
+          "key": "2027",
+          "value": {
+            "date": "2027-05-28"
+          },
+          "status": "confirmed",
+          "source": "jyu-apply",
+          "where": "Timetable: admission results for certificate-based admission",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Most certificate-based results come by the end of May 2027. Tampere and the University of Eastern Finland say by 31 May."
+        },
+        {
+          "key": "2028",
+          "value": {
+            "date": "2028-05"
+          },
+          "status": "expected",
+          "source": "oph-2026",
+          "where": "Section: results published at the end of May",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "Expected by the end of May."
+        },
+        {
+          "key": "2029",
+          "value": {
+            "date": "2029-05"
+          },
+          "status": "expected",
+          "source": "oph-2026",
+          "where": "Section: results published at the end of May",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "Expected by the end of May."
+        },
+        {
+          "key": "2030",
+          "value": {
+            "date": "2030-05"
+          },
+          "status": "expected",
+          "source": "oph-2026",
+          "where": "Section: results published at the end of May",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "Expected by the end of May."
+        },
+        {
+          "key": "2031",
+          "value": {
+            "date": "2031-05"
+          },
+          "status": "expected",
+          "source": "oph-2026",
+          "where": "Section: results published at the end of May",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected by the end of May."
+        },
+        {
+          "key": "2032",
+          "value": {
+            "date": "2032-05"
+          },
+          "status": "expected",
+          "source": "oph-2026",
+          "where": "Section: results published at the end of May",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected by the end of May."
+        }
+      ]
+    },
+    {
+      "id": "app.accept",
+      "label": "Last day to accept a study place (University of Jyväskylä)",
+      "kind": "date",
+      "keyedBy": "cycle",
+      "values": [
+        {
+          "key": "2027",
+          "value": {
+            "date": "2027-07-13"
+          },
+          "status": "confirmed",
+          "source": "jyu-apply",
+          "where": "Timetable: deadline for accepting your study place",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "The acceptance cannot be changed later."
+        },
+        {
+          "key": "2028",
+          "value": {
+            "date": "2028-07"
+          },
+          "status": "expected",
+          "source": "jyu-apply",
+          "where": "Timetable",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "Expected in July."
+        },
+        {
+          "key": "2029",
+          "value": {
+            "date": "2029-07"
+          },
+          "status": "expected",
+          "source": "jyu-apply",
+          "where": "Timetable",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "Expected in July."
+        },
+        {
+          "key": "2030",
+          "value": {
+            "date": "2030-07"
+          },
+          "status": "expected",
+          "source": "jyu-apply",
+          "where": "Timetable",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "Expected in July."
+        },
+        {
+          "key": "2031",
+          "value": {
+            "date": "2031-07"
+          },
+          "status": "expected",
+          "source": "jyu-apply",
+          "where": "Timetable",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in July."
+        },
+        {
+          "key": "2032",
+          "value": {
+            "date": "2032-07"
+          },
+          "status": "expected",
+          "source": "jyu-apply",
+          "where": "Timetable",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in July."
+        }
+      ]
+    },
+    {
+      "id": "term.helsinki.orientation",
+      "label": "Studies begin with orientation (University of Helsinki)",
+      "kind": "date",
+      "keyedBy": "cycle",
+      "values": [
+        {
+          "key": "2027",
+          "value": {
+            "date": "2027-08-30"
+          },
+          "status": "confirmed",
+          "source": "helsinki-calendar",
+          "where": "Table: Academic year 2027 to 2028, autumn term, intensive period",
+          "checked": "2026-10-03",
+          "verified": "2026-10-03",
+          "note": "The August intensive period, when orientation for new students is held. Courses start on 6 September 2027. The University of Helsinki asks new students to arrive in August when orientation begins. In 2026 the University of Jyväskylä held its orientation in the same week, from 24 August."
+        },
+        {
+          "key": "2028",
+          "value": {
+            "date": "2028-08"
+          },
+          "status": "expected",
+          "source": "helsinki-calendar",
+          "where": "Section: Academic terms, and the line on timetables confirmed up to 2031 to 2032",
+          "checked": "2026-10-03",
+          "verified": "2026-10-03",
+          "note": "Expected in late August, as on 24 August 2026 and 30 August 2027. The University of Helsinki has confirmed later timetables on its student intranet, which is not public. Month only."
+        },
+        {
+          "key": "2029",
+          "value": {
+            "date": "2029-08"
+          },
+          "status": "expected",
+          "source": "helsinki-calendar",
+          "where": "Section: Academic terms, and the line on timetables confirmed up to 2031 to 2032",
+          "checked": "2026-10-03",
+          "verified": "2026-10-03",
+          "note": "Expected in late August, as on 24 August 2026 and 30 August 2027. The University of Helsinki has confirmed later timetables on its student intranet, which is not public. Month only."
+        },
+        {
+          "key": "2030",
+          "value": {
+            "date": "2030-08"
+          },
+          "status": "expected",
+          "source": "helsinki-calendar",
+          "where": "Section: Academic terms, and the line on timetables confirmed up to 2031 to 2032",
+          "checked": "2026-10-03",
+          "verified": "2026-10-03",
+          "note": "Expected in late August, as on 24 August 2026 and 30 August 2027. The University of Helsinki has confirmed later timetables on its student intranet, which is not public. Month only."
+        },
+        {
+          "key": "2031",
+          "value": {
+            "date": "2031-08"
+          },
+          "status": "expected",
+          "source": "helsinki-calendar",
+          "where": "Section: Academic terms, and the line on timetables confirmed up to 2031 to 2032",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in late August, as on 24 August 2026 and 30 August 2027. The University of Helsinki has confirmed later timetables on its student intranet, which is not public. Month only."
+        },
+        {
+          "key": "2032",
+          "value": {
+            "date": "2032-08"
+          },
+          "status": "expected",
+          "source": "helsinki-calendar",
+          "where": "Section: Academic terms, and the line on timetables confirmed up to 2031 to 2032",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in late August, as on 24 August 2026 and 30 August 2027. The University of Helsinki has confirmed later timetables on its student intranet, which is not public. Month only."
+        }
+      ]
+    },
+    {
+      "id": "uas.exam",
+      "label": "International UAS Exam (universities of applied sciences)",
+      "kind": "date",
+      "keyedBy": "cycle",
+      "values": [
+        {
+          "key": "2026",
+          "value": {
+            "date": "2026-03-24"
+          },
+          "status": "confirmed",
+          "source": "savonia-exam",
+          "where": "Section: International UAS Exam",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "Taken online on the applicant's own computer, from 12:00 Finnish time."
+        },
+        {
+          "key": "2027",
+          "value": {
+            "date": "2027-03-23",
+            "time": "12:00",
+            "zone": "Europe/Helsinki"
+          },
+          "status": "confirmed",
+          "source": "uasinfo-exam",
+          "where": "Exam date",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Held once, online. Identity is checked in advance in a phone app from 10 to 12 March 2027, and the exam invitation comes by email by 22 March 2027."
+        },
+        {
+          "key": "2028",
+          "value": {
+            "date": "2028-03"
+          },
+          "status": "expected",
+          "source": "savonia-exam",
+          "where": "Section: International UAS Exam",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "Expected in late March or early April. Month only."
+        },
+        {
+          "key": "2029",
+          "value": {
+            "date": "2029-03"
+          },
+          "status": "expected",
+          "source": "savonia-exam",
+          "where": "Section: International UAS Exam",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "Expected in late March or early April. Month only."
+        },
+        {
+          "key": "2030",
+          "value": {
+            "date": "2030-03"
+          },
+          "status": "expected",
+          "source": "savonia-exam",
+          "where": "Section: International UAS Exam",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "Expected in late March or early April. Month only."
+        },
+        {
+          "key": "2031",
+          "value": {
+            "date": "2031-03"
+          },
+          "status": "expected",
+          "source": "savonia-exam",
+          "where": "Section: International UAS Exam",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in late March or early April. Month only."
+        },
+        {
+          "key": "2032",
+          "value": {
+            "date": "2032-03"
+          },
+          "status": "expected",
+          "source": "savonia-exam",
+          "where": "Section: International UAS Exam",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in late March or early April. Month only."
+        }
+      ]
+    },
+    {
+      "id": "uas.englishProof",
+      "label": "International UAS Exam: English proof",
+      "kind": "text",
+      "value": {
+        "text": "To be invited to the exam, applicants must prove their English with an internationally recognised test or previous studies."
+      },
+      "status": "confirmed",
+      "source": "uasinfo-exam",
+      "where": "Section on language requirements",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "So the plan has the English test result ready by the attachment deadline in late January."
+    },
+    {
+      "id": "permit.where",
+      "label": "Where Bangladeshi applicants apply for the residence permit",
+      "kind": "text",
+      "value": {
+        "text": "At the Finland Application Centre in New Delhi. Finland has no mission in Bangladesh, and the Embassy of Finland in New Delhi serves Bangladesh. Applicants prove their identity and give fingerprints there, and the permit card is delivered to the same place."
+      },
+      "status": "confirmed",
+      "source": "fi-abroad-bgd",
+      "where": "Sections: How to apply, Where to apply, and Finland does not have a mission in Bangladesh",
+      "checked": "2026-10-02",
+      "verified": "2026-10-02",
+      "note": "So the plan adds an Indian visa and a trip to New Delhi."
+    },
+    {
+      "id": "permit.dVisa",
+      "label": "D visa fast track for students",
+      "kind": "text",
+      "value": {
+        "text": "Students can be issued a D visa when applying for a residence permit for studies, as a fast track."
+      },
+      "status": "confirmed",
+      "source": "fi-abroad-bgd",
+      "where": "Section: Fast track for holders of a D visa",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Request it in the same online application as the residence permit, and only if you can travel within two weeks of the decision."
+    },
+    {
+      "id": "permit.funds",
+      "label": "Money needed in your account for the residence permit",
+      "kind": "money",
+      "value": {
+        "amount": 9600,
+        "currency": "EUR"
+      },
+      "status": "confirmed",
+      "source": "migri-income",
+      "where": "Section on the amount for studies of one year or more",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "800 EUR for each month, in your own account when you apply, with six months of statements. Money your parents or relatives put into your account is allowed, but Migri may ask where it came from. A sponsorship agreement in place of money in your account is not accepted."
+    },
+    {
+      "id": "permit.processing",
+      "label": "Residence permit processing time",
+      "kind": "duration",
+      "value": {
+        "max": 90,
+        "unit": "days"
+      },
+      "status": "reported",
+      "source": "uh-permit",
+      "where": "Section: Important to remember",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "The University of Helsinki's planning figure, which can be exceeded. Start straight after accepting your place and book the identity appointment first."
+    },
+    {
+      "id": "permit.fee",
+      "label": "Residence permit application fee",
+      "kind": "money",
+      "value": {
+        "currency": "EUR",
+        "variants": [
+          {
+            "label": "Online",
+            "amount": 600
+          },
+          {
+            "label": "On paper",
+            "amount": 750
+          }
+        ]
+      },
+      "status": "confirmed",
+      "source": "migri-fees",
+      "where": "Table of new fees: first residence permit for studies",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Since 1 January 2026."
+    },
+    {
+      "id": "uni.helsinki.qsRank",
+      "label": "QS World University Rankings 2027 position (University of Helsinki)",
+      "kind": "number",
+      "value": {
+        "number": 123
+      },
+      "status": "reported",
+      "source": "qs-2027",
+      "where": "University page: topuniversities.com/universities/university-helsinki",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Shared with another university, shown by QS as =123."
+    },
+    {
+      "id": "uni.aalto.qsRank",
+      "label": "QS World University Rankings 2027 position (Aalto)",
+      "kind": "number",
+      "value": {
+        "number": 126
+      },
+      "status": "reported",
+      "source": "qs-2027",
+      "where": "University page: topuniversities.com/universities/aalto-university",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Shared with another university, shown by QS as =126."
+    },
+    {
+      "id": "uni.oulu.qsRank",
+      "label": "QS World University Rankings 2027 position (University of Oulu)",
+      "kind": "number",
+      "value": {
+        "number": 360
+      },
+      "status": "reported",
+      "source": "qs-2027",
+      "where": "University page: topuniversities.com/universities/university-oulu",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Shared with another university, shown by QS as =360."
+    },
+    {
+      "id": "uni.lut.qsRank",
+      "label": "QS World University Rankings 2027 position (LUT)",
+      "kind": "number",
+      "value": {
+        "number": 390
+      },
+      "status": "reported",
+      "source": "qs-2027",
+      "where": "University page: topuniversities.com/universities/lut-university",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Shared with another university, shown by QS as =390."
+    },
+    {
+      "id": "uni.turku.qsRank",
+      "label": "QS World University Rankings 2027 position (University of Turku)",
+      "kind": "number",
+      "value": {
+        "number": 398
+      },
+      "status": "reported",
+      "source": "qs-2027",
+      "where": "University page: topuniversities.com/universities/university-turku",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Shared with another university, shown by QS as =398."
+    },
+    {
+      "id": "uni.tampere.qsRank",
+      "label": "QS World University Rankings 2027 position (Tampere University)",
+      "kind": "number",
+      "value": {
+        "number": 436
+      },
+      "status": "reported",
+      "source": "qs-2027",
+      "where": "University page: topuniversities.com/universities/tampere-university",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Shared with another university, shown by QS as =436."
+    },
+    {
+      "id": "uni.jyvaskyla.qsRank",
+      "label": "QS World University Rankings 2027 position (Jyväskylä)",
+      "kind": "number",
+      "value": {
+        "number": 521
+      },
+      "status": "reported",
+      "source": "qs-2027",
+      "where": "University page: topuniversities.com/universities/university-jyvaskyla",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Shared with another university, shown by QS as =521."
+    },
+    {
+      "id": "uni.uef.qsRank",
+      "label": "QS World University Rankings 2027 position (University of Eastern Finland)",
+      "kind": "number",
+      "value": {
+        "number": 626
+      },
+      "status": "reported",
+      "source": "qs-2027",
+      "where": "University page: topuniversities.com/universities/university-eastern-finland",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Shared with another university, shown by QS as =626."
+    },
+    {
+      "id": "uni.abo.qsRank",
+      "label": "QS World University Rankings 2027 position (Åbo Akademi)",
+      "kind": "number",
+      "value": {
+        "number": 670
+      },
+      "status": "reported",
+      "source": "qs-2027",
+      "where": "University page: topuniversities.com/universities/abo-akademi-university",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Shared with another university, shown by QS as =670."
+    },
+    {
+      "id": "uni.helsinki.programmes",
+      "label": "English bachelor's programmes (University of Helsinki)",
+      "kind": "text",
+      "value": {
+        "text": "The Bachelor's Programme in Science, and the Bachelor's Programme in Liberal Arts and Sciences."
+      },
+      "status": "confirmed",
+      "source": "uh-apply",
+      "where": "List of English-taught programmes",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.helsinki.route",
+      "label": "Admission group for school certificates from Bangladesh (University of Helsinki)",
+      "kind": "text",
+      "value": {
+        "text": "Applicants without the Finnish matriculation examination, IB, EB or a Reifeprüfung or DIA completed in Finland are in admission group 1, on SAT or ACT scores, applying from 5 to 19 January 2027. You cannot choose your group."
+      },
+      "status": "confirmed",
+      "source": "uh-apply",
+      "where": "Section on which admission group you are in",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "The university says its instructions for 2027 will be updated by the end of October 2026, so this is checked again in November."
+    },
+    {
+      "id": "uni.helsinki.satCutoff",
+      "label": "SAT scores in 2025, Bachelor's Programme in Science (University of Helsinki)",
+      "kind": "text",
+      "value": {
+        "text": "In spring 2025 the SAT group had 276 applicants and 73 were accepted. The minimum score, set by the Dean, was 1480."
+      },
+      "status": "confirmed",
+      "source": "uh-stats",
+      "where": "Table for admission group 1",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "A past year's figure, shown so you can judge how competitive the programme is."
+    },
+    {
+      "id": "uni.aalto.route",
+      "label": "Admission for applicants with A levels or HSC (Aalto)",
+      "kind": "text",
+      "value": {
+        "text": "A levels and other school certificates from outside Finland are in admission round A, on SAT or ACT scores only. They cannot be considered in certificate-based admission."
+      },
+      "status": "confirmed",
+      "source": "aalto-admission",
+      "where": "Section on admission rounds",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.aalto.satMinimum",
+      "label": "SAT and ACT minimums (Aalto)",
+      "kind": "text",
+      "value": {
+        "text": "Economics, Finance and International Business: an SAT total of at least 1200, or an ACT composite of 25. Science and Technology, and Technology, Business and Design: an SAT total of at least 1350 with at least 700 in Math, or an ACT composite of 29 with at least 30 in Math. Only tests taken on or after 1 January 2025 count."
+      },
+      "status": "confirmed",
+      "source": "aalto-hsd",
+      "where": "Section on SAT and ACT requirements",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.aalto.programmes",
+      "label": "English bachelor's programmes (Aalto)",
+      "kind": "text",
+      "value": {
+        "text": "Economics; Finance; International Business at the Mikkeli campus; Science and Technology, with options in chemical engineering, computer engineering, data science, digital systems and design, mechanical and civil engineering, and quantum technology; and Technology, Business and Design."
+      },
+      "status": "confirmed",
+      "source": "aalto-hsd",
+      "where": "Programme list",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.turku.route",
+      "label": "SAT requirement, Information and Communication Technology (University of Turku)",
+      "kind": "text",
+      "value": {
+        "text": "Applicants with HSC or A levels apply in group I with the SAT. The minimum is 1150 in total and 600 in Math, and the result may be no more than two years old."
+      },
+      "status": "confirmed",
+      "source": "utu-ict",
+      "where": "Admission criteria",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.turku.programmes",
+      "label": "English bachelor's programmes (University of Turku)",
+      "kind": "text",
+      "value": {
+        "text": "Information and Communication Technology, and Sustainable and Social Entrepreneurship."
+      },
+      "status": "confirmed",
+      "source": "utu-fees",
+      "where": "Fee list for bachelor's programmes",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.tampere.route",
+      "label": "Admission group for applicants with HSC or A levels (Tampere University)",
+      "kind": "text",
+      "value": {
+        "text": "Applicants with school certificates from outside Finland apply in group I, with SAT or ACT scores. Group II is for the Finnish matriculation examination, and IB, EB and RP/DIA completed in Finland. Superscores are not accepted."
+      },
+      "status": "confirmed",
+      "source": "tuni-eligibility",
+      "where": "Sections on admission groups and SAT scores",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.tampere.satDates",
+      "label": "Which SAT sittings count (Tampere University)",
+      "kind": "text",
+      "value": {
+        "text": "Only SAT or ACT tests taken after 1 January 2025 count, and the December 2026 test date is the last one for the January 2027 application."
+      },
+      "status": "confirmed",
+      "source": "tuni-applying",
+      "where": "Section on SAT and ACT",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.tampere.satScores",
+      "label": "Lowest SAT scores admitted in 2026 (Tampere University)",
+      "kind": "text",
+      "value": {
+        "text": "In 2026, the lowest SAT scores admitted in group I included 1210 in Administrative Sciences and in Technology, and 1250 in Social Sciences. Some programmes combined the SAT with a video."
+      },
+      "status": "confirmed",
+      "source": "tuni-stats",
+      "where": "Tables for group I",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "A past year's figure, shown so you can judge how competitive the programmes are."
+    },
+    {
+      "id": "uni.tampere.programmes",
+      "label": "English bachelor's programmes (Tampere University)",
+      "kind": "text",
+      "value": {
+        "text": "Eleven programmes: six in Science and Engineering (Automation and Robotics, Biomedical Engineering, Chemistry, Engineering Physics, Environmental Engineering, and Materials Science), Computing Sciences and Electrical Engineering, three on Sustainable Urban Development (Administrative Sciences, Social Sciences, and Technology), and Socially Sustainable Societies."
+      },
+      "status": "confirmed",
+      "source": "tuni-programmes",
+      "where": "Programme list",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.oulu.route",
+      "label": "Admission for applicants with HSC or A levels (University of Oulu)",
+      "kind": "text",
+      "value": {
+        "text": "The three technology programmes accept the SAT only, not the ACT. International Business Management accepts both SAT and ACT results."
+      },
+      "status": "confirmed",
+      "source": "oulu-sat",
+      "where": "SAT test results section",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.oulu.programmes",
+      "label": "English bachelor's programmes (University of Oulu)",
+      "kind": "text",
+      "value": {
+        "text": "Computer Science and Engineering; Electronics and Communications Engineering; Software Engineering and Information Systems; and International Business Management."
+      },
+      "status": "confirmed",
+      "source": "oulu-apply",
+      "where": "Programme list",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.jyvaskyla.programmes",
+      "label": "English bachelor's programmes (University of Jyväskylä)",
+      "kind": "text",
+      "value": {
+        "text": "Business Innovation and Sustainability; Immersive Software Engineering and Artificial Intelligence; and Early Childhood Education (EarlyEdu), taught in English with Finnish built into the programme."
+      },
+      "status": "confirmed",
+      "source": "jyu-programmes",
+      "where": "Programme list",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "EarlyEdu qualifies students to work as early childhood education teachers in Finland. The university says the Finnish level needed for that work cannot be guaranteed by the end of the studies."
+    },
+    {
+      "id": "uni.lut.programmes",
+      "label": "English bachelor's programmes (LUT)",
+      "kind": "text",
+      "value": {
+        "text": "Fifteen programmes: thirteen in engineering and technology, including software, energy, electrical, mechanical, chemical and civil engineering and computational science, four of them double degrees with Hebei University of Technology, and two in business."
+      },
+      "status": "confirmed",
+      "source": "lut-programmes",
+      "where": "Programme list",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.lut.rolling",
+      "label": "Rolling admission (LUT)",
+      "kind": "window",
+      "keyedBy": "cycle",
+      "values": [
+        {
+          "key": "2027",
+          "value": {
+            "from": "2026-09-01",
+            "to": "2027-04-30"
+          },
+          "status": "confirmed",
+          "source": "lut-programmes",
+          "where": "Application period",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Places go to applicants who meet every requirement, while places remain. Results come within a month of a complete application."
+        },
+        {
+          "key": "2028",
+          "value": {
+            "from": "2027-09",
+            "to": "2028-04"
+          },
+          "status": "expected",
+          "source": "lut-programmes",
+          "where": "Application period",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected to run from September to April, as for 2027 entry. Month only."
+        },
+        {
+          "key": "2029",
+          "value": {
+            "from": "2028-09",
+            "to": "2029-04"
+          },
+          "status": "expected",
+          "source": "lut-programmes",
+          "where": "Application period",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected to run from September to April, as for 2027 entry. Month only."
+        },
+        {
+          "key": "2030",
+          "value": {
+            "from": "2029-09",
+            "to": "2030-04"
+          },
+          "status": "expected",
+          "source": "lut-programmes",
+          "where": "Application period",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected to run from September to April, as for 2027 entry. Month only."
+        },
+        {
+          "key": "2031",
+          "value": {
+            "from": "2030-09",
+            "to": "2031-04"
+          },
+          "status": "expected",
+          "source": "lut-programmes",
+          "where": "Application period",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected to run from September to April, as for 2027 entry. Month only."
+        },
+        {
+          "key": "2032",
+          "value": {
+            "from": "2031-09",
+            "to": "2032-04"
+          },
+          "status": "expected",
+          "source": "lut-programmes",
+          "where": "Application period",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected to run from September to April, as for 2027 entry. Month only."
+        }
+      ]
+    },
+    {
+      "id": "uni.lut.route",
+      "label": "Admission with HSC or other national certificates (LUT)",
+      "kind": "text",
+      "value": {
+        "text": "Your school certificate must give university eligibility in your home country and be completed by 31 August 2027. Then meet either LUT's grade requirements or its maths test or SAT requirement. Business: an overall grade average of 80% and 70% in standard maths. Technology: an overall average of 70%, 80% in advanced maths (90% for Computational Science and Artificial Intelligence) and 80% in physics or chemistry depending on the programme; or 60% in LUT's online maths test. Both: or an SAT of 1300 with at least 600 in Reading and Writing and 700 in Math, or an ACT of 28 with 30 in Math."
+      },
+      "status": "confirmed",
+      "source": "lut-criteria",
+      "where": "Entry requirement tables",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "LUT's tables are labelled 2026 entry requirements and may change for 2027 entry."
+    },
+    {
+      "id": "uni.lut.alevels",
+      "label": "Admission with A levels (LUT)",
+      "kind": "text",
+      "value": {
+        "text": "At least three A levels at BBC. Technology needs maths at C or better and a pass in physics or chemistry, depending on the programme. Business needs maths at C at A level or B at AS level. Cambridge and Pearson Edexcel are accepted."
+      },
+      "status": "confirmed",
+      "source": "lut-alevel",
+      "where": "Entry requirement tables",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "LUT's tables are labelled 2026 entry requirements and may change for 2027 entry."
+    },
+    {
+      "id": "uni.lut.english",
+      "label": "English requirement (LUT)",
+      "kind": "text",
+      "value": {
+        "text": "IELTS Academic 6.5 with at least 6.0 in writing and speaking; TOEFL iBT 4.5 with 4 in writing and speaking (90 with 22 on the old scale); or PTE Academic 62 with 54 in writing and speaking. A level students with GCSE English at grade C as a first language, or B as a second language, need no test."
+      },
+      "status": "confirmed",
+      "source": "lut-criteria",
+      "where": "Language requirements",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "The GCSE rule is on LUT's page for A level applicants."
+    },
+    {
+      "id": "uni.uef.examRoute",
+      "label": "Entrance exam route, Social Sciences (University of Eastern Finland)",
+      "kind": "text",
+      "value": {
+        "text": "Apply from 7 to 21 January 2027. Selection is by an online entrance exam with written and video tasks, taken between 8 March and 9 April 2027, and a compulsory online interview. No SAT is needed. 25 places are filled this way."
+      },
+      "status": "confirmed",
+      "source": "uef-socsci",
+      "where": "Admission section",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.uef.dataSat",
+      "label": "SAT requirement, Data Engineering (University of Eastern Finland)",
+      "kind": "text",
+      "value": {
+        "text": "The SAT group needs a total of at least 1250 and at least 650 in Math, together with a video."
+      },
+      "status": "confirmed",
+      "source": "uef-data",
+      "where": "Admission section",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.uef.programmes",
+      "label": "English bachelor's programmes (University of Eastern Finland)",
+      "kind": "text",
+      "value": {
+        "text": "Eight programmes, including Data Engineering, Information Technology, Social Sciences, Human and Planetary Health, and Sustainable Forest Bioeconomy."
+      },
+      "status": "confirmed",
+      "source": "uef-intl",
+      "where": "Programme list",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.abo.language",
+      "label": "Language of bachelor's programmes (Åbo Akademi)",
+      "kind": "text",
+      "value": {
+        "text": "All bachelor's programmes at Åbo Akademi are taught in Swedish, and applicants must prove sufficient Swedish. Applications run from 9 to 23 March 2027."
+      },
+      "status": "confirmed",
+      "source": "abo-guide",
+      "where": "Opening section",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.helsinki.english",
+      "label": "English requirement (University of Helsinki)",
+      "kind": "text",
+      "value": {
+        "text": "IELTS Academic 6.5 with at least 6.0 in every section, TOEFL iBT 4.5 with at least 4 in every section (92 on the old scale), PTE Academic 68, or Cambridge C1 Advanced or C2 Proficiency. An SAT score of at least 550 in Evidence-Based Reading and Writing also counts. Schooling in English counts only in the Nordic countries, Australia, Canada, Ireland, New Zealand, the UK and the USA."
+      },
+      "status": "confirmed",
+      "source": "uh-english",
+      "where": "Lists of accepted tests and previous education",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Test results are valid for two years and must stay valid while the application is processed."
+    },
+    {
+      "id": "uni.aalto.english",
+      "label": "English requirement (Aalto)",
+      "kind": "text",
+      "value": {
+        "text": "Applicants are expected to have English good enough to study in it, and are not required to submit a language test result."
+      },
+      "status": "confirmed",
+      "source": "aalto-hsd",
+      "where": "Section on language requirements",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.turku.english",
+      "label": "English requirement, SAT applicants (University of Turku)",
+      "kind": "text",
+      "value": {
+        "text": "Applicants selected through the SAT do not have to provide a separate certificate of English."
+      },
+      "status": "confirmed",
+      "source": "utu-ict",
+      "where": "Section on language requirements",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.tampere.english",
+      "label": "English requirement (Tampere University)",
+      "kind": "text",
+      "value": {
+        "text": "Applicants admitted on SAT or ACT scores in group I need no further proof of English. The tests accepted otherwise include IELTS Academic 6.0 with at least 5.5 in writing, TOEFL iBT 4 with no section below 3.5 (78 on the old scale), and PTE Academic 62 with at least 61 in writing."
+      },
+      "status": "confirmed",
+      "source": "tuni-language",
+      "where": "Sections on SAT and ACT and on language tests",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.jyvaskyla.english",
+      "label": "English requirement (University of Jyväskylä)",
+      "kind": "text",
+      "value": {
+        "text": "In Business Innovation and Sustainability, a qualifying SAT or ACT score also proves English. The tests accepted otherwise include IELTS 6.0 with no band below 5.5, TOEFL iBT 4 with no section below 3.5, and PTE Academic 62 with at least 61 in writing. In Immersive Software Engineering and Artificial Intelligence, English is assessed only in the programme's own assessment."
+      },
+      "status": "confirmed",
+      "source": "jyu-english",
+      "where": "Whole page",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.oulu.english",
+      "label": "English requirement (University of Oulu)",
+      "kind": "text",
+      "value": {
+        "text": "SAT and ACT results are one of the accepted ways to prove English. The tests accepted include IELTS 6.0 with at least 5.5 in each section, TOEFL iBT 4.0 with at least 3.5 in each section, and PTE Academic 62 with at least 61 in writing."
+      },
+      "status": "confirmed",
+      "source": "oulu-english",
+      "where": "Lists of accepted proof",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.uef.english",
+      "label": "English requirement (University of Eastern Finland)",
+      "kind": "text",
+      "value": {
+        "text": "IELTS Academic 6.0 with at least 5.5 in every part, TOEFL iBT 4 with no part below 3.5, or PTE Academic 62 with at least 61 in writing. SAT scores also prove English only in Data Engineering and in Human and Planetary Health."
+      },
+      "status": "confirmed",
+      "source": "uef-english",
+      "where": "Lists of accepted tests and exemptions",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "tuition.helsinki",
+      "label": "Tuition fee per year, English bachelor's programmes (University of Helsinki)",
+      "kind": "money",
+      "keyedBy": "academicYear",
+      "values": [
+        {
+          "key": "2027",
+          "value": {
+            "amount": 13000,
+            "currency": "EUR"
+          },
+          "status": "confirmed",
+          "source": "uh-las",
+          "where": "Tuition fee section",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "tuition.aalto",
+      "label": "Tuition fee per year (Aalto)",
+      "kind": "money",
+      "keyedBy": "academicYear",
+      "values": [
+        {
+          "key": "2027",
+          "value": {
+            "currency": "EUR",
+            "variants": [
+              {
+                "label": "Business, technology, and technology, business and design",
+                "amount": 12000
+              },
+              {
+                "label": "Art and architecture",
+                "amount": 15000
+              }
+            ]
+          },
+          "status": "confirmed",
+          "source": "aalto-fees",
+          "where": "Fee table",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Aalto's table applies to study rights beginning on or after 1 August 2025, and Aalto can change its fees."
+        }
+      ]
+    },
+    {
+      "id": "tuition.turku",
+      "label": "Tuition fee per year (University of Turku)",
+      "kind": "money",
+      "keyedBy": "academicYear",
+      "values": [
+        {
+          "key": "2027",
+          "value": {
+            "amount": 10000,
+            "currency": "EUR"
+          },
+          "status": "confirmed",
+          "source": "utu-ict",
+          "where": "Tuition fee",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "For both English bachelor's programmes."
+        }
+      ]
+    },
+    {
+      "id": "tuition.tampere",
+      "label": "Tuition fee per year (Tampere University)",
+      "kind": "money",
+      "keyedBy": "academicYear",
+      "values": [
+        {
+          "key": "2027",
+          "value": {
+            "amount": 10000,
+            "currency": "EUR"
+          },
+          "status": "confirmed",
+          "source": "tuni-fees",
+          "where": "Tuition fees for students admitted in 2027",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "For every bachelor's programme."
+        }
+      ]
+    },
+    {
+      "id": "tuition.oulu",
+      "label": "Tuition fee per year (University of Oulu)",
+      "kind": "money",
+      "keyedBy": "academicYear",
+      "values": [
+        {
+          "key": "2027",
+          "value": {
+            "amount": 10000,
+            "currency": "EUR"
+          },
+          "status": "confirmed",
+          "source": "oulu-fees",
+          "where": "Fees for programmes starting in autumn 2027",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "tuition.jyvaskyla",
+      "label": "Tuition fee per year (University of Jyväskylä)",
+      "kind": "money",
+      "keyedBy": "academicYear",
+      "values": [
+        {
+          "key": "2027",
+          "value": {
+            "currency": "EUR",
+            "variants": [
+              {
+                "label": "Business Innovation and Sustainability, and Early Childhood Education",
+                "amount": 10000
+              },
+              {
+                "label": "Immersive Software Engineering and Artificial Intelligence",
+                "amount": 16000
+              }
+            ]
+          },
+          "status": "confirmed",
+          "source": "jyu-fees",
+          "where": "Tuition fees for international degree programmes in 2027",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "tuition.lut",
+      "label": "Tuition fee per year (LUT)",
+      "kind": "money",
+      "keyedBy": "academicYear",
+      "values": [
+        {
+          "key": "2027",
+          "value": {
+            "amount": 12000,
+            "currency": "EUR"
+          },
+          "status": "confirmed",
+          "source": "lut-programmes",
+          "where": "Tuition fee",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "The same in every English bachelor's programme."
+        }
+      ]
+    },
+    {
+      "id": "tuition.uef",
+      "label": "Tuition fee per year (University of Eastern Finland)",
+      "kind": "money",
+      "keyedBy": "academicYear",
+      "values": [
+        {
+          "key": "2027",
+          "value": {
+            "amount": 10000,
+            "currency": "EUR"
+          },
+          "status": "confirmed",
+          "source": "uef-intl",
+          "where": "Tuition fee",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "It stays the same for the whole degree."
+        }
+      ]
+    },
+    {
+      "id": "tuition.metropolia",
+      "label": "Tuition fee per year (Metropolia University of Applied Sciences)",
+      "kind": "money",
+      "keyedBy": "academicYear",
+      "values": [
+        {
+          "key": "2027",
+          "value": {
+            "currency": "EUR",
+            "variants": [
+              {
+                "label": "Most programmes",
+                "amount": 11500
+              },
+              {
+                "label": "Game, design and fashion programmes",
+                "amount": 12000
+              }
+            ]
+          },
+          "status": "confirmed",
+          "source": "metropolia-fees",
+          "where": "Fees for study rights starting after 31 July 2027",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "tuition.haagahelia",
+      "label": "Tuition fee per year (Haaga-Helia University of Applied Sciences)",
+      "kind": "money",
+      "keyedBy": "academicYear",
+      "values": [
+        {
+          "key": "2027",
+          "value": {
+            "amount": 11000,
+            "currency": "EUR"
+          },
+          "status": "confirmed",
+          "source": "haagahelia-fees",
+          "where": "Bachelor's degree programmes",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "For students starting from 1 August 2025."
+        }
+      ]
+    },
+    {
+      "id": "tuition.tamk",
+      "label": "Tuition fee per year (Tampere University of Applied Sciences)",
+      "kind": "money",
+      "keyedBy": "academicYear",
+      "values": [
+        {
+          "key": "2027",
+          "value": {
+            "amount": 12000,
+            "currency": "EUR"
+          },
+          "status": "reported",
+          "source": "tamk-fees",
+          "where": "Tuition fee",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "The page gives no intake year."
+        }
+      ]
+    },
+    {
+      "id": "tuition.turkuamk",
+      "label": "Tuition fee per year (Turku University of Applied Sciences)",
+      "kind": "money",
+      "keyedBy": "academicYear",
+      "values": [
+        {
+          "key": "2027",
+          "value": {
+            "amount": 12000,
+            "currency": "EUR"
+          },
+          "status": "confirmed",
+          "source": "turkuamk-fees",
+          "where": "Tuition fee",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "For programmes starting in January 2026 or later."
+        }
+      ]
+    },
+    {
+      "id": "aid.helsinki",
+      "label": "Scholarships for English bachelor's students (University of Helsinki)",
+      "kind": "text",
+      "value": {
+        "text": "There are no tuition fee waivers for English bachelor's degrees. Second and third year students may receive a Dean's award of 1,000 EUR for strong study results."
+      },
+      "status": "confirmed",
+      "source": "uh-fees",
+      "where": "Scholarship section",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "aid.aalto",
+      "label": "Scholarships and discounts (Aalto)",
+      "kind": "text",
+      "value": {
+        "text": "The competitive Aalto University Excellence Scholarship covers the full tuition fee for the three years of a bachelor's degree, but not living costs, and is applied for in the admission application form. Without it, students who accept their place and pay within 21 days receive 25% off the first year's fee."
+      },
+      "status": "confirmed",
+      "source": "aalto-fees",
+      "where": "Scholarship and first-year discount sections",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "aid.turku",
+      "label": "Scholarships for students admitted from 2026 (University of Turku)",
+      "kind": "text",
+      "value": {
+        "text": "No first-year scholarship. A 50% scholarship for the second and third years goes to every student who completes 55 credits in the first year (110 after two years) with an average grade of at least 3 out of 5, and at least 4 credits of Finnish."
+      },
+      "status": "confirmed",
+      "source": "utu-fees",
+      "where": "Scholarship section",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "aid.tampere",
+      "label": "Scholarships and discounts (Tampere University)",
+      "kind": "text",
+      "value": {
+        "text": "A selective scholarship covers 50% of tuition for the whole programme and is applied for in the same Studyinfo application as admission. Not every programme offers it, and only nine were awarded in 2026 across all bachelor's and master's programmes. Without it, accepting and paying within 21 days takes 2,000 EUR off the first year."
+      },
+      "status": "confirmed",
+      "source": "tuni-fees",
+      "where": "Scholarship and early bird sections",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "aid.oulu",
+      "label": "Scholarships (University of Oulu)",
+      "kind": "text",
+      "value": {
+        "text": "From the second year, a 30% fee waiver in the three technology programmes (7,000 EUR a year) and 20% in International Business Management (8,000 EUR). Oulu also has a first-year early bird discount, whose amount is on its page."
+      },
+      "status": "confirmed",
+      "source": "oulu-fees",
+      "where": "Scholarship section",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "aid.jyvaskyla",
+      "label": "Scholarships and discounts (University of Jyväskylä)",
+      "kind": "text",
+      "value": {
+        "text": "No first-year scholarship, and no fully funded scholarships. Accepting within 14 days takes 1,500 EUR off the first year. For the second and third years, students who complete at least 55 credits a year can apply for 3,000 EUR off a 10,000 EUR fee, or 6,000 EUR off a 16,000 EUR fee."
+      },
+      "status": "confirmed",
+      "source": "jyu-fees",
+      "where": "Scholarship section",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "aid.lut",
+      "label": "Scholarships and discounts (LUT)",
+      "kind": "text",
+      "value": {
+        "text": "An early bird discount of 2,000 EUR off the first year, except in the double-degree programmes. 3,000 EUR for the second year after at least 60 credits in the first year, and 3,000 EUR for the third year after at least 120 credits."
+      },
+      "status": "confirmed",
+      "source": "lut-scholarships",
+      "where": "Scholarship section",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "aid.uef",
+      "label": "Scholarships and discounts (University of Eastern Finland)",
+      "kind": "text",
+      "value": {
+        "text": "Paying within 21 days of the result takes 30% off the first year. For the second and third years, a 30% waiver after at least 55 credits in the first year, applied for separately. A one-time Finnish award of 2,500 EUR for a Finnish language certificate, or 1,500 EUR for Finnish studies completed at the university."
+      },
+      "status": "confirmed",
+      "source": "uef-fees",
+      "where": "Early bird and scholarship sections",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "The university says the waiver values change from the 2027 to 2028 academic year.",
+      "changesOften": true
+    },
+    {
+      "id": "aid.metropolia",
+      "label": "Discounts and scholarships (Metropolia University of Applied Sciences)",
+      "kind": "text",
+      "value": {
+        "text": "An early bird discount of 1,000 EUR for students who accept within 14 days and pay on time. Later scholarships depend on passing a Finnish language test."
+      },
+      "status": "confirmed",
+      "source": "metropolia-fees",
+      "where": "Early bird and scholarship sections",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "aid.haagahelia",
+      "label": "Discounts and scholarships (Haaga-Helia University of Applied Sciences)",
+      "kind": "text",
+      "value": {
+        "text": "An early bird discount of 2,000 EUR off the first year. Later scholarships of 2,000 EUR or 3,500 EUR need a passed Finnish YKI test at level 2 or 3 and at least 60 or 120 credits."
+      },
+      "status": "confirmed",
+      "source": "haagahelia-fees",
+      "where": "Scholarship section",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "aid.tamk",
+      "label": "Scholarships (Tampere University of Applied Sciences)",
+      "kind": "text",
+      "value": {
+        "text": "A 50% waiver for the first year for students who accept within 14 days and pay the first instalment. Later, 25% for 60 credits a year, or 50% for 60 credits and a Finnish YKI result."
+      },
+      "status": "confirmed",
+      "source": "tamk-fees",
+      "where": "Scholarship section",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "aid.turkuamk",
+      "label": "Discounts and scholarships (Turku University of Applied Sciences)",
+      "kind": "text",
+      "value": {
+        "text": "An early bird discount of 1,000 EUR for students who accept within 14 days and pay within 30. A Finnish language scholarship of 4,000 EUR, awarded in stages as you pass YKI tests at levels 2, 3 and 4."
+      },
+      "status": "reported",
+      "source": "turkuamk-fees",
+      "where": "Scholarship section",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "The page does not say whether the 4,000 EUR is the total or the amount for each stage."
+    },
+    {
+      "id": "aid.noGovernmentScholarships",
+      "label": "Finnish government scholarships for bachelor's study",
+      "kind": "text",
+      "value": {
+        "text": "There are no Finnish government scholarships for bachelor's or master's studies. Posts claiming fully funded government scholarships are misleading."
+      },
+      "status": "confirmed",
+      "source": "sif-scholarships",
+      "where": "Opening paragraphs",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "system.uasDifference",
+      "label": "Universities and universities of applied sciences",
+      "kind": "text",
+      "value": {
+        "text": "Universities focus on academic learning and scientific research. Universities of applied sciences focus on practical, career-oriented study."
+      },
+      "status": "confirmed",
+      "source": "sif-faq",
+      "where": "Answer on the two kinds of institution",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "system.uasLength",
+      "label": "Length of a bachelor's degree at a university of applied sciences",
+      "kind": "text",
+      "value": {
+        "text": "210, 240 or 270 credits, with a recommended length of 3.5 to 4.5 years. Practical training is part of the degree. Finland has 24 universities of applied sciences."
+      },
+      "status": "confirmed",
+      "source": "uasinfo-studying",
+      "where": "Studying section",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "system.uniLength",
+      "label": "Length of a bachelor's degree (Aalto)",
+      "kind": "text",
+      "value": {
+        "text": "A bachelor's degree is three years of full-time study."
+      },
+      "status": "confirmed",
+      "source": "aalto-fees",
+      "where": "Section on the Excellence Scholarship and the normative study period",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "system.uasMaster",
+      "label": "Master's study after a degree from a university of applied sciences",
+      "kind": "text",
+      "value": {
+        "text": "A bachelor's degree from a university of applied sciences is equivalent to a university bachelor's degree. A master's degree at a university of applied sciences needs two years of work experience after the bachelor's."
+      },
+      "status": "confirmed",
+      "source": "okm-degrees",
+      "where": "Section on degrees",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "system.finnishTaughtFree",
+      "label": "Tuition for programmes taught in Finnish or Swedish",
+      "kind": "text",
+      "value": {
+        "text": "Under Finland's Universities Act, tuition fees apply to bachelor's and master's programmes taught in a language other than Finnish or Swedish. A student whose language of study changes to Finnish or Swedish no longer pays them."
+      },
+      "status": "confirmed",
+      "source": "uniarts-fees",
+      "where": "Who pays tuition fees",
+      "checked": "2026-10-24",
+      "verified": "2026-10-24",
+      "note": ""
+    },
+    {
+      "id": "system.finnishLevel",
+      "label": "Finnish needed for a Finnish-taught degree (University of Turku)",
+      "kind": "text",
+      "value": {
+        "text": "Applicants whose schooling was not in Finnish need level 4 in every part of the Finnish YKI test, or the state language exam at the good level."
+      },
+      "status": "confirmed",
+      "source": "utu-language",
+      "where": "Section on Finnish",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uas.hscEligible",
+      "label": "HSC for universities of applied sciences",
+      "kind": "text",
+      "value": {
+        "text": "The Higher Secondary Certificate, the Alim certificate and the BTEB Diploma in Engineering give eligibility. Send the certificate and the mark sheet or transcript."
+      },
+      "status": "confirmed",
+      "source": "jamk-eligibility",
+      "where": "Country list, Bangladesh",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "The shared eligibility list of Centria, Jamk, Oamk, SeAMK, TAMK and Xamk. Haaga-Helia's list says the same."
+    },
+    {
+      "id": "uas.alevels",
+      "label": "A levels for universities of applied sciences",
+      "kind": "text",
+      "value": {
+        "text": "At least 2 A level subjects with a pass, or at least 4 AS levels."
+      },
+      "status": "confirmed",
+      "source": "jamk-eligibility",
+      "where": "Country list, GCE A levels",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uas.englishTests",
+      "label": "English tests for universities of applied sciences",
+      "kind": "text",
+      "value": {
+        "text": "IELTS Academic 6.0, TOEFL iBT 3.5 on the new scale (60 on the old), PTE Academic 55, a Cambridge English Scale score of 169, TELC B2-C1 or Oxford ELLT 6.0. The Duolingo English Test is not accepted. Schooling in Bangladesh, including A levels taken there, does not count as previous study in English."
+      },
+      "status": "confirmed",
+      "source": "uasinfo-language",
+      "where": "Accepted tests and the list of countries for previous studies",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uas.examFormat",
+      "label": "International UAS Exam: format",
+      "kind": "text",
+      "value": {
+        "text": "Taken online on your own computer, not a phone, under remote supervision. Every applicant sits reasoning and English sections, most fields add maths, technology adds advanced maths and physics, and health and social fields add short ethical and emotional intelligence sections. You must pass every section."
+      },
+      "status": "confirmed",
+      "source": "uasinfo-sections",
+      "where": "Exam sections",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "app.choices",
+      "label": "How many programmes you can apply to",
+      "kind": "text",
+      "value": {
+        "text": "You can apply to up to six programmes with one application form, and you can be offered more than one study place."
+      },
+      "status": "confirmed",
+      "source": "sif-joint-jan2026",
+      "where": "How the joint application works",
+      "checked": "2026-10-24",
+      "verified": "2026-10-24",
+      "note": "You may accept only one of the places offered."
+    },
+    {
+      "id": "app.onePlace",
+      "label": "Accepting a study place",
+      "kind": "text",
+      "value": {
+        "text": "You may accept only one study place leading to a degree, starting in the same term, anywhere in Finnish higher education."
+      },
+      "status": "confirmed",
+      "source": "savonia-oneplace",
+      "where": "Whole page",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "app.feePayment",
+      "label": "Paying the application fee",
+      "kind": "text",
+      "value": {
+        "text": "A payment link arrives by email after you apply, and you have seven days to pay. If you do not pay, your application is not processed. One payment covers every application for studies starting in the same term."
+      },
+      "status": "confirmed",
+      "source": "jyu-faq",
+      "where": "Answer on the application fee",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "app.autumnRound",
+      "label": "The autumn joint application, for studies starting in January",
+      "kind": "text",
+      "value": {
+        "text": "A second joint application in autumn, for studies starting in January, has a limited number of English-taught programmes. In 2026 it ran from 31 August to 10 September."
+      },
+      "status": "confirmed",
+      "source": "sif-joint",
+      "where": "Section on the autumn joint application",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "stats.bangladesh",
+      "label": "Bangladeshi students admitted in 2026",
+      "kind": "text",
+      "value": {
+        "text": "In the first joint application of spring 2026, 8% of the applicants offered a place were from Bangladesh. After Finns, only Pakistanis, at 9%, were a larger group."
+      },
+      "status": "confirmed",
+      "source": "oph-2026-admitted",
+      "where": "Section on nationalities",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "permit.tuitionMoney",
+      "label": "Tuition money for the residence permit",
+      "kind": "text",
+      "value": {
+        "text": "If your tuition fee is not yet paid, the money for it must also be in your bank account when you apply, on top of the living money. If it is paid or waived, attach the proof."
+      },
+      "status": "confirmed",
+      "source": "migri-permit-app",
+      "where": "Section on tuition fees",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "permit.insurance",
+      "label": "Health insurance for the residence permit",
+      "kind": "text",
+      "value": {
+        "text": "For studies of two years or more, insurance covering medicine costs up to at least 40,000 EUR. For shorter studies, insurance covering medical costs up to at least 120,000 EUR. The excess may be at most 300 EUR, and ordinary travel insurance is not accepted."
+      },
+      "status": "confirmed",
+      "source": "migri-insurance",
+      "where": "Section for students",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "permit.processingShare",
+      "label": "How fast student permits are decided",
+      "kind": "text",
+      "value": {
+        "text": "Student applications are handled as urgent. In May 2026, about 61% of first residence permits for studies were decided within 30 days."
+      },
+      "status": "confirmed",
+      "source": "migri-processing",
+      "where": "Opening paragraphs",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "",
+      "changesOften": true
+    },
+    {
+      "id": "permit.vfsFee",
+      "label": "Service fee at the Finland Application Centre in New Delhi",
+      "kind": "money",
+      "value": {
+        "amount": 20,
+        "currency": "EUR"
+      },
+      "status": "reported",
+      "source": "vfs-delhi",
+      "where": "Fee section",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Paid on top of Migri's fee, in Indian rupees."
+    },
+    {
+      "id": "permit.docVerification",
+      "label": "Verification of Bangladeshi civil documents",
+      "kind": "text",
+      "value": {
+        "text": "Since 3 November 2025, Bangladeshi birth, marriage and similar civil documents must be verified through VFS in New Delhi before the Embassy of Finland legalises them. It mainly affects family members' applications."
+      },
+      "status": "confirmed",
+      "source": "fi-abroad-verify",
+      "where": "Whole notice",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "permit.length",
+      "label": "How long the student residence permit lasts",
+      "kind": "text",
+      "value": {
+        "text": "Degree students can be granted a continuous permit for the whole length of their studies. Money is shown for the first year, but you must be able to support yourself throughout."
+      },
+      "status": "confirmed",
+      "source": "migri-2022",
+      "where": "Opening paragraphs",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "work.hours",
+      "label": "Working while you study in Finland",
+      "kind": "text",
+      "value": {
+        "text": "Paid work in any field for an average of 30 hours a week, 1,560 hours a year. Training and thesis work that is part of the degree is not limited."
+      },
+      "status": "confirmed",
+      "source": "migri-work",
+      "where": "Opening section",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "work.reality",
+      "label": "Finding part-time work in Finland",
+      "kind": "text",
+      "value": {
+        "text": "Finding part-time work can be challenging, particularly without Finnish or Swedish skills. You should not rely on employment to finance your studies."
+      },
+      "status": "confirmed",
+      "source": "sif-faq",
+      "where": "Answer on working while studying",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "work.afterGraduation",
+      "label": "Looking for work after graduating in Finland",
+      "kind": "text",
+      "value": {
+        "text": "A residence permit to look for work or start a business, for up to two years, applied for within five years of the student permit ending. You need 800 EUR for each month."
+      },
+      "status": "confirmed",
+      "source": "migri-jobseek",
+      "where": "Opening section",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "arrive.dvv",
+      "label": "Registering as a resident",
+      "kind": "text",
+      "value": {
+        "text": "To get a Finnish personal identity code and a municipality of residence, you apply online and usually also visit the Digital and Population Data Services Agency in person."
+      },
+      "status": "confirmed",
+      "source": "dvv-pic",
+      "where": "Opening paragraphs",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "arrive.healthFee",
+      "label": "Student healthcare fee per term in 2026",
+      "kind": "money",
+      "value": {
+        "amount": 35.35,
+        "currency": "EUR"
+      },
+      "status": "confirmed",
+      "source": "kela-fee",
+      "where": "Fee for 2026",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Paid to Kela each term by degree students at universities and universities of applied sciences. The fee is confirmed for each calendar year, and the 2027 rate was not yet published on 21 October 2026.",
+      "changesOften": true
+    },
+    {
+      "id": "arrive.kela",
+      "label": "Social security for international students",
+      "kind": "text",
+      "value": {
+        "text": "Students who come to Finland to study usually cannot get Kela benefits. Students on degrees of two years or more may receive some benefits, but not general housing allowance."
+      },
+      "status": "confirmed",
+      "source": "kela-students",
+      "where": "Opening paragraphs",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "living.helsinki",
+      "label": "Living costs for a student (University of Helsinki)",
+      "kind": "text",
+      "value": {
+        "text": "In Helsinki, monthly living costs for a student are 1,000 to 1,300 EUR or more. Student housing costs 450 to 800 EUR a month. The university says living on 9,600 EUR a year in Helsinki will be very tight."
+      },
+      "status": "confirmed",
+      "source": "uh-cost",
+      "where": "Living costs section",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "scam.fakeUniversities",
+      "label": "Fake Finnish universities",
+      "kind": "text",
+      "value": {
+        "text": "Kestora University, Penkka University and Heffring University do not exist. A university or programme not listed on Study in Finland, Studyinfo or the Ministry of Education and Culture's site is not officially recognised."
+      },
+      "status": "confirmed",
+      "source": "sif-fake",
+      "where": "Whole notice",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "scam.jobOffers",
+      "label": "Fake job offers in Finland",
+      "kind": "text",
+      "value": {
+        "text": "Finnish companies do not charge fees for job offers, and a recruitment agency cannot give you a work permit. Only the Finnish Immigration Service charges the official application fees."
+      },
+      "status": "confirmed",
+      "source": "fi-abroad-ind-jobs",
+      "where": "Whole notice",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "scam.agents",
+      "label": "Agents who paint a misleading picture",
+      "kind": "text",
+      "value": {
+        "text": "Yle reported that agents working as partners of Finnish institutions told international students that part-time work was easy to find and would cover their living costs. Many struggled to make ends meet, and some took out large loans to come."
+      },
+      "status": "reported",
+      "source": "yle-agents",
+      "where": "Whole article",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "scam.fakeCalls",
+      "label": "Fake calls from the immigration service",
+      "kind": "text",
+      "value": {
+        "text": "Migri never asks for online banking codes by phone. Scammers call pretending to be from Migri. Type migri.fi into your browser yourself."
+      },
+      "status": "confirmed",
+      "source": "migri-safe",
+      "where": "Section on scams",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "change.fullCostTuition",
+      "label": "Tuition fees from autumn 2026",
+      "kind": "text",
+      "value": {
+        "text": "From autumn 2026, tuition fees that cover the institutions' full costs are charged in full."
+      },
+      "status": "confirmed",
+      "source": "migri-future",
+      "where": "Section on students",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "change.socialAssistance",
+      "label": "Social assistance and the student permit",
+      "kind": "text",
+      "value": {
+        "text": "The government has proposed that, as a rule, a student who receives social assistance has their residence permit cancelled or not renewed. It was planned to take effect in October or November 2026 if Parliament approves."
+      },
+      "status": "confirmed",
+      "source": "kela-socialassist",
+      "where": "Whole notice",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Still pending on 21 October 2026. Checked again in November.",
+      "changesOften": true
+    },
+    {
+      "id": "change.familyMembers",
+      "label": "Family members of students",
+      "kind": "text",
+      "value": {
+        "text": "The government decided that a student's family members may move to Finland only one year after the student, and outlined a requirement for sufficient skill in the language of instruction for the study permit."
+      },
+      "status": "confirmed",
+      "source": "gov-2025-12",
+      "where": "Decisions listed",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Decided on 18 December 2025. Not law yet: see the next fact for the bill.",
+      "changesOften": true
+    },
+    {
+      "id": "uni.jyvaskyla.softwareRoute",
+      "label": "Selection, Immersive Software Engineering and Artificial Intelligence (University of Jyväskylä)",
+      "kind": "text",
+      "value": {
+        "text": "An online admission test on 10 and 11 February 2027, then online interviews from 17 to 24 March 2027. Results by 8 April 2027."
+      },
+      "status": "confirmed",
+      "source": "jyu-apply",
+      "where": "Timeline for the programme",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "The university says an SAT result may be needed depending on your previous qualification, so check the programme's admission criteria."
+    },
+    {
+      "id": "app.finalDocuments",
+      "label": "Deadline for final school certificates (University of Jyväskylä)",
+      "kind": "date",
+      "keyedBy": "cycle",
+      "values": [
+        {
+          "key": "2027",
+          "value": {
+            "date": "2027-08-10"
+          },
+          "status": "confirmed",
+          "source": "jyu-apply",
+          "where": "Deadline for final educational documents, for education completed outside Finland",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "The exact time is announced later. The university says that anyone who cannot finish school or get their documents in time should wait until 2028 to apply."
+        },
+        {
+          "key": "2028",
+          "value": {
+            "date": "2028-08"
+          },
+          "status": "expected",
+          "source": "jyu-apply",
+          "where": "Deadline for final educational documents",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in early August, as for 2027 entry. Month only."
+        },
+        {
+          "key": "2029",
+          "value": {
+            "date": "2029-08"
+          },
+          "status": "expected",
+          "source": "jyu-apply",
+          "where": "Deadline for final educational documents",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in early August, as for 2027 entry. Month only."
+        },
+        {
+          "key": "2030",
+          "value": {
+            "date": "2030-08"
+          },
+          "status": "expected",
+          "source": "jyu-apply",
+          "where": "Deadline for final educational documents",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in early August, as for 2027 entry. Month only."
+        },
+        {
+          "key": "2031",
+          "value": {
+            "date": "2031-08"
+          },
+          "status": "expected",
+          "source": "jyu-apply",
+          "where": "Deadline for final educational documents",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in early August, as for 2027 entry. Month only."
+        },
+        {
+          "key": "2032",
+          "value": {
+            "date": "2032-08"
+          },
+          "status": "expected",
+          "source": "jyu-apply",
+          "where": "Deadline for final educational documents",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in early August, as for 2027 entry. Month only."
+        }
+      ]
+    },
+    {
+      "id": "uni.aalto.finalDiploma",
+      "label": "Final diploma for students finishing school in 2027 (Aalto)",
+      "kind": "text",
+      "value": {
+        "text": "By 29 January 2027, a certificate of ongoing studies or your latest transcript. The final diploma by 31 July 2027 at 15:00 Finnish time."
+      },
+      "status": "confirmed",
+      "source": "aalto-hsd",
+      "where": "Timeline for qualifications completed outside Finland in spring 2027",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.turku.finalCertificate",
+      "label": "Final certificates for conditionally admitted students (University of Turku)",
+      "kind": "text",
+      "value": {
+        "text": "Conditionally admitted applicants must submit their final certificates by 15 August 2027."
+      },
+      "status": "confirmed",
+      "source": "utu-ict",
+      "where": "Section on admission results",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.tampere.finalCertificate",
+      "label": "Final certificates for students finishing school in 2027 (Tampere University)",
+      "kind": "text",
+      "value": {
+        "text": "Confirmation of graduation and officially certified documents by 23 August 2027 at 15:00 Finnish time. Your school education must be completed before your studies begin."
+      },
+      "status": "confirmed",
+      "source": "tuni-applying",
+      "where": "Table of dates, and eligibility",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uas.finalCertificate",
+      "label": "Final certificate deadline in 2026 (Laurea)",
+      "kind": "text",
+      "value": {
+        "text": "Students who finished school in spring 2026 had to submit their final certificate by 9 July 2026. Laurea may withdraw a study place if certificates do not arrive in time."
+      },
+      "status": "confirmed",
+      "source": "laurea-certs",
+      "where": "Section on final certificates",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Laurea had not yet published its 2027 date. Other universities of applied sciences set their own."
+    },
+    {
+      "id": "permit.noRefund",
+      "label": "Refund of the residence permit fee",
+      "kind": "text",
+      "value": {
+        "text": "The fee will not be refunded, even if you cancel your application or it is rejected."
+      },
+      "status": "confirmed",
+      "source": "fi-abroad-bgd",
+      "where": "Paragraph on the processing fee",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.oulu.ibmRoute",
+      "label": "Application rounds, International Business Management (University of Oulu)",
+      "kind": "text",
+      "value": {
+        "text": "In the January joint application, International Business Management has one certificate-based group. It also has a rolling admission in October on SAT or ACT scores."
+      },
+      "status": "confirmed",
+      "source": "oulu-apply",
+      "where": "Section on application rounds",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Oulu's page did not give the October 2026 dates in a readable form."
+    },
+    {
+      "id": "system.creditsYear",
+      "label": "Credits in a year of study",
+      "kind": "text",
+      "value": {
+        "text": "One full year of studies is equivalent to 60 credits."
+      },
+      "status": "confirmed",
+      "source": "okm-degrees",
+      "where": "Section on degrees",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.metropolia.separate",
+      "label": "Separate application on test scores (Metropolia)",
+      "kind": "text",
+      "value": {
+        "text": "Metropolia also selects on SAT, ACT, GMAT or GRE scores in its separate application for international degree programmes."
+      },
+      "status": "confirmed",
+      "source": "metropolia-fees",
+      "where": "Section on who the fees apply to",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.aalto.assignment",
+      "label": "Preliminary assignment, Technology, Business and Design (Aalto)",
+      "kind": "text",
+      "value": {
+        "text": "Instructions are published on 17 December 2026, and the assignment is due by 22 January 2027 at 15:00 Finnish time. Applicants who pass it are ranked on their SAT or ACT scores."
+      },
+      "status": "confirmed",
+      "source": "aalto-hsd",
+      "where": "Timeline",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "arrive.dvvEvents",
+      "label": "Registration events for new students",
+      "kind": "text",
+      "value": {
+        "text": "International higher education students should first use the agency's registration events, which are mainly organised with universities."
+      },
+      "status": "confirmed",
+      "source": "dvv-events",
+      "where": "Whole notice",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "change.familyBill",
+      "label": "The bill on students' families and language skills",
+      "kind": "text",
+      "value": {
+        "text": "A bill was submitted to Parliament on 10 September 2026. The one-year wait for family members is planned to apply from 5 April 2027, and the other changes, including a language requirement for student permits, from October 2027."
+      },
+      "status": "reported",
+      "source": "yle-family",
+      "where": "Whole article",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Yle's report. The government's own release could not be read.",
+      "changesOften": true
+    }
+  ]
+}

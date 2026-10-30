@@ -1,0 +1,1144 @@
+{
+  "format": 1,
+  "tool": "words",
+  "places": [
+    [
+      "all",
+      "All"
+    ],
+    [
+      "us",
+      "USA"
+    ],
+    [
+      "fi",
+      "Finland"
+    ],
+    [
+      "tr",
+      "Türkiye"
+    ],
+    [
+      "my",
+      "Malaysia"
+    ],
+    [
+      "nz",
+      "New Zealand"
+    ],
+    [
+      "bd",
+      "Bangladesh"
+    ]
+  ],
+  "words": [
+    {
+      "id": "common-app",
+      "term": "Common App",
+      "also": [
+        "Common Application"
+      ],
+      "where": [
+        "us"
+      ],
+      "meaning": "One online application that many US colleges share. You enter your details, your activities and one personal essay once, then answer each college's own questions.",
+      "forYou": "Check whether each college uses it: MIT has its own application.",
+      "cite": [
+        "us/app.mit.ownApplication",
+        "us/app.commonApp.fees"
+      ],
+      "related": [
+        "personal-essay",
+        "activities-list",
+        "supplemental-essays",
+        "fee-waiver"
+      ]
+    },
+    {
+      "id": "early-action",
+      "term": "Early Action",
+      "also": [
+        "EA"
+      ],
+      "where": [
+        "us"
+      ],
+      "meaning": "Applying early, usually by 1 November, for a decision in December, without promising to attend.",
+      "forYou": "You can still compare offers in the spring.",
+      "cite": [
+        "us/app.deadline.early",
+        "us/app.decision.early"
+      ],
+      "related": [
+        "restrictive-early-action",
+        "early-decision",
+        "regular-decision"
+      ],
+      "link": "deadline"
+    },
+    {
+      "id": "restrictive-early-action",
+      "term": "Restrictive Early Action",
+      "also": [
+        "REA",
+        "Single-choice early action"
+      ],
+      "where": [
+        "us"
+      ],
+      "meaning": "An early round that does not bind you to attend, but limits where else you may apply early. Harvard uses it.",
+      "forYou": "Read each college's rule before you apply early anywhere else.",
+      "cite": [
+        "us/app.deadline.early",
+        "us/app.testScores.earlyRound"
+      ],
+      "related": [
+        "early-action",
+        "early-decision"
+      ]
+    },
+    {
+      "id": "early-decision",
+      "term": "Early Decision",
+      "also": [
+        "ED"
+      ],
+      "where": [
+        "us"
+      ],
+      "meaning": "A binding early round: if you are admitted, you must attend and withdraw your other applications.",
+      "forYou": "A college usually releases you if the aid it offers is not enough, so read its rule before you apply.",
+      "cite": [
+        "us/app.brown.earlyDecision"
+      ],
+      "related": [
+        "early-action",
+        "restrictive-early-action",
+        "meets-full-need"
+      ]
+    },
+    {
+      "id": "regular-decision",
+      "term": "Regular Decision",
+      "also": [
+        "RD"
+      ],
+      "where": [
+        "us"
+      ],
+      "meaning": "The main round, usually closing around 1 January, with decisions by the end of March.",
+      "forYou": "Most of your list will be in this round.",
+      "cite": [
+        "us/app.deadline.regular",
+        "us/app.decision.regular"
+      ],
+      "related": [
+        "early-action",
+        "reply-date"
+      ],
+      "link": "deadline"
+    },
+    {
+      "id": "need-blind",
+      "term": "Need-blind",
+      "also": [],
+      "where": [
+        "us"
+      ],
+      "meaning": "The college decides on your application without looking at whether you need aid.",
+      "forYou": "On its own it promises no money. Look for need-blind for international students together with meeting full need; many colleges are need-blind only for US citizens.",
+      "cite": [
+        "us/uni.princeton.aid",
+        "us/uni.harvard.aid"
+      ],
+      "related": [
+        "need-aware",
+        "meets-full-need"
+      ]
+    },
+    {
+      "id": "need-aware",
+      "term": "Need-aware",
+      "also": [
+        "Need-sensitive"
+      ],
+      "where": [
+        "us"
+      ],
+      "meaning": "Your need for aid can affect the decision, often because the aid budget is limited.",
+      "forYou": "Some need-aware colleges still meet the full need of every student they admit.",
+      "cite": [
+        "us/uni.williams.aid",
+        "us/uni.swarthmore.aid"
+      ],
+      "related": [
+        "need-blind",
+        "meets-full-need"
+      ]
+    },
+    {
+      "id": "meets-full-need",
+      "term": "Meets full need",
+      "also": [
+        "Full demonstrated need"
+      ],
+      "where": [
+        "us"
+      ],
+      "meaning": "The college pays the gap between its price and what it works out your family can pay.",
+      "forYou": "Need is the college's own calculation, not your family's estimate.",
+      "cite": [
+        "us/uni.yale.aid",
+        "us/aid.harvard.income"
+      ],
+      "related": [
+        "need-blind",
+        "css-profile",
+        "cost-of-attendance"
+      ]
+    },
+    {
+      "id": "merit-scholarship",
+      "term": "Merit scholarship",
+      "also": [],
+      "where": [
+        "all"
+      ],
+      "meaning": "Money given for achievement, whatever your family earns.",
+      "forYou": "Some colleges give none: Princeton's aid is all based on need.",
+      "cite": [
+        "us/uni.princeton.aid"
+      ],
+      "related": [
+        "meets-full-need"
+      ]
+    },
+    {
+      "id": "cost-of-attendance",
+      "term": "Cost of attendance",
+      "also": [
+        "COA"
+      ],
+      "where": [
+        "us"
+      ],
+      "meaning": "A college's full yearly price before aid: tuition, fees, housing, food, books, personal costs and travel.",
+      "forYou": "Compare colleges by this, not by tuition alone.",
+      "cite": [
+        "us/cost.harvard"
+      ],
+      "related": [
+        "meets-full-need",
+        "proof-of-funds"
+      ],
+      "link": "costs"
+    },
+    {
+      "id": "css-profile",
+      "term": "CSS Profile",
+      "also": [
+        "CSS"
+      ],
+      "where": [
+        "us"
+      ],
+      "meaning": "College Board's aid form, which many private colleges use to work out your need.",
+      "forYou": "It costs money for each college you send it to, and international applicants usually pay.",
+      "cite": [
+        "us/aid.css.fee",
+        "us/aid.css.opens",
+        "us/aid.css.international"
+      ],
+      "related": [
+        "meets-full-need",
+        "fee-waiver"
+      ],
+      "link": "money"
+    },
+    {
+      "id": "fee-waiver",
+      "term": "Fee waiver",
+      "also": [],
+      "where": [
+        "all"
+      ],
+      "meaning": "Permission to apply without paying the application fee.",
+      "forYou": "Ask for one if the fee is hard for your family; many colleges grant them to international students.",
+      "cite": [
+        "us/app.commonApp.fees",
+        "us/app.waiver.mit"
+      ],
+      "related": [
+        "common-app"
+      ],
+      "link": "money"
+    },
+    {
+      "id": "test-optional",
+      "term": "Test-optional",
+      "also": [],
+      "where": [
+        "us"
+      ],
+      "meaning": "You may send SAT or ACT scores, but you do not have to.",
+      "forYou": "Optional is not the same as ignored. Send a score if it helps your application.",
+      "cite": [
+        "us/uni.bowdoin.tests"
+      ],
+      "related": []
+    },
+    {
+      "id": "activities-list",
+      "term": "Activities list",
+      "also": [],
+      "where": [
+        "us"
+      ],
+      "meaning": "The part of the Common App where you list up to 10 activities, each with a short description.",
+      "forYou": "Family duties and paid work count as activities.",
+      "cite": [
+        "us/app.commonApp.activities"
+      ],
+      "related": [
+        "common-app",
+        "personal-essay"
+      ],
+      "link": "profile"
+    },
+    {
+      "id": "personal-essay",
+      "term": "Personal essay",
+      "also": [],
+      "where": [
+        "us"
+      ],
+      "meaning": "One essay of 250 to 650 words that goes to every college you apply to on the Common App.",
+      "forYou": "Write it yourself, in your own voice.",
+      "cite": [
+        "us/app.commonApp.essay",
+        "us/app.harvard.essays"
+      ],
+      "related": [
+        "supplemental-essays",
+        "common-app"
+      ]
+    },
+    {
+      "id": "supplemental-essays",
+      "term": "Supplemental essays",
+      "also": [
+        "Supplements"
+      ],
+      "where": [
+        "us"
+      ],
+      "meaning": "Each college's own extra questions, added to the Common App.",
+      "forYou": "Harvard asks five short ones.",
+      "cite": [
+        "us/app.harvard.requirements"
+      ],
+      "related": [
+        "personal-essay"
+      ]
+    },
+    {
+      "id": "recommendation",
+      "term": "Recommendation letter",
+      "also": [
+        "Reference"
+      ],
+      "where": [
+        "all"
+      ],
+      "meaning": "A letter from a teacher or school official about you and your work.",
+      "forYou": "Ask your teachers early, well before your first deadline.",
+      "cite": [
+        "us/app.harvard.requirements"
+      ],
+      "related": [
+        "midyear-report"
+      ]
+    },
+    {
+      "id": "midyear-report",
+      "term": "Midyear report",
+      "also": [],
+      "where": [
+        "us"
+      ],
+      "meaning": "A report your school sends with your grades from the first half of your final year.",
+      "forYou": "Your grades keep counting after you apply.",
+      "cite": [
+        "us/app.harvard.requirements"
+      ],
+      "related": [
+        "recommendation"
+      ]
+    },
+    {
+      "id": "major",
+      "term": "Major",
+      "also": [
+        "Concentration"
+      ],
+      "where": [
+        "us"
+      ],
+      "meaning": "The main subject of a US degree, usually chosen in the first two years.",
+      "forYou": "You can explore before you decide.",
+      "cite": [
+        "us/system.harvard.concentration"
+      ],
+      "related": []
+    },
+    {
+      "id": "reply-date",
+      "term": "Reply date",
+      "also": [],
+      "where": [
+        "us"
+      ],
+      "meaning": "The last day to accept an offer. Harvard's is 1 May.",
+      "forYou": "Each college sets its own, so check yours.",
+      "cite": [
+        "us/app.replyDate"
+      ],
+      "related": [
+        "enrolment-deposit",
+        "regular-decision"
+      ]
+    },
+    {
+      "id": "enrolment-deposit",
+      "term": "Enrolment deposit",
+      "also": [
+        "Deposit"
+      ],
+      "where": [
+        "all"
+      ],
+      "meaning": "A payment that holds your place after you accept an offer.",
+      "forYou": "Ask each university whether it is refunded if your visa is refused.",
+      "cite": [
+        "us/i20.requirements"
+      ],
+      "related": [
+        "reply-date",
+        "i-20"
+      ],
+      "link": "costs"
+    },
+    {
+      "id": "i-20",
+      "term": "I-20",
+      "also": [
+        "Form I-20"
+      ],
+      "where": [
+        "us"
+      ],
+      "meaning": "The document a US school sends you so you can apply for the F-1 student visa.",
+      "forYou": "The school issues it only after you show how you will pay.",
+      "cite": [
+        "us/visa.i20School",
+        "us/i20.requirements"
+      ],
+      "related": [
+        "f-1",
+        "sevis-fee",
+        "proof-of-funds"
+      ]
+    },
+    {
+      "id": "sevis-fee",
+      "term": "SEVIS fee",
+      "also": [
+        "I-901 fee"
+      ],
+      "where": [
+        "us"
+      ],
+      "meaning": "A US government fee every new F-1 student pays after the I-20 arrives and before the visa interview.",
+      "forYou": "Keep the receipt for your interview.",
+      "cite": [
+        "us/visa.fee.sevis",
+        "us/visa.sevis.timing"
+      ],
+      "related": [
+        "i-20",
+        "ds-160"
+      ],
+      "link": "money"
+    },
+    {
+      "id": "f-1",
+      "term": "F-1 visa",
+      "also": [
+        "Student visa"
+      ],
+      "where": [
+        "us"
+      ],
+      "meaning": "The US student visa for full-time study.",
+      "forYou": "For Bangladeshi citizens it can be valid for up to 60 months.",
+      "cite": [
+        "us/visa.reciprocity",
+        "us/visa.interviewRequired"
+      ],
+      "related": [
+        "i-20",
+        "ds-160",
+        "214b"
+      ],
+      "link": "visa"
+    },
+    {
+      "id": "ds-160",
+      "term": "DS-160",
+      "also": [],
+      "where": [
+        "us"
+      ],
+      "meaning": "The online visa application form you fill in before you book your interview.",
+      "forYou": "Bring its confirmation page to the interview.",
+      "cite": [
+        "us/visa.documents"
+      ],
+      "related": [
+        "f-1",
+        "sevis-fee"
+      ],
+      "link": "visa"
+    },
+    {
+      "id": "214b",
+      "term": "214(b)",
+      "also": [
+        "Section 214(b)"
+      ],
+      "where": [
+        "us"
+      ],
+      "meaning": "The part of US law an officer uses to refuse a visa when not satisfied that you qualify, including that you will leave after your studies.",
+      "forYou": "It is not permanent: you can apply again and show what has changed.",
+      "cite": [
+        "us/visa.refusal214b"
+      ],
+      "related": [
+        "221g",
+        "f-1"
+      ],
+      "link": "visa"
+    },
+    {
+      "id": "221g",
+      "term": "Administrative processing",
+      "also": [
+        "221(g)"
+      ],
+      "where": [
+        "us"
+      ],
+      "meaning": "Extra checks after the interview. The State Department counts the case as a refusal under section 221(g) until the checks finish.",
+      "forYou": "Leave spare time before your flight. If a later form asks whether you were ever refused a US visa, this counts.",
+      "cite": [
+        "us/visa.administrativeProcessing",
+        "us/visa.refusal221g"
+      ],
+      "related": [
+        "214b"
+      ],
+      "link": "visa"
+    },
+    {
+      "id": "opt",
+      "term": "OPT",
+      "also": [
+        "Optional Practical Training"
+      ],
+      "where": [
+        "us"
+      ],
+      "meaning": "Permission to work in the USA after graduating, for up to 12 months, longer for science, technology, engineering and mathematics degrees.",
+      "forYou": "The rules may change: large new fees have been proposed.",
+      "cite": [
+        "us/work.opt",
+        "us/work.optFeeProposal"
+      ],
+      "related": [
+        "f-1"
+      ]
+    },
+    {
+      "id": "proof-of-funds",
+      "term": "Proof of funds",
+      "also": [
+        "Financial documents"
+      ],
+      "where": [
+        "all"
+      ],
+      "meaning": "Evidence that the money for your studies is available, such as bank statements and aid letters.",
+      "forYou": "It must really be yours to use. Never borrow money only to show it: false documents can lead to a refusal.",
+      "cite": [
+        "us/i20.requirements",
+        "us/visa.noBroker",
+        "fi/permit.funds",
+        "nz/visa.funds"
+      ],
+      "related": [
+        "i-20",
+        "funds"
+      ],
+      "link": "costs"
+    },
+    {
+      "id": "joint-application",
+      "term": "Joint application",
+      "also": [],
+      "where": [
+        "fi"
+      ],
+      "meaning": "One application on Studyinfo for up to six programmes; you can accept only one place.",
+      "forYou": "One fee covers every application for the same term.",
+      "cite": [
+        "fi/app.choices",
+        "fi/app.onePlace",
+        "fi/app.fee",
+        "fi/app.feePayment"
+      ],
+      "related": [
+        "studyinfo",
+        "uas"
+      ]
+    },
+    {
+      "id": "studyinfo",
+      "term": "Studyinfo",
+      "also": [
+        "Studyinfo.fi"
+      ],
+      "where": [
+        "fi"
+      ],
+      "meaning": "The official site where you apply to Finnish universities.",
+      "forYou": "Apply there yourself.",
+      "cite": [
+        "fi/app.choices"
+      ],
+      "related": [
+        "joint-application"
+      ]
+    },
+    {
+      "id": "uas",
+      "term": "University of applied sciences",
+      "also": [
+        "UAS",
+        "AMK"
+      ],
+      "where": [
+        "fi"
+      ],
+      "meaning": "A Finnish university focused on practical, work-related degrees.",
+      "forYou": "Many choose students with the International UAS Exam.",
+      "cite": [
+        "fi/uas.exam",
+        "fi/uas.hscEligible"
+      ],
+      "related": [
+        "joint-application"
+      ]
+    },
+    {
+      "id": "residence-permit",
+      "term": "Residence permit",
+      "also": [],
+      "where": [
+        "fi"
+      ],
+      "meaning": "Permission to live in Finland for your studies, applied for online and confirmed in person.",
+      "forYou": "Bangladeshi applicants prove their identity at the Finland Application Centre in New Delhi.",
+      "cite": [
+        "fi/permit.fee",
+        "fi/permit.where"
+      ],
+      "related": [
+        "proof-of-funds"
+      ],
+      "link": "visa"
+    },
+    {
+      "id": "turkiye-burslari",
+      "term": "Türkiye Bursları",
+      "also": [
+        "TB"
+      ],
+      "where": [
+        "tr"
+      ],
+      "meaning": "Türkiye's government scholarship: tuition, a monthly stipend, housing, health insurance, a Turkish course and a university place.",
+      "forYou": "Applicants must be under 21.",
+      "cite": [
+        "tr/tb.covers",
+        "tr/tb.ageLimit"
+      ],
+      "related": [
+        "prep-year"
+      ]
+    },
+    {
+      "id": "tr-yos",
+      "term": "TR-YÖS",
+      "also": [
+        "YÖS"
+      ],
+      "where": [
+        "tr"
+      ],
+      "meaning": "An entrance exam some Turkish universities accept from students from abroad, instead of the SAT.",
+      "forYou": "It can be taken in Dhaka.",
+      "cite": [
+        "tr/tryos.about",
+        "tr/uni.bogazici.route"
+      ],
+      "related": []
+    },
+    {
+      "id": "prep-year",
+      "term": "English preparatory year",
+      "also": [
+        "Prep year"
+      ],
+      "where": [
+        "tr"
+      ],
+      "meaning": "A year of English before the degree, for students who do not yet meet the English requirement.",
+      "forYou": "It does not count towards the degree, so it adds time and fees.",
+      "cite": [
+        "tr/system.length",
+        "tr/uni.metu.english"
+      ],
+      "related": [
+        "turkiye-burslari"
+      ],
+      "link": "english"
+    },
+    {
+      "id": "attestation",
+      "term": "Attestation",
+      "also": [],
+      "where": [
+        "bd",
+        "tr"
+      ],
+      "meaning": "Official stamps on a copy of your certificate from Bangladesh's Ministry of Education and Ministry of Foreign Affairs.",
+      "forYou": "Pathway's plan allows up to 4 weeks for it.",
+      "cite": [
+        "tr/visa.documents"
+      ],
+      "related": []
+    },
+    {
+      "id": "emgs",
+      "term": "EMGS",
+      "also": [
+        "Education Malaysia Global Services"
+      ],
+      "where": [
+        "my"
+      ],
+      "meaning": "The agency that handles student passes for Malaysia.",
+      "forYou": "You or your university applies on the EMGS portal, so ask your university which it does.",
+      "cite": [
+        "my/pass.val",
+        "my/pass.steps"
+      ],
+      "related": [
+        "eval",
+        "student-pass"
+      ],
+      "link": "visa"
+    },
+    {
+      "id": "eval",
+      "term": "eVAL",
+      "also": [
+        "Visa Approval Letter",
+        "VAL"
+      ],
+      "where": [
+        "my"
+      ],
+      "meaning": "The approval you need before you can enter Malaysia as a student.",
+      "forYou": "It is valid for 6 months.",
+      "cite": [
+        "my/pass.val",
+        "my/pass.singleEntryVisa",
+        "my/pass.evalFee"
+      ],
+      "related": [
+        "emgs",
+        "student-pass"
+      ]
+    },
+    {
+      "id": "student-pass",
+      "term": "Student pass",
+      "also": [],
+      "where": [
+        "my"
+      ],
+      "meaning": "The permission that lets you stay in Malaysia as a student.",
+      "forYou": "It is usually issued for up to a year at a time, then renewed.",
+      "cite": [
+        "my/pass.renewal",
+        "my/pass.medical"
+      ],
+      "related": [
+        "emgs",
+        "eval",
+        "i-kad"
+      ]
+    },
+    {
+      "id": "i-kad",
+      "term": "i-Kad",
+      "also": [],
+      "where": [
+        "my"
+      ],
+      "meaning": "The identity card Malaysia gives international students.",
+      "forYou": "",
+      "cite": [
+        "my/pass.ikadFee"
+      ],
+      "related": [
+        "student-pass"
+      ]
+    },
+    {
+      "id": "mdac",
+      "term": "MDAC",
+      "also": [
+        "Malaysia Digital Arrival Card"
+      ],
+      "where": [
+        "my"
+      ],
+      "meaning": "An online arrival form you fill in within the three days before you arrive.",
+      "forYou": "",
+      "cite": [
+        "my/arrive.mdac"
+      ],
+      "related": [
+        "student-pass"
+      ]
+    },
+    {
+      "id": "foundation",
+      "term": "Foundation programme",
+      "also": [
+        "Foundation year"
+      ],
+      "where": [
+        "my",
+        "nz"
+      ],
+      "meaning": "A course of about a year before a degree, for students whose school results do not give direct entry.",
+      "forYou": "It adds time and fees, but leads into the degree.",
+      "cite": [
+        "my/foundation.mufy.fees",
+        "nz/foundation.otago"
+      ],
+      "related": [
+        "gpa"
+      ],
+      "link": "grades"
+    },
+    {
+      "id": "offer-letter",
+      "term": "Offer letter",
+      "also": [
+        "Offer of place"
+      ],
+      "where": [
+        "all"
+      ],
+      "meaning": "A university's written offer of a place, which you need for the visa or pass and for paying fees from Bangladesh.",
+      "forYou": "Check whether it has conditions you still have to meet.",
+      "cite": [
+        "my/pass.documents",
+        "bd/pay.studentFile"
+      ],
+      "related": [
+        "student-file",
+        "enrolment-deposit"
+      ]
+    },
+    {
+      "id": "points",
+      "term": "Points",
+      "also": [
+        "Credits"
+      ],
+      "where": [
+        "nz"
+      ],
+      "meaning": "The units a New Zealand degree is counted in.",
+      "forYou": "Victoria charges tuition for each point.",
+      "cite": [
+        "nz/tuition.victoria"
+      ],
+      "related": [
+        "nz-tariff"
+      ]
+    },
+    {
+      "id": "funds",
+      "term": "Funds",
+      "also": [
+        "Living costs"
+      ],
+      "where": [
+        "nz"
+      ],
+      "meaning": "The money for living costs you must show for the New Zealand student visa.",
+      "forYou": "",
+      "cite": [
+        "nz/visa.funds"
+      ],
+      "related": [
+        "proof-of-funds"
+      ],
+      "link": "costs"
+    },
+    {
+      "id": "nz-tariff",
+      "term": "NZ tariff",
+      "also": [
+        "Tariff points"
+      ],
+      "where": [
+        "nz"
+      ],
+      "meaning": "New Zealand's points for Cambridge International A and AS level grades. 120 points is the usual entry level.",
+      "forYou": "An A* at A level is worth 140 points.",
+      "cite": [
+        "nz/uni.otago.tariff"
+      ],
+      "related": [
+        "a-star",
+        "points"
+      ],
+      "link": "grades"
+    },
+    {
+      "id": "cefr",
+      "term": "CEFR",
+      "also": [
+        "Common European Framework of Reference"
+      ],
+      "where": [
+        "all"
+      ],
+      "meaning": "A shared scale from A1 to C2 that describes how well you use a language. Each English test owner maps its scores to it.",
+      "forYou": "Use it to compare tests roughly.",
+      "cite": [
+        "bd/compare.ielts.cefr",
+        "bd/compare.toefl.cefr"
+      ],
+      "related": [
+        "concordance",
+        "band-score"
+      ],
+      "link": "english"
+    },
+    {
+      "id": "band-score",
+      "term": "Band score",
+      "also": [
+        "Section score",
+        "Subscore"
+      ],
+      "where": [
+        "all"
+      ],
+      "meaning": "IELTS's word for a score: both each part, such as writing, and the overall result.",
+      "forYou": "Many universities set a minimum for the overall score and for each part.",
+      "cite": [
+        "fi/uni.helsinki.english"
+      ],
+      "related": [
+        "cefr"
+      ],
+      "link": "english"
+    },
+    {
+      "id": "concordance",
+      "term": "Concordance table",
+      "also": [
+        "Score comparison"
+      ],
+      "where": [
+        "all"
+      ],
+      "meaning": "A table from a test owner showing roughly equal scores on two tests.",
+      "forYou": "A comparison only: universities use the test you took.",
+      "cite": [
+        "bd/compare.ielts.toefl",
+        "bd/compare.ielts.pte",
+        "bd/compare.duolingo"
+      ],
+      "related": [
+        "cefr"
+      ],
+      "link": "english"
+    },
+    {
+      "id": "gpa",
+      "term": "GPA",
+      "also": [
+        "Grade point average"
+      ],
+      "where": [
+        "all"
+      ],
+      "meaning": "An average of your grades as points. Bangladesh's HSC GPA is out of 5.",
+      "forYou": "Report it as printed; do not convert it yourself.",
+      "cite": [
+        "bd/school.gradeBands",
+        "us/app.commonApp.gpa"
+      ],
+      "related": [
+        "a-star"
+      ],
+      "link": "grades"
+    },
+    {
+      "id": "a-star",
+      "term": "A*",
+      "also": [
+        "A star"
+      ],
+      "where": [
+        "all"
+      ],
+      "meaning": "The highest A level grade, above A.",
+      "forYou": "It is worth 140 points on New Zealand's tariff.",
+      "cite": [
+        "nz/uni.otago.tariff"
+      ],
+      "related": [
+        "nz-tariff",
+        "predicted-grades"
+      ],
+      "link": "grades"
+    },
+    {
+      "id": "predicted-grades",
+      "term": "Predicted grades",
+      "also": [],
+      "where": [
+        "all"
+      ],
+      "meaning": "Grades your school expects you to get, used before your final results.",
+      "forYou": "Some universities refuse them: Bilkent does not evaluate them.",
+      "cite": [
+        "tr/uni.bilkent.route"
+      ],
+      "related": [
+        "a-star"
+      ]
+    },
+    {
+      "id": "student-file",
+      "term": "Student file",
+      "also": [],
+      "where": [
+        "bd"
+      ],
+      "meaning": "A bank service for sending tuition and living costs abroad, opened with your offer letter.",
+      "forYou": "Banks charge their own fees for it.",
+      "cite": [
+        "bd/pay.studentFile"
+      ],
+      "related": [
+        "offer-letter",
+        "exchange-rate"
+      ],
+      "link": "costs"
+    },
+    {
+      "id": "smart-nid",
+      "term": "Smart NID card",
+      "also": [
+        "National ID card"
+      ],
+      "where": [
+        "bd"
+      ],
+      "meaning": "Bangladesh's national ID card with a chip.",
+      "forYou": "IELTS accepts it; TOEFL, PTE and the Duolingo English Test do not.",
+      "cite": [
+        "bd/ielts.bd.id",
+        "bd/toefl.bd.id",
+        "bd/pte.id",
+        "bd/duolingo.bd.id"
+      ],
+      "related": [],
+      "link": "english"
+    },
+    {
+      "id": "pcc",
+      "term": "Police clearance certificate",
+      "also": [
+        "PCC"
+      ],
+      "where": [
+        "bd"
+      ],
+      "meaning": "A police certificate showing your record, needed for some visas.",
+      "forYou": "Apply online; it can take weeks.",
+      "cite": [
+        "bd/pcc.how",
+        "bd/pcc.processing"
+      ],
+      "related": []
+    },
+    {
+      "id": "exchange-rate",
+      "term": "Exchange rate",
+      "also": [],
+      "where": [
+        "bd"
+      ],
+      "meaning": "How many taka one unit of another currency costs.",
+      "forYou": "Your bank's rate for students is usually a little above Bangladesh Bank's.",
+      "cite": [
+        "bd/fx.usd"
+      ],
+      "related": [
+        "student-file"
+      ],
+      "link": "money"
+    },
+    {
+      "id": "qs-ranking",
+      "term": "QS ranking",
+      "also": [
+        "QS"
+      ],
+      "where": [
+        "all"
+      ],
+      "meaning": "A private company's ranking of universities.",
+      "forYou": "There is no official ranking of US universities.",
+      "cite": [
+        "us/system.noOfficialRanking",
+        "us/uni.mit.qsRank"
+      ],
+      "related": []
+    }
+  ]
+}

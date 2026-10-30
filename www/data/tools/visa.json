@@ -1,0 +1,305 @@
+{
+  "format": 1,
+  "tool": "visa",
+  "countries": {
+    "us": {
+      "answer": "Yes. Student visa applicants now generally need an in-person interview with a consular officer.",
+      "cite": [
+        "us/visa.interviewRequired"
+      ],
+      "section": "visa",
+      "practice": true
+    },
+    "fi": {
+      "answer": "No interview is listed. You apply online, then visit the Finland Application Centre in New Delhi to prove your identity and give fingerprints.",
+      "cite": [
+        "fi/permit.where"
+      ],
+      "section": "residence-permit"
+    },
+    "tr": {
+      "answer": "The Turkish Embassy's note lists documents, not an interview. The note dates from 2019, so check with Mosaic Visa, the centre that takes applications in Dhaka.",
+      "cite": [
+        "tr/visa.documents",
+        "tr/visa.centre"
+      ],
+      "section": "visa"
+    },
+    "my": {
+      "answer": "No. EMGS's steps for the student pass do not include an interview.",
+      "cite": [
+        "my/pass.steps"
+      ],
+      "section": "student-pass"
+    },
+    "nz": {
+      "answer": "Possibly. Immigration New Zealand interviews some student visa applicants, and it interviewed Bangladeshi applicants in 2018 to 2020.",
+      "cite": [
+        "nz/visa.interviews"
+      ],
+      "section": "student-visa",
+      "practice": true,
+      "practiceNote": "These questions are written for the US interview, but the ones about your studies and your money suit any interview."
+    }
+  },
+  "day": [
+    {
+      "title": "Before the day",
+      "text": "Pay the SEVIS fee once your I-20 arrives, at least 3 business days before the interview, and set your social media accounts to public, as the embassy instructs.",
+      "cite": [
+        "us/visa.sevis.timing",
+        "us/visa.socialMedia"
+      ]
+    },
+    {
+      "title": "What to bring",
+      "text": "A passport valid for at least six months beyond your stay, the DS-160 confirmation page, the fee receipt and your I-20. Bring your academic records, test scores and proof of how you will pay, in case the officer asks.",
+      "cite": [
+        "us/visa.documents"
+      ]
+    },
+    {
+      "title": "Getting there",
+      "text": "Arrive about 15 minutes before your appointment. Phones, smart watches, laptops, other electronic devices and bags are not allowed, and the embassy has no storage for them.",
+      "cite": [
+        "us/visa.dhaka.arrival",
+        "us/visa.dhaka.items"
+      ]
+    },
+    {
+      "title": "After the interview",
+      "text": "Some cases go to administrative processing, which delays the decision, so leave spare time before your flight.",
+      "cite": [
+        "us/visa.administrativeProcessing"
+      ]
+    }
+  ],
+  "refused": [
+    {
+      "title": "A refusal under 214(b)",
+      "text": "The officer was not satisfied that you qualify, including that you will leave the USA after your studies. It covers that application only: you can apply again with a new form, a new fee and a new interview, and should show what has changed. There is no appeal.",
+      "cite": [
+        "us/visa.refusal214b"
+      ]
+    },
+    {
+      "title": "A refusal under 221(g)",
+      "text": "Your application is incomplete or needs administrative processing. You have a year to send what is missing; after that you apply and pay again. It still counts as a refusal.",
+      "cite": [
+        "us/visa.refusal221g"
+      ]
+    },
+    {
+      "title": "Brokers and fake messages",
+      "text": "You do not need a visa broker. False information or documents can lead to a refusal and to a ban on later travel to the USA. Real US government messages come from addresses ending in .gov.",
+      "cite": [
+        "us/visa.noBroker",
+        "us/visa.fraudWarning"
+      ]
+    }
+  ],
+  "practiceIntro": "Practice questions written by Pathway around what the officer must decide: that you are a real student, that you can pay, and that you will leave after your studies.",
+  "practiceCite": [
+    "us/visa.refusal214b",
+    "us/visa.documents"
+  ],
+  "cards": [
+    {
+      "id": "why-usa",
+      "question": "Why do you want to study in the USA?",
+      "why": "The officer checks that study is your real reason for going.",
+      "good": [
+        "Name what your programme offers that you cannot get at home",
+        "Keep it about your studies and your plans"
+      ],
+      "cite": []
+    },
+    {
+      "id": "why-university",
+      "question": "Why did you choose this university?",
+      "why": "It shows you chose the place for your studies.",
+      "good": [
+        "Mention something specific, such as a course, a lab or a teacher",
+        "Show you know what you will study there"
+      ],
+      "cite": []
+    },
+    {
+      "id": "why-subject",
+      "question": "What will you study, and why that subject?",
+      "why": "It shows your plan holds together.",
+      "good": [
+        "Link it to what you have already done",
+        "Say it in plain words, not memorised lines"
+      ],
+      "cite": []
+    },
+    {
+      "id": "why-not-home",
+      "question": "Why not study in Bangladesh?",
+      "why": "The officer checks that study is your real reason for going.",
+      "good": [
+        "Compare what you want to study with what is offered at home",
+        "Stay respectful about home"
+      ],
+      "cite": []
+    },
+    {
+      "id": "applied",
+      "question": "Which universities did you apply to, and which admitted you?",
+      "why": "It shows how you made your choices.",
+      "good": [
+        "Answer simply and truthfully",
+        "Know why you chose the one you did"
+      ],
+      "cite": []
+    },
+    {
+      "id": "scores",
+      "question": "What are your test scores and grades?",
+      "why": "The officer may ask for your academic records and test scores.",
+      "good": [
+        "Know your scores exactly",
+        "Bring your score reports and transcripts"
+      ],
+      "cite": [
+        "us/visa.documents"
+      ]
+    },
+    {
+      "id": "school",
+      "question": "Tell me about your school.",
+      "why": "It helps the officer understand your background.",
+      "good": [
+        "Name your school, your group and your results",
+        "Keep it short"
+      ],
+      "cite": []
+    },
+    {
+      "id": "who-pays",
+      "question": "Who will pay for your studies?",
+      "why": "The officer must see how you will pay.",
+      "good": [
+        "Name each source and roughly how much it covers",
+        "Make sure it matches your I-20 and your documents"
+      ],
+      "cite": [
+        "us/visa.documents",
+        "us/i20.requirements"
+      ]
+    },
+    {
+      "id": "sponsor",
+      "question": "What does your sponsor do, and how much do they earn?",
+      "why": "The officer must see how you will pay.",
+      "good": [
+        "Know your family's work and income in plain numbers",
+        "Bring documents that show them"
+      ],
+      "cite": [
+        "us/visa.documents"
+      ]
+    },
+    {
+      "id": "later-years",
+      "question": "How will you pay for the years after the first?",
+      "why": "Your proof of funding covers the first year, so the officer may ask about the rest.",
+      "good": [
+        "Explain the plan for every year of the degree",
+        "Keep it consistent with your documents"
+      ],
+      "cite": [
+        "us/i20.requirements"
+      ]
+    },
+    {
+      "id": "scholarship",
+      "question": "Did you receive a scholarship or financial aid?",
+      "why": "Aid is part of how you will pay.",
+      "good": [
+        "Say how much it is and for how long",
+        "Bring the award letter"
+      ],
+      "cite": []
+    },
+    {
+      "id": "documents",
+      "question": "Can you show me your I-20 and financial documents?",
+      "why": "The officer may ask for proof of how you will pay.",
+      "good": [
+        "Keep your documents in order",
+        "Know what each one shows"
+      ],
+      "cite": [
+        "us/visa.documents"
+      ]
+    },
+    {
+      "id": "after",
+      "question": "What will you do after you graduate?",
+      "why": "Under 214(b), the officer must be satisfied that you will leave after your studies.",
+      "good": [
+        "Describe a real plan",
+        "A true answer is stronger than a polished one"
+      ],
+      "cite": [
+        "us/visa.refusal214b"
+      ]
+    },
+    {
+      "id": "return",
+      "question": "Do you plan to come back to Bangladesh?",
+      "why": "Under 214(b), the officer weighs the ties that will bring you back.",
+      "good": [
+        "Explain what brings you back, such as family, work or plans",
+        "Keep it true and specific"
+      ],
+      "cite": [
+        "us/visa.refusal214b"
+      ]
+    },
+    {
+      "id": "job",
+      "question": "What job do you want after this degree?",
+      "why": "It shows your studies lead somewhere.",
+      "good": [
+        "Name a real job or field",
+        "Say where you plan to do it"
+      ],
+      "cite": []
+    },
+    {
+      "id": "family-usa",
+      "question": "Do you have family in the USA?",
+      "why": "The officer weighs your ties at home and abroad.",
+      "good": [
+        "Answer truthfully",
+        "Never hide a relative: false information can lead to a refusal"
+      ],
+      "cite": [
+        "us/visa.noBroker"
+      ]
+    },
+    {
+      "id": "live",
+      "question": "Where will you live in the USA?",
+      "why": "It shows you have planned your studies.",
+      "good": [
+        "Say whether you will live on campus or elsewhere",
+        "Know the city your university is in"
+      ],
+      "cite": []
+    },
+    {
+      "id": "found",
+      "question": "How did you hear about this university?",
+      "why": "It shows how you made your own choice.",
+      "good": [
+        "Say how you found it and what you checked",
+        "If an agent helped you, say so honestly"
+      ],
+      "cite": []
+    }
+  ]
+}

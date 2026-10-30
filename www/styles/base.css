@@ -1,0 +1,594 @@
+/*
+  Reading the status bar and gesture bar sizes that Capacitor injects.
+  Older WebViews only have env(), and desktop browsers have neither
+*/
+:root {
+  --inset-top: var(--safe-area-inset-top, env(safe-area-inset-top, 0px));
+  --inset-right: var(--safe-area-inset-right, env(safe-area-inset-right, 0px));
+  --inset-bottom: var(--safe-area-inset-bottom, env(safe-area-inset-bottom, 0px));
+  --inset-left: var(--safe-area-inset-left, env(safe-area-inset-left, 0px));
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+html {
+  background: var(--paper);
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-ui);
+  font-size: var(--text-body-ui);
+  line-height: 1.4;
+  -webkit-tap-highlight-color: transparent;
+  transition: opacity var(--dur-enter) var(--ease-out);
+}
+
+/* Hiding the page until the saved theme is applied, so the wrong theme never flashes */
+html.is-booting body {
+  opacity: 0;
+  animation: boot-failsafe 1ms 1600ms forwards;
+}
+
+/* Showing the page anyway if the start-up script ever fails, instead of leaving it blank */
+@keyframes boot-failsafe {
+  to {
+    opacity: 1;
+  }
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+  flex: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* Holding a word and the small button after it on one line */
+.glue {
+  white-space: nowrap;
+}
+
+.glue>.info-button {
+  display: inline-grid;
+  vertical-align: middle;
+}
+
+/* Covering the strip behind the clock, so scrolled text never runs under it */
+.status-scrim {
+  position: fixed;
+  inset: 0 0 auto;
+  z-index: 5;
+  height: var(--inset-top);
+  background: var(--paper);
+}
+
+.screens {
+  display: grid;
+  flex: 1;
+  min-height: 0;
+}
+
+/*
+  Stacking every screen in one cell lets two of them overlap while they swap. Each screen holds its
+  own hidden parts, such as the boxes behind ticks, so a tapped one can only ever scroll its own
+  screen, never the whole page
+*/
+.screen {
+  position: relative;
+  grid-area: 1 / 1;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior-y: contain;
+  padding:
+    calc(var(--inset-top) + var(--space-4)) calc(var(--inset-right) + var(--space-5)) var(--space-10) calc(var(--inset-left) + var(--space-5));
+}
+
+.screen-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-3);
+  margin-bottom: var(--space-4);
+}
+
+/* Hiding a tab's title inside a roadmap or a guide, whose own head names the page */
+.screen.is-detail>.screen-head {
+  display: none;
+}
+
+.screen-title {
+  margin: 0;
+  padding-top: var(--space-2);
+  font-size: var(--text-title);
+  font-weight: 600;
+  line-height: 1.15;
+}
+
+.lead {
+  max-width: var(--reading-width);
+  margin: 0 0 var(--space-4);
+  font-family: var(--font-read);
+  font-size: var(--text-read);
+  line-height: 1.65;
+}
+
+.note {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: var(--text-small);
+}
+
+.icon-button {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: var(--touch);
+  height: var(--touch);
+  margin: 0 calc(-1 * var(--space-3)) 0 0;
+  border-radius: 50%;
+  user-select: none;
+  transition: background-color var(--dur-press) var(--ease-out);
+}
+
+.icon-button .icon {
+  transition: transform var(--dur-press) var(--ease-out);
+}
+
+.icon-button:active {
+  background: var(--press);
+}
+
+.icon-button:active .icon {
+  transform: scale(0.88);
+}
+
+:focus-visible {
+  outline: 2px solid var(--line);
+  outline-offset: 2px;
+}
+
+.tabbar {
+  position: relative;
+  z-index: 4;
+  display: flex;
+  flex: none;
+  padding: 0 var(--inset-right) var(--inset-bottom) var(--inset-left);
+  background: var(--paper);
+  border-top: 1px solid var(--rule);
+  user-select: none;
+}
+
+.tab {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  height: var(--tabbar-height);
+  color: var(--ink-soft);
+  font-size: var(--text-tab);
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  transition: color var(--dur-enter) var(--ease-out);
+}
+
+.tab[aria-current="page"] {
+  color: var(--ink);
+}
+
+.tab .icon {
+  transition: transform var(--dur-press) var(--ease-out);
+}
+
+.tab:active .icon {
+  transform: scale(0.88);
+}
+
+/*
+  Moving the indicator only with transform, so its glide runs on the graphics chip.
+  The bar itself lives on ::before, so its stretch never fights the glide
+*/
+.tab-indicator {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  width: 24px;
+  height: 3px;
+  will-change: transform;
+}
+
+.tab-indicator::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 2px;
+  background: var(--line);
+}
+
+.sheet {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  max-height: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  background: transparent;
+  color: var(--ink);
+}
+
+.sheet[open] {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.sheet::backdrop {
+  background: transparent;
+}
+
+.sheet-scrim {
+  position: absolute;
+  inset: 0;
+  background: var(--scrim);
+}
+
+.sheet-panel {
+  position: relative;
+  width: 100%;
+  max-width: 40rem;
+  margin: 0 auto;
+  padding:
+    var(--space-5) calc(var(--inset-right) + var(--space-5)) calc(var(--inset-bottom) + var(--space-6)) calc(var(--inset-left) + var(--space-5));
+  border-radius: var(--radius-sheet) var(--radius-sheet) 0 0;
+  background: var(--raised);
+  will-change: transform;
+}
+
+.sheet-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--space-2);
+  user-select: none;
+}
+
+.sheet-title {
+  margin: 0;
+  font-size: var(--text-heading);
+  font-weight: 600;
+}
+
+/* Scrolling tall panels inside themselves, never under the status bar */
+.sheet-panel {
+  --here-fill: radial-gradient(circle closest-side, var(--ink) 0 40%, var(--raised) 48%);
+  max-height: calc(100% - var(--inset-top) - var(--space-6));
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+.sheet-body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+/* Styling the app's three kinds of button: one main action, a quieter second one, and a plain text action */
+.button-primary,
+.button-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  width: 100%;
+  min-height: 52px;
+  padding: 0 var(--space-5);
+  border-radius: var(--radius-control);
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  transition: transform var(--dur-press) var(--ease-out), background-color var(--dur-press) var(--ease-out);
+}
+
+.button-primary {
+  border: 1px solid var(--line);
+  background: var(--line);
+  color: var(--paper);
+}
+
+.button-secondary {
+  border: 1px solid var(--ink-soft);
+  color: var(--ink);
+}
+
+.button-primary:active,
+.button-secondary:active {
+  transform: scale(0.98);
+}
+
+.button-secondary:active {
+  background: var(--press);
+}
+
+.button-primary:disabled {
+  border-color: var(--line-faded);
+  background: var(--line-faded);
+  color: var(--ink-soft);
+  cursor: default;
+  transform: none;
+}
+
+.button-primary.is-compact,
+.button-secondary.is-compact {
+  width: auto;
+  min-height: 44px;
+  padding: 0 18px;
+  font-size: var(--text-body-ui);
+  white-space: nowrap;
+}
+
+.text-button {
+  min-height: 44px;
+  color: var(--line);
+  font-family: var(--font-ui);
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-align: left;
+}
+
+.icon.is-small {
+  width: 18px;
+  height: 18px;
+}
+
+.icon.is-soft {
+  color: var(--ink-soft);
+}
+
+.reading {
+  max-width: var(--reading-width);
+  margin: 0;
+  font-family: var(--font-read);
+  font-size: 1rem;
+  line-height: 1.55;
+}
+
+.theme-options {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.theme-option {
+  position: relative;
+  display: grid;
+  grid-template-columns: 28px 1fr auto;
+  align-items: center;
+  gap: var(--space-4);
+  min-height: 68px;
+  margin-inline: calc(-1 * var(--space-5));
+  padding-inline: var(--space-5);
+  cursor: pointer;
+  user-select: none;
+  transition: background-color var(--dur-enter) var(--ease-out);
+}
+
+/* Showing a press at once and fading it out gently when the finger lifts */
+.theme-option:active {
+  background: var(--press);
+  transition-duration: var(--dur-tap);
+}
+
+/* Joining the three choices with a short rail, so they read as stations */
+.theme-option::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: calc(var(--space-5) + 13px);
+  width: 2px;
+  background: var(--line-faded);
+}
+
+.theme-option:first-of-type::before {
+  top: 50%;
+}
+
+.theme-option:last-of-type::before {
+  bottom: 50%;
+}
+
+/* Hiding the real box behind a station or tick where the drawn one is, so focusing it moves nothing */
+.station-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 1px;
+  margin: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.station {
+  position: relative;
+  z-index: 1;
+  justify-self: center;
+  width: 22px;
+  height: 22px;
+  border: 4px solid var(--line-faded);
+  border-radius: 50%;
+  background: var(--raised);
+  transform: scale(0.72);
+  transition:
+    transform var(--dur-enter) var(--ease-out),
+    border-color var(--dur-enter) var(--ease-out),
+    background-color var(--dur-enter) var(--ease-out);
+}
+
+.station-input:checked+.station {
+  border-color: var(--here-ring);
+  background: var(--here-fill);
+  transform: scale(1);
+}
+
+.station-input:focus-visible+.station {
+  outline: 2px solid var(--line);
+  outline-offset: 3px;
+}
+
+.option-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.option-label {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.option-note {
+  color: var(--ink-soft);
+  font-size: var(--text-small);
+}
+
+/* Previewing each theme with its own paper and line, whatever theme is active */
+.swatch {
+  position: relative;
+  width: 48px;
+  height: 30px;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-control);
+  overflow: hidden;
+}
+
+.swatch-line {
+  position: absolute;
+  top: calc(50% - 1.5px);
+  left: 10px;
+  right: 16px;
+  height: 3px;
+  border-radius: 2px;
+}
+
+.swatch-line::after {
+  content: "";
+  position: absolute;
+  top: -3.5px;
+  right: -8px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: inherit;
+}
+
+.swatch-light {
+  background: var(--day-paper);
+}
+
+.swatch-light .swatch-line {
+  background: var(--day-line);
+}
+
+.swatch-dark {
+  background: var(--night-paper);
+}
+
+.swatch-dark .swatch-line {
+  background: var(--night-line);
+}
+
+.swatch-system {
+  background: linear-gradient(90deg, var(--day-paper) 50%, var(--night-paper) 50%);
+}
+
+.swatch-system .swatch-line {
+  background: linear-gradient(90deg, var(--day-line) 65%, var(--night-line) 65%);
+}
+
+.swatch-system .swatch-line::after {
+  background: var(--night-line);
+}
+
+/* Replacing the browser's default cross-fade, because the circle is drawn in theme.js */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+
+/*
+  Changing everything at once when animations are removed on the phone. motion.js marks the page
+  with Android's setting and updates the mark while Pathway is open; the media query covers the
+  moment before the scripts run
+*/
+:root[data-motion="reduced"] *,
+:root[data-motion="reduced"] *::before,
+:root[data-motion="reduced"] *::after {
+  transition-duration: 1ms !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  :root:not([data-motion]) *,
+  :root:not([data-motion]) *::before,
+  :root:not([data-motion]) *::after {
+    transition-duration: 1ms !important;
+  }
+}
+
+/*
+  Fading nothing from one set of colours to the other while the theme changes: the wave already
+  shows the change, and those fades would make the phone redraw the screen on every frame of it
+*/
+:root.is-retheming *,
+:root.is-retheming *::before,
+:root.is-retheming *::after {
+  transition: none !important;
+}

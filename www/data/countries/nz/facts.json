@@ -1,0 +1,2401 @@
+{
+  "format": 1,
+  "file": "countries/nz",
+  "title": "Facts for New Zealand",
+  "checked": "2026-10-21",
+  "sources": {
+    "uoa-calendar": {
+      "title": "2026 Calendar: key university dates",
+      "publisher": "University of Auckland",
+      "url": "https://www.auckland.ac.nz/assets/about-us/about-the-university/the-university/official-publications/university-calendar/current-calendar/2026-calendar-parts/2026-calendar-key-dates.pdf",
+      "official": true
+    },
+    "uoa-closing": {
+      "title": "Undergraduate application closing dates",
+      "publisher": "University of Auckland",
+      "url": "https://www.auckland.ac.nz/en/study/applications-and-admissions/how-to-apply/undergraduate-application-closing-dates.html",
+      "official": true
+    },
+    "inz-fpsv": {
+      "title": "Fee Paying Student Visa",
+      "publisher": "Immigration New Zealand",
+      "url": "https://immigration.govt.nz/visas/fee-paying-student-visa/",
+      "official": true
+    },
+    "uoa-foundation": {
+      "title": "Foundation programmes for international students",
+      "publisher": "University of Auckland",
+      "url": "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/preparation-and-foundation-programmes/foundation-programmes-for-international-students.html",
+      "official": true
+    },
+    "uoaic-entry": {
+      "title": "2025 entry requirements",
+      "publisher": "University of Auckland International College",
+      "url": "https://agents.up.education/wp-content/uploads/2025/05/2025-UoAIC-Entry-Requirements-WEB-190525.pdf",
+      "official": false
+    },
+    "uoa-overseas-jz": {
+      "title": "Programme-specific entry requirements for applicants with overseas secondary qualifications (J to Z), 2027",
+      "publisher": "University of Auckland",
+      "url": "https://www.auckland.ac.nz/assets/study/applications-and-admissions/entry-requirements/undergraduate-entry-requirements/overseas-secondary-school-applicants/2027+Undergraduate-programme-specific-entry-requirements-J-Z.pdf",
+      "official": true
+    },
+    "massey-visa": {
+      "title": "Student visa application checklist",
+      "publisher": "Massey University",
+      "url": "https://www.massey.ac.nz/documents/1859/Student_Visa_Application_Checklist.pdf",
+      "official": false
+    },
+    "up-overview-2026": {
+      "title": "NZ University Pathways programme overview, 2026",
+      "publisher": "UP Education, which runs the University of Auckland International College",
+      "url": "https://assets.foleon.com/eu-central-1/de-uploads-7e3kk3/50820/nz-uni-pathways-programme-overview-flyer-2026_-_web_281025.c3bcd69ff42b.pdf",
+      "official": true
+    },
+    "qs-2027": {
+      "title": "QS World University Rankings 2027",
+      "publisher": "QS Quacquarelli Symonds",
+      "url": "https://www.topuniversities.com/world-university-rankings",
+      "official": false
+    },
+    "tec-levels": {
+      "title": "Qualification levels factsheet",
+      "publisher": "careers.govt.nz, Tertiary Education Commission",
+      "url": "https://api.careers.govt.nz/assets/pages/docs/qualification-level-factsheet.pdf",
+      "official": true
+    },
+    "uoa-overseas-ai": {
+      "title": "Programme-specific entry requirements for applicants with overseas secondary qualifications (A to I), 2027",
+      "publisher": "University of Auckland",
+      "url": "https://www.auckland.ac.nz/assets/study/applications-and-admissions/entry-requirements/undergraduate-entry-requirements/overseas-secondary-school-applicants/2027+Undergraduate-programme-specific-entry-requirements-A-I.pdf",
+      "official": true
+    },
+    "uoa-fees": {
+      "title": "Undergraduate international fees",
+      "publisher": "University of Auckland",
+      "url": "https://www.auckland.ac.nz/en/study/fees-and-money-matters/tuition-fees/international-student-fees/undergraduate-international-fees.html",
+      "official": true
+    },
+    "uoa-english": {
+      "title": "Undergraduate English language requirements, 2027",
+      "publisher": "University of Auckland",
+      "url": "https://www.auckland.ac.nz/assets/study/applications-and-admissions/entry-requirements/undergraduate-entry-requirements/undergraduate-english-language-requirements/2027-Undergraduate-English-language-requirements.pdf",
+      "official": true
+    },
+    "uoa-cfs": {
+      "title": "Certificate in Foundation Studies: entry to University of Auckland programmes, 2027",
+      "publisher": "University of Auckland",
+      "url": "https://www.auckland.ac.nz/assets/study/applications-and-admissions/entry-requirements/undergraduate-entry-requirements/foundation-study/2027+UoA+Cert+in+Foundation+Studies+(Up+Educ).pdf",
+      "official": true
+    },
+    "uoa-deans-asia": {
+      "title": "Dean's Asia Scholarship in the Faculty of Business and Economics",
+      "publisher": "University of Auckland",
+      "url": "https://www.auckland.ac.nz/en/study/scholarships-and-awards/find-a-scholarship/deans-asia-scholarship-in-the-faculty-of-business-and-economics-672-bus.html",
+      "official": true
+    },
+    "otago-entry": {
+      "title": "International entrance requirements",
+      "publisher": "University of Otago",
+      "url": "https://www.otago.ac.nz/study/entry-requirements/international-entrance-requirements",
+      "official": true
+    },
+    "otago-dates": {
+      "title": "Key dates for new international students",
+      "publisher": "University of Otago",
+      "url": "https://www.otago.ac.nz/international/future-students/prepare-for-otago/key-dates-for-new-international-students",
+      "official": true
+    },
+    "otago-fees-sci": {
+      "title": "International tuition fees: sciences",
+      "publisher": "University of Otago",
+      "url": "https://www.otago.ac.nz/study/fees/international-tuition-fees/sciences",
+      "official": true
+    },
+    "otago-english": {
+      "title": "English language requirements",
+      "publisher": "University of Otago",
+      "url": "https://www.otago.ac.nz/study/entry-requirements/language-requirements",
+      "official": true
+    },
+    "otago-scholarships": {
+      "title": "International scholarships",
+      "publisher": "University of Otago",
+      "url": "https://www.otago.ac.nz/international-scholarships",
+      "official": true
+    },
+    "otago-foundation-entry": {
+      "title": "International entry requirements: diplomas and the Foundation Studies Certificate",
+      "publisher": "University of Otago",
+      "url": "https://www.otago.ac.nz/__data/assets/pdf_file/0026/624941/International-entry-requirements-Diploma-and-Foundation-Studies-Certificate.pdf",
+      "official": true
+    },
+    "otago-foundation-fees": {
+      "title": "Foundation Year and diplomas: dates and fees",
+      "publisher": "University of Otago",
+      "url": "https://www.otago.ac.nz/uolcfy/dates-fees/otago743263.html",
+      "official": true
+    },
+    "massey-entry": {
+      "title": "Entry requirements for international students",
+      "publisher": "Massey University",
+      "url": "https://www.massey.ac.nz/study/entry-requirements-to-study-at-massey/entry-requirements-for-international-students/",
+      "official": true
+    },
+    "massey-dates": {
+      "title": "Admission application due dates",
+      "publisher": "Massey University",
+      "url": "https://www.massey.ac.nz/study/admission-and-enrolment/key-admission-and-course-enrolment-dates/admission-application-due-dates/",
+      "official": true
+    },
+    "massey-fees": {
+      "title": "Tuition fees for international students",
+      "publisher": "Massey University",
+      "url": "https://www.massey.ac.nz/study/fees-and-funding/tuition-fees-for-domestic-and-international-students/tuition-fees-for-international-students",
+      "official": true
+    },
+    "massey-grant": {
+      "title": "Undergraduate International Study Grants",
+      "publisher": "Massey University",
+      "url": "https://www.massey.ac.nz/study/scholarships-and-awards/undergraduate-international-study-grants/",
+      "official": true
+    },
+    "vuw-entry": {
+      "title": "Entry requirements for international students",
+      "publisher": "Victoria University of Wellington",
+      "url": "https://www.wgtn.ac.nz/international/applying/entry-requirements",
+      "official": true
+    },
+    "vuw-dates": {
+      "title": "Dates and deadlines",
+      "publisher": "Victoria University of Wellington",
+      "url": "https://www.wgtn.ac.nz/international/applying/dates-and-deadlines",
+      "official": true
+    },
+    "vuw-fees": {
+      "title": "Fees schedule 2027",
+      "publisher": "Victoria University of Wellington",
+      "url": "https://www.wgtn.ac.nz/__data/assets/pdf_file/0007/2374198/Fees-Schedule-2027.pdf",
+      "official": true
+    },
+    "vuw-english": {
+      "title": "English language requirements: standard undergraduate",
+      "publisher": "Victoria University of Wellington",
+      "url": "https://www.wgtn.ac.nz/international/applying/entry-requirements/english-language/standard-undergraduate",
+      "official": true
+    },
+    "vuw-scholarship": {
+      "title": "VUW Undergraduate International Scholarship",
+      "publisher": "Victoria University of Wellington",
+      "url": "https://www.wgtn.ac.nz/scholarships/current/vuw-undergraduate-international-scholarship",
+      "official": true
+    },
+    "upnz-vuw-entry": {
+      "title": "Victoria University of Wellington Foundation Studies: entry requirements",
+      "publisher": "UP Education, which runs the Victoria University of Wellington and AUT foundation programmes",
+      "url": "https://wgtn.up.education/wp-content/uploads/2026/06/VUW-Foundation-Entry-Requirements-Web.pdf",
+      "official": true
+    },
+    "upnz-aut-entry": {
+      "title": "AUT Foundation Studies: entry requirements",
+      "publisher": "UP Education, which runs the Victoria University of Wellington and AUT foundation programmes",
+      "url": "https://assets.foleon.com/eu-central-1/de-uploads-7e3kk3/50820/aut_foundation_entry_requirements-_web_170626_.a8455a64d049.pdf",
+      "official": true
+    },
+    "uc-dates": {
+      "title": "Enrolment dates",
+      "publisher": "University of Canterbury",
+      "url": "https://www.canterbury.ac.nz/study/study-support-info/dates-and-timetables/enrolment-dates",
+      "official": true
+    },
+    "uc-prospectus": {
+      "title": "International Prospectus 2027",
+      "publisher": "University of Canterbury",
+      "url": "https://www.canterbury.ac.nz/content/dam/uoc-main-site/documents/pdfs/c-brochures/international-prospectus-uc.pdf.coredownload.pdf",
+      "official": true
+    },
+    "uc-english": {
+      "title": "English language requirements",
+      "publisher": "University of Canterbury",
+      "url": "https://www.canterbury.ac.nz/study/getting-started/admission-and-enrolment/enrolment-topics/english-language-proficiency/english-language-requirements",
+      "official": true
+    },
+    "ucic-entry": {
+      "title": "Academic entry requirements",
+      "publisher": "UC International College, the University of Canterbury's pathway college run by Navitas",
+      "url": "https://www.ucic.ac.nz/admissions/entry-requirements/academic/",
+      "official": true
+    },
+    "ucic-foundation": {
+      "title": "Certificate in Foundation Studies",
+      "publisher": "UC International College, the University of Canterbury's pathway college run by Navitas",
+      "url": "https://www.ucic.ac.nz/study/certificate-in-foundation-studies/",
+      "official": true
+    },
+    "waikato-entry": {
+      "title": "Entry requirements for international students",
+      "publisher": "University of Waikato",
+      "url": "https://www.waikato.ac.nz/study/apply/international/entry-requirements-for-international-students/",
+      "official": true
+    },
+    "waikato-apply": {
+      "title": "How to apply: international students",
+      "publisher": "University of Waikato",
+      "url": "https://waikato.ac.nz/international/how-to-apply",
+      "official": true
+    },
+    "waikato-calendar": {
+      "title": "Teaching and assessment periods",
+      "publisher": "University of Waikato",
+      "url": "https://www.waikato.ac.nz/about/calendar/important-dates/teaching-and-assessment-periods/",
+      "official": true
+    },
+    "waikato-fees": {
+      "title": "International tuition costs",
+      "publisher": "University of Waikato",
+      "url": "https://www.waikato.ac.nz/study/fees-costs/international-tuition-costs/",
+      "official": true
+    },
+    "waikato-english": {
+      "title": "Undergraduate English language entry requirements (30 April 2026)",
+      "publisher": "University of Waikato",
+      "url": "https://www.waikato.ac.nz/assets/Uploads/Study-with-us/How-to-apply/Undergraduate/Undergraduate-English-Language-Entry-Requirements-30.04.26.pdf",
+      "official": true
+    },
+    "waikato-vc": {
+      "title": "Vice-Chancellor's International Excellence Scholarship",
+      "publisher": "University of Waikato",
+      "url": "https://www.waikato.ac.nz/study/scholarships/find-a-scholarship/vice-chancellors-international-excellence-scholarship/",
+      "official": true
+    },
+    "lincoln-entry": {
+      "title": "International undergraduate entry criteria",
+      "publisher": "Lincoln University",
+      "url": "https://www.lincoln.ac.nz/study/apply-and-enrol/international-undergraduate-entry-criteria/",
+      "official": true
+    },
+    "lincoln-dates": {
+      "title": "2027 academic key dates",
+      "publisher": "Lincoln University",
+      "url": "https://www.lincoln.ac.nz/study/key-dates/2027-academic-key-dates/",
+      "official": true
+    },
+    "aut-entry": {
+      "title": "International student entry requirements",
+      "publisher": "Auckland University of Technology",
+      "url": "https://www.aut.ac.nz/study/applying/entry-requirements/international-student-entry-requirements",
+      "official": true
+    },
+    "aut-dates": {
+      "title": "Important dates",
+      "publisher": "Auckland University of Technology",
+      "url": "https://www.aut.ac.nz/study/important-dates",
+      "official": true
+    },
+    "aut-fees": {
+      "title": "International student fees 2027",
+      "publisher": "Auckland University of Technology",
+      "url": "https://www.aut.ac.nz/__data/assets/pdf_file/0004/708925/International-Student-Fees-2027-v1.pdf",
+      "official": true
+    },
+    "aut-english": {
+      "title": "English language requirements: bachelor's degrees",
+      "publisher": "Auckland University of Technology",
+      "url": "https://www.aut.ac.nz/study/entry-requirements/english-language-requirements/bachelors-degrees",
+      "official": true
+    },
+    "aut-scholarship": {
+      "title": "AUT International Scholarships, South Asia: regulations",
+      "publisher": "Auckland University of Technology",
+      "url": "https://www.aut.ac.nz/__data/assets/pdf_file/0011/1157555/AUT-International-Scholarships-South-Asia-Regulations_FINAL.pdf",
+      "official": true
+    },
+    "inz-funds": {
+      "title": "Student fund requirements",
+      "publisher": "Immigration New Zealand",
+      "url": "https://immigration.govt.nz/process-to-apply/applying-for-a-visa/providing-evidence-and-documents-to-support-your-visa-application/student-fund-requirements/",
+      "official": true
+    },
+    "inz-fees-table": {
+      "title": "Immigration fee and levy table, rates from 1 October 2024",
+      "publisher": "Immigration New Zealand",
+      "url": "https://www.immigration.govt.nz/assets/inz/documents/media/immigration-fee-and-levy-table-rates-from-1-october-2024.pdf",
+      "official": true
+    },
+    "inz-lowtb": {
+      "title": "Countries with a low incidence of tuberculosis",
+      "publisher": "Immigration New Zealand",
+      "url": "https://immigration.govt.nz/process-to-apply/applying-for-a-visa/providing-evidence-and-documents-to-support-your-visa-application/health-requirements/countries-with-a-low-incidence-of-tuberculosis",
+      "official": true
+    },
+    "inz-waittimes": {
+      "title": "Student visa wait times",
+      "publisher": "Immigration New Zealand",
+      "url": "https://immigration.govt.nz/process-to-apply/waiting-for-a-visa/processing-a-visa-application/how-long-it-takes-to-process-an-application/student-visa-wait-times/",
+      "official": true
+    },
+    "inz-work-news": {
+      "title": "Upcoming changes to student visa work rights (21 October 2025)",
+      "publisher": "Immigration New Zealand",
+      "url": "https://immigration.govt.nz/about-us/news-centre/upcoming-changes-to-student-visa-work-rights",
+      "official": true
+    },
+    "inz-pswv": {
+      "title": "Post Study Work Visa",
+      "publisher": "Immigration New Zealand",
+      "url": "https://immigration.govt.nz/visas/post-study-work-visa/",
+      "official": true
+    },
+    "inz-pswv-change": {
+      "title": "Post Study Work Visa eligibility extended from 16 November 2026 (10 September 2026)",
+      "publisher": "Immigration New Zealand",
+      "url": "https://immigration.govt.nz/about-us/news-centre/post-study-work-visa-eligibility-extended-from-16-november-2026/",
+      "official": true
+    },
+    "inz-vac-fee": {
+      "title": "Visa Application Centre service fee increase (15 December 2025)",
+      "publisher": "Immigration New Zealand",
+      "url": "https://immigration.govt.nz/about-us/news-centre/vac-service-fee-increase-3/",
+      "official": true
+    },
+    "inz-scams": {
+      "title": "Scams",
+      "publisher": "Immigration New Zealand",
+      "url": "https://www.immigration.govt.nz/scams",
+      "official": true
+    },
+    "iaa-agents": {
+      "title": "Information for education agents",
+      "publisher": "Immigration Advisers Authority",
+      "url": "https://www.iaa.govt.nz/can-i-give-advice/information-for-education-agents/",
+      "official": true
+    },
+    "enz-update": {
+      "title": "Update from Immigration New Zealand, July 2026",
+      "publisher": "Education New Zealand",
+      "url": "https://www.enz.govt.nz/news-and-research/ed-news/update-from-immigration-new-zealand-july-2026",
+      "official": true
+    },
+    "swnz-cost": {
+      "title": "Cost of living",
+      "publisher": "Study with New Zealand, Education New Zealand",
+      "url": "https://www.studywithnewzealand.govt.nz/en/plan-with-new-zealand/cost-of-living",
+      "official": true
+    },
+    "manaaki-countries": {
+      "title": "Check eligible countries",
+      "publisher": "Manaaki New Zealand Scholarships, Ministry of Foreign Affairs and Trade",
+      "url": "https://www.nzscholarships.govt.nz/check-eligible-countries/",
+      "official": true
+    },
+    "figurenz-bd": {
+      "title": "People from Bangladesh granted student visas for New Zealand",
+      "publisher": "Figure.NZ, republishing Immigration New Zealand data",
+      "url": "https://figure.nz/chart/VriZSc3QRCXUBa58",
+      "official": false
+    },
+    "uoa-deans-asia-regs": {
+      "title": "Dean's Asia Scholarship in the Faculty of Business and Economics: regulations (updated 11 September 2025)",
+      "publisher": "University of Auckland",
+      "url": "https://www.auckland.ac.nz/assets/study/scholarships-and-funding/find-a-scholarship-or-award/regulations/dean-s-asia-scholarship-in-the-faculty-of-business-and-economics.pdf",
+      "official": true
+    },
+    "up-fees-2026": {
+      "title": "New Zealand university pathways: international fees 2026",
+      "publisher": "UP Education, which runs the foundation programmes for Auckland, AUT and Victoria University of Wellington",
+      "url": "https://uploads.up.education/wp-content/uploads/2026/03/NZ-Uni-Pathways-International-Fees-2026-100326.pdf",
+      "official": true
+    },
+    "otago-howto": {
+      "title": "How to apply",
+      "publisher": "University of Otago",
+      "url": "https://www.otago.ac.nz/international/future-students/how-to-apply",
+      "official": true
+    },
+    "inz-xray": {
+      "title": "Who needs an X-ray or medical examination",
+      "publisher": "Immigration New Zealand",
+      "url": "https://immigration.govt.nz/process-to-apply/applying-for-a-visa/providing-evidence-and-documents-to-support-your-visa-application/health-requirements/who-needs-an-x-ray-or-medical-examination",
+      "official": true
+    },
+    "uoa-appfee": {
+      "title": "Application fee information",
+      "publisher": "University of Auckland",
+      "url": "https://www.auckland.ac.nz/en/study/applications-and-admissions/how-to-apply/application-fees.html",
+      "official": true
+    },
+    "otago-cambridge": {
+      "title": "Admission from Cambridge International",
+      "publisher": "University of Otago",
+      "url": "https://www.otago.ac.nz/study/entry-requirements/admission-from-cambridge-assessment-international-education-cambridge-international",
+      "official": true
+    },
+    "vuw-cambridge": {
+      "title": "Cambridge International",
+      "publisher": "Victoria University of Wellington",
+      "url": "https://www.wgtn.ac.nz/study/apply-enrol/admissions/cambridge-international",
+      "official": true
+    },
+    "inz-oia-interviews": {
+      "title": "Student visa interviews, 2018 to 2022: reply to an Official Information Act request (24 May 2023)",
+      "publisher": "Immigration New Zealand, on FYI.org.nz",
+      "url": "https://fyi.org.nz/request/22446/response/85377/attach/html/4/OIA%202223%202343%20Response.pdf.html",
+      "official": false
+    }
+  },
+  "facts": [
+    {
+      "id": "term.s1.start",
+      "label": "Semester One begins (University of Auckland)",
+      "kind": "date",
+      "keyedBy": "cycle",
+      "values": [
+        {
+          "key": "2027",
+          "value": {
+            "date": "2027-03-01"
+          },
+          "status": "confirmed",
+          "source": "uoa-calendar",
+          "where": "2026 Semester and Quarter Dates: Semester One 2027",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": ""
+        },
+        {
+          "key": "2028",
+          "value": {
+            "date": "2028-03"
+          },
+          "status": "expected",
+          "source": "uoa-calendar",
+          "where": "Semester dates",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in late February or early March. The plan assumes 1 March."
+        },
+        {
+          "key": "2029",
+          "value": {
+            "date": "2029-03"
+          },
+          "status": "expected",
+          "source": "uoa-calendar",
+          "where": "Semester dates",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in late February or early March. The plan assumes 1 March."
+        },
+        {
+          "key": "2030",
+          "value": {
+            "date": "2030-03"
+          },
+          "status": "expected",
+          "source": "uoa-calendar",
+          "where": "Semester dates",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in late February or early March. The plan assumes 1 March."
+        },
+        {
+          "key": "2031",
+          "value": {
+            "date": "2031-03"
+          },
+          "status": "expected",
+          "source": "uoa-calendar",
+          "where": "Semester dates",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in late February or early March. The plan assumes 1 March."
+        },
+        {
+          "key": "2032",
+          "value": {
+            "date": "2032-03"
+          },
+          "status": "expected",
+          "source": "uoa-calendar",
+          "where": "Semester dates",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in late February or early March. The plan assumes 1 March."
+        }
+      ]
+    },
+    {
+      "id": "app.closing",
+      "label": "Undergraduate application closing date (University of Auckland)",
+      "kind": "date",
+      "keyedBy": "cycle",
+      "values": [
+        {
+          "key": "2027",
+          "value": {
+            "date": "2026-12-08"
+          },
+          "status": "confirmed",
+          "source": "uoa-closing",
+          "where": "Semester One 2027 closing dates, most programmes",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Most programmes close on 8 December 2026, some on 1 December. Nursing closes on 1 November 2026 for international applicants, and medicine closed on 1 July 2026. Semester Two 2027 closes on 8 June 2027 for international applicants. Late applications are considered for most programmes if places remain."
+        },
+        {
+          "key": "2028",
+          "value": {
+            "date": "2027-12"
+          },
+          "status": "expected",
+          "source": "uoa-closing",
+          "where": "Semester One closing dates",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in early December, as for 2027 entry and earlier years."
+        },
+        {
+          "key": "2029",
+          "value": {
+            "date": "2028-12"
+          },
+          "status": "expected",
+          "source": "uoa-closing",
+          "where": "Semester One closing dates",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in early December, as for 2027 entry and earlier years."
+        },
+        {
+          "key": "2030",
+          "value": {
+            "date": "2029-12"
+          },
+          "status": "expected",
+          "source": "uoa-closing",
+          "where": "Semester One closing dates",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in early December, as for 2027 entry and earlier years."
+        },
+        {
+          "key": "2031",
+          "value": {
+            "date": "2030-12"
+          },
+          "status": "expected",
+          "source": "uoa-closing",
+          "where": "Semester One closing dates",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in early December, as for 2027 entry and earlier years."
+        },
+        {
+          "key": "2032",
+          "value": {
+            "date": "2031-12"
+          },
+          "status": "expected",
+          "source": "uoa-closing",
+          "where": "Semester One closing dates",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in early December, as for 2027 entry and earlier years."
+        }
+      ]
+    },
+    {
+      "id": "entry.hsc",
+      "label": "HSC students and entry (University of Auckland)",
+      "kind": "text",
+      "value": {
+        "text": "The Bangladesh HSC is not on the University of Auckland's 2027 lists of overseas school qualifications for direct entry, so HSC students apply to its foundation programme first, or ask the university. A levels are on the list."
+      },
+      "status": "confirmed",
+      "source": "uoa-overseas-ai",
+      "where": "Country lists in the A to I and J to Z documents, approved for Semester 1 2027 onwards",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "The lists do not say in words that the HSC is refused, so ask the university. Otago, Massey, Waikato, Lincoln and AUT take the HSC directly. Note 5 of the A to I list covers Cambridge International and Edexcel A levels."
+    },
+    {
+      "id": "entry.foundation",
+      "label": "Foundation programme (University of Auckland)",
+      "kind": "text",
+      "value": {
+        "text": "Foundation study usually takes a year, or 8 months on the accelerated programme. Completing it gives guaranteed entry with the required average and IELTS 6.0 overall, no band below 5.5. Some programmes ask for more."
+      },
+      "status": "confirmed",
+      "source": "uoa-foundation",
+      "where": "Why study a foundation programme, and the entry conditions",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "UP Education, which runs the programme, gives 6 months for the accelerated version and 8 to 9 months for fast-track."
+    },
+    {
+      "id": "foundation.uoaic.length",
+      "label": "Foundation programme lengths (University of Auckland International College)",
+      "kind": "duration",
+      "value": {
+        "unit": "months",
+        "variants": [
+          {
+            "label": "Accelerated",
+            "max": 6
+          },
+          {
+            "label": "Fast-track",
+            "min": 8,
+            "max": 9
+          },
+          {
+            "label": "Standard",
+            "max": 12
+          }
+        ]
+      },
+      "status": "confirmed",
+      "source": "up-overview-2026",
+      "where": "University of Auckland International College table: Duration row",
+      "checked": "2026-10-24",
+      "verified": "2026-10-24",
+      "note": "To start, accelerated needs IELTS 6.0 with no band below 5.5, fast-track 5.5 with no band below 5.0, and standard 5.0 with no band below 4.5. The University of Auckland's own page describes the usual length as a year, with an accelerated 8-month version."
+    },
+    {
+      "id": "foundation.uoaic.startsAccelerated",
+      "label": "Foundation start months, accelerated (University of Auckland International College)",
+      "kind": "months",
+      "value": {
+        "months": [
+          1,
+          9
+        ]
+      },
+      "status": "expected",
+      "source": "up-overview-2026",
+      "where": "University of Auckland International College table: Start dates (incl. Orientation)",
+      "checked": "2026-10-24",
+      "verified": "2026-10-24",
+      "note": "Worked out from the 2026 start dates, 27 January and 2 September, which include orientation. The 2027 dates are not published yet."
+    },
+    {
+      "id": "foundation.uoaic.startsFastTrack",
+      "label": "Foundation start months, fast-track (University of Auckland International College)",
+      "kind": "months",
+      "value": {
+        "months": [
+          4,
+          9
+        ]
+      },
+      "status": "expected",
+      "source": "up-overview-2026",
+      "where": "University of Auckland International College table: Start dates (incl. Orientation)",
+      "checked": "2026-10-24",
+      "verified": "2026-10-24",
+      "note": "Worked out from the 2026 start dates, 20 April and 28 September, which include orientation. The 2027 dates are not published yet."
+    },
+    {
+      "id": "foundation.uoaic.startsStandard",
+      "label": "Foundation start months, standard (University of Auckland International College)",
+      "kind": "months",
+      "value": {
+        "months": [
+          1,
+          7
+        ]
+      },
+      "status": "expected",
+      "source": "up-overview-2026",
+      "where": "University of Auckland International College table: Start dates (incl. Orientation)",
+      "checked": "2026-10-24",
+      "verified": "2026-10-24",
+      "note": "Worked out from the 2026 start dates, 27 January and 13 July, which include orientation. The 2027 dates are not published yet."
+    },
+    {
+      "id": "entry.sat",
+      "label": "The SAT route (University of Auckland)",
+      "kind": "text",
+      "value": {
+        "text": "SAT-based entry also requires a high school diploma from a regionally accredited US high school, so it is open only to students who hold one. Medicine, pharmacy, optometry and medical imaging have no direct entry from school."
+      },
+      "status": "confirmed",
+      "source": "uoa-overseas-jz",
+      "where": "Note 3, and the notes on programmes without direct entry",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "visa.funds",
+      "label": "Money needed for living costs",
+      "kind": "money",
+      "value": {
+        "amount": 20000,
+        "currency": "NZD"
+      },
+      "status": "confirmed",
+      "source": "inz-fpsv",
+      "where": "Section on money for living costs",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "NZD 20,000 for each year the visa covers, which is normally the period of study you have paid for, usually the first year. You do not need the money for later years now, but a believable plan for paying them helps your application. If your tuition is not paid yet, the money you show must cover the tuition too. Add money for a ticket out of New Zealand, or a paid ticket. For study shorter than a year, NZD 1,667 a month."
+    },
+    {
+      "id": "visa.fee",
+      "label": "Student visa application fee",
+      "kind": "money",
+      "value": {
+        "amount": 850,
+        "currency": "NZD"
+      },
+      "status": "confirmed",
+      "source": "inz-fpsv",
+      "where": "Top of the page: Cost, from NZD 850",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Worked out from the fee table from 1 October 2024: a NZD 485 fee and a NZD 265 immigration levy, plus the NZD 100 International Visitor Conservation and Tourism Levy. A Visa Application Centre charges its own service fee if you use one; these rose on 1 January 2026 in countries including Bangladesh.",
+      "changesOften": true
+    },
+    {
+      "id": "visa.health",
+      "label": "Chest X-ray and medical checks",
+      "kind": "text",
+      "value": {
+        "text": "A student staying more than 6 months must have a chest X-ray if they are a citizen of, or have spent more than 3 months in the last 5 years in, a country without a low incidence of tuberculosis. Full fee-paying students do not usually need a medical certificate."
+      },
+      "status": "confirmed",
+      "source": "inz-fpsv",
+      "where": "Section on health requirements",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Bangladesh is not on Immigration New Zealand's low-tuberculosis list (see the next fact). X-rays are done by panel physicians approved by Immigration New Zealand, described on its page on who needs an X-ray, and must be less than 3 months old when they are received."
+    },
+    {
+      "id": "visa.police",
+      "label": "Police certificate",
+      "kind": "text",
+      "value": {
+        "text": "Applicants aged 17 or older whose total time in New Zealand will be 24 months or longer must provide police certificates less than 6 months old when they apply, from each country of citizenship. A receipt showing that you have applied for one is not accepted."
+      },
+      "status": "confirmed",
+      "source": "inz-fpsv",
+      "where": "Section on police certificates",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Immigration New Zealand said in July 2026 that police certificates must be sent with the application; an application without one may be declined. A certificate sent with an earlier visa application is accepted if it was issued in the last 36 months."
+    },
+    {
+      "id": "visa.tuitionFirst",
+      "label": "Tuition before the visa",
+      "kind": "text",
+      "value": {
+        "text": "You must show that you have paid the tuition fees for 1 course, or 1 year of study, whichever is shorter, with a receipt or letter from your university. If you apply from outside New Zealand, you can wait to pay until Immigration New Zealand approves your application in principle; the visa is issued only after you send proof of payment."
+      },
+      "status": "confirmed",
+      "source": "inz-fpsv",
+      "where": "Sections on proof of tuition fees and approval in principle",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "You can apply with a conditional offer of place, but you need an unconditional offer before the visa is approved. Waiting to pay makes processing take longer."
+    },
+    {
+      "id": "visa.processing",
+      "label": "Student visa processing time, for 80% of applications",
+      "kind": "duration",
+      "keyedBy": "observedOn",
+      "values": [
+        {
+          "key": "2026-10-02",
+          "value": {
+            "max": 8,
+            "unit": "weeks"
+          },
+          "status": "confirmed",
+          "source": "inz-fpsv",
+          "where": "Top of the page: Processing time, 80% within 8 weeks",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "One in five applications takes longer."
+        },
+        {
+          "key": "2026-10-21",
+          "value": {
+            "max": 7,
+            "unit": "weeks"
+          },
+          "status": "confirmed",
+          "source": "inz-fpsv",
+          "where": "Top of the page: Processing time, 80% within 7 weeks",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "One in five applications takes longer. Immigration New Zealand advises applying at least 3 months before you travel."
+        }
+      ],
+      "changesOften": true
+    },
+    {
+      "id": "visa.bankStatement",
+      "label": "When to print the bank statement (Massey University)",
+      "kind": "text",
+      "value": {
+        "text": "After paying fees, and less than 2 weeks before lodging the visa application."
+      },
+      "status": "reported",
+      "source": "massey-visa",
+      "where": "Section 06: Funds for living costs",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Massey University's rule, from its checklist of 22 May 2025. Immigration New Zealand lets you apply before paying tuition (see visa.tuitionFirst); this rule is for students who pay first."
+    },
+    {
+      "id": "system.length",
+      "label": "Length of a bachelor's degree in New Zealand",
+      "kind": "text",
+      "value": {
+        "text": "A bachelor's degree is a level 7 qualification that normally needs at least three years of full-time study."
+      },
+      "status": "confirmed",
+      "source": "tec-levels",
+      "where": "Bachelor's degree, level 7",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "A bachelor's degree with honours can be a four-year degree, as engineering usually is."
+    },
+    {
+      "id": "uni.auckland.qsRank",
+      "label": "QS World University Rankings 2027 position (University of Auckland)",
+      "kind": "number",
+      "value": {
+        "number": 67
+      },
+      "status": "reported",
+      "source": "qs-2027",
+      "where": "University page: topuniversities.com/universities/university-auckland",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.otago.qsRank",
+      "label": "QS World University Rankings 2027 position (University of Otago)",
+      "kind": "number",
+      "value": {
+        "number": 198
+      },
+      "status": "reported",
+      "source": "qs-2027",
+      "where": "University page: topuniversities.com/node/4417",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "QS's Otago page shows 198 without the edition; Otago's news item of 18 June 2026 gives it as the 2027 position."
+    },
+    {
+      "id": "uni.massey.qsRank",
+      "label": "QS World University Rankings 2027 position (Massey University)",
+      "kind": "number",
+      "value": {
+        "number": 215
+      },
+      "status": "reported",
+      "source": "qs-2027",
+      "where": "University page: topuniversities.com/universities/massey-university",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.victoria.qsRank",
+      "label": "QS World University Rankings 2027 position (Victoria University of Wellington)",
+      "kind": "number",
+      "value": {
+        "number": 241
+      },
+      "status": "reported",
+      "source": "qs-2027",
+      "where": "University page: topuniversities.com/universities/victoria-university-wellington",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Shared with another university, shown by QS as =241."
+    },
+    {
+      "id": "uni.canterbury.qsRank",
+      "label": "QS World University Rankings 2027 position (University of Canterbury)",
+      "kind": "number",
+      "value": {
+        "number": 257
+      },
+      "status": "reported",
+      "source": "qs-2027",
+      "where": "University page: topuniversities.com/universities/university-canterbury",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.waikato.qsRank",
+      "label": "QS World University Rankings 2027 position (University of Waikato)",
+      "kind": "number",
+      "value": {
+        "number": 293
+      },
+      "status": "reported",
+      "source": "qs-2027",
+      "where": "University page: topuniversities.com/universities/university-waikato",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Shared with another university, shown by QS as =293."
+    },
+    {
+      "id": "uni.lincoln.qsRank",
+      "label": "QS World University Rankings 2027 position (Lincoln University)",
+      "kind": "number",
+      "value": {
+        "number": 419
+      },
+      "status": "reported",
+      "source": "qs-2027",
+      "where": "University page: topuniversities.com/universities/lincoln-university",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Shared with another university, shown by QS as =419."
+    },
+    {
+      "id": "uni.aut.qsRank",
+      "label": "QS World University Rankings 2027 position (Auckland University of Technology)",
+      "kind": "number",
+      "value": {
+        "number": 431
+      },
+      "status": "reported",
+      "source": "qs-2027",
+      "where": "University page: topuniversities.com/universities/auckland-university-technology-aut",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.otago.entry",
+      "label": "Entry with the HSC or A levels (University of Otago)",
+      "kind": "text",
+      "value": {
+        "text": "Direct entry with the Bangladesh HSC and a GPA of at least 4.0 out of 5.0. UK A levels: three passes at grade C or higher. Cambridge International: at least 120 points on the New Zealand tariff."
+      },
+      "status": "confirmed",
+      "source": "otago-entry",
+      "where": "Bangladesh and A level entrance requirements",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.otago.tariff",
+      "label": "New Zealand tariff for Cambridge International (University of Otago)",
+      "kind": "text",
+      "value": {
+        "text": "A level grades count A* 140, A 120, B 100, C 80, D 60 and E 40 points; AS level grades count A 60, B 50, C 40, D 30 and E 20. Entry needs at least 120 points from at least three syllabus groups, with a D or better in three groups, not counting Thinking Skills. Literacy and numeracy rules also apply."
+      },
+      "status": "confirmed",
+      "source": "otago-cambridge",
+      "where": "Tariff table and entry rule",
+      "checked": "2026-10-25",
+      "verified": "2026-10-25",
+      "note": ""
+    },
+    {
+      "id": "uni.massey.entry",
+      "label": "Entry with the HSC (Massey University)",
+      "kind": "text",
+      "value": {
+        "text": "Direct entry with the Bangladesh HSC or Alim and a GPA of at least 4.0 out of 5.0. A levels are considered case by case. Students without the qualifications can take Massey's foundation certificate first."
+      },
+      "status": "confirmed",
+      "source": "massey-entry",
+      "where": "Bangladesh row and the section on foundation study",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.waikato.entry",
+      "label": "Entry with the HSC or A levels (University of Waikato)",
+      "kind": "text",
+      "value": {
+        "text": "Direct entry with the Bangladesh HSC or Alim and a GPA of at least 4.0 out of 5.0. UK A levels: at least 6 points from three subjects, with a C in at least one. Cambridge International: at least 120 points on the New Zealand tariff."
+      },
+      "status": "confirmed",
+      "source": "waikato-entry",
+      "where": "Bangladesh and A level rows",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.lincoln.entry",
+      "label": "Entry with the HSC (Lincoln University)",
+      "kind": "text",
+      "value": {
+        "text": "Direct entry with the Bangladesh HSC and a GPA of at least 4 out of 5. Cambridge International: at least 120 points on the New Zealand tariff, with an E in an AS level English subject and a D in IGCSE maths."
+      },
+      "status": "confirmed",
+      "source": "lincoln-entry",
+      "where": "Bangladesh and Cambridge rows",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.aut.entry",
+      "label": "Entry with the HSC or A levels (Auckland University of Technology)",
+      "kind": "text",
+      "value": {
+        "text": "Direct entry with the Bangladesh HSC and a GPA of at least 4.0 out of 5.0. A levels: three, with at least one at grade C or better. Cambridge International: 120 points with three subjects at grade D or above."
+      },
+      "status": "confirmed",
+      "source": "aut-entry",
+      "where": "Bangladesh and A level rows",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.victoria.entry",
+      "label": "Entry with A levels (Victoria University of Wellington)",
+      "kind": "text",
+      "value": {
+        "text": "A levels taken outside the UK: three passes, with at least one at grade C or higher."
+      },
+      "status": "confirmed",
+      "source": "vuw-entry",
+      "where": "A level requirements",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Victoria's HSC rule is on a country list that could not be read, so ask Victoria about the HSC."
+    },
+    {
+      "id": "uni.victoria.tariff",
+      "label": "Counting the tariff (Victoria University of Wellington)",
+      "kind": "text",
+      "value": {
+        "text": "Up to six subject units count, no more than two from one syllabus group, and an A level counts as two units. The best six count."
+      },
+      "status": "confirmed",
+      "source": "vuw-cambridge",
+      "where": "Paragraph on how points are counted",
+      "checked": "2026-10-25",
+      "verified": "2026-10-25",
+      "note": "Victoria uses the same points for each grade as the University of Otago."
+    },
+    {
+      "id": "uni.canterbury.ucic",
+      "label": "HSC entry to the pathway programmes (UC International College)",
+      "kind": "text",
+      "value": {
+        "text": "The Certificate in Foundation Studies needs the HSC with an overall GPA of at least 4.0. The Diploma in University Studies, which counts as the first year of a University of Canterbury degree, needs an overall GPA of 4.5; for engineering you also need a grade of 5.0 in mathematics, physics and chemistry."
+      },
+      "status": "confirmed",
+      "source": "ucic-entry",
+      "where": "Higher Secondary Certificate rows",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "The University of Canterbury's own HSC rule could not be read, so ask UC whether it takes the HSC directly."
+    },
+    {
+      "id": "foundation.uoaic.hsc",
+      "label": "Foundation entry with the HSC (University of Auckland International College)",
+      "kind": "text",
+      "value": {
+        "text": "The 2025 entry table takes Bangladesh HSC Year 11 results, from 60% to 70% depending on the programme."
+      },
+      "status": "reported",
+      "source": "uoaic-entry",
+      "where": "Entry requirements table, Bangladesh HSC Year 11",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "From the 2025 table; no newer table with a Bangladesh row was found. The table does not show clearly which result goes with which programme, so ask the college."
+    },
+    {
+      "id": "foundation.uoaic.fees",
+      "label": "Foundation tuition for the whole programme (University of Auckland International College)",
+      "kind": "money",
+      "keyedBy": "academicYear",
+      "values": [
+        {
+          "key": "2026",
+          "value": {
+            "currency": "NZD",
+            "variants": [
+              {
+                "label": "Accelerated, 6 months",
+                "amount": 27623
+              },
+              {
+                "label": "Fast-track, 8 to 9 months",
+                "amount": 36830
+              },
+              {
+                "label": "Standard, 12 months",
+                "amount": 36830
+              }
+            ]
+          },
+          "status": "confirmed",
+          "source": "up-overview-2026",
+          "where": "University of Auckland International College table: tuition",
+          "checked": "2026-10-24",
+          "verified": "2026-10-24",
+          "note": "For 2026 starts; 2027 fees were not yet published. An enrolment fee of NZD 550 is added."
+        }
+      ]
+    },
+    {
+      "id": "foundation.uoaic.progression",
+      "label": "Grades needed in the foundation programme (University of Auckland)",
+      "kind": "text",
+      "value": {
+        "text": "Bachelor of Commerce: a GPA of 3.5 and 65% in English for Academic Purposes. Engineering: a GPA of 5.0, 70% in English and passes in calculus and physics. Most science majors: a GPA of 3.0 and 65% in English. You must also pass four academic subjects and complete the university's academic integrity course."
+      },
+      "status": "confirmed",
+      "source": "uoa-cfs",
+      "where": "Entry to University of Auckland programmes, 2027",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Some science majors ask for a GPA of 4.0 and 70%."
+    },
+    {
+      "id": "foundation.upnz.hsc",
+      "label": "Foundation entry with the HSC, AUT and Victoria programmes (UP Education)",
+      "kind": "text",
+      "value": {
+        "text": "AUT's and Victoria University of Wellington's foundation programmes take Bangladesh HSC Year 11 results, from 50% or a GPA of 3.0 for some versions of the programme."
+      },
+      "status": "confirmed",
+      "source": "upnz-vuw-entry",
+      "where": "Bangladesh HSC Year 11 row",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "AUT's foundation table gives the same row. The table does not show clearly which result goes with which version, so ask UP Education."
+    },
+    {
+      "id": "foundation.otago",
+      "label": "Foundation Studies Certificate (University of Otago)",
+      "kind": "text",
+      "value": {
+        "text": "Entry with the HSC needs a GPA of at least 3.0 out of 5.0, or 3.5 for an Otago diploma. The 2027 fee is NZD 32,341 for arts and commerce or NZD 33,637 for health sciences and sciences."
+      },
+      "status": "confirmed",
+      "source": "otago-foundation-fees",
+      "where": "2027 fees",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "The HSC levels are in Otago's entry requirements document for diplomas and the Foundation Studies Certificate, updated April 2026."
+    },
+    {
+      "id": "foundation.ucic",
+      "label": "Certificate in Foundation Studies (UC International College)",
+      "kind": "text",
+      "value": {
+        "text": "8 months, starting in February, June or October, leading to the first year of a University of Canterbury degree. Tuition: NZD 28,842."
+      },
+      "status": "reported",
+      "source": "ucic-foundation",
+      "where": "Programme details",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "The page gives no year for the fee."
+    },
+    {
+      "id": "uni.massey.closing",
+      "label": "Application closing date, Semester One (Massey University)",
+      "kind": "date",
+      "keyedBy": "cycle",
+      "values": [
+        {
+          "key": "2027",
+          "value": {
+            "date": "2026-10-31"
+          },
+          "status": "confirmed",
+          "source": "massey-dates",
+          "where": "Standard qualifications, Semester One and Double Semester",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Semester Two 2027 closes on 1 May 2027. Applications after these dates are considered if places remain."
+        },
+        {
+          "key": "2028",
+          "value": {
+            "date": "2027-10"
+          },
+          "status": "expected",
+          "source": "massey-dates",
+          "where": "Standard qualifications, Semester One and Double Semester",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected at the end of October, as for 2027 entry."
+        },
+        {
+          "key": "2029",
+          "value": {
+            "date": "2028-10"
+          },
+          "status": "expected",
+          "source": "massey-dates",
+          "where": "Standard qualifications, Semester One and Double Semester",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected at the end of October, as for 2027 entry."
+        },
+        {
+          "key": "2030",
+          "value": {
+            "date": "2029-10"
+          },
+          "status": "expected",
+          "source": "massey-dates",
+          "where": "Standard qualifications, Semester One and Double Semester",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected at the end of October, as for 2027 entry."
+        },
+        {
+          "key": "2031",
+          "value": {
+            "date": "2030-10"
+          },
+          "status": "expected",
+          "source": "massey-dates",
+          "where": "Standard qualifications, Semester One and Double Semester",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected at the end of October, as for 2027 entry."
+        },
+        {
+          "key": "2032",
+          "value": {
+            "date": "2031-10"
+          },
+          "status": "expected",
+          "source": "massey-dates",
+          "where": "Standard qualifications, Semester One and Double Semester",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected at the end of October, as for 2027 entry."
+        }
+      ]
+    },
+    {
+      "id": "uni.otago.closing",
+      "label": "Application closing date for applicants overseas, Semester 1 (University of Otago)",
+      "kind": "date",
+      "keyedBy": "cycle",
+      "values": [
+        {
+          "key": "2027",
+          "value": {
+            "date": "2026-11-15"
+          },
+          "status": "confirmed",
+          "source": "otago-dates",
+          "where": "Semester 1, 2027 application deadlines",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "For full degree study. Semester 2 2027 closes on 30 April 2027. Otago's scholarship page gives 10 December, which matches the deadline for applicants already in New Zealand; applicants overseas must apply by 15 November, so the plan uses 15 November."
+        },
+        {
+          "key": "2028",
+          "value": {
+            "date": "2027-11"
+          },
+          "status": "expected",
+          "source": "otago-dates",
+          "where": "Semester 1, 2027 application deadlines",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in mid-November, as for 2027 entry."
+        },
+        {
+          "key": "2029",
+          "value": {
+            "date": "2028-11"
+          },
+          "status": "expected",
+          "source": "otago-dates",
+          "where": "Semester 1, 2027 application deadlines",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in mid-November, as for 2027 entry."
+        },
+        {
+          "key": "2030",
+          "value": {
+            "date": "2029-11"
+          },
+          "status": "expected",
+          "source": "otago-dates",
+          "where": "Semester 1, 2027 application deadlines",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in mid-November, as for 2027 entry."
+        },
+        {
+          "key": "2031",
+          "value": {
+            "date": "2030-11"
+          },
+          "status": "expected",
+          "source": "otago-dates",
+          "where": "Semester 1, 2027 application deadlines",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in mid-November, as for 2027 entry."
+        },
+        {
+          "key": "2032",
+          "value": {
+            "date": "2031-11"
+          },
+          "status": "expected",
+          "source": "otago-dates",
+          "where": "Semester 1, 2027 application deadlines",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in mid-November, as for 2027 entry."
+        }
+      ]
+    },
+    {
+      "id": "uni.canterbury.closing",
+      "label": "Application closing date for international students, Semester One (University of Canterbury)",
+      "kind": "date",
+      "keyedBy": "cycle",
+      "values": [
+        {
+          "key": "2027",
+          "value": {
+            "date": "2026-12-01"
+          },
+          "status": "confirmed",
+          "source": "uc-dates",
+          "where": "Enrolment application closing dates, international students",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Semester Two 2027 closes on 1 May 2027. Late applications may be considered if places remain, with a late fee."
+        },
+        {
+          "key": "2028",
+          "value": {
+            "date": "2027-12"
+          },
+          "status": "expected",
+          "source": "uc-dates",
+          "where": "Enrolment application closing dates, international students",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in early December, as for 2027 entry."
+        },
+        {
+          "key": "2029",
+          "value": {
+            "date": "2028-12"
+          },
+          "status": "expected",
+          "source": "uc-dates",
+          "where": "Enrolment application closing dates, international students",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in early December, as for 2027 entry."
+        },
+        {
+          "key": "2030",
+          "value": {
+            "date": "2029-12"
+          },
+          "status": "expected",
+          "source": "uc-dates",
+          "where": "Enrolment application closing dates, international students",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in early December, as for 2027 entry."
+        },
+        {
+          "key": "2031",
+          "value": {
+            "date": "2030-12"
+          },
+          "status": "expected",
+          "source": "uc-dates",
+          "where": "Enrolment application closing dates, international students",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in early December, as for 2027 entry."
+        },
+        {
+          "key": "2032",
+          "value": {
+            "date": "2031-12"
+          },
+          "status": "expected",
+          "source": "uc-dates",
+          "where": "Enrolment application closing dates, international students",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in early December, as for 2027 entry."
+        }
+      ]
+    },
+    {
+      "id": "uni.victoria.closing",
+      "label": "Application deadlines (Victoria University of Wellington)",
+      "kind": "text",
+      "value": {
+        "text": "Trimester 1, starting in February: apply by 8 December. Trimester 2, starting in July: apply by 1 May. Later applications are assessed case by case."
+      },
+      "status": "confirmed",
+      "source": "vuw-dates",
+      "where": "Dates and deadlines",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "The page gives no year."
+    },
+    {
+      "id": "uni.waikato.apply",
+      "label": "When to apply (University of Waikato)",
+      "kind": "text",
+      "value": {
+        "text": "You can apply at any time of the year. Trimester A 2027 starts on 1 March 2027 and Trimester B on 12 July 2027."
+      },
+      "status": "confirmed",
+      "source": "waikato-apply",
+      "where": "How to apply",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "The 2027 start dates are on Waikato's teaching periods page. Waikato says that if you do not meet all the entry requirements, you receive a conditional offer."
+    },
+    {
+      "id": "uni.lincoln.dates",
+      "label": "Semester 1 2027 (Lincoln University)",
+      "kind": "text",
+      "value": {
+        "text": "Semester 1 2027 starts on 22 February 2027."
+      },
+      "status": "confirmed",
+      "source": "lincoln-dates",
+      "where": "February 2027",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Lincoln's only published deadline, 1 February 2027, is for students already in New Zealand."
+    },
+    {
+      "id": "term.aut.s1",
+      "label": "Semester 1 begins (Auckland University of Technology)",
+      "kind": "date",
+      "keyedBy": "cycle",
+      "values": [
+        {
+          "key": "2027",
+          "value": {
+            "date": "2027-02-22"
+          },
+          "status": "confirmed",
+          "source": "aut-dates",
+          "where": "Semester dates, first day of classes",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "The earliest start of the universities in this roadmap. Semester 2 2027 starts on 12 July."
+        },
+        {
+          "key": "2028",
+          "value": {
+            "date": "2028-02"
+          },
+          "status": "expected",
+          "source": "aut-dates",
+          "where": "Semester dates, first day of classes",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in late February. Month only."
+        },
+        {
+          "key": "2029",
+          "value": {
+            "date": "2029-02"
+          },
+          "status": "expected",
+          "source": "aut-dates",
+          "where": "Semester dates, first day of classes",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in late February. Month only."
+        },
+        {
+          "key": "2030",
+          "value": {
+            "date": "2030-02"
+          },
+          "status": "expected",
+          "source": "aut-dates",
+          "where": "Semester dates, first day of classes",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in late February. Month only."
+        },
+        {
+          "key": "2031",
+          "value": {
+            "date": "2031-02"
+          },
+          "status": "expected",
+          "source": "aut-dates",
+          "where": "Semester dates, first day of classes",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in late February. Month only."
+        },
+        {
+          "key": "2032",
+          "value": {
+            "date": "2032-02"
+          },
+          "status": "expected",
+          "source": "aut-dates",
+          "where": "Semester dates, first day of classes",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in late February. Month only."
+        }
+      ]
+    },
+    {
+      "id": "term.otago.arrive",
+      "label": "Recommended last day to arrive, Semester 1 (University of Otago)",
+      "kind": "date",
+      "keyedBy": "cycle",
+      "values": [
+        {
+          "key": "2027",
+          "value": {
+            "date": "2027-02-21"
+          },
+          "status": "confirmed",
+          "source": "otago-dates",
+          "where": "Semester 1, 2027: recommended last day to arrive",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Orientation, with compulsory international seminars, runs from 22 to 26 February 2027, and lectures begin on 1 March."
+        },
+        {
+          "key": "2028",
+          "value": {
+            "date": "2028-02"
+          },
+          "status": "expected",
+          "source": "otago-dates",
+          "where": "Semester 1, 2027: recommended last day to arrive",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in late February. Month only."
+        },
+        {
+          "key": "2029",
+          "value": {
+            "date": "2029-02"
+          },
+          "status": "expected",
+          "source": "otago-dates",
+          "where": "Semester 1, 2027: recommended last day to arrive",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in late February. Month only."
+        },
+        {
+          "key": "2030",
+          "value": {
+            "date": "2030-02"
+          },
+          "status": "expected",
+          "source": "otago-dates",
+          "where": "Semester 1, 2027: recommended last day to arrive",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in late February. Month only."
+        },
+        {
+          "key": "2031",
+          "value": {
+            "date": "2031-02"
+          },
+          "status": "expected",
+          "source": "otago-dates",
+          "where": "Semester 1, 2027: recommended last day to arrive",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in late February. Month only."
+        },
+        {
+          "key": "2032",
+          "value": {
+            "date": "2032-02"
+          },
+          "status": "expected",
+          "source": "otago-dates",
+          "where": "Semester 1, 2027: recommended last day to arrive",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in late February. Month only."
+        }
+      ]
+    },
+    {
+      "id": "uni.auckland.english",
+      "label": "English requirement (University of Auckland)",
+      "kind": "text",
+      "value": {
+        "text": "IELTS Academic 6.0 with no band below 5.5, TOEFL iBT 4.0 with 4.0 in writing on the new scale (80 with 21 on the old), or PTE Academic 50 with no communicative score below 42. The Duolingo English Test is not on the list. An A level in English endorsed by a UK board, at grade E, also counts."
+      },
+      "status": "confirmed",
+      "source": "uoa-english",
+      "where": "Accepted tests and A level English, for Semester 1 2027 onwards",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.otago.english",
+      "label": "English requirement (University of Otago)",
+      "kind": "text",
+      "value": {
+        "text": "IELTS 6.0 with no band below 5.5, TOEFL iBT 4 with 4 in writing on the new scale (80 with 20 on the old), PTE Academic 50 with no communicative skill below 42, or Duolingo 105 with no subscore below 95. An A level in English endorsed by a UK board, at grade E, also counts."
+      },
+      "status": "confirmed",
+      "source": "otago-english",
+      "where": "Undergraduate requirements",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Results must be from no more than two years before you begin your study at Otago."
+    },
+    {
+      "id": "uni.massey.english",
+      "label": "English requirement (Massey University)",
+      "kind": "text",
+      "value": {
+        "text": "IELTS 6.0 with at least 5.5 in each band, TOEFL iBT 4.0 with 4.0 in writing on the new scale (80 with 19 on the old), PTE Academic 50 with at least 42 in each skill, or Duolingo 105 with at least 95 in each band. Results are valid for 2 years."
+      },
+      "status": "confirmed",
+      "source": "massey-entry",
+      "where": "English language requirements, undergraduate",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.victoria.english",
+      "label": "English requirement (Victoria University of Wellington)",
+      "kind": "text",
+      "value": {
+        "text": "IELTS 6.0 with no band below 5.5, TOEFL iBT 80, PTE Academic 50 with no communicative score below 42, or Duolingo 105 with no band below 95. An A level in English at grade E also counts."
+      },
+      "status": "confirmed",
+      "source": "vuw-english",
+      "where": "Standard undergraduate requirements",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "The page gives TOEFL only on the old scale."
+    },
+    {
+      "id": "uni.canterbury.english",
+      "label": "English requirement (University of Canterbury)",
+      "kind": "text",
+      "value": {
+        "text": "IELTS Academic 6.0 with at least 5.5 in each part, TOEFL iBT 4.0 on the new scale (80 with at least 19 in each part on the old), or PTE Academic 50 with no communicative skill below 42. The Duolingo English Test is not listed for degrees."
+      },
+      "status": "confirmed",
+      "source": "uc-english",
+      "where": "Undergraduate requirements",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "TOEFL scores must come from a single test date. On the new scale UC also sets 3.0 in listening, writing and speaking and 3.5 in reading."
+    },
+    {
+      "id": "uni.waikato.english",
+      "label": "English requirement (University of Waikato)",
+      "kind": "text",
+      "value": {
+        "text": "IELTS 6.0 with no band below 5.5, TOEFL iBT 80 with 21 in writing, PTE Academic 50 with no communicative skill below 42, or Duolingo 105 with no band below 95. PTE Academic Online is not accepted. An E in certain English-intensive A level subjects counts as IELTS 6.0."
+      },
+      "status": "confirmed",
+      "source": "waikato-english",
+      "where": "Undergraduate requirements, 30 April 2026",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.aut.english",
+      "label": "English requirement (Auckland University of Technology)",
+      "kind": "text",
+      "value": {
+        "text": "IELTS 6.0 with every band 5.5 or higher, TOEFL iBT 80, PTE Academic 50 with no score below 42, or Duolingo 105. The online versions of IELTS and PTE are not accepted. Studies taught and assessed mainly in English can also count, with evidence."
+      },
+      "status": "confirmed",
+      "source": "aut-english",
+      "where": "Bachelor's degrees",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Ask AUT whether your school's English-medium teaching counts. TOEFL is given on the old scale, with 15 in reading and listening, 18 in speaking and 20 in writing."
+    },
+    {
+      "id": "tuition.auckland",
+      "label": "Tuition fee per year for international students (University of Auckland)",
+      "kind": "money",
+      "keyedBy": "academicYear",
+      "values": [
+        {
+          "key": "2027",
+          "value": {
+            "currency": "NZD",
+            "variants": [
+              {
+                "label": "Arts, most courses",
+                "amount": 42236.4
+              },
+              {
+                "label": "Commerce",
+                "amount": 51020.4
+              },
+              {
+                "label": "Science, lowest",
+                "amount": 49581.6
+              },
+              {
+                "label": "Science, highest",
+                "amount": 60909.6
+              },
+              {
+                "label": "Engineering with honours",
+                "amount": 60909.6
+              }
+            ]
+          },
+          "status": "confirmed",
+          "source": "uoa-fees",
+          "where": "2027 fees, full-time year of 120 points",
+          "checked": "2026-10-24",
+          "verified": "2026-10-24",
+          "note": "Estimates for a full-time year. The 2027 student services fee will be set in late 2026; in 2026 it was NZD 9.44 a point, about NZD 1,133 a year."
+        }
+      ]
+    },
+    {
+      "id": "tuition.otago",
+      "label": "Tuition fee per year for international students, sciences (University of Otago)",
+      "kind": "money",
+      "keyedBy": "academicYear",
+      "values": [
+        {
+          "key": "2027",
+          "value": {
+            "currency": "NZD",
+            "variants": [
+              {
+                "label": "Science, lowest",
+                "amount": 44520
+              },
+              {
+                "label": "Computer science",
+                "amount": 47145
+              },
+              {
+                "label": "Software engineering with honours",
+                "amount": 49875
+              }
+            ]
+          },
+          "status": "confirmed",
+          "source": "otago-fees-sci",
+          "where": "Annual fees 2027",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Estimates. Otago's other fee pages give 39,690 to 48,090 for arts majors and 42,840 to 46,200 for commerce majors in 2027."
+        }
+      ]
+    },
+    {
+      "id": "tuition.massey",
+      "label": "Tuition fee per year for international students (Massey University)",
+      "kind": "money",
+      "keyedBy": "academicYear",
+      "values": [
+        {
+          "key": "2027",
+          "value": {
+            "currency": "NZD",
+            "variants": [
+              {
+                "label": "Arts or science, lowest",
+                "amount": 35250
+              },
+              {
+                "label": "Arts or science, highest",
+                "amount": 43570
+              },
+              {
+                "label": "Business",
+                "amount": 39230
+              },
+              {
+                "label": "Information sciences, lowest",
+                "amount": 42250
+              },
+              {
+                "label": "Information sciences, highest",
+                "amount": 46950
+              }
+            ]
+          },
+          "status": "confirmed",
+          "source": "massey-fees",
+          "where": "Estimate of fees for 2027",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Including GST. Compulsory non-tuition fees are extra."
+        }
+      ]
+    },
+    {
+      "id": "tuition.victoria",
+      "label": "Tuition fee per point (Victoria University of Wellington)",
+      "kind": "money",
+      "keyedBy": "academicYear",
+      "values": [
+        {
+          "key": "2027",
+          "value": {
+            "currency": "NZD",
+            "variants": [
+              {
+                "label": "Arts and humanities",
+                "amount": 312.36
+              },
+              {
+                "label": "Commerce",
+                "amount": 331.65
+              },
+              {
+                "label": "Science, including computing",
+                "amount": 357.43
+              },
+              {
+                "label": "Engineering",
+                "amount": 410.31
+              }
+            ]
+          },
+          "status": "confirmed",
+          "source": "vuw-fees",
+          "where": "Fees schedule 2027, 100 to 300 level courses (engineering 100 to 400)",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "The student services fee, NZD 10.64 a point up to 150 points a year, is extra. Engineering's rate applies from 100 to 400 level."
+        }
+      ]
+    },
+    {
+      "id": "tuition.canterbury",
+      "label": "Tuition fee per year for international students (University of Canterbury)",
+      "kind": "money",
+      "keyedBy": "academicYear",
+      "values": [
+        {
+          "key": "2027",
+          "value": {
+            "currency": "NZD",
+            "variants": [
+              {
+                "label": "Arts",
+                "amount": 36410
+              },
+              {
+                "label": "Commerce",
+                "amount": 39590
+              },
+              {
+                "label": "Data science",
+                "amount": 43930
+              },
+              {
+                "label": "Science",
+                "amount": 44980
+              },
+              {
+                "label": "Engineering with honours, first year",
+                "amount": 49540
+              }
+            ]
+          },
+          "status": "confirmed",
+          "source": "uc-prospectus",
+          "where": "Indicative fees, 120 points a year",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Indicative. Engineering costs NZD 54,180 a year from the second year."
+        }
+      ]
+    },
+    {
+      "id": "tuition.waikato",
+      "label": "Tuition fee per year for international students (University of Waikato)",
+      "kind": "money",
+      "keyedBy": "academicYear",
+      "values": [
+        {
+          "key": "2027",
+          "value": {
+            "currency": "NZD",
+            "variants": [
+              {
+                "label": "Arts, lowest",
+                "amount": 34020
+              },
+              {
+                "label": "Business",
+                "amount": 40165
+              },
+              {
+                "label": "Computer science",
+                "amount": 44006
+              },
+              {
+                "label": "Science",
+                "amount": 44347
+              },
+              {
+                "label": "Engineering with honours",
+                "amount": 50762
+              }
+            ]
+          },
+          "status": "confirmed",
+          "source": "waikato-fees",
+          "where": "2027 international tuition",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Estimates, including GST. Honours papers in engineering, usually in the fourth year, are charged at postgraduate fees."
+        }
+      ]
+    },
+    {
+      "id": "tuition.aut",
+      "label": "Tuition fee per year for international students (Auckland University of Technology)",
+      "kind": "money",
+      "keyedBy": "academicYear",
+      "values": [
+        {
+          "key": "2027",
+          "value": {
+            "currency": "NZD",
+            "variants": [
+              {
+                "label": "Arts",
+                "amount": 38359.67
+              },
+              {
+                "label": "Business",
+                "amount": 39959.67
+              },
+              {
+                "label": "Science",
+                "amount": 44459.67
+              },
+              {
+                "label": "Computer and information sciences",
+                "amount": 45159.67
+              },
+              {
+                "label": "Engineering with honours",
+                "amount": 51359.67
+              }
+            ]
+          },
+          "status": "confirmed",
+          "source": "aut-fees",
+          "where": "International student fees 2027, 120 points",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Including GST and the NZD 1,259.67 student services levy."
+        }
+      ]
+    },
+    {
+      "id": "aid.otago",
+      "label": "University of Otago Global Scholarship",
+      "kind": "text",
+      "value": {
+        "text": "NZD 15,000 towards first-year tuition for new international bachelor's students with a passport from one of 13 countries, including Bangladesh. You are assessed automatically when you apply, with no separate application, and offers are unlimited."
+      },
+      "status": "confirmed",
+      "source": "otago-scholarships",
+      "where": "Global Scholarship",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Selection is on academic potential, as shown by admission to your programme. Otago may change the country list. It does not cover foundation study. Otago also gives a NZD 10,000 Vice-Chancellor's Scholarship, assessed automatically."
+    },
+    {
+      "id": "aid.massey",
+      "label": "Undergraduate International Study Grant (Massey University)",
+      "kind": "text",
+      "value": {
+        "text": "NZD 15,000 towards tuition for one year, for new international students from any region starting a listed bachelor's degree in 2027. There is no separate application."
+      },
+      "status": "confirmed",
+      "source": "massey-grant",
+      "where": "Grant details, 2027",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Not for holders of fully funded government scholarships."
+    },
+    {
+      "id": "aid.victoria",
+      "label": "VUW Undergraduate International Scholarship (Victoria University of Wellington)",
+      "kind": "text",
+      "value": {
+        "text": "NZD 15,000 towards first-year tuition for every new international student entering the first year of a bachelor's degree, assessed with the application."
+      },
+      "status": "confirmed",
+      "source": "vuw-scholarship",
+      "where": "Scholarship details",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Not for government-sponsored students or students with credit transfer. It applies to one year only and cannot be deferred to a later year."
+    },
+    {
+      "id": "aid.canterbury",
+      "label": "UC International First Year Scholarship (University of Canterbury)",
+      "kind": "text",
+      "value": {
+        "text": "NZD 15,000 for first-year full-time undergraduates studying from overseas, with up to 7 awards."
+      },
+      "status": "confirmed",
+      "source": "uc-prospectus",
+      "where": "Scholarships section",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "aid.waikato",
+      "label": "Vice-Chancellor's International Excellence Scholarship (University of Waikato)",
+      "kind": "text",
+      "value": {
+        "text": "Up to NZD 15,000 towards tuition for first-time international students with excellent academic results. Apply in MyWaikato after you apply to enrol."
+      },
+      "status": "confirmed",
+      "source": "waikato-vc",
+      "where": "Scholarship details",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "The page lists 30 November for Trimester A offers, but also says applications are reviewed monthly and that the closing date does not apply."
+    },
+    {
+      "id": "aid.aut",
+      "label": "AUT International Scholarships, South Asia (Auckland University of Technology)",
+      "kind": "text",
+      "value": {
+        "text": "NZD 10,000 towards first-year bachelor's tuition, for students from South Asia, including Bangladesh. Apply by 22 November 2026 for Semester 1 2027, or by 23 May 2027 for Semester 2."
+      },
+      "status": "confirmed",
+      "source": "aut-scholarship",
+      "where": "Regulations: value, eligibility and closing dates",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Awards are made every two weeks until places are filled, so apply early."
+    },
+    {
+      "id": "aid.auckland.deansAsia",
+      "label": "Dean's Asia Scholarship, business and economics (University of Auckland)",
+      "kind": "text",
+      "value": {
+        "text": "Full international tuition fees and compulsory health insurance for up to 360 points, for up to three students from Asia, including Bangladesh, starting a Bachelor of Commerce or Bachelor of Property. Students who have done any secondary or tertiary study in New Zealand are not eligible."
+      },
+      "status": "confirmed",
+      "source": "uoa-deans-asia-regs",
+      "where": "Regulations: value, number on offer, countries covered and eligibility",
+      "checked": "2026-10-24",
+      "verified": "2026-10-24",
+      "note": "This includes a foundation programme taken in New Zealand. The scholarship page gives the current round as 10 September to 22 October 2026; expect the next round in September and October 2027."
+    },
+    {
+      "id": "aid.manaaki",
+      "label": "Manaaki New Zealand Scholarships",
+      "kind": "text",
+      "value": {
+        "text": "Bangladesh is not on the list of countries eligible for Manaaki New Zealand Scholarships."
+      },
+      "status": "confirmed",
+      "source": "manaaki-countries",
+      "where": "List of eligible countries",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "visa.tbList",
+      "label": "Bangladesh and the tuberculosis list",
+      "kind": "text",
+      "value": {
+        "text": "Bangladesh is not on Immigration New Zealand's list of countries with a low incidence of tuberculosis."
+      },
+      "status": "confirmed",
+      "source": "inz-lowtb",
+      "where": "Whole list",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "visa.fundsEvidence",
+      "label": "Bank statements for the student visa",
+      "kind": "text",
+      "value": {
+        "text": "Bank statements must show the account holder's name and three months of transactions. If your tuition is already paid, the evidence of money should be dated after the payment. Immigration New Zealand may ask where the money came from."
+      },
+      "status": "confirmed",
+      "source": "inz-funds",
+      "where": "Section on acceptable evidence",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Screenshots of bank transfers and receipts from education agents are not accepted. Deposits over NZD 2,000 must be explained with documents. Fixed deposits must have been held for at least 3 months. Your tuition fees are in addition to living costs."
+    },
+    {
+      "id": "visa.waitUniversities",
+      "label": "Recent student visa waits for university students",
+      "kind": "text",
+      "value": {
+        "text": "In the last 4 weeks, half of the applications for university study were decided within 2 weeks, and 80% within 5 weeks."
+      },
+      "status": "confirmed",
+      "source": "inz-waittimes",
+      "where": "Table 1: Universities",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Updated weekly, counted in working days.",
+      "changesOften": true
+    },
+    {
+      "id": "visa.howToApply",
+      "label": "How to apply for the student visa",
+      "kind": "text",
+      "value": {
+        "text": "Apply online, upload your documents and pay the fees. Apply at least 3 months before you plan to travel; the busiest time is between October and March. The visa is normally issued for the period of study you have paid for, up to 4 years."
+      },
+      "status": "confirmed",
+      "source": "inz-fpsv",
+      "where": "Sections on applying and timing",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Your passport must be valid for at least 3 months after you plan to leave New Zealand."
+    },
+    {
+      "id": "visa.interviews",
+      "label": "Student visa interviews",
+      "kind": "text",
+      "value": {
+        "text": "Immigration New Zealand interviews some student visa applicants. It recorded 22,067 student visa interviews from 2018 to 2022. Bangladeshi applicants outside New Zealand were interviewed 44 times in 2018, 57 times in 2019 and 12 times in 2020, and none were recorded in 2021 or 2022."
+      },
+      "status": "reported",
+      "source": "inz-oia-interviews",
+      "where": "Tables of interviews by year and nationality",
+      "checked": "2026-10-25",
+      "verified": "2026-10-25",
+      "note": "From Immigration New Zealand's reply to an Official Information Act request, published on FYI.org.nz."
+    },
+    {
+      "id": "work.hours",
+      "label": "Working while you study in New Zealand",
+      "kind": "text",
+      "value": {
+        "text": "Up to 25 hours a week during study, and full time in all scheduled holidays, for student visas granted from 3 November 2025."
+      },
+      "status": "confirmed",
+      "source": "inz-fpsv",
+      "where": "Section on work rights",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "The limit was 20 hours before 3 November 2025. Full-time holiday work needs a course of 120 credits."
+    },
+    {
+      "id": "work.postStudy",
+      "label": "Post Study Work Visa",
+      "kind": "text",
+      "value": {
+        "text": "Up to 3 years of open work in New Zealand, depending on the level of your qualification and how long you studied for it. A bachelor's degree must have been studied full time for at least 30 weeks in New Zealand. You need at least NZD 5,000 and must apply no later than 3 months after your student visa expires."
+      },
+      "status": "confirmed",
+      "source": "inz-pswv",
+      "where": "Whole page",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "work.postStudyFee",
+      "label": "Post Study Work Visa fee",
+      "kind": "money",
+      "value": {
+        "amount": 1670,
+        "currency": "NZD"
+      },
+      "status": "confirmed",
+      "source": "inz-pswv",
+      "where": "Cost, from NZD 1,670",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "",
+      "changesOften": true
+    },
+    {
+      "id": "change.postStudy2026",
+      "label": "Post Study Work Visa changes from 16 November 2026",
+      "kind": "text",
+      "value": {
+        "text": "From 16 November 2026, applications are made through Immigration Online, and graduates with a level 7 graduate diploma who also hold a bachelor's degree become eligible, if they studied full time in New Zealand for the whole qualification."
+      },
+      "status": "confirmed",
+      "source": "inz-pswv-change",
+      "where": "Whole news item",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Only one Post Study Work Visa can be granted to a person."
+    },
+    {
+      "id": "living.estimate",
+      "label": "Living costs for a student",
+      "kind": "text",
+      "value": {
+        "text": "Around NZD 20,000 to 27,000 a year in Auckland and Wellington, and NZD 18,000 to 21,000 in Dunedin, home of the University of Otago."
+      },
+      "status": "reported",
+      "source": "swnz-cost",
+      "where": "Estimates by city",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "The page gives no year. Food is at least NZD 80 to 120 a week, and a room in a shared house starts at NZD 140 a week.",
+      "changesOften": true
+    },
+    {
+      "id": "scam.inz",
+      "label": "Visa scams",
+      "kind": "text",
+      "value": {
+        "text": "You are not required to use an adviser. Immigration New Zealand never asks you to pay visa fees into a bank account, its emails end in immigration.govt.nz or mbie.govt.nz, and New Zealand employers cannot charge you fees for a job."
+      },
+      "status": "confirmed",
+      "source": "inz-scams",
+      "where": "Whole page",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "A visa can be checked with Immigration New Zealand's Visa Verification service."
+    },
+    {
+      "id": "scam.agents",
+      "label": "Education agents and visa advice",
+      "kind": "text",
+      "value": {
+        "text": "An education agent outside New Zealand may advise on student visas only. Advice on any other visa must come from a licensed immigration adviser."
+      },
+      "status": "confirmed",
+      "source": "iaa-agents",
+      "where": "Exemptions for education agents",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Licensed advisers are on the Immigration Advisers Authority's public register."
+    },
+    {
+      "id": "stats.bangladesh",
+      "label": "Student visas for Bangladeshi citizens in 2025",
+      "kind": "text",
+      "value": {
+        "text": "In 2025, Immigration New Zealand approved 813 fee-paying student visa applications from Bangladeshi citizens."
+      },
+      "status": "reported",
+      "source": "figurenz-bd",
+      "where": "Chart for 2025, fee paying",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Immigration New Zealand's figures, republished by Figure.NZ; totals are randomly rounded to multiples of three."
+    },
+    {
+      "id": "visa.insurance",
+      "label": "Insurance for the student visa",
+      "kind": "text",
+      "value": {
+        "text": "You must agree to have insurance for travel and any health care you need, from the start of your course until your visa expires. The policy must meet the Code of Practice for international learners and be acceptable to your university."
+      },
+      "status": "confirmed",
+      "source": "inz-fpsv",
+      "where": "Section on insurance",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Your university will tell you what your policy must cover, or may arrange it for you."
+    },
+    {
+      "id": "foundation.up.insurance",
+      "label": "Medical and travel insurance for foundation students (UP Education)",
+      "kind": "money",
+      "keyedBy": "academicYear",
+      "values": [
+        {
+          "key": "2026",
+          "value": {
+            "currency": "NZD",
+            "variants": [
+              {
+                "label": "12 months",
+                "amount": 925
+              },
+              {
+                "label": "6 months",
+                "amount": 471
+              }
+            ]
+          },
+          "status": "confirmed",
+          "source": "up-fees-2026",
+          "where": "Insurance section, accurate as of 10 March 2026",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Compulsory for UP Education's foundation students. Universities set their own insurance, so ask yours."
+        }
+      ]
+    },
+    {
+      "id": "uni.otago.apply",
+      "label": "Application period for international students (University of Otago)",
+      "kind": "text",
+      "value": {
+        "text": "The main international application period is 1 May to 15 November, for studies starting in semester 1 (February)."
+      },
+      "status": "confirmed",
+      "source": "otago-howto",
+      "where": "How to apply",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "All applications are made online."
+    },
+    {
+      "id": "app.fee.auckland",
+      "label": "Application fee for international applicants (University of Auckland)",
+      "kind": "money",
+      "value": {
+        "amount": 85,
+        "currency": "NZD"
+      },
+      "status": "confirmed",
+      "source": "uoa-appfee",
+      "where": "Fee for applicants whose highest qualification is from an overseas secondary school",
+      "checked": "2026-10-25",
+      "verified": "2026-10-25",
+      "note": "No fee when you apply through a registered agent. NZD 100 if your highest qualification is from a university or college abroad."
+    }
+  ]
+}

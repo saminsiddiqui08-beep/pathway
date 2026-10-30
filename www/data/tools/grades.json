@@ -1,0 +1,892 @@
+{
+  "format": 1,
+  "tool": "grades",
+  "systems": {
+    "hsc": "HSC",
+    "alevel": "A levels"
+  },
+  "boards": {
+    "cambridge": "Cambridge International",
+    "edexcel": "Pearson Edexcel"
+  },
+  "hsc": {
+    "cite": "bd/school.gradeBands",
+    "gpaMax": 5,
+    "bands": [
+      [
+        "A+",
+        80,
+        100,
+        5
+      ],
+      [
+        "A",
+        70,
+        79,
+        4
+      ],
+      [
+        "A-",
+        60,
+        69,
+        3.5
+      ],
+      [
+        "B",
+        50,
+        59,
+        3
+      ],
+      [
+        "C",
+        40,
+        49,
+        2
+      ],
+      [
+        "D",
+        33,
+        39,
+        1
+      ],
+      [
+        "F",
+        0,
+        32,
+        0
+      ]
+    ]
+  },
+  "readings": [
+    {
+      "id": "txst",
+      "name": "Texas State University",
+      "cite": "us/grades.txst",
+      "points": true,
+      "rows": [
+        [
+          60,
+          100,
+          "A",
+          4
+        ],
+        [
+          45,
+          59,
+          "B",
+          3
+        ],
+        [
+          33,
+          44,
+          "C",
+          2
+        ],
+        [
+          0,
+          32,
+          "F",
+          0
+        ]
+      ]
+    },
+    {
+      "id": "wku",
+      "name": "Western Kentucky University",
+      "cite": "us/grades.wku",
+      "points": false,
+      "rows": [
+        [
+          60,
+          100,
+          "A"
+        ],
+        [
+          50,
+          59,
+          "B"
+        ],
+        [
+          35,
+          49,
+          "C"
+        ],
+        [
+          0,
+          34,
+          "F"
+        ]
+      ]
+    }
+  ],
+  "unsupported": "UK degree classes and ECTS grades describe university results. No reputable method turns school results into them, so Pathway shows none.",
+  "alevel": {
+    "grades": [
+      "A*",
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "asGrades": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "tariff": {
+      "cite": "nz/uni.otago.tariff",
+      "aLevel": {
+        "A*": 140,
+        "A": 120,
+        "B": 100,
+        "C": 80,
+        "D": 60,
+        "E": 40
+      },
+      "as": {
+        "A": 60,
+        "B": 50,
+        "C": 40,
+        "D": 30,
+        "E": 20
+      }
+    },
+    "units": {
+      "cite": "nz/uni.victoria.tariff",
+      "most": 6,
+      "aLevel": 2,
+      "as": 1
+    }
+  },
+  "rules": [
+    {
+      "country": "fi",
+      "key": "lut",
+      "name": "LUT University",
+      "for": "Business",
+      "cite": [
+        "fi/uni.lut.route",
+        "fi/uni.lut.alevels"
+      ],
+      "hsc": {
+        "percent": 80,
+        "quote": "Business: an overall grade average of 80% and 70% in standard maths",
+        "note": "You also need 70% in standard maths, or an SAT of 1300 instead."
+      },
+      "alevel": [
+        {
+          "boards": [
+            "cambridge",
+            "edexcel"
+          ],
+          "grades": [
+            "B",
+            "B",
+            "C"
+          ],
+          "quote": "At least three A levels at BBC",
+          "note": "Business also needs maths at C at A level or B at AS level."
+        }
+      ]
+    },
+    {
+      "country": "fi",
+      "key": "lut",
+      "name": "LUT University",
+      "for": "Technology",
+      "cite": [
+        "fi/uni.lut.route",
+        "fi/uni.lut.alevels"
+      ],
+      "hsc": {
+        "percent": 70,
+        "quote": "Technology: an overall average of 70%",
+        "note": "You also need 80% in advanced maths and 80% in physics or chemistry, or 60% in LUT's online maths test, or an SAT of 1300."
+      },
+      "alevel": [
+        {
+          "boards": [
+            "cambridge",
+            "edexcel"
+          ],
+          "grades": [
+            "B",
+            "B",
+            "C"
+          ],
+          "quote": "At least three A levels at BBC",
+          "note": "Technology also needs maths at C or better and a pass in physics or chemistry."
+        }
+      ]
+    },
+    {
+      "country": "fi",
+      "key": "aalto",
+      "name": "Aalto University",
+      "for": "Admission",
+      "cite": [
+        "fi/uni.aalto.route"
+      ],
+      "hsc": {
+        "sat": true,
+        "quote": "on SAT or ACT scores only"
+      },
+      "alevel": [
+        {
+          "boards": [
+            "cambridge",
+            "edexcel"
+          ],
+          "sat": true,
+          "quote": "on SAT or ACT scores only"
+        }
+      ]
+    },
+    {
+      "country": "fi",
+      "key": "tampere",
+      "name": "Tampere University",
+      "for": "Admission",
+      "cite": [
+        "fi/uni.tampere.route"
+      ],
+      "hsc": {
+        "sat": true,
+        "quote": "Applicants with school certificates from outside Finland apply in group I, with SAT or ACT scores."
+      },
+      "alevel": [
+        {
+          "boards": [
+            "cambridge",
+            "edexcel"
+          ],
+          "sat": true,
+          "quote": "Applicants with school certificates from outside Finland apply in group I, with SAT or ACT scores."
+        }
+      ]
+    },
+    {
+      "country": "fi",
+      "key": "turku",
+      "name": "University of Turku",
+      "for": "Information and Communication Technology",
+      "cite": [
+        "fi/uni.turku.route"
+      ],
+      "hsc": {
+        "sat": true,
+        "quote": "Applicants with HSC or A levels apply in group I with the SAT."
+      },
+      "alevel": [
+        {
+          "boards": [
+            "cambridge",
+            "edexcel"
+          ],
+          "sat": true,
+          "quote": "Applicants with HSC or A levels apply in group I with the SAT."
+        }
+      ]
+    },
+    {
+      "country": "fi",
+      "key": "oulu",
+      "name": "University of Oulu",
+      "for": "Admission",
+      "cite": [
+        "fi/uni.oulu.route"
+      ],
+      "hsc": {
+        "sat": true,
+        "quote": "The three technology programmes accept the SAT only, not the ACT."
+      },
+      "alevel": [
+        {
+          "boards": [
+            "cambridge",
+            "edexcel"
+          ],
+          "sat": true,
+          "quote": "The three technology programmes accept the SAT only, not the ACT."
+        }
+      ]
+    },
+    {
+      "country": "fi",
+      "name": "Universities of applied sciences",
+      "for": "Eligibility",
+      "cite": [
+        "fi/uas.hscEligible",
+        "fi/uas.alevels"
+      ],
+      "hsc": {
+        "eligible": true,
+        "quote": "The Higher Secondary Certificate, the Alim certificate and the BTEB Diploma in Engineering give eligibility."
+      },
+      "alevel": [
+        {
+          "boards": [
+            "cambridge",
+            "edexcel"
+          ],
+          "grades": [
+            "E",
+            "E"
+          ],
+          "quote": "At least 2 A level subjects with a pass",
+          "note": "Or at least 4 AS levels."
+        }
+      ]
+    },
+    {
+      "country": "tr",
+      "name": "Türkiye Bursları",
+      "for": "Scholarship",
+      "cite": [
+        "tr/tb.minimumGrade"
+      ],
+      "hsc": {
+        "percent": 70,
+        "quote": "At least 70%",
+        "note": "90% for medicine, dentistry and pharmacy."
+      },
+      "alevel": [
+        {
+          "boards": [
+            "cambridge",
+            "edexcel"
+          ],
+          "ask": "Its minimum is a percentage, so ask how it reads A level grades.",
+          "quote": "At least 70%"
+        }
+      ]
+    },
+    {
+      "country": "tr",
+      "key": "metu",
+      "name": "METU",
+      "for": "Admission",
+      "cite": [
+        "tr/uni.metu.bangladesh",
+        "tr/uni.metu.exams"
+      ],
+      "hsc": {
+        "percent": 90,
+        "quote": "At least 90% success in a school-leaving certificate",
+        "note": "METU does not say how an HSC GPA out of 5 turns into a percentage."
+      },
+      "alevel": [
+        {
+          "boards": [
+            "cambridge",
+            "edexcel"
+          ],
+          "grades": [
+            "A",
+            "B",
+            "B"
+          ],
+          "quote": "A levels: ABB in three subjects, two of them relevant to the programme.",
+          "note": "Two of the subjects must be relevant to the programme."
+        }
+      ]
+    },
+    {
+      "country": "tr",
+      "key": "bilkent",
+      "name": "Bilkent",
+      "for": "Admission",
+      "cite": [
+        "tr/uni.bilkent.route"
+      ],
+      "hsc": {
+        "percent": 80,
+        "quote": "HSC: at least 80%, in the stream related to the programme.",
+        "note": "In the stream related to the programme."
+      },
+      "alevel": [
+        {
+          "boards": [
+            "cambridge",
+            "edexcel"
+          ],
+          "grades": [
+            "C",
+            "C",
+            "C"
+          ],
+          "quote": "A levels: three, each at least C",
+          "note": "Bilkent does not evaluate predicted grades."
+        }
+      ]
+    },
+    {
+      "country": "tr",
+      "key": "sabancı",
+      "name": "Sabancı",
+      "for": "Admission",
+      "cite": [
+        "tr/uni.sabanci.route"
+      ],
+      "hsc": {
+        "percent": 80,
+        "quote": "HSC: an average of at least 80%.",
+        "note": "Sabancı works out the percentage as the total of your marks divided by the number of subjects."
+      },
+      "alevel": [
+        {
+          "boards": [
+            "cambridge",
+            "edexcel"
+          ],
+          "grades": [
+            "C",
+            "C"
+          ],
+          "quote": "two A levels at C"
+        }
+      ]
+    },
+    {
+      "country": "tr",
+      "key": "boğaziçi",
+      "name": "Boğaziçi",
+      "for": "Admission",
+      "cite": [
+        "tr/uni.bogazici.route"
+      ],
+      "hsc": {
+        "ask": "The HSC is not among the exams it lists, so ask Boğaziçi.",
+        "quote": "No route on national school certificates such as the HSC is listed."
+      },
+      "alevel": [
+        {
+          "boards": [
+            "cambridge",
+            "edexcel"
+          ],
+          "grades": [
+            "A",
+            "A",
+            "A"
+          ],
+          "quote": "A levels: an A in three subjects relevant to the programme.",
+          "note": "The three subjects must be relevant to the programme."
+        }
+      ]
+    },
+    {
+      "country": "tr",
+      "key": "itu",
+      "name": "Istanbul Technical University",
+      "for": "Admission",
+      "cite": [
+        "tr/uni.itu.route"
+      ],
+      "hsc": {
+        "accepted": false,
+        "quote": "Bangladesh's HSC is not on the list, and only the listed exams are accepted."
+      },
+      "alevel": [
+        {
+          "boards": [
+            "cambridge",
+            "edexcel"
+          ],
+          "grades": [
+            "A",
+            "C",
+            "C"
+          ],
+          "quote": "A levels with an A in maths or physics and two more at C or above",
+          "note": "The A must be in maths or physics."
+        }
+      ]
+    },
+    {
+      "country": "tr",
+      "key": "koç",
+      "name": "Koç",
+      "for": "Admission",
+      "cite": [
+        "tr/uni.koc.hsc"
+      ],
+      "hsc": {
+        "accepted": false,
+        "quote": "Bangladesh's HSC is not on Koç's list of accepted national qualifications."
+      },
+      "alevel": [
+        {
+          "boards": [
+            "cambridge",
+            "edexcel"
+          ],
+          "ask": "Koç accepts A levels, but Pathway's source gives no grades.",
+          "quote": "including the SAT, ACT, A levels, IB and TR-YÖS"
+        }
+      ]
+    },
+    {
+      "country": "my",
+      "key": "universiti teknologi",
+      "name": "Universiti Teknologi Malaysia",
+      "for": "Admission",
+      "cite": [
+        "my/uni.utm.hsc"
+      ],
+      "hsc": {
+        "ask": "Its rule names A+ in particular subjects, so check your mark sheet against it.",
+        "quote": "UTM accepts the Bangladesh HSC",
+        "note": "Engineering needs A+ in Mathematics and Physics and in Chemistry or Biology; computer science needs A+ in Mathematics and two approved subjects; science needs A+ in any three science or mathematics subjects."
+      }
+    },
+    {
+      "country": "my",
+      "key": "monash",
+      "name": "Monash University Malaysia",
+      "for": "Admission",
+      "cite": [
+        "my/entry.hsc"
+      ],
+      "hsc": {
+        "ask": "The HSC is not named, so ask Monash whether yours is accepted.",
+        "quote": "The Bangladesh HSC is not named"
+      },
+      "alevel": [
+        {
+          "boards": [
+            "cambridge",
+            "edexcel"
+          ],
+          "ask": "A levels are accepted, but Pathway's source gives no grades.",
+          "quote": "such as A levels"
+        }
+      ]
+    },
+    {
+      "country": "my",
+      "key": "universiti malaya",
+      "name": "Universiti Malaya",
+      "for": "Admission",
+      "cite": [
+        "my/uni.um.entry"
+      ],
+      "hsc": {
+        "ask": "A national school certificate is accepted, but Pathway's source gives no grades.",
+        "quote": "a national high school certificate",
+        "note": "Predicted, provisional or expected results are not accepted."
+      },
+      "alevel": [
+        {
+          "boards": [
+            "cambridge",
+            "edexcel"
+          ],
+          "ask": "A levels are accepted, but Pathway's source gives no grades.",
+          "quote": "A levels",
+          "note": "Predicted, provisional or expected results are not accepted."
+        }
+      ]
+    },
+    {
+      "country": "my",
+      "key": "sunway",
+      "name": "Sunway University",
+      "for": "Bursary of RM6,000",
+      "cite": [
+        "my/aid.sunway"
+      ],
+      "hsc": {
+        "gpa": 4,
+        "quote": "an HSC GPA of 4.00 out of 5 brings a bursary of RM6,000"
+      }
+    },
+    {
+      "country": "my",
+      "key": "sunway",
+      "name": "Sunway University",
+      "for": "Bursary of RM11,000",
+      "cite": [
+        "my/aid.sunway"
+      ],
+      "hsc": {
+        "gpa": 4.5,
+        "quote": "4.50 brings RM11,000"
+      }
+    },
+    {
+      "country": "nz",
+      "key": "otago",
+      "name": "University of Otago",
+      "for": "Direct entry",
+      "cite": [
+        "nz/uni.otago.entry"
+      ],
+      "hsc": {
+        "gpa": 4,
+        "quote": "Direct entry with the Bangladesh HSC and a GPA of at least 4.0 out of 5.0."
+      },
+      "alevel": [
+        {
+          "boards": [
+            "cambridge"
+          ],
+          "tariff": 120,
+          "grades": [
+            "D",
+            "D",
+            "D"
+          ],
+          "quote": "Cambridge International: at least 120 points on the New Zealand tariff.",
+          "cite": [
+            "nz/uni.otago.tariff"
+          ],
+          "note": "With a D or better in three syllabus groups."
+        },
+        {
+          "boards": [
+            "edexcel"
+          ],
+          "ask": "Otago asks UK A levels for three passes at grade C or higher. Ask whether Pearson Edexcel International A levels count as UK A levels.",
+          "quote": "UK A levels: three passes at grade C or higher."
+        }
+      ]
+    },
+    {
+      "country": "nz",
+      "key": "otago",
+      "name": "University of Otago",
+      "for": "Foundation Studies",
+      "cite": [
+        "nz/foundation.otago"
+      ],
+      "hsc": {
+        "gpa": 3,
+        "quote": "Entry with the HSC needs a GPA of at least 3.0 out of 5.0"
+      }
+    },
+    {
+      "country": "nz",
+      "key": "otago",
+      "name": "University of Otago",
+      "for": "Otago diploma",
+      "cite": [
+        "nz/foundation.otago"
+      ],
+      "hsc": {
+        "gpa": 3.5,
+        "quote": "or 3.5 for an Otago diploma"
+      }
+    },
+    {
+      "country": "nz",
+      "key": "massey",
+      "name": "Massey University",
+      "for": "Direct entry",
+      "cite": [
+        "nz/uni.massey.entry"
+      ],
+      "hsc": {
+        "gpa": 4,
+        "quote": "Direct entry with the Bangladesh HSC or Alim and a GPA of at least 4.0 out of 5.0."
+      },
+      "alevel": [
+        {
+          "boards": [
+            "cambridge",
+            "edexcel"
+          ],
+          "ask": "Massey considers A levels case by case.",
+          "quote": "A levels are considered case by case."
+        }
+      ]
+    },
+    {
+      "country": "nz",
+      "key": "waikato",
+      "name": "University of Waikato",
+      "for": "Direct entry",
+      "cite": [
+        "nz/uni.waikato.entry"
+      ],
+      "hsc": {
+        "gpa": 4,
+        "quote": "Direct entry with the Bangladesh HSC or Alim and a GPA of at least 4.0 out of 5.0."
+      },
+      "alevel": [
+        {
+          "boards": [
+            "cambridge"
+          ],
+          "tariff": 120,
+          "quote": "Cambridge International: at least 120 points on the New Zealand tariff.",
+          "cite": [
+            "nz/uni.otago.tariff"
+          ]
+        },
+        {
+          "boards": [
+            "edexcel"
+          ],
+          "ask": "Waikato asks UK A levels for at least 6 points from three subjects, with a C in at least one. Ask how it counts Pearson Edexcel.",
+          "quote": "UK A levels: at least 6 points from three subjects, with a C in at least one."
+        }
+      ]
+    },
+    {
+      "country": "nz",
+      "key": "lincoln",
+      "name": "Lincoln University",
+      "for": "Direct entry",
+      "cite": [
+        "nz/uni.lincoln.entry"
+      ],
+      "hsc": {
+        "gpa": 4,
+        "quote": "Direct entry with the Bangladesh HSC and a GPA of at least 4 out of 5."
+      },
+      "alevel": [
+        {
+          "boards": [
+            "cambridge"
+          ],
+          "tariff": 120,
+          "quote": "Cambridge International: at least 120 points on the New Zealand tariff",
+          "cite": [
+            "nz/uni.otago.tariff"
+          ],
+          "note": "You also need an E in an AS level English subject and a D in IGCSE maths."
+        },
+        {
+          "boards": [
+            "edexcel"
+          ],
+          "ask": "Lincoln's source names Cambridge International only.",
+          "quote": "Cambridge International"
+        }
+      ]
+    },
+    {
+      "country": "nz",
+      "key": "aut",
+      "name": "Auckland University of Technology",
+      "for": "Direct entry",
+      "cite": [
+        "nz/uni.aut.entry"
+      ],
+      "hsc": {
+        "gpa": 4,
+        "quote": "Direct entry with the Bangladesh HSC and a GPA of at least 4.0 out of 5.0."
+      },
+      "alevel": [
+        {
+          "boards": [
+            "cambridge",
+            "edexcel"
+          ],
+          "grades": [
+            "C",
+            "E",
+            "E"
+          ],
+          "quote": "A levels: three, with at least one at grade C or better."
+        },
+        {
+          "boards": [
+            "cambridge"
+          ],
+          "tariff": 120,
+          "grades": [
+            "D",
+            "D",
+            "D"
+          ],
+          "quote": "Cambridge International: 120 points with three subjects at grade D or above.",
+          "cite": [
+            "nz/uni.otago.tariff"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "nz",
+      "key": "victoria wellington",
+      "name": "Victoria University of Wellington",
+      "for": "Direct entry",
+      "cite": [
+        "nz/uni.victoria.entry"
+      ],
+      "hsc": {
+        "ask": "Victoria's HSC rule could not be read, so ask Victoria.",
+        "quote": "Victoria's HSC rule is on a country list that could not be read"
+      },
+      "alevel": [
+        {
+          "boards": [
+            "cambridge",
+            "edexcel"
+          ],
+          "grades": [
+            "C",
+            "E",
+            "E"
+          ],
+          "quote": "three passes, with at least one at grade C or higher."
+        }
+      ]
+    },
+    {
+      "country": "nz",
+      "key": "auckland",
+      "name": "University of Auckland",
+      "for": "Direct entry",
+      "cite": [
+        "nz/entry.hsc"
+      ],
+      "hsc": {
+        "ask": "The HSC is not on Auckland's lists for direct entry, so HSC students apply to its foundation programme first, or ask.",
+        "quote": "The Bangladesh HSC is not on the University of Auckland's 2027 lists"
+      },
+      "alevel": [
+        {
+          "boards": [
+            "cambridge",
+            "edexcel"
+          ],
+          "ask": "A levels are on Auckland's list, but Pathway's source gives no grades.",
+          "quote": "A levels are on the list."
+        }
+      ]
+    },
+    {
+      "country": "nz",
+      "key": "canterbury",
+      "name": "UC International College",
+      "for": "Certificate in Foundation Studies",
+      "cite": [
+        "nz/uni.canterbury.ucic"
+      ],
+      "hsc": {
+        "gpa": 4,
+        "quote": "The Certificate in Foundation Studies needs the HSC with an overall GPA of at least 4.0."
+      }
+    },
+    {
+      "country": "nz",
+      "key": "canterbury",
+      "name": "UC International College",
+      "for": "Diploma in University Studies",
+      "cite": [
+        "nz/uni.canterbury.ucic"
+      ],
+      "hsc": {
+        "gpa": 4.5,
+        "quote": "needs an overall GPA of 4.5",
+        "note": "It counts as the first year of a University of Canterbury degree. For engineering you also need 5.0 in mathematics, physics and chemistry."
+      }
+    }
+  ]
+}

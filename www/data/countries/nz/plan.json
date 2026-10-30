@@ -1,0 +1,308 @@
+{
+  "format": 1,
+  "plan": "nz",
+  "title": "New Zealand",
+  "facts": [
+    "bd",
+    "nz"
+  ],
+  "cycles": "nz/app.closing",
+  "start": {
+    "fact": "nz/term.aut.s1"
+  },
+  "routeOrder": [
+    {
+      "when": {
+        "system": "hsc"
+      },
+      "value": [
+        "directHsc",
+        "foundation"
+      ]
+    },
+    {
+      "value": [
+        "direct"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "directHsc",
+      "title": "Straight into a degree with the HSC",
+      "text": "Otago, Massey, Waikato, Lincoln and AUT take the HSC straight into a degree with a GPA of 4.0. Auckland does not, so for Auckland choose the foundation programme.",
+      "deadline": {
+        "fact": "nz/uni.otago.closing"
+      }
+    },
+    {
+      "id": "foundation",
+      "title": "Foundation programme first",
+      "text": "The University of Auckland International College's foundation programme accepts the HSC and leads to guaranteed entry with the required results. Check direct entry with the university.",
+      "start": [
+        {
+          "when": {
+            "ieltsAtLeast": 6
+          },
+          "value": {
+            "monthOf": "nz/foundation.uoaic.startsAccelerated",
+            "month": 9,
+            "yearOffset": -1
+          }
+        },
+        {
+          "when": {
+            "ieltsAtLeast": 5.5
+          },
+          "value": {
+            "monthOf": "nz/foundation.uoaic.startsFastTrack",
+            "month": 4,
+            "yearOffset": -1
+          }
+        },
+        {
+          "value": {
+            "monthOf": "nz/foundation.uoaic.startsStandard",
+            "month": 1,
+            "yearOffset": -1
+          }
+        }
+      ]
+    },
+    {
+      "id": "direct",
+      "title": "Direct application",
+      "text": "You apply to the University of Auckland for Semester One.",
+      "deadline": {
+        "fact": "nz/app.closing"
+      }
+    }
+  ],
+  "assumptions": {
+    "offerWait": {
+      "label": "Waiting for your offer",
+      "amount": 6,
+      "unit": "weeks",
+      "mode": "planned",
+      "text": "No official time is published for offers, so Pathway plans 6 weeks between applying and your offer. It never uses this time to decide that an intake is out of reach."
+    },
+    "xray": {
+      "label": "The chest X-ray",
+      "amount": 1,
+      "unit": "weeks",
+      "mode": "both",
+      "text": "Pathway includes the X-ray for Bangladeshi applicants and allows up to 1 week. Drop the step if Immigration New Zealand says it is not needed."
+    },
+    "foundationVersion": {
+      "label": "Which foundation programme",
+      "mode": "both",
+      "text": "Pathway picks the version your IELTS score allows: accelerated from 6.0, fast-track from 5.5, otherwise standard. Each starts at a time that finishes before Semester One."
+    },
+    "arriveSpare": {
+      "label": "Arriving before classes",
+      "amount": 7,
+      "unit": "days",
+      "mode": "planned",
+      "text": "Pathway plans to have you there a week before classes, for orientation."
+    },
+    "otagoDate": {
+      "label": "Your application date",
+      "mode": "both",
+      "text": "Pathway plans for the University of Otago's closing date. Massey closes earlier, at the end of October, and Waikato takes applications at any time, so check each of your universities."
+    }
+  },
+  "steps": [
+    {
+      "id": "nz.apply",
+      "title": "Apply to your universities",
+      "stage": "apply",
+      "hard": true,
+      "after": [
+        "english.test",
+        {
+          "step": "school.results",
+          "when": {
+            "route": "directHsc"
+          }
+        }
+      ],
+      "deadline": [
+        {
+          "when": {
+            "route": "foundation"
+          },
+          "value": null
+        },
+        {
+          "value": {
+            "route": "deadline"
+          }
+        }
+      ],
+      "taskWhen": [
+        {
+          "task": "Apply for the foundation programme at the University of Auckland International College",
+          "when": {
+            "route": "foundation"
+          }
+        },
+        {
+          "task": "Ask for a conditional offer if your results are not out yet",
+          "when": {
+            "route": "directHsc"
+          }
+        }
+      ],
+      "text": "Selective programmes such as medicine close earlier. Check your programme's own date.",
+      "facts": [
+        "nz/app.closing",
+        "nz/uni.otago.closing",
+        "nz/uni.massey.closing",
+        "nz/entry.hsc",
+        "nz/entry.foundation",
+        "nz/foundation.uoaic.length",
+        "nz/aid.otago",
+        "nz/aid.massey",
+        "nz/aid.victoria",
+        "nz/aid.aut",
+        "nz/aid.waikato",
+        "nz/aid.auckland.deansAsia"
+      ],
+      "planning": [
+        {
+          "when": {
+            "route": "directHsc"
+          },
+          "value": "otagoDate"
+        }
+      ],
+      "ownDate": true,
+      "textWhen": [
+        {
+          "text": "No university says it gives offers before final HSC results, so Pathway plans your application after them.",
+          "when": {
+            "route": "directHsc"
+          }
+        }
+      ],
+      "tasks": [
+        "Check each university's scholarship: most are assessed with your application, but AUT's, Waikato's and Auckland's Dean's Asia Scholarship need their own"
+      ]
+    },
+    {
+      "id": "nz.offer",
+      "title": "Your offer arrives",
+      "stage": "results",
+      "kind": "wait",
+      "after": [
+        "nz.apply"
+      ],
+      "duration": {
+        "assumption": "offerWait"
+      },
+      "text": "Your offer of place is what the visa application is built on."
+    },
+    {
+      "id": "nz.tuition",
+      "title": "Pay your first year's tuition",
+      "stage": "permit",
+      "after": [
+        "nz.offer"
+      ],
+      "text": "The visa asks for proof that the first year's tuition is paid in full. Paying first is quickest, because Immigration New Zealand says waiting makes processing take longer. You can instead apply first and pay after the visa is approved in principle.",
+      "facts": [
+        "nz/visa.tuitionFirst"
+      ]
+    },
+    {
+      "id": "nz.xray",
+      "title": "Have your chest X-ray",
+      "stage": "permit",
+      "after": [
+        "nz.offer",
+        "passport.get",
+        "passport.collect"
+      ],
+      "duration": {
+        "assumption": "xray"
+      },
+      "text": "A Bangladeshi student staying more than 6 months needs a chest X-ray from a panel physician approved by Immigration New Zealand. Have it in the 3 months before you lodge your visa.",
+      "facts": [
+        "nz/visa.health",
+        "nz/visa.tbList"
+      ]
+    },
+    {
+      "id": "nz.statement",
+      "title": "Print your bank statement",
+      "stage": "permit",
+      "after": [
+        "nz.tuition"
+      ],
+      "text": "It must show three months of transactions and {money:nz/visa.funds} for your first year's living costs. If you have paid your tuition, print it after the payment; Massey asks for it less than 2 weeks before you apply. If you have not paid, it must also cover the tuition.",
+      "facts": [
+        "nz/visa.bankStatement",
+        "nz/visa.funds",
+        "nz/visa.fundsEvidence",
+        "nz/visa.tuitionFirst"
+      ]
+    },
+    {
+      "id": "nz.visa",
+      "title": "Your student visa is decided",
+      "stage": "permit",
+      "kind": "wait",
+      "after": [
+        "nz.statement",
+        "nz.xray",
+        "pcc.get",
+        "passport.get",
+        "passport.collect"
+      ],
+      "duration": {
+        "fact": "nz/visa.processing",
+        "observed": true
+      },
+      "text": "Pathway plans for the longest processing time Immigration New Zealand has published in the last 12 months, so lodge your visa as soon as you can. Today's figure is in the source panel.",
+      "tasks": [
+        "Lodge the visa online",
+        "Pay the {money:nz/visa.fee} fee",
+        "Include your police certificate; a receipt is not accepted",
+        "Arrange the insurance your university asks for"
+      ],
+      "facts": [
+        "nz/visa.processing",
+        "nz/visa.fee",
+        "nz/visa.police",
+        "nz/visa.insurance"
+      ]
+    },
+    {
+      "id": "nz.arrive",
+      "title": "Travel to New Zealand",
+      "stage": "arrive",
+      "hard": true,
+      "after": [
+        "nz.visa",
+        "school.exams"
+      ],
+      "deadline": {
+        "start": true
+      },
+      "spare": {
+        "assumption": "arriveSpare"
+      },
+      "text": "Arrive before classes begin, in time for orientation.",
+      "facts": [
+        "nz/term.aut.s1",
+        "nz/term.otago.arrive",
+        "nz/term.s1.start"
+      ]
+    }
+  ],
+  "shaping": {
+    "tierReach": "Your universities are mostly very competitive. Each university has its own application, so Pathway suggests 3 to 5.",
+    "tierBalanced": "Your universities are a balanced mix. Each university has its own application, so Pathway suggests 3 to 5.",
+    "tierSafe": "Your universities are mostly less competitive. Each university has its own application, so Pathway suggests 3 to 5."
+  }
+}

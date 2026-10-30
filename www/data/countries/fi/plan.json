@@ -1,0 +1,482 @@
+{
+  "format": 1,
+  "plan": "fi",
+  "title": "Finland",
+  "facts": [
+    "bd",
+    "fi"
+  ],
+  "cycles": "fi/app.joint.window",
+  "start": {
+    "fact": "fi/term.helsinki.orientation"
+  },
+  "routes": [
+    {
+      "id": "sat",
+      "title": "SAT route",
+      "text": "Your SAT score is your entrance result. Results come in early April, which leaves the most time for the residence permit. Most programmes ask for more than the lowest minimum, so check yours.",
+      "deadline": {
+        "fact": "fi/app.helsinki.window",
+        "part": "to"
+      },
+      "when": {
+        "satStatus": [
+          "none",
+          "booked",
+          "score"
+        ],
+        "satScoreAtLeast": 1100
+      }
+    },
+    {
+      "id": "uas",
+      "title": "International UAS Exam",
+      "text": "Universities of applied sciences select through one online exam in spring. Results come at the end of May.",
+      "deadline": {
+        "fact": "fi/app.joint.window",
+        "part": "to"
+      },
+      "when": {
+        "englishStatus": [
+          "none",
+          "booked",
+          "score"
+        ],
+        "englishTest": [
+          "ielts",
+          "toefl",
+          "pte"
+        ]
+      }
+    },
+    {
+      "id": "lut",
+      "title": "LUT's rolling admission",
+      "when": {
+        "englishStatus": [
+          "none",
+          "booked",
+          "score"
+        ]
+      },
+      "text": "LUT admits on your HSC or A level grades, its own online maths test or the SAT, while places remain, with a result within a month. If you are still at school, ask LUT Admission Services which grades it assesses before you apply.",
+      "deadline": {
+        "fact": "fi/uni.lut.rolling",
+        "part": "to"
+      }
+    }
+  ],
+  "assumptions": {
+    "helsinkiDate": {
+      "label": "Your application date",
+      "mode": "both",
+      "text": "Pathway plans for the University of Helsinki's date, the earliest of the main rounds. The joint application for other universities closes two days later."
+    },
+    "lutResult": {
+      "label": "LUT's result time",
+      "amount": 1,
+      "unit": "months",
+      "mode": "both",
+      "text": "LUT gives its result within a month of a complete application, so Pathway plans a month."
+    }
+  },
+  "asksSat": true,
+  "steps": [
+    {
+      "id": "fi.apply",
+      "title": "Apply in the joint application",
+      "stage": "apply",
+      "hard": true,
+      "opens": [
+        {
+          "when": {
+            "route": "sat"
+          },
+          "value": {
+            "fact": "fi/app.helsinki.window",
+            "part": "from"
+          }
+        },
+        {
+          "when": {
+            "route": "lut"
+          },
+          "value": {
+            "fact": "fi/uni.lut.rolling",
+            "part": "from"
+          }
+        },
+        {
+          "value": {
+            "fact": "fi/app.joint.window",
+            "part": "from"
+          }
+        }
+      ],
+      "deadline": {
+        "route": "deadline"
+      },
+      "planning": [
+        {
+          "when": {
+            "route": "sat"
+          },
+          "value": "helsinkiDate"
+        }
+      ],
+      "ownDate": true,
+      "text": "Apply on Studyinfo.fi.",
+      "facts": [
+        "fi/app.helsinki.window",
+        "fi/app.joint.window",
+        "fi/app.fee"
+      ],
+      "textWhen": [
+        {
+          "text": "The joint application takes up to six programmes, and only one offer can be accepted.",
+          "when": {
+            "route": [
+              "sat",
+              "uas"
+            ]
+          }
+        },
+        {
+          "text": "LUT admits applicants who meet its rules while places remain, so apply as early as you can.",
+          "when": {
+            "route": "lut"
+          }
+        }
+      ],
+      "taskWhen": [
+        {
+          "task": "Choose up to six programmes on Studyinfo.fi",
+          "when": {
+            "route": [
+              "sat",
+              "uas"
+            ]
+          }
+        },
+        {
+          "task": "Pay the {money:fi/app.fee} application fee",
+          "when": {
+            "route": [
+              "sat",
+              "uas"
+            ]
+          }
+        },
+        {
+          "task": "Ask LUT Admission Services which grades it assesses if you are still at school",
+          "when": {
+            "route": "lut"
+          }
+        }
+      ],
+      "factsWhen": [
+        {
+          "facts": [
+            "fi/uni.lut.rolling",
+            "fi/uni.lut.route",
+            "fi/uni.lut.alevels"
+          ],
+          "when": {
+            "route": "lut"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fi.attachments",
+      "title": "Send your attachments",
+      "stage": "apply",
+      "hard": true,
+      "after": [
+        "fi.apply",
+        "english.test",
+        {
+          "step": "sat.test",
+          "when": {
+            "route": "sat"
+          }
+        }
+      ],
+      "deadline": {
+        "fact": "fi/app.attachments"
+      },
+      "text": "Upload your documents. On the SAT route, College Board must also send your scores straight to the university.",
+      "tasks": [
+        "Upload your school certificates"
+      ],
+      "taskWhen": [
+        {
+          "task": "Upload your English test result",
+          "when": {
+            "englishStatus": [
+              "none",
+              "booked",
+              "score"
+            ]
+          }
+        },
+        {
+          "task": "Ask College Board to send your scores to the university",
+          "when": {
+            "route": "sat"
+          }
+        }
+      ],
+      "facts": [
+        "fi/app.attachments",
+        "fi/app.sat.rules",
+        "fi/app.sat.minimum",
+        "fi/uas.englishProof"
+      ],
+      "when": {
+        "route": [
+          "sat",
+          "uas"
+        ]
+      }
+    },
+    {
+      "id": "fi.uasExam",
+      "title": "Take the International UAS Exam",
+      "stage": "test",
+      "kind": "event",
+      "when": {
+        "route": "uas"
+      },
+      "after": [
+        "fi.attachments"
+      ],
+      "fixed": {
+        "fact": "fi/uas.exam"
+      },
+      "text": "The exam is taken online on your own computer. You are invited once your English proof is accepted.",
+      "facts": [
+        "fi/uas.exam",
+        "fi/uas.englishProof"
+      ]
+    },
+    {
+      "id": "fi.results",
+      "title": "Admission results arrive",
+      "stage": "results",
+      "kind": "wait",
+      "after": [
+        "fi.attachments",
+        "fi.uasExam",
+        "fi.apply"
+      ],
+      "fixed": [
+        {
+          "when": {
+            "route": "sat"
+          },
+          "value": {
+            "fact": "fi/app.results.sat"
+          }
+        },
+        {
+          "when": {
+            "route": "lut"
+          },
+          "value": null
+        },
+        {
+          "value": {
+            "fact": "fi/app.results.final"
+          }
+        }
+      ],
+      "facts": [
+        "fi/app.results.sat",
+        "fi/app.results.final"
+      ],
+      "duration": [
+        {
+          "when": {
+            "route": "lut"
+          },
+          "value": {
+            "assumption": "lutResult"
+          }
+        }
+      ],
+      "textWhen": [
+        {
+          "text": "The University of Jyväskylä's dates are shown; other universities announce at about the same time.",
+          "when": {
+            "route": [
+              "sat",
+              "uas"
+            ]
+          }
+        },
+        {
+          "text": "LUT gives its result within a month of a complete application.",
+          "when": {
+            "route": "lut"
+          }
+        }
+      ],
+      "factsWhen": [
+        {
+          "facts": [
+            "fi/uni.lut.rolling"
+          ],
+          "when": {
+            "route": "lut"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fi.accept",
+      "title": "Accept your study place",
+      "stage": "results",
+      "hard": true,
+      "after": [
+        "fi.results"
+      ],
+      "deadline": [
+        {
+          "when": {
+            "route": "lut"
+          },
+          "value": null
+        },
+        {
+          "value": {
+            "fact": "fi/app.accept"
+          }
+        }
+      ],
+      "text": "Accept as soon as you decide, because the residence permit can only be applied for after you accept. An acceptance cannot be changed later. Some universities take money off the first year if you accept and pay within 14 to 21 days of your result.",
+      "facts": [
+        "fi/app.accept"
+      ]
+    },
+    {
+      "id": "fi.finalDocuments",
+      "title": "Send your final certificate",
+      "stage": "results",
+      "hard": true,
+      "when": {
+        "schoolInIntakeYear": true
+      },
+      "after": [
+        "school.results"
+      ],
+      "deadline": {
+        "fact": "fi/app.finalDocuments"
+      },
+      "text": "A student still at school is admitted on condition that the final certificate arrives in time. Pathway plans for the University of Jyväskylä's date, the same university whose results and acceptance dates it uses. Some universities, such as Aalto, ask for it earlier, so check yours.",
+      "tasks": [
+        "Upload your final certificate as soon as your results are published"
+      ],
+      "facts": [
+        "fi/app.finalDocuments",
+        "fi/uni.aalto.finalDiploma",
+        "fi/uni.turku.finalCertificate",
+        "fi/uni.tampere.finalCertificate",
+        "fi/uas.finalCertificate"
+      ],
+      "strict": true
+    },
+    {
+      "id": "fi.funds",
+      "title": "Hold the permit money in your own bank account",
+      "stage": "permit",
+      "text": "{money:fi/permit.funds} for living costs, plus your tuition if it is not yet paid, in your own name, with six months of statements.",
+      "facts": [
+        "fi/permit.funds",
+        "fi/permit.tuitionMoney"
+      ]
+    },
+    {
+      "id": "fi.permitApply",
+      "title": "Apply for your residence permit online",
+      "stage": "permit",
+      "after": [
+        "fi.accept",
+        "fi.funds",
+        "passport.get",
+        "passport.collect"
+      ],
+      "text": "Apply on Enter Finland and book your identity appointment in New Delhi straight away. Ask about the D visa, which lets you travel sooner.",
+      "tasks": [
+        "Apply on Enter Finland",
+        "Pay the {money:fi/permit.fee#Online} fee",
+        "Buy health insurance that meets Migri's rule",
+        "Book the New Delhi appointment"
+      ],
+      "facts": [
+        "fi/permit.fee",
+        "fi/permit.insurance",
+        "fi/permit.dVisa",
+        "fi/permit.where"
+      ]
+    },
+    {
+      "id": "fi.delhi",
+      "title": "Give your fingerprints in New Delhi",
+      "stage": "permit",
+      "after": [
+        "fi.permitApply",
+        "india.visa"
+      ],
+      "text": "Finland has no mission in Bangladesh, so identity checks happen at the Finland Application Centre in New Delhi.",
+      "facts": [
+        "fi/permit.where",
+        "fi/permit.vfsFee"
+      ],
+      "tasks": [
+        "Pay the {money:fi/permit.vfsFee} service fee"
+      ]
+    },
+    {
+      "id": "fi.permit",
+      "title": "Your residence permit is decided",
+      "stage": "permit",
+      "kind": "wait",
+      "after": [
+        "fi.delhi"
+      ],
+      "duration": {
+        "fact": "fi/permit.processing"
+      },
+      "text": "Migri's stated maximum is 90 days, and it can be longer, so nothing else should wait until the last moment. Many student applications are decided much sooner, and the source panel shows the latest share.",
+      "facts": [
+        "fi/permit.processing",
+        "fi/permit.processingShare",
+        "fi/permit.dVisa"
+      ]
+    },
+    {
+      "id": "fi.arrive",
+      "title": "Travel to Finland",
+      "stage": "arrive",
+      "hard": true,
+      "after": [
+        "fi.permit",
+        "school.exams"
+      ],
+      "deadline": {
+        "start": true
+      },
+      "text": "Arrive for orientation week, when new students are welcomed and courses are chosen.",
+      "facts": [
+        "fi/term.helsinki.orientation"
+      ]
+    }
+  ],
+  "shaping": {
+    "tierReach": "Your programmes are mostly very competitive. The joint application takes up to six programmes and you can accept one offer, so Pathway suggests using all six.",
+    "tierBalanced": "Your programmes are a balanced mix. The joint application takes up to six programmes and you can accept one offer, so Pathway suggests using all six.",
+    "tierSafe": "Your programmes are mostly less competitive. The joint application takes up to six programmes and you can accept one offer, so Pathway suggests using all six."
+  },
+  "englishWaiver": true
+}

@@ -1,0 +1,1278 @@
+{
+  "format": 1,
+  "file": "countries/my",
+  "title": "Facts for Malaysia",
+  "checked": "2026-10-02",
+  "sources": {
+    "emgs-process": {
+      "title": "A closer look at Malaysia's student visa process",
+      "publisher": "Education Malaysia Global Services",
+      "url": "https://educationmalaysia.gov.my/blogs/a-closer-look-at-malaysia%E2%80%99s-student-visa-process",
+      "official": true
+    },
+    "umpsa-val": {
+      "title": "Visa application process (annex I)",
+      "publisher": "Universiti Malaysia Pahang Al-Sultan Abdullah",
+      "url": "https://study.umpsa.edu.my/media/attachments/2025/12/23/2annex-i---visa-application-process.pdf",
+      "official": false
+    },
+    "sunway-mufy": {
+      "title": "Monash University Foundation Year (MUFY)",
+      "publisher": "Sunway College",
+      "url": "https://sunwaycollege.edu.my/programmes/pre-university-foundation/monash-university-foundation-year",
+      "official": true
+    },
+    "qs-2027": {
+      "title": "QS World University Rankings 2027",
+      "publisher": "QS Quacquarelli Symonds",
+      "url": "https://www.topuniversities.com/world-university-rankings",
+      "official": false
+    },
+    "um-qsnews": {
+      "title": "Universiti Malaya achieves highest ever global ranking of 56th in QS World University Rankings 2027",
+      "publisher": "Universiti Malaya",
+      "url": "https://um.edu.my/news/universiti-malaya-achieves-highest-ever-global-ranking-of-56th-in-qs-world-university-rankings-2027",
+      "official": true
+    },
+    "monash-qsnews": {
+      "title": "Monash achieves highest ever position in QS World University Rankings 2027 (18 June 2026)",
+      "publisher": "Monash University",
+      "url": "https://www.monash.edu/news/articles/monash-achieves-highest-ever-position-in-qs-world-university-rankings-2027",
+      "official": true
+    },
+    "imi-student-pass": {
+      "title": "Student pass",
+      "publisher": "Immigration Department of Malaysia",
+      "url": "https://www.imi.gov.my/index.php/en/main-services/visapasslogin/student-pass/",
+      "official": true
+    },
+    "emgs-faq": {
+      "title": "Frequently asked questions",
+      "publisher": "Education Malaysia Global Services (EMGS)",
+      "url": "https://educationmalaysia.gov.my/get-in-touch/faq",
+      "official": true
+    },
+    "emgs-docs": {
+      "title": "Required documents",
+      "publisher": "Education Malaysia Global Services (EMGS)",
+      "url": "https://visa.educationmalaysia.gov.my/guidelines/required-documents",
+      "official": true
+    },
+    "emgs-medical": {
+      "title": "Medical screening",
+      "publisher": "Education Malaysia Global Services (EMGS)",
+      "url": "https://visa.educationmalaysia.gov.my/guidelines/medical-screening",
+      "official": true
+    },
+    "emgs-fees": {
+      "title": "Calculate application fees",
+      "publisher": "Education Malaysia Global Services (EMGS)",
+      "url": "https://visa.educationmalaysia.gov.my/student-visa/calculate-application-fees",
+      "official": true
+    },
+    "emgs-bond": {
+      "title": "Personal bond requirements (version 1.2)",
+      "publisher": "Education Malaysia Global Services (EMGS)",
+      "url": "https://visa.educationmalaysia.gov.my/media/docs/Personal-Bond-Requirementsv1.2.pdf",
+      "official": true
+    },
+    "emgs-guidelines": {
+      "title": "Guidelines",
+      "publisher": "Education Malaysia Global Services (EMGS)",
+      "url": "https://visa.educationmalaysia.gov.my/guidelines",
+      "official": true
+    },
+    "emgs-insurance": {
+      "title": "Insurance (2026)",
+      "publisher": "Education Malaysia Global Services (EMGS)",
+      "url": "https://visa.educationmalaysia.gov.my/guidelines/insurance-new-2026",
+      "official": true
+    },
+    "emgs-graduate": {
+      "title": "Graduate pass",
+      "publisher": "Education Malaysia Global Services (EMGS)",
+      "url": "https://visa.educationmalaysia.gov.my/graduate-pass",
+      "official": true
+    },
+    "emgs-sev": {
+      "title": "Countries that require a single entry visa",
+      "publisher": "Education Malaysia Global Services (EMGS)",
+      "url": "https://visa.educationmalaysia.gov.my/guidelines/sev-required-countries",
+      "official": true
+    },
+    "kln-dhaka-req": {
+      "title": "Visa requirements for foreigners",
+      "publisher": "High Commission of Malaysia, Dhaka",
+      "url": "https://www.kln.gov.my/web/bgd_dhaka/requirement_foreigner",
+      "official": true
+    },
+    "mohe-mis": {
+      "title": "Malaysia International Scholarship 2026: guidelines",
+      "publisher": "Ministry of Higher Education Malaysia",
+      "url": "https://biasiswa.mohe.gov.my/INTER/doc/MIS/Guidelines%20MIS%202026.pdf",
+      "official": true
+    },
+    "um-howto": {
+      "title": "How to apply",
+      "publisher": "Universiti Malaya",
+      "url": "https://study.um.edu.my/how-to-apply",
+      "official": true
+    },
+    "um-requirements": {
+      "title": "Entry requirements for international undergraduates, session 2024 to 2025",
+      "publisher": "Universiti Malaya",
+      "url": "https://study.um.edu.my/doc/brochures/Buku_Syarat_UG_INTERNATIONAL_2023.pdf",
+      "official": true
+    },
+    "um-faq-admission": {
+      "title": "Frequently asked questions: admission",
+      "publisher": "Universiti Malaya",
+      "url": "https://aasd.um.edu.my/faq-admission",
+      "official": true
+    },
+    "um-faq-ug": {
+      "title": "Frequently asked questions: international undergraduate admission (2021)",
+      "publisher": "Universiti Malaya",
+      "url": "https://aasd.um.edu.my/faq-ug-international-admission",
+      "official": true
+    },
+    "emgs-steps": {
+      "title": "Study in Malaysia step by step: how to apply for a student visa",
+      "publisher": "Education Malaysia Global Services (EMGS)",
+      "url": "https://educationmalaysia.gov.my/blogs/study-in-malaysia-step-by-step-how-to-apply-for-a-student-visa",
+      "official": true
+    },
+    "um-fees": {
+      "title": "Tuition fees for international undergraduates, 2025 to 2026",
+      "publisher": "Universiti Malaya",
+      "url": "https://study.um.edu.my/doc/tution-fee/tf-ug-prog-international/UG_BW.20252026%20(2)_.pdf",
+      "official": true
+    },
+    "um-life": {
+      "title": "International student life",
+      "publisher": "Universiti Malaya",
+      "url": "https://spm.um.edu.my/student/international-student-life/",
+      "official": true
+    },
+    "utm-entry": {
+      "title": "Entry requirements for international undergraduates",
+      "publisher": "Universiti Teknologi Malaysia",
+      "url": "https://admission.utm.my/entry-requirements-ug-international/",
+      "official": true
+    },
+    "utm-apply": {
+      "title": "Apply now",
+      "publisher": "Universiti Teknologi Malaysia",
+      "url": "https://admission.utm.my/apply-now/",
+      "official": true
+    },
+    "utm-faq": {
+      "title": "Frequently asked questions",
+      "publisher": "Universiti Teknologi Malaysia",
+      "url": "https://admission.utm.my/1faqs/",
+      "official": true
+    },
+    "utm-english": {
+      "title": "English language requirements",
+      "publisher": "Universiti Teknologi Malaysia",
+      "url": "https://admission.utm.my/english-language-requirements-3/",
+      "official": true
+    },
+    "utm-fees": {
+      "title": "Programme fees for international undergraduates",
+      "publisher": "Universiti Teknologi Malaysia",
+      "url": "https://admission.utm.my/programme-fees-ug-international/",
+      "official": true
+    },
+    "ukm-join": {
+      "title": "Join UKM: international admission",
+      "publisher": "Universiti Kebangsaan Malaysia",
+      "url": "https://join.ukm.my/",
+      "official": true
+    },
+    "usm-fees": {
+      "title": "Undergraduate international tuition fees per semester",
+      "publisher": "Universiti Sains Malaysia",
+      "url": "https://admission.usm.my/images/00uginternational/fee_2025/UNDERGRADUATE_INTERNATIONAL_TUITION_FEES_PER_SEMESTER.pdf",
+      "official": true
+    },
+    "monash-entry": {
+      "title": "Academic entry requirements: undergraduate",
+      "publisher": "Monash University Malaysia",
+      "url": "https://www.monash.edu.my/study/entry-requirements/academic/undergraduate",
+      "official": true
+    },
+    "monash-intakes-apply": {
+      "title": "Intake periods",
+      "publisher": "Monash University Malaysia",
+      "url": "https://www.monash.edu.my/study/apply/intake-periods",
+      "official": true
+    },
+    "monash-fees": {
+      "title": "Undergraduate fees",
+      "publisher": "Monash University Malaysia",
+      "url": "https://www.monash.edu.my/study/undergraduate/fees",
+      "official": true
+    },
+    "monash-english": {
+      "title": "English language tests",
+      "publisher": "Monash University Malaysia",
+      "url": "https://www.monash.edu.my/study/entry-requirements/english/tests",
+      "official": true
+    },
+    "monash-sst": {
+      "title": "Service tax information",
+      "publisher": "Monash University Malaysia",
+      "url": "https://www.monash.edu.my/finance/sst-info",
+      "official": true
+    },
+    "mufy-brochure": {
+      "title": "Monash University Foundation Year brochure 2026",
+      "publisher": "Sunway College",
+      "url": "https://www.sunwaycollege.edu.my/sites/default/files/inline-images/pdfs/MUFY_Brochure_2026.pdf",
+      "official": true
+    },
+    "sunway-apply": {
+      "title": "International students: apply today",
+      "publisher": "Sunway University",
+      "url": "https://sunwayuniversity.edu.my/international/apply-today",
+      "official": true
+    },
+    "sunway-bursary": {
+      "title": "Sunway international bursaries",
+      "publisher": "Sunway University",
+      "url": "https://scholarship.sunway.edu.my/scholarship/sunway-international-bursaries",
+      "official": true
+    },
+    "taylors-admission": {
+      "title": "Undergraduate admission",
+      "publisher": "Taylor's University",
+      "url": "https://university.taylors.edu.my/en/study/how-to-apply/undergraduate-admission.html",
+      "official": true
+    },
+    "taylors-cs-fees": {
+      "title": "Fees schedule: Bachelor of Computer Science, 2027 intakes",
+      "publisher": "Taylor's University",
+      "url": "https://university.taylors.edu.my/content/dam/taylorsrevamp/university/study/scholarships-and-financial-aid/fees-schedule/school-of-computer-science/undergraduate/taylors-fees-schedule-ug-computer-science-usd.pdf",
+      "official": true
+    },
+    "taylors-aid": {
+      "title": "Scholarships and financial aid",
+      "publisher": "Taylor's University",
+      "url": "https://university.taylors.edu.my/en/admissions/scholarships-and-financial-aid.html",
+      "official": true
+    },
+    "iium-finance": {
+      "title": "Finance division: service tax",
+      "publisher": "International Islamic University Malaysia",
+      "url": "https://division.iium.edu.my/finance/",
+      "official": true
+    },
+    "malaymail-stats": {
+      "title": "Why Malaysian campuses are a hit with students from China, Bangladesh and India (18 December 2025)",
+      "publisher": "Malay Mail",
+      "url": "https://malaymail.com/news/malaysia/2025/12/18/why-malaysian-campuses-are-a-hit-with-students-from-china-bangladesh-and-india/201793",
+      "official": false
+    },
+    "prothomalo-agents": {
+      "title": "Op-ed on Bangladeshi students in Malaysia (19 September 2026)",
+      "publisher": "Prothom Alo English",
+      "url": "https://en.prothomalo.com/opinion/op-ed/8y9qrb55mz",
+      "official": false
+    },
+    "monash-diploma": {
+      "title": "Diploma of Higher Education Studies",
+      "publisher": "Monash University Malaysia",
+      "url": "https://www.monash.edu.my/study/diploma-and-pathway/diploma-higher-education-studies",
+      "official": true
+    }
+  },
+  "facts": [
+    {
+      "id": "intakes.monash",
+      "label": "Intakes at Monash University Malaysia",
+      "kind": "text",
+      "value": {
+        "text": "2027 intakes: February (classes from 1 March 2027; apply by 18 December 2026, or 4 December 2026 for medicine), July (from 26 July 2027; apply by 14 May 2027) and October, for a list of courses (from 25 October 2027; apply by 13 August 2027). Student visa documents are due about a week after each application deadline."
+      },
+      "status": "confirmed",
+      "source": "monash-intakes-apply",
+      "where": "2027 intakes and international deadlines",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Malaysian intakes are set by each university, so the plan asks for the start month."
+    },
+    {
+      "id": "entry.hsc",
+      "label": "HSC students and direct entry (Monash University Malaysia)",
+      "kind": "text",
+      "value": {
+        "text": "Monash University Malaysia asks for a pre-university qualification such as A levels, STPM, the Monash University Foundation Year or another equivalent. The Bangladesh HSC is not named, so ask Monash whether your HSC is accepted. Monash runs no foundation courses itself."
+      },
+      "status": "confirmed",
+      "source": "monash-entry",
+      "where": "Undergraduate academic entry requirements, last updated 21 October 2026",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "The Monash University Foundation Year is taught at Sunway College. Monash also runs a one-year Diploma of Higher Education Studies (see the next fact)."
+    },
+    {
+      "id": "foundation.mufy.intakes",
+      "label": "Monash University Foundation Year intakes (Sunway College)",
+      "kind": "months",
+      "value": {
+        "months": [
+          1,
+          7,
+          8
+        ]
+      },
+      "status": "confirmed",
+      "source": "sunway-mufy",
+      "where": "Programme Details table: Intakes",
+      "checked": "2026-10-03",
+      "verified": "2026-10-03",
+      "note": "Sunway College is the only provider of the Monash University Foundation Year in Malaysia. It publishes no application closing date."
+    },
+    {
+      "id": "foundation.mufy.length",
+      "label": "Monash University Foundation Year length (Sunway College)",
+      "kind": "duration",
+      "value": {
+        "max": 12,
+        "unit": "months"
+      },
+      "status": "confirmed",
+      "source": "sunway-mufy",
+      "where": "Programme Details table: Duration",
+      "checked": "2026-10-03",
+      "verified": "2026-10-03",
+      "note": "Sunway College describes it as a direct pathway to Monash University."
+    },
+    {
+      "id": "pass.processing",
+      "label": "Student pass processing time",
+      "kind": "duration",
+      "value": {
+        "min": 6,
+        "max": 8,
+        "unit": "weeks"
+      },
+      "status": "reported",
+      "source": "taylors-admission",
+      "where": "Student pass section",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Taylor's and Sunway both give 6 to 8 weeks. Taylor's adds that from August to mid-October the pass endorsement can take up to 45 working days. EMGS's own target is 14 working days for a complete application, and Universiti Malaysia Pahang says approval may take up to 30 working days. The plan uses up to 8 weeks."
+    },
+    {
+      "id": "pass.val",
+      "label": "Visa Approval Letter",
+      "kind": "text",
+      "value": {
+        "text": "The university submits the student pass application to EMGS. Once approved, EMGS issues a Visa Approval Letter, which the student needs to enter Malaysia, and then applies for a single-entry visa."
+      },
+      "status": "confirmed",
+      "source": "emgs-process",
+      "where": "Step-by-step flow",
+      "checked": "2026-10-02",
+      "verified": "2026-10-02",
+      "note": ""
+    },
+    {
+      "id": "pass.singleEntryVisa",
+      "label": "When to get the single-entry visa",
+      "kind": "text",
+      "value": {
+        "text": "Bangladesh is on the list of countries that need a single-entry visa. After your eVAL is issued, apply for the visa online through Malaysia's eVISA system, from Bangladesh. The eVAL is valid for 6 months, so you must enter Malaysia before it expires. You do not apply at the High Commission in Dhaka."
+      },
+      "status": "confirmed",
+      "source": "imi-student-pass",
+      "where": "Single-entry visa section",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Bangladesh is on EMGS's list of countries that need this visa, and EMGS's FAQ says the eVAL is valid for 6 months. The High Commission in Dhaka gives the visa fee as RM20 and an eVISA processing fee of RM105, asks applicants to apply from their country of residence, and says the visa is valid for three months from issue. Two older EMGS guide pages still say to apply at an embassy; the Immigration Department's page says eVISA only."
+    },
+    {
+      "id": "pass.medical",
+      "label": "Medical screening after arrival",
+      "kind": "text",
+      "value": {
+        "text": "Within 7 days of arriving: EMGS says 7 working days and the Immigration Department says seven days, so plan on 7 days. It is done at an EMGS panel clinic, or for public university students at the university's own clinic. Without it, your student pass cannot be endorsed in your passport."
+      },
+      "status": "confirmed",
+      "source": "emgs-medical",
+      "where": "Post-arrival medical screening",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "The university clinic option is in EMGS's FAQ; the seven-day wording is on the Immigration Department's student pass page."
+    },
+    {
+      "id": "pass.steps",
+      "label": "The student pass, step by step",
+      "kind": "text",
+      "value": {
+        "text": "EMGS lists these steps: apply on the EMGS portal, receive the eVAL, get the entry visa if your country needs one, fill in the arrival card, travel, have the medical screening after you arrive, and have the pass endorsed. An interview is not among them."
+      },
+      "status": "confirmed",
+      "source": "emgs-steps",
+      "where": "The numbered steps",
+      "checked": "2026-10-25",
+      "verified": "2026-10-25",
+      "note": ""
+    },
+    {
+      "id": "uni.um.qsRank",
+      "label": "QS World University Rankings 2027 position (Universiti Malaya)",
+      "kind": "number",
+      "value": {
+        "number": 56
+      },
+      "status": "reported",
+      "source": "qs-2027",
+      "where": "University page on topuniversities.com",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.usm.qsRank",
+      "label": "QS World University Rankings 2027 position (Universiti Sains Malaysia)",
+      "kind": "number",
+      "value": {
+        "number": 128
+      },
+      "status": "reported",
+      "source": "qs-2027",
+      "where": "University page on topuniversities.com",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Shared with another university, shown by QS as =128."
+    },
+    {
+      "id": "uni.ukm.qsRank",
+      "label": "QS World University Rankings 2027 position (Universiti Kebangsaan Malaysia)",
+      "kind": "number",
+      "value": {
+        "number": 130
+      },
+      "status": "reported",
+      "source": "qs-2027",
+      "where": "University page on topuniversities.com",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.upm.qsRank",
+      "label": "QS World University Rankings 2027 position (Universiti Putra Malaysia)",
+      "kind": "number",
+      "value": {
+        "number": 138
+      },
+      "status": "reported",
+      "source": "qs-2027",
+      "where": "University page on topuniversities.com",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.utm.qsRank",
+      "label": "QS World University Rankings 2027 position (Universiti Teknologi Malaysia)",
+      "kind": "number",
+      "value": {
+        "number": 158
+      },
+      "status": "reported",
+      "source": "qs-2027",
+      "where": "University page on topuniversities.com",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Shared with another university, shown by QS as =158."
+    },
+    {
+      "id": "uni.utp.qsRank",
+      "label": "QS World University Rankings 2027 position (Universiti Teknologi PETRONAS)",
+      "kind": "number",
+      "value": {
+        "number": 261
+      },
+      "status": "reported",
+      "source": "qs-2027",
+      "where": "University page on topuniversities.com",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Shared with another university, shown by QS as =261."
+    },
+    {
+      "id": "uni.taylors.qsRank",
+      "label": "QS World University Rankings 2027 position (Taylor's)",
+      "kind": "number",
+      "value": {
+        "number": 272
+      },
+      "status": "reported",
+      "source": "qs-2027",
+      "where": "University page on topuniversities.com",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.ucsi.qsRank",
+      "label": "QS World University Rankings 2027 position (UCSI)",
+      "kind": "number",
+      "value": {
+        "number": 282
+      },
+      "status": "reported",
+      "source": "qs-2027",
+      "where": "University page on topuniversities.com",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.sunway.qsRank",
+      "label": "QS World University Rankings 2027 position (Sunway)",
+      "kind": "number",
+      "value": {
+        "number": 354
+      },
+      "status": "reported",
+      "source": "qs-2027",
+      "where": "University page on topuniversities.com",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Shared with another university, shown by QS as =354."
+    },
+    {
+      "id": "uni.inti.qsRank",
+      "label": "QS World University Rankings 2027 position (INTI)",
+      "kind": "number",
+      "value": {
+        "number": 406
+      },
+      "status": "reported",
+      "source": "qs-2027",
+      "where": "University page on topuniversities.com",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Shared with another university, shown by QS as =406."
+    },
+    {
+      "id": "system.qsCount",
+      "label": "Malaysian universities in the QS World University Rankings 2027",
+      "kind": "text",
+      "value": {
+        "text": "Universiti Malaya reported that 32 Malaysian universities were evaluated in the QS World University Rankings 2027, with Universiti Malaya the highest at 56."
+      },
+      "status": "confirmed",
+      "source": "um-qsnews",
+      "where": "News item, last updated 21 July 2026",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "system.branchRanks",
+      "label": "QS positions of Monash and Nottingham",
+      "kind": "text",
+      "value": {
+        "text": "QS ranks Monash University at 31 and the University of Nottingham at 97 in 2027, as whole universities based in Australia and the UK. QS shows no separate position for their Malaysian campuses."
+      },
+      "status": "reported",
+      "source": "monash-qsnews",
+      "where": "Opening paragraph",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Monash's 31 is on Monash's own news; Nottingham's 97 is on its QS page."
+    },
+    {
+      "id": "system.apply",
+      "label": "How international students apply in Malaysia",
+      "kind": "text",
+      "value": {
+        "text": "Public universities, and private institutions approved by the Ministry of Higher Education and authorised by the Home Ministry, may take international students. EMGS screens each student pass application before the Immigration Department approves it."
+      },
+      "status": "confirmed",
+      "source": "imi-student-pass",
+      "where": "Student pass section",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.um.dates",
+      "label": "Application windows for 2026 to 2027 (Universiti Malaya)",
+      "kind": "text",
+      "value": {
+        "text": "Semester I, starting in October 2026: applications from 9 February to 30 August 2026. Semester II, starting in March 2027: applications from 7 September 2026 to 30 January 2027."
+      },
+      "status": "confirmed",
+      "source": "um-howto",
+      "where": "Intakes and deadlines",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Dates for 2027 to 2028 were not yet published on 21 October 2026."
+    },
+    {
+      "id": "uni.um.fee",
+      "label": "Application fee (Universiti Malaya)",
+      "kind": "money",
+      "value": {
+        "amount": 500,
+        "currency": "MYR"
+      },
+      "status": "confirmed",
+      "source": "um-howto",
+      "where": "Application fee",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Per application. Universiti Malaya's FAQ pages (2021 and February 2026) still say RM300 and September and February intakes; the application page, updated 14 October 2026, is newer."
+    },
+    {
+      "id": "uni.um.entry",
+      "label": "Entry for international undergraduates (Universiti Malaya)",
+      "kind": "text",
+      "value": {
+        "text": "12 years of schooling and a national high school certificate, Grade 12, A levels, IB or an equivalent. Advanced subsidiary, predicted, provisional, mock or expected results are not accepted."
+      },
+      "status": "reported",
+      "source": "um-requirements",
+      "where": "General entry requirements",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "From the requirements book for the 2024 to 2025 session, the newest Universiti Malaya publishes."
+    },
+    {
+      "id": "uni.um.malay",
+      "label": "Malay language course (Universiti Malaya)",
+      "kind": "text",
+      "value": {
+        "text": "International students must take a Malay language course before they complete their programme."
+      },
+      "status": "reported",
+      "source": "um-faq-ug",
+      "where": "Answer on language courses",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "From Universiti Malaya's FAQ last updated in December 2021."
+    },
+    {
+      "id": "tuition.um",
+      "label": "Tuition for international undergraduates, 2025 to 2026 (Universiti Malaya)",
+      "kind": "text",
+      "value": {
+        "text": "For the whole programme at its minimum length: engineering RM132,100, most computer science majors RM89,200, business administration and economics RM77,100. Accommodation is not included."
+      },
+      "status": "reported",
+      "source": "um-fees",
+      "where": "Fee tables",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "The 2025 to 2026 schedule is the newest published on 21 October 2026."
+    },
+    {
+      "id": "uni.utm.hsc",
+      "label": "Entry with the Bangladesh HSC (Universiti Teknologi Malaysia)",
+      "kind": "text",
+      "value": {
+        "text": "UTM accepts the Bangladesh HSC, Intermediate Certificate and Alim. Engineering needs A+ in Mathematics and Physics and in Chemistry or Biology; computer science needs A+ in Mathematics and two approved subjects; science needs A+ in any three science or mathematics subjects."
+      },
+      "status": "confirmed",
+      "source": "utm-entry",
+      "where": "Bangladesh row",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.utm.dates",
+      "label": "Intakes and application rounds (Universiti Teknologi Malaysia)",
+      "kind": "text",
+      "value": {
+        "text": "Two intakes a year, in February and September. For September 2026, applications ran from 1 April to 15 May and from 23 June to 17 July 2026."
+      },
+      "status": "confirmed",
+      "source": "utm-apply",
+      "where": "Application rounds",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "The two intakes are on UTM's FAQ. Dates for 2027 were not yet published."
+    },
+    {
+      "id": "uni.utm.results",
+      "label": "When final results must be uploaded (Universiti Teknologi Malaysia)",
+      "kind": "text",
+      "value": {
+        "text": "Students still in their final semester can apply with their latest transcript, but must upload their final results by 30 July for the September intake, or by 31 December for February."
+      },
+      "status": "confirmed",
+      "source": "utm-faq",
+      "where": "Answer on results",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "UTM's FAQ is partly out of date (it still describes the Bridging Programme, which ended in 2026), so confirm the results deadline with UTM."
+    },
+    {
+      "id": "uni.utm.fee",
+      "label": "Application fee (Universiti Teknologi Malaysia)",
+      "kind": "money",
+      "value": {
+        "amount": 450,
+        "currency": "MYR"
+      },
+      "status": "reported",
+      "source": "utm-faq",
+      "where": "Answer on the application fee",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "An amount UTM's FAQ gives without a year."
+    },
+    {
+      "id": "uni.utm.english",
+      "label": "English requirement (Universiti Teknologi Malaysia)",
+      "kind": "text",
+      "value": {
+        "text": "MUET 4.0, IELTS 5.5, TOEFL iBT 46, PTE 51 or Cambridge 160, valid for two years. Holders of A levels or the IB are exempt; the HSC is not among the exemptions."
+      },
+      "status": "confirmed",
+      "source": "utm-english",
+      "where": "Requirements from September 2023",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "tuition.utm",
+      "label": "Tuition for international undergraduates (Universiti Teknologi Malaysia)",
+      "kind": "text",
+      "value": {
+        "text": "For the whole programme: engineering RM75,000, computing RM71,000 and science RM63,000."
+      },
+      "status": "reported",
+      "source": "utm-fees",
+      "where": "Fee table",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "The page names no session. It also lists a registration fee of RM6,152 and a service fee of RM1,075 for each normal semester, and a graduation fee of RM220. If these are charged every semester, they add more than the tuition itself, so ask UTM before you plan."
+    },
+    {
+      "id": "aid.utm",
+      "label": "Financial aid (Universiti Teknologi Malaysia)",
+      "kind": "text",
+      "value": {
+        "text": "UTM does not offer any financial aid to students."
+      },
+      "status": "confirmed",
+      "source": "utm-faq",
+      "where": "Answer on scholarships",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.ukm.entry",
+      "label": "International admission (Universiti Kebangsaan Malaysia)",
+      "kind": "text",
+      "value": {
+        "text": "Applications open in April for October admission and must be made at least two months before registration. Applicants need 12 years of school and a high school certificate such as the Higher Secondary Certificate. The application fee is RM100 or USD 30."
+      },
+      "status": "confirmed",
+      "source": "ukm-join",
+      "where": "Undergraduate admission section",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "tuition.usm",
+      "label": "Tuition per semester for international undergraduates (Universiti Sains Malaysia)",
+      "kind": "text",
+      "value": {
+        "text": "Most engineering programmes USD 2,250 a semester, chemical engineering USD 2,812.50, and computer science USD 1,875."
+      },
+      "status": "reported",
+      "source": "usm-fees",
+      "where": "Fee table",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "The table names no session; the file was published in September 2025."
+    },
+    {
+      "id": "tuition.monash",
+      "label": "Tuition fee per year for international students (Monash University Malaysia)",
+      "kind": "money",
+      "keyedBy": "academicYear",
+      "values": [
+        {
+          "key": "2027",
+          "value": {
+            "currency": "MYR",
+            "variants": [
+              {
+                "label": "Engineering",
+                "amount": 68160
+              },
+              {
+                "label": "Science",
+                "amount": 63360
+              },
+              {
+                "label": "Computer science",
+                "amount": 57600
+              },
+              {
+                "label": "Business and commerce",
+                "amount": 54240
+              },
+              {
+                "label": "Medicine",
+                "amount": 148320
+              }
+            ]
+          },
+          "status": "confirmed",
+          "source": "monash-fees",
+          "where": "2027 tuition fees",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Engineering takes 4 years, computer science, science and business 3, and medicine 5. 6% service tax is added. Compulsory fees: RM100 to apply and RM200 to register, once, and RM100 a semester for amenities."
+        }
+      ]
+    },
+    {
+      "id": "uni.monash.english",
+      "label": "English requirement (Monash University Malaysia)",
+      "kind": "text",
+      "value": {
+        "text": "IELTS Academic 6.5 with no band below 6.0, TOEFL iBT 4 on the new scale (79 on the old), PTE Academic 58 with 50 in each part, or Cambridge 176. Monash accepts results up to three years old, but notes that the Malaysian Government sets a two-year limit, so use a result less than two years old. The TOEFL Home Edition and PTE Online are not accepted."
+      },
+      "status": "confirmed",
+      "source": "monash-english",
+      "where": "Accepted tests, updated 30 April 2026",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "foundation.mufy.fees",
+      "label": "Monash University Foundation Year: fees and entry (Sunway College)",
+      "kind": "text",
+      "value": {
+        "text": "RM38,600 to RM41,000 at the Kuala Lumpur campus or RM27,000 to RM29,400 at Johor Bahru, plus an RM2,250 administration fee for international students and 6% service tax. Entry needs five credits at SPM, O level or equivalent, and IELTS 5.5 with no band below 5.0."
+      },
+      "status": "reported",
+      "source": "mufy-brochure",
+      "where": "Fees and entry pages",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "From the 2026 brochure; 2027 fees were not yet published. Fees are subject to change."
+    },
+    {
+      "id": "uni.sunway.apply",
+      "label": "Applying as an international student (Sunway University)",
+      "kind": "text",
+      "value": {
+        "text": "Email Sunway first to confirm your eligibility. All application documents and the initial payment are due at least 12 weeks before the intake. The enrolment fee is RM742 including tax, and your passport must be valid for at least 18 months from the intake date."
+      },
+      "status": "confirmed",
+      "source": "sunway-apply",
+      "where": "Apply today page",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Sunway also collects RM3,300 for the student pass and visa, paid to EMGS, and says approval takes up to 6 to 8 weeks."
+    },
+    {
+      "id": "aid.sunway",
+      "label": "Bursaries for HSC students (Sunway University)",
+      "kind": "text",
+      "value": {
+        "text": "For a bachelor's degree, an HSC GPA of 4.00 out of 5 brings a bursary of RM6,000, and 4.50 brings RM11,000. You can apply up to two weeks after your programme starts or two weeks after your actual results come out."
+      },
+      "status": "reported",
+      "source": "sunway-bursary",
+      "where": "Bangladesh rows and application timing",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "The table is for 2026 intakes; the 2027 version was not yet published. It does not say whether the amount is one-time or yearly. Results must be no more than two years old when you join, and the English requirement must be met before the programme starts."
+    },
+    {
+      "id": "tuition.taylors",
+      "label": "Total fees for the whole programme, 2027 intakes (Taylor's)",
+      "kind": "money",
+      "keyedBy": "academicYear",
+      "values": [
+        {
+          "key": "2027",
+          "value": {
+            "currency": "MYR",
+            "variants": [
+              {
+                "label": "Bachelor of Computer Science, including service tax",
+                "amount": 156498
+              }
+            ]
+          },
+          "status": "confirmed",
+          "source": "taylors-cs-fees",
+          "where": "Fees schedule for February, April and September 2027 intakes",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Includes tuition of RM127,776, the enrolment fee, insurance, international student charges, EMGS fees and a security deposit. The schedule's notes and totals disagree on which items carry the 6% tax, so ask Taylor's for the exact total. The four engineering degrees total RM210,809 including tax, over 10 semesters."
+        }
+      ]
+    },
+    {
+      "id": "aid.taylors",
+      "label": "Scholarships for international students (Taylor's)",
+      "kind": "text",
+      "value": {
+        "text": "Taylor's main merit scholarships are only for Malaysian students and international students moving up from Taylor's own schools. Its Excellence Award is for international students holding results from recognised institutions in Malaysia."
+      },
+      "status": "confirmed",
+      "source": "taylors-aid",
+      "where": "Eligibility sections, 2027",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "aid.noGovernmentBachelor",
+      "label": "Malaysian government scholarships for bachelor's study",
+      "kind": "text",
+      "value": {
+        "text": "The Malaysia International Scholarship is for full-time postgraduate study, master's and PhD, not for bachelor's degrees."
+      },
+      "status": "confirmed",
+      "source": "mohe-mis",
+      "where": "Eligibility section",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "system.sst",
+      "label": "Service tax on fees for international students",
+      "kind": "text",
+      "value": {
+        "text": "Since 1 July 2025, a 6% service tax applies to tuition and related fees for students who are not Malaysian citizens. Private universities charge it, and at least one public university does too. Universities do not add it to student pass and insurance fees, but EMGS charges its own 8% service tax on its processing and eVAL fees."
+      },
+      "status": "confirmed",
+      "source": "monash-sst",
+      "where": "Service tax information",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "From Monash's service tax page. The International Islamic University Malaysia, a public university, charges it from 1 September 2025, and EMGS's fee calculator states its own 8% tax."
+    },
+    {
+      "id": "pass.english",
+      "label": "English certificate for the student pass",
+      "kind": "text",
+      "value": {
+        "text": "You must upload an English test certificate with your visa approval application. Without it, processing may be delayed and your pass will not cover the full length of your course. Accepted: MUET, IELTS, TOEFL iBT, TOEFL Essentials, PTE Academic, Cambridge English tests and Linguaskill, OET, and ELS. The Duolingo English Test is not on the list."
+      },
+      "status": "confirmed",
+      "source": "emgs-docs",
+      "where": "English language proficiency",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "pass.documents",
+      "label": "Documents for the student pass",
+      "kind": "text",
+      "value": {
+        "text": "A passport valid for at least 18 months, a passport photo 35 by 45 mm on a white background, copies of all your academic certificates and transcripts, your offer letter, and the health declaration form."
+      },
+      "status": "confirmed",
+      "source": "emgs-docs",
+      "where": "Required documents for new applications",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "pass.processingFee",
+      "label": "EMGS processing fee, new application",
+      "kind": "money",
+      "value": {
+        "amount": 1728,
+        "currency": "MYR"
+      },
+      "status": "confirmed",
+      "source": "emgs-fees",
+      "where": "New application",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "RM1,600 plus 8% service tax.",
+      "changesOften": true
+    },
+    {
+      "id": "pass.evalFee",
+      "label": "eVAL fee",
+      "kind": "money",
+      "value": {
+        "amount": 159,
+        "currency": "MYR"
+      },
+      "status": "confirmed",
+      "source": "emgs-fees",
+      "where": "eVAL (standard fee)",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "",
+      "changesOften": true
+    },
+    {
+      "id": "pass.ikadFee",
+      "label": "i-Kad student card fee",
+      "kind": "money",
+      "value": {
+        "amount": 50,
+        "currency": "MYR"
+      },
+      "status": "confirmed",
+      "source": "emgs-fees",
+      "where": "i-Kad, self-collect",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "RM60.60 if couriered to your university.",
+      "changesOften": true
+    },
+    {
+      "id": "pass.passFee",
+      "label": "Student pass fee",
+      "kind": "money",
+      "value": {
+        "amount": 60,
+        "currency": "MYR"
+      },
+      "status": "confirmed",
+      "source": "emgs-fees",
+      "where": "Student pass, standard",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "",
+      "changesOften": true
+    },
+    {
+      "id": "pass.visaFee",
+      "label": "Visa fee for Bangladeshi citizens",
+      "kind": "money",
+      "value": {
+        "amount": 20,
+        "currency": "MYR"
+      },
+      "status": "confirmed",
+      "source": "emgs-fees",
+      "where": "Visa fee list, Bangladesh",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "The High Commission in Dhaka also gives RM20 for the single-entry visa.",
+      "changesOften": true
+    },
+    {
+      "id": "pass.medicalFee",
+      "label": "Post-arrival medical screening fee",
+      "kind": "money",
+      "value": {
+        "amount": 340,
+        "currency": "MYR"
+      },
+      "status": "confirmed",
+      "source": "emgs-fees",
+      "where": "Medical screening, standard",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Public university clinics charge their own fee.",
+      "changesOften": true
+    },
+    {
+      "id": "pass.insurance",
+      "label": "Medical insurance for 12 months, EMGS plans in 2026",
+      "kind": "money",
+      "value": {
+        "currency": "MYR",
+        "variants": [
+          {
+            "label": "Cheapest plan",
+            "amount": 498
+          },
+          {
+            "label": "Most expensive plan",
+            "amount": 644
+          }
+        ]
+      },
+      "status": "confirmed",
+      "source": "emgs-insurance",
+      "where": "Insurance plans for 2026",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Insurance is compulsory for every international student for the whole stay.",
+      "changesOften": true
+    },
+    {
+      "id": "pass.bond",
+      "label": "Personal bond for Bangladeshi citizens",
+      "kind": "money",
+      "value": {
+        "amount": 750,
+        "currency": "MYR"
+      },
+      "status": "confirmed",
+      "source": "emgs-bond",
+      "where": "RM 750 group",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "EMGS's guidelines say the bond is returned when you complete or withdraw from your studies."
+    },
+    {
+      "id": "pass.renewal",
+      "label": "Renewing the student pass",
+      "kind": "text",
+      "value": {
+        "text": "The pass is usually issued for up to one year at a time. Renew it as early as three months before it expires. Renewal expects a CGPA of at least 2.0 and attendance of at least 80%."
+      },
+      "status": "confirmed",
+      "source": "emgs-faq",
+      "where": "Answers on pass validity and renewal",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "The CGPA and attendance rule is on EMGS's guidelines page."
+    },
+    {
+      "id": "arrive.mdac",
+      "label": "Malaysia Digital Arrival Card",
+      "kind": "text",
+      "value": {
+        "text": "Fill in the Malaysia Digital Arrival Card online within the three days before you arrive."
+      },
+      "status": "reported",
+      "source": "emgs-steps",
+      "where": "Section on arrival",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "From an EMGS guide page; the card itself is run by the Immigration Department."
+    },
+    {
+      "id": "work.rule",
+      "label": "Working while you study in Malaysia",
+      "kind": "text",
+      "value": {
+        "text": "Up to 20 hours a week, only during semester breaks or holidays of more than 7 days, with the Immigration Department's approval first. Jobs are limited to restaurants, petrol kiosks, mini markets, hotels and your campus; work as a cashier, singer, masseur, musician or hotel guest relations officer is not allowed."
+      },
+      "status": "confirmed",
+      "source": "emgs-faq",
+      "where": "Answer on part-time work",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "The Immigration Department's student pass page also bars front-desk work and working as a student recruitment agent."
+    },
+    {
+      "id": "work.graduatePass",
+      "label": "Staying after you graduate",
+      "kind": "text",
+      "value": {
+        "text": "A Graduate Pass is issued only to students who have completed a bachelor's degree or higher. It is valid for 12 months after graduation and allows part-time work in permitted sectors. Apply while your student pass is still valid; you need a passport valid for 18 months, health insurance for the whole pass, and a sponsor earning at least RM1,500 a month."
+      },
+      "status": "confirmed",
+      "source": "emgs-graduate",
+      "where": "Graduate pass page",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "living.um",
+      "label": "Monthly living costs in Kuala Lumpur (Universiti Malaya)",
+      "kind": "text",
+      "value": {
+        "text": "Typically RM1,500 to RM2,600 a month: housing RM400 to RM800, food RM600 to RM900, transport RM100 to RM200, utilities RM100 to RM200 and personal costs RM200 to RM400."
+      },
+      "status": "reported",
+      "source": "um-life",
+      "where": "Cost of living table",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "The page gives no year. Its table totals RM1,500 to RM2,500; the higher figure is from its text.",
+      "changesOften": true
+    },
+    {
+      "id": "scam.agents",
+      "label": "Agents and colleges to avoid",
+      "kind": "text",
+      "value": {
+        "text": "A 2026 opinion article reported Bangladeshi students paying agents 6 to 8 lakh taka, enrolling at colleges with no real classes or lapsed licences, having their passports withheld, and being promised work that was not allowed."
+      },
+      "status": "reported",
+      "source": "prothomalo-agents",
+      "where": "Whole article",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "stats.bangladesh",
+      "label": "Bangladeshi students starting in Malaysia",
+      "kind": "text",
+      "value": {
+        "text": "From January to November 2025, 8,957 new students from Bangladesh enrolled in Malaysia, 47% more than in 2024 and the second largest group after China."
+      },
+      "status": "reported",
+      "source": "malaymail-stats",
+      "where": "Figures quoting EMGS",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.um.foundation",
+      "label": "Foundation year for international students (Universiti Malaya)",
+      "kind": "text",
+      "value": {
+        "text": "Universiti Malaya's application page lists a foundation application window for international applicants, from 3 to 23 August 2026, for its foundation in life sciences and in social sciences."
+      },
+      "status": "confirmed",
+      "source": "um-howto",
+      "where": "Application windows, foundation, international",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Its admission FAQ still says foundation programmes are for Malaysian students only, so ask Universiti Malaya."
+    },
+    {
+      "id": "uni.monash.diploma",
+      "label": "Diploma of Higher Education Studies (Monash University Malaysia)",
+      "kind": "text",
+      "value": {
+        "text": "One year of full-time study, starting in February, July or October, that qualifies students for the second year of a chosen Monash degree. 2027 tuition: RM49,440 a year in the non-science stream or RM55,680 in the science stream, plus 6% service tax."
+      },
+      "status": "confirmed",
+      "source": "monash-diploma",
+      "where": "Course overview, intakes and 2027 fees",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "The page gives no HSC entry score; it points to Monash's prior-study tool, so check your HSC there or ask Monash."
+    },
+    {
+      "id": "pass.evisaFee",
+      "label": "eVISA processing fee for Bangladeshi applicants",
+      "kind": "money",
+      "value": {
+        "amount": 105,
+        "currency": "MYR"
+      },
+      "status": "reported",
+      "source": "kln-dhaka-req",
+      "where": "Visa fees",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "The High Commission's page gives about BDT 2,500 and carries no date.",
+      "changesOften": true
+    }
+  ]
+}

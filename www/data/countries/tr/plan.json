@@ -1,0 +1,444 @@
+{
+  "format": 1,
+  "plan": "tr",
+  "title": "Türkiye",
+  "facts": [
+    "bd",
+    "tr"
+  ],
+  "cycles": "tr/uni.metu.window",
+  "start": {
+    "fact": "tr/term.metu.classes"
+  },
+  "routeOrder": [
+    {
+      "when": {
+        "aid": [
+          "need",
+          "help"
+        ]
+      },
+      "value": [
+        "tb",
+        "direct",
+        "directSat"
+      ]
+    },
+    {
+      "value": [
+        "direct",
+        "directSat",
+        "tb"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "tb",
+      "title": "Türkiye Bursları",
+      "text": "The government scholarship covers tuition, a monthly stipend, accommodation and health insurance, and places you at a university.",
+      "deadline": {
+        "fact": "tr/tb.window",
+        "part": "to"
+      }
+    },
+    {
+      "id": "direct",
+      "title": "Direct application",
+      "text": "You apply to each university yourself, with your school results. METU is the reference here.",
+      "deadline": {
+        "fact": "tr/uni.metu.window",
+        "part": "to"
+      }
+    },
+    {
+      "id": "directSat",
+      "title": "Direct application with the SAT or TR-YÖS",
+      "when": {
+        "satStatus": [
+          "none",
+          "booked",
+          "score"
+        ]
+      },
+      "text": "When your school results come too late, METU accepts the SAT, and Boğaziçi, ITU, Koç and Sabancı also accept TR-YÖS, which you can sit in Dhaka. The spring sitting is in April.",
+      "deadline": {
+        "fact": "tr/uni.metu.window",
+        "part": "to"
+      }
+    }
+  ],
+  "assumptions": {
+    "metuDate": {
+      "label": "Your application date",
+      "mode": "both",
+      "text": "Pathway plans for METU's date. Other universities set their own, so confirm each one."
+    },
+    "attestation": {
+      "label": "Attesting your certificate",
+      "amount": 4,
+      "unit": "weeks",
+      "mode": "both",
+      "text": "No official time is published for attestation by the Ministry of Education and the Ministry of Foreign Affairs, so Pathway allows up to 4 weeks."
+    },
+    "medical": {
+      "label": "The medical certificate",
+      "amount": 1,
+      "unit": "weeks",
+      "mode": "both",
+      "text": "No official time is published for the medical certificate with an HIV test, so Pathway allows up to 1 week."
+    },
+    "arriveSpare": {
+      "label": "Arriving before classes",
+      "amount": 7,
+      "unit": "days",
+      "mode": "planned",
+      "text": "Pathway plans to have you there a week before classes, for registration and orientation."
+    }
+  },
+  "asksSat": true,
+  "steps": [
+    {
+      "id": "tr.tbGraduate",
+      "title": "Finish school before August",
+      "stage": "results",
+      "kind": "wait",
+      "hard": true,
+      "when": {
+        "route": "tb"
+      },
+      "after": [
+        "school.exams"
+      ],
+      "deadline": {
+        "cycleDate": "07-31",
+        "yearOffset": 0
+      },
+      "text": "Türkiye Bursları asks you to graduate before August of the year you apply. If your HSC results come in August or September, ask Türkiye Bursları before you rely on this year.",
+      "facts": [
+        "tr/tb.graduation",
+        "tr/tb.ageLimit",
+        "tr/tb.minimumGrade"
+      ]
+    },
+    {
+      "id": "tr.tbApply",
+      "title": "Apply for Türkiye Bursları",
+      "stage": "apply",
+      "hard": true,
+      "when": {
+        "route": "tb"
+      },
+      "opens": {
+        "fact": "tr/tb.window",
+        "part": "from"
+      },
+      "deadline": {
+        "fact": "tr/tb.window",
+        "part": "to"
+      },
+      "text": "One application on turkiyeburslari.gov.tr covers the scholarship and your university place. You must be under 21.",
+      "tasks": [
+        "Apply on turkiyeburslari.gov.tr",
+        "Choose up to 12 programmes"
+      ],
+      "facts": [
+        "tr/tb.window",
+        "tr/tb.covers",
+        "tr/tb.choices",
+        "tr/tb.free",
+        "tr/tb.ageLimit",
+        "tr/tb.minimumGrade"
+      ]
+    },
+    {
+      "id": "tr.tbAfter",
+      "title": "Interviews, results and your visa",
+      "stage": "results",
+      "undated": true,
+      "when": {
+        "route": "tb"
+      },
+      "after": [
+        "tr.tbApply"
+      ],
+      "text": "Türkiye Bursları announces interviews and results itself. Interviews usually run from April to June and results come in early August, so Pathway shows them without exact dates.",
+      "facts": [
+        "tr/tb.timeline",
+        "tr/tb.covers"
+      ]
+    },
+    {
+      "id": "tr.apply",
+      "title": "Apply to METU and your other universities",
+      "stage": "apply",
+      "hard": true,
+      "when": {
+        "route": [
+          "direct",
+          "directSat"
+        ]
+      },
+      "after": [
+        "english.test",
+        {
+          "step": "school.results",
+          "when": {
+            "route": "direct",
+            "system": "hsc"
+          }
+        },
+        {
+          "step": "sat.test",
+          "when": {
+            "route": "directSat"
+          }
+        }
+      ],
+      "opens": {
+        "fact": "tr/uni.metu.window",
+        "part": "from"
+      },
+      "deadline": {
+        "fact": "tr/uni.metu.window",
+        "part": "to"
+      },
+      "planning": "metuDate",
+      "ownDate": true,
+      "text": "METU needs at least 90% success in your school-leaving certificate, or an exam such as the SAT. Meeting the minimum does not guarantee a place.",
+      "tasks": [
+        "Apply on METU's international student site",
+        "Pay the {money:tr/uni.metu.fee} fee",
+        "Check which English tests your universities accept: IELTS does not count at METU or ITU",
+        "Confirm each university's own deadline"
+      ],
+      "facts": [
+        "tr/uni.metu.window",
+        "tr/uni.metu.fee",
+        "tr/uni.metu.bangladesh",
+        "tr/uni.metu.scores",
+        "tr/uni.metu.english",
+        "tr/uni.itu.english"
+      ]
+    },
+    {
+      "id": "tr.tryos",
+      "title": "Sit TR-YÖS in the spring, if you choose it",
+      "stage": "test",
+      "kind": "event",
+      "optional": true,
+      "when": {
+        "route": "directSat"
+      },
+      "fixed": {
+        "fact": "tr/tryos.spring"
+      },
+      "text": "Boğaziçi, ITU, Koç and Sabancı accept TR-YÖS instead of the SAT, and it can be sat in Dhaka. If you take it, mark this step done.",
+      "facts": [
+        "tr/tryos.spring",
+        "tr/tryos.about",
+        "tr/tryos.fee"
+      ]
+    },
+    {
+      "id": "tr.decision",
+      "title": "Admission decisions arrive",
+      "stage": "results",
+      "kind": "wait",
+      "when": {
+        "route": [
+          "direct",
+          "directSat"
+        ]
+      },
+      "after": [
+        "tr.apply",
+        {
+          "step": "school.results",
+          "when": {
+            "system": "alevel"
+          }
+        }
+      ],
+      "fixed": {
+        "fact": "tr/uni.metu.decisions"
+      },
+      "text": "METU announces decisions gradually until mid-August. A level applicants whose results come later are decided when they arrive.",
+      "facts": [
+        "tr/uni.metu.decisions",
+        "tr/uni.metu.scores"
+      ]
+    },
+    {
+      "id": "tr.attest",
+      "title": "Attest your school-leaving certificate",
+      "stage": "permit",
+      "when": {
+        "route": [
+          "direct",
+          "directSat"
+        ]
+      },
+      "after": [
+        "school.results"
+      ],
+      "duration": {
+        "assumption": "attestation"
+      },
+      "text": "The visa needs a copy attested by Bangladesh's Ministry of Education and Ministry of Foreign Affairs. Your university will also need the equivalency certificate; ask it how to get one, and whether it needs an apostille.",
+      "facts": [
+        "tr/visa.documents",
+        "tr/visa.equivalency"
+      ],
+      "deadline": {
+        "step": "tr.decision"
+      }
+    },
+    {
+      "id": "tr.medical",
+      "title": "Get your medical certificate",
+      "stage": "permit",
+      "when": {
+        "route": [
+          "direct",
+          "directSat"
+        ]
+      },
+      "duration": {
+        "assumption": "medical"
+      },
+      "text": "It must come from a recognised hospital and include an HIV test.",
+      "facts": [
+        "tr/visa.documents"
+      ],
+      "deadline": {
+        "step": "tr.decision"
+      }
+    },
+    {
+      "id": "tr.funds",
+      "title": "Get your bank statements and solvency certificate",
+      "stage": "permit",
+      "when": {
+        "route": [
+          "direct",
+          "directSat"
+        ]
+      },
+      "text": "The embassy asks for one year of bank statements and a solvency certificate, all in English.",
+      "facts": [
+        "tr/visa.documents"
+      ],
+      "deadline": {
+        "step": "tr.decision"
+      }
+    },
+    {
+      "id": "tr.visa",
+      "title": "Get your student visa",
+      "stage": "permit",
+      "kind": "wait",
+      "when": {
+        "route": [
+          "direct",
+          "directSat"
+        ]
+      },
+      "after": [
+        "tr.decision",
+        "tr.attest",
+        "tr.medical",
+        "tr.funds",
+        "passport.get",
+        "passport.collect"
+      ],
+      "duration": {
+        "fact": "tr/visa.processing"
+      },
+      "text": "Once you have enrolled, book an appointment at Mosaic Visa in Banani, Dhaka, the only centre for Turkish visas in Bangladesh, no more than 90 days before you travel. Attend in person for biometrics and pay in cash.",
+      "tasks": [
+        "Enrol and ask your university to email your acceptance letter to the embassy",
+        "Book a Mosaic Visa appointment",
+        "Attend for biometrics",
+        "Ask your university about the equivalency certificate"
+      ],
+      "facts": [
+        "tr/visa.processing",
+        "tr/visa.centre",
+        "tr/visa.mosaicRules",
+        "tr/visa.mosaicFee",
+        "tr/visa.documents"
+      ],
+      "opens": {
+        "start": true,
+        "offset": {
+          "amount": -90,
+          "unit": "days"
+        }
+      },
+      "warnLate": "Your visa may not arrive before classes. Ask your university what happens if you arrive late."
+    },
+    {
+      "id": "tr.arrive",
+      "title": "Travel to Türkiye",
+      "stage": "arrive",
+      "hard": true,
+      "when": {
+        "route": [
+          "direct",
+          "directSat"
+        ]
+      },
+      "after": [
+        "tr.decision",
+        {
+          "step": "tr.visa",
+          "soft": true
+        },
+        "school.exams"
+      ],
+      "deadline": {
+        "start": true
+      },
+      "spare": {
+        "assumption": "arriveSpare"
+      },
+      "text": "Classes begin on the date shown. Registration and orientation come in the days before.",
+      "facts": [
+        "tr/term.metu.classes"
+      ]
+    },
+    {
+      "id": "tr.health",
+      "title": "Apply for state health insurance within 3 months",
+      "stage": "arrive",
+      "hard": true,
+      "when": {
+        "route": [
+          "direct",
+          "directSat"
+        ]
+      },
+      "after": [
+        "tr.arrive"
+      ],
+      "deadline": {
+        "start": true,
+        "offset": {
+          "amount": 3,
+          "unit": "calendarMonths"
+        }
+      },
+      "text": "International students can join Türkiye's general health insurance only within three months of the start of the academic year. Missing it cannot be undone for the whole degree.",
+      "facts": [
+        "tr/arrive.healthInsurance",
+        "tr/arrive.gssCost"
+      ]
+    }
+  ],
+  "shaping": {
+    "tierReach": "Your universities are mostly very competitive. Pathway suggests applying to several universities directly as well as to Türkiye Bursları, so no single decision decides everything.",
+    "tierBalanced": "Your universities are a balanced mix. Pathway suggests applying to several universities directly as well as to Türkiye Bursları, so no single decision decides everything.",
+    "tierSafe": "Your universities are mostly less competitive. Pathway suggests applying to several universities directly as well as to Türkiye Bursları, so no single decision decides everything."
+  }
+}

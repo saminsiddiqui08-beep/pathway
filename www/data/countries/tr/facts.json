@@ -1,0 +1,2118 @@
+{
+  "format": 1,
+  "file": "countries/tr",
+  "title": "Facts for Türkiye",
+  "checked": "2026-10-02",
+  "sources": {
+    "metu-dates": {
+      "title": "International student applications, 2026-2027",
+      "publisher": "METU International Students Office",
+      "url": "https://iso.metu.edu.tr/en/node/335",
+      "official": true
+    },
+    "metu-closed": {
+      "title": "2026-2027 undergraduate admissions: application period closed",
+      "publisher": "METU International Students Office",
+      "url": "https://iso.metu.edu.tr/en/node/382",
+      "official": true
+    },
+    "metu-faq": {
+      "title": "Frequently asked questions",
+      "publisher": "METU International Students Office",
+      "url": "https://iso.metu.edu.tr/en/node/33",
+      "official": true
+    },
+    "metu-calendar": {
+      "title": "METU Ankara and Erdemli Campuses 2026-2027 Academic Year Calendar",
+      "publisher": "METU Registrar's Office",
+      "url": "https://oidb.metu.edu.tr/en/metu-ankara-and-erdemli-campuses-2026-2027-academic-year-calendar",
+      "official": true
+    },
+    "qs-2027": {
+      "title": "QS World University Rankings 2027",
+      "publisher": "QS Quacquarelli Symonds",
+      "url": "https://www.topuniversities.com/world-university-rankings",
+      "official": false
+    },
+    "yok-qs": {
+      "title": "Turkish universities rank among the world's best (18 June 2026)",
+      "publisher": "Council of Higher Education (YÖK)",
+      "url": "https://uluslararasi.yok.gov.tr/en/news-detail/264",
+      "official": true
+    },
+    "tb-programs": {
+      "title": "Full-time programmes",
+      "publisher": "Türkiye Scholarships (YTB, Government of Türkiye)",
+      "url": "https://www.turkiyeburslari.gov.tr/fulltimeprograms",
+      "official": true
+    },
+    "tb-eligibility": {
+      "title": "Scholarship programmes: eligibility",
+      "publisher": "Türkiye Scholarships (YTB, Government of Türkiye)",
+      "url": "https://www.turkiyeburslari.gov.tr/scholarshipsprograms",
+      "official": true
+    },
+    "tb-calendar": {
+      "title": "Application calendar",
+      "publisher": "Türkiye Scholarships (YTB, Government of Türkiye)",
+      "url": "https://www.turkiyeburslari.gov.tr/calendar",
+      "official": true
+    },
+    "tb-steps": {
+      "title": "Application steps",
+      "publisher": "Türkiye Scholarships (YTB, Government of Türkiye)",
+      "url": "https://www.turkiyeburslari.gov.tr/applysteps",
+      "official": true
+    },
+    "tb-selection": {
+      "title": "Evaluation and selection process",
+      "publisher": "Türkiye Scholarships (YTB, Government of Türkiye)",
+      "url": "https://www.turkiyeburslari.gov.tr/evaluationandselectionprocess",
+      "official": true
+    },
+    "tb-howto": {
+      "title": "How to apply for Türkiye Scholarships online",
+      "publisher": "Türkiye Scholarships (YTB, Government of Türkiye)",
+      "url": "https://www.turkiyeburslari.gov.tr/sayfa/how-to-apply-for-turkiye-scholarships-for-international-students-online-104",
+      "official": true
+    },
+    "tb-archive": {
+      "title": "How to apply (archived guide)",
+      "publisher": "Türkiye Scholarships (YTB, Government of Türkiye)",
+      "url": "https://arsiv.turkiyeburslari.gov.tr/en/page/prospective-students/how-to-apply",
+      "official": true
+    },
+    "metu-reqs-pdf": {
+      "title": "Minimum requirements for international applicants",
+      "publisher": "METU International Students Office",
+      "url": "https://iso.metu.edu.tr/en/system/files/odtu_iso_requirements.pdf",
+      "official": true
+    },
+    "metu-fees": {
+      "title": "Tuition fees for international students, 2026 to 2027",
+      "publisher": "METU International Students Office",
+      "url": "https://iso.metu.edu.tr/en/system/files/2026-2027_tuition_fees_14092026.pdf",
+      "official": true
+    },
+    "metu-english": {
+      "title": "Equivalence table of English language exams recognised by METU",
+      "publisher": "METU Registrar's Office",
+      "url": "https://oidb.metu.edu.tr/en/equivalence-table-english-language-exams-recognized-metu-undergraduate-and-graduate-students",
+      "official": true
+    },
+    "metu-cost": {
+      "title": "Cost of living",
+      "publisher": "METU International Students Office",
+      "url": "https://iso.metu.edu.tr/en/cost-living",
+      "official": true
+    },
+    "metu-residence": {
+      "title": "Residence permit",
+      "publisher": "METU International Students Office",
+      "url": "https://iso.metu.edu.tr/en/residence-permit",
+      "official": true
+    },
+    "metu-gss": {
+      "title": "General health insurance",
+      "publisher": "METU International Students Office",
+      "url": "https://iso.metu.edu.tr/en/node/86",
+      "official": true
+    },
+    "metu-work": {
+      "title": "Working in Türkiye as an international student",
+      "publisher": "METU International Students Office",
+      "url": "https://iso.metu.edu.tr/en/node/261",
+      "official": true
+    },
+    "boun-reqs": {
+      "title": "Admission of international students: required documents",
+      "publisher": "Boğaziçi University",
+      "url": "https://intl.bogazici.edu.tr/admission-international-students-undergraduate-programs-required-documents",
+      "official": true
+    },
+    "boun-fees": {
+      "title": "Tuition: undergraduate and graduate degree programmes",
+      "publisher": "Boğaziçi University",
+      "url": "https://intl.bogazici.edu.tr/tuition-undergraduate-and-graduate-degree-programs",
+      "official": true
+    },
+    "boun-english": {
+      "title": "English language proficiency",
+      "publisher": "Boğaziçi University",
+      "url": "https://intl.bogazici.edu.tr/english-language-proficiency",
+      "official": true
+    },
+    "bilkent-apply": {
+      "title": "How to apply",
+      "publisher": "Bilkent University",
+      "url": "https://w3.bilkent.edu.tr/international/how-to-apply",
+      "official": true
+    },
+    "bilkent-minimums": {
+      "title": "Minimum scores in national and international exams",
+      "publisher": "Bilkent University",
+      "url": "https://w3.bilkent.edu.tr/form/Ulusal_ve_Uluslararasi_Sinavlarda_Aranan_Asgari_Puanlar.pdf",
+      "official": true
+    },
+    "bilkent-fees": {
+      "title": "Tuition fees for international and other students",
+      "publisher": "Bilkent University",
+      "url": "https://w3.bilkent.edu.tr/bilkent/international-and-other-students-tuition-fees/",
+      "official": true
+    },
+    "bilkent-aid": {
+      "title": "Scholarships for international students",
+      "publisher": "Bilkent University",
+      "url": "https://w3.bilkent.edu.tr/international/scholarships-for-international-students/",
+      "official": true
+    },
+    "bilkent-english": {
+      "title": "English language proficiency",
+      "publisher": "Bilkent University",
+      "url": "https://w3.bilkent.edu.tr/international/english-language-proficiency/",
+      "official": true
+    },
+    "koc-fees": {
+      "title": "Tuition and scholarships",
+      "publisher": "Koç University",
+      "url": "https://international.ku.edu.tr/undergraduate-programs/tuition-and-scholarships",
+      "official": true
+    },
+    "koc-apply": {
+      "title": "How to apply",
+      "publisher": "Koç University",
+      "url": "https://international.ku.edu.tr/undergraduate-programs/how-to-apply/",
+      "official": true
+    },
+    "sabanci-apply": {
+      "title": "Application requirements",
+      "publisher": "Sabancı University",
+      "url": "https://iro.sabanciuniv.edu/en/application-requirements",
+      "official": true
+    },
+    "sabanci-exams": {
+      "title": "Required exam and diploma list",
+      "publisher": "Sabancı University",
+      "url": "https://iro.sabanciuniv.edu/en/required-examdiploma-list",
+      "official": true
+    },
+    "sabanci-fees": {
+      "title": "Tuition fee",
+      "publisher": "Sabancı University",
+      "url": "https://iro.sabanciuniv.edu/en/tuition-fee",
+      "official": true
+    },
+    "sabanci-aid": {
+      "title": "Tuition fees and scholarships: questions",
+      "publisher": "Sabancı University",
+      "url": "https://iro.sabanciuniv.edu/en/faqnew/tuition-fees-and-scholarships",
+      "official": true
+    },
+    "itu-round2": {
+      "title": "Second round application for international undergraduate programmes, 2026 to 2027",
+      "publisher": "Istanbul Technical University",
+      "url": "https://www.sis.itu.edu.tr/duyuru_ekler/yabanci/202711/EN/202711.php",
+      "official": true
+    },
+    "itu-exams": {
+      "title": "Valid exam results",
+      "publisher": "Istanbul Technical University",
+      "url": "https://www.sis.itu.edu.tr/EN/regulations/valid-exam-results.php",
+      "official": true
+    },
+    "itu-fees": {
+      "title": "Tuition fees for students admitted through the international student quota, 2026 to 2027",
+      "publisher": "Istanbul Technical University",
+      "url": "https://www.sis.itu.edu.tr/EN/student/tuition-fee/fees/20271020/tutionfees.php",
+      "official": true
+    },
+    "itu-english": {
+      "title": "Valid English tests and minimum scores",
+      "publisher": "Istanbul Technical University",
+      "url": "https://www.sis.itu.edu.tr/EN/regulations/valid-english-tests-and-minimum-scores.php",
+      "official": true
+    },
+    "osym-tryos": {
+      "title": "2026 TR-YÖS/2 applicant guide",
+      "publisher": "Measuring, Selection and Placement Centre (ÖSYM)",
+      "url": "https://dokuman.osym.gov.tr/pdfdokuman/2026/TR-YOS-2/ingkilavuz_04072026.pdf",
+      "official": true
+    },
+    "tr-emb-mosaic": {
+      "title": "Visa application centre announcement (2 February 2026)",
+      "publisher": "Embassy of the Republic of Türkiye in Dhaka",
+      "url": "https://dhaka-emb.mfa.gov.tr/Mission/ShowAnnouncement/418402",
+      "official": true
+    },
+    "tr-emb-education": {
+      "title": "Education visa (25 June 2019)",
+      "publisher": "Embassy of the Republic of Türkiye in Dhaka",
+      "url": "https://dhaka-emb.mfa.gov.tr/Mission/ShowInfoNote/359629",
+      "official": true
+    },
+    "mosaic-home": {
+      "title": "Mosaic Visa Bangladesh",
+      "publisher": "Mosaic Visa, Türkiye's visa application centre in Bangladesh",
+      "url": "https://mosaicvisa.com/dhaka?lang=en",
+      "official": false
+    },
+    "mosaic-docs": {
+      "title": "Required documents",
+      "publisher": "Mosaic Visa, Türkiye's visa application centre in Bangladesh",
+      "url": "https://mosaicvisa.com/dhaka/visa-required-documents.php",
+      "official": false
+    },
+    "mfa-visa": {
+      "title": "Visa information for foreigners",
+      "publisher": "Ministry of Foreign Affairs of Türkiye",
+      "url": "https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa",
+      "official": true
+    },
+    "omu-denklik": {
+      "title": "What is the equivalency certificate?",
+      "publisher": "Ondokuz Mayıs University International Students Office",
+      "url": "https://iso.omu.edu.tr/en/kurumsal/denklik-belgesi-nedir",
+      "official": true
+    },
+    "metu-ielts": {
+      "title": "English proficiency for international applicants",
+      "publisher": "METU International Students Office",
+      "url": "https://iso.metu.edu.tr/en/node/47",
+      "official": true
+    },
+    "itu-residence": {
+      "title": "Residence permit",
+      "publisher": "Istanbul Technical University",
+      "url": "https://www.sis.itu.edu.tr/EN/student/intenational-students/residence-permit.php",
+      "official": true
+    },
+    "uskudar-denklik": {
+      "title": "Equivalency Certificate (YÖK)",
+      "publisher": "Üsküdar University International Office",
+      "url": "https://international.uskudar.edu.tr/en/equivalency-certificate-yok",
+      "official": true
+    },
+    "eurydice-tr": {
+      "title": "Türkiye: bachelor (last updated 16 May 2025)",
+      "publisher": "Eurydice, European Commission",
+      "url": "https://eurydice.eacea.ec.europa.eu/national-education-systems/turkiye/bachelor",
+      "official": true
+    },
+    "yok-principles": {
+      "title": "Principles for admitting students from abroad (31 July 2026)",
+      "publisher": "Council of Higher Education (YÖK)",
+      "url": "https://egitim.yok.gov.tr/documentFiles/1785504758945.2026%20YURTDI%C5%9EINDAN%20%C3%96%C4%9ERENC%C4%B0%20KABUL%C3%9CNE%20%C4%B0L%C4%B0%C5%9EK%C4%B0N%20ESASLAR-31.07.2026%20YK.pdf",
+      "official": true
+    },
+    "metu-about": {
+      "title": "About METU",
+      "publisher": "Middle East Technical University",
+      "url": "https://www.metu.edu.tr/node/899",
+      "official": true
+    },
+    "boun-about": {
+      "title": "The University",
+      "publisher": "Boğaziçi University",
+      "url": "https://bogazici.edu.tr/en/pages/the-university/567",
+      "official": true
+    },
+    "bilkent-catalog": {
+      "title": "Admission, transfer students and registration",
+      "publisher": "Bilkent University",
+      "url": "https://catalog.bilkent.edu.tr/general/admission.html",
+      "official": true
+    },
+    "koc-elc": {
+      "title": "English Language Center",
+      "publisher": "Koç University",
+      "url": "https://www.ku.edu.tr/en/english-language-center",
+      "official": true
+    },
+    "sabanci-languages": {
+      "title": "School of Languages",
+      "publisher": "Sabancı University",
+      "url": "https://www.sabanciuniv.edu/en/school-languages",
+      "official": true
+    },
+    "eikamet-docs": {
+      "title": "Student residence permit: required documents",
+      "publisher": "Presidency of Migration Management",
+      "url": "https://e-ikamet.goc.gov.tr/Ikamet/BasvuruIstenenBelgeler/BasvuruFormuIstenenBelgeler?tur=5",
+      "official": true
+    },
+    "ankara-gss": {
+      "title": "Important announcement: health insurance (25 September 2025)",
+      "publisher": "Ankara University International Students Office",
+      "url": "https://iso.ankara.edu.tr/2025/09/25/onemli-duyuru-saglik-sigortasi-important-announcement-health-insurance/",
+      "official": true
+    },
+    "osym-tryos1-guide": {
+      "title": "2026 TR-YÖS/1 applicant guide",
+      "publisher": "Measuring, Selection and Placement Centre (ÖSYM)",
+      "url": "https://dokuman.osym.gov.tr/pdfdokuman/2026/TR-YOS-1/bkilavuz_db14012026.pdf",
+      "official": true
+    },
+    "mosaic-howto": {
+      "title": "How to apply",
+      "publisher": "Mosaic Visa, Türkiye's visa application centre in Bangladesh",
+      "url": "https://mosaicvisa.com/dhaka/visa-how-to-apply.php",
+      "official": false
+    },
+    "mosaic-fees": {
+      "title": "General visa service charges",
+      "publisher": "Mosaic Visa, Türkiye's visa application centre in Bangladesh",
+      "url": "https://mosaicvisa.com/dhaka/general-visa-service-charges.php",
+      "official": false
+    },
+    "sabanci-scholarships": {
+      "title": "Scholarships",
+      "publisher": "Sabancı University",
+      "url": "https://iro.sabanciuniv.edu/en/scholarships",
+      "official": true
+    }
+  },
+  "facts": [
+    {
+      "id": "tb.window",
+      "label": "Türkiye Bursları application window",
+      "kind": "window",
+      "keyedBy": "cycle",
+      "values": [
+        {
+          "key": "2026",
+          "value": {
+            "from": "2026-01-10",
+            "to": "2026-02-20"
+          },
+          "status": "confirmed",
+          "source": "tb-programs",
+          "where": "Application period",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "YTB gives 10 January to 20 February as the application period every year. Checked again when each year's call is announced."
+        },
+        {
+          "key": "2027",
+          "value": {
+            "from": "2027-01-10",
+            "to": "2027-02-20"
+          },
+          "status": "confirmed",
+          "source": "tb-programs",
+          "where": "Application period",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "YTB gives 10 January to 20 February as the application period every year. Checked again when each year's call is announced."
+        },
+        {
+          "key": "2028",
+          "value": {
+            "from": "2028-01-10",
+            "to": "2028-02-20"
+          },
+          "status": "confirmed",
+          "source": "tb-programs",
+          "where": "Application period",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "YTB gives 10 January to 20 February as the application period every year. Checked again when each year's call is announced."
+        },
+        {
+          "key": "2029",
+          "value": {
+            "from": "2029-01-10",
+            "to": "2029-02-20"
+          },
+          "status": "confirmed",
+          "source": "tb-programs",
+          "where": "Application period",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "YTB gives 10 January to 20 February as the application period every year. Checked again when each year's call is announced."
+        },
+        {
+          "key": "2030",
+          "value": {
+            "from": "2030-01-10",
+            "to": "2030-02-20"
+          },
+          "status": "confirmed",
+          "source": "tb-programs",
+          "where": "Application period",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "YTB gives 10 January to 20 February as the application period every year. Checked again when each year's call is announced."
+        },
+        {
+          "key": "2031",
+          "value": {
+            "from": "2031-01-10",
+            "to": "2031-02-20"
+          },
+          "status": "confirmed",
+          "source": "tb-programs",
+          "where": "Application period",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "YTB gives 10 January to 20 February as the application period every year. Checked again when each year's call is announced."
+        },
+        {
+          "key": "2032",
+          "value": {
+            "from": "2032-01-10",
+            "to": "2032-02-20"
+          },
+          "status": "confirmed",
+          "source": "tb-programs",
+          "where": "Application period",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "YTB gives 10 January to 20 February as the application period every year. Checked again when each year's call is announced."
+        }
+      ]
+    },
+    {
+      "id": "tb.covers",
+      "label": "What Türkiye Bursları covers",
+      "kind": "text",
+      "value": {
+        "text": "Tuition, a monthly stipend, accommodation, health insurance, a one-year Turkish language course, a flight ticket at the start and at the end of the degree, and placement at a university and programme."
+      },
+      "status": "confirmed",
+      "source": "tb-programs",
+      "where": "Section: scholarship coverage",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "tb.ageLimit",
+      "label": "Türkiye Bursları: age limit for bachelor's applicants",
+      "kind": "text",
+      "value": {
+        "text": "Applicants must be under 21."
+      },
+      "status": "confirmed",
+      "source": "tb-eligibility",
+      "where": "Eligibility for associate and bachelor's degree programmes",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "tb.minimumGrade",
+      "label": "Türkiye Bursları: minimum academic achievement for bachelor's applicants",
+      "kind": "text",
+      "value": {
+        "text": "At least 70%, or 90% for medicine, dentistry and pharmacy."
+      },
+      "status": "confirmed",
+      "source": "tb-eligibility",
+      "where": "Eligibility for associate and bachelor's degree programmes",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "tb.graduation",
+      "label": "Türkiye Bursları: when applicants must graduate",
+      "kind": "text",
+      "value": {
+        "text": "Graduates, or those who will graduate at the end of the current academic year, before August."
+      },
+      "status": "confirmed",
+      "source": "tb-eligibility",
+      "where": "General eligibility",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "HSC exams that end in July with results in August or September may not meet this, so the plan checks the student's HSC year, and students in that position should ask YTB before relying on it."
+    },
+    {
+      "id": "uni.metu.window",
+      "label": "METU international undergraduate applications",
+      "kind": "window",
+      "keyedBy": "cycle",
+      "values": [
+        {
+          "key": "2026",
+          "value": {
+            "from": "2026-06-01",
+            "to": "2026-07-12"
+          },
+          "status": "confirmed",
+          "source": "metu-dates",
+          "where": "First paragraph",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Opens 16:00 and closes 23:59 Turkish time. METU's FAQ says international undergraduates are admitted once a year, for the autumn semester only."
+        },
+        {
+          "key": "2027",
+          "value": {
+            "from": "2027-06-01",
+            "to": "2027-07-12"
+          },
+          "status": "expected",
+          "source": "metu-dates",
+          "where": "First paragraph",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "Expected to match 2026. METU announces exact dates on its site."
+        },
+        {
+          "key": "2028",
+          "value": {
+            "from": "2028-06",
+            "to": "2028-07"
+          },
+          "status": "expected",
+          "source": "metu-dates",
+          "where": "First paragraph",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "Expected in June and July. Month only."
+        },
+        {
+          "key": "2029",
+          "value": {
+            "from": "2029-06",
+            "to": "2029-07"
+          },
+          "status": "expected",
+          "source": "metu-dates",
+          "where": "First paragraph",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "Expected in June and July. Month only."
+        },
+        {
+          "key": "2030",
+          "value": {
+            "from": "2030-06",
+            "to": "2030-07"
+          },
+          "status": "expected",
+          "source": "metu-dates",
+          "where": "First paragraph",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "Expected in June and July. Month only."
+        },
+        {
+          "key": "2031",
+          "value": {
+            "from": "2031-06",
+            "to": "2031-07"
+          },
+          "status": "expected",
+          "source": "metu-dates",
+          "where": "First paragraph",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in June and July. Month only."
+        },
+        {
+          "key": "2032",
+          "value": {
+            "from": "2032-06",
+            "to": "2032-07"
+          },
+          "status": "expected",
+          "source": "metu-dates",
+          "where": "First paragraph",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in June and July. Month only."
+        }
+      ]
+    },
+    {
+      "id": "uni.metu.decisions",
+      "label": "METU admission decisions complete",
+      "kind": "date",
+      "keyedBy": "cycle",
+      "values": [
+        {
+          "key": "2026",
+          "value": {
+            "date": "2026-08-15"
+          },
+          "status": "confirmed",
+          "source": "metu-closed",
+          "where": "Announcement after the application period",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "Decisions are announced gradually until this date."
+        },
+        {
+          "key": "2027",
+          "value": {
+            "date": "2027-08-15"
+          },
+          "status": "expected",
+          "source": "metu-closed",
+          "where": "Announcement",
+          "checked": "2026-10-03",
+          "verified": "2026-10-03",
+          "note": "Expected by 15 August, the date METU used in 2026."
+        },
+        {
+          "key": "2028",
+          "value": {
+            "date": "2028-08"
+          },
+          "status": "expected",
+          "source": "metu-closed",
+          "where": "Announcement",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "Expected by mid-August."
+        },
+        {
+          "key": "2029",
+          "value": {
+            "date": "2029-08"
+          },
+          "status": "expected",
+          "source": "metu-closed",
+          "where": "Announcement",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "Expected by mid-August."
+        },
+        {
+          "key": "2030",
+          "value": {
+            "date": "2030-08"
+          },
+          "status": "expected",
+          "source": "metu-closed",
+          "where": "Announcement",
+          "checked": "2026-10-02",
+          "verified": "2026-10-02",
+          "note": "Expected by mid-August."
+        },
+        {
+          "key": "2031",
+          "value": {
+            "date": "2031-08"
+          },
+          "status": "expected",
+          "source": "metu-closed",
+          "where": "Announcement",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected by mid-August."
+        },
+        {
+          "key": "2032",
+          "value": {
+            "date": "2032-08"
+          },
+          "status": "expected",
+          "source": "metu-closed",
+          "where": "Announcement",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected by mid-August."
+        }
+      ]
+    },
+    {
+      "id": "term.metu.classes",
+      "label": "Classes begin (METU)",
+      "kind": "date",
+      "keyedBy": "cycle",
+      "values": [
+        {
+          "key": "2026",
+          "value": {
+            "date": "2026-09-28"
+          },
+          "status": "confirmed",
+          "source": "metu-calendar",
+          "where": "Fall semester: Classes Begin, 28 September 2026",
+          "checked": "2026-10-03",
+          "verified": "2026-10-03",
+          "note": "Newly admitted undergraduates had orientation on 24 and 25 September 2026. International students admitted to undergraduate programmes sit METU's English Proficiency Exam in Ankara on 8 and 9 September 2026, unless an accepted outside score exempts them."
+        },
+        {
+          "key": "2027",
+          "value": {
+            "date": "2027-09-27"
+          },
+          "status": "confirmed",
+          "source": "metu-calendar",
+          "where": "Last row of the calendar: Classes Begin, 27 September 2027",
+          "checked": "2026-10-03",
+          "verified": "2026-10-03",
+          "note": "Course registration runs from 22 to 24 September 2027. The orientation and English exam dates for 2027 are not published yet."
+        },
+        {
+          "key": "2028",
+          "value": {
+            "date": "2028-09"
+          },
+          "status": "expected",
+          "source": "metu-calendar",
+          "where": "Fall semester: Classes Begin",
+          "checked": "2026-10-03",
+          "verified": "2026-10-03",
+          "note": "Expected in late September or early October, as on 2 October 2023, 28 September 2026 and 27 September 2027. Month only."
+        },
+        {
+          "key": "2029",
+          "value": {
+            "date": "2029-09"
+          },
+          "status": "expected",
+          "source": "metu-calendar",
+          "where": "Fall semester: Classes Begin",
+          "checked": "2026-10-03",
+          "verified": "2026-10-03",
+          "note": "Expected in late September or early October, as on 2 October 2023, 28 September 2026 and 27 September 2027. Month only."
+        },
+        {
+          "key": "2030",
+          "value": {
+            "date": "2030-09"
+          },
+          "status": "expected",
+          "source": "metu-calendar",
+          "where": "Fall semester: Classes Begin",
+          "checked": "2026-10-03",
+          "verified": "2026-10-03",
+          "note": "Expected in late September or early October, as on 2 October 2023, 28 September 2026 and 27 September 2027. Month only."
+        },
+        {
+          "key": "2031",
+          "value": {
+            "date": "2031-09"
+          },
+          "status": "expected",
+          "source": "metu-calendar",
+          "where": "Fall semester: Classes Begin",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in late September or early October, as on 2 October 2023, 28 September 2026 and 27 September 2027. Month only."
+        },
+        {
+          "key": "2032",
+          "value": {
+            "date": "2032-09"
+          },
+          "status": "expected",
+          "source": "metu-calendar",
+          "where": "Fall semester: Classes Begin",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in late September or early October, as on 2 October 2023, 28 September 2026 and 27 September 2027. Month only."
+        }
+      ]
+    },
+    {
+      "id": "uni.metu.fee",
+      "label": "METU application fee",
+      "kind": "money",
+      "value": {
+        "amount": 55,
+        "currency": "USD"
+      },
+      "status": "confirmed",
+      "source": "metu-faq",
+      "where": "During Application: application fee",
+      "checked": "2026-10-02",
+      "verified": "2026-10-02",
+      "note": ""
+    },
+    {
+      "id": "uni.metu.scores",
+      "label": "What METU accepts for admission",
+      "kind": "text",
+      "value": {
+        "text": "A national exam or diploma score can be used if it meets METU's minimum; otherwise an exam such as the SAT. A level applicants whose results come after the deadline receive an admission deferral and are decided when final results arrive in August."
+      },
+      "status": "confirmed",
+      "source": "metu-faq",
+      "where": "Before Application, and the note to A level applicants on the dates page",
+      "checked": "2026-10-02",
+      "verified": "2026-10-02",
+      "note": ""
+    },
+    {
+      "id": "uni.metu.bangladesh",
+      "label": "Minimum requirement for Bangladeshi applicants (METU)",
+      "kind": "text",
+      "value": {
+        "text": "At least 90% success in a school-leaving certificate that allows entry to a 4-year undergraduate programme. Meeting the minimum does not guarantee admission."
+      },
+      "status": "confirmed",
+      "source": "metu-reqs-pdf",
+      "where": "Category C countries",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "METU's sheet was last updated on 5 January 2024. It does not say how an HSC GPA out of 5 converts to a percentage, so the plan shows the rule as written."
+    },
+    {
+      "id": "visa.documents",
+      "label": "Turkish student visa: documents (Embassy in Dhaka)",
+      "kind": "text",
+      "value": {
+        "text": "Apply only after enrolling. The visa is single-entry and generally valid for six months. Needed: a passport valid for one year, two photographs, the acceptance letter emailed by the university to the embassy, a copy of the diploma attested by Bangladesh's Ministry of Education and Ministry of Foreign Affairs, exam results if taken, a medical certificate from a recognised hospital including an HIV test, travel insurance, and one year of bank statements with a solvency certificate. All documents in English."
+      },
+      "status": "reported",
+      "source": "tr-emb-education",
+      "where": "Information regarding education visa, items 1 to 8",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "The embassy's education visa page is dated 25 June 2019 and is still its newest. Mosaic Visa's 2026 lists also ask for 3 biometric photos, a copy of your national ID or birth certificate, and travel health insurance bought through Mosaic. Confirm the list with Mosaic Visa."
+    },
+    {
+      "id": "visa.process",
+      "label": "Turkish student visa from Bangladesh",
+      "kind": "text",
+      "value": {
+        "text": "Applications are by appointment only, booked on Mosaic Visa's website."
+      },
+      "status": "reported",
+      "source": "mosaic-howto",
+      "where": "How to apply",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Mosaic Visa is the centre named by the embassy. It lists no separate fee or document list for student visas, so confirm both with Mosaic."
+    },
+    {
+      "id": "visa.processing",
+      "label": "Turkish student visa processing time",
+      "kind": "duration",
+      "value": {
+        "max": 45,
+        "unit": "days"
+      },
+      "status": "reported",
+      "source": "mosaic-home",
+      "where": "Processing time",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Mosaic Visa says processing may take up to 45 days, and that a submitted application cannot be withdrawn until a decision is made. The plan uses the full 45. Kept as one published figure, not as observed waits.",
+      "changesOften": true
+    },
+    {
+      "id": "uni.itu.qsRank",
+      "label": "QS World University Rankings 2027 position (Istanbul Technical University)",
+      "kind": "number",
+      "value": {
+        "number": 279
+      },
+      "status": "reported",
+      "source": "qs-2027",
+      "where": "University page: topuniversities.com/universities/istanbul-technical-university",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Shared with another university, shown by QS as =279."
+    },
+    {
+      "id": "uni.metu.qsRank",
+      "label": "QS World University Rankings 2027 position (METU)",
+      "kind": "number",
+      "value": {
+        "number": 305
+      },
+      "status": "reported",
+      "source": "qs-2027",
+      "where": "University page: topuniversities.com/universities/middle-east-technical-university",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.koc.qsRank",
+      "label": "QS World University Rankings 2027 position (Koç)",
+      "kind": "number",
+      "value": {
+        "number": 329
+      },
+      "status": "reported",
+      "source": "qs-2027",
+      "where": "University page: topuniversities.com/universities/koc-university",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Shared with another university, shown by QS as =329."
+    },
+    {
+      "id": "uni.bogazici.qsRank",
+      "label": "QS World University Rankings 2027 position (Boğaziçi)",
+      "kind": "number",
+      "value": {
+        "number": 345
+      },
+      "status": "reported",
+      "source": "qs-2027",
+      "where": "University page: topuniversities.com/universities/bogazici-universitesi",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Shared with another university, shown by QS as =345."
+    },
+    {
+      "id": "uni.sabanci.qsRank",
+      "label": "QS World University Rankings 2027 position (Sabancı)",
+      "kind": "number",
+      "value": {
+        "number": 357
+      },
+      "status": "reported",
+      "source": "qs-2027",
+      "where": "University page: topuniversities.com/universities/sabanci-university",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Shared with another university, shown by QS as =357."
+    },
+    {
+      "id": "uni.bilkent.qsRank",
+      "label": "QS World University Rankings 2027 position (Bilkent)",
+      "kind": "number",
+      "value": {
+        "number": 454
+      },
+      "status": "reported",
+      "source": "qs-2027",
+      "where": "University page: topuniversities.com/universities/bilkent-university",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Shared with another university, shown by QS as =454."
+    },
+    {
+      "id": "uni.hacettepe.qsRank",
+      "label": "QS World University Rankings 2027 position (Hacettepe)",
+      "kind": "number",
+      "value": {
+        "number": 570
+      },
+      "status": "reported",
+      "source": "qs-2027",
+      "where": "University page: topuniversities.com/universities/hacettepe-university",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Shared with another university, shown by QS as =570."
+    },
+    {
+      "id": "uni.istanbul.qsRank",
+      "label": "QS World University Rankings 2027 position (Istanbul University)",
+      "kind": "number",
+      "value": {
+        "number": 629
+      },
+      "status": "reported",
+      "source": "qs-2027",
+      "where": "University page: topuniversities.com/node/294202",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Shared with another university, shown by QS as =629."
+    },
+    {
+      "id": "uni.yildiz.qsRank",
+      "label": "QS World University Rankings 2027 position (Yıldız Technical University)",
+      "kind": "number",
+      "value": {
+        "number": 634
+      },
+      "status": "reported",
+      "source": "qs-2027",
+      "where": "University page: topuniversities.com/universities/yildiz-technical-university",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Shared with another university, shown by QS as =634."
+    },
+    {
+      "id": "system.length",
+      "label": "Length of a bachelor's degree in Türkiye",
+      "kind": "text",
+      "value": {
+        "text": "At least eight semesters, four years and 240 ECTS credits. Some programmes take five or six years. A foreign-language preparatory year, of up to two years, does not count towards this."
+      },
+      "status": "confirmed",
+      "source": "eurydice-tr",
+      "where": "Sections on programme length and the preparatory class",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "system.stateFees",
+      "label": "Tuition fees for students from abroad",
+      "kind": "text",
+      "value": {
+        "text": "At state universities, the lowest and highest yearly fees for students admitted from abroad are set by presidential decision. Foundation universities set their own fees."
+      },
+      "status": "confirmed",
+      "source": "yok-principles",
+      "where": "Article on fees",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "The principles are in Turkish; this is a translation of the fee rule."
+    },
+    {
+      "id": "uni.metu.language",
+      "label": "Language of instruction (METU)",
+      "kind": "text",
+      "value": {
+        "text": "Teaching is in English."
+      },
+      "status": "confirmed",
+      "source": "metu-about",
+      "where": "About page",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.bogazici.language",
+      "label": "Language of instruction (Boğaziçi)",
+      "kind": "text",
+      "value": {
+        "text": "Teaching is in English."
+      },
+      "status": "confirmed",
+      "source": "boun-about",
+      "where": "The University page",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.bilkent.language",
+      "label": "Language of instruction (Bilkent)",
+      "kind": "text",
+      "value": {
+        "text": "Teaching is in English."
+      },
+      "status": "confirmed",
+      "source": "bilkent-catalog",
+      "where": "Opening of the admission section",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.koc.language",
+      "label": "Language of instruction (Koç)",
+      "kind": "text",
+      "value": {
+        "text": "Teaching is in English, except in the School of Law and the School of Nursing."
+      },
+      "status": "confirmed",
+      "source": "koc-elc",
+      "where": "Opening paragraph",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.sabanci.language",
+      "label": "Language of instruction (Sabancı)",
+      "kind": "text",
+      "value": {
+        "text": "Teaching is in English."
+      },
+      "status": "confirmed",
+      "source": "sabanci-languages",
+      "where": "Opening paragraph",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "system.qsCount",
+      "label": "Turkish universities in the QS World University Rankings 2027",
+      "kind": "text",
+      "value": {
+        "text": "25 universities from Türkiye are in the QS World University Rankings 2027, 6 of them in the top 500 and 11 in the top 1,000."
+      },
+      "status": "confirmed",
+      "source": "yok-qs",
+      "where": "Whole news item",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "tb.stipend",
+      "label": "Türkiye Bursları: monthly stipend for undergraduates",
+      "kind": "money",
+      "value": {
+        "amount": 6500,
+        "currency": "TRY"
+      },
+      "status": "reported",
+      "source": "tb-programs",
+      "where": "Section: monthly stipend",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "The page gives no date for this amount. Merit scholars receive twice the regular stipend. METU estimates basic living costs in Ankara at 8,000 to 15,000 TL a month without housing, so the stipend may not cover everyday costs.",
+      "changesOften": true
+    },
+    {
+      "id": "tb.choices",
+      "label": "Türkiye Bursları: number of programme choices",
+      "kind": "text",
+      "value": {
+        "text": "Applicants can choose up to 12 different programmes and universities, and are placed in one of them."
+      },
+      "status": "reported",
+      "source": "tb-howto",
+      "where": "Section on choosing programmes",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "From YTB's 2025 guide page; placement among the 12 choices is from YTB's archived guide. Checked again when the 2027 call opens."
+    },
+    {
+      "id": "tb.selection",
+      "label": "Türkiye Bursları: how scholars are selected",
+      "kind": "text",
+      "value": {
+        "text": "Applications are checked against the basic criteria, then reviewed by expert committees, which choose who goes forward. Shortlisted undergraduate applicants take a 60-minute, 30-question test of mathematics, geometry and logic, and a face-to-face interview on the same day."
+      },
+      "status": "confirmed",
+      "source": "tb-selection",
+      "where": "Stages of evaluation",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "The page does not say where interviews for Bangladesh are held. Expect to attend in person."
+    },
+    {
+      "id": "tb.timeline",
+      "label": "Türkiye Bursları: the yearly timeline",
+      "kind": "text",
+      "value": {
+        "text": "Applications from 10 January to 20 February, evaluation in March and April, interviews from April to June, results in early August, and travel to Türkiye in September."
+      },
+      "status": "confirmed",
+      "source": "tb-calendar",
+      "where": "Whole calendar",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "tb.free",
+      "label": "Türkiye Bursları: application fee",
+      "kind": "text",
+      "value": {
+        "text": "Applications are free of charge, through the Türkiye Scholarships Information System."
+      },
+      "status": "confirmed",
+      "source": "tb-steps",
+      "where": "Opening section",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "tb.noAgents",
+      "label": "Türkiye Bursları: applying through agents",
+      "kind": "text",
+      "value": {
+        "text": "There are no institutions or persons authorised to apply for Türkiye Scholarships. Applications can only be made by the candidates themselves, on turkiyeburslari.gov.tr."
+      },
+      "status": "reported",
+      "source": "tb-archive",
+      "where": "Section on applications",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "From YTB's archived applicant guide, which carries no date."
+    },
+    {
+      "id": "tb.language",
+      "label": "Türkiye Bursları: language of study",
+      "kind": "text",
+      "value": {
+        "text": "Applicants can see each programme's language of instruction while choosing. Most programmes are taught in Turkish, and every scholar without a C1 Turkish certificate attends a one-year Turkish course and must reach C1, even when placed in an English-taught programme."
+      },
+      "status": "reported",
+      "source": "tb-archive",
+      "where": "Section on language",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "The current application steps page also says the language is shown in the system. The Turkish course rule comes from the archived guide."
+    },
+    {
+      "id": "tb.documents",
+      "label": "Türkiye Bursları: documents for the online application",
+      "kind": "text",
+      "value": {
+        "text": "A valid passport or ID, a recent photo, national exam results if any, a diploma or temporary graduation certificate, a transcript, and any test or language certificate your chosen programmes require."
+      },
+      "status": "confirmed",
+      "source": "tb-steps",
+      "where": "List of required documents",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "tb.merit",
+      "label": "Türkiye Bursları: Merit Scholarship for undergraduates",
+      "kind": "text",
+      "value": {
+        "text": "For outstanding students. You need an average of at least 90%, and also one of these: an SAT of 1400 with 680 in Math for engineering or 1350 for other subjects (or IB 33), together with TOEFL iBT 80 or IELTS 6.5; a top-10 rank in your country's national exam; or a medal at an international science olympiad. It pays twice the regular stipend."
+      },
+      "status": "confirmed",
+      "source": "tb-programs",
+      "where": "Section: Merit Scholarship Program",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.metu.waitForResult",
+      "label": "Applying before your school results are out (METU)",
+      "kind": "text",
+      "value": {
+        "text": "If your diploma is also your exam result, you must wait for the result in order to apply, and applications after the deadline are not accepted. METU recommends applying with an SAT score instead."
+      },
+      "status": "confirmed",
+      "source": "metu-faq",
+      "where": "Answer on applicants who have not graduated yet",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "The HSC is a diploma of this kind."
+    },
+    {
+      "id": "uni.metu.alevels",
+      "label": "Applying with expected A level results (METU)",
+      "kind": "text",
+      "value": {
+        "text": "Applicants can apply with expected A level results and are conditionally accepted until the results arrive."
+      },
+      "status": "confirmed",
+      "source": "metu-faq",
+      "where": "Answer on expected A level results",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.metu.exams",
+      "label": "SAT and A level minimums (METU)",
+      "kind": "text",
+      "value": {
+        "text": "An SAT total of at least 1200, with at least 700 in Math for engineering, architecture and science programmes. A levels: ABB in three subjects, two of them relevant to the programme. IB: 33."
+      },
+      "status": "confirmed",
+      "source": "metu-reqs-pdf",
+      "where": "Minimums for international exams",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "From METU's sheet last updated on 5 January 2024."
+    },
+    {
+      "id": "uni.metu.english",
+      "label": "English requirement (METU)",
+      "kind": "text",
+      "value": {
+        "text": "To start the degree without the English preparatory year: METU's own exam at 60, TOEFL iBT 75 or PTE Academic 65, with scores valid for two years. IELTS taken on or after 24 December 2022 is not accepted. An English score is not needed to apply."
+      },
+      "status": "confirmed",
+      "source": "metu-english",
+      "where": "Equivalence table",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "The IELTS rule and the optional score are on METU's English proficiency page for international applicants."
+    },
+    {
+      "id": "tuition.metu",
+      "label": "Tuition fee per semester for international students (METU)",
+      "kind": "money",
+      "keyedBy": "academicYear",
+      "values": [
+        {
+          "key": "2026",
+          "value": {
+            "currency": "USD",
+            "variants": [
+              {
+                "label": "Engineering, architecture, and mathematics and science programmes",
+                "amount": 1200
+              },
+              {
+                "label": "Social sciences, economics and administrative sciences, and education",
+                "amount": 800
+              }
+            ]
+          },
+          "status": "confirmed",
+          "source": "metu-fees",
+          "where": "Table for students starting in autumn 2023 or later",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Per semester, two semesters a year. The English preparatory year costs the same. After the normal length of study and two more semesters, the fee rises to 1.5 times."
+        }
+      ]
+    },
+    {
+      "id": "aid.metu",
+      "label": "Scholarships for international students (METU)",
+      "kind": "text",
+      "value": {
+        "text": "Tuition discounts or exemptions based on academic success, given each year without an application. METU offers no other scholarship to international students."
+      },
+      "status": "confirmed",
+      "source": "metu-faq",
+      "where": "Answer on scholarships",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "living.metu",
+      "label": "Monthly living costs in Ankara (METU)",
+      "kind": "text",
+      "value": {
+        "text": "Living costs without housing are about 8,000 to 15,000 TL a month. With housing: about 12,000 to 18,000 TL in an economical campus dormitory, 20,000 to 35,000 TL in a shared flat, and 40,000 TL or more living alone."
+      },
+      "status": "confirmed",
+      "source": "metu-cost",
+      "where": "Cost of living table",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "",
+      "changesOften": true
+    },
+    {
+      "id": "uni.bogazici.route",
+      "label": "Exams accepted for admission (Boğaziçi)",
+      "kind": "text",
+      "value": {
+        "text": "SAT, TR-YÖS or GCE A levels. SAT: at least 1300 in total (1200 for education), with 700 in Math for mathematics, molecular biology, chemistry and physics, and 1350 with 700 in Math for engineering. TR-YÖS: at least 450. A levels: an A in three subjects relevant to the programme."
+      },
+      "status": "confirmed",
+      "source": "boun-reqs",
+      "where": "Required score cards",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "No route on national school certificates such as the HSC is listed."
+    },
+    {
+      "id": "uni.bogazici.fee",
+      "label": "Application fee per programme (Boğaziçi)",
+      "kind": "money",
+      "value": {
+        "amount": 100,
+        "currency": "EUR"
+      },
+      "status": "confirmed",
+      "source": "boun-reqs",
+      "where": "Application fee",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Not refunded. Paid for each programme applied to."
+    },
+    {
+      "id": "tuition.bogazici",
+      "label": "Tuition fee per semester for international students (Boğaziçi)",
+      "kind": "money",
+      "keyedBy": "academicYear",
+      "values": [
+        {
+          "key": "2026",
+          "value": {
+            "currency": "USD",
+            "variants": [
+              {
+                "label": "Economics and administrative sciences, and engineering",
+                "amount": 5000
+              },
+              {
+                "label": "Education, science, humanities and social sciences, and law",
+                "amount": 4000
+              }
+            ]
+          },
+          "status": "reported",
+          "source": "boun-fees",
+          "where": "Fee table",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Per semester. The page names no academic year, so it is marked reported."
+        }
+      ]
+    },
+    {
+      "id": "uni.bogazici.english",
+      "label": "English requirement (Boğaziçi)",
+      "kind": "text",
+      "value": {
+        "text": "TOEFL iBT 79 with 22 in writing, or IELTS Academic 6.5 with 6.5 in writing. The TOEFL Home Edition and online IELTS are not accepted. Scores are valid for two years."
+      },
+      "status": "confirmed",
+      "source": "boun-english",
+      "where": "Accepted exams",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.bilkent.route",
+      "label": "Admission rules for international applicants (Bilkent)",
+      "kind": "text",
+      "value": {
+        "text": "Applications for autumn 2026 ran from 2 February to 12 July 2026, and applications with predicted grades or results are not evaluated. HSC: at least 80%, in the stream related to the programme. A levels: three, each at least C, at least one related to the programme. IB: 28."
+      },
+      "status": "reported",
+      "source": "bilkent-apply",
+      "where": "Application period and minimum scores",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "The HSC, A level and IB minimums are in Bilkent's minimum scores sheet, which is undated and still names SAT Subject Tests, so confirm the HSC and SAT rules with Bilkent."
+    },
+    {
+      "id": "tuition.bilkent",
+      "label": "Tuition fee per year for international students (Bilkent)",
+      "kind": "money",
+      "keyedBy": "academicYear",
+      "values": [
+        {
+          "key": "2026",
+          "value": {
+            "amount": 18400,
+            "currency": "USD"
+          },
+          "status": "confirmed",
+          "source": "bilkent-fees",
+          "where": "Fee for students admitted in 2026",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Including 10% VAT, paid in two halves. The fee has risen for each new intake: 17,600 USD for 2025 and 18,400 USD for 2026."
+        }
+      ]
+    },
+    {
+      "id": "aid.bilkent",
+      "label": "Scholarships for international students (Bilkent)",
+      "kind": "text",
+      "value": {
+        "text": "Tuition waivers at five levels, from 20% to 100%, for applicants who ask for financial assistance, judged on their school grades. A limited number of top students with a full waiver also receive housing. Keeping a waiver needs a yearly average of at least 2.00 out of 4."
+      },
+      "status": "confirmed",
+      "source": "bilkent-aid",
+      "where": "Scholarship levels and conditions",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.bilkent.english",
+      "label": "English requirement (Bilkent)",
+      "kind": "text",
+      "value": {
+        "text": "IELTS 6.5 with at least 5.5 in each section, or TOEFL iBT 87, valid at registration."
+      },
+      "status": "confirmed",
+      "source": "bilkent-english",
+      "where": "Accepted exams",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "tuition.koc",
+      "label": "Tuition fee per year for international students (Koç)",
+      "kind": "text",
+      "value": {
+        "text": "For international students admitted in autumn 2025: 38,000 USD a year for every programme except medicine, and 59,000 USD for medicine."
+      },
+      "status": "reported",
+      "source": "koc-fees",
+      "where": "Fee table",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "No figure for students starting in 2026 or 2027 was published on 21 October 2026."
+    },
+    {
+      "id": "aid.koc",
+      "label": "Scholarships (Koç)",
+      "kind": "text",
+      "value": {
+        "text": "Merit scholarships cover full or partial tuition only. Every applicant is considered, and no test score or grade guarantees a scholarship."
+      },
+      "status": "confirmed",
+      "source": "koc-fees",
+      "where": "Scholarships",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "uni.koc.hsc",
+      "label": "National certificates accepted (Koç)",
+      "kind": "text",
+      "value": {
+        "text": "Bangladesh's HSC is not on Koç's list of accepted national qualifications. Koç accepts international exams instead, including the SAT, ACT, A levels, IB and TR-YÖS (at least 425 out of 500, higher for engineering, computer science and business). The SAT minimum is 1200 to 1450, depending on the school."
+      },
+      "status": "reported",
+      "source": "koc-apply",
+      "where": "Accepted qualifications",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "The page still shows 2024 dates, so check it with Koç."
+    },
+    {
+      "id": "uni.sabanci.window",
+      "label": "International undergraduate applications (Sabancı)",
+      "kind": "window",
+      "keyedBy": "cycle",
+      "values": [
+        {
+          "key": "2026",
+          "value": {
+            "from": "2025-12-15",
+            "to": "2026-08-28"
+          },
+          "status": "confirmed",
+          "source": "sabanci-apply",
+          "where": "Application period",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "The online form closes at 16:00 Turkish time."
+        },
+        {
+          "key": "2027",
+          "value": {
+            "from": "2026-12",
+            "to": "2027-08"
+          },
+          "status": "expected",
+          "source": "sabanci-apply",
+          "where": "Application period",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected from December to late August, as for 2026 entry. Month only."
+        },
+        {
+          "key": "2028",
+          "value": {
+            "from": "2027-12",
+            "to": "2028-08"
+          },
+          "status": "expected",
+          "source": "sabanci-apply",
+          "where": "Application period",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected from December to late August, as for 2026 entry. Month only."
+        },
+        {
+          "key": "2029",
+          "value": {
+            "from": "2028-12",
+            "to": "2029-08"
+          },
+          "status": "expected",
+          "source": "sabanci-apply",
+          "where": "Application period",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected from December to late August, as for 2026 entry. Month only."
+        },
+        {
+          "key": "2030",
+          "value": {
+            "from": "2029-12",
+            "to": "2030-08"
+          },
+          "status": "expected",
+          "source": "sabanci-apply",
+          "where": "Application period",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected from December to late August, as for 2026 entry. Month only."
+        },
+        {
+          "key": "2031",
+          "value": {
+            "from": "2030-12",
+            "to": "2031-08"
+          },
+          "status": "expected",
+          "source": "sabanci-apply",
+          "where": "Application period",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected from December to late August, as for 2026 entry. Month only."
+        },
+        {
+          "key": "2032",
+          "value": {
+            "from": "2031-12",
+            "to": "2032-08"
+          },
+          "status": "expected",
+          "source": "sabanci-apply",
+          "where": "Application period",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected from December to late August, as for 2026 entry. Month only."
+        }
+      ]
+    },
+    {
+      "id": "uni.sabanci.route",
+      "label": "Exams and certificates accepted (Sabancı)",
+      "kind": "text",
+      "value": {
+        "text": "HSC: an average of at least 80%. SAT 1100, which is not mandatory and cannot be a superscore; ACT 23; two A levels at C; IB 28; TR-YÖS 350. Final-year students may apply, and applicants hear about their evaluation by email within two to three weeks."
+      },
+      "status": "confirmed",
+      "source": "sabanci-exams",
+      "where": "Bangladesh and international exams",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "The final-year rule and the timing are on Sabancı's application requirements page. Sabancı works out the percentage as the total of your marks divided by the number of subjects. Ask Sabancı how it treats an HSC GPA out of 5."
+    },
+    {
+      "id": "uni.sabanci.fee",
+      "label": "Application fee (Sabancı)",
+      "kind": "money",
+      "value": {
+        "amount": 30,
+        "currency": "USD"
+      },
+      "status": "confirmed",
+      "source": "sabanci-apply",
+      "where": "Application fee",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Paid once a year and not refunded."
+    },
+    {
+      "id": "tuition.sabanci",
+      "label": "Tuition fee per year for international students (Sabancı)",
+      "kind": "money",
+      "keyedBy": "academicYear",
+      "values": [
+        {
+          "key": "2026",
+          "value": {
+            "amount": 36500,
+            "currency": "USD"
+          },
+          "status": "confirmed",
+          "source": "sabanci-fees",
+          "where": "Tuition fee for international undergraduate students, 2026 to 2027",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "aid.sabanci",
+      "label": "Scholarships (Sabancı)",
+      "kind": "text",
+      "value": {
+        "text": "Admission scholarships waive part or all of the tuition, are given without a separate application, and are limited in number, with priority for early applicants. They cover tuition only, a separate dormitory scholarship covers housing, and no score guarantees a percentage."
+      },
+      "status": "confirmed",
+      "source": "sabanci-aid",
+      "where": "Answers on scholarships",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Limited numbers and early priority are on Sabancı's scholarships page."
+    },
+    {
+      "id": "uni.itu.dates",
+      "label": "International applications for 2026 to 2027 (Istanbul Technical University)",
+      "kind": "text",
+      "value": {
+        "text": "A second round of international applications ran from 21 to 26 August 2026, with results on 1 September. Final-year school students may apply with an official document showing their expected graduation date."
+      },
+      "status": "confirmed",
+      "source": "itu-round2",
+      "where": "Application dates and who may apply",
+      "checked": "2026-10-24",
+      "verified": "2026-10-24",
+      "note": "ITU's first-round page for 2026 has been taken down."
+    },
+    {
+      "id": "uni.itu.route",
+      "label": "Exams accepted for admission (Istanbul Technical University)",
+      "kind": "text",
+      "value": {
+        "text": "SAT 1200 with 650 in Math, ACT 26, A levels with an A in maths or physics and two more at C or above, IB 30, or TR-YÖS 400. Bangladesh's HSC is not on the list, and only the listed exams are accepted."
+      },
+      "status": "confirmed",
+      "source": "itu-exams",
+      "where": "Table of valid exams",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "The rule that only listed exams are accepted is on ITU's 2026 to 2027 application announcement."
+    },
+    {
+      "id": "uni.itu.fees",
+      "label": "Tuition for international students, 2026 to 2027 (Istanbul Technical University)",
+      "kind": "text",
+      "value": {
+        "text": "For students who started between autumn 2023 and autumn 2026: 94,500 a year in the engineering faculties, 86,500 in management, 79,000 in arts and sciences, and 119,000 in naval architecture, maritime and textiles, paid in two halves. The page does not name the currency."
+      },
+      "status": "reported",
+      "source": "itu-fees",
+      "where": "Fee table",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Ask Istanbul Technical University which currency applies before you plan."
+    },
+    {
+      "id": "uni.itu.english",
+      "label": "English requirement (Istanbul Technical University)",
+      "kind": "text",
+      "value": {
+        "text": "TOEFL iBT 4 on the new scale (72 before 21 January 2026), PTE Academic 59, or ITU's own exam at 60, valid for two years. IELTS is not on the list."
+      },
+      "status": "confirmed",
+      "source": "itu-english",
+      "where": "Table of accepted tests",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "ITU says TOEFL iBT and PTE results must come from test centres at state universities. Ask ITU whether a test taken in Bangladesh is accepted before you book."
+    },
+    {
+      "id": "tryos.about",
+      "label": "TR-YÖS, the entrance exam for students from abroad",
+      "kind": "text",
+      "value": {
+        "text": "Run by ÖSYM, Türkiye's national testing centre, with a centre in Dhaka. It has 40 numerical aptitude and 40 basic mathematics questions in 100 minutes, is scored from 100 to 500, and is valid for two years from the exam date. Each university sets which exams it accepts, so check its list."
+      },
+      "status": "confirmed",
+      "source": "osym-tryos",
+      "where": "Sections on exam centres, content, validity and use",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "tryos.dates2026",
+      "label": "TR-YÖS sessions in 2026",
+      "kind": "text",
+      "value": {
+        "text": "TR-YÖS/1 on 12 April 2026, with applications from 14 January to 3 February and late applications to 11 February. TR-YÖS/2 on 11 October 2026, with applications from 9 July to 3 August and late applications from 7 to 11 August."
+      },
+      "status": "confirmed",
+      "source": "osym-tryos",
+      "where": "Calendar",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "The first session's dates are in ÖSYM's TR-YÖS/1 guide. Dates for 2027 were not yet published on 21 October 2026."
+    },
+    {
+      "id": "tryos.fee",
+      "label": "TR-YÖS fee for the Dhaka centre (October 2026 sitting)",
+      "kind": "money",
+      "value": {
+        "amount": 1150,
+        "currency": "TRY"
+      },
+      "status": "confirmed",
+      "source": "osym-tryos",
+      "where": "Fee table",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "1,100 TL for the April 2026 sitting and 1,150 TL for October 2026. The fee usually rises with each sitting.",
+      "changesOften": true
+    },
+    {
+      "id": "visa.centre",
+      "label": "Where Bangladeshi applicants apply for a Turkish visa",
+      "kind": "text",
+      "value": {
+        "text": "Since 1 February 2026, only Mosaic Visa accepts Turkish visa applications in Bangladesh, at House 77, Block M, Road 11, Banani, Dhaka."
+      },
+      "status": "confirmed",
+      "source": "tr-emb-mosaic",
+      "where": "Whole announcement",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "visa.bankStatements",
+      "label": "Whose bank statements count for a Turkish visa",
+      "kind": "text",
+      "value": {
+        "text": "Only bank statements of the applicant, the applicant's parents or the applicant's spouse are accepted."
+      },
+      "status": "reported",
+      "source": "mosaic-docs",
+      "where": "Financial documents",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "visa.noEvisa",
+      "label": "The e-Visa and study",
+      "kind": "text",
+      "value": {
+        "text": "Holders of ordinary Bangladeshi passports need a visa. The e-Visa is only for tourism or business, so students need a student visa."
+      },
+      "status": "confirmed",
+      "source": "mfa-visa",
+      "where": "Rules for Bangladesh and for the e-Visa",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "visa.equivalency",
+      "label": "The equivalency certificate for your school certificate",
+      "kind": "text",
+      "value": {
+        "text": "Universities need an equivalency certificate for your school-leaving certificate, issued by Türkiye's Ministry of National Education, through its e-Denklik system, or by a Turkish mission abroad."
+      },
+      "status": "reported",
+      "source": "omu-denklik",
+      "where": "Whole page",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "From Ondokuz Mayıs University's page. Üsküdar University advises getting it in your home country before you travel, says registration is cancelled if it is not delivered on time, and asks for an apostilled diploma. Ask your university whether it needs an apostille or the ministry attestation used for the visa."
+    },
+    {
+      "id": "arrive.residencePermit",
+      "label": "Student residence permit",
+      "kind": "text",
+      "value": {
+        "text": "Apply online on e-ikamet before your visa expires, then hand in your documents as your university tells you. Health insurance that covers the whole permit period is compulsory. Students pay only the card fee, not a permit fee."
+      },
+      "status": "confirmed",
+      "source": "metu-residence",
+      "where": "Whole page",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "The insurance rule is on the Migration Management e-ikamet page. Istanbul Technical University's page gives the same timing rule."
+    },
+    {
+      "id": "arrive.cardFee",
+      "label": "Residence permit card fee for students in 2026",
+      "kind": "money",
+      "value": {
+        "amount": 964,
+        "currency": "TRY"
+      },
+      "status": "confirmed",
+      "source": "metu-residence",
+      "where": "Fee paragraph",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Students pay no visa fee or residence permit fee, only this card fee.",
+      "changesOften": true
+    },
+    {
+      "id": "arrive.healthInsurance",
+      "label": "State health insurance for international students",
+      "kind": "text",
+      "value": {
+        "text": "International students can join Türkiye's general health insurance (GSS) only if they apply within three months of the start of the academic year. With GSS, the residence permit can be issued for the whole study period; with private insurance, only for the period it covers."
+      },
+      "status": "confirmed",
+      "source": "eikamet-docs",
+      "where": "Note on general health insurance for students",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Universities count the three months from slightly different days: METU from the first day of autumn classes, Ankara University from first enrolment, so follow the earliest date your university gives. Ankara University says a student who misses it cannot join at any point during their studies. The rule on the permit period is on Istanbul Technical University's residence permit page."
+    },
+    {
+      "id": "arrive.gssCost",
+      "label": "General health insurance for a student, per month in 2026",
+      "kind": "money",
+      "value": {
+        "amount": 1300,
+        "currency": "TRY"
+      },
+      "status": "reported",
+      "source": "metu-gss",
+      "where": "Premium paragraph, updated 13 October 2026",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "METU gives about 1,300 TL a month for 2026, about 15,600 TL a year. The amount follows the minimum wage, so it changes every year.",
+      "changesOften": true
+    },
+    {
+      "id": "arrive.eikametFree",
+      "label": "Residence permit appointments",
+      "kind": "text",
+      "value": {
+        "text": "Appointments on e-ikamet are free. Do not pay anyone to book them."
+      },
+      "status": "confirmed",
+      "source": "eikamet-docs",
+      "where": "Notes on the application",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": ""
+    },
+    {
+      "id": "work.rule",
+      "label": "Working while you study in Türkiye",
+      "kind": "text",
+      "value": {
+        "text": "Bachelor's students can get a work permit only after completing their first year, for part-time jobs off campus. The employer applies for the permit, and a residence permit alone does not give the right to work."
+      },
+      "status": "confirmed",
+      "source": "metu-work",
+      "where": "Whole page",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "From METU's page. The law itself (International Labour Force Law, Article 19) could not be read automatically."
+    },
+    {
+      "id": "tb.successScholarship",
+      "label": "Türkiye Bursları: Success Scholarship for students already in Türkiye",
+      "kind": "text",
+      "value": {
+        "text": "YTB's calendar lists a Success Scholarship, with applications in October and November. It is for international students already studying in Türkiye who have completed at least a year there and hold no other scholarship."
+      },
+      "status": "reported",
+      "source": "tb-calendar",
+      "where": "Calendar row: Success Scholarship",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "The calendar gives the months. The conditions come from YTB's archived guide, so check them when you apply."
+    },
+    {
+      "id": "visa.mosaicRules",
+      "label": "Rules at Mosaic Visa",
+      "kind": "text",
+      "value": {
+        "text": "Applicants attend in person for biometrics, pay in cash in taka at the centre, and apply no more than 90 days before they travel. Mosaic asks for 3 biometric photos, a copy of a national ID card or birth certificate, and travel health insurance bought through Mosaic."
+      },
+      "status": "reported",
+      "source": "mosaic-docs",
+      "where": "Required documents and general rules",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "These are Mosaic's general visa rules; it publishes no separate list for students."
+    },
+    {
+      "id": "visa.mosaicFee",
+      "label": "General visa fee at Mosaic Visa, six months, single entry",
+      "kind": "text",
+      "value": {
+        "text": "28,730 taka for a single-entry visa valid for six months, plus service charges. Mosaic lists no separate fee for student visas."
+      },
+      "status": "reported",
+      "source": "mosaic-fees",
+      "where": "Fee table",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "Ask Mosaic Visa for the student visa fee before you go.",
+      "changesOften": true
+    },
+    {
+      "id": "tryos.spring",
+      "label": "TR-YÖS spring sitting",
+      "kind": "date",
+      "keyedBy": "cycle",
+      "values": [
+        {
+          "key": "2027",
+          "value": {
+            "date": "2027-04"
+          },
+          "status": "expected",
+          "source": "osym-tryos1-guide",
+          "where": "Exam date and application dates",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in April, as on 12 April 2026, with applications in January and February (14 January to 11 February in 2026). Month only."
+        },
+        {
+          "key": "2028",
+          "value": {
+            "date": "2028-04"
+          },
+          "status": "expected",
+          "source": "osym-tryos1-guide",
+          "where": "Exam date and application dates",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in April, as on 12 April 2026, with applications in January and February (14 January to 11 February in 2026). Month only."
+        },
+        {
+          "key": "2029",
+          "value": {
+            "date": "2029-04"
+          },
+          "status": "expected",
+          "source": "osym-tryos1-guide",
+          "where": "Exam date and application dates",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in April, as on 12 April 2026, with applications in January and February (14 January to 11 February in 2026). Month only."
+        },
+        {
+          "key": "2030",
+          "value": {
+            "date": "2030-04"
+          },
+          "status": "expected",
+          "source": "osym-tryos1-guide",
+          "where": "Exam date and application dates",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in April, as on 12 April 2026, with applications in January and February (14 January to 11 February in 2026). Month only."
+        },
+        {
+          "key": "2031",
+          "value": {
+            "date": "2031-04"
+          },
+          "status": "expected",
+          "source": "osym-tryos1-guide",
+          "where": "Exam date and application dates",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in April, as on 12 April 2026, with applications in January and February (14 January to 11 February in 2026). Month only."
+        },
+        {
+          "key": "2032",
+          "value": {
+            "date": "2032-04"
+          },
+          "status": "expected",
+          "source": "osym-tryos1-guide",
+          "where": "Exam date and application dates",
+          "checked": "2026-10-21",
+          "verified": "2026-10-21",
+          "note": "Expected in April, as on 12 April 2026, with applications in January and February (14 January to 11 February in 2026). Month only."
+        }
+      ]
+    },
+    {
+      "id": "uni.koc.english",
+      "label": "English requirement (Koç)",
+      "kind": "text",
+      "value": {
+        "text": "TOEFL iBT 80 with 20 in writing, PTE Academic 67, or Cambridge Advanced or Proficiency. IELTS is not on the list."
+      },
+      "status": "reported",
+      "source": "koc-apply",
+      "where": "English requirements table",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "The page still shows 2024 dates, so check it with Koç."
+    },
+    {
+      "id": "uni.metu.englishExam",
+      "label": "METU's English exam for new international students",
+      "kind": "text",
+      "value": {
+        "text": "In 2026, international students admitted to undergraduate programmes sat METU's English Proficiency Exam in Ankara on 8 and 9 September, unless an accepted outside score exempted them."
+      },
+      "status": "confirmed",
+      "source": "metu-calendar",
+      "where": "Calendar entry for the English Proficiency Exam",
+      "checked": "2026-10-21",
+      "verified": "2026-10-21",
+      "note": "The 2027 date was not yet published on 21 October 2026. Expect early September."
+    }
+  ]
+}

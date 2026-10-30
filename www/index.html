@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en" class="is-booting">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="light dark">
+  <title>Pathway</title>
+  <link rel="preload" href="fonts/overpass.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/literata.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles/tokens.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="features/timeline/timeline.css">
+  <link rel="stylesheet" href="features/roadmaps/roadmaps.css">
+  <link rel="stylesheet" href="features/toolkit/toolkit.css">
+  <link rel="stylesheet" href="features/money/money.css">
+  <link rel="stylesheet" href="features/english/english.css">
+  <link rel="stylesheet" href="features/words/words.css">
+  <link rel="stylesheet" href="features/visa/visa.css">
+  <link rel="stylesheet" href="features/scholarships/scholarships.css">
+  <script src="app/boot.js"></script>
+  <script type="module" src="app/main.js"></script>
+</head>
+
+<body>
+  <div class="status-scrim" aria-hidden="true"></div>
+
+  <main class="screens">
+    <section class="screen" id="screen-plan" data-screen="plan" aria-labelledby="title-plan">
+      <header class="screen-head">
+        <h1 class="screen-title" id="title-plan">Your plan</h1>
+        <button class="icon-button theme-button" type="button" data-action="open-sheet" data-sheet="theme-sheet"
+          aria-label="Appearance">
+          <svg class="icon" aria-hidden="true">
+            <use href="icons/sprite.svg#theme-system"></use>
+          </svg>
+        </button>
+      </header>
+      <div class="screen-body" id="plan-root"></div>
+    </section>
+
+    <section class="screen" id="screen-countries" data-screen="countries" aria-labelledby="title-countries" hidden>
+      <header class="screen-head">
+        <h1 class="screen-title" id="title-countries">Countries</h1>
+        <button class="icon-button theme-button" type="button" data-action="open-sheet" data-sheet="theme-sheet"
+          aria-label="Appearance">
+          <svg class="icon" aria-hidden="true">
+            <use href="icons/sprite.svg#theme-system"></use>
+          </svg>
+        </button>
+      </header>
+      <div class="screen-body" id="countries-root"></div>
+    </section>
+
+    <section class="screen" id="screen-scholarships" data-screen="scholarships" aria-labelledby="title-scholarships"
+      hidden>
+      <header class="screen-head">
+        <h1 class="screen-title" id="title-scholarships">Scholarships</h1>
+        <button class="icon-button theme-button" type="button" data-action="open-sheet" data-sheet="theme-sheet"
+          aria-label="Appearance">
+          <svg class="icon" aria-hidden="true">
+            <use href="icons/sprite.svg#theme-system"></use>
+          </svg>
+        </button>
+      </header>
+      <div class="screen-body" id="scholarships-root"></div>
+    </section>
+
+    <section class="screen" id="screen-toolkit" data-screen="toolkit" aria-labelledby="title-toolkit" hidden>
+      <header class="screen-head">
+        <h1 class="screen-title" id="title-toolkit">Toolkit</h1>
+        <button class="icon-button theme-button" type="button" data-action="open-sheet" data-sheet="theme-sheet"
+          aria-label="Appearance">
+          <svg class="icon" aria-hidden="true">
+            <use href="icons/sprite.svg#theme-system"></use>
+          </svg>
+        </button>
+      </header>
+      <div class="screen-body" id="toolkit-root"></div>
+    </section>
+  </main>
+
+  <nav class="tabbar" aria-label="Main">
+    <span class="tab-indicator" aria-hidden="true"></span>
+    <button class="tab" type="button" data-tab="plan" aria-current="page">
+      <svg class="icon" aria-hidden="true">
+        <use href="icons/sprite.svg#tab-plan"></use>
+      </svg>
+      <span class="tab-label">Plan</span>
+    </button>
+    <button class="tab" type="button" data-tab="countries">
+      <svg class="icon" aria-hidden="true">
+        <use href="icons/sprite.svg#tab-countries"></use>
+      </svg>
+      <span class="tab-label">Countries</span>
+    </button>
+    <button class="tab" type="button" data-tab="scholarships">
+      <svg class="icon" aria-hidden="true">
+        <use href="icons/sprite.svg#tab-scholarships"></use>
+      </svg>
+      <span class="tab-label">Scholarships</span>
+    </button>
+    <button class="tab" type="button" data-tab="toolkit">
+      <svg class="icon" aria-hidden="true">
+        <use href="icons/sprite.svg#tab-toolkit"></use>
+      </svg>
+      <span class="tab-label">Toolkit</span>
+    </button>
+  </nav>
+
+  <dialog class="sheet" id="theme-sheet" aria-labelledby="theme-sheet-title">
+    <div class="sheet-scrim" data-action="close-sheet"></div>
+    <div class="sheet-panel">
+      <header class="sheet-head">
+        <h2 class="sheet-title" id="theme-sheet-title">Appearance</h2>
+        <button class="icon-button" type="button" data-action="close-sheet" aria-label="Close">
+          <svg class="icon" aria-hidden="true">
+            <use href="icons/sprite.svg#close"></use>
+          </svg>
+        </button>
+      </header>
+      <fieldset class="theme-options">
+        <legend class="visually-hidden">Choose how Pathway looks</legend>
+        <label class="theme-option">
+          <input class="station-input" type="radio" name="theme" value="system">
+          <span class="station" aria-hidden="true"></span>
+          <span class="option-text">
+            <span class="option-label">Match phone</span>
+            <span class="option-note" data-system-note>Follows your phone's setting</span>
+          </span>
+          <span class="swatch swatch-system" aria-hidden="true"><span class="swatch-line"></span></span>
+        </label>
+        <label class="theme-option">
+          <input class="station-input" type="radio" name="theme" value="light">
+          <span class="station" aria-hidden="true"></span>
+          <span class="option-text">
+            <span class="option-label">Light</span>
+            <span class="option-note">Limestone and ink</span>
+          </span>
+          <span class="swatch swatch-light" aria-hidden="true"><span class="swatch-line"></span></span>
+        </label>
+        <label class="theme-option">
+          <input class="station-input" type="radio" name="theme" value="dark">
+          <span class="station" aria-hidden="true"></span>
+          <span class="option-text">
+            <span class="option-label">Dark</span>
+            <span class="option-note">Night service, easy on the eyes</span>
+          </span>
+          <span class="swatch swatch-dark" aria-hidden="true"><span class="swatch-line"></span></span>
+        </label>
+      </fieldset>
+    </div>
+  </dialog>
+
+  <dialog class="sheet" id="source-sheet" aria-labelledby="source-sheet-title">
+    <div class="sheet-scrim" data-action="close-sheet"></div>
+    <div class="sheet-panel">
+      <header class="sheet-head">
+        <h2 class="sheet-title" id="source-sheet-title">Where this date comes from</h2>
+        <button class="icon-button" type="button" data-action="close-sheet" aria-label="Close">
+          <svg class="icon" aria-hidden="true">
+            <use href="icons/sprite.svg#close"></use>
+          </svg>
+        </button>
+      </header>
+      <div class="sheet-body" id="source-body"></div>
+    </div>
+  </dialog>
+  <dialog class="sheet" id="facts-sheet" aria-labelledby="facts-sheet-title">
+    <div class="sheet-scrim" data-action="close-sheet"></div>
+    <div class="sheet-panel">
+      <header class="sheet-head">
+        <h2 class="sheet-title" id="facts-sheet-title">Where this comes from</h2>
+        <button class="icon-button" type="button" data-action="close-sheet" aria-label="Close">
+          <svg class="icon" aria-hidden="true">
+            <use href="icons/sprite.svg#close"></use>
+          </svg>
+        </button>
+      </header>
+      <div class="sheet-body" id="facts-body"></div>
+    </div>
+  </dialog>
+  <dialog class="sheet" id="own-sheet" aria-labelledby="own-sheet-title">
+    <div class="sheet-scrim" data-action="close-sheet"></div>
+    <div class="sheet-panel">
+      <header class="sheet-head">
+        <h2 class="sheet-title" id="own-sheet-title">Your own date</h2>
+        <button class="icon-button" type="button" data-action="close-sheet" aria-label="Close">
+          <svg class="icon" aria-hidden="true">
+            <use href="icons/sprite.svg#close"></use>
+          </svg>
+        </button>
+      </header>
+      <div class="sheet-body" id="own-body"></div>
+    </div>
+  </dialog>
+  <dialog class="sheet" id="switch-sheet" aria-labelledby="switch-sheet-title">
+    <div class="sheet-scrim" data-action="close-sheet"></div>
+    <div class="sheet-panel">
+      <header class="sheet-head">
+        <h2 class="sheet-title" id="switch-sheet-title">Switch country</h2>
+        <button class="icon-button" type="button" data-action="close-sheet" aria-label="Close">
+          <svg class="icon" aria-hidden="true">
+            <use href="icons/sprite.svg#close"></use>
+          </svg>
+        </button>
+      </header>
+      <div class="sheet-body" id="switch-body"></div>
+    </div>
+  </dialog>
+  <dialog class="sheet" id="reminders-sheet" aria-labelledby="reminders-sheet-title">
+    <div class="sheet-scrim" data-action="close-sheet"></div>
+    <div class="sheet-panel">
+      <header class="sheet-head">
+        <h2 class="sheet-title" id="reminders-sheet-title">Reminders for your plan</h2>
+        <button class="icon-button" type="button" data-action="close-sheet" aria-label="Close">
+          <svg class="icon" aria-hidden="true">
+            <use href="icons/sprite.svg#close"></use>
+          </svg>
+        </button>
+      </header>
+      <div class="sheet-body" id="reminders-body"></div>
+    </div>
+  </dialog>
+  <dialog class="sheet" id="confirm-sheet" aria-labelledby="confirm-sheet-title">
+    <div class="sheet-scrim" data-action="close-sheet"></div>
+    <div class="sheet-panel">
+      <header class="sheet-head">
+        <h2 class="sheet-title" id="confirm-sheet-title">Start over?</h2>
+        <button class="icon-button" type="button" data-action="close-sheet" aria-label="Close">
+          <svg class="icon" aria-hidden="true">
+            <use href="icons/sprite.svg#close"></use>
+          </svg>
+        </button>
+      </header>
+      <div class="sheet-body">
+        <p class="reading">For every country on this phone, starting over removes:</p>
+        <ul class="steps-before">
+          <li>Your answers to the questions</li>
+          <li>The steps you marked done on the Plan tab</li>
+          <li>Your own dates</li>
+        </ul>
+        <p class="note">It keeps the ticks in roadmap checklists, My list on the Countries tab, the ticks in Toolkit
+          guides, what you entered in the Toolkit's tools, and your reminder choices, so a new plan reminds you the same
+          way. It cannot be undone.</p>
+        <button class="button-primary is-danger" type="button" data-action="start-over-confirm">Start over</button>
+        <button class="button-secondary" type="button" data-action="close-sheet">Keep my plan</button>
+      </div>
+    </div>
+  </dialog>
+  <dialog class="sheet" id="steps-sheet" aria-labelledby="steps-sheet-title">
+    <div class="sheet-scrim" data-action="close-sheet"></div>
+    <div class="sheet-panel">
+      <header class="sheet-head">
+        <h2 class="sheet-title" id="steps-sheet-title">Are the earlier steps done?</h2>
+        <button class="icon-button" type="button" data-action="close-sheet" aria-label="Close">
+          <svg class="icon" aria-hidden="true">
+            <use href="icons/sprite.svg#close"></use>
+          </svg>
+        </button>
+      </header>
+      <div class="sheet-body" id="steps-body"></div>
+    </div>
+  </dialog>
+</body>
+
+</html>

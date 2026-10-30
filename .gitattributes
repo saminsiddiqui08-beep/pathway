@@ -1,0 +1,6 @@
+# Storing every text file with LF endings, whatever the editor saves
+* text=auto eol=lf
+
+# Keeping Windows batch files on CRLF, which they need to run reliably
+*.bat text eol=crlf
+*.cmd text eol=crlf

@@ -1,0 +1,175 @@
+/* Loading the bundled fonts, so the app looks the same with no internet */
+@font-face {
+  font-family: "Overpass";
+  src: url("../fonts/overpass.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Literata";
+  src: url("../fonts/literata.woff2") format("woff2");
+  font-weight: 200 900;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Literata";
+  src: url("../fonts/literata-italic.woff2") format("woff2");
+  font-weight: 200 900;
+  font-style: italic;
+  font-display: block;
+}
+
+/* Borrowing the Taka sign from this tiny file, since neither main font has it */
+@font-face {
+  font-family: "Overpass";
+  src: url("../fonts/taka.woff2") format("woff2");
+  font-weight: 100 900;
+  unicode-range: U+09F3;
+}
+
+@font-face {
+  font-family: "Literata";
+  src: url("../fonts/taka.woff2") format("woff2");
+  font-weight: 200 900;
+  unicode-range: U+09F3;
+}
+
+:root {
+  /* Keeping both palettes available at once, for the theme previews */
+  --day-paper: #F2F3EE;
+  --day-raised: #FAFAF7;
+  --day-ink: #1F2A36;
+  --day-line: #3558A8;
+  --night-paper: #18212B;
+  --night-raised: #212C38;
+  --night-ink: #E9EBE5;
+  --night-line: #7C9BE0;
+
+  --paper: var(--day-paper);
+  --raised: var(--day-raised);
+  --ink: var(--day-ink);
+  --ink-soft: #55616E;
+  --rule: #C9CEC6;
+  --line: var(--day-line);
+  --line-faded: #BAC3D5;
+  --line-usa: #3558A8;
+  --line-finland: #2E8C88;
+  --line-turkey: #B8742A;
+  --line-malaysia: #883679;
+  --line-nz: #6B8451;
+  --text-usa: #2F4F99;
+  --text-finland: #1F6E6A;
+  --text-turkey: #8A5418;
+  --text-malaysia: #883679;
+  --text-nz: #4B6231;
+  /*
+    Drawing "You are here" as an ink ring with an ink dot inside, so it never looks like a country's
+    line. Panels and cards redefine the fill with their own surface colour around the dot
+  */
+  --here-ring: var(--ink);
+  --here-text: var(--ink);
+  --here-fill: radial-gradient(circle closest-side, var(--ink) 0 40%, var(--paper) 48%);
+  /* Colouring the short line leaving "You are here" on the first screen: ink by day, soft grey by night */
+  --here-stub: var(--ink);
+  --urgent: #A3322A;
+  --scrim: rgb(31 42 54 / 0.32);
+  --press: rgb(31 42 54 / 0.06);
+  color-scheme: light;
+
+  --font-ui: "Overpass", system-ui, sans-serif;
+  --font-read: "Literata", Georgia, serif;
+
+  /* Sizing text in rem, so the phone's font size setting still works */
+  --text-title: 1.6875rem;
+  --text-heading: 1.25rem;
+  --text-body-ui: 0.9375rem;
+  --text-read: 1.0625rem;
+  --text-small: 0.8125rem;
+  --text-tab: 0.6875rem;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+
+  --radius-control: 6px;
+  --radius-sheet: 18px;
+  --tabbar-height: 60px;
+  --touch: 48px;
+  --reading-width: 34rem;
+
+  /*
+    Sharing one family of curves across the whole app, so every motion has the same character.
+    Anything arriving starts at full speed, so motion answers a tap on the very first frame.
+    JavaScript reads these same values, so they are only ever defined here
+  */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  /* Moving anything leaving at once and speeding it up, so a closing panel never seems to hesitate */
+  --ease-in: cubic-bezier(0.4, 0, 1, 1);
+  --ease-sheet: cubic-bezier(0.32, 0.72, 0, 1);
+  --ease-reveal: cubic-bezier(0.25, 0.8, 0.25, 1);
+  --ease-stretch: cubic-bezier(0.45, 0, 0.55, 1);
+  --dur-press: 120ms;
+  /* Showing a held row or button as pressed this fast; letting go fades over --dur-enter */
+  --dur-tap: 40ms;
+  --dur-leave: 170ms;
+  --dur-enter: 320ms;
+  --dur-swap: 340ms;
+  --dur-sheet: 360ms;
+  --dur-sheet-exit: 200ms;
+  --dur-reveal: 560ms;
+
+  /* Timing the route drawing down to your station at launch, and a station filling when marked done */
+  --ease-draw: cubic-bezier(0.33, 0, 0.2, 1);
+  --dur-draw: 720ms;
+  --dur-done: 420ms;
+
+  /*
+    Opening or closing a step on a smooth curve that speeds up gently and settles softly, so the
+    card, the arrow and the steps below move together as one
+  */
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+  --dur-expand: 320ms;
+  /*
+    Uncovering a longer part, such as a section, a card or a folded part of a tool, on a curve with a
+    shorter tail, so a tall part never seems to stop just before it is fully open
+  */
+  --ease-unfold: cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Giving the plan its own line, which takes the chosen country's colour */
+  --route: var(--line);
+  --route-text: var(--ink);
+}
+
+:root[data-theme="dark"] {
+  --paper: var(--night-paper);
+  --raised: var(--night-raised);
+  --ink: var(--night-ink);
+  --ink-soft: #A7B1BC;
+  --rule: #3A4654;
+  --line: var(--night-line);
+  --line-faded: #34435A;
+  --line-usa: #7C9BE0;
+  --line-finland: #4FB5AE;
+  --line-turkey: #D99A4E;
+  --line-malaysia: #CC81BC;
+  --line-nz: #71A428;
+  --text-usa: #9DB4EA;
+  --text-finland: #7FCFC9;
+  --text-turkey: #E8B372;
+  --text-malaysia: #EC9EDB;
+  --text-nz: #91C64F;
+  --urgent: #F08A7E;
+  --scrim: rgb(5 9 14 / 0.55);
+  --press: rgb(233 235 229 / 0.08);
+  --here-stub: var(--ink-soft);
+  color-scheme: dark;
+}

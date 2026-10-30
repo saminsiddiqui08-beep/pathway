@@ -1,0 +1,558 @@
+{
+  "format": 1,
+  "guide": "profile",
+  "title": "Building your profile",
+  "facts": [
+    "bd",
+    "us"
+  ],
+  "cycle": 2027,
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Your profile is everything an application shows about you beyond your marks: what you do, what you care about, and what you have made happen. It is evidence of who you are, not a list of titles."
+    },
+    {
+      "type": "heading",
+      "text": "Three things that matter most"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "text": "**Grades come first.** They show years of work, not one good day. Time for activities should never come out of the time your studies need."
+        },
+        {
+          "text": "**Depth beats number.** A few things done seriously say more than many done lightly. MIT asks applicants to choose quality over quantity.",
+          "cite": [
+            "bd/profile.mit.depth"
+          ]
+        },
+        {
+          "text": "**Impact beats titles.** \"President of the science club\" tells a reader little. Say what changed because you were there, in numbers where you can: people taught, users, money raised, hours a week."
+        }
+      ],
+      "ordered": true
+    },
+    {
+      "type": "widget",
+      "id": "fieldPicker",
+      "question": "What do you want to study?",
+      "note": "Choose a subject to see the competitions and activities that suit it. Your choice is remembered, and you can change it at any time.",
+      "fields": [
+        {
+          "id": "engineering",
+          "label": "Engineering and sciences",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "For engineering, physics, chemistry and mathematics, universities look for strength in mathematics and science, and for proof that you can use it: something you built, measured or solved yourself."
+            },
+            {
+              "type": "heading",
+              "text": "Competitions"
+            },
+            {
+              "type": "list",
+              "items": [
+                {
+                  "text": "**Mathematics:** the Bangladesh Mathematical Olympiad, which chooses the team for the International Mathematical Olympiad.",
+                  "cite": [
+                    "bd/profile.bdmo",
+                    "bd/olympiad.maths"
+                  ]
+                },
+                {
+                  "text": "**Physics:** the Bangladesh Physics Olympiad.",
+                  "cite": [
+                    "bd/olympiad.physics"
+                  ]
+                },
+                {
+                  "text": "**Chemistry:** the Bangladesh Chemistry Olympiad.",
+                  "cite": [
+                    "bd/olympiad.chemistry"
+                  ]
+                },
+                {
+                  "text": "**Astronomy:** the Bangladesh Olympiad on Astronomy and Astrophysics.",
+                  "cite": [
+                    "bd/olympiad.astronomy"
+                  ]
+                },
+                {
+                  "text": "**Building and coding:** the NASA Space Apps Challenge, a hackathon held in several cities in Bangladesh.",
+                  "cite": [
+                    "bd/competition.spaceApps"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Each olympiad's rounds, and who runs it, are in the next guide.",
+              "link": "olympiads"
+            },
+            {
+              "type": "heading",
+              "text": "Ideas to try"
+            },
+            {
+              "type": "checklist",
+              "items": [
+                {
+                  "text": "Build something that works and solves a small problem: a sensor, a robot, a simple machine or a tool for your home or school"
+                },
+                {
+                  "text": "Measure something real near you, such as water quality, noise or a solar panel's output across a day, and write up what you found"
+                },
+                {
+                  "text": "Learn one topic beyond the syllabus properly from free university course material, and solve its problem sets"
+                },
+                {
+                  "text": "Run weekly problem-solving sessions for younger students"
+                },
+                {
+                  "text": "Join or start a science, robotics or maths club, and give it one clear project for the year"
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "How to show it"
+            },
+            {
+              "type": "p",
+              "text": "Keep photos, drawings, code and results as you go, with dates. A short write-up of one project, saying what failed and what you changed, tells a reader more than a list of prizes."
+            }
+          ]
+        },
+        {
+          "id": "computing",
+          "label": "Computer science",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "For computer science, universities look for real programming: hard problems solved, and software that other people use."
+            },
+            {
+              "type": "heading",
+              "text": "Competitions"
+            },
+            {
+              "type": "list",
+              "items": [
+                {
+                  "text": "**Informatics:** the Bangladesh Olympiad in Informatics, a programming olympiad for pre-university students. Bangladesh has competed at the International Olympiad in Informatics since 2004.",
+                  "cite": [
+                    "bd/olympiad.informatics",
+                    "bd/olympiad.informatics.ioi"
+                  ]
+                },
+                {
+                  "text": "**Artificial intelligence:** the Bangladesh AI Olympiad, which chooses the team for the International Olympiad in Artificial Intelligence.",
+                  "cite": [
+                    "bd/olympiad.ai"
+                  ]
+                },
+                {
+                  "text": "**Mathematics:** the Bangladesh Mathematical Olympiad. Much of computer science is mathematics.",
+                  "cite": [
+                    "bd/profile.bdmo"
+                  ]
+                },
+                {
+                  "text": "**Hackathons:** the NASA Space Apps Challenge.",
+                  "cite": [
+                    "bd/competition.spaceApps"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Each olympiad's rounds, and who runs it, are in the next guide.",
+              "link": "olympiads"
+            },
+            {
+              "type": "heading",
+              "text": "Ideas to try"
+            },
+            {
+              "type": "checklist",
+              "items": [
+                {
+                  "text": "Solve contest problems every week on an online judge, and keep a record of what you solved"
+                },
+                {
+                  "text": "Build an app, website or tool that real people use, and count how many use it"
+                },
+                {
+                  "text": "Put your code on GitHub with a clear description, so a reader can see your work"
+                },
+                {
+                  "text": "Fix a small problem in an open-source project and get your change accepted"
+                },
+                {
+                  "text": "Teach programming to younger students or at a club"
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "How to show it"
+            },
+            {
+              "type": "p",
+              "text": "Link to working projects. Say what each one does, who uses it and what you learned building it. One finished project that people use beats five half-finished ones."
+            }
+          ]
+        },
+        {
+          "id": "medicine",
+          "label": "Medicine and biology",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "For biology, medicine and health, universities look for strong science, real care for people, and an honest idea of what health work involves."
+            },
+            {
+              "type": "p",
+              "text": "Check how medicine is studied where you want to go. In the USA, medicine is studied after a first degree, so you apply for a bachelor's degree such as biology first."
+            },
+            {
+              "type": "heading",
+              "text": "Competitions"
+            },
+            {
+              "type": "list",
+              "items": [
+                {
+                  "text": "**Biology:** the Bangladesh Biology Olympiad, which prepares the team for the International Biology Olympiad.",
+                  "cite": [
+                    "bd/olympiad.biology"
+                  ]
+                },
+                {
+                  "text": "**Chemistry:** the Bangladesh Chemistry Olympiad.",
+                  "cite": [
+                    "bd/olympiad.chemistry"
+                  ]
+                },
+                {
+                  "text": "**For younger students:** the International Junior Science Olympiad, whose 2025 team from Bangladesh ran from class 8 to class 10.",
+                  "cite": [
+                    "bd/olympiad.juniorScience"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Each olympiad's rounds, and who runs it, are in the next guide.",
+              "link": "olympiads"
+            },
+            {
+              "type": "heading",
+              "text": "Ideas to try"
+            },
+            {
+              "type": "checklist",
+              "items": [
+                {
+                  "text": "Volunteer regularly with a health or care group, such as a blood donation drive or a youth Red Crescent unit"
+                },
+                {
+                  "text": "Help care for an ill or elderly family member, and write honestly about what it taught you"
+                },
+                {
+                  "text": "Run a health awareness session at school or in your area, on a topic such as dengue, nutrition or first aid"
+                },
+                {
+                  "text": "Complete a first aid course"
+                },
+                {
+                  "text": "Study a health question with public data, with a teacher or a doctor checking your work"
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "How to show it"
+            },
+            {
+              "type": "p",
+              "text": "Write about what you did and saw, not about wanting to help people in general. Never collect anyone's health information without their consent and an adult supervising, and never share it."
+            }
+          ]
+        },
+        {
+          "id": "business",
+          "label": "Business and economics",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "For business and economics, universities look for curiosity about how money, markets and people's choices work, and for proof that you can use what you learn."
+            },
+            {
+              "type": "heading",
+              "text": "Competitions"
+            },
+            {
+              "type": "list",
+              "items": [
+                {
+                  "text": "**Economics:** the Bangladesh Economics Olympiad, which chooses the team for the International Economics Olympiad.",
+                  "cite": [
+                    "bd/olympiad.economics"
+                  ]
+                },
+                {
+                  "text": "**Mathematics:** the Bangladesh Mathematical Olympiad. Economics at most universities uses a lot of mathematics.",
+                  "cite": [
+                    "bd/profile.bdmo"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Each olympiad's rounds, and who runs it, are in the next guide.",
+              "link": "olympiads"
+            },
+            {
+              "type": "heading",
+              "text": "Ideas to try"
+            },
+            {
+              "type": "checklist",
+              "items": [
+                {
+                  "text": "Run a small business, even online or at school, and keep honest accounts of money in and out"
+                },
+                {
+                  "text": "Help with a family business and improve one thing you can measure"
+                },
+                {
+                  "text": "Study one economic question about Bangladesh with public data, such as prices, remittances or garment exports, and write up what you find"
+                },
+                {
+                  "text": "Organise a fundraiser with clear accounts of every taka collected and spent"
+                },
+                {
+                  "text": "Start or lead a business or economics club with one real project"
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "How to show it"
+            },
+            {
+              "type": "p",
+              "text": "Give numbers: sales, customers, money raised, what changed. Say what went wrong and what you would do differently."
+            }
+          ]
+        },
+        {
+          "id": "humanities",
+          "label": "Humanities, law and society",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "For history, law, politics, languages and the social sciences, universities look for wide reading, clear writing, careful arguments and interest in people and society."
+            },
+            {
+              "type": "heading",
+              "text": "Competitions and activities"
+            },
+            {
+              "type": "list",
+              "items": [
+                {
+                  "text": "**Debate and Model United Nations:** join your school's club and compete. They train the reading, arguing and speaking these subjects need."
+                },
+                {
+                  "text": "**Economics:** the Bangladesh Economics Olympiad suits students of politics and society too.",
+                  "cite": [
+                    "bd/olympiad.economics"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "Ideas to try"
+            },
+            {
+              "type": "checklist",
+              "items": [
+                {
+                  "text": "Write regularly: articles for a school magazine, a newspaper's youth pages or your own blog"
+                },
+                {
+                  "text": "Record an oral history: interview older family members or neighbours about an event they lived through, with their permission, and write it up"
+                },
+                {
+                  "text": "Run a small survey on a question in your area, with people's consent, and report the results honestly"
+                },
+                {
+                  "text": "Teach children who cannot afford coaching"
+                },
+                {
+                  "text": "Read widely in one field and keep notes on what changed your mind"
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "How to show it"
+            },
+            {
+              "type": "p",
+              "text": "Share your best piece of writing or research. Readers in these subjects read closely, so one careful piece matters more than many short ones."
+            }
+          ]
+        },
+        {
+          "id": "undecided",
+          "label": "Not sure yet",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "That is normal. In class 9 and 10, try two or three different things for a few months each, then keep the one you enjoy most and take it further."
+            },
+            {
+              "type": "heading",
+              "text": "Ideas to try"
+            },
+            {
+              "type": "checklist",
+              "items": [
+                {
+                  "text": "Enter one olympiad in a subject you like"
+                },
+                {
+                  "text": "Join one club and stay for a full year"
+                },
+                {
+                  "text": "Help someone regularly: teaching, caring or volunteering"
+                },
+                {
+                  "text": "Make one thing of your own: an article, a project, a small business or an app"
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Each olympiad's rounds, and who runs it, are in the next guide.",
+              "link": "olympiads"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "A timeline by class"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "text": "**Class 9 and 10:** try things. Join clubs, enter a competition and read beyond the syllabus. Keep a simple record of what you do, with dates."
+        },
+        {
+          "text": "**Class 11:** choose one or two interests and go deeper. Start something of your own, even something small."
+        },
+        {
+          "text": "**Class 12:** grow what you started and show what came of it. This is the year you write your applications, so keep your activities manageable."
+        },
+        {
+          "text": "**A gap year:** if you take one, use it for one serious thing, such as work, research or a project, and be ready to explain what you learned."
+        }
+      ],
+      "stations": true
+    },
+    {
+      "type": "heading",
+      "text": "Writing about your activities"
+    },
+    {
+      "type": "p",
+      "text": "Application forms give you little space. The Common App allows up to 10 activities, each with a description of up to 150 characters.",
+      "cite": [
+        "us/app.commonApp.activities"
+      ]
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "text": "Start each description with a strong verb: built, taught, organised, wrote."
+        },
+        {
+          "text": "Give numbers: hours a week, people reached, money raised, users."
+        },
+        {
+          "text": "Put your most important activity first."
+        },
+        {
+          "text": "Do not repeat the same activity in two places."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Be honest"
+    },
+    {
+      "type": "p",
+      "text": "Everything you write must be true and your own. Universities check, and a false claim can cost you an offer even after you are admitted. Harvard expects essays to reflect the applicant's own content, writing style and English, and the Common App treats essay content taken from an artificial intelligence tool as fraud. Ask others for feedback, then write every word yourself.",
+      "cite": [
+        "us/app.harvard.essays"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Paid programmes: four questions first"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "text": "**What will you actually do,** make or learn there?"
+        },
+        {
+          "text": "**Who chooses the students?** If everyone who pays is accepted, the name means little."
+        },
+        {
+          "text": "**Does it promise admission or a scholarship?** Nobody can promise either."
+        },
+        {
+          "text": "**Could you do something similar for free,** at school, at home or online?"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "What a programme shows about you depends on what you did there, not on what it cost."
+    },
+    {
+      "type": "heading",
+      "text": "Rest"
+    },
+    {
+      "type": "p",
+      "text": "Nobody does everything. MIT says that life there is not all about work, and that it looks for students who keep a balance, with rest, personal interests or time caring for family. Sleep, time with family and an unhurried hobby make the rest of your work better.",
+      "cite": [
+        "bd/profile.mit.depth"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Want to start a research project of your own?",
+      "link": "research"
+    }
+  ]
+}

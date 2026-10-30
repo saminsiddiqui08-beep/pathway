@@ -1,0 +1,151 @@
+{
+  "format": 1,
+  "tool": "deadline",
+  "home": {
+    "zone": "Asia/Dhaka",
+    "name": "Dhaka"
+  },
+  "places": [
+    {
+      "id": "own",
+      "name": "Your own time",
+      "zone": null,
+      "note": "Some deadlines, such as Harvard's, fall at 11:59 p.m. in each applicant's own time zone, so there is nothing to convert.",
+      "cite": [
+        "us/app.deadline.regular"
+      ]
+    },
+    {
+      "id": "us-eastern",
+      "name": "US Eastern",
+      "city": "New York",
+      "zone": "America/New_York",
+      "shows": [
+        "EST",
+        "EDT",
+        "ET",
+        "Eastern"
+      ]
+    },
+    {
+      "id": "us-central",
+      "name": "US Central",
+      "city": "Chicago",
+      "zone": "America/Chicago",
+      "shows": [
+        "CST",
+        "CDT",
+        "CT",
+        "Central"
+      ]
+    },
+    {
+      "id": "us-mountain",
+      "name": "US Mountain",
+      "city": "Denver",
+      "zone": "America/Denver",
+      "shows": [
+        "MST",
+        "MDT",
+        "MT",
+        "Mountain"
+      ]
+    },
+    {
+      "id": "us-pacific",
+      "name": "US Pacific",
+      "city": "Los Angeles",
+      "zone": "America/Los_Angeles",
+      "shows": [
+        "PST",
+        "PDT",
+        "PT",
+        "Pacific"
+      ]
+    },
+    {
+      "id": "uk",
+      "name": "UK",
+      "city": "London",
+      "zone": "Europe/London",
+      "shows": [
+        "BST",
+        "UK time"
+      ]
+    },
+    {
+      "id": "fi",
+      "name": "Finland",
+      "city": "Helsinki",
+      "zone": "Europe/Helsinki",
+      "shows": [
+        "EET",
+        "EEST",
+        "Finnish time"
+      ]
+    },
+    {
+      "id": "tr",
+      "name": "Türkiye",
+      "city": "Istanbul",
+      "zone": "Europe/Istanbul",
+      "shows": [
+        "TRT",
+        "Turkish time"
+      ]
+    },
+    {
+      "id": "my",
+      "name": "Malaysia",
+      "city": "Kuala Lumpur",
+      "zone": "Asia/Kuala_Lumpur",
+      "shows": [
+        "MYT",
+        "Malaysia time"
+      ]
+    },
+    {
+      "id": "nz",
+      "name": "New Zealand",
+      "city": "Auckland",
+      "zone": "Pacific/Auckland",
+      "shows": [
+        "NZST",
+        "NZDT",
+        "NZ time"
+      ]
+    },
+    {
+      "id": "utc",
+      "name": "UTC",
+      "city": "UTC",
+      "zone": "UTC",
+      "shows": [
+        "UTC",
+        "GMT",
+        "Z"
+      ]
+    }
+  ],
+  "countries": {
+    "us": "us-eastern",
+    "fi": "fi",
+    "tr": "tr",
+    "my": "my",
+    "nz": "nz"
+  },
+  "times": [
+    [
+      "23:59",
+      "11:59 p.m."
+    ],
+    [
+      "17:00",
+      "5:00 p.m."
+    ],
+    [
+      "midnight",
+      "Midnight"
+    ]
+  ]
+}

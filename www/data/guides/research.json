@@ -1,0 +1,95 @@
+{
+  "format": 1,
+  "guide": "research",
+  "title": "Doing research",
+  "facts": [
+    "bd",
+    "us"
+  ],
+  "cycle": 2027,
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Research means asking a question that has not been fully answered for your situation, and answering it carefully and honestly. You do not need a laboratory: many good projects use data you collect yourself, or data that is already public."
+    },
+    {
+      "type": "heading",
+      "text": "Seven steps"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "text": "**Choose a small, clear question.** \"How does air pollution affect health?\" is too big. \"How does the dust level near my school change across a week?\" can be answered. Choose something you care about, in the subject you want to study."
+        },
+        {
+          "text": "**Read what is already known.** Search Google Scholar for papers on your topic, and start with review articles, which sum up a field. Note what each source says and where you found it."
+        },
+        {
+          "text": "**Find a mentor.** A teacher, or a university lecturer who works on your topic, can stop you making big mistakes. Write a short, polite email: who you are, your question, what you have done so far, and one specific thing you would like help with. Do not give up if most people do not reply."
+        },
+        {
+          "text": "**Choose your method and data.** An experiment, a survey, careful measurements, or analysis of public data such as government statistics. Write your plan down before you start, so you cannot quietly change it to fit the results."
+        },
+        {
+          "text": "**Do the work and keep a log.** Write down each day what you did, what went wrong and what you changed. Keep your raw data unchanged, and work on a copy."
+        },
+        {
+          "text": "**Write it up.** Your question, what was already known, your method, your results, and the limits: what your work cannot show. Say which parts others did, and name every source."
+        },
+        {
+          "text": "**Share it.** Present it at a science fair or competition, put your code and data online, or ask your mentor whether it could go further. A clear write-up is enough for your applications."
+        }
+      ],
+      "ordered": true
+    },
+    {
+      "type": "heading",
+      "text": "Working with people or animals"
+    },
+    {
+      "type": "p",
+      "text": "If your research involves asking people questions, measuring them or using their information, ask for their consent first, keep what they tell you private, and have an adult supervise. With anyone under 18, ask a parent or guardian too. Never experiment on animals without a qualified supervisor."
+    },
+    {
+      "type": "heading",
+      "text": "Paid publishing schemes"
+    },
+    {
+      "type": "p",
+      "text": "Some journals and programmes charge students to publish almost anything, without real review, and some sell research done by others. Universities can tell, and a paper you did not really do yourself can harm your application. A small project of your own, honestly written, is worth more."
+    },
+    {
+      "type": "heading",
+      "text": "Before you share it"
+    },
+    {
+      "type": "checklist",
+      "items": [
+        {
+          "text": "My question fits in one sentence"
+        },
+        {
+          "text": "I can explain my method to a classmate"
+        },
+        {
+          "text": "I kept my raw data and my log"
+        },
+        {
+          "text": "I have said what my work cannot show"
+        },
+        {
+          "text": "Every source and every person who helped is named"
+        },
+        {
+          "text": "Everyone I collected information from agreed to it"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Research is one way to go deeper in a subject. Building your profile explains the others.",
+      "link": "profile"
+    }
+  ]
+}
